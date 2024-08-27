@@ -1,0 +1,208 @@
+
+{
+"data":[
+    {
+        "id" : 1,
+        "name" : "Paras Avenue Sector 129 Noida",
+        "location" : "Noida",
+        "images" : ["images/projectdetails/parasavenue1.webp", ""],
+        "price" : "Price on Request",
+        "detailsPage" : "parasavenuedetail.php"
+    },
+    {
+        "id" : 2,
+        "name" : "M3M The Cullinan Sector 94 Noida",
+        "location" : "Noida",
+        "images" : ["images/projectdetails/m3mcullinan1.webp", ""],
+        "price" : "Price on Request",
+        "detailsPage" : "#"
+    },
+    {
+        "id" : 3,
+        "name" : "M3M The Line Sector 72 Noida",
+        "location" : "Noida",
+        "images" : ["images/projectdetails/m3mtheline1.jpg", ""],
+        "price" : "Price on Request",
+        "detailsPage" : "#"
+    },
+    {
+        "id" : 4,
+        "name" : "Godrej Tropical Isle Sector 146 Noida",
+        "location" : "Noida",
+        "images" : ["images/projectdetails/godrejtropical1.jpg"],
+        "price" : "Price on Request",
+        "detailsPage" : "#"
+    },
+    {
+        "id" : 5,
+        "name" : "Sikka Mall of Noida Sector 98",
+        "location" : "Noida",
+        "images" : ["images/projectdetails/sikkamall1.jpg"], 
+        "price" : "Price on Request",
+        "detailsPage" : "#"
+    },
+    {
+        "id" : 6,
+        "name" : "Elan Town Centre Sector 67 Gurugram",
+        "location" : "Gurugram",
+        "images" : ["images/projectdetails/elantower1.jpg"],
+        "price" : "Price on Request",
+        "detailsPage" : "#"
+    },
+    {
+        "id" : 7,
+        "name" : "Elan The Epic Sector 70 Gurugram",
+        "location" : "Gurugram",
+        "images" : ["images/projectdetails/elanepic1.jpg"], 
+        "price" : "Price on Request",
+        "detailsPage" : "#"
+    },
+    {
+        "id" : 8,
+        "name" : "Godrej Aristocrat Sector 49",
+        "location" : "Gurugram",
+        "images" : ["images/projectdetails/godrejaristocrat1.jpg"],
+        "price" : "Price on Request",
+        "detailsPage" : "#"
+    },
+    {
+        "id" : 9,
+        "name" : "M3M Antalya Hills Sector 79 Gurugram",
+        "location" : "Gurugram",
+        "images" : ["images/projectdetails/m3mantalya1.jpg"],
+        "price" : "Price on Request",
+        "detailsPage" : "#"
+    },
+    {
+        "id" : 10,
+        "name" : "M3M Altitude Sector 65",
+        "location" : "Gurugram",
+        "images" : ["images/projectdetails/m3maltitude1.jpg"],
+        "price" : "Price on Request",
+        "detailsPage" : "#"
+    },
+    {
+        "id" : 11,
+        "name" : "Ace Terra Yamuna Expressway",
+        "location" : "Noida",
+        "images" : ["images/projectdetails/aceterra2.webp"],
+        "price" : "Price on Request",
+        "detailsPage" : "#"
+    },
+    { 
+        "id" : 12,
+        "name" : "Elan Imperial Sector 82",
+        "location" : "Gurugram",
+        "images" : ["images/projectdetails/elanimperial1.webp"],
+        "price" : "Price on Request",
+        "detailsPage" : "#"
+    },
+    {
+        "id" : 13,
+        "name" : "M3M Mansion Sector 113",
+        "location" : "Gurugram",
+        "images" : ["images/projectdetails/m3mmansion.jpg"],
+        "price" : "Price on Request",
+        "detailsPage" : "#"
+    },
+    {
+        "id" : 14,
+        "name" : "Goa One",
+        "location" : "Goa",
+        "images" : ["images/projectdetails/goaone1.jpg"],
+        "price" : "Price on Request",
+        "detailsPage" : "#"
+},
+    {
+        "id" : 15,
+        "name" : "Godrej Hillview Estate Plots",
+        "location" : "Mumbai",
+        "images" : ["images/projectdetails/godrejhillview1.jpg"],
+        "price" : "Price on Request",
+        "detailsPage" : "#"
+},
+    {
+        "id" : 16,
+        "name" : "Godrej Reserve Kandivali East",
+        "location" : "Mumbai",
+        "images" : ["images/projectdetails/godrejreserve1.jpg"],
+        "price" : "Price on Request",
+        "detailsPage" : "#"
+    },
+    {
+        "id" : 17,
+        "name" : "Mahagun Medalleo",
+        "location" : "Noida",
+        "images" : ["images/projectdetails/mahagunmadello1.jpg"],
+        "price" : "Price on Request",
+        "detailsPage" : "#"
+    },
+    {
+        "id" : 18,
+        "name" : "Paras Quartier",
+        "location" : "Gurugram",
+        "images" : ["images/projectdetails/parasquatier1.jpg", "images/projectdetails/parasquatier2.jpg"],
+        "price" : "Price on Request",
+        "detailsPage" : "#"
+    },
+    {
+        "id" : 19,
+        "name" : "Supertech Golf Lands",
+        "location" : "Noida",
+        "images" : ["images/projectdetails/supertechgolflands1.jpg", "images/projectdetails/supertechgolflands2.jpg"],
+        "price" : "Price on Request",
+        "detailsPage" : "#"
+},
+    {
+        "id" : 20,
+        "name" : "Hypernova Mall",
+        "location" : "Noida",
+        "images" : ["images/projectdetails/hypernova1.jpg", "images/projectdetails/hypernova2.jpg"],
+        "price" : "Price on Request",
+        "detailsPage" : "#"
+    },
+    {
+        "id" : 21,
+        "name" : "Migsun Nehru Place 1",
+        "location" : "Noida",
+        "images" : ["images/projectdetails/migsun1.jpeg", "images/projectdetails/migsun2.jpeg"],
+        "price" : "Price on Request",
+        "detailsPage" : "#"
+    },
+    {
+        "id" : 22,
+        "name" : "Piramal Mahalaxmi",
+        "location" : "Mumbai",
+        "images" : ["images/projectdetails/mahalaxmi1.jpg", "images/projectdetails/mahalaxmi2.jpg"],
+        "price" : "Price on Request",
+        "detailsPage" : "#"
+    },
+    {
+        "id" : 23,
+        "name" : "L&T Elixir Reserve",
+        "location" : "Mumbai",
+        "images" : ["images/projectdetails/ltelixir1.jpg", "images/projectdetails/ltelixir2.png"],
+        "price" : "Price on Request",
+        "detailsPage" : "#"
+    },
+    {
+        "id" : 24,
+        "name" : "Abhinandan Lodha Plots Ayodhya",
+        "location" : "Ayodhya",
+        "images" : ["images/projectdetails/houseofabhinandan1.webp", "images/projectdetails/houseofabhinandan2.jpg"],
+        "price" : "Price on Request",
+        "detailsPage" : "#"
+    },
+    {
+        "id" : 25,
+        "name" : "Alibaug Abhinandan Villa Plots",
+        "location" : "Alibaug",
+        "images" : [
+          "images/projectdetails/alibaugvilla2.webp",
+          "images/projectdetails/alibaugvilla1.jpg"],
+        "price" : "Price on Request",
+        "detailsPage" : "#"
+    }
+]
+}
+

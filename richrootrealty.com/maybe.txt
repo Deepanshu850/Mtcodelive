@@ -1,0 +1,257 @@
+
+<section class="property-calculator">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <figure>
+          <div class="pattern-bg" data-stellar-ratio="1.03"></div>
+          <!-- end pattern-bg -->
+          <div class="holder" data-stellar-ratio="1.07"> <img src="images/side-image02.jpg" Richroot Realty></div>
+          <!-- end holder --> 
+        </figure>
+      </div>
+      <!-- end col-6 -->
+      <div class="col-lg-6 wow fadeInUp">
+        <div class="content-box"> <b>04</b>
+          <h4><span>Homepark</span> Living Spaces</h4>
+          <h3>Decorated Flats in Pozniaky - Kiev</h3>
+          <p>The smaller male cones release pollen, 
+            which fertilizes the female </p>
+          <ul>
+            <li><img src="images/bank-logos01.jpg" Richroot Realty></li>
+            <li><img src="images/bank-logos02.jpg" Richroot Realty></li>
+          </ul>
+          <a href="#"><img src="images/icon-calculator.png" Richroot Realty> Living Space Calculator</a> </div>
+        <!-- end content-box --> 
+      </div>
+      <!-- end col-6 --> 
+    </div>
+    <!-- end row --> 
+  </div>
+  <!-- end container --> 
+</section>
+
+
+
+<!-- end property-calculator -->
+<section class="property-plans">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 wow fadeInUp"> <b>05</b>
+        <h4><span>Homepark</span> Living Spaces</h4>
+        <h3>Decorated Flats in Pozniaky - Kiev</h3>
+        <p>We are waiting for you in our sales office for having all these opportunities with affordable prices and appropriate payment opportunities..</p>
+        <table>
+          <tbody>
+            <tr>
+              <td>Total area:</td>
+              <td>680 metre square</td>
+            </tr>
+            <tr>
+              <td>Total Floor:</td>
+              <td>24 Floor</td>
+            </tr>
+            <tr>
+              <td>Parking Lot:</td>
+              <td>5 Large</td>
+            </tr>
+            <tr>
+              <td>Social Area:</td>
+              <td>860 m²</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- end col-6 -->
+      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.05s">
+        <ul class="nav nav-pills" id="pills-tab" role="tablist">
+          <li class="nav-item"> <a class="nav-link active" data-toggle="pill" href="#tab-one">1 Room 47m²</a> </li>
+          <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#tab-two" role="tab">2 Rooms 65m²</a> </li>
+          <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#tab-three" role="tab">3 Rooms 90m²</a> </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane fade show active" id="tab-one">
+            <figure><img src="images/plan01.jpg" Richroot Realty></figure>
+          </div>
+          <!-- end tab-pane -->
+          <div class="tab-pane fade" id="tab-two">
+            <figure><img src="images/plan02.jpg" Richroot Realty></figure>
+          </div>
+          <!-- end tab-pane -->
+          <div class="tab-pane fade" id="tab-three">
+            <figure><img src="images/plan03.jpg" Richroot Realty></figure>
+          </div>
+          <!-- end tab-pane --> 
+        </div>
+        <!-- end tab-contnet --> 
+      </div>
+      <!-- end col-6 --> 
+    </div>
+    <!-- end row --> 
+  </div>
+  <!-- end container --> 
+</section>
+<!-- property-plans -->
+<section class="get-consultation" data-background="images/section-bg01.jpg" data-stellar-background-ratio="0.9">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-8 fadeInUp wow">
+        <div class="content-box"> <b>06</b>
+          <h4><span>Homepark</span> Living Spaces</h4>
+          <h3>Are you interested to Homepark</h3>
+          <p>The sun collectors, shall provide the electricity of the social areas of the site and shall do its part for protecting the environment.</p>
+          <a href="#">SCHEDULE A VISIT <i class="fas fa-caret-right"></i></a> </div>
+        <!-- end content-box --> 
+      </div>
+      <!-- end col-6 --> 
+    </div>
+    <!-- end row --> 
+  </div>
+  <!-- end container --> 
+</section>
+<!-- end get-consultation -->
+
+
+
+
+
+
+
+      <!-- end col-12 -->
+      <!-- <div class="col-lg-4 wow fadeInUp" data-wow-delay="0s">
+        <div class="post-box">
+          <figure> <img src="images/recent-news01.jpg" Richroot Realty> </figure>
+          <span>24, September 2019</span>
+          <h6><a href="#">50th Anniversary of the Turner School of Construction Management </a></h6>
+          <p>The smaller male cones release pollen, 
+            which fertilizes the female </p>
+        </div>
+
+      </div>
+
+
+      <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.10s">
+        <div class="post-box">
+          <figure> <img src="images/recent-news02.jpg" Richroot Realty> </figure>
+          <span>06, November 2019</span>
+          <h6><a href="#">The Center for Construction Research and Training to Receive 2019 Award</a></h6>
+          <p>The smaller male cones release pollen, 
+            which fertilizes the female </p>
+        </div>
+      </div>
+
+
+
+      <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.20s">
+        <div class="post-box">
+          <figure> <img src="images/recent-news03.jpg" Richroot Realty> </figure>
+          <span>31, April 2019</span>
+          <h6><a href="#">Henry C. Turner Prize for Innovation in Construction Company</a></h6>
+          <p>The smaller male cones release pollen, 
+            which fertilizes the female </p>
+        </div>
+      </div> -->
+
+
+
+      <!-- end col-4  -->
+
+
+
+                <div class="col-12">
+            <div class="gallery-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="images/blog01.jpg" Richroot Realty />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/blog02.jpg" Richroot Realty />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/blog03.jpg" Richroot Realty />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/blog04.jpg" Richroot Realty />
+                </div>
+              </div>
+              <!-- add swiper-wrapper -->
+              <div class="gallery-pagination"></div>
+              <!-- end gallery-pagination -->
+            </div>
+            <!-- end gallery-container -->
+            <h4>Take the life quality to an upper level</h4>
+            <p>
+              Lady am room head so lady four or eyes an. He do of consulted
+              sometimes concluded mr. An household behaviour if
+              pretended.Apartments simplicity or <strong>understood</strong> do
+              it we. Song such eyes had and off. Removed winding ask explain
+              delight out few behaved lasting. Letters old hastily ham sending
+              not sex chamber because present. Oh is indeed twenty entire
+              figure. Occasional diminution announcing new now literature
+              terminated.
+            </p>
+            <br />
+          </div>
+          <!-- end col-12 -->
+          <div class="col-md-6">
+            <h6>Property Specifications</h6>
+            <ul>
+              <li>Reget nec nunc. Etiam posuere iaculis quam.</li>
+              <li>
+                Faucibus viverra eget nec nunc. Etiam posuere iaculis quam.
+              </li>
+              <li>Etiam nec urna in odio faucibus viverra eget nec nunc.</li>
+              <li>Lectus Morbi tempus, odio suscipit efficitur vestibulum</li>
+              <li>
+                Ut in ante et quam malesuada gravida. Morbi tempus, odio
+                suscipit
+              </li>
+              <li>
+                Sed lectus vehicula mollis. Ut in ante et quam malesuada
+                gravida.
+              </li>
+            </ul>
+          </div>
+          <!-- end col-6 -->
+          <div class="col-md-6">
+            <h6>Property Benebfits</h6>
+            <ul>
+              <li>
+                Ut in ante et quam malesuada gravida. Morbi tempus, odio
+                suscipit
+              </li>
+              <li>
+                Sed lectus vehicula mollis. Ut in ante et quam malesuada
+                gravida.
+              </li>
+              <li>Reget nec nunc. Etiam posuere iaculis quam.</li>
+              <li>
+                Faucibus viverra eget nec nunc. Etiam posuere iaculis quam.
+              </li>
+              <li>
+                Integer ac nunc sed lectus vehicula mollis in ante et gravida.
+              </li>
+              <li>Morbi tempus, odio suscipit efficitur vestibulum</li>
+            </ul>
+          </div>
+          <!-- end col-6 -->
+          <div class="col-lg-9">
+            <div class="video-content">
+              <video src="videos/video01.mp4" controls muted></video>
+            </div>
+            <!-- end video-content -->
+          </div>
+
+
+              <div class="col-12">
+            <blockquote>
+              <p>
+                Song such eyes had and off. Removed winding ask explain delight
+                out few behaved lasting
+              </p>
+              <strong>Zaga Construction Lead Engineer</strong>
+            </blockquote>
+
+          </div>
+          <!-- en col-12 -->
+

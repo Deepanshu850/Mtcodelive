@@ -1,0 +1,54 @@
+[14-Aug-2024 06:49:18 UTC] PHP Warning:  Undefined variable $host in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php on line 12
+[14-Aug-2024 06:49:18 UTC] PHP Warning:  Undefined variable $user in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php on line 12
+[14-Aug-2024 06:49:18 UTC] PHP Warning:  Undefined variable $pass in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php on line 12
+[14-Aug-2024 06:49:18 UTC] PHP Warning:  Undefined variable $db in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php on line 12
+[14-Aug-2024 06:49:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php:12
+Stack trace:
+#0 /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php(12): mysqli->__construct()
+#1 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php on line 12
+[14-Aug-2024 06:49:50 UTC] PHP Warning:  Undefined variable $host in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php on line 12
+[14-Aug-2024 06:49:50 UTC] PHP Warning:  Undefined variable $user in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php on line 12
+[14-Aug-2024 06:49:50 UTC] PHP Warning:  Undefined variable $pass in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php on line 12
+[14-Aug-2024 06:49:50 UTC] PHP Warning:  Undefined variable $db in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php on line 12
+[14-Aug-2024 06:49:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php:12
+Stack trace:
+#0 /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php(12): mysqli->__construct()
+#1 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php on line 12
+[14-Aug-2024 06:49:50 UTC] PHP Warning:  Undefined variable $host in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php on line 12
+[14-Aug-2024 06:49:50 UTC] PHP Warning:  Undefined variable $user in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php on line 12
+[14-Aug-2024 06:49:50 UTC] PHP Warning:  Undefined variable $pass in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php on line 12
+[14-Aug-2024 06:49:50 UTC] PHP Warning:  Undefined variable $db in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php on line 12
+[14-Aug-2024 06:49:50 UTC] PHP Warning:  Undefined variable $host in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php on line 12
+[14-Aug-2024 06:49:50 UTC] PHP Warning:  Undefined variable $user in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php on line 12
+[14-Aug-2024 06:49:50 UTC] PHP Warning:  Undefined variable $pass in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php on line 12
+[14-Aug-2024 06:49:50 UTC] PHP Warning:  Undefined variable $db in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php on line 12
+[14-Aug-2024 06:49:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php:12
+Stack trace:
+#0 /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php(12): mysqli->__construct()
+#1 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php on line 12
+[14-Aug-2024 06:49:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php:12
+Stack trace:
+#0 /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php(12): mysqli->__construct()
+#1 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php on line 12
+[14-Aug-2024 06:51:44 UTC] PHP Warning:  Undefined variable $host in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php on line 12
+[14-Aug-2024 06:51:44 UTC] PHP Warning:  Undefined variable $user in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php on line 12
+[14-Aug-2024 06:51:44 UTC] PHP Warning:  Undefined variable $pass in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php on line 12
+[14-Aug-2024 06:51:44 UTC] PHP Warning:  Undefined variable $db in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php on line 12
+[14-Aug-2024 06:51:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php:12
+Stack trace:
+#0 /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php(12): mysqli->__construct()
+#1 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php on line 12
+[14-Aug-2024 06:53:30 UTC] PHP Warning:  Undefined variable $host in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php on line 12
+[14-Aug-2024 06:53:30 UTC] PHP Warning:  Undefined variable $user in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php on line 12
+[14-Aug-2024 06:53:30 UTC] PHP Warning:  Undefined variable $pass in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php on line 12
+[14-Aug-2024 06:53:30 UTC] PHP Warning:  Undefined variable $db in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php on line 12
+[14-Aug-2024 06:53:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php:12
+Stack trace:
+#0 /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php(12): mysqli->__construct()
+#1 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/submit_contact.php on line 12

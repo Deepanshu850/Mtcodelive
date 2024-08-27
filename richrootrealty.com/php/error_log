@@ -1,0 +1,194 @@
+[12-Aug-2024 10:06:26 UTC] PHP Warning:  Undefined variable $dbname in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 5
+[12-Aug-2024 10:06:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php:37
+Stack trace:
+#0 /home/eip821jheyay/public_html/richrootrealty.com/php/process.php(37): mysqli->query()
+#1 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 37
+[12-Aug-2024 10:07:29 UTC] PHP Warning:  include(../connection.php): Failed to open stream: No such file or directory in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 2
+[12-Aug-2024 10:07:29 UTC] PHP Warning:  include(): Failed opening '../connection.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 2
+[12-Aug-2024 10:07:29 UTC] PHP Warning:  Undefined variable $servername in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 5
+[12-Aug-2024 10:07:29 UTC] PHP Warning:  Undefined variable $username in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 5
+[12-Aug-2024 10:07:29 UTC] PHP Warning:  Undefined variable $password in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 5
+[12-Aug-2024 10:07:29 UTC] PHP Warning:  Undefined variable $dbname in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 5
+[12-Aug-2024 10:07:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php:5
+Stack trace:
+#0 /home/eip821jheyay/public_html/richrootrealty.com/php/process.php(5): mysqli->__construct()
+#1 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 5
+[12-Aug-2024 10:10:26 UTC] PHP Warning:  include(./connection.php): Failed to open stream: No such file or directory in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 2
+[12-Aug-2024 10:10:26 UTC] PHP Warning:  include(): Failed opening './connection.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 2
+[12-Aug-2024 10:10:26 UTC] PHP Warning:  Undefined variable $servername in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 5
+[12-Aug-2024 10:10:26 UTC] PHP Warning:  Undefined variable $username in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 5
+[12-Aug-2024 10:10:26 UTC] PHP Warning:  Undefined variable $password in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 5
+[12-Aug-2024 10:10:26 UTC] PHP Warning:  Undefined variable $database in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 5
+[12-Aug-2024 10:10:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php:5
+Stack trace:
+#0 /home/eip821jheyay/public_html/richrootrealty.com/php/process.php(5): mysqli->__construct()
+#1 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 5
+[12-Aug-2024 10:16:21 UTC] PHP Warning:  include(./connection.php): Failed to open stream: No such file or directory in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 2
+[12-Aug-2024 10:16:21 UTC] PHP Warning:  include(): Failed opening './connection.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 2
+[12-Aug-2024 10:16:21 UTC] PHP Warning:  Undefined variable $conn in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 7
+[12-Aug-2024 10:16:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 7
+[12-Aug-2024 10:16:24 UTC] PHP Warning:  include(./connection.php): Failed to open stream: No such file or directory in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 2
+[12-Aug-2024 10:16:24 UTC] PHP Warning:  include(): Failed opening './connection.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 2
+[12-Aug-2024 10:16:24 UTC] PHP Warning:  Undefined variable $conn in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 7
+[12-Aug-2024 10:16:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 7
+[12-Aug-2024 10:16:34 UTC] PHP Warning:  include(../connection.php): Failed to open stream: No such file or directory in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 2
+[12-Aug-2024 10:16:34 UTC] PHP Warning:  include(): Failed opening '../connection.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 2
+[12-Aug-2024 10:16:34 UTC] PHP Warning:  Undefined variable $conn in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 7
+[12-Aug-2024 10:16:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 7
+[12-Aug-2024 10:16:34 UTC] PHP Warning:  include(../connection.php): Failed to open stream: No such file or directory in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 2
+[12-Aug-2024 10:16:34 UTC] PHP Warning:  include(): Failed opening '../connection.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 2
+[12-Aug-2024 10:16:34 UTC] PHP Warning:  Undefined variable $conn in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 7
+[12-Aug-2024 10:16:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 7
+[12-Aug-2024 10:16:35 UTC] PHP Warning:  include(../connection.php): Failed to open stream: No such file or directory in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 2
+[12-Aug-2024 10:16:35 UTC] PHP Warning:  include(): Failed opening '../connection.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 2
+[12-Aug-2024 10:16:35 UTC] PHP Warning:  Undefined variable $conn in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 7
+[12-Aug-2024 10:16:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 7
+[12-Aug-2024 10:16:35 UTC] PHP Warning:  include(../connection.php): Failed to open stream: No such file or directory in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 2
+[12-Aug-2024 10:16:35 UTC] PHP Warning:  include(): Failed opening '../connection.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 2
+[12-Aug-2024 10:16:35 UTC] PHP Warning:  Undefined variable $conn in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 7
+[12-Aug-2024 10:16:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 7
+[12-Aug-2024 10:16:44 UTC] PHP Warning:  include(../connection.php): Failed to open stream: No such file or directory in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 2
+[12-Aug-2024 10:16:44 UTC] PHP Warning:  include(): Failed opening '../connection.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 2
+[12-Aug-2024 10:16:44 UTC] PHP Warning:  Undefined variable $conn in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 7
+[12-Aug-2024 10:16:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 7
+[14-Aug-2024 05:07:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'phone' in 'field list' in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php:13
+Stack trace:
+#0 /home/eip821jheyay/public_html/richrootrealty.com/php/process.php(13): mysqli->prepare()
+#1 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 13
+[14-Aug-2024 05:09:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'phone' in 'field list' in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php:13
+Stack trace:
+#0 /home/eip821jheyay/public_html/richrootrealty.com/php/process.php(13): mysqli->prepare()
+#1 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 13
+[14-Aug-2024 05:09:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'phone' in 'field list' in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php:13
+Stack trace:
+#0 /home/eip821jheyay/public_html/richrootrealty.com/php/process.php(13): mysqli->prepare()
+#1 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 13
+[14-Aug-2024 05:12:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'phone' in 'field list' in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php:13
+Stack trace:
+#0 /home/eip821jheyay/public_html/richrootrealty.com/php/process.php(13): mysqli->prepare()
+#1 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 13
+[14-Aug-2024 05:12:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'phone' in 'field list' in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php:13
+Stack trace:
+#0 /home/eip821jheyay/public_html/richrootrealty.com/php/process.php(13): mysqli->prepare()
+#1 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 13
+[14-Aug-2024 05:13:35 UTC] PHP Warning:  include(./connection.php): Failed to open stream: No such file or directory in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 3
+[14-Aug-2024 05:13:35 UTC] PHP Warning:  include(): Failed opening './connection.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 3
+[14-Aug-2024 05:13:35 UTC] PHP Warning:  Undefined variable $conn in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 13
+[14-Aug-2024 05:13:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 13
+[14-Aug-2024 05:15:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'phone' in 'field list' in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php:13
+Stack trace:
+#0 /home/eip821jheyay/public_html/richrootrealty.com/php/process.php(13): mysqli->prepare()
+#1 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 13
+[14-Aug-2024 05:19:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'phone' in 'field list' in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php:13
+Stack trace:
+#0 /home/eip821jheyay/public_html/richrootrealty.com/php/process.php(13): mysqli->prepare()
+#1 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 13
+[14-Aug-2024 05:20:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'phone' in 'field list' in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php:13
+Stack trace:
+#0 /home/eip821jheyay/public_html/richrootrealty.com/php/process.php(13): mysqli->prepare()
+#1 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 13
+[14-Aug-2024 06:07:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'phone' in 'field list' in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php:13
+Stack trace:
+#0 /home/eip821jheyay/public_html/richrootrealty.com/php/process.php(13): mysqli->prepare()
+#1 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 13
+[14-Aug-2024 06:08:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'phone' in 'field list' in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php:13
+Stack trace:
+#0 /home/eip821jheyay/public_html/richrootrealty.com/php/process.php(13): mysqli->prepare()
+#1 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/process.php on line 13
+[14-Aug-2024 06:19:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'rrr_chet'@'localhost' (using password: YES) in /home/eip821jheyay/public_html/richrootrealty.com/php/connection.php:9
+Stack trace:
+#0 /home/eip821jheyay/public_html/richrootrealty.com/php/connection.php(9): mysqli->__construct()
+#1 /home/eip821jheyay/public_html/richrootrealty.com/php/process.php(3): include('/home/eip821jhe...')
+#2 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/connection.php on line 9
+[14-Aug-2024 06:23:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'rrr_chet'@'localhost' (using password: YES) in /home/eip821jheyay/public_html/richrootrealty.com/php/connection.php:9
+Stack trace:
+#0 /home/eip821jheyay/public_html/richrootrealty.com/php/connection.php(9): mysqli->__construct()
+#1 /home/eip821jheyay/public_html/richrootrealty.com/php/process.php(3): include('/home/eip821jhe...')
+#2 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/connection.php on line 9
+[14-Aug-2024 06:26:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'rrr_chet'@'localhost' (using password: YES) in /home/eip821jheyay/public_html/richrootrealty.com/php/connection.php:9
+Stack trace:
+#0 /home/eip821jheyay/public_html/richrootrealty.com/php/connection.php(9): mysqli->__construct()
+#1 /home/eip821jheyay/public_html/richrootrealty.com/php/process.php(3): include('/home/eip821jhe...')
+#2 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/connection.php on line 9
+[14-Aug-2024 06:27:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'rrr_chet'@'localhost' (using password: YES) in /home/eip821jheyay/public_html/richrootrealty.com/php/connection.php:9
+Stack trace:
+#0 /home/eip821jheyay/public_html/richrootrealty.com/php/connection.php(9): mysqli->__construct()
+#1 /home/eip821jheyay/public_html/richrootrealty.com/php/process.php(3): include('/home/eip821jhe...')
+#2 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/connection.php on line 9
+[14-Aug-2024 06:27:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'rrr_chet'@'localhost' (using password: YES) in /home/eip821jheyay/public_html/richrootrealty.com/php/connection.php:9
+Stack trace:
+#0 /home/eip821jheyay/public_html/richrootrealty.com/php/connection.php(9): mysqli->__construct()
+#1 /home/eip821jheyay/public_html/richrootrealty.com/php/process.php(3): include('/home/eip821jhe...')
+#2 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/connection.php on line 9
+[14-Aug-2024 06:30:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'rrr_chet'@'localhost' (using password: YES) in /home/eip821jheyay/public_html/richrootrealty.com/php/connection.php:9
+Stack trace:
+#0 /home/eip821jheyay/public_html/richrootrealty.com/php/connection.php(9): mysqli->__construct()
+#1 /home/eip821jheyay/public_html/richrootrealty.com/php/process.php(3): include('/home/eip821jhe...')
+#2 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/connection.php on line 9
+[14-Aug-2024 06:49:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'rrr_chet'@'localhost' (using password: YES) in /home/eip821jheyay/public_html/richrootrealty.com/php/connection.php:9
+Stack trace:
+#0 /home/eip821jheyay/public_html/richrootrealty.com/php/connection.php(9): mysqli->__construct()
+#1 /home/eip821jheyay/public_html/richrootrealty.com/php/process.php(3): include('/home/eip821jhe...')
+#2 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/connection.php on line 9
+[14-Aug-2024 06:49:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'rrr_chet'@'localhost' (using password: YES) in /home/eip821jheyay/public_html/richrootrealty.com/php/connection.php:9
+Stack trace:
+#0 /home/eip821jheyay/public_html/richrootrealty.com/php/connection.php(9): mysqli->__construct()
+#1 /home/eip821jheyay/public_html/richrootrealty.com/php/process.php(3): include('/home/eip821jhe...')
+#2 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/connection.php on line 9
+[14-Aug-2024 06:49:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'rrr_chet'@'localhost' (using password: YES) in /home/eip821jheyay/public_html/richrootrealty.com/php/connection.php:9
+Stack trace:
+#0 /home/eip821jheyay/public_html/richrootrealty.com/php/connection.php(9): mysqli->__construct()
+#1 /home/eip821jheyay/public_html/richrootrealty.com/php/process.php(3): include('/home/eip821jhe...')
+#2 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/connection.php on line 9
+[14-Aug-2024 06:49:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'rrr_chet'@'localhost' (using password: YES) in /home/eip821jheyay/public_html/richrootrealty.com/php/connection.php:9
+Stack trace:
+#0 /home/eip821jheyay/public_html/richrootrealty.com/php/connection.php(9): mysqli->__construct()
+#1 /home/eip821jheyay/public_html/richrootrealty.com/php/process.php(3): include('/home/eip821jhe...')
+#2 {main}
+  thrown in /home/eip821jheyay/public_html/richrootrealty.com/php/connection.php on line 9
