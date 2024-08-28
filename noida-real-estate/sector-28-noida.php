@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0">
 
     <title>
-
+        Sector 28 Noida: Map, Property Rates, Projects, Review, Info
 
     </title>
 
@@ -27,7 +27,7 @@
 
 
 
-    <meta property="og:title" content="">
+    <meta property="og:title" content="Sector 28 Noida: Map, Property Rates, Projects, Review, Info">
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-28-noida">
     <meta property="og:description" content="">
@@ -157,10 +157,10 @@
 
         <main>
             <div class="image-wrapper">
-                <img src="./assets/image/sector-28-noida-banner.webp" alt="">
+                <img src="./assets/image/sector-28-noida-banner.webp" alt="Sector 28 Noida | Dardri Road, Gautam Buddha Nagar">
             </div>
             <h1>
-
+                Sector 28 Noida | Dardri Road, Gautam Buddha Nagar
 
             </h1>
 
