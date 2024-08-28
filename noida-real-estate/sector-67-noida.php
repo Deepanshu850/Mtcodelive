@@ -1336,27 +1336,27 @@ haldiram sector 67 noida, idc technologies noida sector 67, pg in noida sector
             <h2>Frequently asked questions</h2>
 
 
-            <section class="faq">
+            <section class="questions">
                 <h2>What is the nearest station to Noida Sector 67?</h2>
                 <p>The closest stations to Sector 67 are: Noida Sector 59 is 1643 meters away, a 22-minute walk. Noida Sector 51 is 2900 meters away, a 39-minute walk.</p>
             </section>
 
-            <section class="faq">
+            <section class="questions">
                 <h2>What is the pin code of Sector 67 in Noida?</h2>
                 <p>202301</p>
             </section>
 
-            <section class="faq">
+            <section class="questions">
                 <h2>What metro station is near Sector 67?</h2>
                 <p>From Sector 67, the nearest metro stations are Sector 59 Metro (near Mamura Mandi) and Sector 61 Metro Station. Noida Sector 67 is between two metro stations: Noida Sector 52 (Blue Line) and Noida Sector 51 (Aqua Line).</p>
             </section>
 
-            <section class="faq">
+            <section class="questions">
                 <h2>Which sector is best near a metro station in Noida?</h2>
                 <p>Sector 44 is a top posh residential area in Noida and is home to two of the city's top malls, i.e., Great India Place (GIP) and DLF Mall of India. Sector 44 is close to key attractions in the town, such as the city center, the botanical garden, and the metro station.</p>
             </section>
 
-            <section class="faq">
+            <section class="questions">
                 <h2>How are Noida sectors numbered?</h2>
                 <p>As of August 2023, Noida sectors are numbered from 1 to 168, excluding sectors 13, 103, 109, 111, and 114, which are currently located in Sector 13.</p>
             </section>

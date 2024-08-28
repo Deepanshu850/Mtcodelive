@@ -30,7 +30,7 @@
 
 
 </head>
-<!-- rdhychet -->
+
 
 <body class="light-theme">
   <!-- Google Tag Manager (noscript) -->
