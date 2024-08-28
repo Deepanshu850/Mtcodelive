@@ -34,46 +34,45 @@
 
 
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the size of 1 bigha?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "1 Bigha is approximately equal to 2508 square meters (or 27000 square yards, or 19.83 Katha)."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much is 4 bigha?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "4 Bigha is equal to 79.35 Katha (or 10033.52 square meters)."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much is 2 bigha land?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "2 Bigha land is equal to 39.67 Katha (or 5016 square meters)."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much katha is in 1 bigha?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "1 Bigha is approximately equal to 20 Katha."
-      }
-    }
-  ]
-}
-</script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+                    "@type": "Question",
+                    "name": "What is the size of 1 bigha?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1 Bigha is approximately equal to 2508 square meters (or 27000 square yards, or 19.83 Katha)."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is 4 bigha?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "4 Bigha is equal to 79.35 Katha (or 10033.52 square meters)."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is 2 bigha land?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "2 Bigha land is equal to 39.67 Katha (or 5016 square meters)."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much katha is in 1 bigha?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1 Bigha is approximately equal to 20 Katha."
+                    }
+                }
+            ]
+        }
+    </script>
 
 
 
@@ -97,7 +96,7 @@
         })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
     </script>
     <!-- End Google Tag Manager -->
-  <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
+    <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
 
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
@@ -142,7 +141,7 @@
 
                 <canvas id="conversionChart"></canvas>
             </div>
-           
+
             <script>
                 function convertAcreToBigha() {
                     const input = document.getElementById("input").value;
@@ -340,7 +339,7 @@
                 <h3>
                     Acre to Bigha Conversion Formula
                 </h3>
-               
+
                 <p class="random-p">
                     Bigha = (Acre) x 1.613
 
@@ -528,7 +527,7 @@
 
             </h3>
 
-     
+
 
             <ul class="faq-list">
                 <li class="faq">
@@ -573,7 +572,7 @@
 
 
 
-           
+
 
 
         </div>
@@ -592,8 +591,8 @@
 
 
 
-   
- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

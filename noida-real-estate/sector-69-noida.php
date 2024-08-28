@@ -105,7 +105,7 @@ Sector 69" />
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
-            "@type": "FAQPage",
+            "@type": "questionsPage",
             "mainEntity": [{
                     "@type": "Question",
                     "name": "What is the Pin Code of Noida Sector 69?",
@@ -935,22 +935,22 @@ Sector 69" />
 
             <h2>Frequently asked questions</h2>
 
-            <section class="faq">
+            <section class="questions">
                 <h2>What is the Pin Code of Noida Sector 69?</h2>
                 <p>The Pin Code number of Sector 69 Noida is 201301.</p>
             </section>
 
-            <section class="faq">
+            <section class="questions">
                 <h2>Is Noida Sector 69 a good place to live?</h2>
                 <p>Yes, Noida Sector 69 is a good place to live for both residential families and professionals.</p>
             </section>
 
-            <section class="faq">
+            <section class="questions">
                 <h2>What are the property rates of Noida Sector 69?</h2>
                 <p>The average property rate of Noida Sector 69 is ₹6,000-8,000 per square feet.</p>
             </section>
 
-            <section class="faq">
+            <section class="questions">
                 <h2>Which metro station is near Sector 69 Noida?</h2>
                 <p>The nearest metro stations to Sector 69 Noida are Noida Sector 52 Metro Station and Noida Sector 76 Metro Station.</p>
             </section>
