@@ -24,20 +24,21 @@
 
     <!-- Google Tag Manager -->
     <script>
-    (function(w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            'gtm.start': new Date().getTime(),
-            event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s),
-            dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
-            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
+        //cc
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
     </script>
     <!-- End Google Tag Manager -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -61,13 +62,13 @@
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-JZJY23MWW7"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
+        window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'G-JZJY23MWW7');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-JZJY23MWW7');
     </script>
     <!-- End Google Analytics -->
     <!--G-JZJY23MWW7-->
@@ -79,91 +80,91 @@
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <style>
-    * {
-        margin: 0;
-        padding: 0;
-    }
+        * {
+            margin: 0;
+            padding: 0;
+        }
 
-    .s-soft {
-        display: block;
-        position: fixed;
-        top: 250px;
-        /* left: 10px; */
-        z-index: 1000;
-        transition: all linear 0.2s;
-    }
-
-    .s-soft a:first-child {
-        border-radius: 0 5px 0 0;
-    }
-
-    .s-soft a:last-child {
-        border-radius: 0 0 5px 0;
-    }
-
-    .s-item {
-        display: block;
-        width: 40px;
-        height: 40px;
-        color: white;
-        font-size: 15px;
-        line-height: 30px;
-        text-align: center;
-        transition: all linear 0.2s;
-    }
-
-    .s-item:hover {
-        width: 55px;
-        border-radius: 0px 20px 20px 0px;
-    }
-
-    #so-open {
-        display: block;
-        position: fixed;
-        top: 100px;
-        left: -90px;
-        border-radius: 0 30px 30px 0;
-        transition: all linear 0.2s;
-    }
-
-    .facebook {
-        background-color: #3b5999;
-    }
-
-    .twitter {
-        background-color: #3AAFD6;
-    }
-
-    .print {
-        background-color: #de3c7d;
-    }
-
-    .pinterest {
-        background-color: #BD081C;
-    }
-
-    .linkedin {
-        background-color: #0e76a8;
-    }
-
-    .instagram {
-        background-color: #ed006f;
-    }
-
-    .so-collapse {
-        left: -30px;
-    }
-
-    /* Media Query to hide the sidebar on screens with a maximum width of 767 pixels */
-    @media (max-width: 767px) {
         .s-soft {
-            display: none;
+            display: block;
+            position: fixed;
+            top: 250px;
+            /* left: 10px; */
+            z-index: 1000;
+            transition: all linear 0.2s;
+        }
+
+        .s-soft a:first-child {
+            border-radius: 0 5px 0 0;
+        }
+
+        .s-soft a:last-child {
+            border-radius: 0 0 5px 0;
+        }
+
+        .s-item {
+            display: block;
+            width: 40px;
+            height: 40px;
+            color: white;
+            font-size: 15px;
+            line-height: 30px;
+            text-align: center;
+            transition: all linear 0.2s;
+        }
+
+        .s-item:hover {
+            width: 55px;
+            border-radius: 0px 20px 20px 0px;
         }
 
         #so-open {
-            display: none;
+            display: block;
+            position: fixed;
+            top: 100px;
+            left: -90px;
+            border-radius: 0 30px 30px 0;
+            transition: all linear 0.2s;
         }
-    }
+
+        .facebook {
+            background-color: #3b5999;
+        }
+
+        .twitter {
+            background-color: #3AAFD6;
+        }
+
+        .print {
+            background-color: #de3c7d;
+        }
+
+        .pinterest {
+            background-color: #BD081C;
+        }
+
+        .linkedin {
+            background-color: #0e76a8;
+        }
+
+        .instagram {
+            background-color: #ed006f;
+        }
+
+        .so-collapse {
+            left: -30px;
+        }
+
+        /* Media Query to hide the sidebar on screens with a maximum width of 767 pixels */
+        @media (max-width: 767px) {
+            .s-soft {
+                display: none;
+            }
+
+            #so-open {
+                display: none;
+            }
+        }
     </style>
 
     <div class="s-soft">
@@ -187,7 +188,7 @@
 
 
 
- <?php
+    <?php
     include './header.php';
     ?>
 
@@ -196,61 +197,61 @@
 
 
     <style>
-    .container-404 {
-        text-align: center;
-        background-color: rgba(255, 255, 255, 0.9);
-        border-radius: 10px;
-        padding: 40px;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-        transition: transform 0.3s ease-in-out;
-    }
+        .container-404 {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
 
-    .container-404:hover {
-        transform: scale(1.05);
-    }
+        .container-404:hover {
+            transform: scale(1.05);
+        }
 
-    .headline {
-        color: #333;
-        font-size: 2.5rem;
-        margin-bottom: 20px;
-    }
+        .headline {
+            color: #333;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
 
-    .message {
-        font-size: 1.2rem;
-        margin-bottom: 30px;
-        color: #555;
-    }
+        .message {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            color: #555;
+        }
 
-    .btn {
-        display: inline-block;
-        padding: 12px 30px;
-        margin: 0 10px;
-        border-radius: 25px;
-        color: #fff;
-        text-transform: uppercase;
-        text-decoration: none;
-        font-weight: bold;
-        transition: all 0.3s ease;
-        box-shadow: 0px 4px 14px -3px rgba(0, 0, 0, 0.4);
-    }
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            margin: 0 10px;
+            border-radius: 25px;
+            color: #fff;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0px 4px 14px -3px rgba(0, 0, 0, 0.4);
+        }
 
-    .btn-homepage {
-        background-color: #56ab2f;
-    }
+        .btn-homepage {
+            background-color: #56ab2f;
+        }
 
-    .btn-contact {
-        background-color: #d31027;
-    }
+        .btn-contact {
+            background-color: #d31027;
+        }
 
-    .btn:hover {
-        transform: translateY(-5px);
-        box-shadow: 0px 6px 15px -4px rgba(0, 0, 0, 0.5);
-    }
+        .btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 6px 15px -4px rgba(0, 0, 0, 0.5);
+        }
 
-    /* Add this for a subtle hover effect on the whole container */
-    .container-404:hover .btn {
-        transform: translateY(-3px);
-    }
+        /* Add this for a subtle hover effect on the whole container */
+        .container-404:hover .btn {
+            transform: translateY(-3px);
+        }
     </style>
     <div id="custom-404-page" class="container-404">
         <h1 class="headline">Whoops! Lost in space?</h1>
@@ -262,10 +263,10 @@
     </div>
 
 
-        <?php
-        include './more-tags.php';
-        include './footer.php';
-        ?>
+    <?php
+    include './more-tags.php';
+    include './footer.php';
+    ?>
 
 
 
@@ -291,22 +292,22 @@
     <script src="assets/js/jquery.fancybox.min.js"></script>
     <script src="assets/js/custom.js"></script>
     <script>
-    $(".marquee_text").marquee({
-        direction: "left",
-        duration: 25000,
-        gap: 50,
-        delayBeforeStart: 0,
-        duplicated: true,
-        startVisible: true,
-    });
-    $(".marquee_text2").marquee({
-        direction: "left",
-        duration: 25000,
-        gap: 50,
-        delayBeforeStart: 0,
-        duplicated: true,
-        startVisible: true,
-    });
+        $(".marquee_text").marquee({
+            direction: "left",
+            duration: 25000,
+            gap: 50,
+            delayBeforeStart: 0,
+            duplicated: true,
+            startVisible: true,
+        });
+        $(".marquee_text2").marquee({
+            direction: "left",
+            duration: 25000,
+            gap: 50,
+            delayBeforeStart: 0,
+            duplicated: true,
+            startVisible: true,
+        });
     </script>
 </body>
 
