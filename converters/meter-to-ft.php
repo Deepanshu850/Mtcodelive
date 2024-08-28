@@ -5,11 +5,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Meter to Feet Converter</title>
+    <title>
+        Meter to Feet (m to ft) Converter
+    </title>
 
-    <meta name="description" content="Discover comprehensive conversion tools for all your measurement needs! Easily convert meters to feet, square meters to square feet, and feet to meters with our user-friendly calculator. Whether you're working with large or small measurements, our accurate converter helps you quickly switch between units. Perfect for construction, real estate, and personal projects. Start converting today!" />
+    <meta name="description" content="Easily convert meters to feet with this quick converter. Simply enter the value in 
+meters to get the equivalent measurement in feet for accurate conversions. " />
 
-    <meta name="keywords" content="meters to feet, square meter to square feet, feet to meters, square feet to square meters, convert meters to feet, 1 square meter to square feet, convert feet to meters, 10 meters to feet, 3 meters to feet, 5 meters to feet, 1.5 meters to feet, 12 meters to feet, 1 square meter to feet, 15 meters to feet, 6 meters to feet, 1.63 meters to feet, 30 meters to feet, 4 meters to feet, 1.2 meters to feet, 100 meters to feet, 9 meters to feet, 1.74 meters to feet, 1.91 meters to feet, convert sq meter to sq feet, square feet to square meter conversion, 1.93 meters to feet, 1.96 meters to feet, 1.98 meters to feet, 100 feet to meters, 20 meters to feet, 25 meters to feet, 40 meters to feet, 60 meters to feet, cubic feet to cubic meters, 1 cubic meter to feet, 1.52 meters to feet, 1.67 meters to feet, 1.82 meters to feet, 18 meters to feet, 2.5 meters to feet, 3.5 meters to feet, 4.5 meters to feet, 50 meters to feet, 7 meters to feet, convert square meters to square feet, cubic meter to square feet, square feet to cubic meter, 1 meter is equal to how many feet, 1 sq feet to meter, 1 square feet to meters, 1.87 meters to feet, 150 feet to meters, 150 meters to feet, 2.7 meters to feet, 300 meters to feet, 90 meters to feet, one square meter to feet, square meter to square feet converter app, 1 feet equal to meter, 1 meter equal to feet, 1.66 meters to feet, 1.77 meters to feet, 1.78 meters to feet, 1.86 meters to feet, 1.89 meters to feet, 1.95 meters to feet, 2.74 meters to feet, 200 meters to feet, 22 meters to feet, 3.65 meters to feet, 45 feet to meters, 45 meters to feet, 7.5 meters to feet, 80 meters to feet, meters to feet and inches, one meter is equal to feet, one meter is equal to how many feet, 1.75 meters to feet, 1.83 meters to feet, 1.88 meters to feet, 14 meters to feet, 2.4 meters to feet, 200 feet to meters, 3 feet to meters, 50 feet to meters, 500 meters to feet, 70 meters to feet, 8 meters to feet, how to convert feet to meters, how to convert meter to feet, sq feet to square meters, sq meters to feet, 1.54 meters to feet, 1.84 meters to feet, 1.85 meters to feet, 1.92 meters to feet, 11 meters to feet, 17 meters to feet, 2.1 meters to feet, 2.2 meters to feet" />
+    <meta name="keywords" content="convert meters to feet, 1.75 m in feet, 3m in feet, 70 meters to feet, 10m to 
+feet, meter in to feet, 9 meters to feet, 5 inches in cm, 8 inches in cm, mm to ft, 
+2.35 meters to feet, 100 meters to feet, 5.5 feet in m, 86 meters to feet, 
+5meters in feet, 1.52 m height in feet, convert 3 meters to feet, 4 meter in foot, 
+1.75 m in inches and feet, how many ft in 1 meter, 1 metre is equal to, 1 foot 
+mein kitne inch hote hain, 80 inches in feet, 150 meters to feet, 5.8 feet in cm, 
+30cm in feet (4.4K), 5 feet in m, 1.48 m in feet, 3.2 miles in km, 1 meters to 
+inches, 40 yards to meters, 10 meters to feet, 10 feet in meters, 70 cm to feet " />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0" />
     <meta name="Owner" content="Moneytreerealty.com" />
@@ -22,33 +32,60 @@
 
 
 
-
-    <meta property="og:title" content="Meter to Feet Converter">
+    <!-- Open Graph for General Use -->
+    <meta property="og:title" content="Meter to Feet (m to ft) Converter">
     <meta property="og:site_name" content="Moneytree Realty">
-    <meta property="og:url" content="https://moneytreerealty.com/converters/meer-to-ft">
-    <meta property="og:description" content="Discover comprehensive conversion tools for all your measurement needs! Easily convert meters to feet, square meters to square feet, and feet to meters with our user-friendly calculator. Whether you're working with large or small measurements, our accurate converter helps you quickly switch between units. Perfect for construction, real estate, and personal projects. Start converting today!">
-    <meta property="og:type" content="property">
+    <meta property="og:url" content="https://moneytreerealty.com/converters/meter-to-ft">
+    <meta property="og:description" content="Easily convert meters to feet with this quick converter. Simply enter the value in meters to get the equivalent measurement in feet for accurate conversions.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://moneytreerealty.com/converters/assets/images/converter-preview.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Meter to Feet (m to ft) Converter">
+    <meta name="twitter:description" content="Easily convert meters to feet with this quick converter. Simply enter the value in meters to get the equivalent measurement in feet for accurate conversions.">
+    <meta name="twitter:url" content="https://moneytreerealty.com/converters/meter-to-ft">
+    <meta name="twitter:image" content="https://moneytreerealty.com/converters/assets/images/converter-preview.jpg">
+
 
     <link rel="canonical" href="https://moneytreerealty.com/converters/meter-to-ft" />
 
 
-    <!-- Google Tag Manager -->
-    <script>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+                    "@type": "Question",
+                    "name": "How many inches are in 1 meter?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "In one meter, there are 39.37 inches."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many square yards are in 100 feet?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "In 100 feet, there are 11.11 square yards."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How to calculate meters into feet?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "To convert meters to feet, multiply the number of meters by 3.2. The formula is: Meters × 3.2 = Feet. For example: 15 meters × 3.2 = 48 feet."
+                    }
+                }
+            ]
+        }
     </script>
+
+
     <!-- End Google Tag Manager -->
     <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
 
