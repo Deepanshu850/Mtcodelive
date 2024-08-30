@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <Title>Paras Avenue Sector 129 noida – Retail Shop & Office Space</Title>
+    <title>Paras Avenue Sector 129 noida – Retail Shop & Office Space</title>
     <meta name="description" content="Paras Avenue sector 129 noida – office spaces for sale, retail shops , resale in sector 129, noida. Get the booking price, location, RERA, floor plan, brochure" />
     <meta name="keywords" content=" commercial property/properties, office spaces, retail spaces/shops, Luxury apartment, showrooms, noida expressway, paras avenue, paras avenue noida, paras avenue sector 129,
 paras avenue sector 129 noida, paras avenue price, paras avenue floor plan, paras avenue price
@@ -59,8 +59,8 @@ property in Noida" />
             },
             "aggregateRating": {
                 "@type": "AggregateRating",
-                "ratingValue": "4.6",
-                "ratingCount": "2845"
+                "ratingValue": "4.8",
+                "ratingCount": "2353"
             }
         }
     </script>
@@ -70,85 +70,97 @@ property in Noida" />
             "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [{
-                "@type": "Question",
-                "name": "What is Paras Avenue sector 129?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Paras Avenue Sector 129 is a high-retail destination mall being developed by Paras Buildtech that offers high street retail shops, office spaces, studio apartments and food courts with state-of-the-art architecture and prime visibility."
+                    "@type": "Question",
+                    "name": "What is Paras Avenue Sector 129?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Paras Avenue Sector 129 is a high-retail destination mall being developed by Paras Buildtech that offers high street retail shops, office spaces, studio apartments, and food courts with state-of-the-art architecture and prime visibility."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where is Paras Avenue located?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Paras Avenue is located at Sector 129, Noida, on the Noida - Greater Noida Expressway."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is the total area of Paras Avenue?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Paras Avenue spans across 2.04 acres of land, offering high street retail shops, office spaces, studio apartments, and food courts, making it a significant investment opportunity."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Is Paras Avenue Noida's booking open?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, the bookings for Paras Avenue Sector 129 are open now. Contact us for more details!"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is the possession status of Paras Avenue, Noida?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The possessions for Paras Avenue Sector 129 are expected to start by September 2027, featuring high street retail shops, office spaces, studio apartments, and food courts."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What are the property types offered by Paras Avenue Noida?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Paras Avenue Sector 129 offers high street retail shops, office spaces, studio apartments, and food courts, spread across 2.04 acres with a strategic location and modern architecture."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Does Paras Avenue Noida have car parking?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, Paras Avenue Sector 129 provides ample space for car parking."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Is Paras Avenue having a registered RERA number?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, Paras Avenue Sector 129 is registered under RERA with the registration number UPRERAPRJ297873."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Is Paras Avenue Noida floor plan available?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, the floor plan is available for Paras Avenue. Contact us now for more details!"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What are other advantages of Paras Avenue Noida?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Paras Avenue Sector 129 offers an excellent real estate investment opportunity with high street retail shops, office spaces, studio apartments, and food courts, featuring modern architecture and close proximity to Noida International Airport."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What are the nearby projects to Paras Avenue?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Nearby projects to Paras Avenue include M3M The Cullinan Sector 94 Noida, M3M The Line Sector 72 Noida, Godrej Tropical Isle Sector 146 Noida, and Sikka Mall of Noida Sector 98."
+                    }
                 }
-            }, {
-                "@type": "Question",
-                "name": "Where is Paras Avenue located?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Paras Avenue is located at Sector 129, Noida, Greater Noida Expressway."
-                }
-            }, {
-                "@type": "Question",
-                "name": "What is the total area of Paras Avenue?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Paras Avenue is expanded across 2.04 acres of land and offers high street retail shops, office spaces, studio apartments and food courts and features a great investment opportunity."
-                }
-            }, {
-                "@type": "Question",
-                "name": "Is Paras Avenue Noida's Booking open?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The bookings for Paras Avenue 129 are open now. Contact us now!"
-                }
-            }, {
-                "@type": "Question",
-                "name": "What is the possession status of Paras Avenue, Noida?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The possessions for Paras Avenue 129 would start by September, 2027 and would offer high street retail shops, office spaces, studio apartments and food courts."
-                }
-            }, {
-                "@type": "Question",
-                "name": "What are the property types offered by Paras Avenue Noida?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Paras Avenue 129 offers high street retail shops, office spaces, studio apartments and food courts expanded across 2.04 acres of land featuring strategic location and state-of-the-art architecture."
-                }
-            }, {
-                "@type": "Question",
-                "name": "Does Paras Avenue Noida have car parking?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Paras Avenue 129 offers ample space for car parking."
-                }
-            }, {
-                "@type": "Question",
-                "name": "Is Paras Avenue having a registered RERA number?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, Paras Avenue 129 is registered under RERA with registration number UPRERAPRJ297873"
-                }
-            }, {
-                "@type": "Question",
-                "name": "Is Paras Avenue Noida Floor Plan available?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, floor plan is available for Paras Avenue. Contact us now for more details!"
-                }
-            }, {
-                "@type": "Question",
-                "name": "What are other advantages of Paras Avenue Noida?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Paras Avenue 129 offers a great real estate investment opportunity featuring high street retail shops, office spaces, studio apartments and food courts with modern architecture with close proximity to Noida International Airport."
-                }
-            }, {
-                "@type": "Question",
-                "name": "What are the nearby projects to Paras Avenue?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Nearby projects to Paras Avenue are M3M The Cullinan Sector 94 Noida, M3M The Line Sector 72 Noida, Godrej Tropical Isle Sector 146 Noida, Sikka Mall of Noida Sector 98."
-                }
-            }]
+            ]
         }
     </script>
+
 
 
 
@@ -190,7 +202,7 @@ property in Noida" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
- <link rel="canonical" href="https://moneytreerealty.com/propertydetail/paras-avenue-sector-129-noida" />
+    <link rel="canonical" href="https://moneytreerealty.com/propertydetail/paras-avenue-sector-129-noida" />
     <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
     <!-- Google Analytics -->
@@ -226,7 +238,7 @@ property in Noida" />
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: #edf2f7;
-            color: #333;
+            color: #000;
 
             display: flex;
             justify-content: center;
@@ -256,19 +268,8 @@ property in Noida" />
         h2 {
             /* Gradient background for text */
             font-size: 30px;
-            background: -webkit-linear-gradient(left, #005b52, #d39f51);
-            /* For Chrome and Safari */
-            background: linear-gradient(to right, #005b52, #d39f51);
-            /* Standard syntax */
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-            /* Hide the original text color */
-            font-weight: bold;
-            /* Enhance the visual */
-
-            /* Add underline */
-
+            font-weight: 600;
+            color: #005B52;
         }
 
 
@@ -388,14 +389,14 @@ property in Noida" />
 
         }
     </style>
-    
-     <?php
+
+    <?php
     include './header.php';
     ?>
 
 
-    
-    
+
+
 
     <script>
         function calculateEMI() {
@@ -455,8 +456,7 @@ property in Noida" />
         }
     </script>
 
-   
-<style>
+    <style>
         .beautiful-table {
             width: 100%;
             margin: 0 auto;
@@ -468,6 +468,7 @@ property in Noida" />
             /* Ensures the border-radius applies to the table */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             /* Soft shadow around the table */
+            margin-bottom: 1rem;
         }
 
         .beautiful-table caption {
@@ -499,7 +500,7 @@ property in Noida" />
             .beautiful-table {
                 font-size: 11px;
                 line-height: 1.6;
-                /*transform: translateX(0px);*/
+                /* transform: translateX(-14px); */
             }
 
             h1 {
@@ -523,13 +524,13 @@ property in Noida" />
         }
 
         .arrow-list li {
-            padding-left: 20px;
+            padding-left: 25px;
             /* Create space for the custom bullet */
             position: relative;
             /* Needed for absolute positioning of the pseudo-element */
             margin-bottom: 10px;
             /* Space between items */
-            color: #555;
+            color: #000;
             /* Darker text color */
         }
 
@@ -542,10 +543,11 @@ property in Noida" />
             /* Light blue color matching the table headers */
         }
 
-        /* Optional: Add some styling to make it look better */
-        h2 {
-            color: #333;
+        li>p {
+            font-size: 15px;
         }
+
+        /* Optional: Add some styling to make it look better */
 
         .beautiful-table,
         .arrow-list li {
@@ -556,11 +558,32 @@ property in Noida" />
         .sticky-container h2 {
             margin-block: 2.3rem 1.4rem;
         }
+
+        #fake-heading {
+            font-family: var(--font-montserrat);
+            color: #005b52;
+            font-weight: 700;
+            font-size: 24px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
     </style>
 
+
     <div class="property-content">
-        <h1>Paras Avenue Sector 129 Noida - Retail, Office Space & Food Court</h1><br>
-        <h3 style="color: #CB974B" style="padding-top: 20px; padding-bottom:20px;">Quick Summary</h3><br>
+        <h1 style="text-align: center;">
+
+            Paras Avenue Sector 129 Noida - Retail, Office Space & Food Court
+
+        </h1>
+        <br>
+
+
+
+        <h2>
+            Quick Summary of Paras Avenue Sector 129
+        </h2>
+        <br>
         <table class="beautiful-table">
 
             <thead>
@@ -570,9 +593,16 @@ property in Noida" />
                     <th>Builder Name</th>
                 </tr>
                 <tr>
-                    <td>Sector 129, Noida Expressway</td>
-                    <td>Commercial Property</td>
-                    <td>Paras Buildtech</td>
+                    <td>
+                        Sector 129, Noida, UP
+                    </td>
+                    <td>
+                        Commercial Property
+                    </td>
+                    <td>
+                        Paras Buildtech
+
+                    </td>
                 </tr>
                 <tr>
                     <th>Property Status </th>
@@ -583,18 +613,32 @@ property in Noida" />
                 <tr>
                     <td>Under Construction</td>
                     <td>September 2027</td>
-                    <td><a href="https://up-rera.in/Projectsummary?UI0aPA1ISD=JhSgDBuQtpY=&hfFlag=9emr4VdBw22M7BGjKtJWMPDI4s5cHQZP&NPJ6RAme=mTQA7518KvsmPG82YovObQ==&PaURJEMAN4=ZL9MNERkNdac+WWRlUhmAA==&IRSAHEB=D6PY3lyims8=">UPRERAPRJ297873</a></td>
+
+                    <td>
+                        UPRERAPRJ297873
+
+
+                    </td>
+
                 </tr>
                 <tr>
                     <th>Pincode</th>
                     <th>Pricing</th>
-                    <th> </th>
+                    <th>Strategic Location</th>
 
                 </tr>
                 <tr>
-                    <td>201304</td>
-                    <td>on request</td>
-                    <td> </td>
+                    <td>
+                        201304
+                    </td>
+                    <td>
+                        60 Lac+*
+                    </td>
+                    <td>
+                        Yamuna Expressway/Jewar Airport
+
+
+                    </td>
                 </tr>
             </thead>
             <tbody>
@@ -603,253 +647,364 @@ property in Noida" />
 
             </tbody>
         </table>
-        <!-- show more function  -->
 
 
-  <?php
+        <h2>
+            Overview of Paras Avenue Sector 129
+        </h2>
+
+        <p><strong>Type of Property:</strong> Paras Avenue is a Commercial Property</p>
+
+        <p><strong>Property Units:</strong> Offers State-of-the-art high street retail shops, office spaces, studio apartments and food courts</p>
+
+        <p><strong>Location Highlights: </strong>Strategically Located in close proximity to Yamuna Expressway and Jewar Airport</p>
+
+        <p><strong>Real Estate Developer:</strong> Paras Buildtech</p>
+
+        <p><strong>Property Highlights:</strong> Luxury Commercial Property for Modern-day Business Needs</p>
+
+        <p><strong>Top reasons for property investment:</strong></p>
+
+        <ul class="arrow-list">
+            <li>High-end Commercial Property in Noida</li>
+            <li>Numerous Options in Amenities &amp; Facilities</li>
+            <li>Strategic Location</li>
+            <li>Lush Green Surroundings</li>
+            <li>Seamless Connectivity</li>
+            <li>Road Facing Shops with Contemporary Architecture</li>
+            <li>Assured Returns, Price Appreciations, and Favourable Rental Yields</li>
+        </ul>
+
+
+
+
+
+
+        <?php
         include './carasol.php';
         ?>
 
 
 
-        <!-- show more function  -->
+
+
 
         <div class="property-summary">
-            <h2 style="color: #005B52"> Paras Avenue Project Description</h2>
-        </div>
-        <br>
-        <p align="justify"> Developed by <strong>Paras Buildtech,</strong> a renowned development company in the real estate industry known for constructing <strong>remarkable residential property</strong>
-            as well as <a href="../top-real-estate-poperty-consultant-in-india.php"> <strong>commercial property projects in Noida</strong></a>, Paras Avenue Sector 129 offers High Street Mall on the <strong>Noida Expressway.</strong>
-            <br><br>
-            Crafted with the aim of creating a space for brands and customers to meet and interact. With rapid urbanisation in the city, <strong>Paras Avenue sector 129</strong> is a great
-            opportunity waiting to be plucked by <a href="../index.php"><strong>real estate investors</strong></a>. <strong>Paras BuildTech,</strong> its builder, gives Paras Avenue Sector 129 its legacy impression of thehighest standard
-            of quality and corporate professionalism.
-            <br><br>
-            <strong>Paras Avenue Amazing Location in sector 129 noida,</strong> boosts comprehensive research and planning to provide an ideal deal of quality and price along
-            with sustainable growth and incorporating technological forefronts. <br><br>
-
-            Expanded across 2.04 acres of land, Paras Avenue retains Contemporary Facilities and redefines the Standard of Shopping Experiences. Each Faculty, <strong>Retail shops</strong> and <strong>Office Spaces</strong>
-            is built to upgrade the entire experience to its maximum. The project includes cutting-edge architecture that attracts <strong>investment opportunities</strong> and fosters a positive corporate culture.
-            <br> <br>
-            Paras Buildtech, a high-end real estate brand, developed <strong>paras avenue sector 129, noida</strong> to deliver a dynamic fusion of <a href="./m3m-the-cullinan-sector-94-noida.php">corporate offices space</a> , <strong>studio apartment</strong> and retail
-            <strong>1 UP RERA</strong> : Uttar Pradesh Real Estate Regulatory Authority
-
-            shops equipped with ultra-modern facilities and state-of-the-art safety protocols such as a web-based building management system and three side access with high-visibility.
-            <strong>paras avenue sector 129 noida expressway</strong> boasts a well-planned g+6 structure and has on-boarded incredible brands for <strong>food court</strong>, hyper market and <strong>retail shops.</strong> <br>
-        </p>
-        <p>The Paras Avenue 129 seamlessly integrates <a href="./m3m-the-line-sector-72-noida.php"> Studio Apartment</a>, Office space and Retail shops as well as creating a space for recreational activities:</p>
-        <ul class="arrow-list">
-            <li><strong> Retail Shops :</strong>Ground/Lower & 1st Floor
-            </li>
-            <li><strong>Wellness Zone : </strong> 2nd Floor</li>
-            <li> <strong> Kids & Recreation Zone :</strong> 3rd Floor</li>
-            <li><strong> Multiplex :</strong> 4th & 5th Floor</li>
-
-            <li><strong> Banquet & Restaurant :</strong> 6th Floor</li>
-            <li><strong> Studio Apartment & Offices :</strong> 7th Floor & Above</li>
-        </ul>
-        <br>
-        <!-- <h2 style="font-size: 20px;">Studio Apartments</h2> -->
-        <div class="property-summary">
-            <h2 style="color: #005B52">Paras Avenue of Noida Location Advantages</h2><br>
-        </div>
-
-        <ul class="arrow-list">
-            <li>Paras Avenue is located at Sector 129, Noida, <a href="./godrej-tropical-isle-sector-146-noida.php"><strong>Greater Noida Expressway.</strong></a></li>
-            <li>Paras Avenue <strong>Office space, Retail Shops and Studio Apartment in Paras 129 Noida</strong> is in
-                the vicinity of the upcoming Mall project in <strong>Jaypee Wish Town Noida Expressway</strong></li>
-            <li>Paras Avenue is <strong>5 minutes away</strong> from <strong>Mahamaya flyover</strong></li>
-            <li>Paras Avenue is <strong>10 Minutes away</strong> from <strong>Sector 18, Noida</strong></li>
-            <li>Paras Avenue is <strong>15 Minutes away</strong> from <strong>DND Toll Plaza</strong></li>
-            <li>Paras Avenue is <strong></strong> from <strong>Akshardham Temple</strong></li>
-            <li>Paras Avenue is <strong></strong> from <strong>Cannaught Place</strong></li>
-            <li>Paras Avenue is <strong></strong> from <strong>New Delhi Railway Station</strong></li>
-            <li>Paras Avenue is <strong>75 Minutes away</strong> from <strong>IGI Airport</strong></li>
-            <li>Paras Avenue <a href="elan-town-centre-sector-67-gurugram.php"><strong>Retail Shops/Office space Commercial property in Noida</strong></a> is near to <strong>Sector 137 Metro Station</strong></li>
-        </ul>
-
-        <br>
-        <h3 style="color: #005B52">
-            <center>Paras Avenue of Noida Price & Payments</center>
-        </h3>
-        <p style="text-align:center;">A RISING SECTOR 129 NOIDA</p>
-        <table style="width:100%">
-            <tr>
-                <th>Unit Type</th>
-                <th>Size (SQ. FT.)</th>
-                <th>Rate</th>
-            </tr>
-            <tr>
-                <td>On Request</td>
-                <td>On Request</td>
-                <td>On Request</td>
-            </tr>
-
-        </table>
-        <style>
-            table,
-            th,
-            td {
-                border: 1px solid black;
-            }
-
-            th,
-            td {
-                text-align: center;
-            }
-        </style>
-        <br><br>
-        <div class="property-summary">
-            <h2 style="color: #005B52">Why invest in Paras Avenue Sector 129 Noida?</h2>
-        </div>
-        <br>
-        <ul class="arrow-list">
-            <li>Constructed to synthesis state-of-the-art high street <a href="./sikka-mall-of-noida-sector-98.php">retail shops</a> , office spaces, studio apartments and food courts.</li>
-            <li>Strategically Located at <strong>Noida Yamuna Expressway</strong> catering to the <strong>residential and commercial crowd.</strong></li>
-            <li>Elevated Shopping experience with Road facing Shops.</li>
-            <li>Fine specimens of Modern Architecture that demands Least Maintenance.</li>
-            <li>Broad Frontage that window-shoppers will crave to walk into.</li>
-            <li><strong>The Paras Avenue sector 129</strong> is dedicated Food Court for customers’ delight with
-                sizeable dining area to accommodate a larger group of friends and relatives.</li>
-            <li>Great Ambience with Prime Visibility at every hour of the day</li>
-            <li><strong>Double height lobby</strong> and <strong>multi-level parking.</strong></li>
-            <li>Designed as a marquee retail destination to attract a larger footfall throughout the
-                day.</li>
-            <li><strong>Paras Avenue 129 Noida Expressway</strong> is offering a Flexible <strong>commercial property Office</strong>
-                module for <strong>sale Retail & office spaces.</strong></li>
-            <li>Facade Design Variations to give unique sense of identity to each storefront.
-                World-class amenities offering state-of-the-art <strong>gym equipments, luxurious spas</strong>
-                providing various health benefits.</li>
-            <li>The Paras Avenue 129 holds huge benefits for investors in <strong>retail shops, office
-                    spaces, studio apartments</strong> and <strong>food courts Real Estate.</strong></li>
-            <li><strong>Top commercial property in Noida</strong> for a higher ROI in near future.</li>
-            <li>Paras Avenue offers an urban utopia through <strong>deeding customers experience.</strong></li>
-            <li>Easy Access to the upcoming <strong>Noida International Airport.</strong></li>
-            <li>Safe and well-maintained ample <strong>Car Parking for visitors.</strong></li>
-            <li>Enthralling Double Height Anchor Stores and Sizeable Frontages.</li>
-            <li>Paras Avenue sector 129 noida is seamlessly connected with Corporations
-                like KPMG, Adobe, Samsung Engineering and many others along with
-                prominent Educational Institutions and Residential Hotspots.</li>
-            <li>The Paras Avenue with 5 Screen and 750+ Seats, Paras Avenue boosts a huge
-                driver of activities</li>
-            <li>Dedicated communal space filled with music and greenery surrounded with
-                fountains</li>
-            <li>The Paras Avenue 129 a blank Canvas of Space for events, exhibitions and
-                gatherings</li>
-            <li>The Grandeur space for <strong>beautifully Landscape areas</strong></li>
-            <li>Situated in a thriving Neighbourhood with easy access to Key Transit Hubs.</li>
-        </ul>
-
-        <style>
-            .amenities-grid {
-                display: grid;
-                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-                gap: 20px;
-                padding: 20px;
-                background-color: #f5f5f5;
-            }
-
-            .amenity {
-                display: flex;
-                align-items: center;
-                gap: 10px;
-                background-color: #fff;
-                padding: 10px;
-                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-                border-radius: 5px;
-                font-size: 14px;
-            }
-
-            .amenity i {
-                color: #009688;
-                font-size: 20px;
-            }
-        </style><br>
-        <div class="property-summary">
-            <h3 style="color: #005B52">RERA Details:</h3>
-        </div>
-        <p>Paras Avenue | <a href="https://up-rera.in/Projectsummary?UI0aPA1ISD=JhSgDBuQtpY=&hfFlag=9emr4VdBw22M7BGjKtJWMPDI4s5cHQZP&NPJ6RAme=mTQA7518KvsmPG82YovObQ==&PaURJEMAN4=ZL9MNERkNdac+WWRlUhmAA==&IRSAHEB=D6PY3lyims8=">UPRERAPRJ297873</a></p>
-        <p>*T&C Apply.</p>
-        <br><br>
-        <div class="property-summary">
-            <h3 style="color: #005B52">Note: -</h3>
-        </div>
-        <p align="justify">If you have any specific query and need further assistance on <strong>real estate property</strong>
-            like <strong>commercial property, residential property</strong>, and <strong>plots for sale</strong> and make a promising <strong>real estate
-                investment in retail shops, malls, multiplex, food courts, 3 BHK apartments, 4 BHK apartments, flat,
-                studio apartments, villa,</strong> etc. <a href="../contact.php"><strong>Contact us Now!</strong></a></p>
-        <br>
-        <div class="property-summary">
-    <h2 style="color: #005B52">Amenities</h2>
-</div>
-<br>
-<div class="amenities-grid">
-    <div class="amenity"><i class="fas fa-utensils"></i> Cafeteria/Food Court</div>
-    <div class="amenity"><i class="fas fa-bolt"></i> Power Backup</div>
-    <div class="amenity"><svg width="24px" height="24px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#009688">
-            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.43200000000000005"></g>
-            <g id="SVGRepo_iconCarrier">
-                <path d="M22.25 0.75H1.75C1.19772 0.75 0.75 1.19772 0.75 1.75V22.25C0.75 22.8023 1.19772 23.25 1.75 23.25H22.25C22.8023 23.25 23.25 22.8023 23.25 22.25V1.75C23.25 1.19772 22.8023 0.75 22.25 0.75Z" stroke="#009688" stroke-width="1.9440000000000002" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M6 23.25V10.5C6 10.3011 6.07902 10.1103 6.21967 9.96967C6.36032 9.82902 6.55109 9.75 6.75 9.75H17.25C17.4489 9.75 17.6397 9.82902 17.7803 9.96967C17.921 10.1103 18 10.3011 18 10.5V23.2101" stroke="#009688" stroke-width="1.9440000000000002" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M12 9.75V23.25" stroke="#009688" stroke-width="1.9440000000000002" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M14.0156 4.02124L15.4997 5.99999L16.9838 4.02124" stroke="#009688" stroke-width="1.9440000000000002" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M7.04247 5.94302L8.49975 3.99999L9.95703 5.94302" stroke="#009688" stroke-width="1.9440000000000002" stroke-linecap="round" stroke-linejoin="round"></path>
-            </g>
-        </svg> Lift</div>
-    <div class="amenity"><i class="fas fa-shield-alt"></i> Security</div>
-    <div class="amenity"><i class="fas fa-truck-loading"></i> Service/Good Lift</div>
-    <div class="amenity"><i class="fas fa-parking"></i> Visitor Parking</div>
-    <div class="amenity"><i class="fas fa-dumbbell"></i> Gymnasium</div>
-    <div class="amenity"><i class="fas fa-cloud-rain"></i> Rain Water Harvesting</div>
-    <div class="amenity"><i class="fas fa-wind"></i> Air Conditioned</div>
-    <div class="amenity"><i class="fas fa-house-damage"></i> Earthquake Resistant</div>
-    <div class="amenity"><i class="fas fa-lock"></i> Tier 3 Security System</div>
-    <div class="amenity"><i class="fas fa-tree"></i> Large Open Space</div>
-    <div class="amenity"><i class="fas fa-door-open"></i> Grand Entrance Lobby</div>
-    <div class="amenity"><i class="fas fa-child"></i> Kid Play Area</div>
-    <div class="amenity"><i class="fas fa-theater-masks"></i> Event Space & Amphitheatre</div>
-    <div class="amenity"><i class="fas fa-fire-extinguisher"></i> Fire Fighting Equipment</div>
-</div>
-<br>
-<br>
-        <div class="mapcontainer">
-            <div class="property-summary">
-                <h2 style="color: #005B52">Location</h2><br>
-                <br>
-            </div>
-            <div style="overflow:hidden;resize:none;max-width:100%;width:1000px;height:300px;">
-                <div id="display-google-map" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Paras+Avenue,+Sector+129,+Noida,+Uttar+Pradesh,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="embed-ded-maphtml" href="https://www.bootstrapskins.com/themes" id="enable-map-data">premium bootstrap themes</a>
-                <style>
-                    #display-google-map img.text-marker {
-                        max-width: none !important;
-                        background: none !important;
-                    }
-
-                    img {
-                        max-width: none
-                    }
-                </style>
-            </div>
-        </div>
-        <br><br>
-        <div class="property-summary">
-            <h2 style="color: #005B52">About the builder
+            <h2 style="color: #005B52">
+                Paras Avenue Sector 129 Description
             </h2>
-        </div>
-        <br>
-        <p align="justify">Vertically under the leadership of the <a href="https://parasavenue.com">PARAS Buildtech</a> ,
-            Paras Avenue, has an ongoing legacy spanning more than 5 decades. The Group deep-rooted in its legacy is the pioneer in
-            creating state-of-the-art projects that include residential, commercial spaces and international styled retail avenues.
-            With the mission to create a sustained customer experience, they have developed a unique work process and product development. <br>
-            Their legacy sparks for themselves as the upholder of the highest standards of quality and corporate professionalism.
 
-            <br>
+            <p><strong>Paras Avenue</strong> is a luxury and remarkable commercial property in Sector 129 Noida and offers high street retail shops, office spaces, studio apartments and food courts on the bank of <strong>Yamuna Expressway</strong> along with seamless connectivity with <a href="../blog/noida-international-airport-jewar-airport.php"><strong>Noida International Airport</strong></a> in Jewar Uttar Pradesh. This <a href="../top-commercial-property-in-noida.php"><strong>commercial property in Noida</strong></a> is being developed by Paras Buildtech, a renowned builder in the real estate industry known for constructing remarkable residential property as well as commercial property projects in Noida and Gurgaon.</p>
 
-            <!-- faq -->
+            <p>Paras Avenue Sector 129 is being crafted with the aim of creating a space for brands and customers to meet and interact and offering a promising opportunity waiting to be plucked by <strong>real estate investors.</strong></p>
+
+            <p>Paras Avenue Sector 129 continues the legacy of its builder, <strong>Paras Buildtech</strong>, of maintaining the&nbsp;highest standard of quality&nbsp;and&nbsp;dynamic corporate professionalism in the <strong>real estate industry of India</strong>. This <a href="../property-in-noida.php"><strong>property in Noida</strong></a> boosts modern architecture with comprehensive research and planning&nbsp;to provide an ideal deal of quality and price along with&nbsp;sustainable growth&nbsp;and incorporating&nbsp;technological forefronts.</p>
+
+            <p>Expanded across&nbsp;<strong>vast 2.04 acres of land</strong>,&nbsp;Paras Avenue retains&nbsp;contemporary facilities&nbsp;and redefines the standard of shopping experiences with its each faculty, retail and office area which is built to upgrade the entire experience to its maximum. The luxury real estate project includes&nbsp;cutting-edge architecture&nbsp;that attracts&nbsp;investment opportunities&nbsp;and fosters a&nbsp;positive corporate culture.</p>
+
+            <p>Paras Buildtech,&nbsp;a high-end real estate brand, developed <strong>Paras Avenue in Sector 129</strong> Noida to deliver a dynamic fusion of corporate offices space, studio apartment and retail shops equipped with ultra-modern facilities and state-of-the-art safety protocols such as a web-based building management system and three side access with high-visibility.&nbsp;</p>
+
+            <p>Paras Avenue Sector 129 Noida located along Yamuna Expressway and Noida - Greater Noida Expressway boasts a <strong>well-planned&nbsp;G+6</strong> structure&nbsp;and has on-boarded <strong>incredible brands</strong> for&nbsp;food court, hyper market&nbsp;and&nbsp;retail shops such as Cult.fit, Pind Balluchi, Bikanervala, Xero Degrees, Sagar Ratna, WOW! Momo, Keventers, Berco&rsquo;s, Bluestone, etc.</p>
+
+            <h3>Paras Avenue Sector 129 Size and Area Break-down</h3>
+
+            <table class="beautiful-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p><strong>Total Saleable Area</strong></p>
+                        </td>
+                        <td>
+                            <p>Commercial Spaces from250 sq ft and above</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Number of Towers</strong></p>
+                        </td>
+                        <td>
+                            <p>1</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Total Area of Land</strong></p>
+                        </td>
+                        <td>
+                            <p>2.04 Acres</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Structure of Property</strong></p>
+                        </td>
+                        <td>
+                            <p>G+6</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Total Units&nbsp;</strong></p>
+                        </td>
+                        <td>
+                            <p>500</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Configuration of Units Available</strong></p>
+                        </td>
+                        <td>
+                            <p>Various types of Commercial Spaces</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Floor Plan of Paras Avenue Sector 129</h3>
+
+            <p>The&nbsp;Paras Avenue Sector 129 seamlessly integrates Studio Apartment, Office space and Retail shops as well as creating a space for recreational activities. Find the details on floor plan of Paras Avenue below:</p>
+
+            <ul class="arrow-list">
+                <li><strong>Ground/Lower &amp; 1st Floor:</strong> Retail Shops</li>
+                <li><strong>2nd Floor:</strong> Wellness Zone</li>
+                <li><strong>3rd Floor:</strong> Kids &amp; Recreation Zone</li>
+                <li><strong>4th &amp; 5th Floor:</strong> Multiplex</li>
+                <li><strong>6th Floor:</strong> Banquet &amp; Restaurant</li>
+                <li><strong>7th Floor &amp; Above:</strong> Studio Apartment &amp; Offices</li>
+            </ul>
+
+            <h2>Paras Avenue Sector 129 Location Advantages</h2>
+
+            <p>Paras Avenue is located in Sector 129 Noida, Uttar Pradesh, 201304. Check out the details below to get better insights into its location and connectivity benefits:</p>
+
+            <ul class="arrow-list">
+                <li>Paras Avenue is located 5 minutes away from Mahamaya flyover</li>
+                <li>Paras Avenue is located 4 minutes away from Noida Sector 137 Metro Station</li>
+                <li>Paras Avenue is located 7 minutes away from Noida - Greater Noida Expressway</li>
+                <li>Paras Avenue is located 10 Minutes away from Sector 18 Noida</li>
+                <li>Paras Avenue is located 15 Minutes away from DND Toll Plaza</li>
+                <li>Paras Avenue is located 20 Minutes away from Akshardham Temple</li>
+                <li>Paras Avenue is located 40 Minutes away from Cannaught Place</li>
+                <li>&nbsp;Paras Avenue is located 50 Minutes away from New Delhi Railway Station</li>
+                <li>Paras Avenue is located 45 minutes away from Noida International Airport</li>
+                <li>Paras Avenue is located 75 Minutes away from IGI Airport</li>
+            </ul>
+
+            <h2>Paras Avenue Sector 129 Price &amp; Payments</h2>
+
+            <p>AT RISING SECTOR 129 NOIDA, UTTAR PRADESH, 201304 (H3)</p>
+
+            <table class="beautiful-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p><strong>Unit Type</strong></p>
+                        </td>
+                        <td>
+                            <p><strong>Size (SQ. FT.)</strong></p>
+                        </td>
+                        <td>
+                            <p><strong>Starting Price*</strong></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Retail Shops,office spaces</p>
+                        </td>
+                        <td>
+                            <p>250 sq ft and above</p>
+                        </td>
+                        <td>
+                            <p>₹60 lac*</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>Why Invest in Paras Avenue Sector 129 Noida?</h2>
+
+            <ul class="arrow-list">
+                <li>Paras Avenue is being constructed to synthesise state-of-the-art&nbsp;high street retail shops, office spaces, studio apartments and food courts.</li>
+                <li>Paras Avenue is strategically located&nbsp;on Yamuna Expressway&nbsp;catering to the residential and commercial crowd.&nbsp;</li>
+                <li>It features elevated shopping experience with&nbsp;Road facing Shops.</li>
+                <li>Paras Avenue is a fine specimens of&nbsp;Modern Architecture&nbsp;that demands&nbsp;Least Maintenance.</li>
+                <li>It provides road Frontage&nbsp;that window-shoppers will crave to walk into.</li>
+                <li>Paras Avenue Sector 129 is dedicated&nbsp;Food Court&nbsp;for customers&rsquo; delight with sizeable&nbsp;dining area&nbsp;to accommodate a larger group of friends and relatives.</li>
+                <li>This commercial property in Noida provides great Ambience&nbsp;with&nbsp;Prime Visibility&nbsp;at every hour of the day</li>
+                <li>It features double height lobby&nbsp;and&nbsp;multi-level parking.</li>
+                <li>Paras Avenue is designed as a marquee&nbsp;retail destination&nbsp;to attract a larger footfall throughout the day.</li>
+                <li>Paras Avenue Sector 129 on Yamuna Expressway is offering a Flexible commercial property Office module for sale Retail &amp; office spaces.&nbsp;</li>
+                <li>It features facade Design Variations&nbsp;to give unique sense of identity to each storefront.</li>
+                <li>World-class amenities offering state-of-the-art&nbsp;gym equipments, luxurious spas providing&nbsp;various health benefits.</li>
+                <li>Paras Avenue Sector 129 holds huge benefits for&nbsp;investors&nbsp;in retail shops, office spaces, studio apartments and food courts&nbsp;Real Estate.</li>
+                <li>Best commercial in Noida&nbsp;for a&nbsp;higher ROI&nbsp;in near future.</li>
+                <li>Paras Avenue&nbsp;offers an urban utopia through deeding customers experience.</li>
+                <li>Easy Access to the upcoming&nbsp;Noida International Airport.</li>
+                <li>Safe and well-maintained ample&nbsp;Car Parking&nbsp;for visitors.</li>
+                <li>Enthralling&nbsp;Double Height Anchor Stores&nbsp;and&nbsp;Sizeable Frontages.</li>
+                <li>Paras Avenue Sector 129 noida is seamlessly connected with Corporations like&nbsp;KPMG, Adobe, Samsung Engineering&nbsp;and many others along with prominent&nbsp;Educational Institutions&nbsp;and&nbsp;Residential Hotspots.</li>
+                <li>Paras Avenue with&nbsp;5 Screen and 750+ Seats, Paras Avenue boosts a huge driver of activities</li>
+                <li>Dedicated&nbsp;communal space&nbsp;filled with&nbsp;music&nbsp;and&nbsp;greenery&nbsp;surrounded with fountains</li>
+                <li>Paras Avenue Sector 129 a blank Canvas of Space for events, exhibitions and gatherings</li>
+                <li>The&nbsp;Grandeur space&nbsp;for&nbsp;beautifully Landscape&nbsp;areas</li>
+                <li>Situated in a&nbsp;thriving Neighbourhood&nbsp;with easy access to&nbsp;Key Transit Hubs.</li>
+            </ul>
+
+
 
             <style>
-                .faq {
+                .amenities-grid {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+                    gap: 20px;
+                    padding: 20px;
+                    background-color: #f5f5f5;
+                }
+
+                .amenity {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    background-color: #fff;
+                    padding: 10px;
+                    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                    border-radius: 5px;
+                    font-size: 14px;
+                }
+
+                .amenity i {
+                    color: #009688;
+                    font-size: 20px;
+                }
+
+                #lift {}
+            </style>
+
+            <style>
+                .image-wrapper {
+                    padding-block: 1rem;
+                }
+
+                .image-wrapper img {
+
+                    height: 26rem;
+                    width: 100%;
+                    border-radius: 8px;
+                    box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
+                }
+
+                @media (width<700px) {
+                    .image-wrapper img {
+                        height: 15rem;
+                    }
+                }
+            </style>
+
+
+            <div class="property-summary">
+                <h3 style="color: #005B52">RERA Details:</h3>
+            </div>
+            <p>
+                Paras Avenue | Sector 129 Noida | <a href="https://up-rera.in/Projectsummary?UI0aPA1ISD=JhSgDBuQtpY=&hfFlag=9emr4VdBw22M7BGjKtJWMPDI4s5cHQZP&NPJ6RAme=mTQA7518KvsmPG82YovObQ==&PaURJEMAN4=ZL9MNERkNdac+WWRlUhmAA==&IRSAHEB=D6PY3lyims8=">UPRERAPRJ297873</a> - Available on RERA Website.
+            </p>
+
+            <p>*T&C Apply.</p>
+
+
+
+            <div class="overview">
+                <div class="property-summary">
+                    <h3 style="color: #005B52">Note: -</h3>
+                </div>
+                <p>
+                    If you have any specific query and need further assistance on real estate property like commercial property, residential property, and plots for sale and make a promising real estate investment in retail shops, malls, multiplex, food courts, 3 BHK apartments, 4 BHK apartments, flat, studio apartments, villa, etc.
+                    Contact us now on +91 9732300007.
+
+
+                </p>
+
+            </div>
+
+
+
+            <div class="property-summary">
+                <h2 style="color: #005B52">Amenities</h2>
+            </div>
+            <br>
+            <div class="amenities-grid">
+                <div class="amenity"><i class="fas fa-utensils"></i> Cafeteria/Food Court</div>
+                <div class="amenity"><i class="fas fa-bolt"></i> Power Backup</div>
+                <div id="lift" class="amenity">
+                    <svg width="24px" height="24px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#009688">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.43200000000000005"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path d="M22.25 0.75H1.75C1.19772 0.75 0.75 1.19772 0.75 1.75V22.25C0.75 22.8023 1.19772 23.25 1.75 23.25H22.25C22.8023 23.25 23.25 22.8023 23.25 22.25V1.75C23.25 1.19772 22.8023 0.75 22.25 0.75Z" stroke="#009688" stroke-width="1.9440000000000002" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M6 23.25V10.5C6 10.3011 6.07902 10.1103 6.21967 9.96967C6.36032 9.82902 6.55109 9.75 6.75 9.75H17.25C17.4489 9.75 17.6397 9.82902 17.7803 9.96967C17.921 10.1103 18 10.3011 18 10.5V23.2101" stroke="#009688" stroke-width="1.9440000000000002" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M12 9.75V23.25" stroke="#009688" stroke-width="1.9440000000000002" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M14.0156 4.02124L15.4997 5.99999L16.9838 4.02124" stroke="#009688" stroke-width="1.9440000000000002" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.04247 5.94302L8.49975 3.99999L9.95703 5.94302" stroke="#009688" stroke-width="1.9440000000000002" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </g>
+                    </svg>
+                    Lift
+                </div>
+                <div class="amenity"><i class="fas fa-shield-alt"></i> Security</div>
+                <div class="amenity"><i class="fas fa-truck-loading"></i> Service/Good Lift</div>
+                <div class="amenity"><i class="fas fa-parking"></i> Visitor Parking</div>
+                <div class="amenity"><i class="fas fa-dumbbell"></i> Gymnasium</div>
+                <div class="amenity"><i class="fas fa-cloud-rain"></i> Rain Water Harvesting</div>
+                <div class="amenity"><i class="fas fa-wind"></i> Air Conditioned</div>
+                <div class="amenity"><i class="fas fa-house-damage"></i> Earthquake Resistant</div>
+                <div class="amenity"><i class="fas fa-lock"></i> Tier 3 Security System</div>
+                <div class="amenity"><i class="fas fa-tree"></i> Large Open Space</div>
+                <div class="amenity"><i class="fas fa-door-open"></i> Grand Entrance Lobby</div>
+                <div class="amenity"><i class="fas fa-child"></i> Kid Play Area</div>
+                <div class="amenity"><i class="fas fa-theater-masks"></i> Event Space & Amphitheatre</div>
+                <div class="amenity"><i class="fas fa-fire-extinguisher"></i> Fire Fighting Equipment</div>
+            </div>
+            <br>
+
+
+            <div class="mapcontainer">
+                <div class="property-summary">
+                    <h2 style="color: #005B52">Location</h2>
+                </div>
+                <br>
+                <div style="text-decoration:none; overflow:hidden;max-width:100%;width:1000px;height:300px;">
+                    <div id="embed-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=paras+avenue&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="googlecoder" href="https://www.bootstrapskins.com/themes" id="authorize-maps-data">premium bootstrap themes</a>
+                    <style>
+                        #embed-map-canvas img {
+                            max-width: none !important;
+                            background: none !important;
+                            font-size: inherit;
+                            font-weight: inherit;
+                        }
+                    </style>
+                </div>
+            </div>
+            <br><br>
+
+
+
+
+
+
+            <div class="property-summary">
+                <h2>About the Builder | Paras Buildtech </h2>
+            </div>
+            <br>
+            <p>
+                Vertically under the leadership of the PARAS Group, <strong>Paras Buidtech</strong> has an ongoing legacy spanning more than 5 decades. The Group deep-rooted in its legacy is the pioneer in creating state-of-the-art projects that include residential, commercial spaces and international styled retail avenues.
+                With the mission to create a sustained customer experience, Paras Buildtech has developed a unique work process and product development. Their legacy sparks for themselves as the upholder of the highest standards of quality and corporate professionalism.
+
+            </p>
+
+
+
+            <style>
+                .faq,
+                .questions {
                     margin-bottom: 20px;
                     padding: 10px;
                     border: 1px solid #ccc;
@@ -863,21 +1018,41 @@ property in Noida" />
                     font-weight: bold;
                     margin-bottom: 10px;
                     cursor: pointer;
-                    padding-right:1rem;
+                    padding-right: 1rem;
+                    color: #005b52;
+                }
+
+
+                .questions h2 {
+                    margin: 0;
+                    font-size: 18px;
+                    cursor: pointer;
+                    padding-right: 1rem;
+                    color: #005b52;
+                    padding-block: 0 10px;
+                }
+
+                .questions p {
+                    margin-block-end: 0;
+                    font-size: 16px;
                 }
 
                 .faqq {
-
-                    padding-top: 30px;
-                    padding-bottom: 50px;
+                    padding-bottom: 30px;
+                    font-weight: 600;
                 }
 
                 .faq p {
                     margin-bottom: 10px;
+                    font-size: 15px;
                 }
 
                 .faq p strong {
                     font-weight: bold;
+                }
+
+                .faq-container {
+                    margin-block: 1.4rem 4rem;
                 }
 
                 .answer {
@@ -891,7 +1066,7 @@ property in Noida" />
                     font-size: 20px;
                     cursor: pointer;
                     transition: transform 0.3s ease;
-                    color: #005B52;
+                    color: #005b52;
                 }
 
                 .collapsed .arrow {
@@ -901,127 +1076,116 @@ property in Noida" />
                 .expanded .arrow {
                     transform: rotate(180deg);
                 }
+
+                @media (width < 700px) {
+                    .faq h3 {
+                        font-size: 16px;
+                    }
+
+                    .answer p {
+                        font-size: 14px;
+                    }
+                }
+
+                .overview {
+                    background: rgba(241, 238, 238, 0.55);
+                    font-style: italic;
+                    padding: 1rem;
+                    margin-block: 1rem;
+                    border-radius: 10px;
+                }
+
+                @media (width < 700px) {
+                    .overview {
+                        font-size: 13px;
+                    }
+                }
             </style>
-        <div class="property-summary">
-            <h2 style="color: #005B52" class="faqq"><u>Paras Avenue Sector 129 Noida FAQs</u></h2>
-        </div>
-        <br>
-        <div class="faq">
-            <h3 style="color: #005B52; font-size: 15px;">What is Paras Avenue sector 129?</h3>
 
-            <div class="answer">
-                <p>Paras Avenue Sector 129 is a high-retail destination mall being developed by Paras Buildtech that offers high street retail shops, office spaces, studio apartments and food courts with state-of-the-art architecture and prime visibility.</p>
+            <div class="property-summary">
+                <h2 style="color: #005B52" class="faqq">
+                    FAQs regarding Paras Avenue Sector 129
+                </h2>
             </div>
-            <div class="arrow collapsed">&#9660;</div>
-        </div>
-        <div class="faq">
-
-            <h3 style="color: #005B52; font-size: 15px;">Where is Paras Avenue located?</h3>
-            <div class="answer">
-                <p>Paras Avenue is located at Sector 129, Noida, Greater Noida Expressway.
-                </p>
-            </div>
-            <div class="arrow collapsed">&#9660;</div>
-        </div>
-
-        <div class="faq">
-            <h3 style="color: #005B52; font-size: 15px;">What is the total area of Paras Avenue?</h3>
-            <div class="answer">
-                <p>Paras Avenue is expanded across 2.04 acres of land and offers high street retail shops, office spaces, studio apartments and food courts and features a great investment opportunity.</p>
-            </div>
-            <div class="arrow collapsed">&#9660;</div>
-        </div>
-
-        <div class="faq">
-            <h3 style="color: #005B52; font-size: 15px;">Is Paras Avenue Noida's Booking open?</h3>
-            <div class="answer">
-                <p>The bookings for Paras Avenue 129 are open now. Contact us now!</p>
-            </div>
-            <div class="arrow collapsed">&#9660;</div>
-        </div>
-
-        <div class="faq">
-            <h3 style="color: #005B52; font-size: 15px;">What is the possession status of Paras Avenue, Noida?</h3>
-            <div class="answer">
-                <p>The possessions for Paras Avenue 129 would start by September, 2027 and would offer high street retail shops, office spaces, studio apartments and food courts.
-                </p>
-            </div>
-            <div class="arrow collapsed">&#9660;</div>
-        </div>
-        <div class="faq">
-            <h3 style="color: #005B52; font-size: 15px;">What are the property types offered by Paras Avenue Noida?</h3>
-            <div class="answer">
-                <p>Paras Avenue 129 offers high street retail shops, office spaces, studio apartments and food courts expanded across 2.04 acres of land featuring strategic location and state-of-the-art architecture.</p>
-            </div>
-            <div class="arrow collapsed">&#9660;</div>
-        </div>
-        <div class="faq">
-            <h3 style="color: #005B52; font-size: 15px;">Does Paras Avenue Noida have car parking?</h3>
-            <div class="answer">
-                <p>Paras Avenue 129 offers ample space for car parking.
-
-                </p>
-            </div>
-            <div class="arrow collapsed">&#9660;</div>
-        </div>
-        <div class="faq">
-            <h3 style="color: #005B52; font-size: 15px;">Is Paras Avenue having a registered RERA number?</h3>
-            <div class="answer">
-                <p>Yes, Paras Avenue 129 is registered under RERA with registration number UPRERAPRJ297873
-
-                </p>
-            </div>
-            <div class="arrow collapsed">&#9660;</div>
-        </div>
-        <div class="faq">
-            <h3 style="color: #005B52; font-size: 15px;">Is Paras Avenue Noida Floor Plan available?</h3>
-            <div class="answer">
-                <p>Yes, floor plan is available for Paras Avenue. Contact us now for more details!
-
-                </p>
-            </div>
-            <div class="arrow collapsed">&#9660;</div>
-        </div>
-        <div class="faq">
-            <h3 style="color: #005B52; font-size: 15px;">What are other advantages of Paras Avenue Noida?</h3>
-            <div class="answer">
-                <p>Paras Avenue 129 offers a great real estate investment opportunity featuring high street retail shops, office spaces, studio apartments and food courts with modern architecture with close proximity to Noida International Airport.
-
-                </p>
-            </div>
-            <div class="arrow collapsed">&#9660;</div>
-        </div>
-        <div class="faq">
-            <h3 style="color: #005B52; font-size: 15px;">What are the nearby projects to Paras Avenue?</h3>
-            <div class="answer">
-                <p>Nearby projects to Paras Avenue are M3M The Cullinan Sector 94 Noida, M3M The Line Sector 72 Noida, Godrej Tropical Isle Sector 146 Noida, Sikka Mall of Noida Sector 98.
-
-                </p>
-            </div>
-            <div class="arrow collapsed">&#9660;</div>
-        </div>
 
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script>
-            $(document).ready(function() {
-                $(".faq h3").click(function() {
-                    $(this).next(".answer").slideToggle();
-                    $(this).parent().find(".arrow").toggleClass("collapsed expanded");
-                });
-            });
-        </script>
+            <section class="questions">
+                <h2>What is Paras Avenue Sector 129?</h2>
+                <p>Paras Avenue Sector 129 is a high-retail destination mall being developed by Paras Buildtech that offers high street retail shops, office spaces, studio apartments, and food courts with state-of-the-art architecture and prime visibility.</p>
+            </section>
+
+            <section class="questions">
+                <h2>Where is Paras Avenue located?</h2>
+                <p>Paras Avenue is located at Sector 129, Noida, on the Noida - Greater Noida Expressway.</p>
+            </section>
+
+            <section class="questions">
+                <h2>What is the total area of Paras Avenue?</h2>
+                <p>Paras Avenue spans across 2.04 acres of land, offering high street retail shops, office spaces, studio apartments, and food courts, making it a significant investment opportunity.</p>
+            </section>
+
+            <section class="questions">
+                <h2>Is Paras Avenue Noida's booking open?</h2>
+                <p>Yes, the bookings for Paras Avenue Sector 129 are open now. Contact us for more details!</p>
+            </section>
+
+            <section class="questions">
+                <h2>What is the possession status of Paras Avenue, Noida?</h2>
+                <p>The possessions for Paras Avenue Sector 129 are expected to start by September 2027, featuring high street retail shops, office spaces, studio apartments, and food courts.</p>
+            </section>
+
+            <section class="questions">
+                <h2>What are the property types offered by Paras Avenue Noida?</h2>
+                <p>Paras Avenue Sector 129 offers high street retail shops, office spaces, studio apartments, and food courts, spread across 2.04 acres with a strategic location and modern architecture.</p>
+            </section>
+
+            <section class="questions">
+                <h2>Does Paras Avenue Noida have car parking?</h2>
+                <p>Yes, Paras Avenue Sector 129 provides ample space for car parking.</p>
+            </section>
+
+            <section class="questions">
+                <h2>Is Paras Avenue having a registered RERA number?</h2>
+                <p>Yes, Paras Avenue Sector 129 is registered under RERA with the registration number UPRERAPRJ297873.</p>
+            </section>
+
+            <section class="questions">
+                <h2>Is Paras Avenue Noida floor plan available?</h2>
+                <p>Yes, the floor plan is available for Paras Avenue. Contact us now for more details!</p>
+            </section>
+
+            <section class="questions">
+                <h2>What are other advantages of Paras Avenue Noida?</h2>
+                <p>Paras Avenue Sector 129 offers an excellent real estate investment opportunity with high street retail shops, office spaces, studio apartments, and food courts, featuring modern architecture and close proximity to Noida International Airport.</p>
+            </section>
+
+            <section class="questions">
+                <h2>What are the nearby projects to Paras Avenue?</h2>
+                <p>Nearby projects to Paras Avenue include M3M The Cullinan Sector 94 Noida, M3M The Line Sector 72 Noida, Godrej Tropical Isle Sector 146 Noida, and Sikka Mall of Noida Sector 98.</p>
+            </section>
+
+
+        </div>
+
         <h5 style="color: #005B52">Disclaimer:</h5>
-        <p align="justify">This article ‘Paras Buildtech’ is provided for informational purposes only. While every effort is made to ensure the accuracy
-            and timeliness of the information with extensive research and duly analysis, readers are advised to conduct their own due diligence with professionals before
-            making any investment decision. The responsibility for the application of the information provided above rests solely on the reader. Proceed with caution and
+        <p align="justify"> This article <strong> ‘Paras Avenue’</strong> is provided for informational purposes only. While every effort is made
+            to ensure the accuracy
+            and timeliness of the information with extensive research and duly analysis, readers are advised to conduct their own due diligence with
+            professionals before
+            making any investment decision. The responsibility for the application of the information provided above rests solely on the reader.
+            Proceed with caution and
             take decisions based on your real estate ventures.</p>
+
+
+
+
+
+
     </div>
 
-    <!-- faq -->
 
 
-   <?php
+    <?php
     include './emi-calc-component.php';
     include './more-tags.php';
     include './footer.php';

@@ -449,7 +449,9 @@ include './cookie.php';
 </a>
     
 
-<?php include "./slidefornfakenoti.php" ?>    
+<?php 
+// include "./slidefornfakenoti.php" 
+?>    
 
 
 

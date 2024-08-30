@@ -206,7 +206,7 @@ station noida, noida sector 76 pincode" />
                 <img src="./assets/image/sector-76-noida-banner.webp" alt="Sector 76 Noida | NH - 24 ">
             </div>
             <h1>
-                Sector 76 Noida | NH - 24
+                Sector 76 Noida | Gautam Buddha Nagar
             </h1>
 
             <h2>Sector 76 Noida - Quick Insights</h2>
@@ -244,7 +244,7 @@ station noida, noida sector 76 pincode" />
 
             <h3>Overview of the locality and neighbourhood</h3>
 
-            <p>Sector 76 Noida is the blooming residential locality situated in the eastern part of Noida (New Okhla Industrial Development Area) and has witnessed an array of state-of-the-art 2 BHK, 3 BHK, and <a href="../4-bhk-flats-in-noida.php"><strong>4 BHK flats</strong></a> under the Noida Master Plan 2031. It is located on the bank of the NH - 24 and provides seamless connectivity to major commercial and financial hubs of the city. Nearby localities to Sector 76 Noida include Sector 48 Noida, <a href="../noida-real-estate/sector-50-noida.php"><strong>Sector 50 Noida</strong></a>, Sector 77 Noida, and Sector 78 Noida.</p>
+            <p>Sector 76 Noida is the blooming residential locality situated in the eastern part of Noida (New Okhla Industrial Development Area) and has witnessed an array of state-of-the-art 2 BHK, 3 BHK, and <a href="../4-bhk-flats-in-noida.php"><strong>4 BHK flats</strong></a> under the Noida Master Plan 2031. It is located on the bank of the NH - 24 and provides seamless connectivity to major commercial and financial hubs of the city. Nearby localities to Sector 76 Noida include Sector 48 Noida, <a href="../noida-real-estate/sector-50-noida.php"><strong>Sector 50 Noida</strong></a>, <a href="./sector-75-noida.php"><strong>Sector 75 Noida</strong></a>, <a href="./sector-77-noida.php"><strong>Sector 77 Noida</strong></a>, and <a href="./sector-78-noida.php"><strong>Sector 78 Noida</strong></a>.</p>
 
             <p>Sector 76 Noida pin code is 201304 and comes under the Gautam Buddha District of Uttar Pradesh.</p>
 

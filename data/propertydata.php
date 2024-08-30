@@ -11,7 +11,10 @@ $properties = [
         ],
         'price' => 'On Request',
         'detailsPage' => 'parasavenuedetail.php',
-        'type' => ['Commercial']
+        'type' => ['Commercial'],
+        'data' => [
+            
+        ]
     ],
     [
         'id' => 2,
