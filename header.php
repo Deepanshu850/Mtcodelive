@@ -77,12 +77,13 @@ include "./data/blogdata.php";
 
         foreach ($topPosts as $post) {
             echo '<a href="./blog/post-' . $post['id'] . '" class="dropdown-link">';
-            echo '<img src="' . $post['imageUrl'] . '" alt="' . $post['title'] . '" class="dropdown-image">';
+            echo '<img src="./blog/'. $post['imageUrl'] . '" alt="' . $post['title'] . '" class="dropdown-image">';
             echo '<h3 class="dropdown-title">' . $post['title'] . '</h3>';
             echo '<p class="dropdown-description">' . substr($post['description'], 0, 100) . '...</p>';
             echo '</a>';
         }
         ?>
+        <img src="./blog/assets/biggest-airport-image1.jpeg" alt="">
     </div>
 </li>
             

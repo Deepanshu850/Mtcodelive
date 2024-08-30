@@ -212,11 +212,11 @@ sector 72" />
 
         <main>
             <div class="image-wrapper">
-                <img src="./assets/image/sector-72-noida-banner.webp" alt="Sector 72 Noida | Dardri Road, Gautam Buddha Nagar ">
+                <img src="./assets/image/sector-72-noida-banner.webp" alt="Sector 72 Noida | Dadri Road, Gautam Buddha Nagar ">
             </div>
             <h1>
 
-                Sector 72 Noida | Dardri Road, Gautam Buddha Nagar
+                Sector 72 Noida | Dadri Road, Gautam Buddha Nagar
             </h1>
 
             <h2>Sector 72 Noida - Quick Insights </h2>
