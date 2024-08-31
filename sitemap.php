@@ -901,12 +901,12 @@
               </a>
             </li>
             <li class="lpage">
-              <a href="https://moneytreerealty.com/noida-real-estate/sector-28-noida" title="Sector 72 Noida: Map, Property Rates, Projects, Review, Info">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-72-noida" title="Sector 72 Noida: Map, Property Rates, Projects, Review, Info">
                 Sector 72 Noida | Dadri Road, Gautam Buddha Nagar
               </a>
             </li>
             <li class="lpage">
-              <a href="https://moneytreerealty.com/noida-real-estate/sector-28-noida" title="Sector 75 Noida: Map, Property Rates, Projects, Review, Info">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-75-noida" title="Sector 75 Noida: Map, Property Rates, Projects, Review, Info">
                 Sector 75 Noida | Gautam Buddha Nagar
               </a>
             </li>
