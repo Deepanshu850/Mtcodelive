@@ -1,5 +1,4 @@
-
-<?php 
+<?php
 include '../cookie.php';
 ?>
 
@@ -33,7 +32,7 @@ include '../cookie.php';
                 <a href="../career" class="drop-down">CAREER</a>
 
             </li>
-            
+
             <li class="menu-item-has-children"> <a href="../top-real-estate-poperty-consultant-in-india.php" class="drop-down">PROJECTS </a><i class="bi bi-plus dropdown-icon"></i>
                 <ul class="sub-menu">
                     <li>
@@ -63,7 +62,168 @@ include '../cookie.php';
 
 
             <li> <a href="../contact" class="drop-down">CONTACT</a> </li>
-            <li> <a href="../blog/index" class="drop-down">BLOG</a> </li>
+            <li class="nav-item">
+                <a href="../blog/index" class="nav-link">BLOG</a>
+                <div class="dropdown-content">
+                    <?php
+                    include '../data/blogdata.php'; // Include the blog data
+
+                    function generateSlug($title)
+                    {
+                        return strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $title)));
+                    }
+
+                    $posts = array_reverse($posts);
+
+                    // Get the top 3 blog posts
+                    $topPosts = array_slice($posts, 0, 3);
+
+                    foreach ($topPosts as $post) {
+                        echo '<a href="../blog/' . generateSlug($post['title']) . '" class="dropdown-link">';
+                        echo '<div class="dropdown-item-content">';
+                        echo '<div class="dropdown-text">';
+                        echo '<h3 class="dropdown-title">' . $post['title'] . '</h3>';
+                        echo '<p class="dropdown-description">' . substr($post['description'], 0, 100) . '...</p>';
+                        echo '</div>';
+                        echo '<img src="../blog/' . $post['imageUrl'] . '" alt="' . $post['title'] . '" class="dropdown-image">';
+                        echo '</div>';
+                        echo '</a>';
+                    }
+                    ?>
+                </div>
+            </li>
+
+            <style>
+                /* Navigation Styles */
+                .navbar {
+                    background-color: #ffffff;
+                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                    padding: 16px;
+                }
+
+                .nav-list {
+                    list-style: none;
+                    display: flex;
+                }
+
+                .nav-item {
+                    position: relative;
+                    margin-right: 20px;
+                }
+
+                .nav-link {
+                    text-decoration: none;
+                    color: #333333;
+                    font-weight: bold;
+                    padding: 8px 12px;
+                    display: inline-block;
+                }
+
+                .nav-link:hover {
+                    color: #007bff;
+                }
+
+                /* Dropdown Styles */
+                .dropdown-content {
+                    display: none;
+                    position: absolute;
+                    left: 0;
+                    top: 100%;
+                    width: 500px;
+                    background-color: #ffffff;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    border-radius: 8px;
+                    z-index: 1000;
+                    transition: opacity 0.3s ease, transform 0.3s ease;
+                    opacity: 0;
+                    transform: translateY(10px);
+                }
+
+                .nav-item:hover .dropdown-content {
+                    display: block;
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+
+                .dropdown-link {
+                    display: block;
+                    padding: 12px;
+                    color: #333333;
+                    text-decoration: none;
+                    border-bottom: 1px solid #f0f0f0;
+                }
+
+                header.style-1 .main-menu ul>li a.dropdown-link {
+                    transition-duration: 0.3s;
+
+                }
+
+                .dropdown-link:hover {
+                    background-color: #f0f0f0;
+                }
+
+                .dropdown-item-content {
+                    display: flex;
+                    align-items: center;
+                }
+
+                .dropdown-text {
+                    flex: 1;
+                    padding-right: 10px;
+                }
+
+                .dropdown-image {
+                    width: 150px;
+                    height: 100px;
+                    /* object-fit: cover; */
+                    border-radius: 8px;
+                }
+
+                .dropdown-title {
+                    margin: 0 0 4px;
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #333333;
+                    letter-spacing: 0.35px;
+                }
+
+                .dropdown-description {
+                    font-size: 12px;
+                    color: #666666;
+                    line-height: 1.6;
+                    text-transform: capitalize;
+                }
+
+                /* Responsive Design */
+                @media (max-width: 768px) {
+                    .nav-list {
+                        flex-direction: column;
+                    }
+
+                    .nav-item {
+                        margin-bottom: 10px;
+                    }
+
+                    .dropdown-content {
+                        width: 100%;
+                        left: 0;
+                    }
+
+                    .dropdown-item-content {
+                        flex-direction: column;
+                    }
+
+                    .dropdown-text {
+                        padding-right: 0;
+                        margin-bottom: 10px;
+                    }
+
+                    .dropdown-image {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            </style>
             <li class="menu-item-has-children"> <a href="#" class="drop-down">Others </a><i class="bi bi-plus dropdown-icon"></i>
                 <ul class="sub-menu">
                     <li> <a href="../about-us" class="drop-down">About</a> </li>

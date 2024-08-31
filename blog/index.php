@@ -286,10 +286,10 @@ companies in India" />
     include '../data/blogdata.php';
 
 
-    function generateSlug($title)
-    {
-        return strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $title)));
-    }
+    // function generateSlug($title)
+    // {
+    //     return strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $title)));
+    // }
 
     $posts = array_reverse($posts);
     ?>
