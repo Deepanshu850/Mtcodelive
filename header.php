@@ -66,6 +66,8 @@ include "./data/blogdata.php";
             </li>
 
             <li> <a href="./contact" class="drop-down">CONTACT</a> </li>
+            
+            
             <li class="nav-item">
     <a href="./blog/index" class="nav-link">BLOG</a>
     <div class="dropdown-content">
@@ -77,119 +79,149 @@ include "./data/blogdata.php";
 
         foreach ($topPosts as $post) {
             echo '<a href="./blog/post-' . $post['id'] . '" class="dropdown-link">';
-            echo '<img src="./blog/'. $post['imageUrl'] . '" alt="' . $post['title'] . '" class="dropdown-image">';
+            echo '<div class="dropdown-item-content">';
+            echo '<div class="dropdown-text">';
             echo '<h3 class="dropdown-title">' . $post['title'] . '</h3>';
             echo '<p class="dropdown-description">' . substr($post['description'], 0, 100) . '...</p>';
+            echo '</div>';
+            echo '<img src="./blog/' . $post['imageUrl'] . '" alt="' . $post['title'] . '" class="dropdown-image">';
+            echo '</div>';
             echo '</a>';
         }
         ?>
-        <img src="./blog/assets/biggest-airport-image1.jpeg" alt="">
     </div>
 </li>
-            
-            <style>/* Basic Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-/* Navigation Styles */
-.navbar {
-    background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 16px;
-}
+<style>
+    /* Basic Reset */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-.nav-list {
-    list-style: none;
-    display: flex;
-}
+    /* Navigation Styles */
+    .navbar {
+        background-color: #ffffff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 16px;
+    }
 
-.nav-item {
-    position: relative;
-    margin-right: 20px;
-}
-
-.nav-link {
-    text-decoration: none;
-    color: #333333;
-    font-weight: bold;
-    padding: 8px 12px;
-    display: inline-block;
-}
-
-.nav-link:hover {
-    color: #007bff;
-}
-
-/* Dropdown Styles */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    width: 500px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    z-index: 1000;
-    transition: opacity 0.3s ease, transform 0.3s ease;
-    opacity: 0;
-    transform: translateY(10px);
-}
-
-.nav-item:hover .dropdown-content {
-    display: block;
-    opacity: 1;
-    transform: translateY(0);
-}
-
-.dropdown-link {
-    display: block;
-    padding: 12px;
-    color: #333333;
-    text-decoration: none;
-    border-bottom: 1px solid #f0f0f0;
-}
-
-.dropdown-link:hover {
-    background-color: #f0f0f0;
-}
-
-.dropdown-image {
-    width: 100%;
-    height: auto;
-    border-radius: 8px 8px 0 0;
-}
-
-.dropdown-title {
-    margin: 12px 0 4px;
-    font-size: 16px;
-    font-weight: bold;
-    color: #333333;
-}
-
-.dropdown-description {
-    font-size: 14px;
-    color: #666666;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
     .nav-list {
-        flex-direction: column;
+        list-style: none;
+        display: flex;
     }
 
     .nav-item {
-        margin-bottom: 10px;
+        position: relative;
+        margin-right: 20px;
     }
 
-    .dropdown-content {
-        width: 100%;
-        left: 0;
+    .nav-link {
+        text-decoration: none;
+        color: #333333;
+        font-weight: bold;
+        padding: 8px 12px;
+        display: inline-block;
     }
-}</style>
+
+    .nav-link:hover {
+        color: #007bff;
+    }
+
+    /* Dropdown Styles */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 500px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        z-index: 1000;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    .nav-item:hover .dropdown-content {
+        display: block;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .dropdown-link {
+        display: block;
+        padding: 12px;
+        color: #333333;
+        text-decoration: none;
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+    .dropdown-link:hover {
+        background-color: #f0f0f0;
+    }
+
+    .dropdown-item-content {
+        display: flex;
+        align-items: center;
+    }
+
+    .dropdown-text {
+        flex: 1;
+        padding-right: 10px;
+    }
+
+    .dropdown-image {
+        width: 150px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .dropdown-title {
+        margin: 0 0 4px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #333333;
+    }
+
+    .dropdown-description {
+        font-size: 14px;
+        color: #666666;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .nav-list {
+            flex-direction: column;
+        }
+
+        .nav-item {
+            margin-bottom: 10px;
+        }
+
+        .dropdown-content {
+            width: 100%;
+            left: 0;
+        }
+
+        .dropdown-item-content {
+            flex-direction: column;
+        }
+
+        .dropdown-text {
+            padding-right: 0;
+            margin-bottom: 10px;
+        }
+
+        .dropdown-image {
+            width: 100%;
+            height: auto;
+        }
+    }
+</style>
             <li class="menu-item-has-children"> <a href="#" class="drop-down">Others </a><i class="bi bi-plus dropdown-icon"></i>
                 <ul class="sub-menu">
                     <li> <a href="./about-us" class="drop-down">About</a> </li>
