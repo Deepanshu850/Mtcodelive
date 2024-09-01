@@ -262,10 +262,10 @@ sector 71 for rent " />
                             <p>DND Flyway</p>
                         </td>
                         <td>
-                            <p>₹3000- ₹8450 per square feet</p>
+                            <p>₹3000- ₹8450 per square feet <i class="bi bi-graph-up-arrow misc-icon"></i></p>
                         </td>
                         <td>
-                            <p>40.4 % Y-O-Y growth rate</p>
+                            <p>40.4 % Y-O-Y growth rate <i class="bi bi-graph-up-arrow misc-icon"></i></p>
                         </td>
                     </tr>
                 </tbody>

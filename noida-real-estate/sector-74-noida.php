@@ -251,10 +251,10 @@ sector 74 " />
                             <p>Yamuna Expressway</p>
                         </td>
                         <td>
-                            <p>₹4,568 /sq ft</p>
+                            <p>₹4,568 /sq ft <i class="bi bi-graph-up-arrow misc-icon"></i></p>
                         </td>
                         <td>
-                            <p>23.26% decline</p>
+                            <p>23.26% decline <i class="bi bi-graph-down-arrow misc-icon--d"></i></p>
                         </td>
                     </tr>
                 </tbody>

@@ -6,7 +6,7 @@ $properties = [
         'location' => 'Noida',
         'images' => [
             'assets/img/projectdetails/parasavenue1.webp',
-            'assets/img/projectdetails/parasavenue2.jpg',
+            'assets/img/projectdetails/parasavenue2.webp',
             'assets/img/projectdetails/parasavenue3.webp'
         ],
         'price' => 'On Request',
@@ -22,8 +22,8 @@ $properties = [
         'location' => 'Noida',
         'images' => [
             'assets/img/projectdetails/m3mcullinan1.webp',
-            'assets/img/projectdetails/m3mcullinan2.jpg',
-            'assets/img/projectdetails/m3mcullinan3.jpg'
+            'assets/img/projectdetails/m3mcullinan2.webp',
+            'assets/img/projectdetails/m3mcullinan3.webp'
 
         ],
         'price' => 'On Request',

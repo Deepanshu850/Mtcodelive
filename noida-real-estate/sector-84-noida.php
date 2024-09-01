@@ -6,15 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0">
 
     <title>
-
+        Sector 84 Noida: Map, Property Rates, Projects, Review, Info
 
     </title>
 
+    <meta name="description" content="Discover Sector 84, Noida, Gautam Buddha Nagar—featuring contemporary residential and commercial spaces with excellent connectivity and essential amenities for a superior lifestyle. " />
 
-    <meta name="description" content="" />
 
-
-    <meta name="keywords" content="" />
+    <meta name="keywords" content="sector 84 noida, motherson company noida sector 84, motherson noida sector 
+84, d 84 sector 2 noida, hdfc bank sector 84 noida, motherson sumi sector 84 
+noida, noida sector 84 pin code, mssl sector 84 noida uttar pradesh, 1 bhk flat 
+for rent in noida sector 84, 1 bhk flat in noida sector 84, a 12 sector 84 noida, 
+botanical garden to sector 84 noida " />
 
 
     <meta name="Owner" content="Moneytreerealty.com" />
@@ -27,20 +30,103 @@
 
 
 
-    <meta property="og:title" content="">
+    <!-- General Open Graph Tags for Facebook -->
+    <meta property="og:title" content="Sector 84 Noida: Map, Property Rates, Projects, Review, Info">
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-84-noida">
-    <meta property="og:description" content="">
-    <meta property="og:type" content="property">
+    <meta property="og:description" content="Discover Sector 84, Noida, Gautam Buddha Nagar—featuring contemporary residential and commercial spaces with excellent connectivity and essential amenities for a superior lifestyle.">
+    <meta property="og:type" content="website">
     <meta property="og:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-84-noida-banner.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="">
+    <meta property="og:image:alt" content="Sector 84 Noida">
     <meta property="og:locale" content="en_IN">
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sector 84 Noida: Map, Property Rates, Projects, Review, Info">
+    <meta name="twitter:description" content="Discover Sector 84, Noida, Gautam Buddha Nagar—featuring contemporary residential and commercial spaces with excellent connectivity and essential amenities for a superior lifestyle.">
+    <meta name="twitter:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-84-noida-banner.webp">
+    <meta name="twitter:image:alt" content="Sector 84 Noida">
+    <meta name="twitter:site" content="@MoneytreeRSPL">
+
+    <!-- LinkedIn Open Graph Tags -->
+    <meta property="og:title" content="Sector 84 Noida: Map, Property Rates, Projects, Review, Info">
+    <meta property="og:description" content="Discover Sector 84, Noida, Gautam Buddha Nagar—featuring contemporary residential and commercial spaces with excellent connectivity and essential amenities for a superior lifestyle.">
+    <meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-84-noida">
+    <meta property="og:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-84-noida-banner.webp">
+    <meta property="og:image:alt" content="Sector 84 Noida">
+
+    <!-- Pinterest Tags -->
+    <meta name="og:title" content="Sector 84 Noida: Map, Property Rates, Projects, Review, Info">
+    <meta name="og:description" content="Discover Sector 84, Noida, Gautam Buddha Nagar—featuring contemporary residential and commercial spaces with excellent connectivity and essential amenities for a superior lifestyle.">
+    <meta name="og:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-84-noida-banner.webp">
+    <meta name="og:image:alt" content="Sector 84 Noida">
+    <meta name="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-84-noida">
+    <meta name="og:locale" content="en_IN">
+
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-84-noida" />
 
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "name": "Sector 84 Noida",
+            "image": "https://moneytreerealty.com/noida-real-estate/assets/image/sector-84-noida-banner.webp",
+            "description": "Sector 84 Noida is a well-developed locality featuring extensive road connections, a dedicated metro station, and sound social amenities. Its close proximity to commercial hubs makes it a convenient and desirable location for both residents and businesses.",
+            "brand": {
+                "@type": "Brand",
+                "name": "Moneytree Realty"
+            },
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.7",
+                "ratingCount": "2291"
+            }
+        }
+    </script>
 
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+                    "@type": "Question",
+                    "name": "What is the lifestyle of people of Sector 84 Noida?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The residents enjoy a high quality of life since it is a well-developed sector having all public facilities."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which are the nearest metro stations in Sector 84 Noida?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sector 81 metro station, Sector 83 metro station, Sector 135 metro station, and Sector 142 metro station are the nearest metro stations that feature a comfortable commute in this sector."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What are the top projects in Sector 84 Noida?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Emaar Palm Garden, Mapsko Paradise, and SS Group Almeria are the top projects in Sector 84 Noida."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "In which district is Sector 84 located?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "It is located in the Gautam Buddha district of Uttar Pradesh."
+                    }
+                }
+            ]
+        }
+    </script>
 
 
     <!-- Google Tag Manager 
@@ -116,10 +202,10 @@
 
         <main>
             <div class="image-wrapper">
-                <img src="./assets/image/sector-84-noida-banner.webp" alt="">
+                <img src="./assets/image/sector-84-noida-banner.webp" alt="Sector 84 Noida | Gautam Buddha Nagar">
             </div>
             <h1>
-
+                Sector 84 Noida | Gautam Buddha Nagar
 
             </h1>
 
@@ -127,28 +213,28 @@
 
             <p>Uttar Pradesh, India, Pin Code - 201305</p>
 
-            <table cellspacing="0" style="border-collapse:collapse; width:624px">
+            <table class="beautiful-table">
                 <tbody>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top">
+                        <td>
                             <p><strong>Strategic Location</strong></p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top">
+                        <td>
                             <p><strong>Average Property Rates</strong></p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top">
+                        <td>
                             <p><strong>Price Appreciation since last year</strong></p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top">
+                        <td>
                             <p>Delhi-Meerut Expressway</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top">
-                            <p>Rs. 2044 per sq ft</p>
+                        <td>
+                            <p>Rs. 2044 per sq ft <i class="bi bi-graph-up-arrow misc-icon"></i></p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top">
-                            <p>Y-O-Y growth rate is 40.7 %&nbsp;</p>
+                        <td>
+                            <p>Y-O-Y growth rate is 40.7 % <i class="bi bi-graph-up-arrow misc-icon"></i></p>
                         </td>
                     </tr>
                 </tbody>
@@ -158,27 +244,27 @@
 
             <p>Check out the details below and get better insights into Sector 84 Noida:</p>
 
-            <h3>Overview of the locality and neighborhood&nbsp;</h3>
+            <h3>Overview of the locality and neighborhood </h3>
 
-            <p>Sector 84 Noida is a well-developed locality with extensive road connection and dedicated metro station, sound social amenities and close proximity to commercial hubs.&nbsp;</p>
+            <p>Sector 84 Noida is a well-developed locality with extensive road connection and dedicated metro station, sound social amenities and close proximity to commercial hubs. </p>
 
-            <p>Sector 84 Noida is near to prominent sectors such as Sector 93 Noida (3.45 Km), Sector 92 Noida (3.77 Km), Sector 82 Noida (3.99 Km), Sector 108 Noida (4.48 Km), Sector 137 Noida (5.22 Km) with flourishing commercial spaces and residential properties.&nbsp;</p>
+            <p>Sector 84 Noida is near to prominent sectors such as Sector 93 Noida (3.45 Km), Sector 92 Noida (3.77 Km), Sector 82 Noida (3.99 Km), Sector 108 Noida (4.48 Km), <a href="../category/sector-137-noida.php"><strong>Sector 137 Noida</strong></a> (5.22 Km) with flourishing commercial spaces and residential properties. </p>
 
             <h3>Nearby cities to Sector 84 includes:</h3>
 
-            <p>Nangli Village, Noida, Greater Noida, Bajidpur, Shahpur Govardhanpur Khadar, Kulesara, Shahpur.&nbsp;</p>
+            <p>Nangli Village, Noida, Greater Noida, Bajidpur, Shahpur Govardhanpur Khadar, Kulesara, Shahpur. </p>
 
             <h3>Infrastructure Development</h3>
 
-            <p>Sector 84 Noida enjoys wide connectivity to majors areas of Noida, Delhi, Greater Noida via roads and expressways - Link Road, Vishwakarma Road, Dadri Road, Noida - Greater Noida Expressway, Noida Extension, Yamuna Expressway, DND Flyway, Kalindi Kunj Road, Delhi-Meerut Expressway, NH-24, Noida are prominent connecting links of Sector 84 Noida.&nbsp;</p>
+            <p>Sector 84 Noida enjoys wide connectivity to majors areas of Noida, Delhi, Greater Noida via roads and expressways - Link Road, Vishwakarma Road, Dadri Road, Noida - Greater Noida Expressway, Noida Extension, Yamuna Expressway, DND Flyway, Kalindi Kunj Road, Delhi-Meerut Expressway, NH-24, Noida are prominent connecting links of Sector 84 Noida. </p>
 
-            <p>Sector 81 metro station, sector 83 metro station, sector 135 metro station and sector 142 metro station are the nearest metro stations to Sector 84 Noida that favors&nbsp; commuters&nbsp; in this sector.&nbsp;</p>
+            <p>Sector 81 metro station, sector 83 metro station, sector 135 metro station and sector 142 metro station are the nearest metro stations to Sector 84 Noida that favors commuters in this sector. </p>
 
             <p>Sector 84 Noida features seamless connectivity with 2 major international airports - Noida International in Jewar Uttar Pradesh and Indira Gandhi International Airport in New Delhi.</p>
 
             <h3>Social &amp; Infra Amenities</h3>
 
-            <p>Sector 84 Noida is well developed with social and infra amenities. The residents enjoy a peaceful and quality lifestyle. There are many play schools, high schools, and renowned educational hubs providing quality education making it a better and friendly location for families.&nbsp;</p>
+            <p>Sector 84 Noida is well developed with social and infra amenities. The residents enjoy a peaceful and quality lifestyle. There are many play schools, high schools, and renowned educational hubs providing quality education making it a better and friendly location for families. </p>
 
             <p>Apart from the on-site amenities Sector 84 Noida is just a stone throw away from health centers and shopping places. The famous shopping centers include: Paramount Florence Plaza within a radius of 4.3 km, Logic Mall just 3.6 km away and uptown square 5.5 km at a distance of 5.5 km. Felix Hospital, MJ hospital, Apollo hospital are the nearby situated hospitals providing for A plus health services and emergency needs.</p>
 
@@ -186,97 +272,97 @@
 
             <p>Sector 84 Noida enjoys the proximity of major employment hubs and no doubt this adds a lot of importance to the residential market of this sector.</p>
 
-            <p>The sector gives the benefit of fast approach to several developed corporate parks along Noida - Greater Noida Expressway, such as Logix Techno Park,&nbsp; Tech Boulevard, and Lotus Business Park; these are just 10-15 minutes away. Besides, all the key IT and industrial hubs, including the Noida Special Economic Zone (NSEZ)&nbsp; and Noida Phase-2, are within a 15-20 minute commute.</p>
+            <p>The sector gives the benefit of fast approach to several developed corporate parks along Noida - Greater Noida Expressway, such as Logix Techno Park, Tech Boulevard, and Lotus Business Park; these are just 10-15 minutes away. Besides, all the key IT and industrial hubs, including the Noida Special Economic Zone (NSEZ) and Noida Phase-2, are within a 15-20 minute commute.</p>
 
             <h2>Crucial Highlights of Sector 84 Noida</h2>
 
             <h3>Great things about Sector 84 Noida</h3>
 
-            <ul>
-                <li><img alt="unticked" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAA1ElEQVR4Ae3bMQ4BURSFYY2xBuwQ7BIkTGxFRj9Oo9RdkXn5TvL3L19u+2ZmZmZmZhVbpH26pFcaJ9IrndMudb/CWadHGiden1bll9MIzqd79SUd0thY20qga4NA50qgoUGgoRJo/NL/V/N+QIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIEyFeEZyXQpUGgUyXQrkGgTSVQl/qGcG5pnkq3Sn0jOMv0k3Vpm05pmNjfsGPalFyOmZmZmdkbSS9cKbtzhxMAAAAASUVORK5CYII=" style="height:19.2px; margin-right:3px; width:19.2px" />The locality is in close proximity to business centers like Logix Techno Park and the Noida Special Economic Zone (NSEZ).&nbsp;</li>
-                <li><img alt="unticked" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAA1ElEQVR4Ae3bMQ4BURSFYY2xBuwQ7BIkTGxFRj9Oo9RdkXn5TvL3L19u+2ZmZmZmZhVbpH26pFcaJ9IrndMudb/CWadHGiden1bll9MIzqd79SUd0thY20qga4NA50qgoUGgoRJo/NL/V/N+QIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIEyFeEZyXQpUGgUyXQrkGgTSVQl/qGcG5pnkq3Sn0jOMv0k3Vpm05pmNjfsGPalFyOmZmZmdkbSS9cKbtzhxMAAAAASUVORK5CYII=" style="height:19.2px; margin-right:3px; width:19.2px" />Good quality education is available in this region through schools like Anubha global school,Mayoor schools and universities like KKMII university and Amity University etc.&nbsp;</li>
-                <li><img alt="unticked" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAA1ElEQVR4Ae3bMQ4BURSFYY2xBuwQ7BIkTGxFRj9Oo9RdkXn5TvL3L19u+2ZmZmZmZhVbpH26pFcaJ9IrndMudb/CWadHGiden1bll9MIzqd79SUd0thY20qga4NA50qgoUGgoRJo/NL/V/N+QIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIEyFeEZyXQpUGgUyXQrkGgTSVQl/qGcG5pnkq3Sn0jOMv0k3Vpm05pmNjfsGPalFyOmZmZmdkbSS9cKbtzhxMAAAAASUVORK5CYII=" style="height:19.2px; margin-right:3px; width:19.2px" />Sector 84 Noida is Fully provided with local transport facilities and many metro stations. The Botanical Garden metro station, which serves both the Blue and Magenta lines of Delhi Metro.</li>
-                <li><img alt="unticked" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAA1ElEQVR4Ae3bMQ4BURSFYY2xBuwQ7BIkTGxFRj9Oo9RdkXn5TvL3L19u+2ZmZmZmZhVbpH26pFcaJ9IrndMudb/CWadHGiden1bll9MIzqd79SUd0thY20qga4NA50qgoUGgoRJo/NL/V/N+QIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIEyFeEZyXQpUGgUyXQrkGgTSVQl/qGcG5pnkq3Sn0jOMv0k3Vpm05pmNjfsGPalFyOmZmZmdkbSS9cKbtzhxMAAAAASUVORK5CYII=" style="height:19.2px; margin-right:3px; width:19.2px" />Sector 84 Noida provides promising capital appreciation and competitive rental yields.</li>
-                <li><img alt="unticked" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAA1ElEQVR4Ae3bMQ4BURSFYY2xBuwQ7BIkTGxFRj9Oo9RdkXn5TvL3L19u+2ZmZmZmZhVbpH26pFcaJ9IrndMudb/CWadHGiden1bll9MIzqd79SUd0thY20qga4NA50qgoUGgoRJo/NL/V/N+QIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIEyFeEZyXQpUGgUyXQrkGgTSVQl/qGcG5pnkq3Sn0jOMv0k3Vpm05pmNjfsGPalFyOmZmZmdkbSS9cKbtzhxMAAAAASUVORK5CYII=" style="height:19.2px; margin-right:3px; width:19.2px" />Sector 84 Noida features competitive rent and robust connectivity to key employment hubs of the city driving high rental demand.</li>
+            <ul class="arrow-list">
+                <li> The locality is in close proximity to business centers like Logix Techno Park and the Noida Special Economic Zone (NSEZ). </li>
+                <li> Good quality education is available in this region through schools like Anubha global school,Mayoor schools and universities like KKMII university and Amity University etc. </li>
+                <li> Sector 84 Noida is Fully provided with local transport facilities and many metro stations. The Botanical Garden metro station, which serves both the Blue and Magenta lines of Delhi Metro.</li>
+                <li> Sector 84 Noida provides promising capital appreciation and competitive rental yields.</li>
+                <li> Sector 84 Noida features competitive rent and robust connectivity to key employment hubs of the city driving high rental demand.</li>
             </ul>
 
             <h3>Things that need attention in Sector 84 Noida</h3>
 
-            <ul>
-                <li><img alt="unticked" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAA1ElEQVR4Ae3bMQ4BURSFYY2xBuwQ7BIkTGxFRj9Oo9RdkXn5TvL3L19u+2ZmZmZmZhVbpH26pFcaJ9IrndMudb/CWadHGiden1bll9MIzqd79SUd0thY20qga4NA50qgoUGgoRJo/NL/V/N+QIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIEyFeEZyXQpUGgUyXQrkGgTSVQl/qGcG5pnkq3Sn0jOMv0k3Vpm05pmNjfsGPalFyOmZmZmdkbSS9cKbtzhxMAAAAASUVORK5CYII=" style="height:19.2px; margin-right:3px; width:19.2px" />It is common to experience traffic congestion during peak hours especially on major highways like Noida - Greater Noida Expressway.</li>
-                <li><img alt="unticked" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAA1ElEQVR4Ae3bMQ4BURSFYY2xBuwQ7BIkTGxFRj9Oo9RdkXn5TvL3L19u+2ZmZmZmZhVbpH26pFcaJ9IrndMudb/CWadHGiden1bll9MIzqd79SUd0thY20qga4NA50qgoUGgoRJo/NL/V/N+QIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIEyFeEZyXQpUGgUyXQrkGgTSVQl/qGcG5pnkq3Sn0jOMv0k3Vpm05pmNjfsGPalFyOmZmZmdkbSS9cKbtzhxMAAAAASUVORK5CYII=" style="height:19.2px; margin-right:3px; width:19.2px" />The area being crowded, parking spaces are usually in short supply, particularly in residential areas with apartment blocks and builder floors.</li>
-                <li><img alt="unticked" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAA1ElEQVR4Ae3bMQ4BURSFYY2xBuwQ7BIkTGxFRj9Oo9RdkXn5TvL3L19u+2ZmZmZmZhVbpH26pFcaJ9IrndMudb/CWadHGiden1bll9MIzqd79SUd0thY20qga4NA50qgoUGgoRJo/NL/V/N+QIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIEyFeEZyXQpUGgUyXQrkGgTSVQl/qGcG5pnkq3Sn0jOMv0k3Vpm05pmNjfsGPalFyOmZmZmdkbSS9cKbtzhxMAAAAASUVORK5CYII=" style="height:19.2px; margin-right:3px; width:19.2px" />Noise Pollution consists of major levels of noise pollution from the roads and markets that affect the quality of life.</li>
-                <li><img alt="unticked" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAA1ElEQVR4Ae3bMQ4BURSFYY2xBuwQ7BIkTGxFRj9Oo9RdkXn5TvL3L19u+2ZmZmZmZhVbpH26pFcaJ9IrndMudb/CWadHGiden1bll9MIzqd79SUd0thY20qga4NA50qgoUGgoRJo/NL/V/N+QIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIEyFeEZyXQpUGgUyXQrkGgTSVQl/qGcG5pnkq3Sn0jOMv0k3Vpm05pmNjfsGPalFyOmZmZmdkbSS9cKbtzhxMAAAAASUVORK5CYII=" style="height:19.2px; margin-right:3px; width:19.2px" />Waste Management: Issues with waste disposal and cleanliness in certain areas need improvement.</li>
+            <ul class="arrow-list">
+                <li> It is common to experience traffic congestion during peak hours especially on major highways like Noida - Greater Noida Expressway.</li>
+                <li> The area being crowded, parking spaces are usually in short supply, particularly in residential areas with apartment blocks and builder floors.</li>
+                <li> Noise Pollution consists of major levels of noise pollution from the roads and markets that affect the quality of life.</li>
+                <li> Waste Management: Issues with waste disposal and cleanliness in certain areas need improvement.</li>
             </ul>
 
             <h2>Sector 84 Noida connectivity with nearby landmarks</h2>
 
             <h3>Nearby Areas to Sector 84 Noida</h3>
 
-            <table cellspacing="0" style="border-collapse:collapse; width:303px">
+            <table class="beautiful-table">
                 <tbody>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:170px">
-                            <p>Sector 82&nbsp;</p>
+                        <td>
+                            <p>Sector 82 </p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:133px">
-                            <p>8 mins&nbsp;</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:170px">
-                            <p>Sector 83&nbsp;</p>
-                        </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:133px">
-                            <p>4 mins&nbsp;</p>
+                        <td>
+                            <p>8 mins </p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:170px">
+                        <td>
+                            <p>Sector 83 </p>
+                        </td>
+                        <td>
+                            <p>4 mins </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
                             <p>Sector 81</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:133px">
-                            <p>10 mins&nbsp;</p>
+                        <td>
+                            <p>10 mins </p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:170px">
+                        <td>
                             <p>Sector 137</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:133px">
-                            <p>11 mins&nbsp;</p>
+                        <td>
+                            <p>11 mins </p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:170px">
+                        <td>
                             <p>Sector 78</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:133px">
-                            <p>18 mins&nbsp;</p>
+                        <td>
+                            <p>18 mins </p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:170px">
+                        <td>
                             <p>Sector 142</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:133px">
-                            <p>12 mins&nbsp;</p>
+                        <td>
+                            <p>12 mins </p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:170px">
+                        <td>
                             <p>Sector 135</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:133px">
-                            <p>13 mins&nbsp;</p>
+                        <td>
+                            <p>13 mins </p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:170px">
+                        <td>
                             <p>Sector 79</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:133px">
-                            <p>20 mins&nbsp;</p>
+                        <td>
+                            <p>20 mins </p>
                         </td>
                     </tr>
                 </tbody>
@@ -284,78 +370,78 @@
 
             <h3>Shopping Mall/Restaurants near to Sector 84 Noida</h3>
 
-            <table cellspacing="0" style="border-collapse:collapse; width:373px">
+            <table class="beautiful-table">
                 <tbody>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:232px">
+                        <td>
                             <p>Paramount florence plaza</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:141px">
+                        <td>
                             <p>9 mins</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:232px">
-                            <p>Logic Mall&nbsp;</p>
+                        <td>
+                            <p>Logic Mall </p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:141px">
-                            <p>16 mins&nbsp;</p>
+                        <td>
+                            <p>16 mins </p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:232px">
+                        <td>
                             <p>Brahmaputra market</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:141px">
-                            <p>30 mins&nbsp;</p>
+                        <td>
+                            <p>30 mins </p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:232px">
-                            <p>Uptown square&nbsp;</p>
+                        <td>
+                            <p>Uptown square </p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:141px">
-                            <p>12 mins&nbsp;</p>
+                        <td>
+                            <p>12 mins </p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:232px">
-                            <p>Waah mutton&nbsp;</p>
+                        <td>
+                            <p>Waah mutton </p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:141px">
+                        <td>
                             <p>5 mins</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:232px">
+                        <td>
                             <p>Club 26</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:141px">
-                            <p>27 mins&nbsp;</p>
+                        <td>
+                            <p>27 mins </p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:232px">
-                            <p>Roll Hub&nbsp;</p>
+                        <td>
+                            <p>Roll Hub </p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:141px">
-                            <p>32 mins&nbsp;</p>
+                        <td>
+                            <p>32 mins </p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:232px">
+                        <td>
                             <p>Bikaner sweets</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:141px">
-                            <p>27 mins&nbsp;</p>
+                        <td>
+                            <p>27 mins </p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:232px">
+                        <td>
                             <p>Balle balle shawarma</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:141px">
-                            <p>26 mins&nbsp;</p>
+                        <td>
+                            <p>26 mins </p>
                         </td>
                     </tr>
                 </tbody>
@@ -363,77 +449,77 @@
 
             <h3>Transportation Hubs near to Sector 84 Noida</h3>
 
-            <table cellspacing="0" style="border-collapse:collapse; width:371px">
+            <table class="beautiful-table">
                 <tbody>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:242px">
+                        <td>
                             <p>Noida Sector 83 Metro Station</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:129px">
+                        <td>
                             <p>4 mins</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:242px">
+                        <td>
                             <p>Noida Sector 137 Metro Station</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:129px">
+                        <td>
                             <p>12 mins</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:242px">
+                        <td>
                             <p>NSEZ Metro Station</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:129px">
+                        <td>
                             <p>4 mins</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:242px">
-                            <p>Sector 138&nbsp; Metro Station</p>
+                        <td>
+                            <p>Sector 138 Metro Station</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:129px">
+                        <td>
                             <p>9 mins</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:242px">
+                        <td>
                             <p>Sector 81 Metro Station</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:129px">
+                        <td>
                             <p>10 mins</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:242px">
+                        <td>
                             <p>Noida City Centre bus station</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:129px">
+                        <td>
                             <p>25 mins</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:242px">
-                            <p>Okhla bird sanctuary&nbsp;</p>
+                        <td>
+                            <p>Okhla bird sanctuary </p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:129px">
+                        <td>
                             <p>19 mins</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:242px">
+                        <td>
                             <p>Noida Sector 82 Metro Station</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:129px">
-                            <p>8&nbsp; mins</p>
+                        <td>
+                            <p>8 mins</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:242px">
+                        <td>
                             <p>Noida Sector 142 Metro Station</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:129px">
+                        <td>
                             <p>13 mins</p>
                         </td>
                     </tr>
@@ -442,78 +528,78 @@
 
             <h3>Educational Institutes near to Sector 84 Noida</h3>
 
-            <table cellspacing="0" style="border-collapse:collapse; width:380px">
+            <table class="beautiful-table">
                 <tbody>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:204px">
+                        <td>
                             <p>Yakubpur sarkari school</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:176px">
-                            <p>5 mins&nbsp;</p>
+                        <td>
+                            <p>5 mins </p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:204px">
+                        <td>
                             <p>Anubha Global School</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:176px">
+                        <td>
                             <p>6 mins</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:204px">
+                        <td>
                             <p>Sachan Public school</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:176px">
+                        <td>
                             <p>7 mins</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:204px">
+                        <td>
                             <p>ACTIVE PUPIL ACADEMY,</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:176px">
-                            <p>8 mins&nbsp;</p>
+                        <td>
+                            <p>8 mins </p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:204px">
+                        <td>
                             <p>Avvaire educational hub</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:176px">
+                        <td>
                             <p>34 mins</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:204px">
-                            <p>Amity University&nbsp;</p>
+                        <td>
+                            <p>Amity University </p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:176px">
-                            <p>19 mins&nbsp;</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:204px">
-                            <p>Government post&nbsp;</p>
-                        </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:176px">
-                            <p>25 mins&nbsp;</p>
+                        <td>
+                            <p>19 mins </p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:204px">
-                            <p>Mayoor school&nbsp;</p>
+                        <td>
+                            <p>Government post </p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:176px">
-                            <p>18 mins&nbsp;</p>
+                        <td>
+                            <p>25 mins </p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:204px">
-                            <p>KKMII UNIVERSITY&nbsp;</p>
+                        <td>
+                            <p>Mayoor school </p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:176px">
-                            <p>19 mins&nbsp;</p>
+                        <td>
+                            <p>18 mins </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>KKMII UNIVERSITY </p>
+                        </td>
+                        <td>
+                            <p>19 mins </p>
                         </td>
                     </tr>
                 </tbody>
@@ -521,85 +607,85 @@
 
             <h3>Hospitals near to Sector 84 Noida</h3>
 
-            <table cellspacing="0" style="border-collapse:collapse; width:421px">
+            <table class="beautiful-table">
                 <tbody>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:312px">
+                        <td>
                             <p>MJ Hospital</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:109px">
+                        <td>
                             <p>18 mins</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:312px">
-                            <p>Apollo hospital&nbsp;</p>
+                        <td>
+                            <p>Apollo hospital </p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:109px">
-                            <p>7 mins&nbsp;</p>
+                        <td>
+                            <p>7 mins </p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:312px">
-                            <p>Government district Hospital Gautam Buddha Nagar&nbsp;</p>
+                        <td>
+                            <p>Government district Hospital Gautam Buddha Nagar </p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:109px">
+                        <td>
                             <p>23 mins</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:312px">
-                            <p>Child Care and Dental Health Centre&nbsp;</p>
+                        <td>
+                            <p>Child Care and Dental Health Centre </p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:109px">
+                        <td>
                             <p>24 mins</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:312px">
-                            <p>Ratra dental clinic&nbsp;</p>
+                        <td>
+                            <p>Ratra dental clinic </p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:109px">
+                        <td>
                             <p>26 mins</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:312px">
+                        <td>
                             <p>Felix Hospital</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:109px">
+                        <td>
                             <p>13 mins</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:312px">
+                        <td>
                             <p>Dr. Bhimrao Ambedkar Multispeciality Hospital</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:109px">
-                            <p>27 mins&nbsp;</p>
+                        <td>
+                            <p>27 mins </p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:312px">
+                        <td>
                             <p>yatharth Super Speciality Hospital</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:109px">
-                            <p>30 mins&nbsp;</p>
+                        <td>
+                            <p>30 mins </p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:312px">
+                        <td>
                             <p>Prima care Super Speciality Hospital</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:109px">
+                        <td>
                             <p>16 mins</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:312px">
+                        <td>
                             <p>Jaypee Hospital</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:109px">
+                        <td>
                             <p>11 mins</p>
                         </td>
                     </tr>
@@ -608,86 +694,86 @@
 
             <h3>Commercial Hubs near to Sector 84 Noida</h3>
 
-            <table cellspacing="0" style="border-collapse:collapse; width:372px">
+            <table class="beautiful-table">
                 <tbody>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:227px">
-                            <p>Logix tech park&nbsp;</p>
+                        <td>
+                            <p>Logix tech park </p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:145px">
+                        <td>
                             <p>17 mins</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:227px">
-                            <p>Advant Navis businesses park&nbsp;</p>
+                        <td>
+                            <p>Advant Navis businesses park </p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:145px">
+                        <td>
                             <p>11 mins</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:227px">
+                        <td>
                             <p>Samsung India Electronics</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:145px">
+                        <td>
                             <p>12 mins</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:227px">
+                        <td>
                             <p>NSEZ</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:145px">
+                        <td>
                             <p>7 mins</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:227px">
+                        <td>
                             <p>Lotus business park</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:145px">
-                            <p>20 mins&nbsp;</p>
+                        <td>
+                            <p>20 mins </p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:227px">
-                            <p>Aditya Techpark&nbsp;</p>
+                        <td>
+                            <p>Aditya Techpark </p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:145px">
-                            <p>18 mins&nbsp;</p>
+                        <td>
+                            <p>18 mins </p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:227px">
+                        <td>
                             <p>Candor Techspace</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:145px">
-                            <p>18 mins&nbsp;</p>
+                        <td>
+                            <p>18 mins </p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:227px">
+                        <td>
                             <p>GM IT Park</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:145px">
-                            <p>14 mins&nbsp;</p>
+                        <td>
+                            <p>14 mins </p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:227px">
-                            <p>Tech boulevard&nbsp;</p>
+                        <td>
+                            <p>Tech boulevard </p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:145px">
-                            <p>20 mins&nbsp;</p>
+                        <td>
+                            <p>20 mins </p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:227px">
-                            <p>Embassy galaxy business&nbsp;</p>
+                        <td>
+                            <p>Embassy galaxy business </p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:145px">
-                            <p>30 mins&nbsp;</p>
+                        <td>
+                            <p>30 mins </p>
                         </td>
                     </tr>
                 </tbody>
@@ -695,77 +781,77 @@
 
             <h3>Residential Societies in Sector 84 Noida</h3>
 
-            <table cellspacing="0" style="border-collapse:collapse; width:397px">
+            <table class="beautiful-table">
                 <tbody>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:265px">
-                            <p>Emaar palm garden&nbsp;</p>
+                        <td>
+                            <p>Emaar palm garden </p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:132px">
-                            <p>Sector 84, Noida,&nbsp; Uttar Pradesh -201305</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:265px">
-                            <p>Ss group Almeria&nbsp;</p>
-                        </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:132px">
-                            <p>Sector 84, Noida,&nbsp; Uttar Pradesh -201305</p>
+                        <td>
+                            <p>Sector 84, Noida, Uttar Pradesh -201305</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:265px">
+                        <td>
+                            <p>Ss group Almeria </p>
+                        </td>
+                        <td>
+                            <p>Sector 84, Noida, Uttar Pradesh -201305</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
                             <p>Alpha corp gurgaon one sector 84</p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:132px">
-                            <p>Sector 84, Noida,&nbsp; Uttar Pradesh -201305</p>
+                        <td>
+                            <p>Sector 84, Noida, Uttar Pradesh -201305</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:265px">
-                            <p>Mapsko paradise&nbsp;</p>
+                        <td>
+                            <p>Mapsko paradise </p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:132px">
-                            <p>Sector 84, Noida,&nbsp; Uttar Pradesh -201305</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:265px">
-                            <p>Vatika lifestyle homes&nbsp;</p>
-                        </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:132px">
-                            <p>Sector 84, Noida,&nbsp; Uttar Pradesh -201305</p>
+                        <td>
+                            <p>Sector 84, Noida, Uttar Pradesh -201305</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:265px">
-                            <p>East sapphire&nbsp;</p>
+                        <td>
+                            <p>Vatika lifestyle homes </p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:132px">
-                            <p>Sector 84, Noida,&nbsp; Uttar Pradesh -201305</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:265px">
-                            <p>City view apartment&nbsp;</p>
-                        </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:132px">
-                            <p>Sector 84, Noida,&nbsp; Uttar Pradesh -201305</p>
+                        <td>
+                            <p>Sector 84, Noida, Uttar Pradesh -201305</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:265px">
-                            <p>Parkview apartment&nbsp;</p>
+                        <td>
+                            <p>East sapphire </p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:132px">
-                            <p>Sector 84, Noida,&nbsp; Uttar Pradesh -201305</p>
+                        <td>
+                            <p>Sector 84, Noida, Uttar Pradesh -201305</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:265px">
-                            <p>Mahavir apartments&nbsp;</p>
+                        <td>
+                            <p>City view apartment </p>
                         </td>
-                        <td style="border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:1px solid #000000; vertical-align:top; width:132px">
+                        <td>
+                            <p>Sector 84, Noida, Uttar Pradesh -201305</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Parkview apartment </p>
+                        </td>
+                        <td>
+                            <p>Sector 84, Noida, Uttar Pradesh -201305</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Mahavir apartments </p>
+                        </td>
+                        <td>
                             <p>Sector 84, Noida, Uttar Pradesh- 201305</p>
                         </td>
                     </tr>
@@ -778,7 +864,7 @@
 
             <h2>Upcoming RERA Approved Projects near Sector 84 Noida</h2>
 
-            <p>Noida real estate is emerging with an array of state-of-the-art commercial and residential properties from leading real estate developers in India featuring promising capital appreciation and ROI along with a wide range of amenities and facilities.&nbsp;</p>
+            <p>Noida Real estate is emerging with an array of state-of-the-art <a href="../category/commercial-property.php"><strong>commercial properties</strong></a> and <a href="../category/residential-property.php"><strong>residential properties</strong></a> from <a href="../blog/top-10-real-estate-company-in-noida.php"><strong>leading real estate developers in India</strong></a> featuring promising capital appreciation and ROI along with a wide range of amenities and facilities.</p>
 
             <p>Here, we list out the the top commercial and residential properties in Noida</p>
 
@@ -788,55 +874,55 @@
 
             <h3>Galactic City | Commercial Property in Knowledge Park V, Greater Noida</h3>
 
-            <p>Galactic City is a premium and luxurious ready-to-move office space near the bustling residential sectors of Noida - Sector 10 and Sector 12 and the YOTTA Data Centre. Galactic City is strategically located in the Knowledge Park 5 with seamless connectivity to a wide range of expressways such as Taj Expressway, Delhi - Mumbai Corridor, Easter Peripheral Road, NH -9 and FNG Expressway.</p>
+            <p><a href="../propertydetail/galactic-city-knowledge-park-5-greater-noida.php">Galactic City</a> is a premium and luxurious ready-to-move office space near the bustling residential sectors of Noida - <a href="./sector-10-noida.php"><strong>Sector 10</strong></a> and <a href="./sector-12-noida.php"><strong>Sector 12</strong></a> and the YOTTA Data Centre. Galactic City is strategically located in the Knowledge Park 5 with seamless connectivity to a wide range of expressways such as Taj Expressway, Delhi - Mumbai Corridor, Easter Peripheral Road, NH -9 and FNG Expressway.</p>
 
-            <table cellspacing="0" style="border-collapse:collapse; width:624px">
+            <table class="beautiful-table">
                 <tbody>
                     <tr>
-                        <td style="background-color:#eeecec; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:275px">
+                        <td>
                             <p>Type of Property</p>
                         </td>
-                        <td style="background-color:#eeecec; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:349px">
+                        <td>
                             <p>Commercial Property</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:275px">
+                        <td>
                             <p>Builder Name</p>
                         </td>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:349px">
+                        <td>
                             <p>Sarvottam Group (Homes Connect Developers)</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:275px">
+                        <td>
                             <p>Date of Possession</p>
                         </td>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:349px">
+                        <td>
                             <p>Ready for Possession</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:275px">
+                        <td>
                             <p>RERA Registration Number</p>
                         </td>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:349px">
+                        <td>
                             <p><a href="https://www.up-rera.in/Frm_View_Project_Details.aspx?id=15254">UPRERAPRJ15254</a></p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:275px">
+                        <td>
                             <p>Strategic Location</p>
                         </td>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:349px">
+                        <td>
                             <p>Adjacent to YOTTA Data Centre</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:275px">
+                        <td>
                             <p>Starting Price*</p>
                         </td>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:349px">
+                        <td>
                             <p>₹ 10.95 L+</p>
                         </td>
                     </tr>
@@ -845,55 +931,55 @@
 
             <h3>M3M The Cullinan | Commercial Property in Sector 94 Noida</h3>
 
-            <p><a href="https://moneytreerealty.com/propertydetail/m3m-the-cullinan-sector-94-noida.php">M3M The Cullinan</a> is luxury commercial property in Noida featuring boutique retail and retail plaza along with a 1,000 sq ft Clubhouse. It offers more than 100 amenities that includes a swimming pool with jacuzzi, shaded cabanas, a business centre and squash court, and many more.</p>
+            <p><a href="../propertydetail/m3m-the-cullinan-sector-94-noida.php">M3M The Cullinan</a> is luxury commercial property in Noida featuring boutique retail and retail plaza along with a 1,000 sq ft Clubhouse. It offers more than 100 amenities that includes a swimming pool with jacuzzi, shaded cabanas, a business centre and squash court, and many more.</p>
 
-            <table cellspacing="0" style="border-collapse:collapse; width:624px">
+            <table class="beautiful-table">
                 <tbody>
                     <tr>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:219px">
+                        <td>
                             <p>Type of Property</p>
                         </td>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:405px">
+                        <td>
                             <p>Commercial/Residential Property</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:219px">
+                        <td>
                             <p>Builder Name</p>
                         </td>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:405px">
+                        <td>
                             <p>M3M Group</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:219px">
+                        <td>
                             <p>Date of Possession</p>
                         </td>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:405px">
+                        <td>
                             <p>August 2028</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:219px">
+                        <td>
                             <p>RERA Registration Number</p>
                         </td>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:405px">
+                        <td>
                             <p><a href="https://up-rera.in/Projectsummary?UI0aPA1ISD=0BKwyQzoBMM=&amp;hfFlag=9emr4VdBw22M7BGjKtJWMPDI4s5cHQZP&amp;NPJ6RAme=8Bf1gILwY2pA1ml6WFDQF/L0AWTmf89Z&amp;PaURJEMAN4=ZL9MNERkNdbH1a1ciSSeCw==&amp;IRSAHEB=D6PY3lyims8=">UPRERAPRJ442214</a></p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:219px">
+                        <td>
                             <p>Strategic Location</p>
                         </td>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:405px">
+                        <td>
                             <p>Kalindi Kunj Bridge/Noida-Greater Noida Expressway</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:219px">
+                        <td>
                             <p>Starting Price*</p>
                         </td>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:405px">
+                        <td>
                             <p>₹ 1 Cr+</p>
                         </td>
                     </tr>
@@ -902,120 +988,121 @@
 
             <h3>M3M The Line | Commercial Property in Sector 72 Noida</h3>
 
-            <p><a href="https://moneytreerealty.com/propertydetail/m3m-the-line-sector-72-noida.php">M3M The Line</a> features state-of-the-art double height shops, studio apartments, and hi-street retail &amp; food court space with a grandeur architectural layout which is designed to increase foot traffic and visibility.</p>
+            <p><a href="../propertydetail/m3m-the-line-sector-72-noida.php">M3M The Line</a> features state-of-the-art double height shops, <a href="../category/studio-apartments.php"><strong>studio apartments</strong></a>, and hi-street retail &amp; food court space with a grandeur architectural layout which is designed to increase foot traffic and visibility.</p>
 
-            <table cellspacing="0" style="border-collapse:collapse; width:624px">
+            <table class="beautiful-table">
                 <tbody>
                     <tr>
-                        <td style="background-color:#eeecec; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:251px">
+                        <td>
                             <p>Type of Property</p>
                         </td>
-                        <td style="background-color:#eeecec; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:373px">
+                        <td>
                             <p>Commercial/Residential Property</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:251px">
+                        <td>
                             <p>Builder Name</p>
                         </td>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:373px">
+                        <td>
                             <p>M3M Group</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:251px">
+                        <td>
                             <p>Date of Possession</p>
                         </td>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:373px">
+                        <td>
                             <p>July 2028</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:251px">
+                        <td>
                             <p>RERA Registration Number</p>
                         </td>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:373px">
+                        <td>
                             <p><a href="https://www.up-rera.in/Projectsummary?UI0aPA1ISD=bXy+EU+dZ0g=&amp;hfFlag=9emr4VdBw22M7BGjKtJWMPDI4s5cHQZP&amp;NPJ6RAme=8Bf1gILwY2o5oEww+eKfgA==&amp;PaURJEMAN4=ZL9MNERkNdbMjkalkVhXFQ==&amp;IRSAHEB=D6PY3lyims8=">UPRERAPRJ246070</a></p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:251px">
+                        <td>
                             <p>Strategic Location</p>
                         </td>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:373px">
+                        <td>
                             <p>Sector 72 - Noida&rsquo;s Central Business Area</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:251px">
+                        <td>
                             <p>Starting Price*</p>
                         </td>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:373px">
+                        <td>
                             <p>₹ 80 L+</p>
                         </td>
                     </tr>
                 </tbody>
             </table>
+            
 
             <h3>Paras Avenue | Commercial Property in Sector 129 Noida</h3>
 
-            <p><a href="https://moneytreerealty.com/propertydetail/paras-avenue-sector-129-noida.php">Paras Avenue</a> features state-of-the-art high street <a href="https://moneytreerealty.com/propertydetail/sikka-mall-of-noida-sector-98.php">retail shops</a>, office spaces, studio apartments and food courts modern architecture. It offers world-class amenities like state-of-the-art gym equipment, luxurious spas providing various health benefits. This commercial property in Noida is strategically located on the Yamuna Expressway and features a blank Canvas of Space for events, exhibitions and gatherings. Book an unit in Paras Avenue with the leading real estate consultant in Noida - Moneytree Realty.</p>
+            <p><a href="../propertydetail/paras-avenue-sector-129-noida.php">Paras Avenue</a> features state-of-the-art high street <a href="../propertydetail/sikka-mall-of-noida-sector-98.php">retail shops</a>, office spaces, studio apartments and food courts modern architecture. It offers world-class amenities like state-of-the-art gym equipment, luxurious spas providing various health benefits. This commercial property in Noida is strategically located on the Yamuna Expressway and features a blank Canvas of Space for events, exhibitions and gatherings. Book an unit in Paras Avenue with the leading real estate consultant in Noida - Moneytree Realty.</p>
 
-            <table cellspacing="0" style="border-collapse:collapse; width:624px">
+            <table class="beautiful-table">
                 <tbody>
                     <tr>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:284px">
+                        <td>
                             <p>Type of Property</p>
                         </td>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:340px">
+                        <td>
                             <p>Commercial Property</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:284px">
+                        <td>
                             <p>Builder Name</p>
                         </td>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:340px">
+                        <td>
                             <p>Paras Buildtech</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:284px">
+                        <td>
                             <p>Location</p>
                         </td>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:340px">
+                        <td>
                             <p>Sector 129 Noida</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:284px">
+                        <td>
                             <p>Date of Possession</p>
                         </td>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:340px">
+                        <td>
                             <p>September 2027</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:284px">
+                        <td>
                             <p>RERA Registration Number</p>
                         </td>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:340px">
+                        <td>
                             <p><a href="https://up-rera.in/Projectsummary?UI0aPA1ISD=JhSgDBuQtpY=&amp;hfFlag=9emr4VdBw22M7BGjKtJWMPDI4s5cHQZP&amp;NPJ6RAme=mTQA7518KvsmPG82YovObQ==&amp;PaURJEMAN4=ZL9MNERkNdac+WWRlUhmAA==&amp;IRSAHEB=D6PY3lyims8=">UPRERAPRJ297873</a></p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:284px">
+                        <td>
                             <p>Strategic Location</p>
                         </td>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:340px">
+                        <td>
                             <p>Yamuna Expressway/ Jewar Airport</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:284px">
+                        <td>
                             <p>Starting Price*</p>
                         </td>
-                        <td style="border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:340px">
+                        <td>
                             <p>₹ 60 L+</p>
                         </td>
                     </tr>
@@ -1028,65 +1115,65 @@
 
             <h3>Migsun Nehru Place 1 | Studio Apartments on Yamuna Expressway</h3>
 
-            <p><a href="https://moneytreerealty.com/propertydetail/migsun-nehru-place-1.php">Migsun Nehru Place 1</a> offers studio apartments at Yamuna Expressway with state-of-the-art and modern architecture along with lush surroundings for peaceful living.</p>
+            <p><a href="../propertydetail/migsun-nehru-place-1.php">Migsun Nehru Place 1</a> offers studio apartments at Yamuna Expressway with state-of-the-art and modern architecture along with lush surroundings for peaceful living.</p>
 
             <p>These studio apartments in Noida offer an array of amenities like Lush green surroundings, Spacious Car Parking, 24/7 Power and Water Supply, High Security Surveillance, Fire Systems, Retail Shops, High Speed Lifts. <a href="https://moneytreerealty.com/blog/migsun-nehru-place-1-luxury-studio-apartments-on-yamuna-expressway.php">Migsun Studio Apartments</a> provides a promising capital appreciation and high ROI.</p>
 
-            <table cellspacing="0" style="border-collapse:collapse; width:624px">
+            <table class="beautiful-table">
                 <tbody>
                     <tr>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:309px">
+                        <td>
                             <p>Type of Property</p>
                         </td>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:315px">
+                        <td>
                             <p>Studio Apartments</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:309px">
+                        <td>
                             <p>Builder Name</p>
                         </td>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:315px">
+                        <td>
                             <p>Migsun Group</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:309px">
+                        <td>
                             <p>Location</p>
                         </td>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:315px">
+                        <td>
                             <p>Nehru Place 1</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:309px">
+                        <td>
                             <p>Date of Possession</p>
                         </td>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:315px">
+                        <td>
                             <p>October 2028</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:309px">
+                        <td>
                             <p>RERA Registration Number</p>
                         </td>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:315px">
+                        <td>
                             <p><a href="https://www.up-rera.in/Projectsummary?UI0aPA1ISD=/x+U7YKVoG8=&amp;hfFlag=9emr4VdBw22M7BGjKtJWMPDI4s5cHQZP&amp;NPJ6RAme=Cr5QGWvZzeM3nHwIrAyLT2RWbY4wXS/s&amp;PaURJEMAN4=ZL9MNERkNdYiuRj8AyMT398sYbBmFj4s&amp;IRSAHEB=D6PY3lyims8=">UPRERAPRJ770923/05/2024</a></p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:309px">
+                        <td>
                             <p>Strategic Location</p>
                         </td>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:315px">
+                        <td>
                             <p>Yamuna Expressway</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:309px">
+                        <td>
                             <p>Starting Price*</p>
                         </td>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:315px">
+                        <td>
                             <p>₹ 40 lac+</p>
                         </td>
                     </tr>
@@ -1095,63 +1182,63 @@
 
             <h3>M3M The Cullinan | Residential Apartments in Sector 94 Noida</h3>
 
-            <p><a href="https://moneytreerealty.com/propertydetail/m3m-the-cullinan-sector-94-noida.php">M3M The Cullinan</a> offers <a href="https://moneytreerealty.com/3-bhk-flats-in-noida.php">3 BHK</a>, <a href="https://moneytreerealty.com/4-bhk-flats-in-noida.php">4 BHK flats in Noida</a> with an array of amenities like a swimming Pool, shaded Cabanas, a business centre and squash court. These residential apartments feature beautifully designed floor lobbies with high-speed elevators. M3M The Cullinan is strategically located at the intersection of Kalindi Kunj Bridge and Noida and provides seamless connectivity with Greater Noida Expressway.</p>
+            <p><a href="../propertydetail/m3m-the-cullinan-sector-94-noida.php">M3M The Cullinan</a> offers <a href="../3-bhk-flats-in-noida.php">3 BHK</a>, <a href="../4-bhk-flats-in-noida.php">4 BHK flats in Noida</a> with an array of amenities like a swimming Pool, shaded Cabanas, a business centre and squash court. These residential apartments feature beautifully designed floor lobbies with high-speed elevators. M3M The Cullinan is strategically located at the intersection of Kalindi Kunj Bridge and Noida and provides seamless connectivity with Greater Noida Expressway.</p>
 
-            <table cellspacing="0" style="border-collapse:collapse; width:624px">
+            <table class="beautiful-table">
                 <tbody>
                     <tr>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:228px">
+                        <td>
                             <p>Type of Property</p>
                         </td>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:396px">
+                        <td>
                             <p>Commercial/Residential Property</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:228px">
+                        <td>
                             <p>Builder Name</p>
                         </td>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:396px">
+                        <td>
                             <p>M3M Group</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:228px">
+                        <td>
                             <p>Location</p>
                         </td>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:396px">
+                        <td>
                             <p>Sector 94 Noida</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:228px">
+                        <td>
                             <p>Date of Possession</p>
                         </td>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:396px">
+                        <td>
                             <p>August 2028</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:228px">
+                        <td>
                             <p>RERA Registration Number</p>
                         </td>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:396px">
+                        <td>
                             <p><a href="https://up-rera.in/Projectsummary?UI0aPA1ISD=0BKwyQzoBMM=&amp;hfFlag=9emr4VdBw22M7BGjKtJWMPDI4s5cHQZP&amp;NPJ6RAme=8Bf1gILwY2pA1ml6WFDQF/L0AWTmf89Z&amp;PaURJEMAN4=ZL9MNERkNdbH1a1ciSSeCw==&amp;IRSAHEB=D6PY3lyims8=">UPRERAPRJ442214</a></p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:228px">
+                        <td>
                             <p>Strategic Location</p>
                         </td>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:396px">
+                        <td>
                             <p>Kalindi Kunj Bridge/Noida-Greater Noida Expressway</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:228px">
+                        <td>
                             <p>Starting Price*</p>
                         </td>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:396px">
+                        <td>
                             <p>₹ 1 Cr+</p>
                         </td>
                     </tr>
@@ -1162,61 +1249,61 @@
 
             <p>M3M The line offers state-of-the-art studio apartments along with expansive high-street retail space on the ground floor exhibiting international as well as home grown brands. These studio apartments in Noida provide an array of modern amenities like 100% Power Back-up, Amphitheatre, club house, swimming pool, gym, safe play area for kids. M3M The Line is strategically located on sector 72 with easy access to the upcoming Noida International Airport via Baba Banda Singh Bahadur Setu.</p>
 
-            <table cellspacing="0" style="border-collapse:collapse; width:624px">
+            <table class="beautiful-table">
                 <tbody>
                     <tr>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:260px">
+                        <td>
                             <p>Type of Property</p>
                         </td>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:364px">
+                        <td>
                             <p>Commercial/Residential Property</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:260px">
+                        <td>
                             <p>Builder Name</p>
                         </td>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:364px">
+                        <td>
                             <p>M3M Group</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:260px">
+                        <td>
                             <p>Location</p>
                         </td>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:364px">
+                        <td>
                             <p>Sector 72 Noida</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:260px">
+                        <td>
                             <p>Date of Possession</p>
                         </td>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:364px">
+                        <td>
                             <p>July 2028</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:260px">
+                        <td>
                             <p>RERA Registration Number</p>
                         </td>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:364px">
+                        <td>
                             <p><a href="https://www.up-rera.in/Projectsummary?UI0aPA1ISD=bXy+EU+dZ0g=&amp;hfFlag=9emr4VdBw22M7BGjKtJWMPDI4s5cHQZP&amp;NPJ6RAme=8Bf1gILwY2o5oEww+eKfgA==&amp;PaURJEMAN4=ZL9MNERkNdbMjkalkVhXFQ==&amp;IRSAHEB=D6PY3lyims8=">UPRERAPRJ246070</a></p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:260px">
+                        <td>
                             <p>Strategic Location</p>
                         </td>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:364px">
+                        <td>
                             <p>Sector 72 - Noida&rsquo;s Central Business Area</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:260px">
+                        <td>
                             <p>Starting Price*</p>
                         </td>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:364px">
+                        <td>
                             <p>₹ 80 L+</p>
                         </td>
                     </tr>
@@ -1225,63 +1312,63 @@
 
             <h3>Godrej Tropical Isle | Residential Apartments in Sector 146 Noida</h3>
 
-            <p><a href="https://moneytreerealty.com/propertydetail/godrej-tropical-isle-sector-146-noida.php">Godrej Tropical Isle</a> offers 3 BHK and 4 BHK <a href="https://moneytreerealty.com/apartments-in-noida.php">apartments in Noida</a> with high-tech amenities that include air purification technology for a luxurious and peaceful living. It features close proximity with 2 international airports - Noida International Airport and Indira Gandhi International Airport. These residential apartments are surrounded by numerous corporate offices and retail destinations. Godrej Tropical Isle features easy connectivity to 3 major expressways - Noida Greater Noida Expressway, Yamuna Expressway and FNG Expressway.</p>
+            <p><a href="../propertydetail/godrej-tropical-isle-sector-146-noida.php">Godrej Tropical Isle</a> offers 3 BHK and 4 BHK <a href="../apartments-in-noida.php">apartments in Noida</a> with high-tech amenities that include air purification technology for a luxurious and peaceful living. It features close proximity with 2 international airports - Noida International Airport and Indira Gandhi International Airport. These residential apartments are surrounded by numerous corporate offices and retail destinations. Godrej Tropical Isle features easy connectivity to 3 major expressways - Noida Greater Noida Expressway, Yamuna Expressway and FNG Expressway.</p>
 
-            <table cellspacing="0" style="border-collapse:collapse; width:624px">
+            <table class="beautiful-table">
                 <tbody>
                     <tr>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:287px">
+                        <td>
                             <p>Type of Property</p>
                         </td>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:337px">
+                        <td>
                             <p>Residential Property</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:287px">
+                        <td>
                             <p>Builder Name</p>
                         </td>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:337px">
+                        <td>
                             <p>Godrej Properties</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:287px">
+                        <td>
                             <p>Location</p>
                         </td>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:337px">
+                        <td>
                             <p>Sector 146 Noida</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:287px">
+                        <td>
                             <p>Date of Possession</p>
                         </td>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:337px">
+                        <td>
                             <p>February 2030</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:287px">
+                        <td>
                             <p>RERA Registration Number</p>
                         </td>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:337px">
+                        <td>
                             <p><a href="https://up-rera.in/Projectsummary?UI0aPA1ISD=u6Trg3svB/M=&amp;hfFlag=9emr4VdBw22M7BGjKtJWMPDI4s5cHQZP&amp;NPJ6RAme=LTP9r7RLyshj/PUZSvBjq1N4rK5rBS1b&amp;PaURJEMAN4=ZL9MNERkNdZvcUmB/P2uFQ==&amp;IRSAHEB=D6PY3lyims8=">UPRERAPRJ303390</a></p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:287px">
+                        <td>
                             <p>Strategic Location</p>
                         </td>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:337px">
+                        <td>
                             <p>Yamuna Expressway/Jewar Airport</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:287px">
+                        <td>
                             <p>Starting Price*</p>
                         </td>
-                        <td style="background-color:#ffffff; border-bottom:1px solid #dddddd; border-left:1px solid #dddddd; border-right:1px solid #dddddd; border-top:1px solid #dddddd; vertical-align:top; width:337px">
+                        <td>
                             <p>₹ 2.3 Cr+</p>
                         </td>
                     </tr>
@@ -1290,10 +1377,79 @@
 
             <h2>Map of Sector 84 Noida</h2>
 
+            <div style="text-decoration:none; overflow:hidden;max-width:100%;height:500px;">
+                <div id="canvas-for-googlemap" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=sector+84+noida&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class=" embed-ded-maphtml" href="https://www.bootstrapskins.com/themes" id="make-map-infor-mation">premium bootstrap themes</a>
+
+            </div>
+
+
             <h2>Tired of looking to buy property for sale?</h2>
 
-            <p>MoneyTree Realty comprises professional real estate consultants that help you buy property for sale and make promising real estate investments. We provide best-in-class property consultations from a diverse portfolio of commercial and residential properties.</p>
 
+            <p><a href="../index.php"><strong>MoneyTree Realty</strong></a> is the leading <strong>channel partner in real estate with</strong> a diverse portfolio of properties including commercial property, residential property, and <a href="../plots-for-sale.php"><strong>plots for sale</strong></a>. Our <a href="../best-property-dealers-in-noida.phpstr"><strong>property dealers in Noida</strong></a> provide best-in-class property consultations and present you with the best flat in Noida.&nbsp;</p>
+
+            <p>Our <a href="../real-estate-consultant.php"><strong>real estate consultants</strong></a> at MoneyTree Realty provide valuable insights into market trends and property analysis and help you buy flat in Noida. We follow a <strong>client-centric approach</strong> and maintain transparency between each client & the developer and provide you with the<strong> best home in Noida.</strong></p>
+
+
+
+            <h3>Services offered by MoneyTree Realty</h3>
+
+            <p>MoneyTree Realty stands out as a <a href="../top-channel-partner-in-real-estate.php"><strong>leading channel partner in real estate</strong></a>, thanks to our exceptional services and expert property consultations.</p>
+
+            <h3>Property related services at MoneyTree Realty include:</h3>
+
+            <table class="beautiful-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>Best-in-class property consultations and guidance.</p>
+                        </td>
+                        <td>
+                            <p>Real estate related updates on property trends, announcements of new projects, RERA related queries etc.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Data-backed analytics and insights for comprehensive property analysis.</p>
+                        </td>
+                        <td>
+                            <p>Advanced consultation with the optimal use of technology and tools for a seamless experience.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Strong professionalism and ethical standards while helping you buy property for sale.</p>
+                        </td>
+                        <td>
+                            <p>Best property prices and valuations along with other exciting deals and offers.</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>Contact us and make a promising and strategic real estate investment in India, Call us on <a href="tel:+919732300007"><strong>+91 9732300007</strong></a>.</p>
+
+            <h2>Frequently asked questions</h2>
+
+            <section class="questions">
+                <h2>What is the lifestyle of people of Sector 84 Noida?</h2>
+                <p>The residents enjoy a high quality of life since it is a well-developed sector having all public facilities.</p>
+            </section>
+
+            <section class="questions">
+                <h2>Which are the nearest metro stations in Sector 84 Noida?</h2>
+                <p>Sector 81 metro station, Sector 83 metro station, Sector 135 metro station, and Sector 142 metro station are the nearest metro stations that feature a comfortable commute in this sector.</p>
+            </section>
+
+            <section class="questions">
+                <h2>What are the top projects in Sector 84 Noida?</h2>
+                <p>Emaar Palm Garden, Mapsko Paradise, and SS Group Almeria are the top projects in Sector 84 Noida.</p>
+            </section>
+
+            <section class="questions">
+                <h2>In which district is Sector 84 located?</h2>
+                <p>It is located in the Gautam Buddha district of Uttar Pradesh.</p>
+            </section>
 
 
         </main>
@@ -1311,6 +1467,61 @@
 
 
                 <p class="wp-block-tag-cloud">
+                    <a href="./sector-84-noida">
+                        Sector 84 Noida
+                    </a>
+
+                    <a href="./sector-84-noida">
+                        Motherson Company Noida Sector 84
+                    </a>
+
+                    <a href="./sector-84-noida">
+                        Motherson Noida Sector 84
+                    </a>
+
+                    <a href="./sector-84-noida">
+                        D 84 Sector 2 Noida
+                    </a>
+
+                    <a href="./sector-84-noida">
+                        HDFC Bank Sector 84 Noida
+                    </a>
+
+                    <a href="./sector-84-noida">
+                        Motherson Sumi Sector 84 Noida
+                    </a>
+
+                    <a href="./sector-84-noida">
+                        Noida Sector 84 Pin Code
+                    </a>
+
+                    <a href="../blog/real-estate-investment-a-comprehensive-guide-on-real-estate.php">
+                        Real Estate Investment
+                    </a>
+
+                    <a href="../contact.php">
+                        Property Management
+                    </a>
+
+                    <a href="../category/commercial-property.php">
+                        Commercial Real Estate
+                    </a>
+
+                    <a href="../category/residential-property.php">
+                        Residential Real Estate
+                    </a>
+
+                    <a href="../best-property-dealers-in-noida.php">
+                        Real Estate Deals
+                    </a>
+
+                    <a href="../real-estate-advisor-and-property-consulting-firm-in-india.php">
+                        Property Advice
+                    </a>
+
+                    <a href="../real-estate-consultant.php">
+                        Real Estate Consulting
+                    </a>
 
 
 
@@ -1328,6 +1539,89 @@
             <h6>Similar Tags:</h6>
             <ul class="tags">
 
+                <li>
+                    <a href="./sector-84-noida">
+                        Sector 84 Noida
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./sector-84-noida">
+                        Motherson Company Noida Sector 84
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./sector-84-noida">
+                        Motherson Noida Sector 84
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./sector-84-noida">
+                        D 84 Sector 2 Noida
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./sector-84-noida">
+                        HDFC Bank Sector 84 Noida
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./sector-84-noida">
+                        Motherson Sumi Sector 84 Noida
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./sector-84-noida">
+                        Noida Sector 84 Pin Code
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../blog/real-estate-investment-a-comprehensive-guide-on-real-estate.php">
+                        Real Estate Investment
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../contact.php">
+                        Property Management
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../category/commercial-property.php">
+                        Commercial Real Estate
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../category/residential-property.php">
+                        Residential Real Estate
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../best-property-dealers-in-noida.php">
+                        Real Estate Deals
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../real-estate-advisor-and-property-consulting-firm-in-india.php">
+                        Property Advice
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../real-estate-consultant.php">
+                        Real Estate Consulting
+                    </a>
+                </li>
 
 
             </ul>

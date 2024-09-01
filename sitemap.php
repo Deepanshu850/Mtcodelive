@@ -936,6 +936,59 @@
               </a>
             </li>
 
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-26-noida" title="Sector 26 Noida: Map, Property Rates, Projects, Review, Info ">
+                Sector 26 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-126-noida" title="Sector 126 Noida: Map, Property Rates, Projects, Review, Info ">
+                Sector 126 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-80-noida" title="Sector 80 Noida: Map, Property Rates, Projects, Review, Info ">
+                Sector 80 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-84-noida" title="Sector 84 Noida: Map, Property Rates, Projects, Review, Info ">
+                Sector 84 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-85-noida" title="Sector 85 Noida: Map, Property Rates, Projects, Review, Info ">
+                Sector 85 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-86-noida" title="Sector 86 Noida: Map, Property Rates, Projects, Review, Info ">
+                Sector 86 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-87-noida" title="Sector 87 Noida: Map, Property Rates, Projects, Review, Info ">
+                Sector 87 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-89-noida" title="Sector 89 Noida: Map, Property Rates, Projects, Review, Info ">
+                Sector 89 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-90-noida" title="Sector 90 Noida: Map, Property Rates, Projects, Review, Info ">
+                Sector 90 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-93-noida" title="Sector 93 Noida: Map, Property Rates, Projects, Review, Info ">
+                Sector 93 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+
+
 
           </ul>
         </li>
@@ -1380,12 +1433,10 @@
 
 
 <script>
-  // Function to sort sectors
   function sortSectors() {
     const blog = document.getElementById('blog');
     const firstLi = blog.querySelector('li:first-child');
 
-    // Check if the first li has the class 'lhead' and the desired text
     if (firstLi && firstLi.classList.contains('lhead') && firstLi.textContent.trim().startsWith('Noida Sectors/')) {
       const listItems = Array.from(blog.querySelectorAll('.lpage'));
 
@@ -1393,32 +1444,25 @@
         const textA = a.textContent.trim();
         const textB = b.textContent.trim();
 
-        // Extract sector numbers using a regular expression
         const sectorA = textA.match(/Sector (\d+)/i);
         const sectorB = textB.match(/Sector (\d+)/i);
 
         if (sectorA && sectorB) {
-          // Compare sector numbers numerically if both are found
           return parseInt(sectorA[1]) - parseInt(sectorB[1]);
         } else {
-          // Fallback to standard string comparison if sector numbers are not found
           return textA.localeCompare(textB, undefined, {
             numeric: true
           });
         }
       });
 
-      // Re-attach the sorted items
       listItems.forEach(item => blog.appendChild(item));
     }
   }
 
-  // Call the function to sort the list on page load
   sortSectors();
-
-  // Optional: Re-sort whenever a new sector is added
-  // You can call sortSectors() again after adding a new sector to the list
 </script>
+
 
 
 <script src="./assets/js/swiper-bundle.min.js"></script>
