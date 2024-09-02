@@ -37,25 +37,105 @@ include "./data/blogdata.php";
             </li>
             <li class="menu-item-has-children"> <a href="./top-real-estate-poperty-consultant-in-india.php" class="drop-down">PROJECTS </a><i class="bi bi-plus dropdown-icon"></i>
                 <ul class="sub-menu">
-                    <li>
-                        <a href="./category/residential-property.php" class="drop-down">
-                            Residential
-                        </a>
+                    <li class="menu-item-has-children"> <a href="./category/residential-property-for-sale" class="drop-down">Residential </a><i class="bi bi-plus dropdown-icon"></i>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="./category/residential-property-for-sale.php" class="drop-down">
+                                    Noida
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./category/commercial-property-for-sale.php" class="drop-down">
+                                    Gurgaon
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="./category/plots-for-sale.php" class="drop-down">
+                                    Mumbai
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./category/studio-apartments-for-sale.php" class="drop-down">
+                                    Goa
+                                </a>
+                            </li>
+                        </ul>
                     </li>
-                    <li>
-                        <a href="./category/commercial-property.php" class="drop-down">
-                            Commercial
-                        </a>
+                    <li class="menu-item-has-children"> <a href="./category/commercial-property-for-sale" class="drop-down">Commercial </a><i class="bi bi-plus dropdown-icon"></i>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="./category/residential-property-for-sale.php" class="drop-down">
+                                    Noida
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./category/commercial-property-for-sale.php" class="drop-down">
+                                    Gurgaon
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="./category/plots-for-sale.php" class="drop-down">
+                                    Mumbai
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./category/studio-apartments-for-sale.php" class="drop-down">
+                                    Goa
+                                </a>
+                            </li>
+                        </ul>
                     </li>
-                    <li>
-                        <a href="./category/studio-apartments.php" class="drop-down">
-                            Studio Apartments
-                        </a>
+                    <li class="menu-item-has-children"> <a href="./category/studio-apartment-for-sale" class="drop-down">Studio Apartments </a><i class="bi bi-plus dropdown-icon"></i>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="./category/residential-property-for-sale.php" class="drop-down">
+                                    Noida
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./category/commercial-property-for-sale.php" class="drop-down">
+                                    Gurgaon
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="./category/plots-for-sale.php" class="drop-down">
+                                    Mumbai
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./category/studio-apartments-for-sale.php" class="drop-down">
+                                    Goa
+                                </a>
+                            </li>
+                        </ul>
                     </li>
-                    <li>
-                        <a href="./category/plots.php" class="drop-down">
-                            Plots
-                        </a>
+                    <li class="menu-item-has-children"> <a href="./category/plots-for-sale" class="drop-down">Plots </a><i class="bi bi-plus dropdown-icon"></i>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="./category/residential-property-for-sale.php" class="drop-down">
+                                    Noida
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./category/commercial-property-for-sale.php" class="drop-down">
+                                    Gurgaon
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="./category/plots-for-sale.php" class="drop-down">
+                                    Mumbai
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./category/studio-apartments-for-sale.php" class="drop-down">
+                                    Goa
+                                </a>
+                            </li>
+                        </ul>
                     </li>
 
 

@@ -270,7 +270,7 @@ $properties = [
         'images' => [
             'assets/img/projectdetails/migsun1.jpeg',
             'assets/img/projectdetails/migsun2.jpeg',
-            'assets/img/projectdetails/migsun3.jpeg',
+            // 'assets/img/projectdetails/migsun3.jpeg',
         ],
         'price' => 'On Request',
         'detailsPage' => '#',
