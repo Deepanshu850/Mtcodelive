@@ -17,6 +17,202 @@ include "./data/blogdata.php";
             max-width: 165px !important;
         }
     </style>
+     <style>
+                /* Navigation Styles */
+                .navbar {
+                    background-color: #ffffff;
+                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                    padding: 16px;
+                }
+
+                .nav-list {
+                    list-style: none;
+                    display: flex;
+                }
+
+                .nav-item {
+                    position: relative;
+                    margin-right: 20px;
+                }
+
+                .nav-link {
+                    text-decoration: none;
+                    color: #333333;
+                    font-weight: bold;
+                    padding: 8px 12px;
+                    display: inline-block;
+                }
+
+                .nav-link:hover {
+                    color: #007bff;
+                }
+
+                /* Dropdown Styles */
+                .dropdown-content {
+                    display: none;
+                    position: absolute;
+                    left: 0;
+                    top: 100%;
+                    width: 500px;
+                    background-color: #ffffff;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    border-radius: 8px;
+                    z-index: 1000;
+                    transition: opacity 0.3s ease, transform 0.3s ease;
+                    opacity: 0;
+                    transform: translateY(10px);
+                }
+
+                .nav-item:hover .dropdown-content {
+                    display: block;
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+
+                .dropdown-link {
+                    display: block;
+                    padding: 12px;
+                    color: #333333;
+                    text-decoration: none;
+                    border-bottom: 1px solid #f0f0f0;
+                }
+
+                header.style-1 .main-menu ul>li a.dropdown-link {
+                    transition-duration: 0.3s;
+
+                }
+
+                .dropdown-link:hover {
+                    background-color: #f0f0f0;
+                }
+
+                .dropdown-item-content {
+                    display: flex;
+                    align-items: center;
+                }
+
+                .dropdown-text {
+                    flex: 1;
+                    padding-right: 10px;
+                }
+
+                .dropdown-image {
+                    width: 150px;
+                    height: 100px;
+                    /* object-fit: cover; */
+                    border-radius: 8px;
+                }
+
+                .dropdown-title {
+                    margin: 0 0 4px;
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #333333;
+                    letter-spacing: 0.35px;
+                }
+
+                .dropdown-description {
+                    font-size: 12px;
+                    color: #666666;
+                    line-height: 1.6;
+                    text-transform: capitalize;
+                }
+
+                /* Responsive Design */
+                @media (max-width: 768px) {
+                    .nav-list {
+                        flex-direction: column;
+                    }
+
+                    .nav-item {
+                        margin-bottom: 10px;
+                    }
+
+                    .dropdown-content {
+                        width: 100%;
+                        left: 0;
+                    }
+
+                    .dropdown-item-content {
+                        flex-direction: column;
+                    }
+
+                    .dropdown-text {
+                        padding-right: 0;
+                        margin-bottom: 10px;
+                    }
+
+                    .dropdown-image {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+                .drop-down {
+    position: relative;
+    display: inline-block;
+    color: #000; /* Adjust as needed */
+    text-decoration: none;
+    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.drop-down:hover {
+    transform: scale(1.1); /* Slightly enlarges the link */
+    color: #ff6347; /* Change color on hover, adjust as needed */
+}
+
+.drop-down::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ff6347; /* Adjust as needed */
+    transition: width 0.3s ease-in-out;
+    transform: translateX(-50%);
+}
+
+.drop-down:hover::after {
+    width: 100%; /* Expands the underline effect on hover */
+}
+.pop-up-link {
+    position: relative;
+    display: inline-block;
+    color: #000; /* Adjust as needed */
+    text-decoration: none;
+    animation: popUp 1s infinite; /* Infinite pop-up animation */
+    transition: color 0.2s ease-in-out;
+}
+
+.pop-up-link:hover {
+    color: #ff6347; /* Change color on hover, adjust as needed */
+}
+
+@keyframes popUp {
+    0%, 100% {
+        transform: scale(1); /* Normal size at the start and end */
+    }
+    50% {
+        transform: scale(1.1); /* Larger size in the middle */
+    }
+}
+
+.pop-up-link::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ff6347; /* Adjust as needed */
+    transition: width 0.3s ease-in-out;
+    transform: translateX(-50%);
+}
+
+.pop-up-link:hover::after {
+    width: 100%; /* Expands the underline effect on hover */
+}
+            </style>
     <div class="header-logo d-lg-none d-flex"> <a href="index.php"><img alt="Best Real Estate Property Consultant in Delhi/NCR" class="img-fluid" src="./assets/img/logo.png"></a> </div>
     <div class="main-menu">
         <div class="mobile-logo-area d-lg-none d-flex justify-content-between align-items-center">
@@ -176,137 +372,8 @@ include "./data/blogdata.php";
                 </div>
             </li>
 
-            <style>
-                /* Navigation Styles */
-                .navbar {
-                    background-color: #ffffff;
-                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-                    padding: 16px;
-                }
-
-                .nav-list {
-                    list-style: none;
-                    display: flex;
-                }
-
-                .nav-item {
-                    position: relative;
-                    margin-right: 20px;
-                }
-
-                .nav-link {
-                    text-decoration: none;
-                    color: #333333;
-                    font-weight: bold;
-                    padding: 8px 12px;
-                    display: inline-block;
-                }
-
-                .nav-link:hover {
-                    color: #007bff;
-                }
-
-                /* Dropdown Styles */
-                .dropdown-content {
-                    display: none;
-                    position: absolute;
-                    left: 0;
-                    top: 100%;
-                    width: 500px;
-                    background-color: #ffffff;
-                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-                    border-radius: 8px;
-                    z-index: 1000;
-                    transition: opacity 0.3s ease, transform 0.3s ease;
-                    opacity: 0;
-                    transform: translateY(10px);
-                }
-
-                .nav-item:hover .dropdown-content {
-                    display: block;
-                    opacity: 1;
-                    transform: translateY(0);
-                }
-
-                .dropdown-link {
-                    display: block;
-                    padding: 12px;
-                    color: #333333;
-                    text-decoration: none;
-                    border-bottom: 1px solid #f0f0f0;
-                }
-
-                header.style-1 .main-menu ul>li a.dropdown-link {
-                    transition-duration: 0.3s;
-
-                }
-
-                .dropdown-link:hover {
-                    background-color: #f0f0f0;
-                }
-
-                .dropdown-item-content {
-                    display: flex;
-                    align-items: center;
-                }
-
-                .dropdown-text {
-                    flex: 1;
-                    padding-right: 10px;
-                }
-
-                .dropdown-image {
-                    width: 150px;
-                    height: 100px;
-                    /* object-fit: cover; */
-                    border-radius: 8px;
-                }
-
-                .dropdown-title {
-                    margin: 0 0 4px;
-                    font-size: 14px;
-                    font-weight: 600;
-                    color: #333333;
-                    letter-spacing: 0.35px;
-                }
-
-                .dropdown-description {
-                    font-size: 12px;
-                    color: #666666;
-                    line-height: 1.6;
-                    text-transform: capitalize;
-                }
-
-                /* Responsive Design */
-                @media (max-width: 768px) {
-                    .nav-list {
-                        flex-direction: column;
-                    }
-
-                    .nav-item {
-                        margin-bottom: 10px;
-                    }
-
-                    .dropdown-content {
-                        width: 100%;
-                        left: 0;
-                    }
-
-                    .dropdown-item-content {
-                        flex-direction: column;
-                    }
-
-                    .dropdown-text {
-                        padding-right: 0;
-                        margin-bottom: 10px;
-                    }
-
-                    .dropdown-image {
-                        width: 100%;
-                        height: auto;
-                    }
-                }
-            </style>
+           
+              <li> <a href="./referal" class="drop-down pop-up-link">Referal Program</a> </li>
             <li class="menu-item-has-children"> <a href="#" class="drop-down">Others </a><i class="bi bi-plus dropdown-icon"></i>
                 <ul class="sub-menu">
                     <li> <a href="./about-us" class="drop-down">About</a> </li>
