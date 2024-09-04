@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0">
 
     <title>
-        Plots for Sale in Goa
+        Studio Apartments for Sale in Goa
     </title>
     <meta name="description" content="">
     <meta name="keywords" content="" />
@@ -22,7 +22,7 @@
 
 
 
-    <link rel="canonical" href="https://moneytreerealty.com/category/plots-for-sale-goa" />
+    <link rel="canonical" href="https://moneytreerealty.com/category/studio-apartment-for-sale-goa" />
 
 
 
@@ -139,7 +139,6 @@
 
 </head>
 
-
 <body class="light-theme">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2ZBWP94" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -151,13 +150,11 @@
     include './header.php';
     ?>
 
-
+    <!-- property -->
     <div class="search-container">
         <form method="GET" action="" class="search-form">
             <div class="form-group d-flex flex-wrap justify-content-center">
-                <h1 style="font-size: 20px;">
-                    Plots for Sale in Goa
-                </h1>
+                <h1 style="font-size: 20px;">Studio Apartments for Sale in Goa</h1>
                 <input type="text" class="form-control" name="search" id="exampleInputtext1" placeholder="Enter City or Property Name to search properties here" value="<?php echo isset($_GET['search']) ? htmlspecialchars($_GET['search']) : ''; ?>">
                 <button type="submit" class="black-btn">Search</button>
             </div>
@@ -173,7 +170,7 @@
             $pattern = '/goa/i';
 
             $matchesLocation = preg_match($pattern, strtolower($item['location']));
-            $isResidential = in_array('plots', array_map('strtolower', $item['type']));
+            $isResidential = in_array('studio apartments', array_map('strtolower', $item['type']));
 
             // Filter out properties that match both 'Noida' in location and 'Residential' in type
             if ($matchesLocation && $isResidential) {
@@ -194,7 +191,6 @@
     include './more-tags.php';
     include './footer.php';
     ?>
-
 
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>

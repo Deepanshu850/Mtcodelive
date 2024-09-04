@@ -33,27 +33,107 @@
 
                 </li>
 
-                <li class="menu-item-has-children"> <a href="../top-real-estate-poperty-consultant-in-india.php" class="drop-down">PROJECTS </a><i class="bi bi-plus dropdown-icon"></i>
+                <li class="menu-item-has-children"> <a href="../top-real-estate-poperty-consultant-in-india" class="drop-down">PROJECTS </a><i class="bi bi-plus dropdown-icon"></i>
                     <ul class="sub-menu">
-                        <li>
-                            <a href="../category/residential-property.php" class="drop-down">
-                                Residential
-                            </a>
+                        <li class="menu-item-has-children"> <a href="../category/residential-property" class="drop-down">Residential </a><i class="bi bi-plus dropdown-icon"></i>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="../category/residential-property-for-sale-noida" class="drop-down">
+                                        Noida
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../category/residential-property-for-sale-gurgaon" class="drop-down">
+                                        Gurgaon
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="../category/residential-property-for-sale-mumbai" class="drop-down">
+                                        Mumbai
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../category/residential-property-for-sale-goa" class="drop-down">
+                                        Goa
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
-                        <li>
-                            <a href="../category/commercial-property.php" class="drop-down">
-                                Commercial
-                            </a>
+                        <li class="menu-item-has-children"> <a href="../category/commercial-property" class="drop-down">Commercial </a><i class="bi bi-plus dropdown-icon"></i>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="../category/commercial-property-for-sale-noida" class="drop-down">
+                                        Noida
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../category/commercial-property-for-sale-gurgaon" class="drop-down">
+                                        Gurgaon
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="../category/commercial-property-for-sale-mumbai" class="drop-down">
+                                        Mumbai
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../category/commercial-property-for-sale-goa" class="drop-down">
+                                        Goa
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
-                        <li>
-                            <a href="../category/studio-apartments.php" class="drop-down">
-                                Studio Apartments
-                            </a>
+                        <li class="menu-item-has-children"> <a href="../category/studio-apartments" class="drop-down">Studio Apartments </a><i class="bi bi-plus dropdown-icon"></i>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="../category/studio-apartments-for-sale-noida" class="drop-down">
+                                        Noida
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../category/studio-apartments-for-sale-gurgaon" class="drop-down">
+                                        Gurgaon
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="../category/studio-apartments-for-sale-mumbai" class="drop-down">
+                                        Mumbai
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../category/studio-apartments-for-sale-goa" class="drop-down">
+                                        Goa
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
-                        <li>
-                            <a href="../category/plots.php" class="drop-down">
-                                Plots
-                            </a>
+                        <li class="menu-item-has-children"> <a href="../category/plots" class="drop-down">Plots </a><i class="bi bi-plus dropdown-icon"></i>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="../category/plots-for-sale-noida" class="drop-down">
+                                        Noida
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../category/plots-for-sale-gurgaon" class="drop-down">
+                                        Gurgaon
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="../category/plots-for-sale-mumbai" class="drop-down">
+                                        Mumbai
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../category/plots-for-sale-goa" class="drop-down">
+                                        Goa
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
 
 
@@ -79,15 +159,15 @@
                         $topPosts = array_slice($posts, 0, 3);
 
                         foreach ($topPosts as $post) {
-                            echo '<a href="../blog/' . generateSlug($post['title']) . '" class="dropdown-link">';
-                            echo '<div class="dropdown-item-content">';
-                            echo '<div class="dropdown-text">';
-                            echo '<h3 class="dropdown-title">' . $post['title'] . '</h3>';
-                            echo '<p class="dropdown-description">' . substr($post['description'], 0, 100) . '...</p>';
-                            echo '</div>';
-                            echo '<img src="../blog/' . $post['imageUrl'] . '" alt="' . $post['title'] . '" class="dropdown-image">';
-                            echo '</div>';
-                            echo '</a>';
+                            echo '<a href="../blog/' . generateSlug($post['title']) . '" class="dropdown-link">
+                            <div class="dropdown-item-content">
+                            <div class="dropdown-text">
+                            <h3 class="dropdown-title">' . $post['title'] . '</h3>
+                            <p class="dropdown-description">' . substr($post['description'], 0, 100) . '...</p>
+                            </div>
+                            <img src="../blog/' . $post['imageUrl'] . '" alt="' . $post['title'] . '" class="dropdown-image">
+                            </div>
+                            </a>';
                         }
                         ?>
                     </div>

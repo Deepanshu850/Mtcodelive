@@ -11,25 +11,26 @@
 
 
     <meta name="description" content="Noida Sector 18, near DND Flyway, Retail & Commercial Hub in Noida Real Estate, Popular Shopping Destinations like Atta Market, DLF Mall of India." />
-    <meta name="keywords" content="Noida Sector 18, DND Flyway, Real Estate, Retail Hub , Commercial Hub, Atta Market, DLF Mall Of
-India, Shopping Destinations, Noida Life, Urban Living, Noida Real Estate, Commercial Properties, 
-Retail Spaces, Investment Opportunities, Shopping Hub, Metro Connectivity, Noida Development,
-Property Investment High Street Retail, Residential Apartments, Prime Location, MNCs, Startups,
-Business Park, Tourism Boost, Luxury Living, Modern Infrastructure, Real Estate Trends, Noida
-Shopping, Vibrant Community, metro station noida sector 18, noida sector 18 metro station, sector 
-18 noida uttar pradesh, noida sector 18 uttar pradesh 201301, hotels in noida sector 18, haldiram 
-noida sector 18, radisson blu noida sector 18, radisson noida sector 18, radisson noida sector 18, cafe 
-in noida sector 18, noida sector 18 mall, spa in noida sector 18, wine and beer shop noida sector 18, 
-icici bank senior mall noida sector 18 branch & atm, tanishq jewellery noida sector 18, hotels near 
-noida sector 18, max hospital noida sector 18, noida sector 18 market, noida sector 18 pin code, vijay 
-sales noida sector 18, gip mall noida sector 18, gip noida sector 18, noida sector 18 water park, atta 
-market noida sector 18, dlf mall noida sector 18, aqi noida sector 18, icici bank noida sector 18, icici 
-bank noida sector 18 lakme salon noida sector 18, noida sector 18 water park ticket price, rajiv 
-chowk to noida sector 18, swagath noida sector 18, caratlane noida sector 18, dlf mall of india sector 
-18 noida uttar pradesh, hdfc bank noida sector 18, icici bank ifsc code noida sector 18, Delhi Noida 
-Direct Flyway, DND Flyover, dnd flyover full form, full form of dnd flyover, dnd flyover noida, noida 
-dnd flyover, dnd flyover today, dnd flyover directions, dnd flyover delhi, dnd flyover map, dnd flyover 
-news, ashram to dnd flyover" />
+
+
+
+    <meta name="keywords" content="Noida Sector 18, DND Flyway, Real Estate, Retail Hub , Commercial Hub, Atta  Market, DLF Mall Of India, Shopping Destinations, Noida Life, Urban Living, Noida Real Estate, Commercial Properties, Retail Spaces, Investment Opportunities, Shopping Hub, Metro Connectivity, Noida Development,
+        Property Investment High Street Retail, Residential Apartments, Prime Location, MNCs, Startups,
+        Business Park, Tourism Boost, Luxury Living, Modern Infrastructure, Real Estate Trends, Noida
+        Shopping, Vibrant Community, metro station noida sector 18, noida sector 18 metro station, sector 
+        18 noida uttar pradesh, noida sector 18 uttar pradesh 201301, hotels in noida sector 18, haldiram 
+        noida sector 18, radisson blu noida sector 18, radisson noida sector 18, radisson noida sector 18, cafe 
+        in noida sector 18, noida sector 18 mall, spa in noida sector 18, wine and beer shop noida sector 18, 
+        icici bank senior mall noida sector 18 branch & atm, tanishq jewellery noida sector 18, hotels near 
+        noida sector 18, max hospital noida sector 18, noida sector 18 market, noida sector 18 pin code, vijay 
+        sales noida sector 18, gip mall noida sector 18, gip noida sector 18, noida sector 18 water park, atta 
+        market noida sector 18, dlf mall noida sector 18, aqi noida sector 18, icici bank noida sector 18, icici 
+        bank noida sector 18 lakme salon noida sector 18, noida sector 18 water park ticket price, rajiv 
+        chowk to noida sector 18, swagath noida sector 18, caratlane noida sector 18, dlf mall of india sector 
+        18 noida uttar pradesh, hdfc bank noida sector 18, icici bank ifsc code noida sector 18, Delhi Noida 
+        Direct Flyway, DND Flyover, dnd flyover full form, full form of dnd flyover, dnd flyover noida, noida 
+        dnd flyover, dnd flyover today, dnd flyover directions, dnd flyover delhi, dnd flyover map, dnd flyover 
+        news, ashram to dnd flyover" />
 
 
     <meta name="Owner" content="Moneytreerealty.com" />
@@ -51,6 +52,99 @@ news, ashram to dnd flyover" />
 
     <link rel="canonical" href="https://moneytreerealty.com/category/noida-sector-18" />
 
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "name": "Sector 18 Noida",
+            "image": "https://moneytreerealty.com/noida-real-estate/assets/image/sector-18-noida-banner.webp",
+            "description": "Sector 18 Noida, situated in the north-west direction of the city, is a prominent commercial and residential hub known as the 'Connaught Place of Noida.' It offers seamless connectivity via the Delhi-Noida Direct Flyway (DND Flyway) and the Yamuna Expressway.",
+            "brand": {
+                "@type": "Brand",
+                "name": "Moneytree Realty"
+            },
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.7",
+                "ratingCount": "2630"
+            }
+        }
+    </script>
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+                    "@type": "Question",
+                    "name": "What is the pin code of Noida Sector 18?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Noida Sector 18 is a prominent retail and commercial hub of Noida with a pin code of 201301."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What are the average property prices in Sector 18 Noida?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The average price of commercial spaces in Sector 18 costs around ₹10,500 to ₹16,700 per square foot. It has witnessed a year-on-year growth of about 11.03% in property prices."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which metro station is near Sector 18?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The nearest metro stations to Sector 18 are Noida Sector 18 Metro Station, Botanical Garden, Noida Sector 16 Metro Station, and Okhla Bird Sanctuary."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which district is Noida Sector 18?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Noida Sector 18 comes under Gautam Buddha District of Uttar Pradesh with a pin code of 201301."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is the population of Noida Sector 18?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Noida Sector 18 comes under Gautam Buddha District of Uttar Pradesh with an average population of around 8,463."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Why is Sector 18 Noida famous?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Noida Sector 18 is the retail and commercial hub of the city, featuring DLF Mall of India, Great India Place Mall, Wave Mall, and Atta Market. It is commonly referred to as the ‘Connaught Place of Noida’."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is the full form of Noida?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Noida stands for ‘New Okhla Industrial Development Area’, a planned city in Uttar Pradesh."
+                    }
+                }
+            ]
+        }
+    </script>
+
+
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link href="../assets/css/nice-select.css" rel="stylesheet">
+    <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
+    <link rel="stylesheet" href="../assets/css/property-page.css">
+
+
 
 
     <!-- Google Tag Manager -->
@@ -71,29 +165,8 @@ news, ashram to dnd flyover" />
         })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
     </script>
     <!-- End Google Tag Manager -->
-    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../assets/css/jquery-ui.css" rel="stylesheet">
-    <link href="../assets/css/bootstrap-icons.css" rel="stylesheet">
-    <link href="../assets/css/all.min.css" rel="stylesheet">
-    <link href="../assets/css/animate.min.css" rel="stylesheet">
-    <link href="../assets/css/jquery.fancybox.min.css" rel="stylesheet">
-    <link href="../assets/css/fontawesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="../assets/css/slick.css">
-    <link rel="stylesheet" href="../assets/css/slick-theme.css">
-    <link rel="stylesheet" href="../assets/css/magnific-popup.css">
-    <link href="../assets/css/boxicons.min.css" rel="stylesheet">
-    <link href="../assets/css/nice-select.css" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="canonical" href="https://moneytreerealty.com/top-real-estate-poperty-consultant-in-india.php" />
 
 
-
-
-
-    <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
-    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-JZJY23MWW7"></script>
     <script>
@@ -113,428 +186,16 @@ news, ashram to dnd flyover" />
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2ZBWP94" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <style>
-        *,
-        *::after,
-        *::before {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        .s-soft {
-            display: block;
-            position: fixed;
-            top: 250px;
-            /* left: 10px; */
-            z-index: 1000;
-            transition: all linear 0.2s;
-        }
-
-        .s-soft a:first-child {
-            border-radius: 0 5px 0 0;
-        }
-
-        .s-soft a:last-child {
-            border-radius: 0 0 5px 0;
-        }
-
-        .s-item {
-            display: block;
-            width: 40px;
-            height: 40px;
-            color: white;
-            font-size: 15px;
-            line-height: 30px;
-            text-align: center;
-            transition: all linear 0.2s;
-        }
-
-        .s-item:hover {
-            width: 55px;
-            border-radius: 0px 20px 20px 0px;
-        }
-
-        #so-open {
-            display: block;
-            position: fixed;
-            top: 100px;
-            left: -90px;
-            border-radius: 0 30px 30px 0;
-            transition: all linear 0.2s;
-        }
-
-        .facebook {
-            background-color: #3b5999;
-        }
-
-        .twitter {
-            background-color: #3AAFD6;
-        }
-
-        .print {
-            background-color: #de3c7d;
-        }
-
-        .pinterest {
-            background-color: #BD081C;
-        }
-
-        .linkedin {
-            background-color: #0e76a8;
-        }
-
-        .instagram {
-            background-color: #ed006f;
-        }
-
-        .so-collapse {
-            left: -30px;
-        }
-
-        /* Media Query to hide the sidebar on screens with a maximum width of 767 pixels */
-        @media (max-width: 767px) {
-            .s-soft {
-                display: none;
-            }
-
-            #so-open {
-                display: none;
-            }
-        }
-    </style>
-
-    <div class="s-soft">
-        <a href="https://www.facebook.com/moneytreerealtyofficial" class="s-item facebook">
-            <span class="fa fa-facebook"></span>
-        </a>
-
-        <a href="https://www.linkedin.com/company/moneytree-realty-services/mycompany/" class="s-item linkedin">
-            <span class="fa fa-linkedin"></span>
-        </a>
-        <a href="https://www.instagram.com/moneytreerealtyofficial/" class="s-item instagram">
-            <span class="fa fa-instagram"></span>
-        </a>
-
-    </div>
-    <a id="so-open" class="s-item print so-collapse">
-        <span class="fa fa-arrow-right"></span>
-    </a>
-
-
-
 
     <?php include './header.php';  ?>
-
-
-
-    <style>
-        main>h1,
-        h2,
-        h3,
-        h4 {
-
-            color: #005b52;
-
-        }
-
-        main>p {
-            text-align: justify;
-            margin-block: 0 1.5rem;
-        }
-
-        h1 {
-            font-size: 32px;
-            text-wrap: wrap;
-            text-align: center;
-            padding-block: 1rem 2rem;
-            /* margin-top: 2rem; */
-        }
-
-        h2 {
-            padding-block: 1rem;
-            margin: 0;
-            font-size: 28px;
-        }
-
-        h3 {
-            font-size: 22px;
-        }
-
-
-
-        main {
-
-
-            width: 67%;
-            margin-inline: auto;
-            margin-bottom: 2rem;
-            padding-inline: 2.5rem;
-
-
-        }
-
-
-        ol {
-            font-weight: bold;
-        }
-
-        .arrow-list {
-            list-style: none;
-
-
-        }
-
-        .arrow-list>li {
-            position: relative;
-            margin-inline-start: 20px;
-            margin-top: 0.3rem;
-            font-weight: 400;
-            font-size: 16px;
-
-        }
-
-
-        .arrow-list>li::before {
-            content: "➔";
-            color: #005b52;
-            display: inline-block;
-            position: absolute;
-            top: 3px;
-            left: -25px;
-        }
-
-        @media (width < 740px) {
-            main {
-                width: 100%;
-                padding-inline: 1.6rem;
-            }
-
-            main h1 {
-                font-size: 28px;
-            }
-        }
-
-        .side-flex {
-            display: flex;
-        }
-
-        @media (width < 1000px) {
-            .side-flex {
-                flex-direction: column;
-                align-items: center;
-            }
-        }
-
-        .side-flex>div {
-            width: 30%;
-        }
-
-        .beautiful-table {
-            width: 88%;
-            margin: 0 auto;
-            margin-bottom: 1.5rem;
-            border-collapse: collapse;
-            text-align: center;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-
-
-        .beautiful-table td {
-            padding: 10px 10px;
-            border: 1px solid #ddd;
-
-        }
-
-        .beautiful-table tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-
-
-        .beautiful-table th {
-            background-color: #eeecec;
-            color: black;
-            padding: 10px 10px;
-            border: 1px solid #ddd;
-            text-shadow: none;
-            font-weight: 600;
-        }
-
-        @media (width < 500px) {
-
-            .beautiful-table th,
-            .beautiful-table td {
-                padding: 6px 8px;
-            }
-
-            .beautiful-table,
-            .beautiful-table p {
-                font-size: 11px;
-                line-height: 1.6;
-                width: 100%;
-            }
-
-            h1 {
-                text-align: center;
-            }
-        }
-
-        @media (width < 1000px) {
-            .side-flex>div {
-                width: 100%;
-            }
-        }
-
-        h3+table.beautiful-table {
-            margin-top: 1.2rem;
-        }
-    </style>
-
-
-
-
-
-
-
-    <style>
-        html {
-            scroll-behavior: smooth;
-            scroll-padding: 100px;
-
-        }
-
-        #fake-heading {
-            font-family: var(--font-montserrat);
-            color: #0D0D0D;
-            font-weight: 600;
-            font-size: 18px;
-            margin-top: 10px;
-        }
-
-        .tableOfContent {
-            display: flex;
-            flex-direction: column;
-
-            background: rgba(241, 238, 238, 0.55);
-            padding: 0.6rem 1.5rem;
-            font-weight: 600;
-            border-radius: 10px;
-        }
-
-        .tableOfContent a,
-        .tableOfContent li {
-            background: linear-gradient(90deg, #00796b, #009688, #26a69a);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-size: 14px;
-            font-weight: 600;
-            transition: transform 180ms ease;
-        }
-
-        .tableOfContent a:hover,
-        .tableOfContent li:hover {
-            background: linear-gradient(-90deg, #00796b, #009688, #26a69a);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-size: 14px;
-            font-weight: 600;
-            transform: translate(2px, -2px);
-        }
-
-        .tableOfContent ul {
-            list-style: none;
-            padding-left: 2rem;
-        }
-
-        .tableOfContent>div:first-child {
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .tableOfContent .content {
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 700ms ease;
-        }
-
-        .tableOfContent .content.open {
-            max-height: 1000px;
-
-        }
-
-        .tableOfContent i {
-            font-size: 30px;
-        }
-
-        .tableOfContent button {
-            background: transparent;
-            padding-inline: 6px;
-        }
-
-        .tableOfContent button:active {
-
-            outline: 2px solid grey;
-        }
-
-        @media (width < 700px) {
-            #fake-heading {
-                font-size: 15px;
-            }
-
-            .tableOfContent i {
-                font-size: 24px;
-            }
-
-            main>p {
-                text-align: left;
-            }
-        }
-    </style>
-
-
 
 
 
     <!-- main content -->
     <div class="side-flex">
 
-
-        <style>
-            .misc-icon {
-                color: #59d469;
-                margin-left: 4px;
-            }
-        </style>
         <main>
 
-            <style>
-                .image-wrapper {
-                    padding-block: 2rem 3rem;
-                    display: flex;
-                    justify-content: center;
-                }
-
-                .image-wrapper img {
-
-                    width: 100%;
-                    border-radius: 8px;
-
-                    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-
-                }
-
-                @media (width < 700px) {
-                    .image-wrapper img {
-
-                        width: 100%;
-
-
-                    }
-                }
-            </style>
             <div class="image-wrapper">
 
                 <img src="../assets/img/noida-sector-18-banner.webp" alt="Noida Sector 18 | DND Flyway">
@@ -559,7 +220,7 @@ news, ashram to dnd flyover" />
                         1. Sector 18 Noida - Quick Insights
 
                     </a>
-                    <br>
+
                     <a href="#heading-2">
                         2. Know Everything About Noida Sector 18
                     </a>
@@ -611,12 +272,12 @@ news, ashram to dnd flyover" />
                         4. Noida Sector 18 connectivity with nearby landmarks
 
                     </a>
-                    <br>
+
 
                     <a href="#heading-5">
                         5. Investment Insights in Noida Sector 18
                     </a>
-                    <br>
+
                     <a href="#heading-6">
                         6. Upcoming RERA Approved Projects near Noida Sector 18
                     </a>
@@ -691,7 +352,7 @@ news, ashram to dnd flyover" />
                             <p>Delhi-Noida Direct Flyway</p>
                         </td>
                         <td>
-                            <p>₹10,500 to ₹16,700/ sq ft&nbsp;
+                            <p>₹10,500 to ₹16,700/ sq ft
                                 <i class="bi bi-graph-up-arrow misc-icon"></i>
                             </p>
                         </td>
@@ -751,23 +412,40 @@ news, ashram to dnd flyover" />
             <h3 id="subheading-3-1">Great things about Noida Sector 18</h3>
 
             <ul class="arrow-list">
-                <li>Seamless connectivity with the Delhi-Noida Direct Flyway, Faridabad - Noida - Gurgaon Expressway (FNG Expressway), Mahamaya Flyover and Yamuna Expressway.</li>
-                <li>Enhanced connectivity with its own metro station on the Blue Line - Noida Sector 18 Metro Station.</li>
-                <li>Prominent commercial and residential locality with well-crafted design layouts in an array of commercial spaces, and residential apartments.</li>
-                <li>Located in close proximity to employment hubs like Safenet Infotech Ltd., Atrenta India Pvt. Ltd., Cosmic Corporate Park, Advant Navis Business Park, Aditya Tech Park, and Embassy Galaxy Business Park.&nbsp;</li>
-                <li>Features vast industrial development in the vicinity like Okhla Industrial Estate, Patparganj Industrial Area, and Sector 62 Industrial Area.</li>
-                <li>DLF Mall of India, Great India Place, Wave Mall, Senior Mall, Atta Market lie in close proximity to noida sector 18.</li>
-                <li>Noida Sector 18 provides promising capital appreciation and competitive rental yields.</li>
-                <li>Features close proximity to Indira Gandhi International Airport via the DND Flyway.</li>
+                <li>
+                    <p>Seamless connectivity with the Delhi-Noida Direct Flyway, Faridabad - Noida - Gurgaon Expressway (FNG Expressway), Mahamaya Flyover and Yamuna Expressway.</p>
+                </li>
+                <li>
+                    <p>Enhanced connectivity with its own metro station on the Blue Line - Noida Sector 18 Metro Station.</p>
+                </li>
+                <li>
+                    <p>Prominent commercial and residential locality with well-crafted design layouts in an array of commercial spaces, and residential apartments.</p>
+                </li>
+                <li>
+                    <p>Located in close proximity to employment hubs like Safenet Infotech Ltd., Atrenta India Pvt. Ltd., Cosmic Corporate Park, Advant Navis Business Park, Aditya Tech Park, and Embassy Galaxy Business Park.</p>
+                </li>
+                <li>
+                    <p>Features vast industrial development in the vicinity like Okhla Industrial Estate, Patparganj Industrial Area, and Sector 62 Industrial Area.</p>
+                </li>
+                <li>
+                    <p>DLF Mall of India, Great India Place, Wave Mall, Senior Mall, Atta Market lie in close proximity to Noida Sector 18.</p>
+                </li>
+                <li>
+                    <p>Noida Sector 18 provides promising capital appreciation and competitive rental yields.</p>
+                </li>
+                <li>
+                    <p>Features close proximity to Indira Gandhi International Airport via the DND Flyway.</p>
+                </li>
+
             </ul>
 
 
 
-            <h3 id="subheading-3-2" style="margin-top: 1.5rem;">Things that need attention in Noida Sector 18&nbsp;</h3>
+            <h3 id="subheading-3-2" style="margin-top: 1.5rem;">Things that need attention in Noida Sector 18 </h3>
 
             <ul class="arrow-list">
                 <li>Pose a constant problem of water logging during the times of monsoon</li>
-                <li>Often cause inconvenience due to traffic jams&nbsp;</li>
+                <li>Often cause inconvenience due to traffic jams </li>
                 <li>Residents and commuters often face the problem of car and vehicle parking</li>
                 <li>Pose of air pollution due to excessive vehicles</li>
                 <li>Caused inconvenience due to garbage dumping in areas near the noida sector 18 market.</li>
@@ -785,7 +463,7 @@ news, ashram to dnd flyover" />
 
 
 
-            <h3>Nearby Areas to Noida Sector 18&nbsp;</h3>
+            <h3>Nearby Areas to Noida Sector 18 </h3>
 
             <table class="beautiful-table">
                 <tbody>
@@ -859,7 +537,7 @@ news, ashram to dnd flyover" />
                             <p>Great India Place Mall</p>
                         </td>
                         <td>
-                            <p>Nearby&nbsp;</p>
+                            <p>Nearby </p>
                         </td>
                     </tr>
                     <tr>
@@ -1189,7 +867,7 @@ news, ashram to dnd flyover" />
                     </tr>
                     <tr>
                         <td>
-                            <p>Omaxe Royal Residency&nbsp;</p>
+                            <p>Omaxe Royal Residency </p>
                         </td>
                         <td>
                             <p>Noida Sector 18 - DND Flyway</p>
@@ -1249,17 +927,16 @@ news, ashram to dnd flyover" />
 
 
             <table class="beautiful-table">
-                <thead>
-                    <tr>
-                        <th scope="col" style="vertical-align:top">
-                            <p>Type of Property</p>
-                        </th>
-                        <th scope="col" style="vertical-align:top">
-                            <p>Commercial Property</p>
-                        </th>
-                    </tr>
-                </thead>
                 <tbody>
+                    <tr>
+                        <td>
+                            <p>Type of Property</p>
+                        </td>
+                        <td>
+                            <p>Commercial Property</p>
+                        </td>
+                    </tr>
+
                     <tr>
                         <td>
                             <p>Builder Name</p>
@@ -1371,23 +1048,22 @@ news, ashram to dnd flyover" />
             <h3>M3M The Line | Commercial Property in Sector 72 Noida</h3>
 
             <p>
-                <a href="../propertydetail/m3m-the-line-sector-72-noida.php"><strong>M3M The Line</strong></a> features state-of-the-art Double Height Shops, Studio Apartments, and Hi-Street Retail &amp; Food Court Space with architectural grandeur layout. The commercial spaces in M3M The Line are designed to increase foot traffic which consequently leads to prime visibility.&nbsp;
+                <a href="../propertydetail/m3m-the-line-sector-72-noida.php"><strong>M3M The Line</strong></a> features state-of-the-art Double Height Shops, Studio Apartments, and Hi-Street Retail &amp; Food Court Space with architectural grandeur layout. The commercial spaces in M3M The Line are designed to increase foot traffic which consequently leads to prime visibility.
             </p>
 
 
 
             <table class="beautiful-table">
-                <thead>
-                    <tr>
-                        <th scope="col" style="vertical-align:top">
-                            <p>Type of Property</p>
-                        </th>
-                        <th scope="col" style="vertical-align:top">
-                            <p>Commercial/Residential Property</p>
-                        </th>
-                    </tr>
-                </thead>
                 <tbody>
+                    <tr>
+                        <td>
+                            <p>Type of Property</p>
+                        </td>
+                        <td>
+                            <p>Commercial/Residential Property</p>
+                        </td>
+                    </tr>
+
                     <tr>
                         <td>
                             <p>Builder Name</p>
@@ -1567,7 +1243,7 @@ news, ashram to dnd flyover" />
             <h3>M3M The Cullinan | Residential Apartments in Sector 94 Noida</h3>
 
             <p>
-                <a href="../propertydetail/m3m-the-cullinan-sector-94-noida.php"><strong>M3M The Cullinan</strong></a> offers 3 BHK, 4 BHK flats in Noida with an array of amenities like swimming Pool with jacuzzi, shaded Cabanas, a business centre and squash court. It features beautifully designed floor lobbies with high-speed elevators.&nbsp;
+                <a href="../propertydetail/m3m-the-cullinan-sector-94-noida.php"><strong>M3M The Cullinan</strong></a> offers 3 BHK, 4 BHK flats in Noida with an array of amenities like swimming Pool with jacuzzi, shaded Cabanas, a business centre and squash court. It features beautifully designed floor lobbies with high-speed elevators.
             </p>
 
 
@@ -1630,23 +1306,22 @@ news, ashram to dnd flyover" />
             <h3>M3M The Line | Studio Apartments in Sector 72 Noida</h3>
 
             <p>
-                <a href="../propertydetail/m3m-the-line-sector-72-noida.php"><strong>M3M The line</strong></a> offers state-of-the-art studio apartments along with expansive high-street retail space on the ground floor exhibiting international as well as home grown brands. These studio apartments in Noida provide an array of modern amenities like 100% Power Back-up, Amphitheatre, club house, swimming pool, gym, safe play area for kids.&nbsp;
+                <a href="../propertydetail/m3m-the-line-sector-72-noida.php"><strong>M3M The line</strong></a> offers state-of-the-art studio apartments along with expansive high-street retail space on the ground floor exhibiting international as well as home grown brands. These studio apartments in Noida provide an array of modern amenities like 100% Power Back-up, Amphitheatre, club house, swimming pool, gym, safe play area for kids.
             </p>
 
 
 
             <table class="beautiful-table">
-                <thead>
-                    <tr>
-                        <th scope="col" style="vertical-align:top">
-                            <p>Type of Property</p>
-                        </th>
-                        <th scope="col" style="vertical-align:top">
-                            <p>Commercial/Residential Property</p>
-                        </th>
-                    </tr>
-                </thead>
                 <tbody>
+                    <tr>
+                        <td>
+                            <p>Type of Property</p>
+                        </td>
+                        <td>
+                            <p>Commercial/Residential Property</p>
+                        </td>
+                    </tr>
+
                     <tr>
                         <td>
                             <p>Builder Name</p>
@@ -1701,17 +1376,16 @@ news, ashram to dnd flyover" />
 
 
                 <table class="beautiful-table">
-                    <thead>
-                        <tr>
-                            <th scope="col" style="vertical-align:top">
-                                <p>Type of Property</p>
-                            </th>
-                            <th scope="col" style="vertical-align:top">
-                                <p>Residential Property</p>
-                            </th>
-                        </tr>
-                    </thead>
                     <tbody>
+                        <tr>
+                            <td>
+                                <p>Type of Property</p>
+                            </td>
+                            <td>
+                                <p>Residential Property</p>
+                            </td>
+                        </tr>
+
                         <tr>
                             <td>
                                 <p>Builder Name</p>
@@ -1766,17 +1440,16 @@ news, ashram to dnd flyover" />
 
 
                 <table class="beautiful-table">
-                    <thead>
-                        <tr>
-                            <th scope="col" style="vertical-align:top">
-                                <p>Type of Property</p>
-                            </th>
-                            <th scope="col" style="vertical-align:top">
-                                <p>Residential Property</p>
-                            </th>
-                        </tr>
-                    </thead>
                     <tbody>
+                        <tr>
+                            <td>
+                                <p>Type of Property</p>
+                            </td>
+                            <td>
+                                <p>Residential Property</p>
+                            </td>
+                        </tr>
+
                         <tr>
                             <td>
                                 <p>Builder Name</p>
@@ -1853,7 +1526,7 @@ news, ashram to dnd flyover" />
 
                 <p><a href="../index.php"><strong>MoneyTree Realty</strong></a> comprises professional <a href="../real-estate-consultant.php"><strong>real estate consultants</strong></a> that help you buy property for sale and make promising <a href="../blog/real-estate-investment-a-comprehensive-guide-on-real-estate.php">real estate investments</a>. We provide best-in-class property consultations from a diverse portfolio of commercial and residential properties.</p>
 
-                <p>Our real estate consultants provide valuable insights into market trends and latest real estate news and help you buy property for sale after a comprehensive property analysis.&nbsp;</p>
+                <p>Our real estate consultants provide valuable insights into market trends and latest real estate news and help you buy property for sale after a comprehensive property analysis. </p>
 
 
 
@@ -1895,227 +1568,46 @@ news, ashram to dnd flyover" />
                 </table>
 
 
-
-
-                <style>
-                    .faq {
-                        margin-bottom: 20px;
-                        padding: 10px;
-                        border: 1px solid #ccc;
-                        border-radius: 5px;
-                        overflow: hidden;
-                        position: relative;
-                    }
-
-                    .faq h3 {
-                        font-size: 18px;
-                        font-weight: bold;
-                        margin-bottom: 10px;
-                        cursor: pointer;
-                        padding-right: 1rem;
-                        color: #005B52;
-                    }
-
-                    @media (width < 700px) {
-                        .faq h3 {
-                            font-size: 15px;
-                        }
-                    }
-
-                    .faqq {
-
-                        padding-top: 30px;
-                        padding-bottom: 50px;
-                    }
-
-                    .faq p {
-                        margin-bottom: 10px;
-                    }
-
-                    .faq p strong {
-                        font-weight: bold;
-                    }
-
-                    .answer {
-                        display: none;
-                    }
-
-                    .arrow {
-                        position: absolute;
-                        top: 10px;
-                        right: 10px;
-                        font-size: 20px;
-                        cursor: pointer;
-                        transition: transform 0.3s ease;
-                        color: #005B52;
-                    }
-
-                    .collapsed .arrow {
-                        transform: rotate(0deg);
-                    }
-
-                    .expanded .arrow {
-                        transform: rotate(180deg);
-                    }
-                </style>
-
-
                 <h2 id="heading-8">
                     Frequently Asked Questions
                 </h2>
 
-                <div class="faq">
+                <section class="questions">
+                    <h2>What is the pin code of Noida Sector 18?</h2>
+                    <p>Noida Sector 18 is a prominent retail and commercial hub of Noida with a pin code of 201301.</p>
+                </section>
 
-                    <h3>
-                        What is the pin code of Noida Sector 18?
+                <section class="questions">
+                    <h2>What are the average property prices in Sector 18 Noida?</h2>
+                    <p>The average price of commercial spaces in Sector 18 costs around ₹10,500 to ₹16,700 per square foot. It has witnessed a year-on-year growth of about 11.03% in property prices.</p>
+                </section>
 
+                <section class="questions">
+                    <h2>Which metro station is near Sector 18?</h2>
+                    <p>The nearest metro stations to Sector 18 are Noida Sector 18 Metro Station, Botanical Garden, Noida Sector 16 Metro Station, and Okhla Bird Sanctuary.</p>
+                </section>
 
-                    </h3>
-                    <div class="answer">
-                        <p>
-                            Noida Sector 18 is a prominent retail and commercial hub of Noida with a pin code of 201301.
-                        </p>
-                    </div>
-                    <div class="arrow collapsed">&#9660;</div>
-                </div>
-                <div class="faq">
+                <section class="questions">
+                    <h2>Which district is Noida Sector 18?</h2>
+                    <p>Noida Sector 18 comes under Gautam Buddha District of Uttar Pradesh with a pin code of 201301.</p>
+                </section>
 
-                    <h3>
-                        What are the average property prices in Sector 18 Noida?
+                <section class="questions">
+                    <h2>What is the population of Noida Sector 18?</h2>
+                    <p>Noida Sector 18 comes under Gautam Buddha District of Uttar Pradesh with an average population of around 8,463.</p>
+                </section>
 
+                <section class="questions">
+                    <h2>Why is Sector 18 Noida famous?</h2>
+                    <p>Noida Sector 18 is the retail and commercial hub of the city, featuring DLF Mall of India, Great India Place Mall, Wave Mall, and Atta Market. It is commonly referred to as the ‘Connaught Place of Noida’.</p>
+                </section>
 
-                    </h3>
-                    <div class="answer">
-                        <p>
-                            The average price of commercial spaces in noida sector 18 costs around ₹10,500 to ₹16,700 per square feet. It has witnessed a Y-O-Y growth of about 11.03% price appreciations in properties.
-                        </p>
-                    </div>
-                    <div class="arrow collapsed">&#9660;</div>
-                </div>
-                <div class="faq">
-
-                    <h3>
-                        Which metro station is near noida sector 18?
-
-
-                    </h3>
-                    <div class="answer">
-                        <p>
-                            The nearest metro stations to Sector 18 are Noida Sector 18 Metro Station, Botanical Garden, Noida Sector 16 Metro Station, and Okhla Bird Sanctuary.
-                        </p>
-                    </div>
-                    <div class="arrow collapsed">&#9660;</div>
-                </div>
-                <div class="faq">
-
-                    <h3>
-                        Which district is Noida Sector 18?
-
-
-                    </h3>
-                    <div class="answer">
-                        <p>
-                            Noida Sector 18 comes under Gautam Buddha District of Uttar Pradesh with a pin code - 201301.
-                        </p>
-                    </div>
-                    <div class="arrow collapsed">&#9660;</div>
-                </div>
-                <div class="faq">
-
-                    <h3>
-                        What is the population of Noida Sector 18?
-
-
-
-                    </h3>
-                    <div class="answer">
-                        <p>
-                            Noida Sector 18 comes under Gautam Buddha District of Uttar Pradesh with an average population of around 8463.
-                        </p>
-                    </div>
-                    <div class="arrow collapsed">&#9660;</div>
-                </div>
-                <div class="faq">
-
-                    <h3>
-                        Why is noida sector 18 famous?
-
-
-                    </h3>
-                    <div class="answer">
-                        <p>
-                            Noida Sector 18 is the retail and commercial hub of the city, featuring DLF Mall of India, Great India Place Mall, Wave Mall, Atta Market. It is commonly referred to as the ‘Connaught Place of Noida’.
-                        </p>
-                    </div>
-                    <div class="arrow collapsed">&#9660;</div>
-                </div>
-                <div class="faq">
-
-                    <h3>
-                        What is the full form of Noida?
-
-
-                    </h3>
-                    <div class="answer">
-                        <p>
-                            Noida is the planned city in Uttar Pradesh that stands for ‘New Okhla Industrial Development Area’.
-                        </p>
-                    </div>
-                    <div class="arrow collapsed">&#9660;</div>
-                </div>
-
-
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-                <script>
-                    $(document).ready(function() {
-                        $(".faq h3").click(function() {
-                            $(this).next(".answer").slideToggle();
-                            $(this).parent().find(".arrow").toggleClass("collapsed expanded");
-                        });
-                    });
-                </script>
+                <section class="questions">
+                    <h2>What is the full form of Noida?</h2>
+                    <p>Noida stands for ‘New Okhla Industrial Development Area’, a planned city in Uttar Pradesh.</p>
+                </section>
 
         </main>
-
-        <!-- tag styles -->
-        <style>
-            .tag-wrapper {
-                margin-top: 2rem;
-                width: 90%;
-                margin-inline: auto;
-
-
-            }
-
-            .tags {
-                display: flex;
-                list-style-type: none;
-                flex-wrap: wrap;
-                gap: 3px;
-            }
-
-            .tags>li {
-
-                margin: 0;
-                background-color: rgba(0, 0, 0, 0.06);
-
-                padding: 0px 10px;
-                border-radius: 6px;
-
-
-            }
-
-            .tags>li>a {
-                font-size: 11px !important;
-                color: #333;
-                transition: color 150ms ease-in-out;
-            }
-
-            .tags>li>a:hover {
-                color: #EFB93F;
-            }
-        </style>
-
 
         <div class="side-flex-right">
             <?php
@@ -2475,43 +1967,16 @@ news, ashram to dnd flyover" />
 
     </div>
 
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script src="../assets/js/jquery-3.7.0.min.js"></script>
-    <script src="../assets/js/jquery-ui.js"></script>
-    <script src="../assets/js/bootstrap.min.js"></script>
-    <script src="../assets/js/popper.min.js"></script>
     <script src="../assets/js/swiper-bundle.min.js"></script>
     <script src="../assets/js/slick.js"></script>
-    <script src="../assets/js/waypoints.min.js"></script>
-    <script src="../assets/js/wow.min.js"></script>
     <script src="../assets/js/jquery.counterup.min.js"></script>
-    <script src="../assets/js/isotope.pkgd.min.js"></script>
     <script src="../assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="../assets/js/gsap.min.js"></script>
-    <script src="../assets/js/simpleParallax.min.js"></script>
-    <script src="../assets/js/TweenMax.min.js"></script>
-    <script src="../assets/js/jquery.marquee.min.js"></script>
     <script src="../assets/js/jquery.nice-select.min.js"></script>
     <script src="../assets/js/jquery.fancybox.min.js"></script>
     <script src="../assets/js/custom.js"></script>
-    <script>
-        $(".marquee_text").marquee({
-            direction: "left",
-            duration: 25000,
-            gap: 50,
-            delayBeforeStart: 0,
-            duplicated: true,
-            startVisible: true,
-        });
-        $(".marquee_text2").marquee({
-            direction: "left",
-            duration: 25000,
-            gap: 50,
-            delayBeforeStart: 0,
-            duplicated: true,
-            startVisible: true,
-        });
-    </script>
+    <script src="../assets/js/property-page.js"></script>
+
+
 </body>
 
 </html>

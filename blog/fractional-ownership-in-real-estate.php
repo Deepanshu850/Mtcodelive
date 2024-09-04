@@ -368,7 +368,7 @@ estate investment strategies 2024" />
                     <table class="beautiful-table">
                         <tbody>
                             <tr>
-                                <td>
+                                <td colspan="2">
                                     <p><strong>Investment Cap</strong></p>
                                 </td>
                             </tr>
@@ -396,7 +396,7 @@ estate investment strategies 2024" />
                     <table class="beautiful-table">
                         <tbody>
                             <tr>
-                                <td>
+                                <td colspan="2">
                                     <p><strong>Returns and Risks</strong></p>
                                 </td>
                             </tr>
@@ -424,7 +424,7 @@ estate investment strategies 2024" />
                     <table class="beautiful-table">
                         <tbody>
                             <tr>
-                                <td>
+                                <td colspan="2">
                                     <p><strong>Property Liquidity</strong></p>
                                 </td>
                             </tr>
@@ -452,7 +452,7 @@ estate investment strategies 2024" />
                     <table class="beautiful-table">
                         <tbody>
                             <tr>
-                                <td>
+                                <td colspan="2">
                                     <p><strong>Returns and Risks</strong></p>
                                 </td>
                             </tr>
@@ -499,39 +499,39 @@ estate investment strategies 2024" />
 
                     <ul class="arrow-list">
                         <li>
-                            <p>
+
                             <p>It will prompt more people to invest in real estate due to substantial investment cap and shared appreciation and depreciation.</p>
-                            </p>
+
                         </li>
                         <li>
-                            <p>
+
                             <p>It will help real estate investors to diversify their portfolio of commercial and residential properties and gain a high rate of investments.</p>
-                            </p>
+
                         </li>
                         <li>
-                            <p>
+
                             <p>Various emerging cryptocurrency, blockchains, and NFTs, would be quite beneficial as the demand for fractional ownership in real estate would surge.</p>
-                            </p>
+
                         </li>
                         <li>
-                            <p>
+
                             <p>The fractional ownership in real estate would be regulated and monitored by SEBI and RERA and the rules and regulation would be updated regularly to meet its traction and make real estate business in property shares more easier, accessible, safe, and secured.</p>
-                            </p>
+
                         </li>
                         <li>
-                            <p>
+
                             <p>The younger generation would have the emerging stake in fractional ownership in real estate due to low-cost entry investment, and wide use of digital platforms.</p>
-                            </p>
+
                         </li>
                         <li>
-                            <p>
+
                             <p>Fractional ownership in real estate would allow people to buy high-end properties with reduced risks and assuring high returns and competitive rental yields.</p>
-                            </p>
+
                         </li>
                         <li>
-                            <p>
+
                             <p>It would expand the ever-growing real estate industry in India and make it a prominent choice for wealth creation.</p>
-                            </p>
+
                         </li>
 
                     </ul>

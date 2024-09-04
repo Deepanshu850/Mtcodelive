@@ -32,9 +32,9 @@ include '../cookie.php';
                 <a href="../career" class="drop-down">CAREER</a>
 
             </li>
-            <li class="menu-item-has-children"> <a href="../top-real-estate-poperty-consultant-in-india.php" class="drop-down">PROJECTS </a><i class="bi bi-plus dropdown-icon"></i>
+            <li class="menu-item-has-children"> <a href="../top-real-estate-poperty-consultant-in-india" class="drop-down">PROJECTS </a><i class="bi bi-plus dropdown-icon"></i>
                 <ul class="sub-menu">
-                    <li class="menu-item-has-children"> <a href="./residential-property-for-sale.php" class="drop-down">Residential </a></i>
+                    <li class="menu-item-has-children"> <a href="./residential-property" class="drop-down">Residential </a><i class="bi bi-plus dropdown-icon"></i>
                         <ul class="sub-menu">
                             <li>
 
@@ -60,7 +60,7 @@ include '../cookie.php';
                             </li>
                         </ul>
                     </li>
-                    <li class="menu-item-has-children"> <a href="../category/commercial-property-for-sale" class="drop-down">Commercial </a></i>
+                    <li class="menu-item-has-children"> <a href="../category/commercial-property" class="drop-down">Commercial </a><i class="bi bi-plus dropdown-icon"></i>
                         <ul class="sub-menu">
                             <li>
                                 <a href="./commercial-property-for-sale-noida" class="drop-down">
@@ -85,32 +85,32 @@ include '../cookie.php';
                             </li>
                         </ul>
                     </li>
-                    <li class="menu-item-has-children"> <a href="../category/studio-apartment-for-sale" class="drop-down">Studio Apartments </a></i>
+                    <li class="menu-item-has-children"> <a href="../category/studio-apartments" class="drop-down">Studio Apartments </a><i class="bi bi-plus dropdown-icon"></i>
                         <ul class="sub-menu">
                             <li>
-                                <a href="./studio-apartment-for-sale-noida" class="drop-down">
+                                <a href="./studio-apartments-for-sale-noida" class="drop-down">
                                     Noida
                                 </a>
                             </li>
                             <li>
-                                <a href="./studio-apartment-for-sale-gurgaon" class="drop-down">
+                                <a href="./studio-apartments-for-sale-gurgaon" class="drop-down">
                                     Gurgaon
                                 </a>
                             </li>
 
                             <li>
-                                <a href="./studio-apartment-for-sale-mumbai" class="drop-down">
+                                <a href="./studio-apartments-for-sale-mumbai" class="drop-down">
                                     Mumbai
                                 </a>
                             </li>
                             <li>
-                                <a href="./studio-apartment-for-sale-goa" class="drop-down">
+                                <a href="./studio-apartments-for-sale-goa" class="drop-down">
                                     Goa
                                 </a>
                             </li>
                         </ul>
                     </li>
-                    <li class="menu-item-has-children"> <a href="../category/plots-for-sale" class="drop-down">Plots </a></i>
+                    <li class="menu-item-has-children"> <a href="../category/plots" class="drop-down">Plots </a><i class="bi bi-plus dropdown-icon"></i>
                         <ul class="sub-menu">
                             <li>
                                 <a href="./plots-for-sale-noida" class="drop-down">
@@ -159,15 +159,15 @@ include '../cookie.php';
                     $topPosts = array_slice($posts, 0, 3);
 
                     foreach ($topPosts as $post) {
-                        echo '<a href="../blog/' . generateSlug($post['title']) . '" class="dropdown-link">';
-                        echo '<div class="dropdown-item-content">';
-                        echo '<div class="dropdown-text">';
-                        echo '<h3 class="dropdown-title">' . $post['title'] . '</h3>';
-                        echo '<p class="dropdown-description">' . substr($post['description'], 0, 100) . '...</p>';
-                        echo '</div>';
-                        echo '<img src="../blog/' . $post['imageUrl'] . '" alt="' . $post['title'] . '" class="dropdown-image">';
-                        echo '</div>';
-                        echo '</a>';
+                        echo '<a href="../blog/' . generateSlug($post['title']) . '" class="dropdown-link">
+                        <div class="dropdown-item-content">
+                        <div class="dropdown-text">
+                        <h3 class="dropdown-title">' . $post['title'] . '</h3>
+                        <p class="dropdown-description">' . substr($post['description'], 0, 100) . '...</p>
+                        </div>
+                        <img src="../blog/' . $post['imageUrl'] . '" alt="' . $post['title'] . '" class="dropdown-image">
+                        </div>
+                        </a>';
                     }
                     ?>
                 </div>

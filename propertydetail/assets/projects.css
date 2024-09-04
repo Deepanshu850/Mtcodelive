@@ -43,9 +43,6 @@ p {
 	text-align: justify;
 	color: hsl(23, 13%, 20%);
 }
-strong {
-	color: hsl(23, 13%, 15%);
-}
 
 @media (width < 700px) {
 	h1 {
