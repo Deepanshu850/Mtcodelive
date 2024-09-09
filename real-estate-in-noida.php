@@ -124,7 +124,7 @@
         return false;
     });
 
-    include './grid-for-root-pages.php';
+    include './property-grid-level2.php';
     // print_r($properties);
     ?>
 

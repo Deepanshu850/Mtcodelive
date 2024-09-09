@@ -203,6 +203,34 @@ Noida, commercial property for sale in Noida, best commercial property in Noida,
 
             </h1>
 
+
+            <div class="property-container">
+
+                <?php
+                include './data/propertydata.php';
+
+                $properties = array_filter($properties, function ($item) {
+                    $pattern = '/noida/i';
+
+                    $matchesLocation = preg_match($pattern, strtolower($item['location']));
+                    if ($matchesLocation) {
+                        return true; 
+                    }
+
+                    return false;
+                });
+
+                include './property-grid-level2.php';
+                // print_r($properties);
+                ?>
+            </div>
+            <style>
+                .properties-grid {
+                    width: 100%;
+                    grid-template-columns: repeat(2, 1fr);
+                }
+            </style>
+
             <p class="overview">
                 Property in Noida is flourishing at a fast pace and has emerged as a promising real estate investment in India with perks like regular rental income, high price appreciation, hedge against inflation and others. Check out the article on ‘Property in Noida’ and make a strategic real estate investment in India.
 

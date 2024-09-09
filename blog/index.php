@@ -373,7 +373,7 @@ companies in India" />
                     <div class="news-btm d-flex align-items-center justify-content-between">
                         <div class="author-area">
                             <div class="author-content">
-                                <h6>Jibran Suhail</h6>
+                                <h6>${post.writer}</h6>
                                 <p style="font-size:12px;margin:0;">Posted on - ${post.date}</p>
                             </div>
                         </div>

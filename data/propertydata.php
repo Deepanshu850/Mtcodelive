@@ -12,9 +12,11 @@ $properties = [
         'price' => 'On Request',
         'detailsPage' => 'parasavenuedetail.php',
         'type' => ['Commercial'],
-        'data' => [
-            
-        ]
+        'rera' => 'UPRERAPRJ297873',
+        'rera_link' => '',
+        'property' => '',
+        
+
     ],
     [
         'id' => 2,
@@ -28,7 +30,10 @@ $properties = [
         ],
         'price' => 'On Request',
         'detailsPage' => '#',
-        'type' => ['Residential', 'Commercial']
+        'type' => ['Residential', 'Commercial'],
+        'rera' => 'UPRERAPRJ442214',
+        'rera_link' => '',
+        'property' => '',
     ],
 
     [
@@ -36,14 +41,17 @@ $properties = [
         'name' => 'M3M The Line Sector 72 Noida',
         'location' => 'Noida',
         'images' => [
-            'assets/img/projectdetails/m3mtheline1.jpg',
-            'assets/img/projectdetails/m3mtheline32.jpg',
-            'assets/img/projectdetails/m3mtheline2.webp'
+            'assets/img/projectdetails/m3mtheline1.webp',
+            'assets/img/projectdetails/m3mtheline2.webp',
+            'assets/img/projectdetails/m3mtheline3.webp'
 
         ],
         'price' => 'On Request',
         'detailsPage' => '#',
-        'type' => ['Studio Apartments', 'Commercial']
+        'type' => ['Studio Apartments', 'Commercial'],
+        'rera' => 'UPRERAPRJ246070',
+        'rera_link' => 'https://www.up-rera.in/Projectsummary?UI0aPA1ISD=bXy+EU+dZ0g=&hfFlag=9emr4VdBw22M7BGjKtJWMPDI4s5cHQZP&NPJ6RAme=8Bf1gILwY2o5oEww+eKfgA==&PaURJEMAN4=ZL9MNERkNdbMjkalkVhXFQ==&IRSAHEB=D6PY3lyims8=',
+        'property' => '',
     ],
     [
         'id' => 4,
@@ -57,7 +65,10 @@ $properties = [
         ],
         'price' => 'On Request',
         'detailsPage' => '#',
-        'type' => ['Residential']
+        'type' => ['Residential'],
+        'rera' => 'UPRERAPRJ303390',
+        'rera_link' => 'https://up-rera.in/Projectsummary?UI0aPA1ISD=u6Trg3svB/M=&hfFlag=9emr4VdBw22M7BGjKtJWMPDI4s5cHQZP&NPJ6RAme=LTP9r7RLyshj/PUZSvBjq1N4rK5rBS1b&PaURJEMAN4=ZL9MNERkNdZvcUmB/P2uFQ==&IRSAHEB=D6PY3lyims8=',
+        'property' => '',
     ],
     [
         'id' => 5,
@@ -72,7 +83,10 @@ $properties = [
         ],
         'price' => 'On Request',
         'detailsPage' => '#',
-        'type' => ['Residential', 'Commercial']
+        'type' => ['Residential', 'Commercial'],
+        'rera' => 'UPRERAPRJ5805',
+        'rera_link' => 'https://up-rera.in/Frm_View_Project_Details.aspx?id=5805',
+        'property' => '',
     ],
     [
         'id' => 6,
@@ -86,7 +100,10 @@ $properties = [
         ],
         'price' => 'On Request',
         'detailsPage' => '#',
-        'type' => ['Commercial']
+        'type' => ['Commercial'],
+        'rera' => 'GRG-367-2019',
+        'rera_link' => 'https://haryanarera.gov.in/view_project/searchprojectDetail/964',
+        'property' => '',
     ],
     [
         'id' => 7,
@@ -99,7 +116,13 @@ $properties = [
         ],
         'price' => 'On Request',
         'detailsPage' => '#',
-        'type' => ['Commercial']
+        'type' => ['Commercial'],
+        'rera' => 'GGM/298/2018/30',
+        'rera_link' => 'https://haryanarera.gov.in/view_project/searchprojectDetail/277',
+        'property' => '',
+
+
+        
     ],
     [
         'id' => 8,
@@ -113,7 +136,12 @@ $properties = [
         ],
         'price' => 'On Request',
         'detailsPage' => '#',
-        'type' => ['Residential']
+        'type' => ['Residential'],
+        'rera' => 'RC/REP/HARERA/GGM/767/499/2023/111',
+        'rera_link' => 'https://haryanarera.gov.in/view_project/searchprojectDetail/2670',
+        'property' => '',
+
+
     ],
     [
         'id' => 9,
@@ -126,7 +154,10 @@ $properties = [
         ],
         'price' => 'On Request',
         'detailsPage' => '#',
-        'type' => ['Residential']
+        'type' => ['Residential'],
+        'rera' => 'GGM/650/382/2022/125',
+        'rera_link' => 'https://haryanarera.gov.in/view_project/searchprojectDetail/2254',
+        'property' => '',
     ],
     [
         'id' => 10,
@@ -139,7 +170,10 @@ $properties = [
         ],
         'price' => 'On Request',
         'detailsPage' => '#',
-        'type' => ['Residential']
+        'type' => ['Residential'],
+        'rera' => 'RC/REP/HARERA/GGM/821/553/2024/48',
+        'rera_link' => 'https://haryanarera.gov.in/view_project/searchprojectDetail/2884',
+        'property' => '',
     ],
     [
         'id' => 11,
@@ -152,7 +186,10 @@ $properties = [
         ],
         'price' => 'On Request',
         'detailsPage' => '#',
-        'type' => ['Residential']
+        'type' => ['Residential'],
+        'rera' => 'UPRERAPRJ683816/04/2024',
+        'rera_link' => 'https://www.up-rera.in/Projectsummary?UI0aPA1ISD=ha1rI+Yf8dQ=&hfFlag=9emr4VdBw22M7BGjKtJWMPDI4s5cHQZP&NPJ6RAme=RD4WvtmSELODLVTyl8GfiA==&PaURJEMAN4=ZL9MNERkNdYVibfTHi0iwAANqXFIUX8E&IRSAHEB=D6PY3lyims8=',
+        'property' => '',
     ],
     [
         'id' => 12,
@@ -165,7 +202,10 @@ $properties = [
         ],
         'price' => 'On Request',
         'detailsPage' => '#',
-        'type' => ['Commercial']
+        'type' => ['Commercial'],
+        'rera' => 'RERA-GRG-PROJ-1508-2023',
+        'rera_link' => 'https://haryanarera.gov.in/view_project/searchprojectDetail/2724',
+        'property' => '',
     ],
     [
         'id' => 13,
@@ -178,8 +218,11 @@ $properties = [
         ],
         'price' => 'On Request',
         'detailsPage' => '#',
-        'type' => ['Residential']
-    ],
+        'type' => ['Residential'],
+        'rera' => 'RC/REP/HARERA/GGM/802/534/2024/29',
+        'rera_link' => 'https://haryanarera.gov.in/view_project/searchprojectDetail/2790',
+        'property' => '',
+    ],  
     [
         'id' => 14,
         'name' => 'Goa One Abhinandan Lodha Plots',
@@ -191,7 +234,10 @@ $properties = [
         ],
         'price' => 'On Request',
         'detailsPage' => '#',
-        'type' => ['Plots']
+        'type' => ['Plots'],
+        'rera' => 'PRGO05242234',
+        'rera_link' => 'https://rera.goa.gov.in/reraApp/viewProjectDetailPage?projectID=cTKqjRh7aLT7vjgh2DppQw==',
+        'property' => '',
     ],
     [
         'id' => 15,
@@ -204,7 +250,10 @@ $properties = [
         ],
         'price' => 'On Request',
         'detailsPage' => '#',
-        'type' => ['Plots']
+        'type' => ['Plots'],
+        'rera' => 'UPRERAPRJ297873',
+        'rera_link' => '',
+        'property' => '',
     ],
     [
         'id' => 16,
@@ -217,7 +266,10 @@ $properties = [
         ],
         'price' => 'On Request',
         'detailsPage' => '#',
-        'type' => ['Residential']
+        'type' => ['Residential'],
+        'rera' => 'UPRERAPRJ297873',
+        'rera_link' => '',
+        'property' => '',
     ],
     [
         'id' => 17,
@@ -230,7 +282,10 @@ $properties = [
         ],
         'price' => 'On Request',
         'detailsPage' => '#',
-        'type' => ['Residential']
+        'type' => ['Residential'],
+        'rera' => 'UPRERAPRJ297873',
+        'rera_link' => '',
+        'property' => '',
     ],
     [
         'id' => 18,
@@ -243,7 +298,10 @@ $properties = [
         ],
         'price' => 'On Request',
         'detailsPage' => '#',
-        'type' => ['Residential']
+        'type' => ['Residential'],
+        'rera' => 'UPRERAPRJ297873',
+        'rera_link' => '',
+        'property' => '',
     ],
 
     // [
@@ -274,7 +332,10 @@ $properties = [
         ],
         'price' => 'On Request',
         'detailsPage' => '#',
-        'type' => ['Studio Apartments', 'Residential']
+        'type' => ['Studio Apartments', 'Residential'],
+        'rera' => 'UPRERAPRJ297873',
+        'rera_link' => '',
+        'property' => '',
     ],
     [
         'id' => 22,
@@ -287,7 +348,10 @@ $properties = [
         ],
         'price' => 'On Request',
         'detailsPage' => '#',
-        'type' => ['Residential']
+        'type' => ['Residential'],
+        'rera' => 'UPRERAPRJ297873',
+        'rera_link' => '',
+        'property' => '',
     ],
     [
         'id' => 23,
@@ -300,7 +364,10 @@ $properties = [
         ],
         'price' => 'On Request',
         'detailsPage' => '#',
-        'type' => ['Residential']
+        'type' => ['Residential'],
+        'rera' => 'UPRERAPRJ297873',
+        'rera_link' => '',
+        'property' => '',
     ],
     [
         'id' => 24,
@@ -313,7 +380,10 @@ $properties = [
         ],
         'price' => 'On Request',
         'detailsPage' => '#',
-        'type' => ['Plots']
+        'type' => ['Plots'],
+        'rera' => 'UPRERAPRJ297873',
+        'rera_link' => '',
+        'property' => '',
     ],
     [
         'id' => 25,
@@ -326,7 +396,10 @@ $properties = [
         ],
         'price' => 'On Request',
         'detailsPage' => '#',
-        'type' => ['Plots']
+        'type' => ['Plots'],
+        'rera' => 'UPRERAPRJ297873',
+        'rera_link' => '',
+        'property' => '',
     ],
     [
         'id' => 26,
@@ -339,7 +412,10 @@ $properties = [
         ],
         'price' => 'On Request',
         'detailsPage' => '#',
-        'type' => ['Commercial']
+        'type' => ['Commercial'],
+        'rera' => 'UPRERAPRJ297873',
+        'rera_link' => '',
+        'property' => '',
     ],
     [
         'id' => 27,
@@ -352,7 +428,10 @@ $properties = [
         ],
         'price' => 'On Request',
         'detailsPage' => '#',
-        'type' => ['Residential']
+        'type' => ['Residential'],
+        'rera' => 'UPRERAPRJ297873',
+        'rera_link' => '',
+        'property' => '',
     ],
     [
         'id' => 28,
@@ -365,7 +444,10 @@ $properties = [
         ],
         'price' => 'On Request',
         'detailsPage' => '#',
-        'type' => ['Residential']
+        'type' => ['Residential'],
+        'rera' => 'UPRERAPRJ297873',
+        'rera_link' => '',
+        'property' => '',
     ],
     [
         'id' => 29,
@@ -378,7 +460,10 @@ $properties = [
         ],
         'price' => 'On Request',
         'detailsPage' => '#',
-        'type' => ['Commercial']
+        'type' => ['Commercial'],
+        'rera' => 'UPRERAPRJ297873',
+        'rera_link' => '',
+        'property' => '',
     ],
     [
         'id' => 30,
@@ -391,7 +476,10 @@ $properties = [
         ],
         'price' => 'On Request',
         'detailsPage' => '#',
-        'type' => ['Commercial']
+        'type' => ['Commercial'],
+        'rera' => 'UPRERAPRJ297873',
+        'rera_link' => '',
+        'property' => '',
     ],
 
 ];
