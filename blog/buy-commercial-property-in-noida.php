@@ -42,7 +42,34 @@ Advice, Real Estate Consulting" />
 
     <link rel="canonical" href="https://moneytreerealty.com/blog/buy-commercial-property-in-noida" />
 
-
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://moneytreerealty.com/blog/buy-commercial-property-in-noida"
+            },
+            "headline": "Buy Commercial Property in Noida",
+            "description": "Noida is a thriving commercial hub and offers lucrative returns on investment, due to its proximity to major cities like Delhi, owing to the presence of major expressways like D-N-D flyway, delhi noida expressway, yamuna expressway to name a few. Noida is also emerging as a commercial and industrial hub, which is attracting businesses and industries from all over.",
+            "image": "https://moneytreerealty.com/blog/assets/buy-commercial-property-in-noida-banner.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Moneytree Realty",
+                "url": "https://moneytreerealty.com/"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Moneytree realty",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://moneytreerealty.com/assets/img/logo.png"
+                }
+            },
+            "datePublished": "2024-09-06",
+            "dateModified": "2024-09-09"
+        }
+    </script>
 
     <script type="application/ld+json">
         {

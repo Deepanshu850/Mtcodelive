@@ -389,7 +389,7 @@ include "./data/blogdata.php";
             </li>
 
 
-            <li> <a href="./referal" class="drop-down pop-up-link">Referal Program</a> </li>
+            <!-- <li> <a href="./referal" class="drop-down pop-up-link">Referal Program</a> </li> -->
             <li class="menu-item-has-children"> <a href="#" class="drop-down">Others </a><i class="bi bi-plus dropdown-icon"></i>
                 <ul class="sub-menu">
                     <li> <a href="./about-us" class="drop-down">About</a> </li>

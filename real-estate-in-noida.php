@@ -104,7 +104,8 @@
 
     $properties = array_filter($properties, function ($item) use ($typeToFilter) {
         if (empty($typeToFilter)) {
-            return $item['location'] === 'Noida';
+            // return $item['location'] === 'Noida';
+            return $item['name'] === 'Paras Avenue Sector 129 Noida';
         }
 
 

@@ -9,13 +9,16 @@ $properties = [
             'assets/img/projectdetails/parasavenue2.webp',
             'assets/img/projectdetails/parasavenue3.webp'
         ],
-        'price' => 'On Request',
-        'detailsPage' => 'parasavenuedetail.php',
+        'price' => '60 Lac+*',
         'type' => ['Commercial'],
+        'particularType' => ['Commercial Spaces'],
         'rera' => 'UPRERAPRJ297873',
-        'rera_link' => '',
-        'property' => '',
-        
+        'rera_link' => 'https://up-rera.in/Projectsummary?UI0aPA1ISD=JhSgDBuQtpY=&hfFlag=9emr4VdBw22M7BGjKtJWMPDI4s5cHQZP&NPJ6RAme=mTQA7518KvsmPG82YovObQ==&PaURJEMAN4=ZL9MNERkNdac+WWRlUhmAA==&IRSAHEB=D6PY3lyims8=',
+        'location-2' => 'Sector 129',
+        'strategicLocation' => 'Yamuna Expressway/Jewar Airport',
+        'area' => '3000 sq ft',
+        'shortDescription' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, amet! Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aut? Aut quod deserunt quaerat nihil.',
+
 
     ],
     [
@@ -122,7 +125,7 @@ $properties = [
         'property' => '',
 
 
-        
+
     ],
     [
         'id' => 8,
@@ -222,7 +225,7 @@ $properties = [
         'rera' => 'RC/REP/HARERA/GGM/802/534/2024/29',
         'rera_link' => 'https://haryanarera.gov.in/view_project/searchprojectDetail/2790',
         'property' => '',
-    ],  
+    ],
     [
         'id' => 14,
         'name' => 'Goa One Abhinandan Lodha Plots',

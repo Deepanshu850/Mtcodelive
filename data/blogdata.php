@@ -229,6 +229,16 @@ $posts = [
         'writer' => 'Abida Rashid',
 
     ],
+    [
+        'id' => 26,
+        'title' => 'What is OC in Real Estate',
+        'description' => 'OC is an acronym for Occupancy Certificate and refers to a crucial document in the real estate sector that certifies a building, be it commercial or residential, has been constructed in compliance with safety norms and regulations. Check out the article below to get insights into Occupancy Certificate and make strategic real estate investment in India.',
+        'imageUrl' => './assets/what-is-oc-in-real-estate-banner.webp',
+        'date' => 'September 9, 2024',
+        'category' => ['Investment'],
+        'writer' => 'Jibran Suhail',
+
+    ],
 ];
 
 ?>
