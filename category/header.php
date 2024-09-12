@@ -1,5 +1,5 @@
 <?php
- include '../cookie.php';
+include '../cookie.php';
 ?>
 
 <div class="s-soft">
@@ -32,27 +32,108 @@
                 <a href="../career" class="drop-down">CAREER</a>
 
             </li>
-            <li class="menu-item-has-children"> <a href="../top-real-estate-poperty-consultant-in-india.php" class="drop-down">PROJECTS </a><i class="bi bi-plus dropdown-icon"></i>
+            <li class="menu-item-has-children"> <a href="../top-real-estate-poperty-consultant-in-india" class="drop-down">PROJECTS </a><i class="bi bi-plus dropdown-icon"></i>
                 <ul class="sub-menu">
-                    <li>
-                        <a href="../category/residential-property.php" class="drop-down">
-                            Residential
-                        </a>
+                    <li class="menu-item-has-children"> <a href="./residential-property" class="drop-down">Residential </a><i class="bi bi-plus dropdown-icon"></i>
+                        <ul class="sub-menu">
+                            <li>
+
+                                <a href="./residential-property-for-sale-noida" class="drop-down">
+                                    Noida
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./residential-property-for-sale-gurgaon" class="drop-down">
+                                    Gurgaon
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="./residential-property-for-sale-mumbai" class="drop-down">
+                                    Mumbai
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./residential-property-for-sale-goa" class="drop-down">
+                                    Goa
+                                </a>
+                            </li>
+                        </ul>
                     </li>
-                    <li>
-                        <a href="../category/commercial-property.php" class="drop-down">
-                            Commercial
-                        </a>
+                    <li class="menu-item-has-children"> <a href="../category/commercial-property" class="drop-down">Commercial </a><i class="bi bi-plus dropdown-icon"></i>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="./commercial-property-for-sale-noida" class="drop-down">
+                                    Noida
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./commercial-property-for-sale-gurgaon" class="drop-down">
+                                    Gurgaon
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="./commercial-property-for-sale-mumbai" class="drop-down">
+                                    Mumbai
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./commercial-property-for-sale-goa" class="drop-down">
+                                    Goa
+                                </a>
+                            </li>
+                        </ul>
                     </li>
-                    <li>
-                        <a href="../category/studio-apartments.php" class="drop-down">
-                            Studio Apartments
-                        </a>
+                    <li class="menu-item-has-children"> <a href="../category/studio-apartments" class="drop-down">Studio Apartments </a><i class="bi bi-plus dropdown-icon"></i>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="./studio-apartments-for-sale-noida" class="drop-down">
+                                    Noida
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./studio-apartments-for-sale-gurgaon" class="drop-down">
+                                    Gurgaon
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="./studio-apartments-for-sale-mumbai" class="drop-down">
+                                    Mumbai
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./studio-apartments-for-sale-goa" class="drop-down">
+                                    Goa
+                                </a>
+                            </li>
+                        </ul>
                     </li>
-                    <li>
-                        <a href="../category/plots.php" class="drop-down">
-                            Plots
-                        </a>
+                    <li class="menu-item-has-children"> <a href="../category/plots" class="drop-down">Plots </a><i class="bi bi-plus dropdown-icon"></i>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="./plots-for-sale-noida" class="drop-down">
+                                    Noida
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./plots-for-sale-gurgaon" class="drop-down">
+                                    Gurgaon
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="./plots-for-sale-mumbai" class="drop-down">
+                                    Mumbai
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./plots-for-sale-goa" class="drop-down">
+                                    Goa
+                                </a>
+                            </li>
+                        </ul>
                     </li>
 
 
@@ -61,7 +142,168 @@
 
 
             <li> <a href="../contact" class="drop-down">CONTACT</a> </li>
-            <li> <a href="../blog/index" class="drop-down">BLOG</a> </li>
+            <li class="nav-item">
+                <a href="../blog/index" class="nav-link">BLOG</a>
+                <div class="dropdown-content">
+                    <?php
+                    include '../data/blogdata.php'; // Include the blog data
+
+                    function generateSlug($title)
+                    {
+                        return strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $title)));
+                    }
+
+                    $posts = array_reverse($posts);
+
+                    // Get the top 3 blog posts
+                    $topPosts = array_slice($posts, 0, 3);
+
+                    foreach ($topPosts as $post) {
+                        echo '<a href="../blog/' . generateSlug($post['title']) . '" class="dropdown-link">
+                        <div class="dropdown-item-content">
+                        <div class="dropdown-text">
+                        <h3 class="dropdown-title">' . $post['title'] . '</h3>
+                        <p class="dropdown-description">' . substr($post['description'], 0, 100) . '...</p>
+                        </div>
+                        <img src="../blog/' . $post['imageUrl'] . '" alt="' . $post['title'] . '" class="dropdown-image">
+                        </div>
+                        </a>';
+                    }
+                    ?>
+                </div>
+            </li>
+
+            <style>
+                /* Navigation Styles */
+                .navbar {
+                    background-color: #ffffff;
+                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                    padding: 16px;
+                }
+
+                .nav-list {
+                    list-style: none;
+                    display: flex;
+                }
+
+                .nav-item {
+                    position: relative;
+                    margin-right: 20px;
+                }
+
+                .nav-link {
+                    text-decoration: none;
+                    color: #333333;
+                    font-weight: bold;
+                    padding: 8px 12px;
+                    display: inline-block;
+                }
+
+                .nav-link:hover {
+                    color: #007bff;
+                }
+
+                /* Dropdown Styles */
+                .dropdown-content {
+                    display: none;
+                    position: absolute;
+                    left: 0;
+                    top: 100%;
+                    width: 500px;
+                    background-color: #ffffff;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    border-radius: 8px;
+                    z-index: 1000;
+                    transition: opacity 0.3s ease, transform 0.3s ease;
+                    opacity: 0;
+                    transform: translateY(10px);
+                }
+
+                .nav-item:hover .dropdown-content {
+                    display: block;
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+
+                .dropdown-link {
+                    display: block;
+                    padding: 12px;
+                    color: #333333;
+                    text-decoration: none;
+                    border-bottom: 1px solid #f0f0f0;
+                }
+
+                header.style-1 .main-menu ul>li a.dropdown-link {
+                    transition-duration: 0.3s;
+
+                }
+
+                .dropdown-link:hover {
+                    background-color: #f0f0f0;
+                }
+
+                .dropdown-item-content {
+                    display: flex;
+                    align-items: center;
+                }
+
+                .dropdown-text {
+                    flex: 1;
+                    padding-right: 10px;
+                }
+
+                .dropdown-image {
+                    width: 150px;
+                    height: 100px;
+                    /* object-fit: cover; */
+                    border-radius: 8px;
+                }
+
+                .dropdown-title {
+                    margin: 0 0 4px;
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #333333;
+                    letter-spacing: 0.35px;
+                }
+
+                .dropdown-description {
+                    font-size: 12px;
+                    color: #666666;
+                    line-height: 1.6;
+                    text-transform: capitalize;
+                }
+
+                /* Responsive Design */
+                @media (max-width: 768px) {
+                    .nav-list {
+                        flex-direction: column;
+                    }
+
+                    .nav-item {
+                        margin-bottom: 10px;
+                    }
+
+                    .dropdown-content {
+                        width: 100%;
+                        left: 0;
+                    }
+
+                    .dropdown-item-content {
+                        flex-direction: column;
+                    }
+
+                    .dropdown-text {
+                        padding-right: 0;
+                        margin-bottom: 10px;
+                    }
+
+                    .dropdown-image {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            </style>
             <li class="menu-item-has-children"> <a href="#" class="drop-down">Others </a><i class="bi bi-plus dropdown-icon"></i>
                 <ul class="sub-menu">
                     <li> <a href="../about-us" class="drop-down">About</a> </li>
@@ -451,4 +693,4 @@
 
 <?php
 // include "../slidefornfakenoti.php" 
-?>    
+?>

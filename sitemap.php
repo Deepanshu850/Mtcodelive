@@ -698,48 +698,48 @@
               </a>
             </li>
             <li class="lpage">
-              <a href="https://moneytreerealty.com/noida-real-estate/sector-23-noida" title="Sector 23 Noida Dardri Greater Noida Road: Map, Projects">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-23-noida" title="Sector 23 Noida Dadri Greater Noida Road: Map, Projects">
                 Sector 23 Noida | Dadri Road
               </a>
             </li>
             <li class="lpage">
-              <a href="https://moneytreerealty.com/noida-real-estate/sector-33-noida" title="Sector 33 Noida Dardri Greater Noida Road: Map, Projects">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-33-noida" title="Sector 33 Noida Dadri Greater Noida Road: Map, Projects">
                 Sector 33 Noida | Dadri Road
               </a>
             </li>
             <li class="lpage">
-              <a href="https://moneytreerealty.com/noida-real-estate/sector-34-noida" title="Sector 34 Noida Dardri Greater Noida Road: Map, Projects">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-34-noida" title="Sector 34 Noida Dadri Greater Noida Road: Map, Projects">
                 Sector 34 Noida | Dadri Road
               </a>
             </li>
             <li class="lpage">
-              <a href="https://moneytreerealty.com/noida-real-estate/sector-36-noida" title="Sector 36 Noida Dardri Greater Noida Road: Map, Projects">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-36-noida" title="Sector 36 Noida Dadri Greater Noida Road: Map, Projects">
                 Sector 36 Noida | Dadri Road
               </a>
             </li>
             <li class="lpage">
-              <a href="https://moneytreerealty.com/noida-real-estate/sector-38-noida" title="Sector 38 Noida Dardri Greater Noida Road: Map, Projects">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-38-noida" title="Sector 38 Noida Dadri Greater Noida Road: Map, Projects">
                 Sector 38 Noida | Dadri Road
               </a>
             </li>
             <li class="lpage">
-              <a href="https://moneytreerealty.com/noida-real-estate/sector-29-noida" title="Sector 29 Noida Dardri Greater Noida Road: Map, Projects">
-                Sector 29 Noida | Dardri Greater Noida Road
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-29-noida" title="Sector 29 Noida Dadri Greater Noida Road: Map, Projects">
+                Sector 29 Noida | Dadri Greater Noida Road
               </a>
             </li>
             <li class="lpage">
-              <a href="https://moneytreerealty.com/noida-real-estate/sector-30-noida" title="Sector 30 Noida Dardri Greater Noida Road: Map, Projects">
-                Sector 30 Noida | Dardri Greater Noida Road
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-30-noida" title="Sector 30 Noida Dadri Greater Noida Road: Map, Projects">
+                Sector 30 Noida | Dadri Greater Noida Road
               </a>
             </li>
             <li class="lpage">
-              <a href="https://moneytreerealty.com/noida-real-estate/sector-31-noida" title="Sector 31 Noida Dardri Greater Noida Road: Map, Projects">
-                Sector 31 Noida | Dardri Greater Noida Road
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-31-noida" title="Sector 31 Noida Dadri Greater Noida Road: Map, Projects">
+                Sector 31 Noida | Dadri Greater Noida Road
               </a>
             </li>
             <li class="lpage">
-              <a href="https://moneytreerealty.com/noida-real-estate/sector-32-noida" title="Sector 32 Noida Dardri Greater Noida Road: Map, Projects">
-                Sector 32 Noida | Dardri Greater Noida Road
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-32-noida" title="Sector 32 Noida Dadri Greater Noida Road: Map, Projects">
+                Sector 32 Noida | Dadri Greater Noida Road
               </a>
             </li>
             <li class="lpage">
@@ -748,8 +748,8 @@
               </a>
             </li>
             <li class="lpage">
-              <a href="https://moneytreerealty.com/noida-real-estate/sector-27-noida" title="Sector 27 Noida Dardri Greater Noida Road: Map, Property Rates, Projects, Photos, Review">
-                Sector 27 Noida | Dardri Greater Noida Road
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-27-noida" title="Sector 27 Noida Dadri Greater Noida Road: Map, Property Rates, Projects, Photos, Review">
+                Sector 27 Noida | Dadri Greater Noida Road
               </a>
             </li>
             <li class="lpage">
@@ -897,20 +897,221 @@
             </li>
             <li class="lpage">
               <a href="https://moneytreerealty.com/noida-real-estate/sector-28-noida" title="Sector 28 Noida: Map, Property Rates, Projects, Review, Info">
-                Sector 28 Noida | Dardri Road, Gautam Buddha Nagar
+                Sector 28 Noida | Dadri Road, Gautam Buddha Nagar
               </a>
             </li>
             <li class="lpage">
-              <a href="https://moneytreerealty.com/noida-real-estate/sector-28-noida" title="Sector 72 Noida: Map, Property Rates, Projects, Review, Info">
-                Sector 72 Noida | Dardri Road, Gautam Buddha Nagar
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-72-noida" title="Sector 72 Noida: Map, Property Rates, Projects, Review, Info">
+                Sector 72 Noida | Dadri Road, Gautam Buddha Nagar
               </a>
             </li>
             <li class="lpage">
-              <a href="https://moneytreerealty.com/noida-real-estate/sector-28-noida" title="Sector 75 Noida: Map, Property Rates, Projects, Review, Info">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-75-noida" title="Sector 75 Noida: Map, Property Rates, Projects, Review, Info">
                 Sector 75 Noida | Gautam Buddha Nagar
               </a>
             </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-71-noida" title="Sector 71 Noida: Map, Property Rates, Projects, Review, Info">
+                Sector 71 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-73-noida" title="Sector 73 Noida: Map, Property Rates, Projects, Review, Info">
+                Sector 73 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-74-noida" title="Sector 74 Noida: Map, Property Rates, Projects, Review, Info">
+                Sector 74 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-77-noida" title="Sector 77 Noida: Map, Property Rates, Projects, Review, Info">
+                Sector 77 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-82-noida" title="Sector 82 Noida: Map, Property Rates, Projects, Review, Info">
+                Sector 82 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
 
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-26-noida" title="Sector 26 Noida: Map, Property Rates, Projects, Review, Info ">
+                Sector 26 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-126-noida" title="Sector 126 Noida: Map, Property Rates, Projects, Review, Info ">
+                Sector 126 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-80-noida" title="Sector 80 Noida: Map, Property Rates, Projects, Review, Info ">
+                Sector 80 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-84-noida" title="Sector 84 Noida: Map, Property Rates, Projects, Review, Info ">
+                Sector 84 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-85-noida" title="Sector 85 Noida: Map, Property Rates, Projects, Review, Info ">
+                Sector 85 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-86-noida" title="Sector 86 Noida: Map, Property Rates, Projects, Review, Info ">
+                Sector 86 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-87-noida" title="Sector 87 Noida: Map, Property Rates, Projects, Review, Info ">
+                Sector 87 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-89-noida" title="Sector 89 Noida: Map, Property Rates, Projects, Review, Info ">
+                Sector 89 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-90-noida" title="Sector 90 Noida: Map, Property Rates, Projects, Review, Info ">
+                Sector 90 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-93-noida" title="Sector 93 Noida: Map, Property Rates, Projects, Review, Info ">
+                Sector 93 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-78-noida" title="Sector 78 Noida: Map, Property Rates, Projects, Review, Info">
+                Sector 78 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-83-noida" title="Sector 83 Noida: Map, Property Rates, Projects, Review, Info">
+                Sector 83 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-92-noida" title="Sector 92 Noida: Map, Property Rates, Projects, Review, Info">
+                Sector 92 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-94-noida" title="Sector 94 Noida: Map, Property Rates, Projects, Review, Info">
+                Sector 94 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-95-noida" title="Sector 95 Noida: Map, Property Rates, Projects, Review, Info">
+                Sector 95 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-91-noida" title="Sector 91 Noida: Map, Property Rates, Projects, Review, Info">
+                Sector 91 Noida | Gautam Buddha Nagar
+
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-97-noida" title="Sector 97 Noida: Map, Property Rates, Projects, Review, Info">
+                Sector 97 Noida | Gautam Buddha Nagar
+
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-96-noida" title="Sector 96 Noida: Map, Property Rates, Projects, Review, Info">
+                Sector 96 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-100-noida" title="Sector 100 Noida: Map, Property Rates, Projects, Review, Info">
+                Sector 100 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-101-noida" title="Sector 101 Noida: Map, Property Rates, Projects, Review, Info">
+                Sector 101 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-102-noida" title="Sector 102 Noida: Map, Property Rates, Projects, Review, Info">
+                Sector 102 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-105-noida" title="Sector 105 Noida: Map, Property Rates, Projects, Review, Info">
+                Sector 105 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-106-noida" title="Sector 106 Noida: Map, Property Rates, Projects, Review, Info">
+                Sector 106 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-107-noida" title="Sector 107 Noida: Map, Property Rates, Projects, Review, Info">
+                Sector 107 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-64-noida" title="Sector 64 Noida: Map, Property Rates, Projects, Review, Info">
+                Sector 64 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-79-noida" title="Sector 79 Noida: Map, Property Rates, Projects, Review, Info">
+                Sector 79 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-81-noida" title="Sector 81 Noida: Map, Property Rates, Projects, Review, Info">
+                Sector 81 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-88-noida" title="Sector 88 Noida: Map, Property Rates, Projects, Review, Info">
+                Sector 88 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-108-noida" title="Sector 108 Noida: Map, Property Rates, Projects, Review, Info">
+                Sector 108 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-104-noida" title="Sector 104 Noida: Map, Property Rates, Projects, Review, Info">
+                Sector 104 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-112-noida" title="Sector 112 Noida: Map, Property Rates, Projects, Review, Info">
+                Sector 112 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-115-noida" title="Sector 115 Noida: Map, Property Rates, Projects, Review, Info">
+                Sector 115 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-116-noida" title="Sector 116 Noida: Map, Property Rates, Projects, Review, Info">
+                Sector 116 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+            <li class="lpage">
+              <a href="https://moneytreerealty.com/noida-real-estate/sector-117-noida" title="Sector 117 Noida: Map, Property Rates, Projects, Review, Info">
+                Sector 117 Noida | Gautam Buddha Nagar
+              </a>
+            </li>
+
+            <!-- marker -->
 
           </ul>
         </li>
@@ -935,46 +1136,33 @@
               </a>
             </li>
             <li class="lpage">
-              <a href="https://moneytreerealty.com/blog/index" title="Blog – A Complete Guide to a Real Estate Property Advisory Firm
-    ">Blog – A Complete Guide to a Real Estate Property
-                Advisory Firm
+              <a href="https://moneytreerealty.com/blog/index" title="Blog – A Complete Guide to a Real Estate Property Advisory Firm">
+                Blog – A Complete Guide to a Real Estate Property Advisory Firm
               </a>
             </li>
             <li class="lpage">
-              <a href="https://moneytreerealty.com/blog/real-estate-investment-a-comprehensive-guide-on-real-estate" title="
-        Real Estate Investment: A Comprehensive Guide on Real Estate
-    ">
-                Real Estate Investment: A Comprehensive Guide on Real
-                Estate
+              <a href="https://moneytreerealty.com/blog/real-estate-investment-a-comprehensive-guide-on-real-estate" title="Real Estate Investment: A Comprehensive Guide on Real Estate">
+                Real Estate Investment: A Comprehensive Guide on Real Estate
               </a>
             </li>
             <li class="lpage">
-              <a href="https://moneytreerealty.com/blog/krisumi-city-sector-36a-gurgaon-waterfall-residences-waterside-suites" title="
-        Krisumi City Sector 36A Gurgaon | Waterfall Residences
-    ">
+              <a href="https://moneytreerealty.com/blog/krisumi-city-sector-36a-gurgaon-waterfall-residences-waterside-suites" title="Krisumi City Sector 36A Gurgaon | Waterfall Residences">
                 Krisumi City Sector 36A Gurgaon | Waterfall Residences
               </a>
             </li>
             <li class="lpage">
-              <a href="https://moneytreerealty.com/blog/biggest-airports-in-india" title="
-         Biggest Airports in India | Top upcoming largest Airports in India
-    ">
+              <a href="https://moneytreerealty.com/blog/biggest-airports-in-india" title="Biggest Airports in India | Top upcoming largest Airports in India">
                 Biggest Airports in India | Top upcoming largest Airports in India
               </a>
             </li>
             <li class="lpage">
-              <a href="https://moneytreerealty.com/blog/how-to-generate-passive-income-through-commercial-properties" title="
-         How to Generate Passive Income Through Commercial Properties
-    ">
+              <a href="https://moneytreerealty.com/blog/how-to-generate-passive-income-through-commercial-properties" title="How to Generate Passive Income Through Commercial Properties">
                 How to Generate Passive Income Through Commercial Properties
               </a>
             </li>
             <li class="lpage">
-              <a href="https://moneytreerealty.com/blog/dwarka-expressway-gurgaon-real-estate" title="
-        Property for Sale in Dwarka Expressway | Gurgaon Real Estate
-    ">
-                Property for Sale in Dwarka Expressway | Gurgaon Real
-                Estate
+              <a href="https://moneytreerealty.com/blog/dwarka-expressway-gurgaon-real-estate" title="Property for Sale in Dwarka Expressway | Gurgaon Real Estate">
+                Property for Sale in Dwarka Expressway | Gurgaon Real Estate
               </a>
             </li>
             <li class="lpage">
@@ -995,33 +1183,23 @@
               <a href="https://moneytreerealty.com/blog/where-to-invest-residential-or-commercial-property" title="Where to Invest: Residential or Commercial Property Investment | MoneyTree Realty">Where to Invest: Residential or Commercial Property Investment | MoneyTree Realty </a>
             </li>
             <li class="lpage">
-              <a href="https://moneytreerealty.com/blog/top-10-real-estate-company-in-noida" title="
-        Top 10 Real Estate Company in Noida | Best Builders in Noida
-
-    ">
-                Top 10 Real Estate Company in Noida | Best Builders in
-                Noida
+              <a href="https://moneytreerealty.com/blog/top-10-real-estate-company-in-noida" title="Top 10 Real Estate Company in Noida | Best Builders in Noida">
+                Top 10 Real Estate Company in Noida | Best Builders in Noida
               </a>
             </li>
 
             <li class="lpage">
-              <a href="https://moneytreerealty.com/blog/m3m-the-cullinan-commercial-project-in-noida-sector-94" title="
-    M3M The Cullinan Commercial Project in Noida Sector 94
-    ">
+              <a href="https://moneytreerealty.com/blog/m3m-the-cullinan-commercial-project-in-noida-sector-94" title="M3M The Cullinan Commercial Project in Noida Sector 94">
                 M3M The Cullinan Commercial Project in Noida Sector 94
               </a>
             </li>
             <li class="lpage">
-              <a href="https://moneytreerealty.com/blog/migsun-nehru-place-1-luxury-studio-apartments-on-yamuna-expressway" title="
-    Migsun Nehru Place 1 : Luxury Studio Apartments on Yamuna Expressway
-    ">
+              <a href="https://moneytreerealty.com/blog/migsun-nehru-place-1-luxury-studio-apartments-on-yamuna-expressway" title="Migsun Nehru Place 1 : Luxury Studio Apartments on Yamuna Expressway">
                 Migsun Nehru Place 1 : Luxury Studio Apartments on Yamuna Expressway
               </a>
             </li>
             <li class="lpage">
-              <a href="https://moneytreerealty.com/blog/moneytree-realty-targets-rs-500-crore-sale-in-the-first-year-of-operation" title="
-    Moneytree Realty Targets Rs 500 Crore Sale in First Year of Operation
-    ">
+              <a href="https://moneytreerealty.com/blog/moneytree-realty-targets-rs-500-crore-sale-in-the-first-year-of-operation" title="Moneytree Realty Targets Rs 500 Crore Sale in First Year of Operation">
                 Moneytree Realty Targets Rs 500 Crore Sale in First Year of Operation
               </a>
             </li>
@@ -1038,13 +1216,25 @@
               <a href="https://moneytreerealty.com/blog/property-near-jewar-airport" title="Property near Jewar Airport Noida">Property near Jewar Airport Noida</a>
             </li>
             <li class="lpage last-page">
-              <a href="https://moneytreerealty.com/blog/how-to-buy-property-in-noida-moneytree-realty" title="
-        How to Buy Property in Noida | Property for Sale in Noida
-    ">
+              <a href="https://moneytreerealty.com/blog/how-to-buy-property-in-noida-moneytree-realty" title="How to Buy Property in Noida | Property for Sale in Noida">
                 How to Buy Property in Noida | Property for Sale in
                 Noida
               </a>
             </li>
+            <li class="lpage last-page">
+              <a href="https://moneytreerealty.com/blog/buy-commercial-property-in-noida" title="Buy Commercial Property in Noida | Top 5 Real Estate Investment">
+                Buy Commercial Property in Noida | Commercial Projects in Noida
+              </a>
+            </li>
+            <li class="lpage last-page">
+              <a href="https://moneytreerealty.com/blog/what-is-oc-in-real-estate" title="What is OC in Real Estate? OC Full Form and Other Details">
+                What is OC in Real Estate? OC Full Form and Other Details
+              </a>
+            </li>
+
+
+
+
           </ul>
           <ul id='propertydetail' class="level-3">
             <li class="lhead">
@@ -1355,12 +1545,10 @@
 
 
 <script>
-  // Function to sort sectors
   function sortSectors() {
     const blog = document.getElementById('blog');
     const firstLi = blog.querySelector('li:first-child');
 
-    // Check if the first li has the class 'lhead' and the desired text
     if (firstLi && firstLi.classList.contains('lhead') && firstLi.textContent.trim().startsWith('Noida Sectors/')) {
       const listItems = Array.from(blog.querySelectorAll('.lpage'));
 
@@ -1368,32 +1556,25 @@
         const textA = a.textContent.trim();
         const textB = b.textContent.trim();
 
-        // Extract sector numbers using a regular expression
         const sectorA = textA.match(/Sector (\d+)/i);
         const sectorB = textB.match(/Sector (\d+)/i);
 
         if (sectorA && sectorB) {
-          // Compare sector numbers numerically if both are found
           return parseInt(sectorA[1]) - parseInt(sectorB[1]);
         } else {
-          // Fallback to standard string comparison if sector numbers are not found
           return textA.localeCompare(textB, undefined, {
             numeric: true
           });
         }
       });
 
-      // Re-attach the sorted items
       listItems.forEach(item => blog.appendChild(item));
     }
   }
 
-  // Call the function to sort the list on page load
   sortSectors();
-
-  // Optional: Re-sort whenever a new sector is added
-  // You can call sortSectors() again after adding a new sector to the list
 </script>
+
 
 
 <script src="./assets/js/swiper-bundle.min.js"></script>

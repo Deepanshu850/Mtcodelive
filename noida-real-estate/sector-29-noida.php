@@ -7,7 +7,7 @@
 
 
     <title>
-        Sector 29 Noida Dardri Greater Noida Road: Map, Projects
+        Sector 29 Noida Dadri Greater Noida Road: Map, Projects
 
     </title>
 
@@ -28,7 +28,7 @@ residential and commercial spaces with excellent connectivity, community ameniti
     <meta name="audience" content="All" />
 
 
-    <meta property="og:title" content="Sector 29 Noida Dardri Greater Noida Road: Map, Projects">
+    <meta property="og:title" content="Sector 29 Noida Dadri Greater Noida Road: Map, Projects">
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-29-noida">
     <meta property="og:description" content="Sector 29 Noida, located near Dadri Greater Noida Road, offers prime residential and commercial spaces with excellent connectivity, community amenities.">
@@ -41,7 +41,7 @@ residential and commercial spaces with excellent connectivity, community ameniti
 
     <!-- Twitter Card Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Sector 29 Noida Dardri Greater Noida Road: Map, Projects">
+    <meta name="twitter:title" content="Sector 29 Noida Dadri Greater Noida Road: Map, Projects">
     <meta name="twitter:description" content="Sector 29 Noida, located near Dadri Greater Noida Road, offers prime 
 residential and commercial spaces with excellent connectivity, community 
 amenities.
@@ -51,7 +51,7 @@ amenities.
     <meta name="twitter:image:alt" content="Sector 29 Noida banner">
 
     <!-- LinkedIn Meta Tags -->
-    <meta property="og:title" content="Sector 29 Noida Dardri Greater Noida Road: Map, Projects">
+    <meta property="og:title" content="Sector 29 Noida Dadri Greater Noida Road: Map, Projects">
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-31-noida">
     <meta property="og:description" content="Sector 29 Noida, located near Dadri Greater Noida Road, offers prime 
@@ -67,7 +67,7 @@ amenities.
     <meta property="og:rich_attachment" content="true">
 
     <!-- Pinterest Meta Tags -->
-    <meta property="og:title" content="Sector 29 Noida Dardri Greater Noida Road: Map, Projects">
+    <meta property="og:title" content="Sector 29 Noida Dadri Greater Noida Road: Map, Projects">
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-31-noida">
     <meta property="og:description" content="Sector 29 Noida, located near Dadri Greater Noida Road, offers prime 
@@ -83,7 +83,7 @@ amenities.
     <meta name="pinterest-rich-pin" content="true">
 
     <!-- General Meta Tags -->
-    <meta name="title" content="Sector 29 Noida Dardri Greater Noida Road: Map, Projects">
+    <meta name="title" content="Sector 29 Noida Dadri Greater Noida Road: Map, Projects">
     <meta name="description" content="Sector 29 Noida, located near Dadri Greater Noida Road, offers prime 
 residential and commercial spaces with excellent connectivity, community 
 amenities.
@@ -224,10 +224,10 @@ amenities.
 
         <main>
             <div class="image-wrapper">
-                <img src="./assets/image/sector-29-noida-banner.webp" alt="Sector 31 Noida | Dardri Greater Noida Road">
+                <img src="./assets/image/sector-29-noida-banner.webp" alt="Sector 31 Noida | Dadri Greater Noida Road">
             </div>
             <h1>
-                Sector 29 Noida | Dardri Greater Noida Road
+                Sector 29 Noida | Dadri Greater Noida Road
             </h1>
 
             <h2>Noida sector 29 -Quick insights</h2>
@@ -250,7 +250,7 @@ amenities.
                     </tr>
                     <tr>
                         <td>
-                            <p>Dardri Greater Noida Road</p>
+                            <p>Dadri Greater Noida Road</p>
                         </td>
                         <td>
                             <p>The average price of properties in Sector 29 is Rs. 10,130 per sqft. <i class="bi bi-graph-up-arrow misc-icon"></i></p>

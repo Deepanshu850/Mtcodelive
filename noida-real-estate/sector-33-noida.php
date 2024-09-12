@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0">
 
     <title>
-        Sector 33 Noida Dardri Greater Noida Road: Map, Projects
+        Sector 33 Noida Dadri Greater Noida Road: Map, Projects
 
     </title>
 
 
-    <meta name="description" content="Sector 33 Noida is connected to Greater Noida through Dardri Road, ensuring quick access to key residential and commercial areas." />
+    <meta name="description" content="Sector 33 Noida is connected to Greater Noida through Dadri Road, ensuring quick access to key residential and commercial areas." />
 
 
     <meta name="keywords" content="noida 33, up 33 kahan ka number hai, sector 33 noida pin code, 34 33, chokhi dhani noida sector 33, prakash hospital noida sector 33, arya samaj mandir sector 33 noida, noida sector 33 metro station, central park sohna road sector 33, a 33 sector 2 noida, iskcon noida sector 33" />
@@ -28,10 +28,10 @@
 
 
     <!-- Facebook Open Graph Tags -->
-    <meta property="og:title" content="Sector 33 Noida Dardri Greater Noida Road: Map, Projects">
+    <meta property="og:title" content="Sector 33 Noida Dadri Greater Noida Road: Map, Projects">
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-33-noida">
-    <meta property="og:description" content="Sector 33 Noida is connected to Greater Noida through Dardri Road, ensuring quick access to key residential and commercial areas.">
+    <meta property="og:description" content="Sector 33 Noida is connected to Greater Noida through Dadri Road, ensuring quick access to key residential and commercial areas.">
     <meta property="og:type" content="property">
     <meta property="og:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-33-noida-banner.webp">
     <meta property="og:image:width" content="1200">
@@ -41,17 +41,17 @@
 
     <!-- Twitter Card Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Sector 33 Noida Dardri Greater Noida Road: Map, Projects">
-    <meta name="twitter:description" content="Sector 33 Noida is connected to Greater Noida through Dardri Road, ensuring quick access to key residential and commercial areas.">
+    <meta name="twitter:title" content="Sector 33 Noida Dadri Greater Noida Road: Map, Projects">
+    <meta name="twitter:description" content="Sector 33 Noida is connected to Greater Noida through Dadri Road, ensuring quick access to key residential and commercial areas.">
     <meta name="twitter:site" content="@MoneytreeRSPL">
     <meta name="twitter:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-33-noida-banner.webp">
     <meta name="twitter:image:alt" content="Sector 33 Noida">
 
     <!-- LinkedIn Meta Tags -->
-    <meta property="og:title" content="Sector 33 Noida Dardri Greater Noida Road: Map, Projects">
+    <meta property="og:title" content="Sector 33 Noida Dadri Greater Noida Road: Map, Projects">
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-33-noida">
-    <meta property="og:description" content="Sector 33 Noida is connected to Greater Noida through Dardri Road, ensuring quick access to key residential and commercial areas.">
+    <meta property="og:description" content="Sector 33 Noida is connected to Greater Noida through Dadri Road, ensuring quick access to key residential and commercial areas.">
     <meta property="og:type" content="property">
     <meta property="og:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-33-noida-banner.webp">
     <meta property="og:image:width" content="1200">
@@ -61,10 +61,10 @@
     <meta property="og:rich_attachment" content="true">
 
     <!-- Pinterest Meta Tags -->
-    <meta property="og:title" content="Sector 33 Noida Dardri Greater Noida Road: Map, Projects">
+    <meta property="og:title" content="Sector 33 Noida Dadri Greater Noida Road: Map, Projects">
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-33-noida">
-    <meta property="og:description" content="Sector 33 Noida is connected to Greater Noida through Dardri Road, ensuring quick access to key residential and commercial areas.">
+    <meta property="og:description" content="Sector 33 Noida is connected to Greater Noida through Dadri Road, ensuring quick access to key residential and commercial areas.">
     <meta property="og:type" content="property">
     <meta property="og:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-33-noida-banner.webp">
     <meta property="og:image:width" content="1200">
@@ -74,8 +74,8 @@
     <meta name="pinterest-rich-pin" content="true">
 
     <!-- General Meta Tags -->
-    <meta name="title" content="Sector 33 Noida Dardri Greater Noida Road: Map, Projects">
-    <meta name="description" content="Sector 33 Noida is connected to Greater Noida through Dardri Road, ensuring quick access to key residential and commercial areas.">
+    <meta name="title" content="Sector 33 Noida Dadri Greater Noida Road: Map, Projects">
+    <meta name="description" content="Sector 33 Noida is connected to Greater Noida through Dadri Road, ensuring quick access to key residential and commercial areas.">
     <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-33-noida-banner.webp">
     <meta name="image:alt" content="Sector 33 Noida">
 

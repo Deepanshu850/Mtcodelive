@@ -320,7 +320,7 @@ estate investment strategies 2024" />
 
                     <h2 id="heading-2">How Fractional Ownership in Real Estate works? </h2>
 
-                    <p>Fractional Ownership in Real Estate would work under the rules and regulations of Real Estate Regulatory Authority (RERA) and Securities and Exchange Board of India (SEBI), making it a secured and promising investment. The Catalyst Trusteeship Limited would be acting as the trustee of SEBI and would for property valuations, rental expenses, division of property shares, and maintaining the same on Demat Account.&nbsp;</p>
+                    <p>Fractional Ownership in Real Estate would work under the rules and regulations of Real Estate Regulatory Authority (RERA) and Securities and Exchange Board of India (SEBI), making it a secured and promising investment. The Catalyst Trusteeship Limited would be acting as the trustee of SEBI and would for property valuations, rental expenses, division of property shares, and maintaining the same on Demat Account. </p>
 
                     <h3>SEBI&rsquo;s Role in Fractional Ownership in Real Estate</h3>
 
@@ -337,11 +337,26 @@ estate investment strategies 2024" />
                     <p>Fractional Ownership in Real Estate features an array of advantages over traditional real estate investment. Let&rsquo;s explore more about advantages of fractional ownership in real estate:</p>
 
                     <ul class="arrow-list">
-                        <li><strong>Affordability of High-end Commercial and Residential Properties: </strong>With fractional ownership in real estate, real estate professionals can buy properties in partnership with others and thus making buying real estate more affordable and accessible. It would consequently help investors to diversify their portfolio of properties and get a steady source of passive income.</li>
-                        <li><strong>Lower Financial Risks: </strong>Fractional ownership in real estate exhibits lower risk of loss and shields people from making a financial blunder. This would prompt more to step into the real estate industry of India and make a steady source of wealth creation.</li>
-                        <li><strong>Promising Price Appreciation and ROI: </strong>Fractional ownership in real estate allows multiple people to buy property for sale from leading real estate developers in India that provides best-in-class <a href="../category/commercial-property.php"><strong>commercial properties</strong></a> and <a href="../category/residential-property.php"><strong>residential properties</strong></a>. Buying high-end property would lead to a drastic increase in capital appreciation and ROI over time.</li>
-                        <li><strong>Professional Real Estate Business: </strong>Fractional ownership in real estate is being regulated by RERA and SEBI and ensures transparent and efficient property buying and selling experience. Along with it, there are various professional property management companies that handle the daily operations of the property that include maintenance, tenants expenses and management.</li>
-                        <li><strong>Transparent and Legal Procedures: </strong>Real estate investments with fractional ownership are processed under standardised rules and regulation in the RERA Act 2016 and in scrutiny of government agencies like Securities and Exchange Board of India&nbsp; (SEBI).</li>
+                        <li>
+                            <p><strong>Affordability of High-end Commercial and Residential Properties: </strong>With fractional ownership in real estate, real estate professionals can buy properties in partnership with others and thus making buying real estate more affordable and accessible. It would consequently help investors to diversify their portfolio of properties and get a steady source of passive income.
+                            </p>
+                        </li>
+                        <li>
+                            <p><strong>Lower Financial Risks: </strong>Fractional ownership in real estate exhibits lower risk of loss and shields people from making a financial blunder. This would prompt more to step into the real estate industry of India and make a steady source of wealth creation.
+                            </p>
+                        </li>
+                        <li>
+                            <p><strong>Promising Price Appreciation and ROI: </strong>Fractional ownership in real estate allows multiple people to buy property for sale from leading real estate developers in India that provides best-in-class <a href="../category/commercial-property.php"><strong>commercial properties</strong></a> and <a href="../category/residential-property.php"><strong>residential properties</strong></a>. Buying high-end property would lead to a drastic increase in capital appreciation and ROI over time.
+                            </p>
+                        </li>
+                        <li>
+                            <p><strong>Professional Real Estate Business: </strong>Fractional ownership in real estate is being regulated by RERA and SEBI and ensures transparent and efficient property buying and selling experience. Along with it, there are various professional property management companies that handle the daily operations of the property that include maintenance, tenants expenses and management.
+                            </p>
+                        </li>
+                        <li>
+                            <p><strong>Transparent and Legal Procedures: </strong>Real estate investments with fractional ownership are processed under standardised rules and regulation in the RERA Act 2016 and in scrutiny of government agencies like Securities and Exchange Board of India (SEBI).
+                            </p>
+                        </li>
                     </ul>
 
                     <h2 id="heading-4">Fractional Ownership Vs. Traditional Real Estate Investment </h2>
@@ -353,7 +368,7 @@ estate investment strategies 2024" />
                     <table class="beautiful-table">
                         <tbody>
                             <tr>
-                                <td>
+                                <td colspan="2">
                                     <p><strong>Investment Cap</strong></p>
                                 </td>
                             </tr>
@@ -381,7 +396,7 @@ estate investment strategies 2024" />
                     <table class="beautiful-table">
                         <tbody>
                             <tr>
-                                <td>
+                                <td colspan="2">
                                     <p><strong>Returns and Risks</strong></p>
                                 </td>
                             </tr>
@@ -390,7 +405,7 @@ estate investment strategies 2024" />
                                     <p><strong>Fractional Ownership in Real Estate</strong></p>
                                 </td>
                                 <td>
-                                    <p>Provides shared appreciation and depreciation on capital and returns&nbsp;</p>
+                                    <p>Provides shared appreciation and depreciation on capital and returns </p>
                                 </td>
                             </tr>
                             <tr>
@@ -409,7 +424,7 @@ estate investment strategies 2024" />
                     <table class="beautiful-table">
                         <tbody>
                             <tr>
-                                <td>
+                                <td colspan="2">
                                     <p><strong>Property Liquidity</strong></p>
                                 </td>
                             </tr>
@@ -437,7 +452,7 @@ estate investment strategies 2024" />
                     <table class="beautiful-table">
                         <tbody>
                             <tr>
-                                <td>
+                                <td colspan="2">
                                     <p><strong>Returns and Risks</strong></p>
                                 </td>
                             </tr>
@@ -446,7 +461,7 @@ estate investment strategies 2024" />
                                     <p><strong>Fractional Ownership in Real Estate</strong></p>
                                 </td>
                                 <td>
-                                    <p>Provides shared appreciation and depreciation on capital and returns&nbsp;</p>
+                                    <p>Provides shared appreciation and depreciation on capital and returns </p>
                                 </td>
                             </tr>
                             <tr>
@@ -466,7 +481,7 @@ estate investment strategies 2024" />
 
                     <h3>Axis Ecorp </h3>
 
-                    <p>Axis Ecorp is a trusted real estate developer in Goa and offers various luxurious real estate projects such as Axis Blues, Axis Yog Villas, Axis Lake City, Axis KNCZ, AND Axis Lake City Plaza.Axis Blues offers luxury suites in North Goa available as property shares and&nbsp; features strategic fractional ownership in real estate with assured returns on investment and regula rental yields.</p>
+                    <p>Axis Ecorp is a trusted real estate developer in Goa and offers various luxurious real estate projects such as Axis Blues, Axis Yog Villas, Axis Lake City, Axis KNCZ, AND Axis Lake City Plaza.Axis Blues offers luxury suites in North Goa available as property shares and features strategic fractional ownership in real estate with assured returns on investment and regula rental yields.</p>
 
                     <h3>MoneyTree Realty </h3>
 
@@ -478,18 +493,47 @@ estate investment strategies 2024" />
 
                     <h2 id="heading-6">Future of Fractional Ownership in Real Estate </h2>
 
-                    <p>Fractional Ownership in Real Estate is the coming-of-age real estate investment opportunity that requires less investment cap with multiple people owning shares of a commercial or residential property.&nbsp;</p>
+                    <p>Fractional Ownership in Real Estate is the coming-of-age real estate investment opportunity that requires less investment cap with multiple people owning shares of a commercial or residential property. </p>
 
                     <p>Here, we list out the prospects of future of fractional ownership in real estate:</p>
 
                     <ul class="arrow-list">
-                        <li>It will prompt more people to invest in real estate due to substantial investment cap and shared appreciation and depreciation.</li>
-                        <li>It will help real estate investors to diversify their portfolio of commercial and residential properties and gain a high rate of investments.</li>
-                        <li>Various emerging cryptocurrency, blockchains, and NFTs, would be quite beneficial as the demand for fractional ownership in real estate would surge.</li>
-                        <li>The fractional ownership in real estate would be regulated and monitored by SEBI and RERA and the rules and regulation would be updated regularly to meet its traction and make real estate business in property shares more easier, accessible, safe, and secured.</li>
-                        <li>The younger generation would have the emerging stake in fractional ownership in real estate due to low-cost entry investment, and wide use of digital platforms.</li>
-                        <li>Fractional ownership in real estate would allow people to buy high-end properties with reduced risks and assuring high returns and competitive rental yields.</li>
-                        <li>It would expand the ever-growing real estate industry in India and make it a prominent choice for wealth creation.&nbsp;</li>
+                        <li>
+
+                            <p>It will prompt more people to invest in real estate due to substantial investment cap and shared appreciation and depreciation.</p>
+
+                        </li>
+                        <li>
+
+                            <p>It will help real estate investors to diversify their portfolio of commercial and residential properties and gain a high rate of investments.</p>
+
+                        </li>
+                        <li>
+
+                            <p>Various emerging cryptocurrency, blockchains, and NFTs, would be quite beneficial as the demand for fractional ownership in real estate would surge.</p>
+
+                        </li>
+                        <li>
+
+                            <p>The fractional ownership in real estate would be regulated and monitored by SEBI and RERA and the rules and regulation would be updated regularly to meet its traction and make real estate business in property shares more easier, accessible, safe, and secured.</p>
+
+                        </li>
+                        <li>
+
+                            <p>The younger generation would have the emerging stake in fractional ownership in real estate due to low-cost entry investment, and wide use of digital platforms.</p>
+
+                        </li>
+                        <li>
+
+                            <p>Fractional ownership in real estate would allow people to buy high-end properties with reduced risks and assuring high returns and competitive rental yields.</p>
+
+                        </li>
+                        <li>
+
+                            <p>It would expand the ever-growing real estate industry in India and make it a prominent choice for wealth creation.</p>
+
+                        </li>
+
                     </ul>
 
                     <h2>Buy Property for Sale, Now! </h2>

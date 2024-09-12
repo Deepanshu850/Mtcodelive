@@ -10,7 +10,7 @@
     </title>
 
 
-    <meta name="description" content="Sector 28, Noida, situated near Dardri Road in Gautam Buddha Nagar, is a well developed residential sector with excellent connectivity and modern amenities." />
+    <meta name="description" content="Sector 28, Noida, situated near Dadri Road in Gautam Buddha Nagar, is a well developed residential sector with excellent connectivity and modern amenities." />
 
 
     <meta name="keywords" content="Sector 28 Noida, Noida Sector 28, Sector 28 Metro Station, Sector 28 Petrol 
@@ -33,7 +33,7 @@ Residential Real Estate, Real Estate Deals, Property Advice, Real Estate Consult
     <meta property="og:title" content="Sector 28 Noida: Map, Property Rates, Projects, Review, Info">
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-28-noida">
-    <meta property="og:description" content="Sector 28, Noida, situated near Dardri Road in Gautam Buddha Nagar, is a well-developed residential sector with excellent connectivity and modern amenities.">
+    <meta property="og:description" content="Sector 28, Noida, situated near Dadri Road in Gautam Buddha Nagar, is a well-developed residential sector with excellent connectivity and modern amenities.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-28-noida-banner.webp">
     <meta property="og:image:width" content="1200">
@@ -44,21 +44,21 @@ Residential Real Estate, Real Estate Deals, Property Advice, Real Estate Consult
     <!-- Twitter Card Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Sector 28 Noida: Map, Property Rates, Projects, Review, Info">
-    <meta name="twitter:description" content="Sector 28, Noida, situated near Dardri Road in Gautam Buddha Nagar, is a well-developed residential sector with excellent connectivity and modern amenities.">
+    <meta name="twitter:description" content="Sector 28, Noida, situated near Dadri Road in Gautam Buddha Nagar, is a well-developed residential sector with excellent connectivity and modern amenities.">
     <meta name="twitter:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-28-noida-banner.webp">
     <meta name="twitter:image:alt" content="Sector 28 Noida">
     <meta name="twitter:site" content="@MoneytreeRSPL">
 
     <!-- LinkedIn Open Graph Tags -->
     <meta property="og:title" content="Sector 28 Noida: Map, Property Rates, Projects, Review, Info">
-    <meta property="og:description" content="Sector 28, Noida, situated near Dardri Road in Gautam Buddha Nagar, is a well-developed residential sector with excellent connectivity and modern amenities.">
+    <meta property="og:description" content="Sector 28, Noida, situated near Dadri Road in Gautam Buddha Nagar, is a well-developed residential sector with excellent connectivity and modern amenities.">
     <meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-28-noida">
     <meta property="og:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-28-noida-banner.webp">
     <meta property="og:image:alt" content="Sector 28 Noida">
 
     <!-- Pinterest Tags -->
     <meta name="og:title" content="Sector 28 Noida: Map, Property Rates, Projects, Review, Info">
-    <meta name="og:description" content="Sector 28, Noida, situated near Dardri Road in Gautam Buddha Nagar, is a well-developed residential sector with excellent connectivity and modern amenities.">
+    <meta name="og:description" content="Sector 28, Noida, situated near Dadri Road in Gautam Buddha Nagar, is a well-developed residential sector with excellent connectivity and modern amenities.">
     <meta name="og:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-28-noida-banner.webp">
     <meta name="og:image:alt" content="Sector 28 Noida">
     <meta name="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-28-noida">
@@ -202,10 +202,10 @@ Residential Real Estate, Real Estate Deals, Property Advice, Real Estate Consult
 
         <main>
             <div class="image-wrapper">
-                <img src="./assets/image/sector-28-noida-banner.webp" alt="Sector 28 Noida | Dardri Road, Gautam Buddha Nagar">
+                <img src="./assets/image/sector-28-noida-banner.webp" alt="Sector 28 Noida | Dadri Road, Gautam Buddha Nagar">
             </div>
             <h1>
-                Sector 28 Noida | Dardri Road, Gautam Buddha Nagar
+                Sector 28 Noida | Dadri Road, Gautam Buddha Nagar
 
             </h1>
 

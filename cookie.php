@@ -15,54 +15,66 @@ if (isset($_COOKIE['user_consent']) && $_COOKIE['user_consent'] == 'accepted') {
         left: 50%;
         transform: translateX(-50%);
         width: 90%;
-        max-width: 400px;
-        background-color: #fff;
-        color: #2c3e50;
+        max-width: 350px;
+        background-color: #f8f9fa;
+        color: #343a40;
         text-align: center;
-        padding: 20px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-        border-radius: 15px;
+        padding: 15px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+        border-radius: 12px;
         display: none;
         z-index: 1000;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     .cookie-consent p {
-        margin: 0 0 15px 0;
+        margin: 0 0 10px 0;
         padding: 0;
-        font-size: 16px;
+        font-size: 14px;
+        line-height: 1.5;
     }
 
     .cookie-consent button {
         margin: 5px;
-        padding: 10px 20px;
+        padding: 12px 18px;
         border: none;
         cursor: pointer;
         border-radius: 5px;
         font-size: 14px;
+        transition: background-color 0.3s ease, opacity 0.3s ease;
     }
 
     .cookie-consent button.accept {
-        background-color: #27ae60;
+        background-color: #dc3545;
         color: #fff;
     }
 
     .cookie-consent button.decline {
-        background-color: #c0392b;
+        background-color: #28a745; 
+     
         color: #fff;
     }
 
-    .cookie-consent button:hover {
-        opacity: 0.8;
+    .cookie-consent button.accept:hover {
+        background-color: #c82333;
+       
+    }
+
+    .cookie-consent button.decline:hover {
+        background-color: #218838;
+      
     }
 
     .cookie-icon {
-        font-size: 50px;
+        font-size: 40px;
+        margin-bottom: 10px;
+        color: #f39c12;
     }
 </style>
 
 <div class="cookie-consent" id="cookieConsent">
     <div class="cookie-icon">🍪</div>
-    <p>We use cookies to improve your experience on our site. Do you accept the use of cookies?</p>
+    <p>We use cookies to ensure you get the best experience on our website. Do you accept cookies?</p>
     <button class="accept" onclick="acceptCookies()">Accept</button>
     <button class="decline" onclick="declineCookies()">Decline</button>
 </div>

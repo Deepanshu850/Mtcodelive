@@ -1,7 +1,4 @@
-
-
-
-<?php 
+<?php
 include './cookie.php';
 ?>
 
@@ -11,11 +8,225 @@ include './cookie.php';
     <a href=https://www.instagram.com/moneytreerealtyofficial/ class="s-item instagram"><i class="bi bi-instagram"></i></a>
 </div>
 
-
+<?php
+include "./data/blogdata.php";
+?>
 <header class="header-area style-1">
     <style>
         .img-fluid {
             max-width: 165px !important;
+        }
+
+        /* Navigation Styles */
+        .navbar {
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 16px;
+        }
+
+        .nav-list {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-item {
+            position: relative;
+            margin-right: 20px;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: #333333;
+            font-weight: bold;
+            padding: 8px 12px;
+            display: inline-block;
+        }
+
+        .nav-link:hover {
+            color: #007bff;
+        }
+
+        /* Dropdown Styles */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            left: 0;
+            top: 100%;
+            width: 500px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            z-index: 1000;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+            opacity: 0;
+            transform: translateY(10px);
+        }
+
+        .nav-item:hover .dropdown-content {
+            display: block;
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .dropdown-link {
+            display: block;
+            padding: 12px;
+            color: #333333;
+            text-decoration: none;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        header.style-1 .main-menu ul>li a.dropdown-link {
+            transition-duration: 0.3s;
+
+        }
+
+        .dropdown-link:hover {
+            background-color: #f0f0f0;
+        }
+
+        .dropdown-item-content {
+            display: flex;
+            align-items: center;
+        }
+
+        .dropdown-text {
+            flex: 1;
+            padding-right: 10px;
+        }
+
+        .dropdown-image {
+            width: 150px;
+            height: 100px;
+            /* object-fit: cover; */
+            border-radius: 8px;
+        }
+
+        .dropdown-title {
+            margin: 0 0 4px;
+            font-size: 14px;
+            font-weight: 600;
+            color: #333333;
+            letter-spacing: 0.35px;
+        }
+
+        .dropdown-description {
+            font-size: 12px;
+            color: #666666;
+            line-height: 1.6;
+            text-transform: capitalize;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-list {
+                flex-direction: column;
+            }
+
+            .nav-item {
+                margin-bottom: 10px;
+            }
+
+            .dropdown-content {
+                width: 100%;
+                left: 0;
+            }
+
+            .dropdown-item-content {
+                flex-direction: column;
+            }
+
+            .dropdown-text {
+                padding-right: 0;
+                margin-bottom: 10px;
+            }
+
+            .dropdown-image {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .drop-down {
+            position: relative;
+            display: inline-block;
+            color: #000;
+            /* Adjust as needed */
+            text-decoration: none;
+            transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+        }
+
+        .drop-down:hover {
+            transform: scale(1.1);
+            /* Slightly enlarges the link */
+            color: #ff6347;
+            /* Change color on hover, adjust as needed */
+        }
+
+        .drop-down::after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            width: 0;
+            height: 2px;
+            background-color: #ff6347;
+            /* Adjust as needed */
+            transition: width 0.3s ease-in-out;
+            transform: translateX(-50%);
+        }
+
+        .drop-down:hover::after {
+            width: 100%;
+            /* Expands the underline effect on hover */
+        }
+
+        .pop-up-link {
+            position: relative;
+            display: inline-block;
+            color: #000;
+            /* Adjust as needed */
+            text-decoration: none;
+            animation: popUp 1s infinite;
+            /* Infinite pop-up animation */
+            transition: color 0.2s ease-in-out;
+        }
+
+        .pop-up-link:hover {
+            color: #ff6347;
+            /* Change color on hover, adjust as needed */
+        }
+
+        @keyframes popUp {
+
+            0%,
+            100% {
+                transform: scale(1);
+                /* Normal size at the start and end */
+            }
+
+            50% {
+                transform: scale(1.1);
+                /* Larger size in the middle */
+            }
+        }
+
+        .pop-up-link::after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            width: 0;
+            height: 2px;
+            background-color: #ff6347;
+            /* Adjust as needed */
+            transition: width 0.3s ease-in-out;
+            transform: translateX(-50%);
+        }
+
+        .pop-up-link:hover::after {
+            width: 100%;
+            /* Expands the underline effect on hover */
         }
     </style>
     <div class="header-logo d-lg-none d-flex"> <a href="index.php"><img alt="Best Real Estate Property Consultant in Delhi/NCR" class="img-fluid" src="./assets/img/logo.png"></a> </div>
@@ -36,27 +247,107 @@ include './cookie.php';
                 <a href="./career" class="drop-down">CAREER</a>
 
             </li>
-            <li class="menu-item-has-children"> <a href="./top-real-estate-poperty-consultant-in-india.php" class="drop-down">PROJECTS </a><i class="bi bi-plus dropdown-icon"></i>
+            <li class="menu-item-has-children"> <a href="./top-real-estate-poperty-consultant-in-india" class="drop-down">PROJECTS </a><i class="bi bi-plus dropdown-icon"></i>
                 <ul class="sub-menu">
-                    <li>
-                        <a href="./category/residential-property.php" class="drop-down">
-                            Residential
-                        </a>
+                    <li class="menu-item-has-children"> <a href="./category/residential-property" class="drop-down">Residential </a><i class="bi bi-plus dropdown-icon"></i>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="./category/residential-property-for-sale-noida" class="drop-down">
+                                    Noida
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./category/residential-property-for-sale-gurgaon" class="drop-down">
+                                    Gurgaon
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="./category/residential-property-for-sale-mumbai" class="drop-down">
+                                    Mumbai
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./category/residential-property-for-sale-goa" class="drop-down">
+                                    Goa
+                                </a>
+                            </li>
+                        </ul>
                     </li>
-                    <li>
-                        <a href="./category/commercial-property.php" class="drop-down">
-                            Commercial
-                        </a>
+                    <li class="menu-item-has-children"> <a href="./category/commercial-property" class="drop-down">Commercial </a><i class="bi bi-plus dropdown-icon"></i>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="./category/commercial-property-for-sale-noida" class="drop-down">
+                                    Noida
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./category/commercial-property-for-sale-gurgaon" class="drop-down">
+                                    Gurgaon
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="./category/commercial-property-for-sale-mumbai" class="drop-down">
+                                    Mumbai
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./category/commercial-property-for-sale-goa" class="drop-down">
+                                    Goa
+                                </a>
+                            </li>
+                        </ul>
                     </li>
-                    <li>
-                        <a href="./category/studio-apartments.php" class="drop-down">
-                            Studio Apartments
-                        </a>
+                    <li class="menu-item-has-children"> <a href="./category/studio-apartments" class="drop-down">Studio Apartments </a><i class="bi bi-plus dropdown-icon"></i>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="./category/studio-apartments-for-sale-noida" class="drop-down">
+                                    Noida
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./category/studio-apartments-for-sale-gurgaon" class="drop-down">
+                                    Gurgaon
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="./category/studio-apartments-for-sale-mumbai" class="drop-down">
+                                    Mumbai
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./category/studio-apartments-for-sale-goa" class="drop-down">
+                                    Goa
+                                </a>
+                            </li>
+                        </ul>
                     </li>
-                    <li>
-                        <a href="./category/plots.php" class="drop-down">
-                            Plots
-                        </a>
+                    <li class="menu-item-has-children"> <a href="./category/plots" class="drop-down">Plots </a><i class="bi bi-plus dropdown-icon"></i>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="./category/plots-for-sale-noida" class="drop-down">
+                                    Noida
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./category/plots-for-sale-gurgaon" class="drop-down">
+                                    Gurgaon
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="./category/plots-for-sale-mumbai" class="drop-down">
+                                    Mumbai
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./category/plots-for-sale-goa" class="drop-down">
+                                    Goa
+                                </a>
+                            </li>
+                        </ul>
                     </li>
 
 
@@ -64,7 +355,41 @@ include './cookie.php';
             </li>
 
             <li> <a href="./contact" class="drop-down">CONTACT</a> </li>
-            <li> <a href="./blog/index" class="drop-down">BLOG</a> </li>
+
+
+            <li class="nav-item">
+                <a href="./blog/index" class="nav-link">BLOG</a>
+                <div class="dropdown-content">
+                    <?php
+                    include './data/blogdata.php'; // Include the blog data
+
+                    function generateSlug($title)
+                    {
+                        return strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $title)));
+                    }
+
+                    $posts = array_reverse($posts);
+
+                    // Get the top 3 blog posts
+                    $topPosts = array_slice($posts, 0, 3);
+
+                    foreach ($topPosts as $post) {
+                        echo '<a href="./blog/' . generateSlug($post['title']) . '" class="dropdown-link">
+                        <div class="dropdown-item-content">
+                        <div class="dropdown-text">
+                        <h3 class="dropdown-title">' . $post['title'] . '</h3>
+                        <p class="dropdown-description">' . substr($post['description'], 0, 100) . '...</p>
+                        </div>
+                        <img src="./blog/' . $post['imageUrl'] . '" alt="' . $post['title'] . '" class="dropdown-image">
+                        </div>
+                        </a>';
+                    }
+                    ?>
+                </div>
+            </li>
+
+
+            <!-- <li> <a href="./referal" class="drop-down pop-up-link">Referal Program</a> </li> -->
             <li class="menu-item-has-children"> <a href="#" class="drop-down">Others </a><i class="bi bi-plus dropdown-icon"></i>
                 <ul class="sub-menu">
                     <li> <a href="./about-us" class="drop-down">About</a> </li>
@@ -280,7 +605,7 @@ include './cookie.php';
                             <stop offset="50%" style="stop-color: #e5b566;" />
                             <stop offset="100%" style="stop-color: #f0cb7b;" />
                         </linearGradient>
-                     
+
                     </defs>
 
                     <path class="gold-gradient" d="M13.5365 14.7303C12.5652 14.7257 11.6003 14.5735 10.6748 14.2788C9.94838 14.0358 9.29948 13.6044 8.79429 13.0286C8.28911 12.4529 7.94573 11.7534 7.79922 11.0016C7.47293 9.43032 8.06788 7.76895 9.43026 6.44297C9.57662 6.30051 9.7287 6.16404 9.88612 6.03391C10.5733 5.45852 11.3903 5.05903 12.2664 4.86992C13.1425 4.6808 14.0515 4.70775 14.9149 4.94843C15.7429 5.21282 16.4688 5.72699 16.9929 6.42036C17.5171 7.11374 17.8138 7.95233 17.8424 8.82106C17.906 9.84579 17.572 10.8556 16.9099 11.6403C16.6595 11.9557 16.3269 12.196 15.9488 12.3349C15.5708 12.4737 15.1617 12.5056 14.7667 12.4272C14.6037 12.3934 14.4491 12.327 14.3124 12.2321C14.1756 12.1371 14.0594 12.0156 13.9707 11.8747C13.891 11.7379 13.8399 11.5863 13.8202 11.4292C13.8006 11.2721 13.8128 11.1127 13.8563 10.9604C14.2354 9.52782 14.6206 7.35079 14.6245 7.32912C14.6344 7.27307 14.6553 7.21952 14.6859 7.17152C14.7165 7.12353 14.7562 7.08203 14.8029 7.04939C14.8495 7.01676 14.9021 6.99363 14.9577 6.98133C15.0133 6.96903 15.0707 6.96779 15.1268 6.97769C15.1828 6.9876 15.2364 7.00844 15.2844 7.03904C15.3324 7.06964 15.3739 7.10939 15.4065 7.15602C15.4391 7.20266 15.4623 7.25527 15.4746 7.31084C15.4869 7.36641 15.4881 7.42387 15.4782 7.47992C15.4622 7.57048 15.0826 9.71458 14.6943 11.1818C14.6806 11.2221 14.6753 11.2647 14.6787 11.3071C14.682 11.3495 14.694 11.3908 14.7138 11.4284C14.7738 11.5112 14.8642 11.5669 14.9651 11.5831C15.2071 11.6235 15.4554 11.597 15.6834 11.5065C15.9114 11.416 16.1103 11.2649 16.2586 11.0696C16.7728 10.4546 17.0303 9.66518 16.9779 8.86526C16.9573 8.17371 16.7231 7.5055 16.3075 6.95233C15.892 6.39916 15.3155 5.98813 14.657 5.77565C13.9317 5.57612 13.1686 5.55608 12.4338 5.71726C11.6989 5.87843 11.0143 6.21599 10.439 6.7008C10.2999 6.8165 10.1643 6.93739 10.0343 7.06393C9.36093 7.71912 8.28498 9.07889 8.64767 10.8252C8.76741 11.4247 9.04172 11.9826 9.44341 12.4435C9.8451 12.9044 10.3602 13.2524 10.9378 13.4529C12.9701 14.1011 15.8907 14.1796 17.429 12.2664C17.5019 12.1798 17.6058 12.1251 17.7185 12.114C17.8312 12.103 17.9438 12.1365 18.0321 12.2074C18.1203 12.2783 18.1774 12.381 18.1909 12.4934C18.2045 12.6058 18.1735 12.7191 18.1046 12.809C16.9667 14.2242 15.2351 14.7303 13.5365 14.7303Z" />
@@ -447,9 +772,8 @@ include './cookie.php';
 <a href="https://wa.me/+919732300007" class="float bounce" target="_blank">
     <i class="bi bi-whatsapp my-float"></i>
 </a>
-    
-
-<?php include "./slidefornfakenoti.php" ?>    
 
 
-
+<?php
+// include "./slidefornfakenoti.php" 
+?>
