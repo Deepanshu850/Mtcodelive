@@ -31,7 +31,7 @@ $properties = [
             'assets/img/projectdetails/m3mcullinan3.webp'
 
         ],
-        'price' => 'On Request',
+        'price' => '1 Cr+*',
         'detailsPage' => '#',
         'type' => ['Residential', 'Commercial'],
         'rera' => 'UPRERAPRJ442214',
@@ -49,7 +49,7 @@ $properties = [
             'assets/img/projectdetails/m3mtheline3.webp'
 
         ],
-        'price' => 'On Request',
+        'price' => '80 Lac+*',
         'detailsPage' => '#',
         'type' => ['Studio Apartments', 'Commercial'],
         'rera' => 'UPRERAPRJ246070',
@@ -66,7 +66,7 @@ $properties = [
             "assets/img/projectdetails/godrejtropical3.jpg"
 
         ],
-        'price' => 'On Request',
+        'price' => '2.3 Cr+*',
         'detailsPage' => '#',
         'type' => ['Residential'],
         'rera' => 'UPRERAPRJ303390',
@@ -333,7 +333,7 @@ $properties = [
             'assets/img/projectdetails/migsun2.jpeg',
             // 'assets/img/projectdetails/migsun3.jpeg',
         ],
-        'price' => 'On Request',
+        'price' => '40 Lac+*',
         'detailsPage' => '#',
         'type' => ['Studio Apartments', 'Residential'],
         'rera' => 'UPRERAPRJ297873',
@@ -413,7 +413,7 @@ $properties = [
             'assets/img/projectdetails/devikavibe2.jpeg',
             'assets/img/projectdetails/devikavibe3.jpeg',
         ],
-        'price' => 'On Request',
+        'price' => '60 Lac+*',
         'detailsPage' => '#',
         'type' => ['Commercial'],
         'rera' => 'UPRERAPRJ297873',
@@ -461,7 +461,7 @@ $properties = [
             'assets/img/projectdetails/galacticcity2.webp',
             'assets/img/projectdetails/galacticcity3.webp',
         ],
-        'price' => 'On Request',
+        'price' => '10.95 Lac+*',
         'detailsPage' => '#',
         'type' => ['Commercial'],
         'rera' => 'UPRERAPRJ297873',

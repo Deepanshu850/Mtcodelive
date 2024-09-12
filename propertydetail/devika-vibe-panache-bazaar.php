@@ -65,58 +65,15 @@ in Noida" />
         }
     </script>
 
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [{
-                "@type": "Question",
-                "name": "What types of commercial spaces are available at Devika VIBE Panache Bazaar?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Devika Vibe Panache Bazaar is a commercial property in Noida offering retail shops, Food Courts, and kiosks in the bustling residential sector of Noida - 110."
-                }
-            }, {
-                "@type": "Question",
-                "name": "What is the location of Devika VIBE Panache Bazaar?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Devika Vibe Panache Bazaar is located in Sector 110, Noida, 201304."
-                }
-            }, {
-                "@type": "Question",
-                "name": "What is the RERA number of Devika VIBE Panache Bazaar?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Devika Vibe Panache Bazaar is registered under RERA with registration number P51800054703."
-                }
-            }, {
-                "@type": "Question",
-                "name": "What is the starting price range of Devika VIBE Panache Bazaar?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "To know the starting price range of Devika Vibe Panache Bazaar, Contact Us Now!"
-                }
-            }, {
-                "@type": "Question",
-                "name": "What is Devika VIBE Panache Bazaar Pin Code?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Devika Vibe Panache Bazaar is located at Sector - 110, Noida with a pin code 201304."
-                }
-            }, {
-                "@type": "Question",
-                "name": "Is Devika VIBE Panache Bazaar Booking open?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The bookings for Devika Vibe Panache Bazaar are open now. Contact us now!"
-                }
-            }]
-        }
-    </script>
 
 
 
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/nice-select.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="./assets/projects.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
 
 
     <!-- Google Tag Manager -->
@@ -137,25 +94,10 @@ in Noida" />
         })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
     </script>
     <!-- End Google Tag Manager -->
-    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../assets/css/jquery-ui.css" rel="stylesheet">
-    <link href="../assets/css/bootstrap-icons.css" rel="stylesheet">
-    <link href="../assets/css/all.min.css" rel="stylesheet">
-    <link href="../assets/css/animate.min.css" rel="stylesheet">
-    <link href="../assets/css/jquery.fancybox.min.css" rel="stylesheet">
-    <link href="../assets/css/fontawesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="../assets/css/slick.css">
-    <link rel="stylesheet" href="../assets/css/slick-theme.css">
-    <link rel="stylesheet" href="../assets/css/magnific-popup.css">
-    <link href="../assets/css/boxicons.min.css" rel="stylesheet">
-    <link href="../assets/css/nice-select.css" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-    <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
-    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+
+
+
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-JZJY23MWW7"></script>
     <script>
@@ -169,6 +111,8 @@ in Noida" />
     </script>
     <!-- End Google Analytics -->
     <!--G-JZJY23MWW7-->
+
+
 </head>
 
 <body class="light-theme">
@@ -179,950 +123,513 @@ in Noida" />
 
 
 
-    <style>
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color: #edf2f7;
-        color: #333;
-
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-
-        /* Add padding to the top of the body, assuming the navbar is at the top of the body */
-    }
-
-    h1 {
-        /* Gradient background for text */
-        font-size: 31px;
-        background: -webkit-linear-gradient(left, #005b52, #d39f51);
-        /* For Chrome and Safari */
-        background: linear-gradient(to right, #005b52, #d39f51);
-        /* Standard syntax */
-        -webkit-background-clip: text;
-        background-clip: text;
-        color: transparent;
-        /* Hide the original text color */
-        font-weight: bold;
-        /* Enhance the visual */
-
-        /* Add underline */
-        text-decoration: underline;
-    }
-
-    h2 {
-        /* Gradient background for text */
-        font-size: 30px;
-        background: -webkit-linear-gradient(left, #005b52, #d39f51);
-        /* For Chrome and Safari */
-        background: linear-gradient(to right, #005b52, #d39f51);
-        /* Standard syntax */
-        -webkit-background-clip: text;
-        background-clip: text;
-        color: transparent;
-        /* Hide the original text color */
-        font-weight: 600;
-        /* Enhance the visual */
-
-        /* Add underline */
-
-    }
-
-
-
-    .navbar {
-        width: 100%;
-        /* Ensures the navbar spans the full width */
-        background-color: #fff;
-        /* Assuming the navbar has a white background */
-        /* Add other styles for your navbar here */
-    }
-
-    .property-content {
-        background-color: #ffffff;
-        padding: 30px;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        margin: 10px;
-        width: 100%;
-        max-width: 800px;
-    }
-
-    .property-images img {
-        width: calc(50% - 10px);
-        margin-bottom: 20px;
-        border-radius: 5px;
-    }
-
-    .sticky-container {
-        position: -webkit-sticky;
-        position: relative;
-
-        background-color: #ffffff;
-        padding: 10px;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        width: 300px;
-        margin: 10px;
-        max-height: 1700px;
-        overflow-y: auto;
-    }
-
-    .input-group {
-        margin-bottom: 1rem;
-    }
-
-    .input-group label {
-        display: block;
-        margin-bottom: 0.5rem;
-        font-weight: 600;
-        color: #4a5568;
-    }
-
-    input[type="number"],
-    input[type="text"],
-    input[type="email"],
-    textarea {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 20px;
-        border-radius: 5px;
-        border: 1px solid #cbd5e0;
-        font-size: 16px;
-    }
-
-    button {
-        width: 100%;
-        padding: 12px 20px;
-        border: none;
-        border-radius: 5px;
-        background-color: #005b52;
-        color: white;
-        font-size: 16px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-    }
-
-    button:hover {
-        background-color: #005b52;
-    }
-
-    #emiChart {
-        margin-top: 30px;
-        width: 100%;
-        height: 200px;
-    }
-
-    @media (max-width: 767px) {
-
-        .sticky-container,
-        .property-images img {
-            width: 100%;
-        }
-
-        .property-content,
-        .property-images img {
-            width: 100%;
-        }
-
-
-
-        /* Add any additional mobile-specific styles here */
-        .property-location-map iframe {
-            width: 100%;
-            max-width: 800px;
-            /* Adjust based on your layout's needs */
-            height: 200px;
-            aspect-ratio: 16 / 9;
-        }
-
-        @media (max-width: 768px) {
-            .property-location-map iframe {
-                height: 300px;
-                /* Adjust height for smaller devices */
-            }
-        }
-
-    }
-</style>
-
- <?php
+    <?php
     include './header.php';
     ?>
 
-   
-    <script>
-        function calculateEMI() {
-            var principal = parseFloat(document.getElementById("principal").value);
-            var rate = parseFloat(document.getElementById("rate").value) / 12 / 100;
-            var years = parseInt(document.getElementById("years").value);
-            var additionalMonths = parseInt(document.getElementById("months").value || 0);
-            var n = years * 12 + additionalMonths;
-
-            if (principal <= 0 || rate <= 0 || n <= 0) {
-                alert("Please enter valid numbers in all fields.");
-                return;
-            }
-
-            var emi = principal * rate * Math.pow(1 + rate, n) / (Math.pow(1 + rate, n) - 1);
-            var totalPayment = emi * n;
-            var totalInterest = totalPayment - principal;
-
-            document.getElementById("emiDetails").style.display = 'block';
-            document.getElementById("monthlyEmi").innerHTML = `Monthly EMI: ${emi.toFixed(2)}`;
-            document.getElementById("totalInterest").innerHTML = `Total Interest: ${totalInterest.toFixed(2)}`;
-            document.getElementById("totalPayment").innerHTML =
-                `Total Payment (Principal + Interest): ${totalPayment.toFixed(2)}`;
-
-            var ctx = document.getElementById('emiChart').getContext('2d');
-            var myChart = new Chart(ctx, {
-                type: 'pie',
-                data: {
-                    labels: ['Total Interest', 'Principal Amount'],
-                    datasets: [{
-                        label: 'EMI Distribution',
-                        data: [totalInterest, principal],
-                        backgroundColor: [
-                            'rgba(255, 99, 132, 0.2)',
-                            'rgba(54, 162, 235, 0.2)'
-                        ],
-                        borderColor: [
-                            'rgba(255, 99, 132, 1)',
-                            'rgba(54, 162, 235, 1)'
-                        ],
-                        borderWidth: 1
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    plugins: {
-                        legend: {
-                            position: 'top',
-                        },
-                        title: {
-                            display: true,
-                            text: 'EMI Distribution (Principal vs. Interest)'
-                        }
-                    }
-                }
-            });
-        }
-    </script>
-
-   
-
-<style>
-    .beautiful-table {
-        width: 100%;
-        margin: 0 auto;
-        /* Center table */
-        border-collapse: collapse;
-        text-align: center;
-        border-radius: 10px;
-        overflow: hidden;
-        /* Ensures the border-radius applies to the table */
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        /* Soft shadow around the table */
-    }
-
-    .beautiful-table caption {
-        margin: 20px 0;
-        font-size: 24px;
-        font-weight: bold;
-        color: #2c3e50;
-        /* Dark blue color */
-        text-shadow: 1px 1px 0px #fff;
-        /* Slight white text shadow for depth */
-    }
-
-    .beautiful-table th,
-    .beautiful-table td {
-        padding: 10px 10px;
-        border: 1px solid #ddd;
-        /* Light gray border */
-        background-color: #f9f9f9;
-        /* Very light gray background */
-    }
-
-    @media (width < 500px) {
-
-        .beautiful-table th,
-        .beautiful-table td {
-            padding: 6px 8px;
-        }
-
-        .beautiful-table {
-            font-size: 11px;
-            line-height: 1.6;
-            /* transform: translateX(-14px); */
-        }
-
-        h1 {
-            text-align: center;
-        }
-    }
-
-    .beautiful-table th {
-        background-color: whitesmoke;
-        /* Light blue background for headers */
-        color: black;
-        /* White text for headers */
-        text-shadow: none;
-        /* Remove text shadow for header */
-    }
-
-    .arrow-list {
-        list-style-type: none;
-        /* Remove default list bullets */
-        padding: 0;
-    }
-
-    .arrow-list li {
-        padding-left: 20px;
-        /* Create space for the custom bullet */
-        position: relative;
-        /* Needed for absolute positioning of the pseudo-element */
-        margin-bottom: 10px;
-        /* Space between items */
-        color: #555;
-        /* Darker text color */
-    }
-
-    .arrow-list li::before {
-        content: '➔';
-        /* Arrow symbol or you can use an emoji or an SVG image */
-        position: absolute;
-        left: 0;
-        color: #005b52;
-        /* Light blue color matching the table headers */
-    }
-
-    /* Optional: Add some styling to make it look better */
-    h2 {
-        color: #333;
-    }
-
-    .beautiful-table,
-    .arrow-list li {
-        font-family: Arial, sans-serif;
-        /* Consistent, clean font */
-    }
-
-    .sticky-container h2 {
-        margin-block: 2.3rem 1.4rem;
-    }
-     #fake-heading {
-            font-family: var(--font-montserrat);
-            color: #005b52;
-            font-weight: 700;
-            font-size: 24px;
-            margin-top: 30px;
-            margin-bottom: 10px;
-        }
-</style>
 
 
     <div class="property-content">
-        <h1 style="text-align: center;">
-            Devika Vibe Sector 110
-            <br> Panache Bazaar | Commercial Property
-        </h1>
-        <br>
-        <p id="fake-heading">
-            Quick Summary
-        </p>
-        <br>
+
+        <h2>Quick Summary of Devika VIBE Panache Bazaar</h2>
+
         <table class="beautiful-table">
-
-            <thead>
-                <tr>
-                    <th>Address</th>
-                    <th>Property Category</th>
-                    <th>Builder Name</th>
-                </tr>
-                <tr>
-                    <td>Sector 110, Noida</td>
-                    <td>Commercial Property</td>
-                    <td>Devika Group</td>
-                </tr>
-                <tr>
-                    <th>Property Status </th>
-                    <th>Possession by</th>
-                    <th>RERA Details</th>
-
-                </tr>
-                <tr>
-                    <td>Under Construction</td>
-                    <td>December 2024</td>
-
-                    <td><a href="https://uprera.azurewebsites.net/ViewProjectInDetailPublicView.aspx?id=9275">UPRERAPRJ9275</a></td>
-
-                </tr>
-                <tr>
-                    <th>Pincode</th>
-                    <th>Pricing</th>
-                    <th> </th>
-
-                </tr>
-                <tr>
-                    <td>201304</td>
-                    <td>on request</td>
-                    <td> </td>
-                </tr>
-            </thead>
             <tbody>
-
-
-
+                <tr>
+                    <td>
+                        <p>Address</p>
+                    </td>
+                    <td>
+                        <p>Property Category</p>
+                    </td>
+                    <td>
+                        <p>Builder Name</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Sector 110, Noida</p>
+                    </td>
+                    <td>
+                        <p>Commercial Property</p>
+                    </td>
+                    <td>
+                        <p>Devika Group</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Property Status</p>
+                    </td>
+                    <td>
+                        <p>Possession by</p>
+                    </td>
+                    <td>
+                        <p>RERA Details</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Under Construction</p>
+                    </td>
+                    <td>
+                        <p>December, 2024</p>
+                    </td>
+                    <td>
+                        <p>UPRERAPRJ9275</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Pincode</p>
+                    </td>
+                    <td>
+                        <p>Starting Pricing</p>
+                    </td>
+                    <td>
+                        <p>Strategic Location</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>201304</p>
+                    </td>
+                    <td>
+                        <p>₹65 Lac+</p>
+                    </td>
+                    <td>
+                        <p>Yamuna Expressway</p>
+                    </td>
+                </tr>
             </tbody>
         </table>
-        <!-- show more function  -->
+
+        <h2>Overview of Devika VIBE Panache Bazaar</h2>
+
+        <p><strong>Type of Property:</strong> Devika Vibe is a Commercial Property in Noida</p>
+
+        <p><strong>Property Units:</strong> Offers lockable shops in low-rise towers </p>
+
+        <p><strong>Location Highlights: </strong>Strategically located in the Heart of Noida - Sector 110 with close proximity to Yamuna Expressway and Yatharth Hospital</p>
+
+        <p><strong>Real Estate Developer:</strong> Devika Group</p>
+
+        <p><strong>Property Highlights:</strong> Low-rise Commercial Property offering high-street retail shops</p>
+
+        <p><strong>Top reasons for property investment:</strong> </p>
+
+        <ul class="arrow-list">
+            <li>High-end Hospitality Real Estate Project</li>
+            <li>One of its kind Lockable Shops in Noida</li>
+            <li>Numerous Options in Amenities &amp; Facilities</li>
+            <li>Strategic Location</li>
+            <li>Located in Densely Populated Area</li>
+            <li>Complete Ownership of Retail Shops</li>
+            <li>Seamless Connectivity</li>
+        </ul>
 
 
-
-       <?php
+        <?php
         include './carasol.php';
         ?>
 
 
+        <h2>Devika VIBE Panache Bazaar Description</h2>
 
+        <p><strong>Devika Vibe Panache Bazaar</strong> features high-street retail shops <strong>strategically located</strong> in the heart of the city<strong>, Sector 110 Noida</strong>, which boasts a promising high footfall. This commercial property in Noida is located in a high population density area and hence provides <strong>competitive rental yields</strong> with minimal maintenance.</p>
 
-  
-        <div class="property-summary">
-            <h2 style="color: #005B52">Project Description</h2>
-            <br>
+        <p>Devika Vibe features <strong>close proximity</strong> to various premium residential properties like ATS One Hamlet, Parx Laureate, Lotus Panache etc., making its location one of the busiest hubs in Noida and consequently emerging as the promising real estate investment in India</p>
 
-            <p align="justify">
-                <strong>Devika Vibe Panache Bazaar</strong> features high-street retail shops <strong>strategically
-                    located</strong> in the heart of <strong>Noida, Sector 110</strong>, which provides high footfall. This
-                commercial property in Noida is surrounded by a high population density area and
-                hence provides <strong>competitive rental yields</strong> with minimal maintenance.
-                <br><br>
+        <p>Panache Bazaar in Sector 110 Noida offers one of its lockable retail shops in the closely packed area with numerous commuters going round the locality. Branded under the reputed real estate developer in India, Devika Group, Panache Bazaar offers complete ownership of high-street retails shops along with promising capital appreciation and assured returns.</p>
 
-                Devika Vibe Panache Bazaar features <strong>close proximity</strong> to various premium residential
-                properties like ATS One Hamlet, Parx Laureate, Lotus Panache etc., making its location
-                one of the busiest hubs in Noida.
-                <br><br>
+        <p>Devika Vibe Panache Bazaar offers<strong> seamless connectivity with Yamuna Expressway </strong>and <strong>ISBT Noida</strong> and emerges as the top commercial property in Noida with <strong>an array of benefits</strong> like high capital appreciation, favourable rental yields, complete ownership of lockable retail shops, and regular retail footfall.</p>
 
+        <p>This <strong>commercial property in Noida</strong> is located in the bustling residential sector of Noida featuring <strong>high-street, standalone commercial outlets</strong>, along with integrated malls and features a promising real estate investment in India.</p>
 
-                Devika Vibe Panache Bazaar offers <strong>seamless connectivity with <a href="./ace-terra-yamuna-expressway.php">Yamuna
-                        Expressway</a></strong> and <strong>ISBT Noida</strong> and emerges as the top commercial property in Noida
-                with <strong>an array of benefits</strong> like high capital appreciation, favourable rental yields,
-                complete ownership of lockable retail shops, and regular retail footfall.
-                <br><br>
-                This <a href="./sikka-mall-of-noida-sector-98.php"><strong>commercial property in Noida </strong></a> is located in the bustling residential sector of
-                Noida featuring <strong>high-street, standalone commercial outlets</strong>, along with integrated
-                malls.
+        <h3>Devika Vibe Panache Bazaar | Size and Area Break-down</h3>
 
-
-            </p>
-            <br>
-            <div class="property-summary">
-                <h2>Devika VIBE Panache Bazaar Location Advantages
-                </h2>
-            </div>
-
-            <ul class="arrow-list">
-                <li>
-
-                    Devika Vibe Panache Bazaar is located in Sector 110, Noida
-
-                </li>
-                <li>
-                    Devika Vibe Panache Bazaar is located 15 minutes away from Yamuna
-                    Expressway
-
-
-                </li>
-                <li>
-                    Devika Vibe Panache Bazaar is located 5 minutes away from Mahamaya Flyover
-
-
-                </li>
-                <li>
-
-                    Devika Vibe Panache Bazaar is located 7 minutes away from Metro Station
-
-                </li>
-                <li>
-                    Devika Vibe Panache Bazaar is located 6 minutes away from Greater Noida
-                    Expressway
-
-
-                </li>
-                <li>
-                    Devika Vibe Panache Bazaar is located minutes 2 away from Yatharth Hospital
-
-
-                </li>
-                <li>
-
-
-                    Devika Vibe Panache Bazaar is located 15 minutes away from Akshardham
-                    Temple
-
-                </li>
-                <li>
-
-                    Devika Vibe Panache Bazaar is located 20 minutes away from Connaught Place
-
-                </li>
-                <li>
-
-                    Devika Vibe Panache Bazaar is located 25 minutes away from New Delhi Railway
-                    Station
-
-                </li>
-                <li>
-                    Devika Vibe Panache Bazaar is located 60 minutes away from Indira Gandhi
-                    International Airport
-
-
-                </li>
-
-            </ul>
-
-
-            <h2>
-                <center>
-                    Devika VIBE Panache Bazaar
-                    <br> Price & Payments
-                </center>
-            </h2>
-            <p style="text-align:center;">A RISING SECTOR 110, NOIDA</p>
-            <table style="width:100%">
+        <table class="beautiful-table">
+            <tbody>
                 <tr>
-                    <th>Unit Type</th>
-                    <th>Size (SQ. FT.)</th>
-                    <th>Rate</th>
+                    <td>
+                        <p><strong>Total Saleable Area</strong></p>
+                    </td>
+                    <td>
+                        <p>1.25 Acres</p>
+                    </td>
                 </tr>
                 <tr>
-                    <td>On Request</td>
-                    <td>On Request</td>
-                    <td>On Request</td>
+                    <td>
+                        <p><strong>Number of Towers</strong></p>
+                    </td>
+                    <td>
+                        <p>Low-rise Building</p>
+                    </td>
                 </tr>
-
-            </table>
-
-            <p style="margin-top: 2rem;">
-                Devika VIBE Panache Bazaar offers luxurious commercial property in:
-            </p>
-
-            <ul class="arrow-list">
-                <li>
-                    Devika VIBE Panache Bazaar features retail shops
-
-                </li>
-                <li>
-                    Devika VIBE Panache Bazaar features food street
-
-                </li>
-                <li>
-                    Devika VIBE Panache Bazaar features kiosks
-
-                </li>
-            </ul>
-
-            <style>
-                table,
-                th,
-                td {
-                    border: 1px solid black;
-                }
-
-                th,
-                td {
-                    text-align: center;
-                }
-            </style>
-            <br>
-
-            <h2>
-                Why Invest in Devika VIBE Panache
-                Bazaar?
-            </h2>
-            <ul class="arrow-list">
-                <li>
-
-                    Devika VIBE Panache Bazaar features commercial property located in the
-                    heart of Noida - Sector 110.
-                </li>
-                <li>
-
-                    This commercial property is strategically located in one of the busiest hubs of
-                    Noida.
-                </li>
-                <li>
-                    This commercial property provides close proximity to various premium
-                    residential properties like ATS One Hamlet, Parx Laureate, Lotus Panache etc.
-
-                </li>
-                <li>
-                    This commercial property in Noida is surrounded by a high population
-                    density area with a huge number of daily commuters leading to high footfall.
-
-                </li>
-                <li>
-                    Devika VIBE Panache Bazaar features Yamuna Expressway and ISBT Noida in
-                    close vicinity.
-
-                </li>
-                <li>
-                    Devika VIBE Panache Bazaar provides full ownership of premium retail
-                    shops
-
-                </li>
-                <li>
-
-                    This commercial property in Noida features promising retail footfalls
-                </li>
-                <li>
-
-
-                    Devika VIBE Panache Bazaar is a high-street retail concept commercial
-                    property near the bustling residential sector in Noida.
-                </li>
-                <li>
-                    This commercial property in Noida is being developed by Devika Group which
-                    maintains a proven track record of premium delivered projects like Devika
-                    Sadar Bazar, Living Legends, Devika Tower etc.
-
-                </li>
-                <li>
-                    Devika VIBE Panache Bazaar features retail and commercial spaces that
-                    provide high capital appreciation and competitive rental yields.
-
-                </li>
-
-
-            </ul>
-
-
-            <style>
-                .amenities-grid {
-                    display: grid;
-                    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-                    gap: 20px;
-                    padding: 20px;
-                    background-color: #f5f5f5;
-                }
-
-                .amenity {
-                    display: flex;
-                    align-items: center;
-                    gap: 10px;
-                    background-color: #fff;
-                    padding: 10px;
-                    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-                    border-radius: 5px;
-                    font-size: 14px;
-                }
-
-                .amenity i {
-                    color: #009688;
-                    font-size: 20px;
-                }
-
-                #lift {}
-            </style><br>
-
-            <div class="property-summary">
-                <h3 style="color: #005B52">RERA Details:</h3>
-            </div>
-            <p>Devika VIBE | Panache Bazaar |
-                <a href="https://uprera.azurewebsites.net/ViewProjectInDetailPublicView.aspx?id=9275">
-                    UPRERAPRJ9275
-                </a>
-            </p>
-
-            <p>*T&C Apply.</p>
-            <br>
-            <div class="property-summary">
-                <h3 style="color: #005B52">Note: -</h3>
-            </div>
-            <p align="justify">If you have any specific query and need further assistance on <strong>real estate property</strong>
-                like <strong>commercial property, residential property</strong>, and <strong>plots for sale</strong> and make a promising <strong>real estate
-                    investment in retail shops, malls, multiplex, food courts, 3 BHK apartments, 4 BHK apartments, flat,
-                    studio apartments, villa,</strong> etc.
-                <br> <a href="../contact.php"><strong>Contact us Now!</strong></a>
-            </p>
-
-            <br>
-
-<div class="property-summary">
-    <h2 style="color: #005B52">Amenities</h2>
-</div>
-<br>
-
-<div class="amenities-grid">
-    <div class="amenity"><i class="fas fa-utensils"></i> Cafeteria/Food Court</div>
-    <div class="amenity"><i class="fas fa-bolt"></i> Power Backup</div>
-    <div class="amenity"><svg width="24px" height="24px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#009688">
-            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.43200000000000005"></g>
-            <g id="SVGRepo_iconCarrier">
-                <path d="M22.25 0.75H1.75C1.19772 0.75 0.75 1.19772 0.75 1.75V22.25C0.75 22.8023 1.19772 23.25 1.75 23.25H22.25C22.8023 23.25 23.25 22.8023 23.25 22.25V1.75C23.25 1.19772 22.8023 0.75 22.25 0.75Z" stroke="#009688" stroke-width="1.9440000000000002" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M6 23.25V10.5C6 10.3011 6.07902 10.1103 6.21967 9.96967C6.36032 9.82902 6.55109 9.75 6.75 9.75H17.25C17.4489 9.75 17.6397 9.82902 17.7803 9.96967C17.921 10.1103 18 10.3011 18 10.5V23.2101" stroke="#009688" stroke-width="1.9440000000000002" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M12 9.75V23.25" stroke="#009688" stroke-width="1.9440000000000002" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M14.0156 4.02124L15.4997 5.99999L16.9838 4.02124" stroke="#009688" stroke-width="1.9440000000000002" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M7.04247 5.94302L8.49975 3.99999L9.95703 5.94302" stroke="#009688" stroke-width="1.9440000000000002" stroke-linecap="round" stroke-linejoin="round"></path>
-            </g>
-        </svg> Lift</div>
-    <div class="amenity"><i class="fas fa-shield-alt"></i> Security</div>
-    <div class="amenity"><i class="fas fa-truck-loading"></i> Service/Good Lift</div>
-    <div class="amenity"><i class="fas fa-parking"></i> Visitor Parking</div>
-    <div class="amenity"><i class="fas fa-dumbbell"></i> Gymnasium</div>
-    <div class="amenity"><i class="fas fa-cloud-rain"></i> Rain Water Harvesting</div>
-    <div class="amenity"><i class="fas fa-wind"></i> Air Conditioned</div>
-    <div class="amenity"><i class="fas fa-house-damage"></i> Earthquake Resistant</div>
-    <div class="amenity"><i class="fas fa-lock"></i> Tier 3 Security System</div>
-    <div class="amenity"><i class="fas fa-tree"></i> Large Open Space</div>
-    <div class="amenity"><i class="fas fa-door-open"></i> Grand Entrance Lobby</div>
-    <div class="amenity"><i class="fas fa-child"></i> Kid Play Area</div>
-    <div class="amenity"><i class="fas fa-theater-masks"></i> Event Space & Amphitheatre</div>
-    <div class="amenity"><i class="fas fa-fire-extinguisher"></i> Fire Fighting Equipment</div>
-</div>
-
-          
-
-            <div class="mapcontainer">
-                <div class="property-summary">
-                    <h2 style="color: #005B52">Location</h2>
-                </div>
-                <br><br>
-                <div style="text-decoration:none; overflow:hidden;max-width:100%;width:1000px;height:300px;">
-                    <div id="embed-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=devika+vibe&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="googlecoder" href="https://www.bootstrapskins.com/themes" id="authorize-maps-data">premium bootstrap themes</a>
-                    <style>
-                        #embed-map-canvas img {
-                            max-width: none !important;
-                            background: none !important;
-                            font-size: inherit;
-                            font-weight: inherit;
-                        }
-                    </style>
-                </div>
-            </div>
-            <br><br>
-
-
-            <div class="property-summary">
-                <h2>About the builder</h2>
-            </div>
-            <br>
-            <p>
-
-                <strong>Devika Group</strong> is the leading real estate developer in Delhi/NCR with an array of
-                commercial and residential projects spread throughout the city. The Group’s legacy
-                spans over 65 years and boosts a staggering 6 million sq ft of area delivered in over 35
-                projects curated to meet the various needs of more than 10,000 happy customers.
-                <br><br>
-                <a href="https://www.devikagroup.com/"><strong>Devika Group</strong></a> continuously strives with the vision to bring valuable changes to the
-                real estate industry in India under the leadership of its visionary directors, Mr. Ankit
-                Agarwal and Ms. Aarti Aggarwal
-            </p>
-
-
-
-            <style>
-                .faq {
-                    margin-bottom: 20px;
-                    padding: 10px;
-                    border: 1px solid #ccc;
-                    border-radius: 5px;
-                    overflow: hidden;
-                    position: relative;
-                }
-
-                .faq h3 {
-                    font-size: 18px;
-                    font-weight: bold;
-                    margin-bottom: 10px;
-                    cursor: pointer;
-                    padding-right: 1rem;
-                }
-
-                .faqq {
-
-                    padding-top: 30px;
-                    padding-bottom: 50px;
-                }
-
-                .faq p {
-                    margin-bottom: 10px;
-                }
-
-                .faq p strong {
-                    font-weight: bold;
-                }
-
-                .answer {
-                    display: none;
-                }
-
-                .arrow {
-                    position: absolute;
-                    top: 10px;
-                    right: 10px;
-                    font-size: 20px;
-                    cursor: pointer;
-                    transition: transform 0.3s ease;
-                    color: #005B52;
-                }
-
-                .collapsed .arrow {
-                    transform: rotate(0deg);
-                }
-
-                .expanded .arrow {
-                    transform: rotate(180deg);
-                }
-            </style>
-
-            <div class="property-summary">
-                <h3 style="color: #005B52" class="faqq"> Devika VIBE Panache Bazaar FAQs</h3>
-            </div>
-
-
-            <div class="faq">
-
-                <h3 style="color: #005B52; font-size: 15px;">
-
-
-                    What types of commercial spaces are available at Devika VIBE Panache
-                    Bazaar?
-                </h3>
-                <div class="answer">
-                    <p>
-
-
-                        Devika Vibe Panache Bazaar is a commercial property in Noida offering retail shops,
-                        Food Courts, and kiosks in the bustling residential sector of Noida - 110.
-
-                    </p>
-                </div>
-                <div class="arrow collapsed">&#9660;</div>
-            </div>
-            <div class="faq">
-
-                <h3 style="color: #005B52; font-size: 15px;">
-
-                    What is the location of Devika VIBE Panache Bazaar?
-
-                </h3>
-                <div class="answer">
-                    <p>
-                        Devika Vibe Panache Bazaar is located in Sector 110, Noida, 201304.
-
-
-
-
-                    </p>
-                </div>
-                <div class="arrow collapsed">&#9660;</div>
-            </div>
-            <div class="faq">
-
-                <h3 style="color: #005B52; font-size: 15px;">
-
-                    What is the RERA number of Devika VIBE Panache Bazaar?
-
-                </h3>
-                <div class="answer">
-                    <p>
-                        Devika Vibe Panache Bazaar is registered under RERA with registration number
-                        P51800054703.
-
-
-
-
-                    </p>
-                </div>
-                <div class="arrow collapsed">&#9660;</div>
-            </div>
-            <div class="faq">
-
-                <h3 style="color: #005B52; font-size: 15px;">
-
-                    What is the starting price range of Devika VIBE Panache Bazaar?
-
-
-                </h3>
-                <div class="answer">
-                    <p>
-
-                        To know the starting price range of Devika Vibe Panache Bazaar, Contact Us Now!
-
-
-                    </p>
-                </div>
-                <div class="arrow collapsed">&#9660;</div>
-            </div>
-            <div class="faq">
-
-                <h3 style="color: #005B52; font-size: 15px;">
-
-                    What is Devika VIBE Panache Bazaar Pin Code?
-
-                </h3>
-                <div class="answer">
-                    <p>
-
-                        Devika Vibe Panache Bazaar is located at Sector - 110, Noida with a pin code 201304.
-
-
-                    </p>
-                </div>
-                <div class="arrow collapsed">&#9660;</div>
-            </div>
-            <div class="faq">
-
-                <h3 style="color: #005B52; font-size: 15px;">
-
-                    Is Devika VIBE Panache Bazaar Booking open?
-
-
-                </h3>
-                <div class="answer">
-                    <p>
-
-
-                        The bookings for Devika Vibe Panache Bazaar are open now. Contact us now!
-
-                    </p>
-                </div>
-                <div class="arrow collapsed">&#9660;</div>
-            </div>
-
+                <tr>
+                    <td>
+                        <p><strong>Structure of Property</strong></p>
+                    </td>
+                    <td>
+                        <p>LFG + UGF</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><strong>Total Units </strong></p>
+                    </td>
+                    <td>
+                        <p>280</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><strong>Configuration of Units Available</strong></p>
+                    </td>
+                    <td>
+                        <p>Lockable High-Street Shops </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Devika VIBE Panache Bazaar Location Advantages</h2>
+
+        <ul class="arrow-list">
+            <li>Devika Vibe Panache Bazaar is located 15 minutes away from Yamuna Expressway.</li>
+            <li>Devika Vibe Panache Bazaar is located 5 minutes away from Mahamaya Flyover.</li>
+            <li>Devika Vibe Panache Bazaar is located 7 minutes away from Metro Station.</li>
+            <li>Devika Vibe Panache Bazaar is located 6 minutes away from Noida - Greater Greater Noida Expressway .</li>
+            <li>Devika Vibe Panache Bazaar is located minutes 2 away from Yatharth Hospital</li>
+            <li>Devika Vibe Panache Bazaar is located 15 minutes away from Akshardham Temple.</li>
+            <li>Devika Vibe Panache Bazaar is located 20 minutes away from Connaught Place</li>
+            <li>Devika Vibe Panache Bazaar is located 25 minutes away from New Delhi Railway Station</li>
+            <li>Devika Vibe Panache Bazaar is located 60 minutes away from Indira Gandhi International Airport</li>
+        </ul>
+
+        <h2>Devika VIBE Panache Bazaar Price &amp; Payments</h2>
+
+        <p>AT RISING SECTOR 110, NOIDA </p>
+
+        <table class="beautiful-table">
+            <tbody>
+                <tr>
+                    <td>
+                        <p><strong>Unit Type</strong></p>
+                    </td>
+                    <td>
+                        <p><strong>Size (SQ. FT.)</strong></p>
+                    </td>
+                    <td>
+                        <p><strong>Starting Price*</strong></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Lockable Retail Shops</p>
+                    </td>
+                    <td>
+                        <p>134 Sq Ft</p>
+                    </td>
+                    <td>
+                        <p>65 Lac+</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>Devika VIBE Panache Bazaar in Sector 110 Noida  offers various types of commercial spaces in:</p>
+
+        <ul class="arrow-list">
+            <li>Devika VIBE Panache Bazaar features retail shops</li>
+            <li>Devika VIBE Panache Bazaar features food street</li>
+            <li>Devika VIBE Panache Bazaar features kiosks</li>
+        </ul>
+
+        <h2>Why Invest in Devika VIBE Panache Bazaar?</h2>
+
+        <ul class="arrow-list">
+            <li>Devika VIBE Panache Bazaar features<strong> commercial property</strong> located in the heart of <strong>Noida - Sector 110.</strong></li>
+            <li>This commercial property is <strong>strategically located</strong> in one of the busiest hubs of Noida. </li>
+            <li>This commercial property provides <strong>close proximity</strong> to various premium residential properties like ATS One Hamlet, Parx Laureate, Lotus Panache etc.</li>
+            <li>This commercial property in Noida is surrounded by a <strong>high population density area</strong> with a huge number of daily commuters leading to <strong>high footfall.</strong></li>
+            <li>Devika VIBE Panache Bazaar features <strong>Yamuna Expressway</strong> and ISBT Noida in close vicinity.</li>
+            <li>Devika VIBE Panache Bazaar provides <strong>full ownership of premium retail shops </strong></li>
+            <li>This commercial property in Noida features promising <strong>retail footfalls</strong></li>
+            <li>Devika VIBE Panache Bazaar is a<strong> high-street retail concept</strong> commercial property near the bustling residential sector in Noida.</li>
+            <li>This commercial property in Noida is being developed by <strong>Devika Group</strong> which maintains a proven track record of premium delivered projects like <strong>Devika Sadar Bazar, Living Legends, Devika Tower</strong> etc.</li>
+            <li>Devika VIBE Panache Bazaar features <strong>retail and commercial spaces</strong> that provide <strong>high capital appreciation</strong> and <strong>competitive rental yields.</strong></li>
+        </ul>
+
+
+
+
+        <h2>Amenities</h2>
+
+
+        <div class="amenities-grid">
+            <div class="amenity"><i class="fas fa-utensils"></i> Cafeteria/Food Court</div>
+            <div class="amenity"><i class="fas fa-bolt"></i> Power Backup</div>
+            <div class="amenity"><svg width="24px" height="24px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#009688">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.43200000000000005"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <path d="M22.25 0.75H1.75C1.19772 0.75 0.75 1.19772 0.75 1.75V22.25C0.75 22.8023 1.19772 23.25 1.75 23.25H22.25C22.8023 23.25 23.25 22.8023 23.25 22.25V1.75C23.25 1.19772 22.8023 0.75 22.25 0.75Z" stroke="#009688" stroke-width="1.9440000000000002" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M6 23.25V10.5C6 10.3011 6.07902 10.1103 6.21967 9.96967C6.36032 9.82902 6.55109 9.75 6.75 9.75H17.25C17.4489 9.75 17.6397 9.82902 17.7803 9.96967C17.921 10.1103 18 10.3011 18 10.5V23.2101" stroke="#009688" stroke-width="1.9440000000000002" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M12 9.75V23.25" stroke="#009688" stroke-width="1.9440000000000002" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M14.0156 4.02124L15.4997 5.99999L16.9838 4.02124" stroke="#009688" stroke-width="1.9440000000000002" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M7.04247 5.94302L8.49975 3.99999L9.95703 5.94302" stroke="#009688" stroke-width="1.9440000000000002" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                </svg> Lift</div>
+            <div class="amenity"><i class="fas fa-shield-alt"></i> Security</div>
+            <div class="amenity"><i class="fas fa-truck-loading"></i> Service/Good Lift</div>
+            <div class="amenity"><i class="fas fa-parking"></i> Visitor Parking</div>
+            <div class="amenity"><i class="fas fa-dumbbell"></i> Gymnasium</div>
+            <div class="amenity"><i class="fas fa-cloud-rain"></i> Rain Water Harvesting</div>
+            <div class="amenity"><i class="fas fa-wind"></i> Air Conditioned</div>
+            <div class="amenity"><i class="fas fa-house-damage"></i> Earthquake Resistant</div>
+            <div class="amenity"><i class="fas fa-lock"></i> Tier 3 Security System</div>
+            <div class="amenity"><i class="fas fa-tree"></i> Large Open Space</div>
+            <div class="amenity"><i class="fas fa-door-open"></i> Grand Entrance Lobby</div>
+            <div class="amenity"><i class="fas fa-child"></i> Kid Play Area</div>
+            <div class="amenity"><i class="fas fa-theater-masks"></i> Event Space & Amphitheatre</div>
+            <div class="amenity"><i class="fas fa-fire-extinguisher"></i> Fire Fighting Equipment</div>
         </div>
 
-        <h5 style="color: #005B52">Disclaimer:</h5>
-        <p style="font-size: 14px;" align="justify"> This article <strong> ‘Devika VIBE Panache Bazaar’</strong> is provided for informational purposes only. While every effort is made
-            to ensure the accuracy
-            and timeliness of the information with extensive research and duly analysis, readers are advised to conduct their own due diligence with
-            professionals before
-            making any investment decision. The responsibility for the application of the information provided above rests solely on the reader.
-            Proceed with caution and
-            take decisions based on your real estate ventures.</p>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script>
-            $(document).ready(function() {
-                $(".faq h3").click(function() {
-                    $(this).next(".answer").slideToggle();
-                    $(this).parent().find(".arrow").toggleClass("collapsed expanded");
-                });
+
+        <div class="mapcontainer">
+            <div class="property-summary">
+                <h2 style="color: #005B52">Location</h2>
+            </div>
+            <br><br>
+            <div style="text-decoration:none; overflow:hidden;max-width:100%;width:1000px;height:300px;">
+                <div id="embed-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=devika+vibe&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="googlecoder" href="https://www.bootstrapskins.com/themes" id="authorize-maps-data">premium bootstrap themes</a>
+                <style>
+                    #embed-map-canvas img {
+                        max-width: none !important;
+                        background: none !important;
+                        font-size: inherit;
+                        font-weight: inherit;
+                    }
+                </style>
+            </div>
+        </div>
+        <br><br>
+
+
+        <div class="property-summary">
+            <h2>About the builder</h2>
+        </div>
+        <br>
+        <p>
+
+            <strong>Devika Group</strong> is the leading real estate developer in Delhi/NCR with an array of
+            commercial and residential projects spread throughout the city. The Group’s legacy
+            spans over 65 years and boosts a staggering 6 million sq ft of area delivered in over 35
+            projects curated to meet the various needs of more than 10,000 happy customers.
+            <br><br>
+            <a href="https://www.devikagroup.com/"><strong>Devika Group</strong></a> continuously strives with the vision to bring valuable changes to the
+            real estate industry in India under the leadership of its visionary directors, Mr. Ankit
+            Agarwal and Ms. Aarti Aggarwal
+        </p>
+
+
+
+        <style>
+            .faq {
+                margin-bottom: 20px;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                overflow: hidden;
+                position: relative;
+            }
+
+            .faq h3 {
+                font-size: 18px;
+                font-weight: bold;
+                margin-bottom: 10px;
+                cursor: pointer;
+                padding-right: 1rem;
+            }
+
+            .faqq {
+
+                padding-top: 30px;
+                padding-bottom: 50px;
+            }
+
+            .faq p {
+                margin-bottom: 10px;
+            }
+
+            .faq p strong {
+                font-weight: bold;
+            }
+
+            .answer {
+                display: none;
+            }
+
+            .arrow {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                font-size: 20px;
+                cursor: pointer;
+                transition: transform 0.3s ease;
+                color: #005B52;
+            }
+
+            .collapsed .arrow {
+                transform: rotate(0deg);
+            }
+
+            .expanded .arrow {
+                transform: rotate(180deg);
+            }
+        </style>
+
+        <div class="property-summary">
+            <h3 style="color: #005B52" class="faqq"> Devika VIBE Panache Bazaar FAQs</h3>
+        </div>
+
+
+        <div class="faq">
+
+            <h3 style="color: #005B52; font-size: 15px;">
+
+
+                What types of commercial spaces are available at Devika VIBE Panache
+                Bazaar?
+            </h3>
+            <div class="answer">
+                <p>
+
+
+                    Devika Vibe Panache Bazaar is a commercial property in Noida offering retail shops,
+                    Food Courts, and kiosks in the bustling residential sector of Noida - 110.
+
+                </p>
+            </div>
+            <div class="arrow collapsed">&#9660;</div>
+        </div>
+        <div class="faq">
+
+            <h3 style="color: #005B52; font-size: 15px;">
+
+                What is the location of Devika VIBE Panache Bazaar?
+
+            </h3>
+            <div class="answer">
+                <p>
+                    Devika Vibe Panache Bazaar is located in Sector 110, Noida, 201304.
+
+
+
+
+                </p>
+            </div>
+            <div class="arrow collapsed">&#9660;</div>
+        </div>
+        <div class="faq">
+
+            <h3 style="color: #005B52; font-size: 15px;">
+
+                What is the RERA number of Devika VIBE Panache Bazaar?
+
+            </h3>
+            <div class="answer">
+                <p>
+                    Devika Vibe Panache Bazaar is registered under RERA with registration number
+                    P51800054703.
+
+
+
+
+                </p>
+            </div>
+            <div class="arrow collapsed">&#9660;</div>
+        </div>
+        <div class="faq">
+
+            <h3 style="color: #005B52; font-size: 15px;">
+
+                What is the starting price range of Devika VIBE Panache Bazaar?
+
+
+            </h3>
+            <div class="answer">
+                <p>
+
+                    To know the starting price range of Devika Vibe Panache Bazaar, Contact Us Now!
+
+
+                </p>
+            </div>
+            <div class="arrow collapsed">&#9660;</div>
+        </div>
+        <div class="faq">
+
+            <h3 style="color: #005B52; font-size: 15px;">
+
+                What is Devika VIBE Panache Bazaar Pin Code?
+
+            </h3>
+            <div class="answer">
+                <p>
+
+                    Devika Vibe Panache Bazaar is located at Sector - 110, Noida with a pin code 201304.
+
+
+                </p>
+            </div>
+            <div class="arrow collapsed">&#9660;</div>
+        </div>
+        <div class="faq">
+
+            <h3 style="color: #005B52; font-size: 15px;">
+
+                Is Devika VIBE Panache Bazaar Booking open?
+
+
+            </h3>
+            <div class="answer">
+                <p>
+
+
+                    The bookings for Devika Vibe Panache Bazaar are open now. Contact us now!
+
+                </p>
+            </div>
+            <div class="arrow collapsed">&#9660;</div>
+        </div>
+
+    </div>
+
+    <h5 style="color: #005B52">Disclaimer:</h5>
+    <p style="font-size: 14px;" align="justify"> This article <strong> ‘Devika VIBE Panache Bazaar’</strong> is provided for informational purposes only. While every effort is made
+        to ensure the accuracy
+        and timeliness of the information with extensive research and duly analysis, readers are advised to conduct their own due diligence with
+        professionals before
+        making any investment decision. The responsibility for the application of the information provided above rests solely on the reader.
+        Proceed with caution and
+        take decisions based on your real estate ventures.</p>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".faq h3").click(function() {
+                $(this).next(".answer").slideToggle();
+                $(this).parent().find(".arrow").toggleClass("collapsed expanded");
             });
-        </script>
+        });
+    </script>
     </div>
 
 
-   <?php
+    <?php
     include './emi-calc-component.php';
     include './more-tags.php';
     include './footer.php';

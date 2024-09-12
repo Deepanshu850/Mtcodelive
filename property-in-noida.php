@@ -194,15 +194,16 @@ Noida, commercial property for sale in Noida, best commercial property in Noida,
 
 
         <main>
-            <div class="image-wrapper">
+            <!-- <div class="image-wrapper">
                 <img src="./assets/img/property-in-noida.webp" alt="Property in Noida | Commercial & Residential Property for Sale">
-            </div>
+            </div> -->
 
+            <br>
             <h1>
                 Property in Noida | Commercial & Residential Property for Sale
 
             </h1>
-
+            <br>
 
             <div class="property-container">
 

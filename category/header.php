@@ -1,5 +1,5 @@
 <?php
-include '../cookie.php';
+// include '../cookie.php';
 ?>
 
 <div class="s-soft">

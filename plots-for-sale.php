@@ -538,7 +538,7 @@ RERA-Approved New Residential & Commercial Plots/Land at the Best Price with the
                         </h3>
                         <p>
                             Goa One House of Abhinandan
-                            Lodha offers more than 130 acres of 5-star gated villa plots for sale. These <a href="./propertydetail/goa-one.php">plots
+                            Lodha offers more than 130 acres of 5-star gated villa plots for sale. These <a href="./propertydetail/goa-one-abhinandan-lodha-plots">plots
                                 for sale in Goa</a> provide an excellent culinary experience with an open-air cafe,
                             eatery zone, and alfresco dining.
 
