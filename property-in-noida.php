@@ -375,7 +375,7 @@ Noida, commercial property for sale in Noida, best commercial property in Noida,
                             <label for="number">Number:</label>
                             <input type="tel" id="number" name="number" required>
 
-                            <label for="message">Message:</label>
+                            <label for="message">Message (optional):</label>
                             <textarea id="message" name="message" rows="4" required></textarea>
 
                             <button type="submit">Submit</button>
@@ -423,12 +423,12 @@ Noida, commercial property for sale in Noida, best commercial property in Noida,
             <style>
                 dialog {
                     border: none;
-                    border-radius: 8px;
+                    border-radius: 6px;
                     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
                     width: 300px;
+                    height: min-content;
                     padding: 1em;
                     max-width: 60vw;
-                    max-height: 70vh;
                     margin: auto;
                 }
 

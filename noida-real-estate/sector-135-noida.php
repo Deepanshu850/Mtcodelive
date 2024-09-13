@@ -1,4 +1,3 @@
-freq
 <!doctype html>
 <html lang="en">
 
@@ -44,7 +43,7 @@ sector 135, companies in noida sector 135, sector 135 noida flats for rent" />
 
 
 
-    <m<!-- General Open Graph Tags for Facebook -->
+    <!-- General Open Graph Tags for Facebook -->
         <meta property="og:title" content="Sector 135 Noida: Map, Property Rates, Projects, Review, Info">
         <meta property="og:site_name" content="Moneytree Realty">
         <meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-135-noida">
@@ -228,7 +227,7 @@ sector 135, companies in noida sector 135, sector 135 noida flats for rent" />
 
             <p>Uttar Pradesh, India, Pin Code - 201304</p>
 
-            <table cellspacing="0" style="border-collapse:collapse; width:602px">
+            <table class="beautiful-table">
                 <tbody>
                     <tr>
                         <td>
@@ -261,7 +260,7 @@ sector 135, companies in noida sector 135, sector 135 noida flats for rent" />
 
             <h3>Overview of the locality and neighbourhood </h3>
 
-            <p>Sector 135 Noida is a key commercial locality in the city featuring various office spaces and other commercial spaces along with state-of-the-art amenity and facilities, making it a luxurious and premium area to invest in real estate. Nearby localities to Sector 135 Noida are Sector 168 Noida, <a href="../category/sector-137-noida.php"><strong>Sector 137 Noida</strong></a>, Sector 142 Noida, Sector 129 Noida, and <a href="./sector-92-noida.php">strtokSector 92 Noida</a>. It also features numerous residential apartments such as Today Homes Ridge Residency, Gokuldham LIG Apartments, Duplex Villas, ATS HomeKraft Infra, and Nimbus The Golden Palms. </p>
+            <p>Sector 135 Noida is a key commercial locality in the city featuring various office spaces and other commercial spaces along with state-of-the-art amenity and facilities, making it a luxurious and premium area to invest in real estate. Nearby localities to Sector 135 Noida are Sector 168 Noida, <a href="../category/sector-137-noida.php"><strong>Sector 137 Noida</strong></a>, Sector 142 Noida, Sector 129 Noida, and <a href="./sector-92-noida.php"><strong>Sector 92 Noida</strong></a>. It also features numerous residential apartments such as Today Homes Ridge Residency, Gokuldham LIG Apartments, Duplex Villas, ATS HomeKraft Infra, and Nimbus The Golden Palms. </p>
 
             <p>Sector 135 Noida pin code is 201304 and constitutes a part of Gautam Buddha Nagar District of Uttar Pradesh with a total population of 5012.</p>
 
@@ -287,7 +286,7 @@ sector 135, companies in noida sector 135, sector 135 noida flats for rent" />
 
             <p>Sector 135 Noida is a planned commercial locality and features well-balanced connectivity to the major commercial and financial hubs of Noida, South Delhi, Ghaziabad, Faridabad, and Gurgaon.</p>
 
-            <p>IT/ITeS offices and tech parks in close proximity to Sector 135 Noida are Assotech business Cresterra, Candor Techspace, Genpact Noida, GM IT Park, Galaxy Business Park, Aditya Techpark, and Logic Infotech Park.</p>
+            <p>IT/ITeS offices and tech parks in close proximity to Sector 135 Noida are Assotech business Cresterra, Candor Techspace, Genpact Noida, GM IT Park, Galaxy Business Park, Aditya Techpark, and Logix Infotech Park.</p>
 
             <h2>Crucial Highlights of Sector 135 Noida </h2>
 
@@ -312,6 +311,346 @@ sector 135, companies in noida sector 135, sector 135 noida flats for rent" />
                 <li>It is possible to avoid interruptions and facilitate future growth by modernising the subterranean infrastructure that supplies utilities like power and water.</li>
                 <li>To improve walkability and safety for locals, pedestrian pathways and crossings should be improved in Sector 135 Noida, particularly in high-traffic regions.</li>
             </ul>
+
+            <h2>Sector 135 Noida connectivity with nearby landmarks</h2>
+
+            <h3>Nearby Areas to Sector 135 Noida</h3>
+
+            <table class="beautiful-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>Sector 137 Noida</p>
+                        </td>
+                        <td>
+                            <p>11 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Sector 142 Noida</p>
+                        </td>
+                        <td>
+                            <p>10 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Sector 129 Noida</p>
+                        </td>
+                        <td>
+                            <p>4 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Sector 168 Noida</p>
+                        </td>
+                        <td>
+                            <p>7 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Sector 92 Noida</p>
+                        </td>
+                        <td>
+                            <p>11 Minutes</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Shopping Mall/Restaurants near to Sector 135 Noida</h3>
+
+            <table class="beautiful-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>DLF Mall of India</p>
+                        </td>
+                        <td>
+                            <p>18 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Wave One</p>
+                        </td>
+                        <td>
+                            <p>22 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Garden Galleria</p>
+                        </td>
+                        <td>
+                            <p>23 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Atta Market</p>
+                        </td>
+                        <td>
+                            <p>23 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Domino&rsquo;s Pizza</p>
+                        </td>
+                        <td>
+                            <p>15 Minutes</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Transportation Hubs near to Sector 135 Noida</h3>
+
+            <table class="beautiful-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>Noida Sector 142 Metro Station</p>
+                        </td>
+                        <td>
+                            <p>8 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Noida Sector 143 Metro Station</p>
+                        </td>
+                        <td>
+                            <p>10 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Noida Sector 144 Metro Station</p>
+                        </td>
+                        <td>
+                            <p>9 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Noida Sector 147 Metro Station</p>
+                        </td>
+                        <td>
+                            <p>15 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Botanical Garden Metro Station</p>
+                        </td>
+                        <td>
+                            <p>20 Minutes</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Educational Institutes near to Sector 135 Noida</h3>
+
+            <table class="beautiful-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>Shriram Millenium School</p>
+                        </td>
+                        <td>
+                            <p>1 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Shiv Nadar School</p>
+                        </td>
+                        <td>
+                            <p>5 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Genesis Global School</p>
+                        </td>
+                        <td>
+                            <p>8 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>JBM Global School</p>
+                        </td>
+                        <td>
+                            <p>7 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>KKMII Stratford University</p>
+                        </td>
+                        <td>
+                            <p>17 Minutes</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Hospitals near to Sector 135 Noida</h3>
+
+            <table class="beautiful-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>Yathharth Speciality Hospital</p>
+                        </td>
+                        <td>
+                            <p>14 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Felix Hospital</p>
+                        </td>
+                        <td>
+                            <p>13 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Jaypee Hospital</p>
+                        </td>
+                        <td>
+                            <p>11 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>J S Tomar Memorial Hospital</p>
+                        </td>
+                        <td>
+                            <p>11 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Ganpati Hospital</p>
+                        </td>
+                        <td>
+                            <p>20 Minutes</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Commercial Hubs near to Sector 135 Noida</h3>
+
+            <table class="beautiful-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>Assotech Business Cresterra</p>
+                        </td>
+                        <td>
+                            <p>3 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Candor Techspace</p>
+                        </td>
+                        <td>
+                            <p>7 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Genpact Noida</p>
+                        </td>
+                        <td>
+                            <p>9 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>GM IT Park</p>
+                        </td>
+                        <td>
+                            <p>10 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Galaxy Business Park</p>
+                        </td>
+                        <td>
+                            <p>30 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Logix Infotech Park</p>
+                        </td>
+                        <td>
+                            <p>29 Minutes</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Residential Societies in Sector 135 Noida</h3>
+
+            <table class="beautiful-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>Duplex Villas</p>
+                        </td>
+                        <td>
+                            <p>Sector 135 Noida, Uttar Pradesh, 201304</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Gokuldham LIG Apartments</p>
+                        </td>
+                        <td>
+                            <p>Sector 135 Noida, Uttar Pradesh, 201304</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Nimbus The Golden Palms</p>
+                        </td>
+                        <td>
+                            <p>Sector 135 Noida, Uttar Pradesh, 201304</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Ajnara Daffodil</p>
+                        </td>
+                        <td>
+                            <p>Sector 135 Noida, Uttar Pradesh, 201304</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Paras Seasons Apartments</p>
+                        </td>
+                        <td>
+                            <p>Sector 135 Noida, Uttar Pradesh, 201304</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
 
             <h3>Investment Insights in Sector 135 Noida </h3>
 

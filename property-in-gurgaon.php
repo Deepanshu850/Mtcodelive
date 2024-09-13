@@ -31,7 +31,7 @@ Residential Property In Gurgaon" />
     <meta name="subject" content="Learn about MoneyTree Realty's mission, services, and how we can assist you in navigating the real estate market in India" />
     <meta name="audience" content="All" />
 
-  <meta property="og:title" content="Gurgaon Properties | Buy Property in Gurgaon | Real Estate in Gurgaon">
+    <meta property="og:title" content="Gurgaon Properties | Buy Property in Gurgaon | Real Estate in Gurgaon">
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/property-in-gurgaon">
     <meta property="og:description" content="Real Estate in Gurgaon - Finding residential properties for sale in Gurgaon - New Projects, Ready to Move in Apartments at affordable price in Gurgaon. Call 9732300007">
@@ -205,7 +205,7 @@ Residential Property In Gurgaon" />
 
 
 
- <?php
+    <?php
     include './header.php';
     ?>
 
@@ -292,7 +292,7 @@ Residential Property In Gurgaon" />
 
 
         </h1>
- <style>
+        <style>
             .image-wrapper {
                 padding-block: 2rem 5rem;
                 display: flex;
@@ -419,9 +419,10 @@ Residential Property In Gurgaon" />
                             Elan The Epic Sector 70 Gurugram:
                         </h6>
                         <p>
-                            <a href="./propertydetail/elan-the-epic-sector-70-gurugram.php">Elan The Epic</a> offers commercial property
+                            <a href="./propertydetail/elan-epic-sector-70-gurugram.php">Elan The Epic</a> offers commercial property
                             space for offices, showrooms, entertainment and dining with state-of-the-art
                             architecture.
+
 
                         </p>
                     </li>
@@ -431,7 +432,7 @@ Residential Property In Gurgaon" />
                             Elan Imperial Sector 82 Gurugram:
                         </h6>
                         <p>
-                            <a href="./propertydetail/Elan-Imperial-Sector-82.php">Elan Imperial</a> is a commercial project featuring retail shops, food courts, restaurants, hotel, and multiplex. This commercial property is strategically located at Sector 82 Gurugram.
+                            <a href="./propertydetail/elan-imperial-sector-82.php">Elan Imperial</a> is a commercial project featuring retail shops, food courts, restaurants, hotel, and multiplex. This commercial property is strategically located at Sector 82 Gurugram.
                         </p>
 
 
@@ -618,7 +619,7 @@ Residential Property In Gurgaon" />
     </script>
 
 
-  <section class="property-container">
+    <section class="property-container">
 
         <?php
         include "data/propertydata.php";
@@ -1032,7 +1033,7 @@ Residential Property In Gurgaon" />
         </div>
 
 
-      <?php
+        <?php
         include './more-tags.php';
         include './footer.php';
         ?>
