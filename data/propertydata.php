@@ -32,8 +32,9 @@ $properties = [
         'price' => '1 Cr+*',
 
         'type' => ['Residential', 'Commercial'],
-        'particularType' => ['Commercial Spaces'],
-        'rera' => 'UPRERAPRJ297873',
+        'particularType' => ['Commercial Spaces', '3 BHK Flats', '4 BHK Flats', '5 BHK Flats'],
+        
+        'rera' => 'UPRERAPRJ442214',
         'rera_link' => 'https://up-rera.in/Projectsummary?UI0aPA1ISD=JhSgDBuQtpY=&hfFlag=9emr4VdBw22M7BGjKtJWMPDI4s5cHQZP&NPJ6RAme=mTQA7518KvsmPG82YovObQ==&PaURJEMAN4=ZL9MNERkNdac+WWRlUhmAA==&IRSAHEB=D6PY3lyims8=',
         'location-2' => 'Sector 129',
         'strategicLocation' => 'Yamuna Expressway/Jewar Airport',
@@ -488,3 +489,4 @@ $properties = [
     ],
 
 ];
+?>

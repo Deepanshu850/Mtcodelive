@@ -1,9 +1,15 @@
 <?php
 // Database configuration
+// Database configuration
+// $servername = "localhost";
+// $username = "moneytree";
+// $password = "Dgpampgt@1";
+// $database = "i9754857_brgn1";
 $servername = "localhost";
-$username = "moneytree";
-$password = "Dgpampgt@1";
-$database = "i9754857_brgn1";
+$username = "root";
+$password = "";
+$database = "testchet";
+
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database);

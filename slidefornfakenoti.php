@@ -5,7 +5,7 @@
             setTimeout(function() {
                 var form = document.getElementById('slideInForm');
                 form.classList.add('active'); // Changed from 'slide-in' to 'active'
-            }, 10000); // 10000 milliseconds = 10 seconds
+            }, 0); // 10000 milliseconds = 10 seconds
         });
 
         function closeForm() {
