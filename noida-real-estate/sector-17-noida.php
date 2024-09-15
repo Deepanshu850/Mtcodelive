@@ -72,11 +72,7 @@
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 17 Noida, Greater Noida, Noida Extension: Map, Projects">
-    <meta name="description" content="Sector 17 Noida, Greater Noida, and Noida Extension offer strategic locations with modern projects, excellent connectivity, and growing infrastructure.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-17-noida-banner.webp">
-    <meta name="image:alt" content="Sector 17 Noida">
+
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-17-noida" />

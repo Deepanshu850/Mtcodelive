@@ -77,12 +77,7 @@ flats in sector 43 noida, golf course sector 43 noida" />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 43 Noida-Greater Noida Expressway: Map, Property Rates, Projects, Photos, Review">
-    <meta name="description" content="Sector 43, Noida, enjoys excellent connectivity via the Mahamaya Flyover and Greater Noida Road, making it a prime location for easy access to key areas.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-43-noida-banner.webp">
-    <meta name="image:alt" content="Sector 43 Noida Banner">
-
+    
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-43-noida" />
 

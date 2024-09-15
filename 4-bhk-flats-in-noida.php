@@ -78,12 +78,7 @@ Noida,List of House Brokers in Noida" />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="4 BHK Flats in Noida | Noida Expressway">
-    <meta name="description" content="Buy Top 4 BHK luxury flats in Noida, Noida Expressway. Ready to move flats for sale are available at Real Estate Brokers in Noida - Moneytree Realty">
-    <meta name="image" content="https://moneytreerealty.com/assets/img/4-bhk-flats-in-noida.webp">
-    <meta name="image:alt" content="4 BHK Flats in Noida">
-
+    
 
 
     <link rel="canonical" href="https://moneytreerealty.com/4-bhk-flats-in-noida" />

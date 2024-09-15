@@ -73,13 +73,7 @@
     <meta property="og:image:alt" content="Sector 63 Noida">
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
-
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 63 Noida: Map, Property Rates, Projects, Review, Info">
-    <meta name="description" content="Sector 63 Noida, located near Delhi-Meerut Expressway (NH24), offers excellent connectivity, modern infrastructure, a prime location for businesses and residents.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-63-noida-banner.webp">
-    <meta name="image:alt" content="Sector 63 Noida">
-
+ 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-63-noida" />
 

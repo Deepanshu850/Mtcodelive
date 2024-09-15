@@ -81,11 +81,7 @@ station" />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 36 Noida Dadri Greater Noida Road: Map, Projects">
-    <meta name="description" content="Sector 36 Noida is well-connected to Greater Noida via Dadri Road, offering convenient access to major residential and commercial zones.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-36-noida-banner.webp">
-    <meta name="image:alt" content="Sector 36 Noida">
+   
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-36-noida" />

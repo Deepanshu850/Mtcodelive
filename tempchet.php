@@ -115,8 +115,3 @@
     </a>
 </li>
 
-
-'rera' => 'UPRERAPRJ297873',
-'rera_link' => '',
-'property' => '',
-

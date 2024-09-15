@@ -78,11 +78,7 @@ india today sector 57 noida, it companies in noida sector 57" />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 57 Noida: Map, Property Rates, Projects, Review, Info">
-    <meta name="description" content="Sector 57 Noida, located on Delhi-Meerut Road in Gautam Buddha Nagar, provides a vibrant residential area with modern infrastructure, green spaces, and easy access to key urban centers.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-57-noida-banner.webp">
-    <meta name="image:alt" content="Sector 57 Noida">
+ 
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-57-noida" />

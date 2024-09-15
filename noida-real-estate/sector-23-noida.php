@@ -73,11 +73,7 @@
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 23 Noida Dadri Greater Noida Road: Map, Projects">
-    <meta name="description" content="Sector 23 Noida is well-connected to Greater Noida via the Dadri Road, offering easy access to both residential and commercial hubs in the region.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-23-noida-banner.webp">
-    <meta name="image:alt" content="Sector 23 Noida">
+ 
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-23-noida" />

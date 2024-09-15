@@ -74,11 +74,7 @@ nearest metro station, area 51 map, sector 51 noida restaurants " />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 51 Noida: Map, Property Rates, Projects, Review, Info">
-    <meta name="description" content="Sector 51, Noida on Delhi-Meerut Road, Gautam Buddha Nagar, is a well developed residential area with parks, markets, and metro connectivity, offering a comfortable urban lifestyle.">
-    <meta name="image" content="https://moneytreeryalty.com/noida-real-estate/assets/image/sector-51-noida-banner.webp">
-    <meta name="image:alt" content="Sector 51 Noida">
+     
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-51-noida" />

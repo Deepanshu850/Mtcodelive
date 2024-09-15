@@ -73,11 +73,7 @@
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 31 Noida Dadri Greater Noida Road: Map, Projects">
-    <meta name="description" content="Sector 31 Noida is conveniently linked to Greater Noida through the Dadri Road, ensuring smooth connectivity to key residential and commercial areas.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-31-noida-banner.webp">
-    <meta name="image:alt" content="Sector 31 Noida banner">
+ 
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-31-noida" />

@@ -77,12 +77,7 @@ noida, noida sector 40 park" />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 40 Noida, Dadri Greater Noida Expressway: Map, Property Rates, Projects, Review">
-    <meta name="description" content="Sector 40, Noida, offers prime connectivity via Greater Noida Road, making it an ideal location for both residential and business opportunities.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-40-noida-banner.webp">
-    <meta name="image:alt" content="Sector 40 Noida Banner">
-
+    
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-40-noida" />
 

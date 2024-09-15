@@ -75,12 +75,7 @@
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 35 Noida, Greater Noida, Noida Extension: Map, Projects">
-    <meta name="description" content="Discover the vibrant real estate market of Noida Sector 35, including Morna and nearby amenities. Explore prime locations with excellent connectivity like the Sector 35 bus stand and enjoy top-notch facilities. Secure your dream property with opportunities for property investment, urban living, affordable housing, and luxury apartments in Smart City Noida and Greater Noida today!">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-35-noida-banner.webp">
-    <meta name="image:alt" content="Sector 35 Noida">
-
+ 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-35-noida" />
 

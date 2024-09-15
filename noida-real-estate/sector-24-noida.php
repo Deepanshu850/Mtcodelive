@@ -75,10 +75,7 @@ sector 24 nearest metro, noida sector 24 pin code, sector 24 hospital, sec 24 es
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 24 Noida, DND Flyway Road: Map, Property Rates, Projects">
-    <meta name="description" content="Sector 24 Noida, near DND Flyway Road and Noida Bypass Road: Explore maps, property rates, projects. Known for its strategic location & excellent connectivity.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-24-noida-banner.webp">
+   
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-24-noida" />

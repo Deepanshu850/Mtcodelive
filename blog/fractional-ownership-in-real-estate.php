@@ -81,11 +81,7 @@ estate investment strategies 2024" />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Fractional Ownership in Real Estate: Shared Property Investment">
-    <meta name="description" content="Fractional ownership in real estate allows multiple investors to share ownership costs and benefits of a property, offering a cost-effective way to invest.">
-    <meta name="image" content="https://moneytreerealty.com/blog/assets/fractional-ownership-in-real-estate-banner.webp">
-    <meta name="image:alt" content="Fractional Ownership in Real Estate">
+   
 
 
 

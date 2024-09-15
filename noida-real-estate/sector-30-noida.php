@@ -77,11 +77,7 @@ government hospital, government hospital in noida sector 30" />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 30 Noida Dadri Greater Noida Road: Map, Projects">
-    <meta name="description" content="Sector 30 Noida, situated along Dadri Greater Noida Road, boasts modern residential and commercial developments, providing great connectivity, amenities.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-30-noida-banner.webp">
-    <meta name="image:alt" content="Sector 30 Noida banner">
+   
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-30-noida" />

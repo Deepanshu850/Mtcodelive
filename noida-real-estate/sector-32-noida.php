@@ -72,11 +72,7 @@
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 32 Noida Dadri Greater Noida Road: Map, Projects">
-    <meta name="description" content="Sector 32, Noida, is strategically located along Dadri Greater Noida Road, offering seamless connectivity, modern amenities, and thriving residential and commercial hubs.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-32-noida-banner.webp">
-    <meta name="image:alt" content="Sector 32 Noida Banner">
+  
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-32-noida" />

@@ -85,12 +85,7 @@ prateek stylome sector 45 noida rent, sector 45 noida flats for sale" />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 45 Noida-Greater Noida Expressway: Map, Property Rates, Projects, Photos, Review">
-    <meta name="description" content="Sector 45, Noida, boasts excellent connectivity via the Mahamaya Flyover and Greater Noida Road, making it a sought-after area for convenient living and business.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-45-noida-banner.webp">
-    <meta name="image:alt" content="Sector 45 Noida Banner">
-
+    
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-45-noida" />
 

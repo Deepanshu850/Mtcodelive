@@ -80,11 +80,7 @@ station noida, noida sector 76 pincode" />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 76 Noida | NH - 24: Map, Projects, Property Rates, Reviews">
-    <meta name="description" content="Sector 76 Noida, located near NH-24, is a thriving residential area offering modern amenities, well-planned infrastructure, and seamless connectivity to Delhi-NCR.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-76-noida-banner.webp">
-    <meta name="image:alt" content="Sector 76 Noida">
+     
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-76-noida" />
 

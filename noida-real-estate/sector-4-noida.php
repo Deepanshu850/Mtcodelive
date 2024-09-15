@@ -75,15 +75,7 @@ Residential Real Estate, Real Estate Deals, Property Advice, Real Estate Consult
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:locale" content="en_IN">
 
-    <!-- Google+ (Note: Google+ has been discontinued for personal accounts) -->
-    <meta property="og:title" content="Sector 4 Noida, Greater Noida West, Noida Extension | Moneytree Realty">
-    <meta property="og:description" content="Discover prime real estate opportunities in Sector 4 Noida, Greater Noida West, and Noida Extension. Modern amenities, excellent connectivity, and a thriving community await you.">
-    <meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-4-noida">
-    <meta property="og:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-4-noida-banner.webp">
-    <meta property="og:image:alt" content="Sector 4 Noida - Greater Noida West Banner">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Moneytree Realty">
-    <meta property="og:locale" content="en_IN">
+     
 
 
 

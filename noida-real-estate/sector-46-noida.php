@@ -77,12 +77,7 @@ centre, tulip mall sector 46" />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 46 Noida, Dadri Greater Noida Expressway: Map, Property Rates, Projects, Review">
-    <meta name="description" content="Sector 46, Noida, features prime connectivity to Dadri and Greater Noida via the Expressway, making it a strategic choice for both residential and commercial projects.">
-    <meta name="image" content="https://moneytrealty.com/noida-real-estate/assets/image/sector-46-noida-banner.webp">
-    <meta name="image:alt" content="Sector 46 Noida Banner">
-
+    
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-46-noida" />
 

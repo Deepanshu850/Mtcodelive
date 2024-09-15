@@ -76,10 +76,7 @@ stadium, noida stadium sector 22, local markets in noida, delhi se noida kitne k
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 22 Noida, DND Flyover: Map, Property Rates, Projects">
-    <meta name="description" content="Sector 22, Noida: A vibrant residential and commercial hub known for its well-planned infrastructure, green spaces, amenities and transportation links.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-22-noida-banner.webp">
+ 
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-22-noida" />

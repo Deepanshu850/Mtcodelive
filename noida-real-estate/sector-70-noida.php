@@ -77,11 +77,7 @@ sector 70 noida, basai noida" />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 70 Noida: Map, Property Rates, Projects, Review, Info">
-    <meta name="description" content="Sector 70 Noida, located on Delhi-Meerut Road in Gautam Buddha Nagar, offers a balanced mix of residential and commercial developments with easy access to key amenities.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-70-noida-banner.webp">
-    <meta name="image:alt" content="Sector 70 Noida">
+    
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-70-noida" />

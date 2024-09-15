@@ -78,12 +78,7 @@ fortune hotel noida sector 27, sector 27 market noida, indira market noida secto
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 27 Noida Dadri Greater Noida Road: Map, Property Rates, Projects, Photos, Review">
-    <meta name="description" content="Sector 27, Noida, offers a strategic location with seamless connectivity to Dadri Greater Noida Road, making it ideal for residential and commercial developments.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-27-noida-banner.webp">
-    <meta name="image:alt" content="Sector 27 Noida Banner">
-
+    
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-27-noida" />

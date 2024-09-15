@@ -80,11 +80,7 @@ noida uttar pradesh, time machine sector 38 noida, water park noida sector
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 38 Noida Dadri Greater Noida Road: Map, Projects">
-    <meta name="description" content="Sector 38 Noida is conveniently connected to Greater Noida through Dadri Road, ensuring smooth access to key residential and commercial areas.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-38-noida-banner.webp">
-    <meta name="image:alt" content="Sector 38 Noida">
+    
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-38-noida" />

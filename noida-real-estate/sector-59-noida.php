@@ -78,11 +78,7 @@ code, noida 59 pin code, noida pin code sector 59, noida 59 metro" />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 59 Noida: Map, Projects, Property Rates, Reviews">
-    <meta name="description" content="Sector 59 in Noida is a well-developed commercial property known for its modern infrastructure, corporate offices, and excellent connectivity to key areas.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-59-noida-banner.webp">
-    <meta name="image:alt" content="Sector 59 Noida">
+    
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-59-noida" />

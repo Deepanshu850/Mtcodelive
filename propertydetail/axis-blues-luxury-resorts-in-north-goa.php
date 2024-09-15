@@ -78,11 +78,7 @@ Station, Chipi - Parule Airport " />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Axis Blues Luxury Resorts in North Goa">
-    <meta name="description" content="Axis Blues offers fractional ownership in premium real estate, allowing investors to own a share in high-value properties with lower investment and diversified risk.">
-    <meta name="image" content="https://moneytreeryalty.com/assets/img/projectdetails/axisblues1.webp">
-    <meta name="image:alt" content="Axis Blues Luxury Resorts in North Goa">
+
 
 
 

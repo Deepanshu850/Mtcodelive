@@ -77,11 +77,6 @@ Noida, commercial property for sale in Noida, best commercial property in Noida,
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Property in Noida – Commercial & Residential Properties for Sale">
-    <meta name="description" content="Buy residential & commercial properties in Noida & on Yamuna Expressway. Top Best deals on properties for sale and ready to move luxury options. Call: 9732300007">
-    <meta name="image" content="https://moneytreerealty.com/assets/img/property-in-noida.webp">
-    <meta name="image:alt" content="Property in Noida">
 
 
 

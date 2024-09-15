@@ -73,11 +73,7 @@
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 14 Noida, Dadri Main Road: Map, Projects, Property Rates, Reviews">
-    <meta name="description" content="Sector 14 Noida, along Dadri Main Road, is a bustling area with residential and commercial developments, offering easy access to key locations and modern amenities.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-14-noida-banner.webp">
-    <meta name="image:alt" content="Sector 14 Noida">
+
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-14-noida" />

@@ -69,11 +69,6 @@
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Gaur City Mall, Greater Noida, Noida Extension">
-    <meta name="description" content="Gaur City Mall offers premium Commercial Office Spaces in Greater Noida West. Invest in top Commercial Properties, Malls, and Retail Shops in Noida now.">
-    <meta name="image" content="https://moneytreerealty.com/blog/assets/gaur-city-mall-noida-extension-banner.webp">
-    <meta name="image:alt" content="Gaur City Mall, Greater Noida">
 
 
 

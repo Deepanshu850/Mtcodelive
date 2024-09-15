@@ -78,12 +78,7 @@ noida, plot for sale in sector 61 noida " />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 61 Noida: Map, Property Rates, Projects, Review, Info">
-    <meta name="description" content="Sector 61, Noida in Gautam Buddha Nagar is a vibrant area known for its residential complexes, parks, and proximity to shopping centers, offering a balanced urban lifestyle.">
-    <meta name="image" content="https://moneytreeryalty.com/noida-real-estate/assets/image/sector-61-noida-banner.webp">
-    <meta name="image:alt" content="Sector 61 Noida">
-
+    
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-61-noida" />
 

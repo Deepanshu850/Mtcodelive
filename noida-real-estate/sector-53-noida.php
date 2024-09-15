@@ -78,11 +78,7 @@ sector 53 noida flats for rent " />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 53 Noida: Map, Property Rates, Projects, Review, Info">
-    <meta name="description" content="Sector 53 Noida, located on Delhi-Meerut Road in Gautam Buddha Nagar, offers well-connected residential, commercial spaces with amenities and excellent infrastructure.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-53-noida-banner.webp">
-    <meta name="image:alt" content="Sector 53 Noida">
+     
 
 
 
