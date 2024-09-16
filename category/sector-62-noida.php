@@ -46,82 +46,123 @@ sector 62, ginger hotel sector 62 noida, ion digital zone idz 1 sector 62 noida 
     <meta name="audience" content="All" />
 
 
+    <!-- General Open Graph Tags for Facebook, LinkedIn, etc. -->
     <meta property="og:title" content="Sector 62 Noida: Map, Property Rates, Connectivity, Reviews">
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/category/sector-62-noida">
     <meta property="og:description" content="Sector 62 Noida: property rates, connectivity via Delhi-Meerut Expressway (NH24), detailed map, and authentic reviews of this residential and commercial hub.">
-    <meta property="og:type" content="property">
+    <meta property="og:type" content="website">
     <meta property="og:image" content="https://moneytreerealty.com/assets/img/sector-62-noida-banner.webp">
+
+    <!-- Twitter Specific Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sector 62 Noida: Map, Property Rates, Connectivity, Reviews">
+    <meta name="twitter:description" content="Sector 62 Noida: property rates, connectivity via Delhi-Meerut Expressway (NH24), detailed map, and authentic reviews of this residential and commercial hub.">
+    <meta name="twitter:image" content="https://moneytreerealty.com/assets/img/sector-62-noida-banner.webp">
+    <meta name="twitter:site" content="@MoneytreeRSPL">
+
+    <!-- Pinterest Specific Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Sector 62 Noida: Map, Property Rates, Connectivity, Reviews">
+    <meta property="og:description" content="Sector 62 Noida: property rates, connectivity via Delhi-Meerut Expressway (NH24), detailed map, and authentic reviews of this residential and commercial hub.">
+    <meta property="og:image" content="https://moneytreerealty.com/assets/img/sector-62-noida-banner.webp">
+    <meta property="og:url" content="https://moneytreerealty.com/category/sector-62-noida">
+
 
 
     <link rel="canonical" href="https://moneytreerealty.com/category/sector-62-noida" />
 
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "name": "Sector 62 Noida",
+            "image": "https://moneytreerealty.com/noida-real-estate/assets/image/sector-62-noida-banner.webp",
+            "description": "Sector 62 is a well-planned sector in Noida, located along the Delhi - Meerut Expressway (NH24), known for its lush green surroundings with various green belts and parks. The sector is organized with dedicated spaces for residential, commercial, and industrial projects. It has a PIN code of 201309 and lies in Gautam Buddha Nagar district of Uttar Pradesh.",
+            "brand": {
+                "@type": "Brand",
+                "name": "Moneytree Realty"
+            },
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.6",
+                "ratingCount": "2530"
+            }
+        }
+    </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the pin code of Sector 62 Noida?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sector 62 Noida pincode is 201309 and lies in Gautam Buddha District of Uttar Pradesh."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the average property prices in Sector 62 Noida?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The average price of a property in Sector 62 costs around ₹ 7,150 per square feet. It has witnessed a Y-O-Y growth of about 22.36% price appreciations in properties."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the nearest metro to Sector 62 Noida?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Nearest metro to Sector 62 Noida includes Sector 62, Noida Electronic City, Sector 59, and Sector 61."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which district is Sector 62 Noida?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sector 62 Noida comes under Gautam Buddha District of Uttar Pradesh with a pin code - 201309."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the population of Sector 62 Noida?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sector 62 Noida comes under Gautam Buddha District of Uttar Pradesh with an average population of around 53,875."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why is Noida Sector 62 famous?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sector 62 is the bustling commercial and residential hub of Noida widely known for its segregated commercial, residential, and industrial projects. It features various IT/ITeZ companies like Siemens, Samsung Electronics, Barclay, and IBM India."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the top projects in Sector 62 Noida?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Top residential projects in Sector 62 Noida includes Cooperative Group Housing Societies (CGHS) and includes Indian Oil Apartments, PMO Apartments, and NTPC Vinayak Apartments."
-      }
-    }
-  ]
-}
-</script>
 
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+                    "@type": "Question",
+                    "name": "What is the pin code of Sector 62 Noida?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sector 62 Noida has a pin code of 201309 and is located in the Gautam Buddha District of Uttar Pradesh."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What are the average property prices in Sector 62 Noida?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The average property price in Sector 62 is approximately ₹7,150 per square foot, with a year-on-year growth rate of 22.36% in property prices."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is the nearest metro to Sector 62 Noida?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The nearest metro stations to Sector 62 Noida include Sector 62, Noida Electronic City, Sector 59, and Sector 61 metro stations."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which district is Sector 62 Noida?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sector 62 Noida is part of the Gautam Buddha District in Uttar Pradesh, with a pin code of 201309."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is the population of Sector 62 Noida?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The population of Sector 62 Noida is around 53,875 and is located in the Gautam Buddha District of Uttar Pradesh."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Why is Noida Sector 62 famous?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sector 62 is a prominent commercial and residential hub known for its mix of industrial, residential, and commercial projects. It is home to several IT/ITeS companies such as Siemens, Samsung Electronics, Barclays, and IBM India."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What are the top projects in Sector 62 Noida?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Top residential projects in Sector 62 include Cooperative Group Housing Societies (CGHS), such as Indian Oil Apartments, PMO Apartments, and NTPC Vinayak Apartments."
+                    }
+                }
+            ]
+        }
+    </script>
+
+
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link href="../assets/css/nice-select.css" rel="stylesheet">
+    <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
+    <link rel="stylesheet" href="../assets/css/property-page.css">
 
 
     <!-- Google Tag Manager -->
@@ -142,29 +183,9 @@ sector 62, ginger hotel sector 62 noida, ion digital zone idz 1 sector 62 noida 
         })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
     </script>
     <!-- End Google Tag Manager -->
-    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../assets/css/jquery-ui.css" rel="stylesheet">
-    <link href="../assets/css/bootstrap-icons.css" rel="stylesheet">
-    <link href="../assets/css/all.min.css" rel="stylesheet">
-    <link href="../assets/css/animate.min.css" rel="stylesheet">
-    <link href="../assets/css/jquery.fancybox.min.css" rel="stylesheet">
-    <link href="../assets/css/fontawesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="../assets/css/slick.css">
-    <link rel="stylesheet" href="../assets/css/slick-theme.css">
-    <link rel="stylesheet" href="../assets/css/magnific-popup.css">
-    <link href="../assets/css/boxicons.min.css" rel="stylesheet">
-    <link href="../assets/css/nice-select.css" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="canonical" href="https://moneytreerealty.com/top-real-estate-poperty-consultant-in-india.php" />
 
 
 
-
-
-    <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
-    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-JZJY23MWW7"></script>
     <script>
@@ -184,386 +205,9 @@ sector 62, ginger hotel sector 62 noida, ion digital zone idz 1 sector 62 noida 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2ZBWP94" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <style>
-        *,
-        *::after,
-        *::before {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        .s-soft {
-            display: block;
-            position: fixed;
-            top: 250px;
-            /* left: 10px; */
-            z-index: 1000;
-            transition: all linear 0.2s;
-        }
-
-        .s-soft a:first-child {
-            border-radius: 0 5px 0 0;
-        }
-
-        .s-soft a:last-child {
-            border-radius: 0 0 5px 0;
-        }
-
-        .s-item {
-            display: block;
-            width: 40px;
-            height: 40px;
-            color: white;
-            font-size: 15px;
-            line-height: 30px;
-            text-align: center;
-            transition: all linear 0.2s;
-        }
-
-        .s-item:hover {
-            width: 55px;
-            border-radius: 0px 20px 20px 0px;
-        }
-
-        #so-open {
-            display: block;
-            position: fixed;
-            top: 100px;
-            left: -90px;
-            border-radius: 0 30px 30px 0;
-            transition: all linear 0.2s;
-        }
-
-        .facebook {
-            background-color: #3b5999;
-        }
-
-        .twitter {
-            background-color: #3AAFD6;
-        }
-
-        .print {
-            background-color: #de3c7d;
-        }
-
-        .pinterest {
-            background-color: #BD081C;
-        }
-
-        .linkedin {
-            background-color: #0e76a8;
-        }
-
-        .instagram {
-            background-color: #ed006f;
-        }
-
-        .so-collapse {
-            left: -30px;
-        }
-
-        /* Media Query to hide the sidebar on screens with a maximum width of 767 pixels */
-        @media (max-width: 767px) {
-            .s-soft {
-                display: none;
-            }
-
-            #so-open {
-                display: none;
-            }
-        }
-    </style>
-
-    <div class="s-soft">
-        <a href="https://www.facebook.com/moneytreerealtyofficial" class="s-item facebook">
-            <span class="fa fa-facebook"></span>
-        </a>
-
-        <a href="https://www.linkedin.com/company/moneytree-realty-services/mycompany/" class="s-item linkedin">
-            <span class="fa fa-linkedin"></span>
-        </a>
-        <a href="https://www.instagram.com/moneytreerealtyofficial/" class="s-item instagram">
-            <span class="fa fa-instagram"></span>
-        </a>
-
-    </div>
-    <a id="so-open" class="s-item print so-collapse">
-        <span class="fa fa-arrow-right"></span>
-    </a>
-
-
 
 
     <?php include './header.php';  ?>
-
-
-
-    <style>
-        main>h1,
-        h2,
-        h3,
-        h4 {
-
-            color: #005b52;
-
-        }
-
-        main>p {
-            text-align: justify;
-            margin-block: 0 1.5rem;
-        }
-
-        h1 {
-            font-size: 32px;
-            text-wrap: wrap;
-            text-align: center;
-            padding-block: 1rem 2rem;
-            /* margin-top: 2rem; */
-        }
-
-        h2 {
-            padding-block: 1rem;
-            margin: 0;
-            font-size: 28px;
-        }
-
-        h3 {
-            font-size: 22px;
-        }
-
-
-
-        main {
-
-
-            width: 67%;
-            margin-inline: auto;
-            margin-bottom: 2rem;
-            padding-inline: 2.5rem;
-
-
-        }
-
-
-        ol {
-            font-weight: bold;
-        }
-
-        .arrow-list {
-            list-style: none;
-
-
-        }
-
-        .arrow-list>li {
-            position: relative;
-            margin-inline-start: 20px;
-            margin-top: 0.3rem;
-            font-weight: 400;
-            font-size: 16px;
-
-        }
-
-
-        .arrow-list>li::before {
-            content: "➔";
-            color: #005b52;
-            display: inline-block;
-            position: absolute;
-            top: 3px;
-            left: -25px;
-        }
-
-        @media (width < 740px) {
-            main {
-                width: 100%;
-                padding-inline: 1.6rem;
-            }
-
-            main h1 {
-                font-size: 28px;
-            }
-        }
-
-        .side-flex {
-            display: flex;
-        }
-
-        @media (width < 1000px) {
-            .side-flex {
-                flex-direction: column;
-                align-items: center;
-            }
-        }
-
-        .side-flex>div {
-            width: 30%;
-        }
-
-        .beautiful-table {
-            width: 88%;
-            margin: 0 auto;
-            margin-bottom: 1.5rem;
-            border-collapse: collapse;
-            text-align: center;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-
-
-        .beautiful-table td {
-            padding: 10px 10px;
-            border: 1px solid #ddd;
-
-        }
-
-        .beautiful-table tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-
-
-        .beautiful-table th {
-            background-color: #eeecec;
-            color: black;
-            padding: 10px 10px;
-            border: 1px solid #ddd;
-            text-shadow: none;
-            font-weight: 600;
-        }
-
-        @media (width < 500px) {
-
-            .beautiful-table th,
-            .beautiful-table td {
-                padding: 6px 8px;
-            }
-
-            .beautiful-table,
-            .beautiful-table p {
-                font-size: 11px;
-                line-height: 1.6;
-                width: 100%;
-            }
-
-            h1 {
-                text-align: center;
-            }
-        }
-
-        @media (width < 1000px) {
-            .side-flex>div {
-                width: 100%;
-            }
-        }
-
-        h3+table.beautiful-table {
-            margin-top: 1.2rem;
-        }
-    </style>
-
-
-
-
-
-
-
-    <style>
-        html {
-            scroll-behavior: smooth;
-            scroll-padding: 100px;
-
-        }
-
-        #fake-heading {
-            font-family: var(--font-montserrat);
-            color: #0D0D0D;
-            font-weight: 600;
-            font-size: 18px;
-            margin-top: 10px;
-        }
-
-        .tableOfContent {
-            display: flex;
-            flex-direction: column;
-
-            background: rgba(241, 238, 238, 0.55);
-            padding: 0.6rem 1.5rem;
-            font-weight: 600;
-            border-radius: 10px;
-        }
-
-        .tableOfContent a,
-        .tableOfContent li {
-            background: linear-gradient(90deg, #00796b, #009688, #26a69a);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-size: 14px;
-            font-weight: 600;
-            transition: transform 180ms ease;
-        }
-
-        .tableOfContent a:hover,
-        .tableOfContent li:hover {
-            background: linear-gradient(-90deg, #00796b, #009688, #26a69a);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-size: 14px;
-            font-weight: 600;
-            transform: translate(2px, -2px);
-        }
-
-        .tableOfContent ul {
-            list-style: none;
-            padding-left: 2rem;
-        }
-
-        .tableOfContent>div:first-child {
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .tableOfContent .content {
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 700ms ease;
-        }
-
-        .tableOfContent .content.open {
-            max-height: 1000px;
-
-        }
-
-        .tableOfContent i {
-            font-size: 30px;
-        }
-
-        .tableOfContent button {
-            background: transparent;
-            padding-inline: 6px;
-        }
-
-        .tableOfContent button:active {
-
-            outline: 2px solid grey;
-        }
-
-        @media (width < 700px) {
-            #fake-heading {
-                font-size: 15px;
-            }
-
-            .tableOfContent i {
-                font-size: 24px;
-            }
-
-            main>p {
-                text-align: left;
-            }
-        }
-    </style>
 
 
 
@@ -572,52 +216,16 @@ sector 62, ginger hotel sector 62 noida, ion digital zone idz 1 sector 62 noida 
     <!-- main content -->
     <div class="side-flex">
 
-
-        <style>
-            .misc-icon {
-                color: #59d469;
-                margin-left: 4px;
-            }
-        </style>
         <main>
 
-            <style>
-                .image-wrapper {
-                    padding-block: 2rem 3rem;
-                    display: flex;
-                    justify-content: center;
-                }
-
-                .image-wrapper img {
-
-                    width: 100%;
-                    border-radius: 8px;
-
-                    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-
-                }
-
-                @media (width < 700px) {
-                    .image-wrapper img {
-
-                        width: 100%;
-
-
-                    }
-                }
-            </style>
             <div class="image-wrapper">
 
                 <img src="../assets/img/sector-62-noida-banner.webp" alt="Sector 62 Noida | Delhi - Meerut Expressway (NH24)">
             </div>
 
-
-
             <h1 id="heading-1">
                 Sector 62 Noida | Delhi - Meerut Expressway (NH24)
             </h1>
-
-
 
 
             <div class="tableOfContent">
@@ -634,7 +242,7 @@ sector 62, ginger hotel sector 62 noida, ion digital zone idz 1 sector 62 noida 
                         1. Sector 62 Noida - Quick Insights
 
                     </a>
-                    <br>
+
                     <a href="#heading-2">
                         2. Know Everything About Sector 62 Noida
                     </a>
@@ -686,12 +294,12 @@ sector 62, ginger hotel sector 62 noida, ion digital zone idz 1 sector 62 noida 
                         4. Sector 62 Noida connectivity with nearby landmarks
 
                     </a>
-                    <br>
+
 
                     <a href="#heading-5">
                         5. Investment Insights in Sector 62 Noida
                     </a>
-                    <br>
+
                     <a href="#heading-6">
                         6. Upcoming RERA Approved Projects near Sector 62 Noida
                     </a>
@@ -766,10 +374,10 @@ sector 62, ginger hotel sector 62 noida, ion digital zone idz 1 sector 62 noida 
                             <p>Delhi - Meerut Expressway (NH24)</p>
                         </td>
                         <td>
-                            <p>₹ 7,150/ sq ft</p>
+                            <p>₹ 7,150/ sq ft <i class="bi bi-graph-up-arrow misc-icon"></i></p>
                         </td>
                         <td>
-                            <p>Y-O-Y growth rate of 22.36%</p>
+                            <p>Y-O-Y growth rate of 22.36% <i class="bi bi-graph-up-arrow misc-icon"></i></p>
                         </td>
                     </tr>
                 </tbody>
@@ -784,7 +392,7 @@ sector 62, ginger hotel sector 62 noida, ion digital zone idz 1 sector 62 noida 
 
             <p>Sector 62 is a planned sector in Noida situated along the <strong>Delhi - Meerut Expressway (NH24)</strong> and provides lush green surroundings through a wide range of green belts and parks spread throughout the sector. It is a well-organised locality with segregated spaces for commercial, residential and industrial projects.</p>
 
-            <p>Sector 62 Noida pincode is 201309 and lies in Gautam Buddha District of Uttar Pradesh.&nbsp;</p>
+            <p>Sector 62 Noida pincode is 201309 and lies in Gautam Buddha District of Uttar Pradesh. </p>
 
 
 
@@ -824,7 +432,7 @@ sector 62, ginger hotel sector 62 noida, ion digital zone idz 1 sector 62 noida 
                 <li>Metro connectivity with its own metro station on the Blue - Sector 62 Metro Station and Noida Electronic City Metro Station with Delhi/NCR.</li>
                 <li>Prominent residential locality with ready-to-move residential apartments Cooperative Group Housing Societies (CGHS).</li>
                 <li>Well-organised commercial projects with employment hubs like IBM, Samsung, TCS, Siemens, Barclays Shared Services, Galaxy Business Park, Stellar IT Park, etc.</li>
-                <li>Best-in-class health care facilities like Fortis Hospital, and Krishna Multispeciality Hospital.&nbsp;</li>
+                <li>Best-in-class health care facilities like Fortis Hospital, and Krishna Multispeciality Hospital. </li>
                 <li>Home to top-notch educational institutes like MAF Academy, Symbiosis Law School, National Institutes of Biologicals, ICA, IMS etc.</li>
                 <li>Close proximity with leading malls like Shipra Mall, Shopprix Mall, Logix City Centre, and Mahagun Metro Mall.</li>
                 <li>Direct connectivity with Indira Gandhi International Airport which is located at a distance of about 30 Km.</li>
@@ -845,7 +453,7 @@ sector 62, ginger hotel sector 62 noida, ion digital zone idz 1 sector 62 noida 
 
             <h2 id="heading-4">Sector 62 Noida connectivity with nearby landmarks</h2>
 
-            <p>Sector 62 is a well-planned locality in Noida with organised and segregated commercial, residential, and industrial projects. It is strategically located on NH - 24 and provides seamless connectivity with the public transportation system and its own metro station on the blue line - Sector 62 Metro Station.&nbsp;</p>
+            <p>Sector 62 is a well-planned locality in Noida with organised and segregated commercial, residential, and industrial projects. It is strategically located on NH - 24 and provides seamless connectivity with the public transportation system and its own metro station on the blue line - Sector 62 Metro Station. </p>
 
 
 
@@ -1297,17 +905,16 @@ sector 62, ginger hotel sector 62 noida, ion digital zone idz 1 sector 62 noida 
 
 
             <table class="beautiful-table">
-                <thead>
-                    <tr>
-                        <th>
-                            <p>Type of Property</p>
-                        </th>
-                        <th>
-                            <p>Commercial Property</p>
-                        </th>
-                    </tr>
-                </thead>
                 <tbody>
+                    <tr>
+                        <td>
+                            <p>Type of Property</p>
+                        </td>
+                        <td>
+                            <p>Commercial Property</p>
+                        </td>
+                    </tr>
+
                     <tr>
                         <td>
                             <p>Builder Name</p>
@@ -1427,17 +1034,16 @@ sector 62, ginger hotel sector 62 noida, ion digital zone idz 1 sector 62 noida 
 
 
             <table class="beautiful-table">
-                <thead>
-                    <tr>
-                        <th>
-                            <p>Type of Property</p>
-                        </th>
-                        <th>
-                            <p>Commercial/Residential Property</p>
-                        </th>
-                    </tr>
-                </thead>
                 <tbody>
+                    <tr>
+                        <td>
+                            <p>Type of Property</p>
+                        </td>
+                        <td>
+                            <p>Commercial/Residential Property</p>
+                        </td>
+                    </tr>
+
                     <tr>
                         <td>
                             <p>Builder Name</p>
@@ -1556,7 +1162,7 @@ sector 62, ginger hotel sector 62 noida, ion digital zone idz 1 sector 62 noida 
 
             <h3>M3M The Cullinan | Residential Apartments in Sector 94 Noida</h3>
             <p>
-                <a href="../propertydetail/m3m-the-cullinan-sector-94-noida.php"><strong>M3M The Cullinan</strong> </a>offers 3 BHK, 4 BHK apartments in Noida with an array of amenities like swimming Pool with jacuzzi, shaded Cabanas, a business centre and squash court. It features beautifully designed floor lobbies with high-speed elevators.&nbsp;
+                <a href="../propertydetail/m3m-the-cullinan-sector-94-noida.php"><strong>M3M The Cullinan</strong> </a>offers 3 BHK, 4 BHK apartments in Noida with an array of amenities like swimming Pool with jacuzzi, shaded Cabanas, a business centre and squash court. It features beautifully designed floor lobbies with high-speed elevators.
             </p>
 
 
@@ -1620,24 +1226,23 @@ sector 62, ginger hotel sector 62 noida, ion digital zone idz 1 sector 62 noida 
             <h3>M3M The Line | Studio Apartments in Sector 72 Noida</h3>
             <p>
 
-                <a href="../propertydetail/m3m-the-line-sector-72-noida.php"><strong>M3M The line</strong></a> offers state-of-the-art studio apartments along with expansive high-street retail space on the ground floor exhibiting international as well as home grown brands. These studio apartments in Noida provide an array of modern amenities like 100% Power Back-up, Amphitheatre, club house, swimming pool, gym, safe play area for kids.&nbsp;
+                <a href="../propertydetail/m3m-the-line-sector-72-noida.php"><strong>M3M The line</strong></a> offers state-of-the-art studio apartments along with expansive high-street retail space on the ground floor exhibiting international as well as home grown brands. These studio apartments in Noida provide an array of modern amenities like 100% Power Back-up, Amphitheatre, club house, swimming pool, gym, safe play area for kids.
             </p>
 
 
 
 
             <table class="beautiful-table">
-                <thead>
-                    <tr>
-                        <th>
-                            <p>Type of Property</p>
-                        </th>
-                        <th>
-                            <p>Commercial/Residential Property</p>
-                        </th>
-                    </tr>
-                </thead>
                 <tbody>
+                    <tr>
+                        <td>
+                            <p>Type of Property</p>
+                        </td>
+                        <td>
+                            <p>Commercial/Residential Property</p>
+                        </td>
+                    </tr>
+
                     <tr>
                         <td>
                             <p>Builder Name</p>
@@ -1692,17 +1297,16 @@ sector 62, ginger hotel sector 62 noida, ion digital zone idz 1 sector 62 noida 
 
 
             <table class="beautiful-table">
-                <thead>
-                    <tr>
-                        <th>
-                            <p>Type of Property</p>
-                        </th>
-                        <th>
-                            <p>Residential Property</p>
-                        </th>
-                    </tr>
-                </thead>
                 <tbody>
+                    <tr>
+                        <td>
+                            <p>Type of Property</p>
+                        </td>
+                        <td>
+                            <p>Residential Property</p>
+                        </td>
+                    </tr>
+
                     <tr>
                         <td>
                             <p>Builder Name</p>
@@ -1758,17 +1362,16 @@ sector 62, ginger hotel sector 62 noida, ion digital zone idz 1 sector 62 noida 
 
 
             <table class="beautiful-table">
-                <thead>
-                    <tr>
-                        <th>
-                            <p>Type of Property</p>
-                        </th>
-                        <th>
-                            <p>Residential Property</p>
-                        </th>
-                    </tr>
-                </thead>
                 <tbody>
+                    <tr>
+                        <td>
+                            <p>Type of Property</p>
+                        </td>
+                        <td>
+                            <p>Residential Property</p>
+                        </td>
+                    </tr>
+
                     <tr>
                         <td>
                             <p>Builder Name</p>
@@ -1992,31 +1595,15 @@ sector 62, ginger hotel sector 62 noida, ion digital zone idz 1 sector 62 noida 
 
             <h2>Map of Sector 62 Noida</h2>
 
-            <style>
-                #canvas-for-googlemap {
-                    width: 100%;
-                }
-            </style>
 
+            <div style="text-decoration:none; overflow:hidden;max-width:100%;height:500px;">
+                <div id="canvas-for-googlemap" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=sector+62+noida&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class=" embed-ded-maphtml" href="https://www.bootstrapskins.com/themes" id="make-map-infor-mation">premium bootstrap themes</a>
 
-            <div style="overflow:hidden;resize:none;max-width:100%;height:500px;">
-                <div id="my-map-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=sector+62+noida&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="embedded-map-code" href="https://www.bootstrapskins.com/themes" id="get-map-data">premium bootstrap themes</a>
-                <style>
-                    #my-map-display img.text-marker {
-                        max-width: none !important;
-                        background: none !important;
-                    }
-
-                    img {
-                        max-width: none
-                    }
-                </style>
             </div>
-
 
             <h2 id="heading-7">Tired of looking to buy property for sale?</h2>
 
-            <p><a href="../index.php"><strong>MoneyTree Realty</strong></a> comprises professional <a href="../real-estate-consultant.php"><strong>real estate consultants</strong></a> and offers a diverse portfolio of real estate in commercial, residential property, and <a href="../plots-for-sale.php"><strong>plots for sale</strong></a>. MoneyTree Realty is the <a href="../best-property-dealers-in-noida.php"><strong>best property dealers in Noida</strong></a> as our consultants help you understand market trends and provide a complete and comprehensive property analysis using the data analytics.&nbsp;&nbsp;</p>
+            <p><a href="../index.php"><strong>MoneyTree Realty</strong></a> comprises professional <a href="../real-estate-consultant.php"><strong>real estate consultants</strong></a> and offers a diverse portfolio of real estate in commercial, residential property, and <a href="../plots-for-sale.php"><strong>plots for sale</strong></a>. MoneyTree Realty is the <a href="../best-property-dealers-in-noida.php"><strong>best property dealers in Noida</strong></a> as our consultants help you understand market trends and provide a complete and comprehensive property analysis using the data analytics. </p>
 
 
 
@@ -2063,242 +1650,52 @@ sector 62, ginger hotel sector 62 noida, ion digital zone idz 1 sector 62 noida 
 
 
 
-            <style>
-                .faq {
-                    margin-bottom: 20px;
-                    padding: 10px;
-                    border: 1px solid #ccc;
-                    border-radius: 5px;
-                    overflow: hidden;
-                    position: relative;
-                }
-
-                .faq h3 {
-                    font-size: 18px;
-                    font-weight: bold;
-                    margin-bottom: 10px;
-                    cursor: pointer;
-                    padding-right: 1rem;
-                    color: #005B52;
-                }
-
-                @media (width < 700px) {
-                    .faq h3 {
-                        font-size: 15px;
-                    }
-                }
-
-                .faqq {
-
-                    padding-top: 30px;
-                    padding-bottom: 50px;
-                }
-
-                .faq p {
-                    margin-bottom: 10px;
-                }
-
-                .faq p strong {
-                    font-weight: bold;
-                }
-
-                .answer {
-                    display: none;
-                }
-
-                .arrow {
-                    position: absolute;
-                    top: 10px;
-                    right: 10px;
-                    font-size: 20px;
-                    cursor: pointer;
-                    transition: transform 0.3s ease;
-                    color: #005B52;
-                }
-
-                .collapsed .arrow {
-                    transform: rotate(0deg);
-                }
-
-                .expanded .arrow {
-                    transform: rotate(180deg);
-                }
-            </style>
-
 
             <h2 id="heading-8">
                 Frequently Asked Questions
             </h2>
 
-            <div class="faq">
 
-                <h3>
+            <section class="questions">
+                <h2>What is the pin code of Sector 62 Noida?</h2>
+                <p>Sector 62 Noida has a pin code of 201309 and is located in the Gautam Buddha District of Uttar Pradesh.</p>
+            </section>
 
-                    What is the pin code of Sector 62 Noida?
+            <section class="questions">
+                <h2>What are the average property prices in Sector 62 Noida?</h2>
+                <p>The average property price in Sector 62 is approximately ₹7,150 per square foot, with a year-on-year growth rate of 22.36% in property prices.</p>
+            </section>
 
+            <section class="questions">
+                <h2>What is the nearest metro to Sector 62 Noida?</h2>
+                <p>The nearest metro stations to Sector 62 Noida include Sector 62, Noida Electronic City, Sector 59, and Sector 61 metro stations.</p>
+            </section>
 
+            <section class="questions">
+                <h2>Which district is Sector 62 Noida?</h2>
+                <p>Sector 62 Noida is part of the Gautam Buddha District in Uttar Pradesh, with a pin code of 201309.</p>
+            </section>
 
+            <section class="questions">
+                <h2>What is the population of Sector 62 Noida?</h2>
+                <p>The population of Sector 62 Noida is around 53,875 and is located in the Gautam Buddha District of Uttar Pradesh.</p>
+            </section>
 
-                </h3>
-                <div class="answer">
-                    <p>
-                        Sector 62 Noida pincode is 201309 and lies in Gautam Buddha District of Uttar Pradesh.
-                    </p>
-                </div>
-                <div class="arrow collapsed">&#9660;</div>
-            </div>
-            <div class="faq">
+            <section class="questions">
+                <h2>Why is Noida Sector 62 famous?</h2>
+                <p>Sector 62 is a prominent commercial and residential hub known for its mix of industrial, residential, and commercial projects. It is home to several IT/ITeS companies such as Siemens, Samsung Electronics, Barclays, and IBM India.</p>
+            </section>
 
-                <h3>
-
-                    What are the average property prices in Sector 62 Noida?
-
-                </h3>
-                <div class="answer">
-                    <p>
-
-                        The average price of a property in Sector 62 costs around ₹ 7,150 per square feet. It has witnessed a Y-O-Y growth of about 22.36% price appreciations in properties.
-
-
-                    </p>
-                </div>
-                <div class="arrow collapsed">&#9660;</div>
-            </div>
-            <div class="faq">
-
-                <h3>
-
-                    What is the nearest metro to Sector 62 Noida?
-
-                </h3>
-                <div class="answer">
-                    <p>
-
-                        Nearest metro to Sector 62 Noida includes Sector 62, Noida Electronic City, Sector 59, and Sector 61..
-
-                    </p>
-                </div>
-                <div class="arrow collapsed">&#9660;</div>
-            </div>
-            <div class="faq">
-
-                <h3>
-
-                    Which district is Sector 62 Noida?
-
-                </h3>
-                <div class="answer">
-                    <p>
-
-                        Sector 62 Noida comes under Gautam Buddha District of Uttar Pradesh with a pin code - 201309.
-
-                    </p>
-                </div>
-                <div class="arrow collapsed">&#9660;</div>
-            </div>
-            <div class="faq">
-
-                <h3>
-
-                    What is the population of Sector 62 Noida?
-
-
-                </h3>
-                <div class="answer">
-                    <p>
-                        Sector 62 Noida comes under Gautam Buddha District of Uttar Pradesh with an average population of around 53,875.
+            <section class="questions">
+                <h2>What are the top projects in Sector 62 Noida?</h2>
+                <p>Top residential projects in Sector 62 include Cooperative Group Housing Societies (CGHS), such as Indian Oil Apartments, PMO Apartments, and NTPC Vinayak Apartments.</p>
+            </section>
 
 
 
-                    </p>
-                </div>
-                <div class="arrow collapsed">&#9660;</div>
-            </div>
-            <div class="faq">
-
-                <h3>
-                    Why is Noida Sector 62 famous?
-
-
-
-                </h3>
-                <div class="answer">
-                    <p>
-                        Sector 62 is the bustling commercial and residential hub of Noida widely known for its segregated commercial, residential, and industrial projects. It features various IT/ITeZ companies like Siemens, Samsung Electronics, Barclay, and IBM India.
-                    </p>
-                </div>
-                <div class="arrow collapsed">&#9660;</div>
-            </div>
-            <div class="faq">
-
-                <h3>
-
-                    What are the top projects in Sector 62 Noida?
-
-                </h3>
-                <div class="answer">
-                    <p>
-
-                        Top residential projects in Sector 62 Noida includes Cooperative Group Housing Societies (CGHS) and includes Indian Oil Apartments, PMO Apartments, and NTPC Vinayak Apartments.
-
-
-                    </p>
-                </div>
-                <div class="arrow collapsed">&#9660;</div>
-            </div>
-
-
-
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-            <script>
-                $(document).ready(function() {
-                    $(".faq h3").click(function() {
-                        $(this).next(".answer").slideToggle();
-                        $(this).parent().find(".arrow").toggleClass("collapsed expanded");
-                    });
-                });
-            </script>
 
         </main>
 
-        <!-- tag styles -->
-        <style>
-            .tag-wrapper {
-                margin-top: 2rem;
-                width: 90%;
-                margin-inline: auto;
-
-
-            }
-
-            .tags {
-                display: flex;
-                list-style-type: none;
-                flex-wrap: wrap;
-                gap: 3px;
-            }
-
-            .tags>li {
-
-                margin: 0;
-                background-color: rgba(0, 0, 0, 0.06);
-
-                padding: 0px 10px;
-                border-radius: 6px;
-
-
-            }
-
-            .tags>li>a {
-                font-size: 11px !important;
-                color: #333;
-                transition: color 150ms ease-in-out;
-            }
-
-            .tags>li>a:hover {
-                color: #EFB93F;
-            }
-        </style>
 
 
         <div class="side-flex-right">
@@ -2631,44 +2028,14 @@ sector 62, ginger hotel sector 62 noida, ion digital zone idz 1 sector 62 noida 
 
 
     </div>
-
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script src="../assets/js/jquery-3.7.0.min.js"></script>
-    <script src="../assets/js/jquery-ui.js"></script>
-    <script src="../assets/js/bootstrap.min.js"></script>
-    <script src="../assets/js/popper.min.js"></script>
     <script src="../assets/js/swiper-bundle.min.js"></script>
     <script src="../assets/js/slick.js"></script>
-    <script src="../assets/js/waypoints.min.js"></script>
-    <script src="../assets/js/wow.min.js"></script>
     <script src="../assets/js/jquery.counterup.min.js"></script>
-    <script src="../assets/js/isotope.pkgd.min.js"></script>
     <script src="../assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="../assets/js/gsap.min.js"></script>
-    <script src="../assets/js/simpleParallax.min.js"></script>
-    <script src="../assets/js/TweenMax.min.js"></script>
-    <script src="../assets/js/jquery.marquee.min.js"></script>
     <script src="../assets/js/jquery.nice-select.min.js"></script>
     <script src="../assets/js/jquery.fancybox.min.js"></script>
     <script src="../assets/js/custom.js"></script>
-    <script>
-        $(".marquee_text").marquee({
-            direction: "left",
-            duration: 25000,
-            gap: 50,
-            delayBeforeStart: 0,
-            duplicated: true,
-            startVisible: true,
-        });
-        $(".marquee_text2").marquee({
-            direction: "left",
-            duration: 25000,
-            gap: 50,
-            delayBeforeStart: 0,
-            duplicated: true,
-            startVisible: true,
-        });
-    </script>
+    <script src="../assets/js/property-page.js"></script>
 </body>
 
 </html>

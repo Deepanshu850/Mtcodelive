@@ -14,16 +14,16 @@
                 max-width: 165px !important;
             }
         </style>
-        <div class="header-logo d-lg-none d-flex"> <a href="../index.php"><img alt="Best Real Estate Property Consultant in Delhi/NCR" class="img-fluid" src="../assets/img/logo.png"></a> </div>
+        <div class="header-logo d-lg-none d-flex"> <a href="../index"><img alt="Best Real Estate Property Consultant in Delhi/NCR" class="img-fluid" src="../assets/img/logo.png"></a> </div>
         <div class="main-menu">
             <div class="mobile-logo-area d-lg-none d-flex justify-content-between align-items-center">
-                <!-- <div class="mobile-logo-wrap"> <a href="index.php"><img alt="image" src="assets/img/logo.png"></a>
+                <!-- <div class="mobile-logo-wrap"> <a href="index"><img alt="image" src="assets/img/logo.png"></a>
                     </div> -->
             </div>
 
             <ul class="menu-list">
                 <li>
-                    <a href="../index.php"><img src="../assets/img/logo.png" alt="Best Real Estate Property Consultant in Delhi/NCR" style="width: 130px;"></a>
+                    <a href="../index"><img src="../assets/img/logo.png" alt="Best Real Estate Property Consultant in Delhi/NCR" style="width: 130px;"></a>
                 </li>
                 <li> <a href="../index" class="drop-down">HOME</a> </li>
 
