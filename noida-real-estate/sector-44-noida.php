@@ -84,12 +84,7 @@ sector 44, flats in noida sector 44 for sale, girls pg in noida sector 44" />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 44 Noida-Greater Noida Expressway: Map, Property Rates, Projects, Photos, Review">
-    <meta name="description" content="Sector 44, Noida, offers seamless connectivity through the Mahamaya Flyover and Greater Noida Road, making it a prime location for both residential and commercial purposes.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-44-noida-banner.webp">
-    <meta name="image:alt" content="Sector 44 Noida Banner">
-
+   
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-44-noida" />
 

@@ -208,9 +208,9 @@ available at Real Estate Consultant in Noida - Moneytree Realty.">
     </a>
 
 
- 
 
- <?php
+
+    <?php
     include './header.php';
     ?>
 
@@ -348,7 +348,7 @@ available at Real Estate Consultant in Noida - Moneytree Realty.">
         <div id="readmore-wrapper">
 
             <p>
-                <a href="./Property-in-noida.php"><strong>Property in Noida</strong></a> is increasing at a very fast pace with many leading <strong>real estate
+                <a href="./property-in-noida.php"><strong>Property in Noida</strong></a> is increasing at a very fast pace with many leading <strong>real estate
                     developers</strong> like Godrej Properties, M3M Noida, Mahagun Group,
                 Paras Buildtech, DLF, Migsun Group etc initiating their most sought-after commercial
                 projects and residential projects and providing luxurious <strong>3 BHK flats in Noida</strong> for

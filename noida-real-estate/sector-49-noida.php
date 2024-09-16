@@ -73,11 +73,7 @@
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 49 Noida: Map, Property Rates, Projects, Review, Info">
-    <meta name="description" content="Sector 49 Noida, near Barola, offers seamless access to Dadri and the Greater Noida Expressway, combining modern amenities with excellent connectivity.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-49-noida-banner.webp">
-    <meta name="image:alt" content="Sector 49 Noida">
+     
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-49-noida" />

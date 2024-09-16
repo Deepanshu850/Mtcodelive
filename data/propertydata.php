@@ -6,12 +6,19 @@ $properties = [
         'location' => 'Noida',
         'images' => [
             'assets/img/projectdetails/parasavenue1.webp',
-            'assets/img/projectdetails/parasavenue2.jpg',
+            'assets/img/projectdetails/parasavenue2.webp',
             'assets/img/projectdetails/parasavenue3.webp'
         ],
-        'price' => 'On Request',
-        'detailsPage' => 'parasavenuedetail.php',
-        'type' => ['Commercial']
+        'price' => '60 Lac+*',
+        'type' => ['Commercial'],
+        'particularType' => ['Commercial Spaces'],
+        'rera' => 'UPRERAPRJ297873',
+        'rera_link' => 'https://up-rera.in/Projectsummary?UI0aPA1ISD=JhSgDBuQtpY=&hfFlag=9emr4VdBw22M7BGjKtJWMPDI4s5cHQZP&NPJ6RAme=mTQA7518KvsmPG82YovObQ==&PaURJEMAN4=ZL9MNERkNdac+WWRlUhmAA==&IRSAHEB=D6PY3lyims8=',
+        'location-2' => 'Sector 129',
+        'strategicLocation' => 'Yamuna Expressway/Jewar Airport',
+        'area' => '3000 sq ft',
+        'shortDescription' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, amet! Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aut? Aut quod deserunt quaerat nihil.',
+
     ],
     [
         'id' => 2,
@@ -19,13 +26,20 @@ $properties = [
         'location' => 'Noida',
         'images' => [
             'assets/img/projectdetails/m3mcullinan1.webp',
-            'assets/img/projectdetails/m3mcullinan2.jpg',
-            'assets/img/projectdetails/m3mcullinan3.jpg'
-
+            'assets/img/projectdetails/m3mcullinan2.webp',
+            'assets/img/projectdetails/m3mcullinan3.webp'
         ],
-        'price' => 'On Request',
-        'detailsPage' => '#',
-        'type' => ['Residential', 'Commercial']
+        'price' => '1 Cr+*',
+
+        'type' => ['Residential', 'Commercial'],
+        'particularType' => ['Commercial Spaces', '3 BHK Flats', '4 BHK Flats', '5 BHK Flats'],
+        
+        'rera' => 'UPRERAPRJ442214',
+        'rera_link' => 'https://up-rera.in/Projectsummary?UI0aPA1ISD=JhSgDBuQtpY=&hfFlag=9emr4VdBw22M7BGjKtJWMPDI4s5cHQZP&NPJ6RAme=mTQA7518KvsmPG82YovObQ==&PaURJEMAN4=ZL9MNERkNdac+WWRlUhmAA==&IRSAHEB=D6PY3lyims8=',
+        'location-2' => 'Sector 129',
+        'strategicLocation' => 'Yamuna Expressway/Jewar Airport',
+        'area' => '3000 sq ft',
+        'shortDescription' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, amet! Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aut? Aut quod deserunt quaerat nihil.',
     ],
 
     [
@@ -33,14 +47,17 @@ $properties = [
         'name' => 'M3M The Line Sector 72 Noida',
         'location' => 'Noida',
         'images' => [
-            'assets/img/projectdetails/m3mtheline1.jpg',
-            'assets/img/projectdetails/m3mtheline32.jpg',
-            'assets/img/projectdetails/m3mtheline2.webp'
+            'assets/img/projectdetails/m3mtheline1.webp',
+            'assets/img/projectdetails/m3mtheline2.webp',
+            'assets/img/projectdetails/m3mtheline3.webp'
 
         ],
-        'price' => 'On Request',
-        'detailsPage' => '#',
-        'type' => ['Studio Apartments', 'Commercial']
+        'price' => '80 Lac+*',
+
+        'type' => ['Studio Apartments', 'Commercial'],
+        'rera' => 'UPRERAPRJ246070',
+        'rera_link' => 'https://www.up-rera.in/Projectsummary?UI0aPA1ISD=bXy+EU+dZ0g=&hfFlag=9emr4VdBw22M7BGjKtJWMPDI4s5cHQZP&NPJ6RAme=8Bf1gILwY2o5oEww+eKfgA==&PaURJEMAN4=ZL9MNERkNdbMjkalkVhXFQ==&IRSAHEB=D6PY3lyims8=',
+        'property' => '',
     ],
     [
         'id' => 4,
@@ -52,9 +69,12 @@ $properties = [
             "assets/img/projectdetails/godrejtropical3.jpg"
 
         ],
-        'price' => 'On Request',
-        'detailsPage' => '#',
-        'type' => ['Residential']
+        'price' => '2.3 Cr+*',
+
+        'type' => ['Residential'],
+        'rera' => 'UPRERAPRJ303390',
+        'rera_link' => 'https://up-rera.in/Projectsummary?UI0aPA1ISD=u6Trg3svB/M=&hfFlag=9emr4VdBw22M7BGjKtJWMPDI4s5cHQZP&NPJ6RAme=LTP9r7RLyshj/PUZSvBjq1N4rK5rBS1b&PaURJEMAN4=ZL9MNERkNdZvcUmB/P2uFQ==&IRSAHEB=D6PY3lyims8=',
+        'property' => '',
     ],
     [
         'id' => 5,
@@ -68,8 +88,11 @@ $properties = [
 
         ],
         'price' => 'On Request',
-        'detailsPage' => '#',
-        'type' => ['Residential', 'Commercial']
+
+        'type' => ['Residential', 'Commercial'],
+        'rera' => 'UPRERAPRJ5805',
+        'rera_link' => 'https://up-rera.in/Frm_View_Project_Details.aspx?id=5805',
+        'property' => '',
     ],
     [
         'id' => 6,
@@ -82,8 +105,11 @@ $properties = [
 
         ],
         'price' => 'On Request',
-        'detailsPage' => '#',
-        'type' => ['Commercial']
+
+        'type' => ['Commercial'],
+        'rera' => 'GRG-367-2019',
+        'rera_link' => 'https://haryanarera.gov.in/view_project/searchprojectDetail/964',
+        'property' => '',
     ],
     [
         'id' => 7,
@@ -95,8 +121,14 @@ $properties = [
             'assets/img/projectdetails/elanepic3.jpg',
         ],
         'price' => 'On Request',
-        'detailsPage' => '#',
-        'type' => ['Commercial']
+
+        'type' => ['Commercial'],
+        'rera' => 'GGM/298/2018/30',
+        'rera_link' => 'https://haryanarera.gov.in/view_project/searchprojectDetail/277',
+        'property' => '',
+
+
+
     ],
     [
         'id' => 8,
@@ -109,8 +141,13 @@ $properties = [
 
         ],
         'price' => 'On Request',
-        'detailsPage' => '#',
-        'type' => ['Residential']
+
+        'type' => ['Residential'],
+        'rera' => 'RC/REP/HARERA/GGM/767/499/2023/111',
+        'rera_link' => 'https://haryanarera.gov.in/view_project/searchprojectDetail/2670',
+        'property' => '',
+
+
     ],
     [
         'id' => 9,
@@ -122,8 +159,11 @@ $properties = [
             'assets/img/projectdetails/m3mantalya3.jpg',
         ],
         'price' => 'On Request',
-        'detailsPage' => '#',
-        'type' => ['Residential']
+
+        'type' => ['Residential'],
+        'rera' => 'GGM/650/382/2022/125',
+        'rera_link' => 'https://haryanarera.gov.in/view_project/searchprojectDetail/2254',
+        'property' => '',
     ],
     [
         'id' => 10,
@@ -135,8 +175,11 @@ $properties = [
             'assets/img/projectdetails/m3maltitude3.png',
         ],
         'price' => 'On Request',
-        'detailsPage' => '#',
-        'type' => ['Residential']
+
+        'type' => ['Residential'],
+        'rera' => 'RC/REP/HARERA/GGM/821/553/2024/48',
+        'rera_link' => 'https://haryanarera.gov.in/view_project/searchprojectDetail/2884',
+        'property' => '',
     ],
     [
         'id' => 11,
@@ -148,8 +191,11 @@ $properties = [
             'assets/img/projectdetails/aceterra2.webp',
         ],
         'price' => 'On Request',
-        'detailsPage' => '#',
-        'type' => ['Residential']
+
+        'type' => ['Residential'],
+        'rera' => 'UPRERAPRJ683816/04/2024',
+        'rera_link' => 'https://www.up-rera.in/Projectsummary?UI0aPA1ISD=ha1rI+Yf8dQ=&hfFlag=9emr4VdBw22M7BGjKtJWMPDI4s5cHQZP&NPJ6RAme=RD4WvtmSELODLVTyl8GfiA==&PaURJEMAN4=ZL9MNERkNdYVibfTHi0iwAANqXFIUX8E&IRSAHEB=D6PY3lyims8=',
+        'property' => '',
     ],
     [
         'id' => 12,
@@ -161,8 +207,11 @@ $properties = [
             'assets/img/projectdetails/elanimperial3.jpg',
         ],
         'price' => 'On Request',
-        'detailsPage' => '#',
-        'type' => ['Commercial']
+
+        'type' => ['Commercial'],
+        'rera' => 'RERA-GRG-PROJ-1508-2023',
+        'rera_link' => 'https://haryanarera.gov.in/view_project/searchprojectDetail/2724',
+        'property' => '',
     ],
     [
         'id' => 13,
@@ -174,8 +223,11 @@ $properties = [
             'assets/img/projectdetails/m3mmansion3.jpg',
         ],
         'price' => 'On Request',
-        'detailsPage' => '#',
-        'type' => ['Residential']
+
+        'type' => ['Residential'],
+        'rera' => 'RC/REP/HARERA/GGM/802/534/2024/29',
+        'rera_link' => 'https://haryanarera.gov.in/view_project/searchprojectDetail/2790',
+        'property' => '',
     ],
     [
         'id' => 14,
@@ -187,8 +239,11 @@ $properties = [
             'assets/img/projectdetails/goaone3.jpg',
         ],
         'price' => 'On Request',
-        'detailsPage' => '#',
-        'type' => ['Plots']
+
+        'type' => ['Plots'],
+        'rera' => 'PRGO05242234',
+        'rera_link' => 'https://rera.goa.gov.in/reraApp/viewProjectDetailPage?projectID=cTKqjRh7aLT7vjgh2DppQw==',
+        'property' => '',
     ],
     [
         'id' => 15,
@@ -200,8 +255,11 @@ $properties = [
             'assets/img/projectdetails/godrejhillview3.jpg',
         ],
         'price' => 'On Request',
-        'detailsPage' => '#',
-        'type' => ['Plots']
+
+        'type' => ['Plots'],
+        'rera' => 'UPRERAPRJ297873',
+        'rera_link' => '',
+        'property' => '',
     ],
     [
         'id' => 16,
@@ -213,8 +271,11 @@ $properties = [
             'assets/img/projectdetails/godrejreserve3.jpg',
         ],
         'price' => 'On Request',
-        'detailsPage' => '#',
-        'type' => ['Residential']
+
+        'type' => ['Residential'],
+        'rera' => 'UPRERAPRJ297873',
+        'rera_link' => '',
+        'property' => '',
     ],
     [
         'id' => 17,
@@ -226,8 +287,11 @@ $properties = [
             'assets/img/projectdetails/mahagunmadello3.jpg',
         ],
         'price' => 'On Request',
-        'detailsPage' => '#',
-        'type' => ['Residential']
+
+        'type' => ['Residential'],
+        'rera' => 'UPRERAPRJ297873',
+        'rera_link' => '',
+        'property' => '',
     ],
     [
         'id' => 18,
@@ -239,8 +303,11 @@ $properties = [
             'assets/img/projectdetails/parasquatier3.jpg',
         ],
         'price' => 'On Request',
-        'detailsPage' => '#',
-        'type' => ['Residential']
+
+        'type' => ['Residential'],
+        'rera' => 'UPRERAPRJ297873',
+        'rera_link' => '',
+        'property' => '',
     ],
 
     // [
@@ -267,11 +334,14 @@ $properties = [
         'images' => [
             'assets/img/projectdetails/migsun1.jpeg',
             'assets/img/projectdetails/migsun2.jpeg',
-            'assets/img/projectdetails/migsun3.jpeg',
+            // 'assets/img/projectdetails/migsun3.jpeg',
         ],
-        'price' => 'On Request',
-        'detailsPage' => '#',
-        'type' => ['Studio Apartments', 'Residential']
+        'price' => '40 Lac+*',
+
+        'type' => ['Studio Apartments', 'Residential'],
+        'rera' => 'UPRERAPRJ297873',
+        'rera_link' => '',
+        'property' => '',
     ],
     [
         'id' => 22,
@@ -283,8 +353,11 @@ $properties = [
             'assets/img/projectdetails/mahalaxmi3.png',
         ],
         'price' => 'On Request',
-        'detailsPage' => '#',
-        'type' => ['Residential']
+
+        'type' => ['Residential'],
+        'rera' => 'UPRERAPRJ297873',
+        'rera_link' => '',
+        'property' => '',
     ],
     [
         'id' => 23,
@@ -296,8 +369,11 @@ $properties = [
             'assets/img/projectdetails/ltelixir3.jpg',
         ],
         'price' => 'On Request',
-        'detailsPage' => '#',
-        'type' => ['Residential']
+
+        'type' => ['Residential'],
+        'rera' => 'UPRERAPRJ297873',
+        'rera_link' => '',
+        'property' => '',
     ],
     [
         'id' => 24,
@@ -309,8 +385,11 @@ $properties = [
             'assets/img/projectdetails/houseofabhinandan3.jpg',
         ],
         'price' => 'On Request',
-        'detailsPage' => '#',
-        'type' => ['Plots']
+
+        'type' => ['Plots'],
+        'rera' => 'UPRERAPRJ297873',
+        'rera_link' => '',
+        'property' => '',
     ],
     [
         'id' => 25,
@@ -322,8 +401,11 @@ $properties = [
             'assets/img/projectdetails/alibaugvilla3.webp',
         ],
         'price' => 'On Request',
-        'detailsPage' => '#',
-        'type' => ['Plots']
+
+        'type' => ['Plots'],
+        'rera' => 'UPRERAPRJ297873',
+        'rera_link' => '',
+        'property' => '',
     ],
     [
         'id' => 26,
@@ -334,9 +416,12 @@ $properties = [
             'assets/img/projectdetails/devikavibe2.jpeg',
             'assets/img/projectdetails/devikavibe3.jpeg',
         ],
-        'price' => 'On Request',
-        'detailsPage' => '#',
-        'type' => ['Commercial']
+        'price' => '60 Lac+*',
+
+        'type' => ['Commercial'],
+        'rera' => 'UPRERAPRJ297873',
+        'rera_link' => '',
+        'property' => '',
     ],
     [
         'id' => 27,
@@ -348,8 +433,11 @@ $properties = [
             'assets/img/projectdetails/ausunflower3.jpg',
         ],
         'price' => 'On Request',
-        'detailsPage' => '#',
-        'type' => ['Residential']
+
+        'type' => ['Residential'],
+        'rera' => 'UPRERAPRJ297873',
+        'rera_link' => '',
+        'property' => '',
     ],
     [
         'id' => 28,
@@ -361,8 +449,11 @@ $properties = [
             'assets/img/projectdetails/krisumi-waterfall-residences-3.jpg',
         ],
         'price' => 'On Request',
-        'detailsPage' => '#',
-        'type' => ['Residential']
+
+        'type' => ['Residential'],
+        'rera' => 'UPRERAPRJ297873',
+        'rera_link' => '',
+        'property' => '',
     ],
     [
         'id' => 29,
@@ -373,9 +464,12 @@ $properties = [
             'assets/img/projectdetails/galacticcity2.webp',
             'assets/img/projectdetails/galacticcity3.webp',
         ],
-        'price' => 'On Request',
-        'detailsPage' => '#',
-        'type' => ['Commercial']
+        'price' => '10.95 Lac+*',
+
+        'type' => ['Commercial'],
+        'rera' => 'UPRERAPRJ297873',
+        'rera_link' => '',
+        'property' => '',
     ],
     [
         'id' => 30,
@@ -387,8 +481,12 @@ $properties = [
             'assets/img/projectdetails/axisblues3.webp',
         ],
         'price' => 'On Request',
-        'detailsPage' => '#',
-        'type' => ['Commercial']
+
+        'type' => ['Commercial'],
+        'rera' => 'UPRERAPRJ297873',
+        'rera_link' => '',
+        'property' => '',
     ],
 
 ];
+?>

@@ -72,12 +72,7 @@
     <meta property="og:image:alt" content="Sector 7 Noida">
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
-
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 7 Noida, DND Flyway: Map, Projects, Property Rates, Reviews">
-    <meta name="description" content="Sector 7 Noida, located near the DND Flyway, offers prime connectivity to Delhi-NCR, making it ideal for businesses and professionals seeking convenience.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-7-noida-banner.webp">
-    <meta name="image:alt" content="Sector 7 Noida">
+ 
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-7-noida" />

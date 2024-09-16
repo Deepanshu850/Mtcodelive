@@ -77,11 +77,6 @@ sector 15 to anand vihar metro, sector 15 community centre, new delhi to noida s
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 15 Noida, DND Flyway: Map, Property Rates, Projects">
-    <meta name="description" content="Sector 15, Noida, near DND Flyway: Prime location with excellent connectivity, property options, competitive rates, residential and commercial projects.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-15-noida-banner.webp">
-
 
 
 

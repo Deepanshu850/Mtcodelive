@@ -110,11 +110,7 @@ Indian airports, CIAL, BIAL, DIAL, HIAL, KIA" />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Leading Real Estate Consultant & Property Advisor">
-    <meta name="description" content="Are you searching for the best real estate consultant companies and advisory services firms in India? India's one of the leading real estate property consultants in Noida.">
-    <meta name="image" content="https://moneytreerealty.com/assets/img/real-estate-consutant-image2.jpeg">
-    <meta name="image:alt" content="Real Estate Consultant Image">
+
 
 
 

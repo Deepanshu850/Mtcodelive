@@ -74,11 +74,7 @@ haldiram sector 67 noida, idc technologies noida sector 67, pg in noida sector
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 67 Noida: Map, Property Rates, Projects, Review, Info">
-    <meta name="description" content="Sector 67, Noida in Gautam Buddha Nagar is a rapidly growing area with a mix of residential and commercial spaces, offering modern amenities and excellent connectivity.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-67-noida-banner.webp">
-    <meta name="image:alt" content="Sector 67 Noida">
+     
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-67-noida" />

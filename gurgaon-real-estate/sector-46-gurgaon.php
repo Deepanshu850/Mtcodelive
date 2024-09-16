@@ -81,10 +81,7 @@ police station, s 46 , schools in sector 46 gurgaon, pin code sector 46 gurgaon"
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Gurgaon Sector 46 Huda Chowk: Map, Property Rates, Projects">
-    <meta name="description" content="Gurgaon Sector 46, near HUDA Chowk: A key area featuring vibrant markets, residential complexes, excellent infrastructure, easy access to major roads and amenities.">
-    <meta name="image" content="https://moneytreerealty.com/gurgaon-real-estate/assets/image/sector-46-gurgaon-banner.webp">
+   
 
 
     <link rel="canonical" href="https://moneytreerealty.com/gurgaon-real-estate/sector-46-gurgaon" />

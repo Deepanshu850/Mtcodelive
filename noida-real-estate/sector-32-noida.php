@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0">
 
     <title>
-        Sector 32 Noida Dardri Greater Noida Road: Map, Projects
+        Sector 32 Noida Dadri Greater Noida Road: Map, Projects
     </title>
 
 
@@ -27,7 +27,7 @@
 
 
     <!-- Facebook Open Graph Tags -->
-    <meta property="og:title" content="Sector 32 Noida Dardri Greater Noida Road: Map, Projects">
+    <meta property="og:title" content="Sector 32 Noida Dadri Greater Noida Road: Map, Projects">
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-32-noida">
     <meta property="og:description" content="Sector 32, Noida, is strategically located along Dadri Greater Noida Road, offering seamless connectivity, modern amenities, and thriving residential and commercial hubs.">
@@ -40,14 +40,14 @@
 
     <!-- Twitter Card Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Sector 32 Noida Dardri Greater Noida Road: Map, Projects">
+    <meta name="twitter:title" content="Sector 32 Noida Dadri Greater Noida Road: Map, Projects">
     <meta name="twitter:description" content="Sector 32, Noida, is strategically located along Dadri Greater Noida Road, offering seamless connectivity, modern amenities, and thriving residential and commercial hubs.">
     <meta name="twitter:site" content="@MoneytreeRSPL">
     <meta name="twitter:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-32-noida-banner.webp">
     <meta name="twitter:image:alt" content="Sector 32 Noida Banner">
 
     <!-- LinkedIn Meta Tags -->
-    <meta property="og:title" content="Sector 32 Noida Dardri Greater Noida Road: Map, Projects">
+    <meta property="og:title" content="Sector 32 Noida Dadri Greater Noida Road: Map, Projects">
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-32-noida">
     <meta property="og:description" content="Sector 32, Noida, is strategically located along Dadri Greater Noida Road, offering seamless connectivity, modern amenities, and thriving residential and commercial hubs.">
@@ -60,7 +60,7 @@
     <meta property="og:rich_attachment" content="true">
 
     <!-- Pinterest Meta Tags -->
-    <meta property="og:title" content="Sector 32 Noida Dardri Greater Noida Road: Map, Projects">
+    <meta property="og:title" content="Sector 32 Noida Dadri Greater Noida Road: Map, Projects">
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-32-noida">
     <meta property="og:description" content="Sector 32, Noida, is strategically located along Dadri Greater Noida Road, offering seamless connectivity, modern amenities, and thriving residential and commercial hubs.">
@@ -72,11 +72,7 @@
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 32 Noida Dardri Greater Noida Road: Map, Projects">
-    <meta name="description" content="Sector 32, Noida, is strategically located along Dadri Greater Noida Road, offering seamless connectivity, modern amenities, and thriving residential and commercial hubs.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-32-noida-banner.webp">
-    <meta name="image:alt" content="Sector 32 Noida Banner">
+  
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-32-noida" />
@@ -196,11 +192,11 @@
 
         <main>
             <div class="image-wrapper">
-                <img src="./assets/image/sector-32-noida-banner.webp" alt="Sector 32 Noida | Dardri Greater Noida Road">
+                <img src="./assets/image/sector-32-noida-banner.webp" alt="Sector 32 Noida | Dadri Greater Noida Road">
             </div>
             <h1>
 
-                Sector 32 Noida | Dardri Greater Noida Road
+                Sector 32 Noida | Dadri Greater Noida Road
             </h1>
 
 

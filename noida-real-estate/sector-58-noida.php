@@ -77,11 +77,7 @@ services noida sector 58" />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 58 Noida: Map, Property Rates, Projects, Review, Info">
-    <meta name="description" content="Sector 58 Noida, situated along Delhi-Meerut Road in Gautam Buddh Nagar, is a dynamic area known for its industrial hubs, commercial spaces, and excellent road connectivity.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-58-noida-banner.webp">
-    <meta name="image:alt" content="Sector 58 Noida">
+    
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-58-noida" />

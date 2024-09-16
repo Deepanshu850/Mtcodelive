@@ -78,12 +78,7 @@ uttar pradesh, noida sector 50 metro" />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 50 Noida, Dadri Road: Map, Property Rates, Projects">
-    <meta name="description" content="Sector 50 Noida, near Dadri Road: Discover maps, property rates, and current projects. A prime area known for its strategic location, amenities, connectivity.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-50-noida-banner.webp">
-
-
+    
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-50-noida" />
 
     <script type="application/ld+json">

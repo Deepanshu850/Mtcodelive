@@ -71,11 +71,8 @@
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Biggest Airports in India | Top upcoming largest Airports in India">
-    <meta name="description" content="Biggest International Airports in India - Indira Gandhi International Airport - Chhatrapati Shivaji International Airport. Upcoming largest Airports in India - Noida International Airport - Navi Mumbai International Airport.">
-    <meta name="image" content="https://moneytreerealty.com/blog/assets/biggest-airport-image1.jpeg">
-    <meta name="image:alt" content="Biggest Airports in India">
+
+
 
 
 

@@ -76,14 +76,7 @@ sector 48 noida market, noida sector 48 nearest metro station" />
     <meta property="og:image:alt" content="Sector 48 Noida">
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
-
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 48 Noida: Map, Property Rates, Projects, Review, Info">
-    <meta name="description" content="Sector 48 Noida, located on Dadri Main Road in Gautam Buddh Nagar, offers a prime residential area with excellent connectivity, modern amenities, and thriving communities.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-48-noida-banner.webp">
-    <meta name="image:alt" content="Sector 48 Noida">
-
-
+ 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-48-noida" />
 
 

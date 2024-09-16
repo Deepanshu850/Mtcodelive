@@ -74,10 +74,7 @@ sector 9 bike market, bank of india sector 9 noida, furniture market sector 9 no
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 9 Noida, DND Flyway: Map, Property Rates, Projects">
-    <meta name="description" content="Sector 9 Noida near the DND Flyway is a prime commercial and residential hub, known for diverse businesses, shopping centers, and excellent transportation access.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-9-noida-banner.webp">
+  
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-9-noida" />

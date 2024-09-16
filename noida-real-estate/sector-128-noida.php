@@ -81,11 +81,6 @@ Wishtown School, Jaypee Wishtown Apartments, Jaypee Wishtown Flats" />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 128 Noida, Greater Noida Expressway Road: Map, Projects">
-    <meta name="description" content="Sector 128, Noida, along Greater Noida Expressway, is a prime location with luxury residences, top-notch infrastructure, and excellent connectivity to major hubs.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-128-noida-banner.webp">
-    <meta name="image:alt" content="Sector 128 Noida Banner">
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-128-noida" />

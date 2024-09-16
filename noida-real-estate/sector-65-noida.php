@@ -72,12 +72,7 @@
     <meta property="og:image:alt" content="Sector 65 Noida">
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
-
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 65 Noida: Map, Property Rates, Projects, Review, Info">
-    <meta name="description" content="Sector 65 Noida, close to Delhi-Meerut Expressway (NH24), offers prime connectivity, making it an ideal location for both commercial and residential purposes.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-65-noida-banner.webp">
-    <meta name="image:alt" content="Sector 65 Noida">
+ 
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-65-noida" />

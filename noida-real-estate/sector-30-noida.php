@@ -7,7 +7,7 @@
 
     <title>
 
-        Sector 30 Noida Dardri Greater Noida Road: Map, Projects
+        Sector 30 Noida Dadri Greater Noida Road: Map, Projects
     </title>
 
 
@@ -32,7 +32,7 @@ government hospital, government hospital in noida sector 30" />
 
 
     <!-- Facebook Open Graph Tags -->
-    <meta property="og:title" content="Sector 30 Noida Dardri Greater Noida Road: Map, Projects">
+    <meta property="og:title" content="Sector 30 Noida Dadri Greater Noida Road: Map, Projects">
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-30-noida">
     <meta property="og:description" content="Sector 30 Noida, situated along Dadri Greater Noida Road, boasts modern residential and commercial developments, providing great connectivity, amenities.">
@@ -45,14 +45,14 @@ government hospital, government hospital in noida sector 30" />
 
     <!-- Twitter Card Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Sector 30 Noida Dardri Greater Noida Road: Map, Projects">
+    <meta name="twitter:title" content="Sector 30 Noida Dadri Greater Noida Road: Map, Projects">
     <meta name="twitter:description" content="Sector 30 Noida, situated along Dadri Greater Noida Road, boasts modern residential and commercial developments, providing great connectivity, amenities.">
     <meta name="twitter:site" content="@MoneytreeRSPL">
     <meta name="twitter:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-30-noida-banner.webp">
     <meta name="twitter:image:alt" content="Sector 30 Noida banner">
 
     <!-- LinkedIn Meta Tags -->
-    <meta property="og:title" content="Sector 30 Noida Dardri Greater Noida Road: Map, Projects">
+    <meta property="og:title" content="Sector 30 Noida Dadri Greater Noida Road: Map, Projects">
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-30-noida">
     <meta property="og:description" content="Sector 30 Noida, situated along Dadri Greater Noida Road, boasts modern residential and commercial developments, providing great connectivity, amenities.">
@@ -65,7 +65,7 @@ government hospital, government hospital in noida sector 30" />
     <meta property="og:rich_attachment" content="true">
 
     <!-- Pinterest Meta Tags -->
-    <meta property="og:title" content="Sector 30 Noida Dardri Greater Noida Road: Map, Projects">
+    <meta property="og:title" content="Sector 30 Noida Dadri Greater Noida Road: Map, Projects">
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-30-noida">
     <meta property="og:description" content="Sector 30 Noida, situated along Dadri Greater Noida Road, boasts modern residential and commercial developments, providing great connectivity, amenities.">
@@ -77,11 +77,7 @@ government hospital, government hospital in noida sector 30" />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 30 Noida Dardri Greater Noida Road: Map, Projects">
-    <meta name="description" content="Sector 30 Noida, situated along Dadri Greater Noida Road, boasts modern residential and commercial developments, providing great connectivity, amenities.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-30-noida-banner.webp">
-    <meta name="image:alt" content="Sector 30 Noida banner">
+   
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-30-noida" />
@@ -162,10 +158,10 @@ government hospital, government hospital in noida sector 30" />
 
         <main>
             <div class="image-wrapper">
-                <img src="./assets/image/sector-30-noida-banner.webp" alt="Sector 30 Noida | Dardri Greater Noida Road">
+                <img src="./assets/image/sector-30-noida-banner.webp" alt="Sector 30 Noida | Dadri Greater Noida Road">
             </div>
             <h1>
-                Sector 30 Noida | Dardri Greater Noida Road
+                Sector 30 Noida | Dadri Greater Noida Road
             </h1>
 
 

@@ -76,11 +76,7 @@ noida, community centre sector 47 noida, noida sector 47 map, flats in sector 47
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 47 Noida, Dadri Greater Noida Expressway: Map, Property Rates, Projects, Review">
-    <meta name="description" content="Sector 47, Noida, offers excellent access to Dadri and Greater Noida via the Expressway, making it a prime location for residential and business developments.">
-    <meta name="image" content="https://moneytrealty.com/noida-real-estate/assets/image/sector-47-noida-banner.webp">
-    <meta name="image:alt" content="Sector 47 Noida Banner">
+    
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-47-noida" />

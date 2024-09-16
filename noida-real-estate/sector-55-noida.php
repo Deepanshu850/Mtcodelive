@@ -80,11 +80,7 @@ noida sector 55" />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 55 Noida: Map, Property Rates, Projects, Review, Info">
-    <meta name="description" content="Sector 55 Noida, located on Delhi-Meerut Road in Gautam Buddh Nagar, features a well-established residential area with convenient connectivity, parks, and essential amenities.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-55-noida-banner.webp">
-    <meta name="image:alt" content="Sector 55 Noida">
+    
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-55-noida" />
 

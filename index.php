@@ -1739,6 +1739,23 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                     images[currentIndex].style.display = 'block';
                 }
             </script>
+            <?php
+            function getTypeLink($type)
+            {
+                switch ($type) {
+                    case 'Residential':
+                        return '../category/residential-property';
+                    case 'Commercial':
+                        return '../category/commercial-property';
+                    case 'Studio Apartments':
+                        return '../category/studio-apartments';
+                    case 'Plots':
+                        return '../category/plots';
+                    default:
+                        return '../404';
+                }
+            }
+            ?>
             <div class=content>
                 <p class=gradient-heading>Properties
                 <p class=text-section>We Discover your dream property with us. Explore listings that match your lifestyle and budget, from modern city apartments to cozy country homes. Let us guide you home by Best Real Estate Consultant In Delhi/NCR.
@@ -1752,7 +1769,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
 
                                                                     $slug = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $property['name'])));
 
-                                                                    $detailsPagePath = 'propertydetail/' . $slug . '.php';
+                                                                    $detailsPagePath = 'propertydetail/' . $slug;
                     ?><div class=property-card style="display:<?php echo $index < 6 ? 'grid' : 'none'; ?>">
                         <div class=property-images onclick=nextImage(this)><?php foreach ($property['images'] as $imgIndex => $image) : ?><img alt="Property Image" loading="lazy" src="<?php echo htmlspecialchars($image); ?>" style="<?php echo $imgIndex > 0 ? 'display:none;' : ''; ?>"><?php endforeach; ?></div>
                         <h2><a href="<?php echo htmlspecialchars($detailsPagePath); ?>"><?php echo htmlspecialchars($property['name']); ?></a></h2>
@@ -1760,7 +1777,11 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                             <p><b>Location:</b><?php echo htmlspecialchars($property['location']); ?>
                             <p><b>Price:</b><?php echo htmlspecialchars($property['price']); ?></p><a href="<?php echo htmlspecialchars($detailsPagePath); ?>" class=details-link>View Details</a>
                             <div><b>Type:</b>
-                                <p><?php foreach ($property['type'] as $type) : ?><span><?php echo htmlspecialchars($type); ?></span><?php endforeach; ?>
+                                <p><?php foreach ($property['type'] as $type) : ?>
+                                        <a href="<?php echo htmlspecialchars(getTypeLink($type)); ?>">
+                                            <span><?php echo htmlspecialchars($type); ?></span>
+                                        </a>
+                                    <?php endforeach; ?>
                             </div>
                         </div>
                     </div><?php endforeach; ?><?php endif; ?></div><?php if (count($properties) > 6) : ?><div class=read-more-container><button onclick=showMoreProperties() id=readMoreBtn>Show More</button></div><?php endif; ?><script>
@@ -2201,12 +2222,12 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                 max-height: 14rem;
                 overflow-y: scroll;
                 scrollbar-width: none;
-            
+
             }
 
             .review-text::-webkit-scrollbar {
                 display: none;
-                
+
             }
 
 

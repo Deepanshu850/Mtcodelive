@@ -1,9 +1,13 @@
 <?php
 // Database configuration
+// $servername = "localhost";
+// $username = "moneytree";
+// $password = "Dgpampgt@1";
+// $database = "i9754857_brgn1";
 $servername = "localhost";
-$username = "moneytree";
-$password = "Dgpampgt@1";
-$database = "i9754857_brgn1";
+$username = "root";
+$password = "";
+$database = "testchet";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database);
@@ -12,7 +16,7 @@ $conn = new mysqli($servername, $username, $password, $database);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
- 
+
 
 $name = $_POST['name'];
 $phoneNumber = $_POST['phoneNumber'];

@@ -435,7 +435,23 @@ New Property Projects, Real Estate Developments Delhi/NCR, Upcoming Property Lau
                 grid-column: 2;
             }
         </style>
-
+        <?php
+        function getTypeLink($type)
+        {
+            switch ($type) {
+                case 'Residential':
+                    return '../category/residential-property';
+                case 'Commercial':
+                    return '../category/commercial-property';
+                case 'Studio Apartments':
+                    return '../category/studio-apartments';
+                case 'Plots':
+                    return '../category/plots';
+                default:
+                    return '../404';
+            }
+        }
+        ?>
 
 
         <!-- property cards -->
@@ -454,7 +470,7 @@ New Property Projects, Real Estate Developments Delhi/NCR, Upcoming Property Lau
                 <?php foreach ($properties as $property) : ?>
                     <?php
                     $slug = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $property['name'])));
-                    $detailsPagePath = './propertydetail/' . $slug . '.php';
+                    $detailsPagePath = './propertydetail/' . $slug;
                     ?>
                     <div class="property-card fade-in">
                         <div class="property-images" onclick="nextImage(this)">
@@ -479,7 +495,9 @@ New Property Projects, Real Estate Developments Delhi/NCR, Upcoming Property Lau
 
 
                                     <?php foreach ($property['type'] as $type) : ?>
-                                        <span><?php echo htmlspecialchars($type); ?></span>
+                                        <a href="<?php echo htmlspecialchars(getTypeLink($type)); ?>">
+                                            <span><?php echo htmlspecialchars($type); ?></span>
+                                        </a>
                                     <?php endforeach; ?>
 
                                 </p>

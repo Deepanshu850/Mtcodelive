@@ -75,13 +75,7 @@ market noida, paytm office sector 5 noida, harola sector 5 noida pin code" />
     <meta property="og:image:alt" content="Sector 98 Noida - Greater Noida Expressway">
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
-
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 5 Noida, DND Flyover: Map, Property Rates, Projects">
-    <meta name="description" content="Sector 5, Noida: A bustling commercial and industrial area with a mix of offices, factories, and businesses, offering excellent connectivity and essential urban amenities.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-5-noida-banner.webp">
-
-
+ 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-5-noida" />
 
 

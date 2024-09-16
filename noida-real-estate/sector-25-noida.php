@@ -72,12 +72,7 @@
     <meta property="og:image:alt" content="Sector 25 Noida">
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
-
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 25 Noida, Greater Noida, Noida Extension: Map, Projects">
-    <meta name="description" content="Explore Sector 25 Noida, Jalvayu Vihar, and Adobe's prime locations with top-notch amenities. Discover investment opportunities in Noida's thriving real estate market, offering urban living, affordable housing, and luxury apartments. Secure your dream property in Smart City Noida and Greater Noida today!">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-25-noida-banner.webp">
-    <meta name="image:alt" content="Sector 25 Noida">
+ 
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-25-noida" />

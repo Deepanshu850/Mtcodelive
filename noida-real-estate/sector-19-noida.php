@@ -74,11 +74,7 @@
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 19 Noida, Greater Noida, Noida Extension: Map, Projects">
-    <meta name="description" content="Sector 19 Noida, Greater Noida, and Noida Extension's real estate opportunities. Explore modern living with amenities. Invest today for a prosperous future.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-19-noida-banner.webp">
-    <meta name="image:alt" content="Sector 19 Noida">
+
 
 
 

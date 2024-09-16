@@ -73,13 +73,7 @@ Sector 69" />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 69 Noida: Map, Property Rates, Projects, Review, Info">
-    <meta name="description" content="Sector 69, Noida in Gautam Buddha Nagar is a developing area with residential projects, commercial hubs, and good connectivity, providing a peaceful yet modern lifestyle.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-69-noida-banner.webp">
-    <meta name="image:alt" content="Sector 69 Noida">
-
-
+ 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-69-noida" />
 
     <script type="application/ld+json">

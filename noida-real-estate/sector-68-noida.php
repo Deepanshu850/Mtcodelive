@@ -76,11 +76,7 @@ metro station " />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 68 Noida: Map, Property Rates, Projects, Review, Info">
-    <meta name="description" content="Sector 68 Noida, located on Delhi-Meerut Road in Gautam Buddha Nagar, is an emerging hub with a blend of residential and commercial spaces and excellent connectivity.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-68-noida-banner.webp">
-    <meta name="image:alt" content="Sector 68 Noida">
+    
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-68-noida" />

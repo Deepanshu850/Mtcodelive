@@ -71,11 +71,7 @@
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 8 Noida, DND Expressway: Map, Property Rates, Projects">
-    <meta name="description" content="Sector 8 Noida, near DND Expressway: A dynamic area with easy access to major roads, featuring residential complexes, commercial spaces, and convenient amenities.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-8-noida-banner.webp">
-
+   
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-8-noida" />
 

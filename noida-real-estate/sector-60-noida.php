@@ -75,11 +75,7 @@ noida sector 60, sector 60 noida nearest metro station, abp news office noida,
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 60 Noida: Map, Property Rates, Projects, Review, Info">
-    <meta name="description" content="Sector 60, Noida in Gautam Buddha Nagar is a well-connected area with modern infrastructure, offering residential and commercial spaces amidst greenery and urban convenience.">
-    <meta name="image" content="https://moneytreeryalty.com/noida-real-estate/assets/image/sector-60-noida-banner.webp">
-    <meta name="image:alt" content="Sector 60 Noida">
+    
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-60-noida" />

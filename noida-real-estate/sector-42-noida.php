@@ -77,12 +77,7 @@ noida sector 42, flats in sector 42 noida" />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 42 Noida, Dadri Greater Noida Expressway: Map, Property Rates, Projects, Review">
-    <meta name="description" content="Sector 42, Noida, provides excellent connectivity to Dadri and Greater Noida via the Expressway, making it an attractive location for residential and commercial development.">
-    <meta name="image" content="https://moneytrealty.com/noida-real-estate/assets/image/sector-42-noida-banner.webp">
-    <meta name="image:alt" content="Sector 42 Noida Banner">
-
+   
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-42-noida" />
 

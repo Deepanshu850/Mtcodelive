@@ -76,12 +76,7 @@ noida uttar Pradesh, sector 66 a, noida mamura pin code, noida 66 pin code" />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 66 Noida: Map, Property Rates, Projects, Review, Info">
-    <meta name="description" content="Sector 66 Noida, situated along Delhi-Meerut Road in Gautam Buddha Nagar, is a vibrant area with a mix of commercial and residential developments and strong connectivity.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-66-noida-banner.webp">
-    <meta name="image:alt" content="Sector 66 Noida">
-
+    
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-66-noida" />
 

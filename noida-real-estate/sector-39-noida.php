@@ -79,12 +79,7 @@ noida sector 39, noida authority office sector 39" />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Sector 39 Noida-Greater Noida Expressway: Map, Property Rates, Projects, Photos, Review">
-    <meta name="description" content="Sector 39, Noida, offers prime connectivity via Greater Noida Road, making it an ideal location for both residential and business opportunities.">
-    <meta name="image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-39-noida-banner.webp">
-    <meta name="image:alt" content="Sector 39 Noida Banner">
-
+   
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-39-noida" />
 

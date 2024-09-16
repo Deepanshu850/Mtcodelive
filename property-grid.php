@@ -270,7 +270,7 @@
             // Generate a URL slug from the property name
             $slug = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $property['name'])));
             // Construct the details page path with the 'propertydetail' folder
-            $detailsPagePath = '../propertydetail/' . $slug . '.php';
+            $detailsPagePath = '../propertydetail/' . $slug;
             ?>
             <div class="property-card fade-in">
                 <div class="property-images" onclick="nextImage(this)">

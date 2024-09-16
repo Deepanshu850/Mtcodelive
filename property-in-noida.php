@@ -77,11 +77,6 @@ Noida, commercial property for sale in Noida, best commercial property in Noida,
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Property in Noida – Commercial & Residential Properties for Sale">
-    <meta name="description" content="Buy residential & commercial properties in Noida & on Yamuna Expressway. Top Best deals on properties for sale and ready to move luxury options. Call: 9732300007">
-    <meta name="image" content="https://moneytreerealty.com/assets/img/property-in-noida.webp">
-    <meta name="image:alt" content="Property in Noida">
 
 
 
@@ -194,14 +189,42 @@ Noida, commercial property for sale in Noida, best commercial property in Noida,
 
 
         <main>
-            <div class="image-wrapper">
+            <!-- <div class="image-wrapper">
                 <img src="./assets/img/property-in-noida.webp" alt="Property in Noida | Commercial & Residential Property for Sale">
-            </div>
+            </div> -->
 
+            <br>
             <h1>
                 Property in Noida | Commercial & Residential Property for Sale
 
             </h1>
+            <br>
+
+            <div class="property-container">
+
+                <?php
+                include './data/tempdata.php';
+
+                $properties = array_filter($properties, function ($item) {
+                    $pattern = '/noida/i';
+
+                    $matchesLocation = preg_match($pattern, strtolower($item['location'][0]));
+                    if ($matchesLocation) {
+                        return true;
+                    }
+
+                    return false;
+                });
+
+                $urlprefix = './propertydetail/';
+
+                include './property-grid-level2.php';
+                
+                // print_r($properties);
+                ?>
+
+
+            </div>
 
             <p class="overview">
                 Property in Noida is flourishing at a fast pace and has emerged as a promising real estate investment in India with perks like regular rental income, high price appreciation, hedge against inflation and others. Check out the article on ‘Property in Noida’ and make a strategic real estate investment in India.

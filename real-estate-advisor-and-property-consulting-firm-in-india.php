@@ -85,11 +85,8 @@
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    <!-- General Meta Tags -->
-    <meta name="title" content="Real Estate Advisor & Property Consulting Firm in India">
-    <meta name="description" content="Looking for the best real estate consulting firm or company in India? Leading real estate property consultants in Noida. Call Real Estate Advisory Services Noida.">
-    <meta name="image" content="https://moneytreerealty.com/assets/img/best-advisor-img1.jpeg">
-    <meta name="image:alt" content="Real Estate Advisor & Property Consulting Firm in India">
+  
+
 
 
 

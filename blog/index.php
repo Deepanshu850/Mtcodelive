@@ -286,10 +286,10 @@ companies in India" />
     include '../data/blogdata.php';
 
 
-    function generateSlug($title)
-    {
-        return strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $title)));
-    }
+    // function generateSlug($title)
+    // {
+    //     return strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $title)));
+    // }
 
     $posts = array_reverse($posts);
     ?>
@@ -373,7 +373,7 @@ companies in India" />
                     <div class="news-btm d-flex align-items-center justify-content-between">
                         <div class="author-area">
                             <div class="author-content">
-                                <h6>Jibran Suhail</h6>
+                                <h6>${post.writer}</h6>
                                 <p style="font-size:12px;margin:0;">Posted on - ${post.date}</p>
                             </div>
                         </div>
