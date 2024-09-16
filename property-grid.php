@@ -206,6 +206,7 @@
         .property-card {
             margin-bottom: 0;
         }
+        
 
     }
 

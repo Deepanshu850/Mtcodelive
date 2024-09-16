@@ -248,7 +248,7 @@ function getTypeLink($type)
                 rgba(0, 127, 112, 0.95) 30%,
                 rgba(0, 91, 82, 0.8) 100%);
         color: #ffffff;
-        border-radius: 5px;
+        border-radius: 5px; 
         display: none;
         font-size: 14px;
         z-index: 1000;
