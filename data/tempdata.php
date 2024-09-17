@@ -3,7 +3,7 @@ $properties = [
     [
         'id' => 1,
         'name' => 'Paras Avenue Sector 129 Noida',
-        'link' => 'godrej-tropical-isle-sector-146-noida',
+        'link' => 'paras-avenue-sector-129-noida',
         'builder' => 'Paras Buildtech',
         'location' => ['Noida', 'Sector 129', '201304', 'Yamuna Expressway/Jewar Airport'],
         'images' => [
@@ -557,14 +557,12 @@ $properties = [
 
 
 ];
-// add * to the price
+
+
 // elan epic posession
 // piramal posession
 // piramal rera
 // maharastra rerra , alibaug and l&t
-
-
-
 
 
 
@@ -591,3 +589,6 @@ $properties = [
 //         'rera' => ['UPRERAPRJ297873', 'https'],
 //         'shortDescription' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, amet! Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aut? Aut quod deserunt quaerat nihil.',
 //     ],
+
+
+?>

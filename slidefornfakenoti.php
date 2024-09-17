@@ -486,7 +486,7 @@
                 <p>Moneytree Realty</p>
             </div>
             <p style="color: white;">Secure Your Spot!</p>
-            <h3>Discover Your Dream Property Now!</h3>
+            <p style="font-size: 11px;">Discover Your Dream Property Now!</p>
 
             <div class="entryarea">
                 <input type="text" id="name" name="name" required>
