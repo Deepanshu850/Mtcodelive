@@ -15,7 +15,7 @@ function getTypeLink($type)
     }
 }
 ?>
-
+<br>
 
 <div class="properties-grid" id="propertiesGrid">
 
@@ -77,10 +77,20 @@ function getTypeLink($type)
                             </p>
                             <p>
                                 <a href="<?php echo $property['rera'][1]; ?>">
-                                    <p style="max-width: 100px;overflow-wrap: break-word;font-size: 11px;line-height: 1.4;margin-top:4px;">
+                                    <p style="max-width: 100px; overflow-wrap: break-word; font-size: 11px; line-height: 1.4; margin-top: 4px;">
                                         <?php echo $property['rera'][0]; ?>
                                     </p>
                                 </a>
+
+                                <?php
+                                if (count($property['rera']) > 2) {
+                                    for ($i = 2; $i < count($property['rera']); $i++) {
+                                        echo '<p style="max-width: 100px; overflow-wrap: break-word; font-size: 11px; line-height: 1.4; margin-top: 4px;">';
+                                        echo $property['rera'][$i];
+                                        echo '</p>';
+                                    }
+                                }
+                                ?>
                             </p>
                         </div>
                         <div>
@@ -592,6 +602,7 @@ function getTypeLink($type)
         .property-card p {
             font-size: 11px;
         }
+
         dialog {
             max-width: 85%;
         }

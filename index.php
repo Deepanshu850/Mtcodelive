@@ -2301,45 +2301,23 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                         font-size: 15px;
                         line-height: 1.65
                     }
-                </style><?php
-                        $posts = [
+                </style>
+                <?php
+                include './data/blogdata.php';
 
-                            [
-                                'id' => 18,
-                                'title' => 'Real Estate Investment : A Comprehensive Guide on Real Estate',
-                                'description' => 'Real estate industry in India is emerging as a major asset for wealth creation in a wide variety of property for sale from leading real estate developers like M3M Group, Godrej Properties, Paras Buildtech, Elan Group, Piramal Realty, Migsun Group etc.',
-                                'imageUrl' => './blog/assets/real-estate-investment-a-comprehensive-guide-on-real-estate.jpeg',
-                                'date' => 'June 30, 2024'
-                            ],
-
-                            [
-                                'id' => 19,
-                                'title' => 'Understanding Real Estate Business',
-                                'description' => 'Real Estate Business refers to the profession that involves managing a diverse portfolio of properties as an investment. Real estate business has emerged as a prominent source of wealth creation across the globe and involves buying, selling, and managing various types of real estate and yielding wealth from its capital appreciation over time.',
-                                'imageUrl' => './blog/assets/understanding-real-estate-bussiness.jpg',
-                                'date' => 'July 6, 2024'
-                            ],
-
-                            [
-                                'id' => 20,
-                                'title' => 'Understanding RERA Act 2016',
-                                'description' => 'The Real Estate Sector in India is growing at a significant pace and emerging as a prominent source of wealth creation for people looking to invest their money with a goal of high rate of investment. Currently, the real estate industry in India contributes about 8.53% of total GDP.',
-                                'imageUrl' => './blog/assets/rera-fullform.webp',
-                                'date' => 'July 10, 2024'
-                            ],
-                        ];
+                $latestblogs = array_slice($posts, -3);
 
 
-                        function createSlug($title)
-                        {
-                            $slug = strtolower($title);
-                            $slug = preg_replace('/[^a-z0-9-]+/', '-', $slug);
-                            $slug = trim($slug, '-');
-                            return $slug;
-                        }
-                        ?><div class="row justify-content-center g-4"><?php foreach (array_reverse($posts) as $post) : ?><?php $slug = createSlug($post['title']); ?><div class="fadeInUp wow col-lg-4 col-md-6" data-wow-delay=200ms>
+                function createSlug($title)
+                {
+                    $slug = strtolower($title);
+                    $slug = preg_replace('/[^a-z0-9-]+/', '-', $slug);
+                    $slug = trim($slug, '-');
+                    return $slug;
+                }
+                ?><div class="row justify-content-center g-4"><?php foreach (array_reverse($latestblogs) as $post) : ?><?php $slug = createSlug($post['title']); ?><div class="fadeInUp wow col-lg-4 col-md-6" data-wow-delay=200ms>
                         <div class=news-card>
-                            <div class=news-img><a href="blog/<?php echo $slug; ?>.php"><img loading="lazy" alt="News Image" src="<?php echo $post['imageUrl']; ?>"></a>
+                            <div class=news-img><a href="blog/<?php echo $slug; ?>.php"><img loading="lazy" alt="News Image" src="blog/<?php echo $post['imageUrl']; ?>"></a>
                                 <div class=date><a href="blog/<?php echo $slug; ?>.php"><?php echo $post['title']; ?></a></div>
                             </div>
                             <div class=content>

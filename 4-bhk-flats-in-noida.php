@@ -78,7 +78,7 @@ Noida,List of House Brokers in Noida" />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    
+
 
 
     <link rel="canonical" href="https://moneytreerealty.com/4-bhk-flats-in-noida" />
@@ -155,7 +155,6 @@ Noida,List of House Brokers in Noida" />
 
 
 
-
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-JZJY23MWW7"></script>
     <script>
@@ -191,14 +190,49 @@ Noida,List of House Brokers in Noida" />
     <div class="side-flex">
 
         <main>
-            <div class="image-wrapper">
+            <!-- <div class="image-wrapper">
                 <img src="./assets/img/4-bhk-flats-in-noida.webp"
                     alt="4 BHK Flats in Noida | Best Flats in Noida">
-            </div>
+            </div> -->
 
             <h1>
                 4 BHK Flats in Noida | Best Flats in Noida
             </h1>
+
+
+            <div class="property-container">
+
+                <?php
+                include './data/tempdata.php';
+
+                // print_r($properties[24]);
+                $additional = $properties[24];
+
+
+
+                $properties = array_filter($properties, function ($item) {
+                    $targetType = '4 bhk flats';
+                    $targetLocation = 'Noida';
+
+                    return in_array(strtolower($targetType), array_map('strtolower', $item['typeDetail'])) &&
+                        strtolower($item['location'][0]) === strtolower($targetLocation);
+                });
+
+                array_push($properties, $additional);
+
+
+
+
+                $urlprefix = './propertydetail/';
+
+                include './property-grid-level2.php';
+
+                // print_r($properties);
+                ?>
+
+
+
+            </div>
 
             <h2>4 BHK Flats in Noida - Overview</h2>
 
@@ -685,232 +719,6 @@ Noida,List of House Brokers in Noida" />
 
             <p>To know the Noida flat price and make a promising investment, <strong>contact us now on <a href="tel:+919732300007">+91 9732300007</a>.</strong></p>
 
-
-
-            <section class="property-container">
-
-                <?php
-                include "data/propertydata.php";
-
-
-                $namesToFilter = [
-                    'M3M The Cullinan Sector 94 Noida',
-                    'Godrej Tropical Isle Sector 146 Noida',
-                    'Ace Terra Yamuna Expressway',
-                    'Mahagun Medalleo',
-
-
-
-                ];
-
-
-                $properties = array_filter($properties, function ($item) use ($namesToFilter) {
-                    return in_array($item['name'], $namesToFilter);
-                });
-
-                // print_r($filteredItems);
-
-                ?>
-
-
-                <script>
-                    function nextImage(element) {
-                        const images = element.querySelectorAll('img');
-                        const totalImages = images.length;
-                        let currentIndex = [...images].findIndex(img => img.style.display !== 'none');
-
-                        images[currentIndex].style.display = 'none';
-                        currentIndex = (currentIndex + 1) % totalImages;
-                        images[currentIndex].style.display = 'block';
-                    }
-                </script>
-
-
-
-                <style>
-                    .property-grid {
-                        display: flex;
-                        flex-wrap: wrap;
-                        gap: 20px;
-                        justify-content: center;
-                        padding: 20px;
-                    }
-
-                    .property-card {
-                        background: #fff;
-                        border: 1px solid #ddd;
-                        border-radius: 12px;
-                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-                        padding: 16px;
-                        width: 320px;
-                        /* 3 columns layout with gap */
-                        margin-bottom: 20px;
-                        transition: transform 0.3s;
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: space-evenly;
-                    }
-
-                    .property-card:hover {
-                        transform: translateY(-5px);
-                    }
-
-                    .property-card.no-results-card {
-                        width: 100%;
-                        max-width: 370px;
-                        min-height: 420px;
-                        text-align: center;
-                    }
-
-                    .property-card h2 {
-                        padding: 0;
-                        font-size: 24px;
-                    }
-
-                    .property-images img {
-                        width: 100%;
-                        display: block;
-                        height: 165px;
-                        object-fit: fill;
-                        border-radius: 8px 8px 0 0;
-                        margin-bottom: 24px;
-                    }
-
-                    .details-link {
-                        display: inline-block;
-                        margin-top: 10px;
-                        padding: 10px 15px;
-                        background-color: #005b52;
-                        color: white;
-                        text-decoration: none;
-                        border-radius: 5px;
-                        position: relative;
-                        max-width: 135px;
-                    }
-
-                    .details-link:hover {
-                        color: white;
-                    }
-
-                    .details-link::before {
-
-                        content: '';
-                        display: block;
-                        position: absolute;
-                        width: 100%;
-                        border-radius: 5px;
-                        height: 100%;
-                        background: linear-gradient(164deg, white, transparent 40%);
-                        top: 0;
-                        left: 0;
-                        opacity: 0;
-                        transition: opacity 150ms ease-in-out;
-
-                    }
-
-                    .details-link:hover::before {
-                        opacity: 0.4;
-                    }
-
-                    .read-more-container {
-                        text-align: center;
-                        margin-top: 20px;
-                    }
-
-                    /* Responsive Styles */
-                    @media (max-width: 768px) {
-                        .property-card {
-                            width: 100%;
-
-                        }
-
-                        .property-grid {
-                            padding-inline: 0;
-                        }
-
-                    }
-                </style>
-
-                <div class="property-grid" id="propertiesGrid">
-
-                    <?php if (empty($properties)) : ?>
-                        <!-- No Results Card -->
-                        <div class="property-card no-results-card">
-                            <img src="./assets/img" alt="No Results Found">
-                            <h2>Can't find what you're looking for?</h2>
-                            <p>Unfortunately, we don't have properties in this location at the moment. But we're always adding new listings!</p>
-                            <a href="contact.php#contact-form" class="details-link">Contact Us</a>
-                        </div>
-                    <?php else : ?>
-                        <?php foreach ($properties as $property) : ?>
-                            <?php
-                            // Generate a URL slug from the property name
-                            $slug = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $property['name'])));
-                            // Construct the details page path with the 'propertydetail' folder
-                            $detailsPagePath = 'propertydetail/' . $slug . '.php';
-                            ?>
-                            <div class="property-card fade-in">
-                                <div class="property-images" onclick="nextImage(this)">
-                                    <?php foreach ($property['images'] as $imgIndex => $image) : ?>
-                                        <img src="<?php echo htmlspecialchars($image); ?>" alt="Property Image" style="<?php echo $imgIndex > 0 ? 'display:none;' : ''; ?>">
-                                    <?php endforeach; ?>
-                                </div>
-                                <h2><?php echo htmlspecialchars($property['name']); ?></h2>
-                                <p>Location: <?php echo htmlspecialchars($property['location']); ?></p>
-                                <p><?php echo htmlspecialchars($property['price']); ?></p>
-                                <a href="<?php echo htmlspecialchars($detailsPagePath); ?>" class="details-link">View Details</a>
-                            </div>
-                        <?php endforeach; ?>
-                    <?php endif; ?>
-                </div>
-
-                <style>
-                    .property-card {
-                        opacity: 0;
-                        transform: translateY(20px);
-                        transition: opacity 1s ease-out, transform 1s ease-out;
-                    }
-
-                    .property-card.visible {
-                        opacity: 1;
-                        transform: translateY(0);
-                    }
-                </style>
-
-                <script>
-                    function nextImage(container) {
-                        const images = container.getElementsByTagName('img');
-                        let currentIndex;
-                        for (let i = 0; i < images.length; i++) {
-                            if (images[i].style.display !== 'none') {
-                                currentIndex = i;
-                                images[i].style.display = 'none';
-                                break;
-                            }
-                        }
-                        const nextIndex = (currentIndex + 1) % images.length;
-                        images[nextIndex].style.display = 'flex';
-                    }
-
-                    document.addEventListener('DOMContentLoaded', () => {
-                        const observer = new IntersectionObserver((entries, observer) => {
-                            entries.forEach(entry => {
-                                if (entry.isIntersecting) {
-                                    entry.target.classList.add('visible');
-                                }
-                            });
-                        }, {
-                            threshold: 0.1
-                        });
-
-                        document.querySelectorAll('.property-card').forEach(card => {
-                            observer.observe(card);
-                        });
-                    });
-                </script>
-
-
-            </section>
 
             <h2>
                 FAQs on 4 BHK Flats in Noida

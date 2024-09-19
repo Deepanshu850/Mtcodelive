@@ -627,8 +627,11 @@ include "./data/blogdata.php";
 
         <div class="sidebar-button mobile-menu-btn "> <span></span> </div>
     </div>
+    
 </header>
 
+
+<br>
 <style>
     .float {
         position: fixed;

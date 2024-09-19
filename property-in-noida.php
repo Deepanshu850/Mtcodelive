@@ -1152,7 +1152,7 @@ Noida, commercial property for sale in Noida, best commercial property in Noida,
 
         <div class="side-flex-right">
             <?php
-            include './category/recent-page-component.php';
+            include './recent-page-component.php';
             ?>
 
             <div class="single-widgets widget_egns_tag">
