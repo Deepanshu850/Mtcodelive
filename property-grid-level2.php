@@ -15,7 +15,7 @@ function getTypeLink($type)
     }
 }
 ?>
-
+<br>
 
 <div class="properties-grid" id="propertiesGrid">
 
@@ -77,10 +77,20 @@ function getTypeLink($type)
                             </p>
                             <p>
                                 <a href="<?php echo $property['rera'][1]; ?>">
-                                    <p style="max-width: 100px;overflow-wrap: break-word;font-size: 11px;line-height: 1.4;margin-top:4px;">
+                                    <p style="max-width: 100px; overflow-wrap: break-word; font-size: 11px; line-height: 1.4; margin-top: 4px;">
                                         <?php echo $property['rera'][0]; ?>
                                     </p>
                                 </a>
+
+                                <?php
+                                if (count($property['rera']) > 2) {
+                                    for ($i = 2; $i < count($property['rera']); $i++) {
+                                        echo '<p style="max-width: 100px; overflow-wrap: break-word; font-size: 11px; line-height: 1.4; margin-top: 4px;">';
+                                        echo $property['rera'][$i];
+                                        echo '</p>';
+                                    }
+                                }
+                                ?>
                             </p>
                         </div>
                         <div>
@@ -248,7 +258,7 @@ function getTypeLink($type)
                 rgba(0, 127, 112, 0.95) 30%,
                 rgba(0, 91, 82, 0.8) 100%);
         color: #ffffff;
-        border-radius: 5px; 
+        border-radius: 5px;
         display: none;
         font-size: 14px;
         z-index: 1000;
@@ -575,5 +585,26 @@ function getTypeLink($type)
         background: radial-gradient(circle at top, #f3fdfc, #f6fdfc, #f3fffe);
         color: #005b52;
 
+    }
+
+
+
+    @media (width < 900px) {
+        .property-card {
+            grid-template-columns: 1fr;
+        }
+
+        .property-card-button {
+            flex-direction: row;
+            gap: 12px;
+        }
+
+        .property-card p {
+            font-size: 11px;
+        }
+
+        dialog {
+            max-width: 85%;
+        }
     }
 </style>

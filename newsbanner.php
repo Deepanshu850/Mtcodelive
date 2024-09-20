@@ -9,7 +9,7 @@
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1000;
+    /* z-index: 1000; */
     font-family: 'Arial', sans-serif;
     font-size: 16px;
     font-weight: bold;

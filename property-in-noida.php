@@ -31,7 +31,7 @@ Noida, commercial property for sale in Noida, best commercial property in Noida,
     <meta name="audience" content="All" />
 
 
-    <!-- Facebook Open Graph Tags -->
+    <!-- General Open Graph Tags for Facebook, LinkedIn, etc. -->
     <meta property="og:title" content="Property in Noida – Commercial & Residential Properties for Sale">
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/property-in-noida">
@@ -43,39 +43,19 @@ Noida, commercial property for sale in Noida, best commercial property in Noida,
     <meta property="og:image:alt" content="Property in Noida">
     <meta property="og:locale" content="en_IN">
 
-    <!-- Twitter Card Tags -->
+    <!-- Twitter Specific Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Property in Noida – Commercial & Residential Properties for Sale">
-    <meta name="twitter:description" content="Buy residential & commercial properties in Noida & on Yamuna Expressway. Top Best deals on properties for sale and ready to move luxury options. Call: 9732300007">
-    <meta name="twitter:site" content="@MoneytreeRSPL">
+    <meta name="twitter:description" content="Top deals on properties for sale in Noida and Yamuna Expressway. Call 9732300007 for luxury options.">
     <meta name="twitter:image" content="https://moneytreerealty.com/assets/img/property-in-noida.webp">
-    <meta name="twitter:image:alt" content="Property in Noida">
+    <meta name="twitter:site" content="@MoneytreeRSPL">
 
-    <!-- LinkedIn Meta Tags -->
+    <!-- Pinterest Specific Tags -->
+    <meta property="og:type" content="article">
     <meta property="og:title" content="Property in Noida – Commercial & Residential Properties for Sale">
-    <meta property="og:site_name" content="Moneytree Realty">
-    <meta property="og:url" content="https://moneytreerealty.com/property-in-noida">
-    <meta property="og:description" content="Buy residential & commercial properties in Noida & on Yamuna Expressway. Top Best deals on properties for sale and ready to move luxury options. Call: 9732300007">
-    <meta property="og:type" content="website">
+    <meta property="og:description" content="Top deals on properties for sale in Noida and Yamuna Expressway. Call 9732300007 for luxury options.">
     <meta property="og:image" content="https://moneytreerealty.com/assets/img/property-in-noida.webp">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Property in Noida">
-    <meta property="og:locale" content="en_IN">
-    <meta property="og:rich_attachment" content="true">
-
-    <!-- Pinterest Meta Tags -->
-    <meta property="og:title" content="Property in Noida – Commercial & Residential Properties for Sale">
-    <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/property-in-noida">
-    <meta property="og:description" content="Buy residential & commercial properties in Noida & on Yamuna Expressway. Top Best deals on properties for sale and ready to move luxury options. Call: 9732300007">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://moneytreerealty.com/assets/img/property-in-noida.webp">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Property in Noida">
-    <meta property="og:locale" content="en_IN">
-    <meta name="pinterest-rich-pin" content="true">
 
 
 
@@ -219,7 +199,7 @@ Noida, commercial property for sale in Noida, best commercial property in Noida,
                 $urlprefix = './propertydetail/';
 
                 include './property-grid-level2.php';
-                
+
                 // print_r($properties);
                 ?>
 
@@ -1172,7 +1152,7 @@ Noida, commercial property for sale in Noida, best commercial property in Noida,
 
         <div class="side-flex-right">
             <?php
-            include './category/recent-page-component.php';
+            include './recent-page-component.php';
             ?>
 
             <div class="single-widgets widget_egns_tag">

@@ -11,10 +11,16 @@
     </title>
 
 
-    <meta name="description" content="" />
+    <meta name="description" content="Sector 130 Noida, Gautam Buddha Nagar, offers a mix of residential and commercial spaces with modern amenities and is well-connected to major roads and expressways." />
 
 
-    <meta name="keywords" content="" />
+    <meta name="keywords" content="sector 130 noida uttar Pradesh, noida sector 130, sector 130 noida 
+pin code, pg in sector 130 noida, sector 130 noida nearest metro, 
+noida sector 130nearest metro, pg in sector 130 noida, sector 130 
+noida apartment, plot for sale in sector 130 noida, schools near 
+sector 130 noida, room for rent in noida sector 130, pg near sector 
+130 noida, noida sector 130 flats for rent, flats in sector 130 noida, 
+apartments in noida sector 130 " />
 
 
     <meta name="Owner" content="Moneytreerealty.com" />
@@ -27,20 +33,93 @@
 
 
 
+    <!-- General Open Graph Tags for Facebook, LinkedIn, etc. -->
     <meta property="og:title" content="Sector 130 Noida: Map, Property Rates, Projects, Review, Info">
     <meta property="og:site_name" content="Moneytree Realty">
-    <meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-52-noida">
-    <meta property="og:description" content="">
-    <meta property="og:type" content="property">
-    <meta property="og:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-52-noida-banner.webp">
+    <meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-130-noida">
+    <meta property="og:description" content="Sector 130 Noida, Gautam Buddha Nagar, offers a mix of residential and commercial spaces with modern amenities and is well-connected to major roads and expressways.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-130-noida-banner.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="">
+    <meta property="og:image:alt" content="Sector 130 Noida Overview">
     <meta property="og:locale" content="en_IN">
 
-    <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-52-noida" />
+    <!-- Twitter Specific Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sector 130 Noida: Map, Property Rates, Projects, Review, Info">
+    <meta name="twitter:description" content="Sector 130 Noida, Gautam Buddha Nagar, offers a mix of residential and commercial spaces with modern amenities and is well-connected to major roads and expressways.">
+    <meta name="twitter:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-130-noida-banner.webp">
+    <meta name="twitter:site" content="@MoneytreeRSPL">
+
+    <!-- Pinterest Specific Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Sector 130 Noida: Map, Property Rates, Projects, Review, Info">
+    <meta property="og:description" content="Sector 130 Noida, Gautam Buddha Nagar, offers a mix of residential and commercial spaces with modern amenities and is well-connected to major roads and expressways.">
+    <meta property="og:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-130-noida-banner.webp">
+    <meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-130-noida">
 
 
+    <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-130-noida" />
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "name": "Sector 130 Noida",
+            "image": "https://moneytreerealty.com/noida-real-estate/assets/image/sector-130-noida-banner.webp",
+            "description": "Sector 130 Noida is a posh and luxurious residential sector situated in Gautam Buddha Nagar, Uttar Pradesh, with a pin code of 201304. It is known for its upscale living and well-planned infrastructure, offering a premium lifestyle to its residents.",
+            "brand": {
+                "@type": "Brand",
+                "name": "Moneytree Realty"
+            },
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.6",
+                "ratingCount": "2400"
+            }
+        }
+    </script>
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+                    "@type": "Question",
+                    "name": "What are the top residential complexes in Noida Sector 130?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Coinage Moti Residency, Alok Pandey Home Panchwati Noida, Versha Chauhan and Family Residence, and Ozone Yamuna Heights are the top residential complexes in Noida Sector 130."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is the average property rate in Sector 130 Noida?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The average property rate in Sector 130 Noida is ₹5,900 per square foot."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which are the nearest metro stations to Sector 130 Noida?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The nearest metro stations to Sector 130 are Noida Sector 135 Metro Station, Noida Sector 83 Metro Station, Noida Sector 137 Metro Station, Noida Sector 144 Metro Station, and Noida Sector 45 Metro Station."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is the pin code for Sector 130 Noida?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The pin code for Sector 130 Noida is 201304."
+                    }
+                }
+            ]
+        }
+    </script>
 
 
     <!-- Google Tag Manager 
@@ -116,7 +195,7 @@
 
         <main>
             <div class="image-wrapper">
-                <img src="./assets/image/sector-52-noida-banner.webp" alt="Sector 130 Noida | Gautam Buddha Nagar">
+                <img src="./assets/image/sector-130-noida-banner.webp" alt="Sector 130 Noida | Gautam Buddha Nagar">
             </div>
             <h1>
                 Sector 130 Noida | Gautam Buddha Nagar
@@ -1151,7 +1230,7 @@
 
             <h2>Tired of looking to buy property for sale? </h2>
 
-            <p><a href="../index.php"><strong>MoneyTree Realty</strong></a> is a well-known <a href="../real-estate-consultant.php"><strong>real estate consultant</strong></a> that has created a brand value with top-notch property advisors. Our professional real estate consultants understand your property needs and offer a diverse portfolio of RERA-approved property for sale for a promising and strategic real estate investment.</p>
+            <p><a href="../index.php"><strong>MoneyTree Realty</strong></a> is a well-known <a href="../real-estate-consultant.php"><strong>real estate consultant</strong></a> that has created a brand value with top-notch <a href="../real-estate-advisor-and-property-consulting-firm-in-india.php"><strong>property advisors</strong></a>. Our professional real estate consultants understand your property needs and offer a diverse portfolio of RERA-approved property for sale for a promising and strategic real estate investment.</p>
 
             <p>The professional real estate consultants at MoneyTree Realty help you in making a promising and strategic investment in the blooming real estate market in India. MoneyTree comprises the most sought-after real estate consultants with top expertise in helping investors buying and selling property</p>
 
@@ -1195,6 +1274,25 @@
             <p>Contact us and make a promising and strategic real estate investment in India, Call us on <a href="tel:+919732300007"><strong>+91 9732300007</strong></a>.</p>
 
             <h2>Frequently asked questions</h2>
+            <section class="questions">
+                <h2>What are the top residential complexes in Noida Sector 130?</h2>
+                <p>Coinage Moti Residency, Alok Pandey Home Panchwati Noida, Versha Chauhan and Family Residence, and Ozone Yamuna Heights are the top residential complexes in Noida Sector 130.</p>
+            </section>
+
+            <section class="questions">
+                <h2>What is the average property rate in Sector 130 Noida?</h2>
+                <p>The average property rate in Sector 130 Noida is ₹5,900 per square foot.</p>
+            </section>
+
+            <section class="questions">
+                <h2>Which are the nearest metro stations to Sector 130 Noida?</h2>
+                <p>The nearest metro stations to Sector 130 are Noida Sector 135 Metro Station, Noida Sector 83 Metro Station, Noida Sector 137 Metro Station, Noida Sector 144 Metro Station, and Noida Sector 45 Metro Station.</p>
+            </section>
+
+            <section class="questions">
+                <h2>What is the pin code for Sector 130 Noida?</h2>
+                <p>The pin code for Sector 130 Noida is 201304.</p>
+            </section>
 
 
         </main>
@@ -1214,6 +1312,49 @@
                 <p class="wp-block-tag-cloud">
 
 
+                    <a href="./sector-130-noida">
+                        Sector 130 Noida Uttar Pradesh
+                    </a>
+
+                    <a href="./sector-130-noida">
+                        Noida Sector 130
+                    </a>
+
+                    <a href="./sector-130-noida">
+                        Sector 130 Noida Pin Code
+                    </a>
+
+                    <a href="./sector-130-noida">
+                        PG in Sector 130 Noida
+                    </a>
+
+                    <a href="./sector-130-noida">
+                        Sector 130 Noida Nearest Metro
+                    </a>
+
+                    <a href="../blog/real-estate-investment-a-comprehensive-guide-on-real-estate.php">
+                        Real Estate Investment
+                    </a>
+
+                    <a href="../contact.php">
+                        Property Management
+                    </a>
+
+                    <a href="../category/residential-property.php">
+                        Residential Real Estate
+                    </a>
+
+                    <a href="../best-property-dealers-in-noida.php">
+                        Real Estate Deals
+                    </a>
+
+                    <a href="../real-estate-advisor-and-property-consulting-firm-in-india.php">
+                        Property Advice
+                    </a>
+
+                    <a href="../real-estate-consultant.php">
+                        Real Estate Consulting
+                    </a>
 
 
                 </p>
@@ -1229,6 +1370,71 @@
             <h6>Similar Tags:</h6>
             <ul class="tags">
 
+                <li>
+                    <a href="./sector-130-noida">
+                        Sector 130 Noida Uttar Pradesh
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./sector-130-noida">
+                        Noida Sector 130
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./sector-130-noida">
+                        Sector 130 Noida Pin Code
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./sector-130-noida">
+                        PG in Sector 130 Noida
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./sector-130-noida">
+                        Sector 130 Noida Nearest Metro
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../blog/real-estate-investment-a-comprehensive-guide-on-real-estate.php">
+                        Real Estate Investment
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../contact.php">
+                        Property Management
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../category/residential-property.php">
+                        Residential Real Estate
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../best-property-dealers-in-noida.php">
+                        Real Estate Deals
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../real-estate-advisor-and-property-consulting-firm-in-india.php">
+                        Property Advice
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../real-estate-consultant.php">
+                        Real Estate Consulting
+                    </a>
+                </li>
 
 
             </ul>

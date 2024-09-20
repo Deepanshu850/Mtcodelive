@@ -628,7 +628,7 @@
 </header>
 
 <?php
-include "./slidefornfakenoti.php"
+// include "./slidefornfakenoti.php"
 ?>
 <style>
     .float {

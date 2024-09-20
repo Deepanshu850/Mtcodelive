@@ -677,20 +677,29 @@ oc, apply to local municipal authority, building codes, oc and cc, fire safety" 
         <div id="side-stick" class="col-lg-4">
             <div>
                 <div class="blog-sidebar mb-50">
-                    <div class="single-widgets widget_egns_categoris mb-20">
-                        <div class="widget-title mb-20">
-                            <h6>Category</h6>
+                    <div class="single-widgets widget_egns_recent_post mb-20">
+                        <div class="widget-title blog-title mb-20">
+                            <h6>Recent Blog</h6>
+                            <div class="slider-btn-group2 d-flex align-items-center justify-content-between">
+                                <div class="slider-btn prev-51">
+                                    <svg width="7" height="12" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 6.50008L8 0L2.90909 6.50008L8 13L0 6.50008Z"></path>
+                                    </svg>
+                                </div>
+                                <div class="slider-btn next-51">
+                                    <svg width="7" height="12" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 6.50008L0 0L5.09091 6.50008L0 13L8 6.50008Z"></path>
+                                    </svg>
+                                </div>
+                            </div>
                         </div>
-                        <ul class="wp-block-categoris-cloud">
-
-                            <li><a href="#"><span>Industrial</span> <span class="number-of-categoris">(30)</span></a></li>
-                            <li><a href="#"><span>Development</span> <span class="number-of-categoris">(18)</span> </a></li>
-                            <li><a href="#"><span>Houses</span> <span class="number-of-categoris">(21)</span></a></li>
-                            <li><a href="#"><span>Health & Care</span> <span class="number-of-categoris">(25)</span></a></li>
-                            <li><a href="#"><span>Apartment</span> <span class="number-of-categoris">(29)</span></a></li>
-                            <li><a href="#"><span>Banglow</span> <span class="number-of-categoris">(2,554)</span></a></li>
-                            <li><a href="#"><span>Home Twon</span> <span class="number-of-categoris">(1,556)</span></a></li>
-                        </ul>
+                        <div class="recent-post-wraper">
+                            <div class="swiper recent-post-sidebar-slider">
+                                <div class="swiper-wrapper" id="blog-posts-container">
+                                    <!-- Dynamic content will be inserted here -->
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
 

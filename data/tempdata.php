@@ -3,7 +3,7 @@ $properties = [
     [
         'id' => 1,
         'name' => 'Paras Avenue Sector 129 Noida',
-        'link' => 'godrej-tropical-isle-sector-146-noida',
+        'link' => 'paras-avenue-sector-129-noida',
         'builder' => 'Paras Buildtech',
         'location' => ['Noida', 'Sector 129', '201304', 'Yamuna Expressway/Jewar Airport'],
         'images' => [
@@ -389,7 +389,7 @@ $properties = [
         'area' => 'NaN',
         'type' => ['Residential'],
         'typeDetail' => ['2 BHk Flats', '3 BHK Flats', '4 BHK Flats'],
-        'rera' => [['P51900015854', 'P51900016482', 'P51900021057'], '**'],
+        'rera' => ['P51900015854','**', 'P51900016482', 'P51900021057'],
         'shortDescription' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, amet! Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aut? Aut quod deserunt quaerat nihil.',
     ],
 
@@ -409,7 +409,7 @@ $properties = [
         'area' => 'NaN',
         'type' => ['Residential'],
         'typeDetail' => ['2 BHK Flats', '3 BHK Flats', '4 BHK Flats'],
-        'rera' => [['P51800033618', 'P51800033984', 'P51800034053', 'P51800055488'], ''],
+        'rera' => ['P51800033618', '', 'P51800033984', 'P51800034053', 'P51800055488'],
         'shortDescription' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, amet! Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aut? Aut quod deserunt quaerat nihil.',
     ],
 
@@ -450,7 +450,7 @@ $properties = [
         'area' => 'NaN',
         'type' => ['Plots'],
         'typeDetail' => ['Plots'],
-        'rera' => [['P52000049721', 'P52000052368'], ''],
+        'rera' => ['P52000049721', '', 'P52000052368'],
         'shortDescription' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, amet! Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aut? Aut quod deserunt quaerat nihil.',
     ],
 
@@ -550,21 +550,19 @@ $properties = [
         'area' => 'NaN',
         'type' => ['Commercial'],
         'typeDetail' => ['Commercial Spaces'],
-        'rera' => [['P52900021725', 'P52900019883', 'P52900024380'], ''],
+        'rera' => ['P52900021725', '', 'P52900019883', 'P52900024380'],
         'shortDescription' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, amet! Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aut? Aut quod deserunt quaerat nihil.',
     ],
 
 
 
 ];
-// add * to the price
+
+
 // elan epic posession
 // piramal posession
 // piramal rera
 // maharastra rerra , alibaug and l&t
-
-
-
 
 
 
@@ -591,3 +589,6 @@ $properties = [
 //         'rera' => ['UPRERAPRJ297873', 'https'],
 //         'shortDescription' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, amet! Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aut? Aut quod deserunt quaerat nihil.',
 //     ],
+
+
+?>

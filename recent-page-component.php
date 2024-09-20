@@ -267,7 +267,7 @@
             {
                 id: 3,
                 title: 'Property in Noida',
-                imageUrl: './assets/img/property-in-noida.jpeg'
+                imageUrl: './assets/img/property-in-noida.webp'
             },
         ];
 
