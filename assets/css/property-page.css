@@ -38,9 +38,39 @@ main {
   padding-inline: 2.5rem;
 }
 
-ol {
+
+.custom-list {
+  list-style-type: none;
+}
+
+
+.custom-list > li {
+  counter-increment: my-counter;
+  padding-left: 20px;
+  position: relative;
+}
+
+.custom-list > li::before {
+  content: counter(my-counter) ".";
+  position: absolute;
+  left: -10px;
+  top: 0;
+  color: black;
+  font-size: 18px;
   font-weight: bold;
 }
+
+ol > li {
+  font-size: 17px;
+}
+
+ol > li p,
+td {
+  color: black;
+  font-size: 16px;
+}
+
+
 
 .arrow-list {
   list-style: none;
