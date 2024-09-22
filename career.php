@@ -2,25 +2,28 @@
 <html lang="en">
 
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0">
 
-<title>Careers at MoneyTree Realty - Join Our Team in Delhi/NCR</title>
-<meta name="description" content="Explore career opportunities and join the team at MoneyTree Realty, the leading real estate property consultant in Delhi/NCR. Discover our values, culture, and current job openings." />
-<meta name="keywords" content="Careers in Real Estate, MoneyTree Realty Jobs, Real Estate Careers Delhi/NCR, Property Consultant Careers, Real Estate Job Opportunities" />
+    <title>Careers at MoneyTree Realty - Join Our Team in Delhi/NCR</title>
+    <meta name="description" content="Explore career opportunities and join the team at MoneyTree Realty, the leading real estate property consultant in Delhi/NCR. Discover our values, culture, and current job openings." />
+    <meta name="keywords" content="Careers in Real Estate, MoneyTree Realty Jobs, Real Estate Careers Delhi/NCR, Property Consultant Careers, Real Estate Job Opportunities" />
 
-<meta name="Owner" content="Moneytreerealty.com" />
-<meta name="Copyright" content="Moneytreereal.com" />
-<meta name="classification" content="Career Opportunities in Real Estate" />
-<meta name="distribution" content="India" />
-<meta name="rating" content="General" />
-<meta name="subject" content="Join MoneyTree Realty - Explore opportunities for growth and development in the real estate industry with us." />
-<meta name="audience" content="Job Seekers, Real Estate Professionals, Graduates" />
-
-
+    <meta name="Owner" content="Moneytreerealty.com" />
+    <meta name="Copyright" content="Moneytreereal.com" />
+    <meta name="classification" content="Career Opportunities in Real Estate" />
+    <meta name="distribution" content="India" />
+    <meta name="rating" content="General" />
+    <meta name="subject" content="Join MoneyTree Realty - Explore opportunities for growth and development in the real estate industry with us." />
+    <meta name="audience" content="Job Seekers, Real Estate Professionals, Graduates" />
 
 
-  <script type="application/ld+json">
+
+    <link rel="canonical" href="https://moneytreerealty.com/career" />
+
+
+
+    <script type="application/ld+json">
         {
             "@context": "https://schema.org/",
             "@type": "JobPosting",
@@ -392,57 +395,47 @@
     </script>
 
 
-
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="./assets/css/nice-select.css" rel="stylesheet">
+    <link rel="icon" href="./assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
+    <link rel="stylesheet" href="./assets/css/property-page.css">
 
 
 
 
     <!-- Google Tag Manager -->
     <script>
-    (function(w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            'gtm.start': new Date().getTime(),
-            event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s),
-            dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
-            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
     </script>
     <!-- End Google Tag Manager -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/jquery-ui.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/css/all.min.css" rel="stylesheet">
-    <link href="assets/css/animate.min.css" rel="stylesheet">
-    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
-    <link href="assets/css/fontawesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/slick-theme.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link href="assets/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/css/nice-select.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
-<link rel="canonical" href="https://moneytreerealty.com/career.php" />
 
-    <link rel="icon" href="assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
-    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+
+
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-JZJY23MWW7"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
+        window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'G-JZJY23MWW7');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-JZJY23MWW7');
     </script>
     <!-- End Google Analytics -->
     <!--G-JZJY23MWW7-->
@@ -453,264 +446,231 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2ZBWP94" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+
+
+    <?php
+    include './header.php';
+
+    include './data/jobdata.php';
+    ?>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
-    * {
-        margin: 0;
-        padding: 0;
-    }
-
-    .s-soft {
-        display: block;
-        position: fixed;
-        top: 250px;
-        /* left: 10px; */
-        z-index: 1000;
-        transition: all linear 0.2s;
-    }
-
-    .s-soft a:first-child {
-        border-radius: 0 5px 0 0;
-    }
-
-    .s-soft a:last-child {
-        border-radius: 0 0 5px 0;
-    }
-
-    .s-item {
-        display: block;
-        width: 40px;
-        height: 40px;
-        color: white;
-        font-size: 15px;
-        line-height: 30px;
-        text-align: center;
-        transition: all linear 0.2s;
-    }
-
-    .s-item:hover {
-        width: 55px;
-        border-radius: 0px 20px 20px 0px;
-    }
-
-    #so-open {
-        display: block;
-        position: fixed;
-        top: 100px;
-        left: -90px;
-        border-radius: 0 30px 30px 0;
-        transition: all linear 0.2s;
-    }
-
-    .facebook {
-        background-color: #3b5999;
-    }
-
-    .twitter {
-        background-color: #3AAFD6;
-    }
-
-    .print {
-        background-color: #de3c7d;
-    }
-
-    .pinterest {
-        background-color: #BD081C;
-    }
-
-    .linkedin {
-        background-color: #0e76a8;
-    }
-
-    .instagram {
-        background-color: #ed006f;
-    }
-
-    .so-collapse {
-        left: -30px;
-    }
-
-    /* Media Query to hide the sidebar on screens with a maximum width of 767 pixels */
-    @media (max-width: 767px) {
-        .s-soft {
-            display: none;
+        /* Shadow animation for the job card */
+        .job-card {
+            width: 100%;
+            max-width: 320px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 24px;
+            position: relative;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
-        #so-open {
-            display: none;
+        .job-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
         }
-    }
+
+        /* Animation for the open positions */
+        .openings {
+            animation: bounce 1.5s infinite;
+            color: #1D4ED8;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        @keyframes bounce {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-5px);
+            }
+        }
+
+        /* General styling */
+        .container {
+            max-width: 800px;
+            margin: 0 auto 24px;
+        }
+
+        .search-label {
+            display: block;
+            font-size: 18px;
+            font-weight: 500;
+            color: #4B5563;
+            margin-bottom: 8px;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #D1D5DB;
+            border-radius: 8px;
+        }
+
+        .job-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 16px;
+        }
+
+        .job-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #1F2937;
+            margin-bottom: 12px;
+        }
+
+        .job-description {
+            color: #6B7280;
+            margin-bottom: 16px;
+            font-size: 15px;
+        }
+
+        .location-label {
+            font-size: 14px;
+            font-weight: 600;
+            color: #374151;
+            margin-bottom: 4px;
+        }
+
+        .location-text {
+            color: #6B7280;
+        }
+
+        .openings-label {
+            font-size: 14px;
+            font-weight: 600;
+            color: #374151;
+        }
+
+        .apply-button {
+            display: block;
+            text-align: center;
+            background: radial-gradient(circle at top, #0e9688 0%, #007f70 30%, #005b52 100%);
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+            margin-top: 1rem;
+
+        }
+
+        .apply-button:hover {
+            transform: translateY(-1px);
+            background: radial-gradient(circle at top, #0e9688 0%, #1c9486 30%, #005b52 100%);
+            color: white;
+        }
+
+        /* .apply-button--white {
+            
+            background: #fff;
+            border: 2px solid #005b52;
+            color: #005b52;
+
+        }
+
+        .apply-button--white:hover {
+            transform: translateY(-1px);
+            background: radial-gradient(circle at top, #f3fdfc, #f6fdfc, #f3fffe);
+            color: #005b52;
+
+        } */
+
+
+        .urgent-hiring {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: #EF4444;
+            color: white;
+            font-size: 12px;
+            font-weight: 600;
+            padding: 4px 8px;
+            border-bottom-left-radius: 8px;
+        }
     </style>
 
-    <div class="s-soft">
-        <a href="https://www.facebook.com/moneytreerealtyofficial" class="s-item facebook">
-            <span class="fa fa-facebook"></span>
-        </a>
-
-        <a href="https://www.linkedin.com/company/moneytree-realty-services/mycompany/" class="s-item linkedin">
-            <span class="fa fa-linkedin"></span>
-        </a>
-        <a href="https://www.instagram.com/moneytreerealtyofficial/" class="s-item instagram">
-            <span class="fa fa-instagram"></span>
-        </a>
-
+    <div class="container">
+        <label for="search" class="search-label">Search by Job Title or Location:</label>
+        <input type="text" id="search" placeholder="Enter job title or location" class="search-input">
     </div>
-    <a id="so-open" class="s-item print so-collapse">
-        <span class="fa fa-arrow-right"></span>
-    </a>
 
-
-
-
-
- 
-
-<?php 
-include './header.php';
-?>
-
-
-
-   
-   
-   
-   
-     
-    
-    <div id ="appl" class="faq-inquiery-form pt-80 pb-80">
-        <div class="form-img d-xl-flex d-none"> <img src="assets/img/inner-page/inquiery-form-img.png" alt> </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-7">
-                    <div class="section-title mb-20">
-                       <p style="font-size: 1.17em; font-weight: bold; margin-top: 20px; margin-bottom: 10px;">Submit your application and resume below. We look forward to your application</p>
-
-
-                    </div>
-                     
-                       <form method="post"  action="applicantprocess.php" enctype="multipart/form-data">
-    <div class="row">
-        <div class="col-md-6 mb-30">
-            <div class="form-inner">
-                <label>Your Name* :</label>
-                <input type="text" name="name" placeholder="Jackson Mile" required pattern="[A-Za-z\s]+" title="Name should only contain letters and spaces.">
-            </div>
-        </div>
-        <div class="col-md-6 mb-30">
-            <div class="form-inner">
-                <label>Your Email* :</label>
-                <input type="email" name="email" placeholder="example@gmail.com" required>
-            </div>
-        </div>
-        <div class="col-md-6 mb-30">
-            <div class="form-inner">
-                <label>Mobile* :</label>
-                <input type="tel" name="mobile" placeholder="Mobile" required pattern="\d{10}" title="Mobile number should be 10 digits.">
-            </div>
-        </div>
-        <div class="col-md-6 mb-30">
-            <div class="form-inner">
-                <label>Experience Years* :</label>
-                <input type="number" name="experience_years" placeholder="+1" required min="1" max="50" title="Experience should be between 1 and 50 years.">
-            </div>
-        </div>
-        <div class="col-md-12 mb-30">
-            <div class="form-inner">
-                <label>Upload Resume* :</label>
-                <input type="file" name="resume" class="form-control" id="exampleFormControlFile1" required accept=".pdf,.doc,.docx" onchange="validateFile()">
-            </div>
-        </div>
-        <div class="col-md-12">
-            <div class="form-inner">
-                <button type="submit" class="primary-btn3">Submit Now</button>
-            </div>
-        </div>
-    </div>
-</form>
-
-<script>
-    function validateFile() {
-        const fileInput = document.getElementById('exampleFormControlFile1');
-        const filePath = fileInput.value;
-        const allowedExtensions = /(\.pdf|\.doc|\.docx)$/i;
-        if (!allowedExtensions.exec(filePath)) {
-            alert('Please upload file having extensions .pdf/.doc/.docx only.');
-            fileInput.value = '';
-            return false;
-        }
-        if (fileInput.files[0].size > 5242880) {  // 5MB
-            alert('File size exceeds 5 MB');
-            fileInput.value = '';
-            return false;
-        }
-    }
-</script>
-
+    <div id="job-list" class="job-list">
+        <?php foreach ($jobs as $job) : ?>
+            <!-- Job Card -->
+            <div class="job-card"
+                data-location="<?= strtolower($job['location']); ?>"
+                data-title="<?= strtolower($job['title']); ?>">
+                <h2 class="job-title"><?= $job['title']; ?></h2>
+                <p class="job-description"><?= $job['description']; ?></p>
+                <div>
+                    <span class="location-label">Location:</span>
+                    <span class="location-text"><?= $job['location']; ?></span>
                 </div>
+                <div class="openings-wrapper">
+                    <span class="openings-label">Open Positions:</span>
+                    <span class="openings"><?= $job['openings']; ?></span>
+                </div>
+                <a href="<?= $job['link']; ?>" class="apply-button">Apply Now</a>
+                <div class="urgent-hiring">Urgent Hiring</div>
             </div>
-        </div>
+        <?php endforeach; ?>
     </div>
-    <div>
-
-        <!-- paid widgedts -->
-
-        <!-- <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-    <div class="elfsight-app-13f5879e-0734-424c-aeda-21190daf6b55" data-elfsight-app-lazy></div>
-    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-    <div class="elfsight-app-04e04a55-db1c-4a83-89b1-2113f1db25ae" data-elfsight-app-lazy></div>
-    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-    <div class="elfsight-app-d32907d0-5820-4d92-81dd-61460f2cbe77" data-elfsight-app-lazy></div>
-    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-    <div class="elfsight-app-fdc72d4e-7826-42ea-a00f-e002c54266f8" data-elfsight-app-lazy></div> -->
-        <!-- updated whatsapp -->
-        <!-- <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-<div class="elfsight-app-04e04a55-db1c-4a83-89b1-2113f1db25ae" data-elfsight-app-lazy></div> -->
-
-    </div>
-  
-     <?php
-        include './more-tags.php';
-        include './footer.php';
-        ?>
 
 
-   
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script src="assets/js/jquery-3.7.0.min.js"></script>
-    <script src="assets/js/jquery-ui.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="assets/js/slick.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/gsap.min.js"></script>
-    <script src="assets/js/simpleParallax.min.js"></script>
-    <script src="assets/js/TweenMax.min.js"></script>
-    <script src="assets/js/jquery.marquee.min.js"></script>
-    <script src="assets/js/jquery.nice-select.min.js"></script>
-    <script src="assets/js/jquery.fancybox.min.js"></script>
-    <script src="assets/js/custom.js"></script>
+
+
+    <?php
+    include './more-tags.php';
+    include './footer.php';
+    ?>
+
+
+
+
     <script>
-    $(".marquee_text").marquee({
-        direction: "left",
-        duration: 25000,
-        gap: 50,
-        delayBeforeStart: 0,
-        duplicated: true,
-        startVisible: true,
-    });
-    $(".marquee_text2").marquee({
-        direction: "left",
-        duration: 25000,
-        gap: 50,
-        delayBeforeStart: 0,
-        duplicated: true,
-        startVisible: true,
-    });
+        $(document).ready(function() {
+            // Filter job postings based on search input for both title and location
+            $('#search').on('keyup', function() {
+                var searchText = $(this).val().toLowerCase();
+
+                // Loop through all job cards and hide/show based on title or location
+                $('#job-list .job-card').each(function() {
+                    var location = $(this).data('location');
+                    var title = $(this).data('title');
+
+                    if (location.includes(searchText) || title.includes(searchText)) {
+                        $(this).show();
+                    } else {
+                        $(this).hide();
+                    }
+                });
+            });
+        });
     </script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+    <script src="assets/js/jquery-3.7.0.min.js" defer></script>
+    <script src="assets/js/slick.js" defer></script>
+    <script src="assets/js/waypoints.min.js" defer></script>
+    <script src="assets/js/jquery.counterup.min.js" defer></script>
+    <script src="assets/js/jquery.magnific-popup.min.js" defer></script>
+    <script src="assets/js/jquery.marquee.min.js" defer></script>
+    <script src="assets/js/jquery.nice-select.min.js" defer></script>
+    <script src="assets/js/jquery.fancybox.min.js" defer></script>
+    <script src="assets/js/custom.js" defer></script>
+
 </body>
 
 </html>

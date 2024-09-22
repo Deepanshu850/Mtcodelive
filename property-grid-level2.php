@@ -442,7 +442,7 @@ function getTypeLink($type)
     }
 
     .property-card p {
-        font-size: 13px;
+        font-size: 12px;
     }
 
 
