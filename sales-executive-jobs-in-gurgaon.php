@@ -82,8 +82,10 @@
     ?>
 
 
-    <main style="position: relative;">
-
+    <main>
+        <h1>
+            Sales Executive Jobs in Gurgaon
+        </h1>
         <h2>Sales Executive Jobs in Gurgaon - A Growing Opportunity</h2>
 
         <p>Gurgaon is often referred to as the Millenium City of India and features state-of-the-art infrastructural development and has emerged as the hotspot for working professionals. Sales Executive Jobs in Gurgaon offer a promising career and significant growth due to the city&#39;s development as the commercial and financial hub of the National Capital Region (NCR).</p>
