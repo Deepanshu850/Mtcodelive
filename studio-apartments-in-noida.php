@@ -6,21 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0">
 
     <title>
-        Property in Noida – Commercial & Residential Properties for Sale
+
     </title>
 
-    <meta name="description" content="Buy residential & commercial properties in Noida & on Yamuna Expressway. Top Best deals on properties for sale and ready to move luxury options. Call:- 9732300007" />
+    <meta name="description" content="" />
 
-    <meta name="keywords" content="Property In Noida, Property On Noida Expressway, Commercial Property On Noida Expressway, Noida Commercial Projects, Noida Expressway Commercial Project, Residential Property On Noida 
-Expressway, Noida Expressway Property, Residential Projects On Noida Expressway, Noida 
-Expressway Residential Projects, Noida Property Prices, Noida Properties, Commercial Property In 
-Noida, Property In Noida For Sale, Best Property In Noida, Buy Property In Noida, Property In Noida 
-Ready To Move, Residential Property In Noida, Luxury Property In Noida, Commercial Property In 
-Noida For Sale, real-estate investment in Noida, Noida real estate, Real Estate in Noida, 2 bhk 
-apartments in Noida, property dealers in Noida, commercial property in Noida, Residential property 
-in Noida, House for sale in Noida, Home in Noida, Property prices in Noida, Noida apartments for 
-sale , Villa for sale in Noida, Flats for sale in Noida, property for rent in Noida, property for sale in 
-Noida, commercial property for sale in Noida, best commercial property in Noida, Real estate builders in Noida" />
+    <meta name="keywords" content="" />
 
     <meta name="Owner" content="Moneytreerealty.com" />
     <meta name="Copyright" content="Moneytreereal.com" />
@@ -31,20 +22,20 @@ Noida, commercial property for sale in Noida, best commercial property in Noida,
     <meta name="audience" content="All" />
 
     <!-- General Open Graph Tags for Facebook, LinkedIn, etc. -->
-    <meta property="og:title" content="Property in Noida – Commercial & Residential Properties for Sale">
+    <meta property="og:title" content="">
     <meta property="og:site_name" content="Moneytree Realty">
-    <meta property="og:url" content="https://moneytreerealty.com/property-in-noida">
-    <meta property="og:description" content="Buy residential & commercial properties in Noida & on Yamuna Expressway. Top Best deals on properties for sale and ready to move luxury options. Call: 9732300007">
+    <meta property="og:url" content="https://moneytreerealty.com/studio-apartments-in-noida">
+    <meta property="og:description" content="">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://moneytreerealty.com/assets/img/property-in-noida.webp">
+    <meta property="og:image" content="https://moneytreerealty.com/assets/img/studio-apartments-in-noida-banner.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Property in Noida">
+    <meta property="og:image:alt" content="">
     <meta property="og:locale" content="en_IN">
 
 
 
-    <link rel="canonical" href="https://moneytreerealty.com/property-in-noida" />
+    <link rel="canonical" href="https://moneytreerealty.com/studio-apartments-in-noida" />
 
 
 
@@ -115,7 +106,7 @@ Noida, commercial property for sale in Noida, best commercial property in Noida,
         <main>
 
             <h1>
-                Property in Noida | Commercial & Residential Property for Sale
+                Studio Apartments in Noida | Studio Apartments for Sale in Noida
 
             </h1>
 
@@ -125,16 +116,15 @@ Noida, commercial property for sale in Noida, best commercial property in Noida,
                 <?php
                 include './data/tempdata.php';
 
+
                 $properties = array_filter($properties, function ($item) {
-                    $pattern = '/noida/i';
+                    $targetType = 'Studio Apartments';
+                    $targetLocation = 'Noida';
 
-                    $matchesLocation = preg_match($pattern, strtolower($item['location'][0]));
-                    if ($matchesLocation) {
-                        return true;
-                    }
-
-                    return false;
+                    return in_array(strtolower($targetType), array_map('strtolower', $item['type'])) &&
+                        strtolower($item['location'][0]) === strtolower($targetLocation);
                 });
+
 
                 $urlprefix = './propertydetail/';
 

@@ -41,10 +41,13 @@ function getTypeLink($type)
                 </div>
 
 
+
                 <!-- data part -->
                 <div class="property-card-text">
                     <h3>
-                        <?php echo $property['name'] ?>
+                        <a class="colored-link" href="<?php echo $urlprefix . $property['link']; ?>">
+                            <?php echo $property['name'] ?>
+                        </a>
                     </h3>
                     <div class="data-grid">
                         <div>
@@ -587,6 +590,23 @@ function getTypeLink($type)
 
     }
 
+    a.colored-link {
+        background: radial-gradient(circle at top,
+                rgba(14, 150, 136, 0.8) 0%,
+                rgba(0, 127, 112, 0.95) 30%,
+                rgba(0, 91, 82, 0.8) 100%);
+        background-clip: text;
+        color: transparent;
+    }
+
+    a.colored-link:hover {
+        background: radial-gradient(circle at top,
+                rgba(14, 150, 136, 0.8) 0%,
+                rgba(0, 127, 112, 0.95) 30%,
+                rgba(0, 91, 82, 0.8) 100%);
+        background-clip: text;
+        color: transparent;
+    }
 
 
     @media (width < 900px) {

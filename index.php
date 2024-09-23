@@ -1450,7 +1450,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
 
         <?php
         include './header.php';
-        include './eventpop.php';
+        // include './eventpop.php';
         ?>
         
 

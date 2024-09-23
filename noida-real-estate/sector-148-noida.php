@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0">
 
     <title>
-
+        Sector 148 Noida: Map, Property Rates, Projects, Review, Info
 
     </title>
 
@@ -27,20 +27,85 @@
 
 
 
-    <meta property="og:title" content="">
+    <meta property="og:title" content="Sector 148 Noida: Map, Property Rates, Projects, Review, Info">
     <meta property="og:site_name" content="Moneytree Realty">
-    <meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-52-noida">
+    <meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-148-noida">
     <meta property="og:description" content="">
     <meta property="og:type" content="property">
-    <meta property="og:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-52-noida-banner.webp">
+    <meta property="og:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-148-noida-banner.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="">
     <meta property="og:locale" content="en_IN">
 
-    <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-52-noida" />
+    <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-148-noida" />
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "name": "Sector 148 Noida",
+            "image": "https://moneytreerealty.com/noida-real-estate/assets/image/sector-148-noida-banner.webp",
+            "description": "Sector 148 Noida facilitates smooth travel and connectivity, making it easily accessible. The area is thriving with investments and is set to show returns and growth over the period of time. Its connectivity and accessibility to prime locations makes it a Hotspot, poised for future development.",
+            "brand": {
+                "@type": "Brand",
+                "name": "Moneytree Realty"
+            },
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.3",
+                "ratingCount": "2234"
+            }
+        }
+    </script>
 
 
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+                    "@type": "Question",
+                    "name": "What is the location of Sector 148 Noida?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sector 148 is well situated in Noida next to other networks of roads including the Greater Noida Expressway and Dadri Road. Strategically located in proximity to Delhi and various other regions of the NCR, one can take the DND Flyway, Kalindi Kunj Road, and the proposed Noida Sector 148 Metro Station."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What types of residential properties are available in Sector 148?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sector 148 offers a variety of residential properties, including: Apartments with recreational facilities such as gymnasiums, swimming pools, and parks; Luxury apartments encompassing all amenities; and Integrated Townships with high rises for both business and homes."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What are the average property rates in Sector 148?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The average property rates in Sector 148 vary depending on the type of property: Apartments: ₹9,000 - ₹11,000 per sq. ft.; Luxury Apartments: ₹6,000 - ₹10,000 per sq. ft.; Plots: ₹20,000 - ₹25,000 per sq. ft."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Is public transport easily accessible in Sector 148?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Currently, there are limited transport facilities available, but in the future, with the establishment of the new Noida Sector 148 Metro Station, it will be easier to get around. People can also hire auto rickshaws for commuting within Noida, and local transport buses are also available."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What amenities are available in residential societies?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Residential societies in Sector 148 typically offer a range of amenities, including: Clubhouses, Swimming pools, Gyms, Parks and green spaces, Children's play areas, and Security services."
+                    }
+                }
+            ]
+        }
+    </script>
 
 
     <!-- Google Tag Manager 
@@ -116,11 +181,11 @@
 
         <main>
             <div class="image-wrapper">
-                <img src="./assets/image/sector-52-noida-banner.webp" alt="">
+                <img src="./assets/image/sector-148-noida-banner.webp" alt="Sector 148 Noida | Gautam Buddha Nagar">
             </div>
             <h1>
 
-
+                Sector 148 Noida | Gautam Buddha Nagar
             </h1>
 
 
@@ -808,6 +873,51 @@
             <h2>Frequently asked questions</h2>
 
 
+            <section class="questions">
+                <h2>What is the location of Sector 148 Noida?</h2>
+                <p>Sector 148 is well situated in Noida next to other networks of roads including the Greater Noida Expressway and Dadri Road. Strategically located in proximity to Delhi and various other regions of the NCR, one can take the DND Flyway, Kalindi Kunj Road, and the proposed Noida Sector 148 Metro Station.</p>
+            </section>
+
+            <section class="questions">
+                <h2>What types of residential properties are available in Sector 148?</h2>
+                <p>Sector 148 offers a variety of residential properties, including:
+                <ul>
+                    <li>Apartments: Ongoing buildings with recreational facilities such as gymnasiums, swimming pools, and parks.</li>
+                    <li>Luxury Residences: Luxury apartments encompassing all amenities.</li>
+                    <li>Integrated Townships: People who live in high rises with multiple floors and apartments for both business and homes.</li>
+                </ul>
+                </p>
+            </section>
+
+            <section class="questions">
+                <h2>What are the average property rates in Sector 148?</h2>
+                <p>The average property rates in Sector 148 vary depending on the type of property:
+                <ul>
+                    <li>Apartments: ₹9,000 - ₹11,000 per sq. ft.</li>
+                    <li>Luxury Apartments: ₹6,000 - ₹10,000 per sq. ft.</li>
+                    <li>Plots: ₹20,000 - ₹25,000 per sq. ft.</li>
+                </ul>
+                </p>
+            </section>
+
+            <section class="questions">
+                <h2>Is public transport easily accessible in Sector 148?</h2>
+                <p>Currently, there are limited transport facilities available, but in the future, with the establishment of the new Noida Sector 148 Metro Station, it will be easier to get around. People can also hire auto rickshaws for commuting within Noida, and local transport buses are also available.</p>
+            </section>
+
+            <section class="questions">
+                <h2>What amenities are available in residential societies?</h2>
+                <p>Residential societies in Sector 148 typically offer a range of amenities, including:
+                <ul>
+                    <li>Clubhouses</li>
+                    <li>Swimming pools</li>
+                    <li>Gyms</li>
+                    <li>Parks and green spaces</li>
+                    <li>Children's play areas</li>
+                    <li>Security services</li>
+                </ul>
+                </p>
+            </section>
 
 
 

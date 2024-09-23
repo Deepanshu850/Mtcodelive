@@ -630,7 +630,9 @@ include "./data/blogdata.php";
     </div>
     
 </header>
-
+<?php 
+// include './eventpop.php';
+?>
 
 <br>
 <style>
