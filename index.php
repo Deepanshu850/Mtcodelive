@@ -31,6 +31,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
     <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,minimum-scale=1" name=viewport>
     <meta content=Moneytreerealty.com name=Owner>
     <meta content=Moneytreereal.com name=Copyright>
+    <meta name="google-adsense-account" content="ca-pub-2216657759962890">
     <meta content="Real Estate Property Search" name=classification>
     <meta content=India name=distribution>
     <meta content=9cbb8fd8de22637b17d6c3b2efc2d19b name=p:domain_verify>
@@ -1449,9 +1450,12 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
 
         <?php
         include './header.php';
+        include './eventpop.php';
         ?>
-        <div class=container>
+        
 
+ 
+        <div class=container>
             <div class="d-flex banner align-items-center">
                 <div class=banner-left>
                     <h1 class="green-gradient-text">
@@ -1739,23 +1743,23 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                     images[currentIndex].style.display = 'block';
                 }
             </script>
-            <?php
-            function getTypeLink($type)
-            {
-                switch ($type) {
-                    case 'Residential':
-                        return '../category/residential-property';
-                    case 'Commercial':
-                        return '../category/commercial-property';
-                    case 'Studio Apartments':
-                        return '../category/studio-apartments';
-                    case 'Plots':
-                        return '../category/plots';
-                    default:
-                        return '../404';
+             <?php
+                function getTypeLink($type)
+                {
+                    switch ($type) {
+                        case 'Residential':
+                            return '../category/residential-property';
+                        case 'Commercial':
+                            return '../category/commercial-property';
+                        case 'Studio Apartments':
+                            return '../category/studio-apartments';
+                        case 'Plots':
+                            return '../category/plots';
+                        default:
+                            return '../404';
+                    }
                 }
-            }
-            ?>
+                ?>
             <div class=content>
                 <p class=gradient-heading>Properties
                 <p class=text-section>We Discover your dream property with us. Explore listings that match your lifestyle and budget, from modern city apartments to cozy country homes. Let us guide you home by Best Real Estate Consultant In Delhi/NCR.
@@ -1778,10 +1782,10 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                             <p><b>Price:</b><?php echo htmlspecialchars($property['price']); ?></p><a href="<?php echo htmlspecialchars($detailsPagePath); ?>" class=details-link>View Details</a>
                             <div><b>Type:</b>
                                 <p><?php foreach ($property['type'] as $type) : ?>
-                                        <a href="<?php echo htmlspecialchars(getTypeLink($type)); ?>">
-                                            <span><?php echo htmlspecialchars($type); ?></span>
-                                        </a>
-                                    <?php endforeach; ?>
+                                <a href="<?php echo htmlspecialchars(getTypeLink($type)); ?>">
+                                    <span><?php echo htmlspecialchars($type); ?></span>
+                                </a>
+                                <?php endforeach; ?>
                             </div>
                         </div>
                     </div><?php endforeach; ?><?php endif; ?></div><?php if (count($properties) > 6) : ?><div class=read-more-container><button onclick=showMoreProperties() id=readMoreBtn>Show More</button></div><?php endif; ?><script>
@@ -2222,12 +2226,12 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                 max-height: 14rem;
                 overflow-y: scroll;
                 scrollbar-width: none;
-
+            
             }
 
             .review-text::-webkit-scrollbar {
                 display: none;
-
+                
             }
 
 
@@ -2301,21 +2305,20 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                         font-size: 15px;
                         line-height: 1.65
                     }
-                </style>
-                <?php
-                include './data/blogdata.php';
+                </style><?php
+                         include './data/blogdata.php';
 
-                $latestblogs = array_slice($posts, -3);
+                        $latestblogs = array_slice($posts, -3);
 
 
-                function createSlug($title)
-                {
-                    $slug = strtolower($title);
-                    $slug = preg_replace('/[^a-z0-9-]+/', '-', $slug);
-                    $slug = trim($slug, '-');
-                    return $slug;
-                }
-                ?><div class="row justify-content-center g-4"><?php foreach (array_reverse($latestblogs) as $post) : ?><?php $slug = createSlug($post['title']); ?><div class="fadeInUp wow col-lg-4 col-md-6" data-wow-delay=200ms>
+                        function createSlug($title)
+                        {
+                            $slug = strtolower($title);
+                            $slug = preg_replace('/[^a-z0-9-]+/', '-', $slug);
+                            $slug = trim($slug, '-');
+                            return $slug;
+                        }
+                        ?><div class="row justify-content-center g-4"><?php foreach (array_reverse($latestblogs) as $post) : ?><?php $slug = createSlug($post['title']); ?><div class="fadeInUp wow col-lg-4 col-md-6" data-wow-delay=200ms>
                         <div class=news-card>
                             <div class=news-img><a href="blog/<?php echo $slug; ?>.php"><img loading="lazy" alt="News Image" src="blog/<?php echo $post['imageUrl']; ?>"></a>
                                 <div class=date><a href="blog/<?php echo $slug; ?>.php"><?php echo $post['title']; ?></a></div>
