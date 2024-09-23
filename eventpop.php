@@ -172,7 +172,7 @@
 
             // Automatically hide popup after 20 seconds
             setTimeout(function() {
-                popupWrapper.style.display = "flex";
+                popupWrapper.style.display = "none";
             }, 20000); // 20000 milliseconds = 20 seconds
         };
 

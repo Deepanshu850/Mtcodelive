@@ -12,3 +12,152 @@ sed -i '/<main>/,/<\/main>/ {
     s/<th>/<td>/g; 
     s/<\/th>/<\/td>/g 
 }' sector-156-noida.php
+
+
+
+
+
+** prompt for og **
+
+I will provide you with Open Graph tags for a real estate sector. Based on this input, optimize the Open Graph (OG) tags for multiple social media platforms including Facebook, LinkedIn, Twitter, and Pinterest. Ensure that all content values remain unchanged while generating the tags. For the output, include the following:
+
+General OG tags (for Facebook, LinkedIn, and other platforms).
+Twitter-specific tags (optimized for Twitter's large image card display).
+Pinterest-specific tags (optimized for article-based sharing).
+Here is the input for the OG tags:
+
+
+<meta property="og:title" content="Sector 162 Noida: Map, Property Rates, Projects, Review, Info">
+<meta property="og:site_name" content="Moneytree Realty">
+<meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-162-noida">
+<meta property="og:description" content="Sector 162 in Noida, Gautam Buddha Nagar, is an emerging sector offering residential and commercial opportunities, with promising infrastructure and future growth potential.">
+<meta property="og:type" content="property">
+<meta property="og:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-162-noida-banner.webp">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="">
+<meta property="og:locale" content="en_IN">
+
+
+
+Please generate the output in the following format:
+
+General OG tags.
+Twitter-specific tags.
+Pinterest-specific tags.
+
+
+
+
+** faq schema prompt **
+
+
+"I want to generate SEO-friendly FAQ HTML and a JSON-LD schema based on the following questions and answers about Sector 162 Noida. Please create two separate output blocks: one with the SEO-friendly HTML structure for FAQs and another with the JSON-LD structured data for FAQPage.
+
+Here are the FAQs:
+
+What properties are available in Sector 162?
+
+Sector 162 is selling all kinds of properties, including residential plots, apartments, and other commercial properties.
+How is the connectivity in Sector 162?
+
+The locality is well connected through major roads like the Greater Noida Expressway, DND Flyway, and NH-24, making commuting easy.
+Is there construction activity going on around?
+
+Yes, there are many infrastructural developments underway to ensure better connectivity and higher living standards in the locality.
+Please format the output in two blocks: one for HTML and one for the schema."
+
+Here’s the SEO-friendly HTML and FAQ schema for the FAQ data you provided:
+
+SEO-Friendly FAQ Data:
+html
+Copy code
+<section class="questions">
+    <h2>What properties are available in Sector 162?</h2>
+    <p>Sector 162 is selling all kinds of properties, including residential plots, apartments, and other commercial properties.</p>
+</section>
+
+<section class="questions">
+    <h2>How is the connectivity in Sector 162?</h2>
+    <p>The locality is well connected through major roads like the Greater Noida Expressway, DND Flyway, and NH-24, making commuting easy.</p>
+</section>
+
+<section class="questions">
+    <h2>Is there construction activity going on around?</h2>
+    <p>Yes, there are many infrastructural developments underway to ensure better connectivity and higher living standards in the locality.</p>
+</section>
+FAQ Schema in JSON-LD:
+html
+Copy code
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What properties are available in Sector 162?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sector 162 is selling all kinds of properties, including residential plots, apartments, and other commercial properties."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is the connectivity in Sector 162?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The locality is well connected through major roads like the Greater Noida Expressway, DND Flyway, and NH-24, making commuting easy."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there construction activity going on around?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, there are many infrastructural developments underway to ensure better connectivity and higher living standards in the locality."
+      }
+    }
+  ]
+}
+</script>
+These blocks are optimized for SEO and ready for integration. Let me know if you have more FAQs or need any other changes!
+
+
+
+
+** li listing prompt ** 
+
+Generate a list of HTML anchor tags based on the following input. Provide two formats: one with <li> tags and one without. Use the following common tag links for each category:
+
+Real Estate Investment: ../blog/real-estate-investment-a-comprehensive-guide-on-real-estate.php
+Property Management: ../contact.php
+Residential Real Estate: ../category/residential-property.php
+Real Estate Deals: ../best-property-dealers-in-noida.php
+Property Advice: ../real-estate-advisor-and-property-consulting-firm-in-india.php
+Real Estate Consulting: ../real-estate-consultant.php
+Input: "Sector 162 Noida Uttar Pradesh, Plots In Sector 162 Noida, Sector 162 Noida Gulawali, Sector 162 Noida Plots, Benzara Company Sector 162 Noida, Real Estate Investment, Property Management, Residential Real Estate, Residential Real Estate, Real Estate Deals, Property Advice, Real Estate Consulting"
+
+Output Format:
+
+With <li> tags:
+
+Each item should be wrapped in <li> and should link to a corresponding URL format like ./sector-162-noida for the relevant sectors, and the specified URLs for the real estate topics.
+Without <li> tags:
+
+Each item should be a standalone <a> tag without being wrapped in <li>.
+
+
+
+** product schema essential prompt**
+
+"Generate a structured data schema in JSON-LD format for a real estate product. Use the following details:
+
+Name: [Enter the sector name]
+Image URL: [Enter the image URL]
+Description: [Enter a detailed description of the sector, including its features, amenities, and connectivity.]
+Brand Name: Moneytree Realty
+Aggregate Rating:
+Rating Value: Randomize within the range of 4.2 to 4.8
+Rating Count: Randomize within the range of 2200 to 2900
+Make sure to format it as a JSON-LD script suitable for SEO purposes."
