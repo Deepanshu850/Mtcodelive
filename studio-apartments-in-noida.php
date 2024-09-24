@@ -210,91 +210,72 @@ noida" />
                     <tbody>
                         <tr>
                             <td>
-                                <p>Type of Real Estate Property</p>
+                                <p><strong>Type of Real Estate Property</strong></p>
                             </td>
                             <td>
-                                <p>GST Rate Till 31st March 2019</p>
+                                <p><strong>GST Rate Till 31st March 2019</strong></p>
                             </td>
                             <td>
-                                <p>Input Tax Credit</p>
+                                <p><strong>GST Rate (From 1st April 2019 Onwards)</strong></p>
                             </td>
-                            <td>
-                                <p>GST Rate (From 1st April 2019 Onwards)</p>
-                            </td>
-                            <td>
-                                <p>Input Tax Credit</p>
-                            </td>
+                            
+                            
                         </tr>
                         <tr>
                             <td>
-                                <p>Construction of Affordable Residential Apartments</p>
+                                <p><strong>Construction of Affordable Residential Apartments</strong></p>
                             </td>
                             <td>
                                 <p>8%</p>
                             </td>
                             <td>
-                                <p>Available</p>
-                            </td>
-                            <td>
                                 <p>1%</p>
                             </td>
-                            <td>
-                                <p>Not Available</p>
-                            </td>
+                            
+                            
                         </tr>
                         <tr>
                             <td>
-                                <p>Construction of Residential Apartments (Other than Affordable)</p>
+                                <p><strong>Construction of Residential Apartments (Other than Affordable)</strong></p>
                             </td>
                             <td>
                                 <p>12%</p>
-                            </td>
-                            <td>
-                                <p>Available</p>
                             </td>
                             <td>
                                 <p>5%</p>
                             </td>
-                            <td>
-                                <p>Not Available</p>
-                            </td>
+                            
+                            
                         </tr>
                         <tr>
                             <td>
-                                <p>Commercial Properties</p>
+                                <p><strong>Commercial Properties</strong></p>
                             </td>
                             <td>
                                 <p>12%</p>
                             </td>
                             <td>
-                                <p>Available</p>
-                            </td>
-                            <td>
                                 <p>12%</p>
                             </td>
-                            <td>
-                                <p>Available</p>
-                            </td>
+                            
+                            
                         </tr>
                         <tr>
                             <td>
-                                <p>Sale of Completed Flats/Units (Post Completion/Occupational Certificate)</p>
+                                <p><strong>Sale of Completed Flats/Units (Post Completion/Occupational Certificate)</strong></p>
                             </td>
                             <td>
                                 <p>Nil</p>
                             </td>
                             <td>
-                                <p>Not Available</p>
-                            </td>
-                            <td>
                                 <p>Nil</p>
                             </td>
-                            <td>
-                                <p>Not Available</p>
-                            </td>
+                            
+                            
                         </tr>
                     </tbody>
                 </table>
+
 
                 <p>For more information on GST on residential property for sale/studio apartments for sale, and any other real estate project or to get better insights to market trends and make a comprehensive property analysis, contact us now on <a href="tel:+919732300007"><strong>+91 9732300007</strong></a>.</p>
 
