@@ -23,7 +23,9 @@ for file in "$@"; do
             s/<\/thead>/<\/tbody>/g; 
             s/<th>/<td>/g; 
             s/<\/th>/<\/td>/g;
-            
+            s/<h2[^>]*><strong>\(.*\)<\/strong><\/h2>/<h2>\1<\/h2>/g;
+            s/<h3[^>]*><strong>\(.*\)<\/strong><\/h3>/<h3>\1<\/h3>/g;
+
         }' "$file"
         echo "$file processed successfully!"
     else
