@@ -1,5 +1,5 @@
 <?php
-include 'connection.php'; 
+include 'connection.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Collect and escape form data
@@ -42,6 +42,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "<script type='text/javascript'>
             alert('" . $message . "');
             window.location.href = 'career.php';
-          </script>";
+            </script>";
 }
-?>

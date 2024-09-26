@@ -21,8 +21,12 @@ for file in "$@"; do
             s/(h3)//Ig; 
             s/<thead>/<tbody>/g; 
             s/<\/thead>/<\/tbody>/g; 
-            s/<th>/<td>/g; 
+            
+            # Replace <th> with <td> and </th> with </td>
+            s/<th[^>]*>/<td>/g;
             s/<\/th>/<\/td>/g;
+
+            # Remove <strong> tags inside <h2> and <h3>
             s/<h2[^>]*><strong>\(.*\)<\/strong><\/h2>/<h2>\1<\/h2>/g;
             s/<h3[^>]*><strong>\(.*\)<\/strong><\/h3>/<h3>\1<\/h3>/g;
 

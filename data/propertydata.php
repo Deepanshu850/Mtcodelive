@@ -99,9 +99,9 @@ $properties = [
         'name' => 'Elan Town Centre Sector 67 Gurugram',
         'location' => 'Gurugram',
         'images' => [
-            'assets/img/projectdetails/elantower1.jpg',
-            'assets/img/projectdetails/elantower2.jpg',
-            'assets/img/projectdetails/elantower3.jpg'
+            'assets/img/projectdetails/elantower1.webp',
+            'assets/img/projectdetails/elantower2.webp',
+            'assets/img/projectdetails/elantower3.webp'
 
         ],
         'price' => 'On Request',
@@ -116,9 +116,9 @@ $properties = [
         'name' => 'Elan Epic Sector 70 Gurugram',
         'location' => 'Gurugram',
         'images' => [
-            'assets/img/projectdetails/elanepic1.jpg',
-            'assets/img/projectdetails/elanepic2.jpg',
-            'assets/img/projectdetails/elanepic3.jpg',
+            'assets/img/projectdetails/elanepic1.webp',
+            'assets/img/projectdetails/elanepic2.webp',
+            'assets/img/projectdetails/elanepic3.webp',
         ],
         'price' => 'On Request',
 
