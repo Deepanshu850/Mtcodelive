@@ -123,9 +123,7 @@ Noida Extension, Flats in Noida, Sale in Noida, Flats for Sale" />
 
         <main>
 
-            <h1>
-                Flats for Sale in Noida | Luxury Apartments in Noida
-            </h1>
+
 
 
             <div class="property-container">
@@ -160,6 +158,10 @@ Noida Extension, Flats in Noida, Sale in Noida, Flats for Sale" />
 
 
             </div>
+
+            <h1>
+                Flats for Sale in Noida | Luxury Apartments in Noida
+            </h1>
 
             <h2>Flats for Sale in Noida - Understanding Noida Real Estate</h2>
 

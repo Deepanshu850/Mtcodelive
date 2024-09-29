@@ -105,7 +105,6 @@ kosmos sector 128 noida, ready to move flats for sale in noida " />
 
         <main>
 
-            <h1>3 BHK Flats in Noida | Flats for Sale in Noida </h1>
 
 
             <div class="property-container">
@@ -130,6 +129,9 @@ kosmos sector 128 noida, ready to move flats for sale in noida " />
 
 
             </div>
+
+            <h1>3 BHK Flats in Noida | Flats for Sale in Noida </h1>
+
 
             <h2>3 BHK Flats in Noida - Overview</h2>
 

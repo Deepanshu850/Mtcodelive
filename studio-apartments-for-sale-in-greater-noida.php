@@ -6,13 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0">
 
     <title>
-        Studio Apartments in Noida, Studio Apartments for Sale in Noida
+        Studio Apartments for Sale in Greater Noida
     </title>
 
-    <meta name="description" content="Discover the best studio apartments in Noida, perfect for living or investment. Explore a wide range of studio apartments for sale in Noida, including fully furnished options in prime locations like Sector 62, Greater Noida, and Noida Extension. Whether you're looking for a studio apartment for rent or purchase, find the ideal 1 BHK studio apartment that suits your needs. Enjoy luxury studio living with modern amenities at competitive prices. Don't miss out on the opportunity to own or rent your dream studio apartment in Noida today!" />
+    <meta name="description" content="Purchase ready-to-move studio apartments in Greater Noida West. Find studio apartments for sale in Greater Noida at the best and most affordable prices." />
 
 
-    <meta name="keywords" content="" />
+    <meta name="keywords" content="studio apartment in greater noida, studio apartment in greater noida 
+for rent, studio apartment for rent in greater noida near pari chowk, 
+1 bhk studio apartment in greater noida, studio apartment in greater 
+noida west, studio apartment for sale in greater noida, 1 bhk studio 
+apartment for rent in greater noida, buy studio apartment in greater 
+noida, fully furnished studio apartment for rent in greater noida, fully 
+furnished studio apartment in greater noida, jaypee greens studio 
+apartments in greater noida, jaypee studio apartment in greater 
+noida, ready to move studio apartment in greater noida, studio 
+apartment in greater noida for sale, Studio Apartments In Greater 
+Noida, Studio Apartment In Greater Noida Ready To Move, Studio 
+Flats In Greater Noida, best studio apartments in greater noida, 
+studio apartment for sale in greater noida, studio apartment in 
+greater noida for sale" />
 
     <meta name="Owner" content="Moneytreerealty.com" />
     <meta name="Copyright" content="Moneytreereal.com" />
@@ -24,16 +37,32 @@
 
 
 
-    <meta property="og:title" content="Discover the Best Studio Apartments in Noida">
+    <!-- General OG Tags -->
+    <meta property="og:title" content="Studio Apartments for Sale in Greater Noida">
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/studio-apartments-for-sale-in-greater-noida">
-    <meta property="og:description" content="Explore a wide range of studio apartments for sale in Noida, including fully furnished options in prime locations like Sector 62, Greater Noida, and Noida Extension. Enjoy luxury living with modern amenities at competitive prices.">
+    <meta property="og:description" content="Purchase ready-to-move studio apartments in Greater Noida West. Find studio apartments for sale in Greater Noida at the best and most affordable prices.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://moneytreerealty.com/assets/img/studio-apartments-for-sale-in-greater-noida-banner.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Luxury Studio Apartments in Noida">
+    <meta property="og:image:alt" content="">
     <meta property="og:locale" content="en_IN">
+
+    <!-- Twitter-Specific Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Studio Apartments for Sale in Greater Noida">
+    <meta name="twitter:description" content="Purchase ready-to-move studio apartments in Greater Noida West. Find studio apartments for sale in Greater Noida at the best and most affordable prices.">
+    <meta name="twitter:image" content="https://moneytreerealty.com/assets/img/studio-apartments-for-sale-in-greater-noida-banner.webp">
+    <meta name="twitter:site" content="@MoneytreeRSPL">
+
+    <!-- Pinterest-Specific Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Studio Apartments for Sale in Greater Noida">
+    <meta property="og:description" content="Purchase ready-to-move studio apartments in Greater Noida West. Find studio apartments for sale in Greater Noida at the best and most affordable prices.">
+    <meta property="og:image" content="https://moneytreerealty.com/assets/img/studio-apartments-for-sale-in-greater-noida-banner.webp">
+    <meta property="og:url" content="https://moneytreerealty.com/studio-apartments-for-sale-in-greater-noida">
+
 
 
     <link rel="canonical" href="https://moneytreerealty.com/studio-apartments-for-sale-in-greater-noida" />
@@ -105,33 +134,40 @@
 
         <main>
 
-            <h1>
-                Studio Apartments in Greater Noida | Studio Apartments for Sale in Greater Noida
-
-            </h1>
 
 
             <div class="property-container">
 
                 <?php
-                // include './data/tempdata.php';
+                include './data/tempdata.php';
 
 
-                // $properties = array_filter($properties, function ($item) {
-                //     $targetType = 'Studio Apartments';
-                //     $targetLocation = 'Noida';
+                $matchingItems = [];
+                $targetIds = [3, 19];
 
-                //     return in_array(strtolower($targetType), array_map('strtolower', $item['type'])) &&
-                //         strtolower($item['location'][0]) === strtolower($targetLocation);
-                // });
+                foreach ($properties as $property) {
+                    if (in_array($property['id'], $targetIds)) {
+                        $matchingItems[] = $property;
+                    }
 
+                    if (count($matchingItems) == 2) {
+                        break;
+                    }
+                }
 
-                // $urlprefix = './propertydetail/';
+                $properties = $matchingItems;
 
-                // include './property-grid-level2.php';
+                $urlprefix = './propertydetail/';
+
+                include './property-grid-level2.php';
 
                 // print_r($properties);
                 ?>
+
+                <h1>
+                    Studio Apartments for Sale in Greater Noida
+
+                </h1>
 
 
                 <h2>Studio Apartments in Greater Noida</h2>
@@ -511,7 +547,7 @@
                     </tbody>
                 </table>
 
-                <h3>M3M The Line | Studio Apartments in Sector 72 Noida </strong><strong></h3>
+                <h3>M3M The Line | Studio Apartments in Sector 72 Noida </h3>
 
                 <p><a href="./propertydetail/m3m-the-line-sector-72-noida.php">M3M The Line</a> offers state-of-the-art studio apartments along with expansive high-street retail space on the ground floor exhibiting international as well as home grown brands. This property in close proximity to Greater Noida features studio apartments that provide an array of modern amenities like 100% Power Back-up, Amphitheatre, club house, swimming pool, gym, safe play area for kids.</p>
 
@@ -640,7 +676,18 @@
 
                 <p class="wp-block-tag-cloud">
 
-
+                    <a href="./studio-apartments-for-sale-in-greater-noida">Studio Apartments In Greater Noida</a>
+                    <a href="./studio-apartments-for-sale-in-greater-noida">Studio Apartment In Greater Noida</a>
+                    <a href="./studio-apartments-for-sale-in-greater-noida">Studio Apartment In Greater Noida West</a>
+                    <a href="./studio-apartments-for-sale-in-greater-noida">Studio Apartment In Greater Noida Ready To Move</a>
+                    <a href="./studio-apartments-for-sale-in-greater-noida">Studio Flats In Greater Noida</a>
+                    <a href="./studio-apartments-for-sale-in-greater-noida">Studio Apartment In Greater Noida For Sale</a>
+                    <a href="./blog/real-estate-investment-a-comprehensive-guide-on-real-estate.php">Real Estate Investment</a>
+                    <a href="./contact.php">Property Management</a>
+                    <a href="./category/residential-property.php">Residential Real Estate</a>
+                    <a href="./best-property-dealers-in-noida.php">Real Estate Deals</a>
+                    <a href="./real-estate-advisor-and-property-consulting-firm-in-india.php">Property Advice</a>
+                    <a href="./real-estate-consultant.php">Real Estate Consulting</a>
 
 
                 </p>
@@ -655,6 +702,42 @@
         <div class="tag-wrapper">
             <h6>Similar Tags:</h6>
             <ul class="tags">
+                <li>
+                    <a href="./studio-apartments-for-sale-in-greater-noida">Studio Apartments In Greater Noida</a>
+                </li>
+                <li>
+                    <a href="./studio-apartments-for-sale-in-greater-noida">Studio Apartment In Greater Noida</a>
+                </li>
+                <li>
+                    <a href="./studio-apartments-for-sale-in-greater-noida">Studio Apartment In Greater Noida West</a>
+                </li>
+                <li>
+                    <a href="./studio-apartments-for-sale-in-greater-noida">Studio Apartment In Greater Noida Ready To Move</a>
+                </li>
+                <li>
+                    <a href="./studio-apartments-for-sale-in-greater-noida">Studio Flats In Greater Noida</a>
+                </li>
+                <li>
+                    <a href="./studio-apartments-for-sale-in-greater-noida">Studio Apartment In Greater Noida For Sale</a>
+                </li>
+                <li>
+                    <a href="./blog/real-estate-investment-a-comprehensive-guide-on-real-estate.php">Real Estate Investment</a>
+                </li>
+                <li>
+                    <a href="./contact.php">Property Management</a>
+                </li>
+                <li>
+                    <a href="./category/residential-property.php">Residential Real Estate</a>
+                </li>
+                <li>
+                    <a href="./best-property-dealers-in-noida.php">Real Estate Deals</a>
+                </li>
+                <li>
+                    <a href="./real-estate-advisor-and-property-consulting-firm-in-india.php">Property Advice</a>
+                </li>
+                <li>
+                    <a href="./real-estate-consultant.php">Real Estate Consulting</a>
+                </li>
 
 
             </ul>

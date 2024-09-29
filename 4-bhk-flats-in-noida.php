@@ -195,9 +195,7 @@ Noida,List of House Brokers in Noida" />
                     alt="4 BHK Flats in Noida | Best Flats in Noida">
             </div> -->
 
-            <h1>
-                4 BHK Flats in Noida | Best Flats in Noida
-            </h1>
+
 
 
             <div class="property-container">
@@ -233,6 +231,10 @@ Noida,List of House Brokers in Noida" />
 
 
             </div>
+
+            <h1>
+                4 BHK Flats in Noida | Best Flats in Noida
+            </h1>
 
             <h2>4 BHK Flats in Noida - Overview</h2>
 

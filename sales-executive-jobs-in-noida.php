@@ -5,9 +5,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0">
 
-    <title>Careers at MoneyTree Realty - Join Our Team in Delhi/NCR</title>
-    <meta name="description" content="Explore career opportunities and join the team at MoneyTree Realty, the leading real estate property consultant in Delhi/NCR. Discover our values, culture, and current job openings." />
-    <meta name="keywords" content="Careers in Real Estate, MoneyTree Realty Jobs, Real Estate Careers Delhi/NCR, Property Consultant Careers, Real Estate Job Opportunities" />
+    <title>
+        Sales Executive Jobs in Noida | Sales Job Openings & Vacancies Online in Noida - 2024
+    </title>
+    <meta name="description" content="Find the latest sales Executive job openings in Noida on Moneytree Realty. Apply online for verified sales jobs, free registration, and contact HR directly for interviews. " />
+
+    <meta name="keywords" content="sales executive jobs in noida, retail sales executive jobs in noida, sales executive 
+jobs in noida for freshers, inside sales executive jobs in noida, sales executive in 
+shoppingmall jobs in greater noida, sales executive jobs in noida in real estate, 
+Real estate sales executive job, sales jobs in noida, sales job in greater noida, 
+sales and marketing jobs in noida, counter sales job in noida, real estate sales 
+jobs in noida, sales job in noida for fresher, sales manager jobs in noida, sales 
+marketing job in noida, b2b inside sales job in noida, channel sales manager job 
+in noida, channel sales jobs in noida, corporate sales jobs in noida, freshers for 
+sales jobs in noida " />
 
     <meta name="Owner" content="Moneytreerealty.com" />
     <meta name="Copyright" content="Moneytreereal.com" />
@@ -19,8 +30,54 @@
 
 
 
-    <link rel="canonical" href="https://moneytreerealty.com/career" />
+    <link rel="canonical" href="https://moneytreerealty.com/sales-executive-jobs-in-noida" />
 
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org/",
+            "@type": "JobPosting",
+            "title": "Sales Executive",
+            "description": "<p>This is a full-time role as a Sales Executive at MoneyTree Realty. Sales Executives are responsible for generating leads, qualifying prospects, and closing sales deals. They communicate with clients, understand their needs, and present appropriate solutions.</p><p><strong>Company Description</strong><br>MoneyTree Realty Services Pvt. Ltd. is a leading real estate service provider located in Noida. With a team of over 250 highly trained professionals, MoneyTree Realty has been serving the industry for the past 13 years. As a trusted brand, MoneyTree Realty deals with top real estate giants and manages a wide range of properties including flats, villas, plots, duplexes, penthouses, farmhouses, and commercial properties. With a present client base of over 10,000 happy investors and over 25,000 successful deals, MoneyTree Realty is committed to providing exceptional service and increasing customer satisfaction on a daily basis.</p>",
+            "identifier": {
+                "@type": "PropertyValue",
+                "name": "MoneyTree Realty",
+            },
+            "datePosted": "2024-07-10",
+            "employmentType": "FULL_TIME",
+            "hiringOrganization": {
+                "@type": "Organization",
+                "name": "MoneyTree Realty Services Pvt. Ltd.",
+                "sameAs": "https://moneytreerealty.com/",
+                "logo": "https://moneytreerealty.com/assets/img/logo.png"
+            },
+            "jobLocation": {
+                "@type": "Place",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Floor No-2, Tower B, Tapasya Corp Heights, Subarea, Sector 126",
+                    "addressLocality": "Noida",
+                    "addressRegion": "UP",
+                    "postalCode": "201303",
+                    "addressCountry": "IN"
+                }
+            },
+            "baseSalary": {
+                "@type": "MonetaryAmount",
+                "currency": "INR",
+                "value": {
+                    "@type": "QuantitativeValue",
+                    "value": 20000,
+                    "minValue": 17000,
+                    "maxValue": 23000,
+                    "unitText": "MONTH"
+                }
+            },
+            "workHours": "9:00 AM to 6:00 PM",
+            "responsibilities": "Generating leads, qualifying prospects, and closing sales deals. Communicating with clients, understanding their needs, and presenting appropriate solutions.",
+            "qualifications": "Experience in sales or customer service, strong communication skills, ability to work independently and as part of a team."
+        }
+    </script>
 
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
@@ -28,6 +85,7 @@
     <link href="./assets/css/nice-select.css" rel="stylesheet">
     <link rel="icon" href="./assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
     <link rel="stylesheet" href="./assets/css/property-page.css">
+    <link rel="stylesheet" href="./assets/css/sales-executive-page.css">
 
 
 
@@ -86,75 +144,6 @@
     include './header.php';
     ?>
 
-    <style>
-        td>ul {
-            text-align: start;
-        }
-
-        .flex-wrapper {
-            display: grid;
-            grid-template-columns: 80% 20%;
-        }
-
-        main {
-            width: 95%;
-            padding-top: 1rem;
-            margin-inline: auto;
-        }
-
-        .flex-wrapper>div:nth-child(2) {
-            position: sticky;
-            top: 8rem;
-            height: 60vh;
-            /* background-color: pink; */
-
-        }
-
-        .flex-wrapper>div:nth-child(2) button {
-            position: relative;
-            top: 35%;
-            left: 5%;
-
-        }
-
-        .apply-button {
-            display: block;
-            text-align: center;
-            background: radial-gradient(circle at top, #0e9688 0%, #007f70 30%, #005b52 100%);
-            color: white;
-            padding: 8px 40px;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: 500;
-            transition: background-color 0.3s ease;
-            box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
-            margin-top: 1rem;
-            letter-spacing: 1.6px;
-            font-weight: 600;
-        }
-
-        .apply-button:hover {
-            transform: translateY(-1px);
-            background: radial-gradient(circle at top, #0e9688 0%, #1c9486 30%, #005b52 100%);
-            color: white;
-        }
-
-        /* .apply-button--white {
-            
-            background: #fff;
-            border: 2px solid #005b52;
-            color: #005b52;
-
-        }
-
-        .apply-button--white:hover {
-            transform: translateY(-1px);
-            background: radial-gradient(circle at top, #f3fdfc, #f6fdfc, #f3fffe);
-            color: #005b52;
-
-        } */
-    </style>
-
 
 
     <div class="flex-wrapper">
@@ -162,11 +151,18 @@
 
 
         <main>
-            <h1>Sales Executive Jobs in Noida</h1>
+            <h1>
+                Sales Executive Jobs in Noida | Sales Jobs in Noida
+            </h1>
 
             <h2>Sales Executive Jobs in Noida - A Growing Opportunity </h2>
 
             <p>Globalisation of the economy along with numerous infrastructural developments in the city of Noida has made the city an emerging hub making it a preferred option among working professionals to start or uplift their careers in various kinds of jobs that include IT &amp; Software Jobs, E-commerce Jobs, Healthcare Jobs, Finance Jobs, and Sales Executive Jobs. </p>
+
+
+            <button class="button-on-mobile form-toggle apply-button">
+                Apply Now
+            </button>
 
             <p>Sales Executive Jobs are one of the most emerging professions in corporations and provide an excellent chance to earn huge wealth with key skills like lead generation, expert sales presentations, maintaining long-term client relationship management and strong insights into market trends. </p>
 
@@ -368,225 +364,25 @@
             <p>Apply now and be a part of the extended family of <a href="./index.php"><strong>MoneyTree Realty</strong></a>!</p>
 
 
-            <button class="apply-button">
+            <button class="form-toggle apply-button">
                 Apply Now
             </button>
 
-
-            <form method="post" action="applicantprocess.php" enctype="multipart/form-data">
-                <div>
-                    <label>Your Name :</label>
-                    <input type="text" name="name" placeholder="" required pattern="[A-Za-z\s]+" title="Name should only contain letters and spaces.">
-                </div>
-                <div>
-                    <label>Your Email :</label>
-                    <input type="email" name="email" placeholder="example@gmail.com" required>
-                </div>
-                <div>
-                    <label>Mobile :</label>
-                    <input type="tel" name="mobile" placeholder="Mobile" required pattern="\d{10}" title="Mobile number should be 10 digits." minlength="10" maxlength="10">
-                </div>
-                <div>
-                    <label>Experience Years :</label>
-                    <input type="number" name="experience_years" placeholder="+1" required min="1" max="50" title="Experience should be between 1 and 50 years.">
-                </div>
-                <!-- <div>
-                    <label>Upload Resume :</label>
-                    <input type="file" name="resume" class="form-control" id="exampleFormControlFile1" required accept=".pdf,.doc,.docx" onchange="validateFile()">
-                </div> -->
-
-
-                <div class="file-upload-wrapper">
-                    <label for="file-upload" class="file-upload-label">
-                        <img src="icon-attachment.png" alt="Attach file" class="file-icon" id="file-preview-icon">
-                        <div class="file-details">
-                            <!-- <strong>Resume<span class="required">*</span></strong> -->
-                            <p id="file-chosen-text">No file chosen</p>
-                            <small>(Max 2MB size)</small>
-                        </div>
-                    </label>
-                    <input type="file" name="resume" id="file-upload" accept=".pdf,.doc,.docx" onchange="updateFileName()" required>
-                </div>
-
-
-                <div>
-                    <button type="submit" class="apply-button">Submit Now</button>
-                </div>
-
-
-            </form>
-
-
-            <style>
-                /* Style for file input wrapper */
-                .file-upload-wrapper {
-                    position: relative;
-                    width: 100%;
-                    max-width: 400px;
-                    margin: 10px 0;
-                }
-
-                /* Hides the default file input */
-                input[type="file"] {
-                    width: 100%;
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    opacity: 0;
-                    cursor: pointer;
-                }
-
-                /* Style for the custom file label */
-                .file-upload-label {
-                    display: flex;
-                    align-items: center;
-                    padding: 10px;
-                    border: 1px solid #ddd;
-                    border-radius: 4px;
-                    background-color: #f9f9f9;
-                    cursor: pointer;
-                }
-
-                .file-icon {
-                    width: 40px;
-                    height: 40px;
-                    margin-right: 10px;
-                }
-
-                .file-details {
-                    display: flex;
-                    flex-direction: column;
-                }
-
-                .file-details strong {
-                    font-size: 16px;
-                }
-
-                .file-details small {
-                    color: gray;
-                    font-size: 12px;
-                }
-
-                .file-details p {
-                    color: gray;
-                    font-size: 14px;
-                    margin-top: 5px;
-                }
-
-                #file-preview-icon {
-                    width: 40px;
-                    height: 40px;
-                    object-fit: contain;
-                }
-
-                label {
-                    font-size: 12px;
-                    color: #ced4da;
-                    width: max-content;
-                }
-
-                textarea {
-                    border: none;
-                }
-
-                input::placeholder {
-                    color: #6c757d;
-
-                }
-
-                form {
-                    display: flex;
-                    flex-direction: column;
-                    padding: 1rem 0.8rem;
-                    width: 70%;
-                }
-
-                form div {
-                    display: flex;
-                    align-items: center;
-
-                    /* outline: 2px solid red; */
-                }
-
-                form input {
-                    margin-bottom: 1em;
-                    border-radius: 6px;
-                    outline: 1.85px solid #e9ecef;
-                    padding: 4px 10px;
-                    font-size: 14px;
-                    width: 100%;
-                }
-
-
-                input:not(:placeholder-shown):valid {
-                    outline-color: #52b788;
-                }
-
-
-                input:not(:placeholder-shown):invalid {
-                    outline-color: #ee6055;
-                }
-
-                input:focus:invalid,
-                textarea:focus {
-                    outline-color: #ced4da;
-                }
-            </style>
-
-            <script>
-                function updateFileName() {
-                    var fileInput = document.getElementById('file-upload');
-                    var fileChosenText = document.getElementById('file-chosen-text');
-                    var fileIcon = document.getElementById('file-preview-icon');
-
-                    if (fileInput.files.length > 0) {
-                        var fileName = fileInput.files[0].name;
-                        var fileType = fileInput.files[0].type;
-
-                        fileChosenText.textContent = fileName;
-
-                        if (fileType === "application/pdf") {
-                            fileIcon.src = "icon-pdf.png";
-                        } else {
-                            fileIcon.src = "icon-attachment.png";
-                        }
-                    } else {
-                        fileChosenText.textContent = "No file chosen";
-                        fileIcon.src = "icon-attachment.png";
-                    }
-                }
-
-                function validateFile() {
-                    const fileInput = document.getElementById('exampleFormControlFile1');
-                    const filePath = fileInput.value;
-                    const allowedExtensions = /(\.pdf|\.doc|\.docx)$/i;
-                    if (!allowedExtensions.exec(filePath)) {
-                        alert('Please upload file having extensions .pdf/.doc/.docx only.');
-                        fileInput.value = '';
-                        return false;
-                    }
-                    if (fileInput.files[0].size > 5242880) { // 5MB
-                        alert('File size exceeds 5 MB');
-                        fileInput.value = '';
-                        return false;
-                    }
-                }
-            </script>
-
-
-
         </main>
-
-
         <div>
-            <button class="apply-button">
+            <button class="form-toggle apply-button">
                 Apply Now
             </button>
         </div>
 
     </div>
 
+
+
+
+
     <?php
+    include './job-applicant-form.php';
     include './more-tags.php';
     include './footer.php';
     ?>

@@ -135,9 +135,9 @@ $properties = [
         'name' => 'Godrej Aristocrat Sector 49',
         'location' => 'Gurugram',
         'images' => [
-            'assets/img/projectdetails/godrejaristocrat1.jpg',
-            'assets/img/projectdetails/godrejaristocrat2.jpg',
-            'assets/img/projectdetails/godrejaristocrat3.jpg',
+            'assets/img/projectdetails/godrejaristocrat1.webp',
+            'assets/img/projectdetails/godrejaristocrat2.webp',
+            'assets/img/projectdetails/godrejaristocrat3.webp',
 
         ],
         'price' => 'On Request',
@@ -203,8 +203,8 @@ $properties = [
         'location' => 'Gurugram',
         'images' => [
             'assets/img/projectdetails/elanimperial1.webp',
-            'assets/img/projectdetails/elanimperial2.jpg',
-            'assets/img/projectdetails/elanimperial3.jpg',
+            'assets/img/projectdetails/elanimperial2.webp',
+            'assets/img/projectdetails/elanimperial3.webp',
         ],
         'price' => 'On Request',
 

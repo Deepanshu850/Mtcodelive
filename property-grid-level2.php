@@ -44,11 +44,11 @@ function getTypeLink($type)
 
                 <!-- data part -->
                 <div class="property-card-text">
-                    <h3>
+                    <h2>
                         <a class="colored-link" href="<?php echo $urlprefix . $property['link']; ?>">
                             <?php echo $property['name'] ?>
                         </a>
-                    </h3>
+                    </h2>
                     <div class="data-grid">
                         <div>
                             <!-- type -->
@@ -439,7 +439,7 @@ function getTypeLink($type)
         margin: 0;
     }
 
-    .property-card h3 {
+    .property-card h2 {
         font-size: 20px;
         margin-block: 6px 12px;
     }

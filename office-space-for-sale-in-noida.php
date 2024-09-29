@@ -6,13 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0">
 
     <title>
-        Studio Apartments in Noida, Studio Apartments for Sale in Noida
+        Office Space for Sale in Noida | Office Space in Noida
     </title>
 
-    <meta name="description" content="" />
+    <meta name="description" content="Searching for office space on Noida Expressway? Check out prime resale options with competitive prices. Find the best commercial offices for sale in Noida’s top locations." />
 
 
-    <meta name="keywords" content="" />
+    <meta name="keywords" content="office space in noida, office space for rent in noida, office space for 
+sale in noida, office space for rent in noida sector 62, commercial 
+office space in noida, office space in greater noida, office space in 
+noida extension, coworking office space in noida, office space in 
+noida expressway, shared office space in noida, office space in sector 
+132 noida, commercial office space for lease in noida, Office Space In 
+Noida,Commercial Space In Noida,Shared Office Space In Noida,Small 
+Office Space In Noida,Office Space Locations,Commercial Office 
+Space In Noida,Commercial Office Space In Noida Expressway,Office 
+Space In Noida For Sale,Office Space For Sale In Noida,Office Space 
+Sizes,Coworking Office Space In Noida,Office Space In Noida 
+Expressway,Office Space On Noida Expressway,Buy Office Space In 
+Noida,Ready To Move Office Space In Noida,Fully Furnished Office 
+Space In Noida,Office Space In Noida For Purchase,Office Space For 
+Purchase In Noida,Office Space For Sale On Noida Expressway,Office 
+Space Noida Expressway,Office Space In Noida Price" />
 
     <meta name="Owner" content="Moneytreerealty.com" />
     <meta name="Copyright" content="Moneytreereal.com" />
@@ -24,16 +39,32 @@
 
 
 
-    <meta property="og:title" content="">
+    <!-- General Open Graph Tags for Facebook, LinkedIn, etc. -->
+    <meta property="og:title" content="Office Space for Sale in Noida | Office Space in Noida">
     <meta property="og:site_name" content="Moneytree Realty">
-    <meta property="og:url" content="https://moneytreerealty.com/office-space-for-sale-in-noida.php">
-    <meta property="og:description" content="">
+    <meta property="og:url" content="https://moneytreerealty.com/office-space-for-sale-in-noida">
+    <meta property="og:description" content="Searching for office space on Noida Expressway? Check out prime resale options with competitive prices. Find the best commercial offices for sale in Noida’s top locations.">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://moneytreerealty.com/assets/img/office-space-for-sale-in-noida.php-banner.webp">
+    <meta property="og:image" content="https://moneytreerealty.com/assets/img/office-space-for-sale-in-noida-banner.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Luxury Studio Apartments in Noida">
+    <meta property="og:image:alt" content="Office space for sale in Noida banner image">
     <meta property="og:locale" content="en_IN">
+
+    <!-- Twitter Specific Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Office Space for Sale in Noida | Office Space in Noida">
+    <meta name="twitter:description" content="Searching for office space on Noida Expressway? Check out prime resale options with competitive prices. Find the best commercial offices for sale in Noida’s top locations.">
+    <meta name="twitter:image" content="https://moneytreerealty.com/assets/img/office-space-for-sale-in-noida-banner.webp">
+    <meta name="twitter:site" content="@MoneytreeRSPL">
+
+    <!-- Pinterest Specific Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Office Space for Sale in Noida | Office Space in Noida">
+    <meta property="og:description" content="Searching for office space on Noida Expressway? Check out prime resale options with competitive prices. Find the best commercial offices for sale in Noida’s top locations.">
+    <meta property="og:image" content="https://moneytreerealty.com/assets/img/office-space-for-sale-in-noida-banner.webp">
+    <meta property="og:url" content="https://moneytreerealty.com/office-space-for-sale-in-noida">
+
 
 
     <link rel="canonical" href="https://moneytreerealty.com/office-space-for-sale-in-noida" />
@@ -105,34 +136,41 @@
 
         <main>
 
-            <h1>
-                Office Space in Noida | Office Space for Sale in Noida
 
-            </h1>
 
 
             <div class="property-container">
 
                 <?php
-                // include './data/tempdata.php';
+                include './data/tempdata.php';
 
 
-                // $properties = array_filter($properties, function ($item) {
-                //     $targetType = 'Studio Apartments';
-                //     $targetLocation = 'Noida';
+                $matchingItems = [];
+                $targetIds = [1, 27];
 
-                //     return in_array(strtolower($targetType), array_map('strtolower', $item['type'])) &&
-                //         strtolower($item['location'][0]) === strtolower($targetLocation);
-                // });
+                foreach ($properties as $property) {
+                    if (in_array($property['id'], $targetIds)) {
+                        $matchingItems[] = $property;
+                    }
 
+                    if (count($matchingItems) == 2) {
+                        break;
+                    }
+                }
 
-                // $urlprefix = './propertydetail/';
+                $properties = $matchingItems;
 
-                // include './property-grid-level2.php';
+                $urlprefix = './propertydetail/';
+
+                include './property-grid-level2.php';
 
                 // print_r($properties);
                 ?>
 
+                <h1>
+                    Office Space for Sale in Noida | Office Space in Noida
+                </h1>
+                
                 <h2>Office Space in Noida - Thriving Business Destination </h2>
 
                 <p>The globalisation of the economy coupled with numerous social infrastructure developments have initiated various MNCs and Startups to set their offices in Noida and be part of the emerging Noida real estate. Government initiatives such as constructing <strong>&lsquo; <a href="./blog/noida-international-airport-jewar-airport.php">Noida International Airport</a> &rsquo;</strong> in Jewar Uttar Pradesh to boost the seamless connectivity and ease load on the Indira Gandhi international Airport has skyrocketed the capital appreciation of property for sale in Noida along with its economy and hence promoting various talented working professionals to move to the city.</p>
@@ -425,6 +463,19 @@
                 <p class="wp-block-tag-cloud">
 
 
+                    <a href="./office-space-for-sale-in-noida">Office Space In Noida</a>
+                    <a href="./category/commercial-property-for-sale-noida.php">Commercial Space In Noida</a>
+                    <a href="./office-space-for-sale-in-noida">Shared Office Space In Noida</a>
+                    <a href="./office-space-for-sale-in-noida">Small Office Space In Noida</a>
+                    <a href="./office-space-for-sale-in-noida">Office Space Locations</a>
+                    <a href="./office-space-for-sale-in-noida">Commercial Office Space In Noida</a>
+                    <a href="./office-space-for-sale-in-noida">Commercial Office Space In Noida Expressway</a>
+                    <a href="./blog/real-estate-investment-a-comprehensive-guide-on-real-estate.php">Real Estate Investment</a>
+                    <a href="./contact.php">Property Management</a>
+                    <a href="./category/residential-property.php">Residential Real Estate</a>
+                    <a href="./best-property-dealers-in-noida.php">Real Estate Deals</a>
+                    <a href="./real-estate-advisor-and-property-consulting-firm-in-india.php">Property Advice</a>
+                    <a href="./real-estate-consultant.php">Real Estate Consulting</a>
 
 
                 </p>
@@ -439,6 +490,47 @@
         <div class="tag-wrapper">
             <h6>Similar Tags:</h6>
             <ul class="tags">
+
+                <li>
+                    <a href="./office-space-for-sale-in-noida">Office Space In Noida</a>
+                </li>
+                <li>
+                    <a href="./category/commercial-property-for-sale-noida.php">Commercial Space In Noida</a>
+                </li>
+                <li>
+                    <a href="./office-space-for-sale-in-noida">Shared Office Space In Noida</a>
+                </li>
+                <li>
+                    <a href="./office-space-for-sale-in-noida">Small Office Space In Noida</a>
+                </li>
+                <li>
+                    <a href="./office-space-for-sale-in-noida">Office Space Locations</a>
+                </li>
+                <li>
+                    <a href="./office-space-for-sale-in-noida">Commercial Office Space In Noida</a>
+                </li>
+                <li>
+                    <a href="./office-space-for-sale-in-noida">Commercial Office Space In Noida Expressway</a>
+                </li>
+                <li>
+                    <a href="./blog/real-estate-investment-a-comprehensive-guide-on-real-estate.php">Real Estate Investment</a>
+                </li>
+                <li>
+                    <a href="./contact.php">Property Management</a>
+                </li>
+                <li>
+                    <a href="./category/residential-property.php">Residential Real Estate</a>
+                </li>
+                <li>
+                    <a href="./best-property-dealers-in-noida.php">Real Estate Deals</a>
+                </li>
+                <li>
+                    <a href="./real-estate-advisor-and-property-consulting-firm-in-india.php">Property Advice</a>
+                </li>
+                <li>
+                    <a href="./real-estate-consultant.php">Real Estate Consulting</a>
+                </li>
+
 
 
             </ul>

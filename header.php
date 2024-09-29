@@ -315,7 +315,7 @@ include "./data/blogdata.php";
                     <li> <a href="./associated-developers" class="drop-down"> DEVELOPERS</a></li>
                     <li> <a href="./media" class="drop-down">MEDIA</a> </li>
                     <li> <a href="./calendar-tab" class="drop-down">CALENDAR </a> </li>
-                    <li> <a href="./navratree-property-mela" class="drop-down">Event </a> </li>
+                    <li> <a href="./proptree-mela" class="drop-down">Event </a> </li>
 
                 </ul>
 
@@ -536,7 +536,7 @@ include "./data/blogdata.php";
                 <span><a href="tel:+919732300007">+91-9732300007</a></span>
             </div>
         </div>
-        
+
     </div>
 
     <style>
@@ -628,9 +628,9 @@ include "./data/blogdata.php";
 
         <div class="sidebar-button mobile-menu-btn "> <span></span> </div>
     </div>
-    
+
 </header>
-<?php 
+<?php
 // include './eventpop.php';
 ?>
 

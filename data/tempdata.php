@@ -35,6 +35,8 @@ $properties = [
         'area' => 'NaN',
         'type' => ['Commercial'],
         'typeDetail' => ['Commercial Spaces', '3 BHK Flats', '4 BHK Flats', '5 BHK Flats'],
+        'type' => ['Commercial'],
+        'typeDetail' => ['Commercial Spaces', '3 BHK Flats', '4 BHK Flats', '5 BHK Flats'],
         'rera' => ['UPRERAPRJ442214', 'https://up-rera.in/Projectsummary?UI0aPA1ISD=0BKwyQzoBMM=&NPJ6RAme=8Bf1gILwY2pA1ml6WFDQF/L0AWTmf89Z&PaURJEMAN4=ZL9MNERkNdbH1a1ciSSeCw==&IRSAHEB=D6PY3lyims8='],
         'shortDescription' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, amet! Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aut? Aut quod deserunt quaerat nihil.',
     ],

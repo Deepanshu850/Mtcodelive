@@ -135,10 +135,7 @@ noida" />
 
         <main>
 
-            <h1>
-                Studio Apartments in Noida | Studio Apartments for Sale in Noida
 
-            </h1>
 
 
             <div class="property-container">
@@ -163,7 +160,10 @@ noida" />
                 // print_r($properties);
                 ?>
 
+                <h1>
+                    Studio Apartments in Noida | Studio Apartments for Sale in Noida
 
+                </h1>
 
 
                 <h2>Studio Apartments in Noida - Understanding Noida Real Estate </h2>
@@ -218,8 +218,8 @@ noida" />
                             <td>
                                 <p><strong>GST Rate (From 1st April 2019 Onwards)</strong></p>
                             </td>
-                            
-                            
+
+
                         </tr>
                         <tr>
                             <td>
@@ -231,8 +231,8 @@ noida" />
                             <td>
                                 <p>1%</p>
                             </td>
-                            
-                            
+
+
                         </tr>
                         <tr>
                             <td>
@@ -244,8 +244,8 @@ noida" />
                             <td>
                                 <p>5%</p>
                             </td>
-                            
-                            
+
+
                         </tr>
                         <tr>
                             <td>
@@ -257,8 +257,8 @@ noida" />
                             <td>
                                 <p>12%</p>
                             </td>
-                            
-                            
+
+
                         </tr>
                         <tr>
                             <td>
@@ -270,8 +270,8 @@ noida" />
                             <td>
                                 <p>Nil</p>
                             </td>
-                            
-                            
+
+
                         </tr>
                     </tbody>
                 </table>

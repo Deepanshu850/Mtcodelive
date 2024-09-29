@@ -126,9 +126,7 @@ property for sale in noida, commercial property for rent sale in noida " />
 
         <main>
 
-            <h1>
-                Commercial Property in Noida | Commercial Property for sale in Noida
-            </h1>
+
 
 
             <div class="property-container">
@@ -156,7 +154,9 @@ property for sale in noida, commercial property for rent sale in noida " />
 
 
             </div>
-
+            <h1>
+                Commercial Property in Noida | Commercial Property for sale in Noida
+            </h1>
 
             <h2>Commercial Property in Noida - Overview </h2>
 
