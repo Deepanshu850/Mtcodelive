@@ -103,8 +103,13 @@ td {
 .side-flex {
 	display: flex;
 }
+
 .side-flex > div {
 	width: 30%;
+	/* background: pink; */
+	height: 300vh;
+	position: sticky;
+	top: 5rem;
 }
 @media (width < 1000px) {
 	.side-flex {
@@ -113,6 +118,8 @@ td {
 	}
 	.side-flex > div {
 		width: 100%;
+		height: min-content;
+		position: relative;
 	}
 }
 

@@ -10,28 +10,46 @@ fi
 for file in "$@"; do
     if [ -f "$file" ]; then
         echo "Processing $file..."
-        sed -i '/<main>/,/<\/main>/ { 
+        if sed -i.bak '/<main>/,/<\/main>/ { 
+            # Remove empty <strong> tags or those with only white spaces
+            s/<strong>\s*<\/strong>//g;
+
+            # Remove instances of </strong><strong>
+            s/<\/strong><strong>//g;
+
+            # Remove <p>&nbsp;</p> and replace &nbsp; with a space
             /<p>&nbsp;<\/p>/d; 
             s/&nbsp;/ /g; 
+
+            # Update <table> and <ul> with specific classes
             s/<table[^>]*>/<table class="beautiful-table">/g; 
             s/<ul[^>]*>/<ul class="arrow-list">/g; 
+
+            # Update <td> and <th> elements
             s/<td[^>]*>/<td>/g; 
             s/<td>.*<\/td>/<td><\/td>/g; 
             s/(h2)//Ig; 
             s/(h3)//Ig; 
             s/<thead>/<tbody>/g; 
-            s/<\/thead>/<\/tbody>/g; 
-            
+            s/<\/thead>/<\/tbody>/g;
+
             # Replace <th> with <td> and </th> with </td>
             s/<th[^>]*>/<td>/g;
             s/<\/th>/<\/td>/g;
 
-            # Remove <strong> tags inside <h2> and <h3>
-            s/<h2[^>]*><strong>\(.*\)<\/strong><\/h2>/<h2>\1<\/h2>/g;
-            s/<h3[^>]*><strong>\(.*\)<\/strong><\/h3>/<h3>\1<\/h3>/g;
+            # Remove <strong> tags inside <h2>
+            s/<h2>\s*<strong>\(.*\)<\/strong>\s*<\/h2>/<h2>\1<\/h2>/g;
+            s/<h2><strong>\(.*\)<\/strong><\/h2>/<h2>\1<\/h2>/g;
 
-        }' "$file"
-        echo "$file processed successfully!"
+            # Remove <strong> tags inside <h3>
+            s/<h3>\s*<strong>\(.*\)<\/strong>\s*<\/h3>/<h3>\1<\/h3>/g;
+            s/<h3><strong>\(.*\)<\/strong><\/h3>/<h3>\1<\/h3>/g;
+
+        }' "$file"; then
+            echo "$file processed successfully!"
+        else
+            echo "Error processing $file."
+        fi
     else
         echo "$file does not exist."
     fi

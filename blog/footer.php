@@ -63,7 +63,7 @@
 
         margin-bottom: 14px;
         font-size: 14px;
-        color: #7e7e7e;
+        color: #F2F0EF;
         line-height: 28px;
     }
 
@@ -130,7 +130,7 @@
     }
 
     .footer-widget ul li a {
-        color: #878787;
+        color: #F2F0EF;
         text-transform: capitalize;
         transition: color 200ms ease-in;
     }
@@ -211,7 +211,8 @@
         padding-block: 5px;
         width: 285px;
     }
-     .footer-text a {
+
+    .footer-text a {
         font-size: 16px;
         font-weight: 600;
         background: linear-gradient(45deg, #d39f51, #e5b566, #f0cb7b, #f8e292, #fff7a9);
@@ -238,31 +239,37 @@
                         <div class="footer-logo">
                             <a href="../index.php"><img src="../assets/img/footer-logo.png" class="img-fluid" alt="moneytree realty logo"></a>
                         </div>
-                     <div class="footer-text">
-    <p>
-        Floor no-2, Tapasya Corp Heights,<br /> Subarea, Sector 126, <br />Noida, Uttar
-        Pradesh
-        201303
-    </p>
-    <a href="tel:+919266313539">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.17-.17c1.12.56 2.38.86 3.69.86a1 1 0 011 1v3.59a1 1 0 01-1 1C10.64 22.96 1.04 13.36 1.04 4a1 1 0 011-1H5.63a1 1 0 011 1c0 1.31.3 2.57.86 3.69a1 1 0 01-.17 1.17l-2.2 2.2z" />
-        </svg>
+                        <div class="footer-text">
+                            <p>
+                                Floor no-2, Tapasya Corp Heights,<br /> Subarea, Sector 126, <br />Noida, Uttar
+                                Pradesh
+                                201303
+                            </p>
+                            <p style="color: white;margin-bottom: 0;">
+                                Customer care :
+                            </p>
 
-        +91-9266313539
-    </a>
-    <br>
-    <a href="mailto:info@moneytreerealty.com">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-            <g data-name="7-Email-Arrow up">
-                <path d="M29 4H3a3 3 0 0 0-3 3v18a3 3 0 0 0 3 3h13v-2H3a1 1 0 0 1-1-1V7.23l13.42 9.58a1 1 0 0 0 1.16 0L30 7.23V17h2V7a3 3 0 0 0-3-3zM16 14.77 3.72 6h24.56z" />
-                <path d="m24.29 18.29-4 4 1.41 1.41 2.3-2.29V29h2v-7.59l2.29 2.29 1.41-1.41-4-4a1 1 0 0 0-1.41 0z" />
-            </g>
-        </svg>
 
-        info@moneytreerealty.com
-    </a>
-</div>
+
+                            <a href="tel:+919266313539">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.17-.17c1.12.56 2.38.86 3.69.86a1 1 0 011 1v3.59a1 1 0 01-1 1C10.64 22.96 1.04 13.36 1.04 4a1 1 0 011-1H5.63a1 1 0 011 1c0 1.31.3 2.57.86 3.69a1 1 0 01-.17 1.17l-2.2 2.2z" />
+                                </svg>
+
+                                +91-9266313539
+                            </a>
+                            <br>
+                            <a href="mailto:info@moneytreerealty.com">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                    <g data-name="7-Email-Arrow up">
+                                        <path d="M29 4H3a3 3 0 0 0-3 3v18a3 3 0 0 0 3 3h13v-2H3a1 1 0 0 1-1-1V7.23l13.42 9.58a1 1 0 0 0 1.16 0L30 7.23V17h2V7a3 3 0 0 0-3-3zM16 14.77 3.72 6h24.56z" />
+                                        <path d="m24.29 18.29-4 4 1.41 1.41 2.3-2.29V29h2v-7.59l2.29 2.29 1.41-1.41-4-4a1 1 0 0 0-1.41 0z" />
+                                    </g>
+                                </svg>
+
+                                info@moneytreerealty.com
+                            </a>
+                        </div>
                         <div class="footer-social-icon">
                             <br />
                             <!-- <script></script> -->
@@ -350,11 +357,11 @@
         <p style="color:#c7c7c7;text-align:center;font-size: 6px;line-height: 1.6;">
 
 
-            RERA : 
+            RERA :
             Noida: UPRERAAGT25048,<br>
             Gurugram: RC/HARERA/GGM/2569/2164/2024/282
-        
-        
+
+
         </p>
 
     </div>

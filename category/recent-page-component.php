@@ -67,15 +67,13 @@
         }
     }
 
+
+
     /* .contact-form button:hover {
             background: linear-gradient(to right, #005b52, #0e9688, #005b52);
 
         } */
 </style>
-
-
-
-
 
 
 <!-- sucessfull submisson after effect -->
@@ -214,13 +212,6 @@
 </script>
 
 
-
-
-
-
-
-
-
 <style>
     .wi img {
         width: 100%;
@@ -250,59 +241,226 @@
         margin-top: 3rem;
         padding-inline: 1rem;
     }
+
+    .single-widgets .wp-block-tag-cloud {
+        margin-bottom: 0;
+        line-height: 1;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 12px
+    }
+
+    .single-widgets .wp-block-tag-cloud a {
+        color: var(--text-color);
+        text-align: center;
+        font-family: var(--font-open-sans);
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 5px;
+        border: 1px solid rgba(255, 255, 255, .8);
+        line-height: 1;
+        padding: 8px 18px;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        white-space: nowrap;
+        transition: all .5s ease-out 0s
+    }
+
+    @media(max-width:1399px) {
+        .single-widgets .wp-block-tag-cloud a {
+            padding: 8px 14px
+        }
+    }
+
+    .single-widgets .wp-block-tag-cloud a::after {
+        position: absolute;
+        content: "";
+        display: block;
+        left: -5%;
+        right: -20%;
+        top: -4%;
+        height: 150%;
+        width: 150%;
+        bottom: 0;
+        border-radius: 2px;
+        background-color: var(--title-color);
+        transform: skewX(45deg) scale(0, 1);
+        z-index: -1;
+        transition: all .5s ease-out 0s
+    }
+
+    .single-widgets .wp-block-tag-cloud a:hover {
+        color: var(--white-color);
+        border-color: var(--title-color)
+    }
+
+    .single-widgets .wp-block-tag-cloud a:hover::after {
+        transform: skewX(45deg) scale(1, 1)
+    }
+
+    div[class="single-widgets widget_egns_tag"],
+    .wp-block-tag-cloud {
+        background: linear-gradient(to bottom right, rgba(249, 249, 249, 0.51), rgba(50, 97, 92, 0.05));
+    }
+
+    div[class="single-widgets widget_egns_tag"] {
+        padding-top: 2rem;
+        padding-inline: 14px;
+        border-radius: 10px;
+    }
+
+    div[class="single-widgets widget_egns_tag"]>p {
+        padding-bottom: 2rem;
+
+    }
 </style>
 
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const posts = [{
-                id: 1,
-                title: '3 BHK Flats in Noida',
-                imageUrl: './assets/img/3bhk-flats-in-noida.jpeg'
-            },
-            {
-                id: 2,
-                title: '4 BHK Flats in Noida',
-                imageUrl: './assets/img/4bhk-flats-in-noida.jpeg'
-            },
-            {
-                id: 3,
-                title: 'Property in Noida',
-                imageUrl: './assets/img/property-in-noida.webp'
-            },
-        ];
-
-
-
-        const container = document.getElementById('page-posts-container');
-
-        function titleToSlug(title) {
-            return title.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '');
-        }
-
-
-        posts.forEach(post => {
-            const slide = document.createElement('div');
-            slide.className = 'swiper-slide';
-            const postUrl = `./${titleToSlug(post.title)}`;
-            slide.innerHTML = `
-            <div class="widget-cnt">
-                <div class="wi">
-                    <a href="${postUrl}"><img src="../${post.imageUrl}" alt="${post.title} image"></a>
-                </div>
-                <div class="wc">
-                    <h6 ><a class="page-title" href="${postUrl}">${post.title}</a></h6>
-                    
-                  
-                </div>
-            </div>
-        `;
-            container.appendChild(slide);
-        });
-    });
-</script>
 <div class="single-widgets widget_egns_recent_post mb-20">
     <div class="widget-title blog-title mb-20">
+        <div class="slider-btn-group2 d-flex align-items-center justify-content-between">
+            <div class="slider-btn prev-51">
+                <svg width="7" height="12" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 6.50008L8 0L2.90909 6.50008L8 13L0 6.50008Z"></path>
+                </svg>
+            </div>
+            <h6>Similar Properties</h6>
+            <div class="slider-btn next-51">
+                <svg width="7" height="12" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 6.50008L0 0L5.09091 6.50008L0 13L8 6.50008Z"></path>
+                </svg>
+            </div>
+        </div>
+    </div>
 
+
+    <?php include '../data/tempdata.php'; ?>
+
+    <div class="recent-post-wraper">
+        <div class="swiper recent-post-sidebar-slider">
+            <div class="swiper-wrapper" id="page-posts-container">
+                <?php foreach ($properties as $post): ?>
+                    <?php $postUrl = '../propertydetail/' . $post['link']; ?>
+                    <div class="swiper-slide">
+                        <div class="widget-cnt">
+                            <div class="wi">
+                                <a href="<?= $postUrl; ?>"><img class="mpmpmp" src="../<?= $post['images'][1]; ?>" alt="<?= $post['name']; ?> image"></a>
+                            </div>
+                            <div class="wc">
+                                <h6><a class="page-title" href="<?= $postUrl; ?>"><?= $post['name']; ?></a></h6>
+                            </div>
+                            <div class="card-grid">
+                                <div>
+                                    <p>Location</p>
+                                    <p><?php echo $post['location'][1]; ?></p>
+                                </div>
+                                <div>
+                                    <p>Pincode</p>
+                                    <p><?php echo $post['location'][2]; ?></p>
+
+                                </div>
+                                <div>
+                                    <p>Price</p>
+                                    <p><?php echo $post['price']; ?></p>
+                                </div>
+                                <div>
+                                    <p>Type</p>
+                                    <p>
+                                        <?php foreach ($post['type'] as $type): ?>
+                                            <span>
+                                                <?php echo $type; ?>
+                                            </span>
+                                        <?php endforeach; ?>
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>Rera</p>
+                                    <p><?php echo $post['rera'][0]; ?></p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .mpmpmp {
+        position: absolute;
+        opacity: 0.3;
+    }
+
+    .card-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6px 0;
+        margin-top: 10px;
+    }
+
+    .card-grid div p:first-child {
+        font-weight: 700;
+    }
+
+    .card-grid p {
+        font-size: 11px;
+        line-height: 1.6;
+    }
+
+    .card-grid span {
+        font-size: 10px;
+        margin: 0;
+        display: inline-block;
+    }
+
+    .card h2,
+    .card a {
+        background: linear-gradient(45deg, #d39f51, #e5b566, #f0cb7b, #f8e292);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+
+    }
+
+    .card a {
+        font-weight: 600;
+    }
+</style>
+
+<?php
+// Array of posts (you can later replace this with a database query if needed)
+$posts = [
+    [
+        'id' => 1,
+        'title' => '3 BHK Flats in Noida',
+        'imageUrl' => './assets/img/3bhk-flats-in-noida.jpeg',
+    ],
+    [
+        'id' => 2,
+        'title' => '4 BHK Flats in Noida',
+        'imageUrl' => './assets/img/4bhk-flats-in-noida.jpeg',
+    ],
+    [
+        'id' => 3,
+        'title' => 'Property in Noida',
+        'imageUrl' => './assets/img/property-in-noida.webp',
+    ],
+];
+
+function titleToSlug($title)
+{
+    $slug = strtolower(trim($title));
+    $slug = preg_replace('/[^a-z0-9-]+/', '-', $slug);
+    return $slug;
+}
+?>
+
+<div class="single-widgets widget_egns_recent_post mb-20">
+    <div class="widget-title blog-title mb-20">
         <div class="slider-btn-group2 d-flex align-items-center justify-content-between">
             <div class="slider-btn prev-51">
                 <svg width="7" height="12" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
@@ -318,92 +476,22 @@
         </div>
     </div>
 
-
-
-
-    <style>
-        .single-widgets .wp-block-tag-cloud {
-            margin-bottom: 0;
-            line-height: 1;
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 12px
-        }
-
-        .single-widgets .wp-block-tag-cloud a {
-            color: var(--text-color);
-            text-align: center;
-            font-family: var(--font-open-sans);
-            font-size: 14px;
-            font-weight: 600;
-            border-radius: 5px;
-            border: 1px solid rgba(255, 255, 255, .8);
-            line-height: 1;
-            padding: 8px 18px;
-            position: relative;
-            overflow: hidden;
-            z-index: 1;
-            white-space: nowrap;
-            transition: all .5s ease-out 0s
-        }
-
-        @media(max-width:1399px) {
-            .single-widgets .wp-block-tag-cloud a {
-                padding: 8px 14px
-            }
-        }
-
-        .single-widgets .wp-block-tag-cloud a::after {
-            position: absolute;
-            content: "";
-            display: block;
-            left: -5%;
-            right: -20%;
-            top: -4%;
-            height: 150%;
-            width: 150%;
-            bottom: 0;
-            border-radius: 2px;
-            background-color: var(--title-color);
-            transform: skewX(45deg) scale(0, 1);
-            z-index: -1;
-            transition: all .5s ease-out 0s
-        }
-
-        .single-widgets .wp-block-tag-cloud a:hover {
-            color: var(--white-color);
-            border-color: var(--title-color)
-        }
-
-        .single-widgets .wp-block-tag-cloud a:hover::after {
-            transform: skewX(45deg) scale(1, 1)
-        }
-
-        div[class="single-widgets widget_egns_tag"],
-        .wp-block-tag-cloud {
-            background: linear-gradient(to bottom right, rgba(249, 249, 249, 0.51), rgba(50, 97, 92, 0.05));
-        }
-
-        div[class="single-widgets widget_egns_tag"] {
-            padding-top: 2rem;
-            padding-inline: 14px;
-            border-radius: 10px;
-        }
-
-        div[class="single-widgets widget_egns_tag"]>p {
-            padding-bottom: 2rem;
-
-        }
-    </style>
-
-
-
-
     <div class="recent-post-wraper">
         <div class="swiper recent-post-sidebar-slider">
             <div class="swiper-wrapper" id="page-posts-container">
-                <!-- Dynamic content will be inserted here -->
+                <?php foreach ($posts as $post): ?>
+                    <?php $postUrl = '../' . titleToSlug($post['title']); ?>
+                    <div class="swiper-slide">
+                        <div class="widget-cnt">
+                            <div class="wi">
+                                <a href="<?= $postUrl; ?>"><img src=".<?= $post['imageUrl']; ?>" alt="<?= $post['title']; ?> image"></a>
+                            </div>
+                            <div class="wc">
+                                <h6><a class="page-title" href="<?= $postUrl; ?>"><?= $post['title']; ?></a></h6>
+                            </div>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
             </div>
         </div>
     </div>

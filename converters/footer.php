@@ -66,7 +66,7 @@
 
         margin-bottom: 14px;
         font-size: 14px;
-        color: #7e7e7e;
+        color: #F2F0EF;
         line-height: 28px;
     }
 
@@ -133,7 +133,7 @@
     }
 
     .footer-widget ul li a {
-        color: #878787;
+        color: #F2F0EF;
         text-transform: capitalize;
         transition: color 250ms ease-in-out;
     }
@@ -253,6 +253,12 @@
                                 Pradesh
                                 201303
                             </p>
+                            <p style="color: white;margin-bottom: 0;">
+                                Customer care :
+                            </p>
+
+
+
                             <a href="tel:+919266313539">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                     <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.17-.17c1.12.56 2.38.86 3.69.86a1 1 0 011 1v3.59a1 1 0 01-1 1C10.64 22.96 1.04 13.36 1.04 4a1 1 0 011-1H5.63a1 1 0 011 1c0 1.31.3 2.57.86 3.69a1 1 0 01-.17 1.17l-2.2 2.2z" />
@@ -351,7 +357,7 @@
     <!-- Your page content goes here -->
 
     <!-- Footer -->
-     <div class="footer-lower">
+    <div class="footer-lower">
 
         <!-- Combined RERA Numbers on one line -->
 
@@ -359,11 +365,11 @@
         <p style="color:#c7c7c7;text-align:center;font-size: 6px;line-height: 1.6;">
 
 
-            RERA : 
+            RERA :
             Noida: UPRERAAGT25048,<br>
             Gurugram: RC/HARERA/GGM/2569/2164/2024/282
-        
-        
+
+
         </p>
 
     </div>
