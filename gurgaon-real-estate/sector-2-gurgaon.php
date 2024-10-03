@@ -698,14 +698,14 @@ gurgaon, apartments in gurgaonsector 2" />
             <h2>Upcoming RERA Approved Projects near Sector 2 Gurgaon </h2>
 
 
-            <p>Noida Real estate is emerging with an array of state-of-the-art <a href="../category/commercial-property.php"><strong>commercial properties</strong></a> and <a href="../category/residential-property.php"><strong>residential properties</strong></a> from <a href="../blog/top-10-real-estate-company-in-noida.php"><strong>leading real estate developers in India</strong></a> featuring promising capital appreciation and ROI along with a wide range of amenities and facilities.</p>
+            <p>Gurgaon Real estate is emerging with an array of state-of-the-art <a href="../category/commercial-property.php"><strong>commercial properties</strong></a> and <a href="../category/residential-property.php"><strong>residential properties</strong></a> from <a href="../blog/top-10-real-estate-company-in-noida.php"><strong>leading real estate developers in India</strong></a> featuring promising capital appreciation and ROI along with a wide range of amenities and facilities.</p>
 
 
             <p>Here, we list out the top commercial and residential properties in Gurgaon:</p>
 
             <h2>Commercial Property near Sector 2 Gurgaon </h2>
 
-            <h3>Hot-selling commercial properties in Noida include:</h3>
+            <h3>Hot-selling commercial properties in Gurgaon include:</h3>
 
             <h3>Elan Town Centre | Commercial Property in Sector 67 Gurgaon</h3>
 
@@ -880,7 +880,7 @@ gurgaon, apartments in gurgaonsector 2" />
 
             <h2>Residential Property near Sector 2 Gurgaon </h2>
 
-            <h3>Hot selling residential properties in Noida include:</h3>
+            <h3>Hot selling residential properties in Gurgaon include:</h3>
 
             <h3>Godrej Aristocrat | Residential Property in Sector 49 Gurgaon</h3>
 
@@ -1243,9 +1243,9 @@ gurgaon, apartments in gurgaonsector 2" />
             <h2>Tired of looking to buy property for sale? </h2>
 
 
-            <p><a href="../index.php"><strong>MoneyTree Realty</strong></a> is the leading <strong>channel partner in real estate with</strong> a diverse portfolio of properties including commercial property, residential property, and <a href="../plots-for-sale.php"><strong>plots for sale</strong></a>. Our <a href="../best-property-dealers-in-noida.phpstr"><strong>property dealers in Noida</strong></a> provide best-in-class property consultations and present you with the best flat in Noida.</p>
+            <p><a href="../index.php"><strong>MoneyTree Realty</strong></a> is the <strong>leading channel partner in real estate with</strong> a diverse portfolio of properties including commercial property, residential property, and <a href="../plots-for-sale.php"><strong>plots for sale</strong></a>. Our <a href="../best-property-dealers-in-noida.phpstr"><strong>property dealers in Gurgaon</strong></a> provide best-in-class property consultations and present you with the best flat in Gurgaon.</p>
 
-            <p>Our <a href="../real-estate-consultant.php"><strong>real estate consultants</strong></a> at MoneyTree Realty provide valuable insights into market trends and property analysis and help you buy flat in Noida. We follow a <strong>client-centric approach</strong> and maintain transparency between each client & the developer and provide you with the<strong> best home in Noida.</strong></p>
+            <p>Our <a href="../real-estate-consultant.php"><strong>real estate consultants</strong></a> at MoneyTree Realty provide valuable insights into market trends and property analysis and help you buy flat in Gurgaon. We follow a <strong>client-centric approach</strong> and maintain transparency between each client & the developer and provide you with the<strong> best home in Gurgaon.</strong></p>
 
 
 

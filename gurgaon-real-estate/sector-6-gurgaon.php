@@ -8,6 +8,7 @@
     <title>
         Sector 6 Gurgaon: Map, Property Rates, Projects, Photos, Reviews, Info
 
+
     </title>
 
 
@@ -749,7 +750,7 @@ flats for rent, flats in sector 6 Gurgaon, apartments in gurgaon sector 6" />
             <h2>Upcoming RERA Approved Projects near Sector 6 Gurgaon </h2>
 
 
-            <p>Noida Real estate is emerging with an array of state-of-the-art <a href="../category/commercial-property.php"><strong>commercial properties</strong></a> and <a href="../category/residential-property.php"><strong>residential properties</strong></a> from <a href="../blog/top-10-real-estate-company-in-noida.php"><strong>leading real estate developers in India</strong></a> featuring promising capital appreciation and ROI along with a wide range of amenities and facilities.</p>
+            <p>Gurgaon Real estate is emerging with an array of state-of-the-art <a href="../category/commercial-property.php"><strong>commercial properties</strong></a> and <a href="../category/residential-property.php"><strong>residential properties</strong></a> from <a href="../blog/top-10-real-estate-company-in-noida.php"><strong>leading real estate developers in India</strong></a> featuring promising capital appreciation and ROI along with a wide range of amenities and facilities.</p>
 
             <p>Here, we list out the the top commercial and residential properties in Gurgaon:</p>
 
@@ -757,7 +758,7 @@ flats for rent, flats in sector 6 Gurgaon, apartments in gurgaon sector 6" />
 
             <p>An emerging hub for commercial landscape, Sector 6 Gurgaon is taking its toll on the commercial real estate market. Whether you&rsquo;re considering setting up a new office, launching a retail outlet, or investing in commercial real estate, Sector 6 in Gurgaon could be the ideal destination for your business aspirations.</p>
 
-            <h3>Hot-selling commercial property in Noida include:</h3>
+            <h3>Hot-selling commercial property in Gurgaon include:</h3>
 
             <p>Let&rsquo;s take a closer look at the commercial property landscape in and around Sector 6, Gurgaon. </p>
 
@@ -938,7 +939,7 @@ flats for rent, flats in sector 6 Gurgaon, apartments in gurgaon sector 6" />
 
             <h2>Residential Property near Sector 6 Gurgaon </h2>
 
-            <h3>Hot selling residential properties in Noida include:</h3>
+            <h3>Hot selling residential properties in Gurgaon include:</h3>
 
             <h3>Godrej Aristocrat | Residential Property in Sector 49 Gurgaon</h3>
 

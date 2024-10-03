@@ -782,13 +782,13 @@ apartments in gurgaon sector 1" />
             <h2>Upcoming RERA Approved Projects near Sector 1 Gurgaon </h2>
 
 
-            <p>Noida Real estate is emerging with an array of state-of-the-art <a href="../category/commercial-property.php"><strong>commercial properties</strong></a> and <a href="../category/residential-property.php"><strong>residential properties</strong></a> from <a href="../blog/top-10-real-estate-company-in-noida.php"><strong>leading real estate developers in India</strong></a> featuring promising capital appreciation and ROI along with a wide range of amenities and facilities.</p>
+            <p>Gurgaon Real estate is emerging with an array of state-of-the-art <a href="../category/commercial-property.php"><strong>commercial properties</strong></a> and <a href="../category/residential-property.php"><strong>residential properties</strong></a> from <a href="../blog/top-10-real-estate-company-in-noida.php"><strong>leading real estate developers in India</strong></a> featuring promising capital appreciation and ROI along with a wide range of amenities and facilities.</p>
 
             <p>Here, we list out the the top commercial and residential properties in Gurgaon:</p>
 
             <h2>Commercial Property near Sector 1 Gurgaon </h2>
 
-            <h3>Hot-selling commercial property in Noida include:</h3>
+            <h3>Hot-selling commercial property in Gurgaon include:</h3>
 
             <h3>Elan Town Centre | Commercial Property in Sector 67 Gurgaon: </h3>
 
@@ -963,7 +963,7 @@ apartments in gurgaon sector 1" />
 
             <h2>Residential Property near Sector 1 Gurgaon </h2>
 
-            <h3>Hot selling residential properties in Noida include:</h3>
+            <h3>Hot selling residential properties in Gurgaon include:</h3>
 
             <h3>Godrej Aristocrat | Residential Property in Sector 49 Gurgaon:</h3>
 

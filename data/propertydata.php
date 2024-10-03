@@ -154,9 +154,9 @@ $properties = [
         'name' => 'M3M Antalya Hills Sector 79 Gurugram',
         'location' => 'Gurugram',
         'images' => [
-            'assets/img/projectdetails/m3mantalya1.jpg',
+            'assets/img/projectdetails/m3mantalya1.webp',
             'assets/img/projectdetails/m3mantalya2.webp',
-            'assets/img/projectdetails/m3mantalya3.jpg',
+            'assets/img/projectdetails/m3mantalya3.webp',
         ],
         'price' => 'On Request',
 
@@ -170,9 +170,9 @@ $properties = [
         'name' => 'M3M Altitude Sector 65',
         'location' => 'Gurugram',
         'images' => [
-            'assets/img/projectdetails/m3maltitude1.jpg',
-            'assets/img/projectdetails/m3maltitude2.jpg',
-            'assets/img/projectdetails/m3maltitude3.png',
+            'assets/img/projectdetails/m3maltitude1.webp',
+            'assets/img/projectdetails/m3maltitude2.webp',
+            'assets/img/projectdetails/m3maltitude3.webp',
         ],
         'price' => 'On Request',
 
@@ -484,6 +484,22 @@ $properties = [
 
         'type' => ['Commercial'],
         'rera' => 'UPRERAPRJ297873',
+        'rera_link' => '',
+        'property' => '',
+    ],
+    [
+        'id' => 31,
+        'name' => 'ACE YXP Yamuna Expressway',
+        'location' => 'Noida',
+        'images' => [
+            'assets/img/projectdetails/aceyxp1.webp',
+            'assets/img/projectdetails/aceyxp2.webp',
+            'assets/img/projectdetails/aceyxp3.webp',
+        ],
+        'price' => '₹89.67 lacs+',
+
+        'type' => ['Commercial'],
+        'rera' => 'UPRERAPRJ397607',
         'rera_link' => '',
         'property' => '',
     ],

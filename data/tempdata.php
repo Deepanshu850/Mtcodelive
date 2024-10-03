@@ -165,9 +165,9 @@ $properties = [
         'builder' => 'M3M Group',
         'location' => ['Gurugram', 'Sector 79', '122012', ''],
         'images' => [
-            'assets/img/projectdetails/m3mantalya1.jpg',
+            'assets/img/projectdetails/m3mantalya1.webp',
             'assets/img/projectdetails/m3mantalya2.webp',
-            'assets/img/projectdetails/m3mantalya3.jpg',
+            'assets/img/projectdetails/m3mantalya3.webp',
         ],
         'price' => 'on request',
         'possession' => 'Last Quarter of 2025',
@@ -185,9 +185,9 @@ $properties = [
         'builder' => 'M3M Group',
         'location' => ['Gurugram', 'Sector 65', '122001', ''],
         'images' => [
-            'assets/img/projectdetails/m3maltitude1.jpg',
-            'assets/img/projectdetails/m3maltitude2.jpg',
-            'assets/img/projectdetails/m3maltitude3.png',
+            'assets/img/projectdetails/m3maltitude1.webp',
+            'assets/img/projectdetails/m3maltitude2.webp',
+            'assets/img/projectdetails/m3maltitude3.webp',
         ],
         'price' => 'on request',
         'possession' => 'June, 2028',
@@ -391,7 +391,7 @@ $properties = [
         'area' => 'NaN',
         'type' => ['Residential'],
         'typeDetail' => ['2 BHk Flats', '3 BHK Flats', '4 BHK Flats'],
-        'rera' => ['P51900015854','**', 'P51900016482', 'P51900021057'],
+        'rera' => ['P51900015854', '**', 'P51900016482', 'P51900021057'],
         'shortDescription' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, amet! Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aut? Aut quod deserunt quaerat nihil.',
     ],
 
@@ -555,7 +555,25 @@ $properties = [
         'rera' => ['P52900021725', '', 'P52900019883', 'P52900024380'],
         'shortDescription' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, amet! Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aut? Aut quod deserunt quaerat nihil.',
     ],
-
+    [
+        'id' => 29,
+        'name' => 'ACE YXP Yamuna Expressway',
+        'link' => 'ace-yxp-yamuna-expressway',
+        'builder' => 'ACE Group',
+        'location' => ['Noida', 'Sector 22 D', '201301', 'Yamuna Expressway'],
+        'images' => [
+            'assets/img/projectdetails/aceyxp1.webp',
+            'assets/img/projectdetails/aceyxp2.webp',
+            'assets/img/projectdetails/aceyxp3.webp'
+        ],
+        'price' => '₹89.67 lacs+',
+        'possession' => 'March, 2027',
+        'area' => 'NaN',
+        'type' => ['Commercial'],
+        'typeDetail' => ['Commercial Spaces', 'Studios'],
+        'rera' => ['UPRERAPRJ397607', 'https://www.up-rera.in/Projectsummary?UI0aPA1ISD=HzUoOhszo5A=&hfFlag=9emr4VdBw22M7BGjKtJWMPDI4s5cHQZP&NPJ6RAme=A8lrj7sV6+k=&PaURJEMAN4=ZL9MNERkNdYBrHpYeiEhWQ==&IRSAHEB=D6PY3lyims8='],
+        'shortDescription' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, amet! Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aut? Aut quod deserunt quaerat nihil.',
+    ],
 
 
 ];
@@ -591,6 +609,3 @@ $properties = [
 //         'rera' => ['UPRERAPRJ297873', 'https'],
 //         'shortDescription' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, amet! Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aut? Aut quod deserunt quaerat nihil.',
 //     ],
-
-
-?>
