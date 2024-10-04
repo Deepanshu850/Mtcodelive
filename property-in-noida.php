@@ -1281,18 +1281,6 @@ noida to buy, commercial property in noida extension" />
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $(".faq h3").click(function() {
-                $(this).next(".answer").slideToggle();
-                $(this).parent().find(".arrow").toggleClass("collapsed expanded");
-            });
-        });
-        document.getElementById("toggleButton").addEventListener("click", function() {
-            var contentDiv = document.querySelector(".tableOfContent .content");
-            contentDiv.classList.toggle("open");
-        });
-    </script>
 
     <script src="./assets/js/swiper-bundle.min.js"></script>
     <script src="./assets/js/slick.js"></script>

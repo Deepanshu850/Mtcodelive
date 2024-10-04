@@ -6,29 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0">
 
     <title>
-        Sector 11 Gurgaon: Map, Property Rates, Projects, Photos, Reviews, Info
 
+        Sector 14 Gurgaon: Map, Property Rates, Projects, Photos, Reviews, Info
     </title>
 
 
-    <meta name="description" content="Discover prime real estate in Sector 11, Gurgaon with Moneytree Realty! From residential to commercial spaces, we help you find your dream property. Invest wisely today!" />
+    <meta name="description" content="" />
 
 
-    <meta name="keywords" content="Sector 11 Gurugram, Haryana, 3 bhk for rent sector 11 Gurgaon, 
-Sector 11 pin code, Sector 11 market, Sector 11 police station 
-Gurgaon, 2 bhk for rent in sector 11 gurgaon, shivaji nagar sector 11 
-gurgaon, sector 11 Gurgaon projects, property in sector 11 Gurgaon, 
-dav sector 14 gurgaon admission class 11, global hill view sector 11 
-gurgaon, global hill view sector 11 sohna road gurgaon, model town 
-sector 11 gurgaon, sector 11 sohna road Gurgaon, current location to 
-Pari chowk, sector 11 Gurgaon distance, Gurgaon Sector 11 metro 
-station, Sector 11 Gurgaon flats, builder floor in sector 11 gurgaon, 
-sector 11 gurgaon gurgaon distance, pg in Gurgaon sector 11, plots in 
-sector 11 Gurgaon, 1 bhk flat for rent in Gurgaon sector 11, 3 bhk flat 
-for rent in sector 11 Gurgaon, botanical garden to sector 11 gurgaon, 
-sector 11 gurgaon apartment, schools near sector 11 gurgaon, 
-gurgaon sector 11 flats for rent, flats in sector 11 Gurgaon, 
-apartments in gurgaon sector 11" />
+    <meta name="keywords" content="" />
 
 
     <meta name="Owner" content="Moneytreerealty.com" />
@@ -41,42 +27,27 @@ apartments in gurgaon sector 11" />
 
 
 
-    <!-- General Open Graph Tags for Facebook, LinkedIn, etc. -->
-    <meta property="og:title" content="Sector 11 Gurgaon: Map, Property Rates, Projects, Photos, Reviews, Info">
+    <meta property="og:title" content="Sector 14 Gurgaon: Map, Property Rates, Projects, Photos, Reviews, Info">
     <meta property="og:site_name" content="Moneytree Realty">
-    <meta property="og:url" content="https://moneytreerealty.com/gurgaon-real-estate/sector-11-gurgaon">
-    <meta property="og:description" content="Discover prime real estate in Sector 11, Gurgaon with Moneytree Realty! From residential to commercial spaces, we help you find your dream property. Invest wisely today!">
+    <meta property="og:url" content="https://moneytreerealty.com/gurgaon-real-estate/sector-52-gurgaon">
+    <meta property="og:description" content="">
     <meta property="og:type" content="property">
-    <meta property="og:image" content="https://moneytreerealty.com/gurgaon-real-estate/assets/image/sector-11-gurgaon-banner.webp">
+    <meta property="og:image" content="https://moneytreerealty.com/gurgaon-real-estate/assets/image/sector-52-gurgaon-banner.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Sector 11 Gurgaon">
+    <meta property="og:image:alt" content="">
     <meta property="og:locale" content="en_IN">
 
-    <!-- Twitter Specific Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Sector 11 Gurgaon: Map, Property Rates, Projects, Photos, Reviews, Info">
-    <meta name="twitter:description" content="Discover prime real estate in Sector 11, Gurgaon with Moneytree Realty! From residential to commercial spaces, we help you find your dream property. Invest wisely today!">
-    <meta name="twitter:image" content="https://moneytreerealty.com/gurgaon-real-estate/assets/image/sector-11-gurgaon-banner.webp">
-    <meta name="twitter:site" content="@MoneytreeRSPL">
+    <link rel="canonical" href="https://moneytreerealty.com/gurgaon-real-estate/sector-52-gurgaon" />
 
-    <!-- Pinterest Specific Tags -->
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="Sector 11 Gurgaon: Map, Property Rates, Projects, Photos, Reviews, Info">
-    <meta property="og:description" content="Discover prime real estate in Sector 11, Gurgaon with Moneytree Realty! From residential to commercial spaces, we help you find your dream property. Invest wisely today!">
-    <meta property="og:image" content="https://moneytreerealty.com/gurgaon-real-estate/assets/image/sector-11-gurgaon-banner.webp">
-    <meta property="og:url" content="https://moneytreerealty.com/gurgaon-real-estate/sector-11-gurgaon">
-
-
-    <link rel="canonical" href="https://moneytreerealty.com/gurgaon-real-estate/sector-11-gurgaon" />
 
     <script type="application/ld+json">
         {
             "@context": "https://schema.org/",
             "@type": "Product",
-            "name": "Sector 11 Gurgaon",
-            "image": "https://moneytreerealty.com/gurgaon-real-estate/assets/image/sector-11-gurgaon-banner.webp",
-            "description": "Sector 11 Gurgaon is well-developed in terms of infrastructure, featuring broad roads and expressways. It is conveniently located near major routes, with National Highway 48 and 28A passing in close proximity, enhancing connectivity for residents and businesses alike.",
+            "name": "Sector 14 Gurgaon",
+            "image": "https://moneytreerealty.com/gurgaon-real-estate/assets/image/sector-14-gurgaon-banner.webp",
+            "description": "Sector 14 Gurgaon is a notable residential locality located in Central Gurgaon. Although primarily residential, it also hosts several commercial establishments. The area offers a range of housing options from mid to high range apartments, builder floors, to high-end luxury villas within gated communities.",
             "brand": {
                 "@type": "Brand",
                 "name": "Moneytree Realty"
@@ -88,58 +59,32 @@ apartments in gurgaon sector 11" />
             }
         }
     </script>
-
-
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [{
                     "@type": "Question",
-                    "name": "What are the top projects of Sector 11 Gurgaon?",
+                    "name": "What is the pin code of Sector 14 Gurgaon?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "4 Marla Gurgaon, Homezop One (Society), Alvin House, Green View Society Shivaji Nagar are the top projects of Sector 11 Gurgaon."
+                        "text": "The pin code of Sector 14 Gurgaon is 122001."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "What are the average property prices in Sector 11 Gurgaon?",
+                    "name": "What is the rent for a 2 and 3 BHK flat in Sector 14 Gurgaon?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "The average property price in Sector 11 costs ₹6,000 per sq. ft. It has witnessed a year-on-year growth of about 2.6% in property prices."
+                        "text": "The rent is ₹25,000-₹40,000 per month for a 2 BHK flat and ₹40,000-₹70,000 per month for a 3 BHK flat."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "What is the pincode for Sector 11 Gurgaon?",
+                    "name": "Which is the nearest Metro Station from Sector 14 Gurgaon?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "The pincode for Sector 11 Gurgaon is 122001."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "What are the commute options in Sector 11 Gurgaon?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "MG Road Metro Station, Sikandarpur Metro Station, IFFCO Chowk Metro Station, HUDA City Center Metro Station, Gurgaon Railway Station, and Basai Dhankot Railway Station are major commute options available in Sector 11 Gurgaon."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "In which district is Sector 11 Gurgaon located?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Sector 11 Gurgaon is located in the district of Gurugram."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "What is the population of Gurgaon Sector 11?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Gurgaon Sector 11 has a total population of 28,362."
+                        "text": "The nearest metro station is Sikanderpur Metro Station."
                     }
                 }
             ]
@@ -220,18 +165,18 @@ apartments in gurgaon sector 11" />
 
         <main>
             <div class="image-wrapper">
-                <img src="./assets/image/sector-11-gurgaon-banner.webp" alt="Sector 11 Gurgaon | Moneytree Realty">
+                <img src="./assets/image/sector-52-gurgaon-banner.webp" alt="Sector 14 Gurgaon | Moneytree Realty">
             </div>
             <h1>
-                Sector 11 Gurgaon | Moneytree Realty
+                Sector 14 Gurgaon | Moneytree Realty
 
             </h1>
 
-            <h2>Sector 11 Gurgaon - Quick Insights </h2>
+            <h2>Sector 14 Gurgaon - Quick Insights </h2>
 
             <p>Gurgaon is a city located to the southwest of New Delhi and is often referred to as the &lsquo;Millenium City of India&rsquo;. Gurgaon is the emerging commercial and financial hub of the country and features job opportunities in an array of industries such as IT/ITeS Sector, E-Commerce, Hospitality, Real Estate Sector etc. </p>
 
-            <h2 style="text-align: justify; margin: 0; margin-block: 0 1.5rem; font-family: var(--font-open-sans); font-size: 16px; font-weight: 400; line-height: 26px; text-wrap: pretty; color: #1b1e16;">Sector 11 Gurgaon Pin code - 122001 </h2>
+            <h2 style="text-align: justify; margin: 0; margin-block: 0 1.5rem; font-family: var(--font-open-sans); font-size: 16px; font-weight: 400; line-height: 26px; text-wrap: pretty; color: #1b1e16;">Sector 14 Gurgaon Pin code - 122001 </h2>
 
             <table class="beautiful-table">
                 <tbody>
@@ -248,181 +193,149 @@ apartments in gurgaon sector 11" />
                     </tr>
                     <tr>
                         <td>
-                            <p>Dwarka expressway </p>
+                            <p>Dwarka Expressway</p>
                         </td>
                         <td>
-                            <p>₹ 6000-per sq.ft <i class="bi bi-graph-up-arrow misc-icon"></i></p>
+                            <p>₹ 5,200/sq.ft. <i class="bi bi-graph-up-arrow misc-icon"></i></p>
                         </td>
                         <td>
-                            <p>Y-O-Y growth rate is 2.6% <i class="bi bi-graph-up-arrow misc-icon"></i></p>
+                            <p>Y-O-Y growth rate - 20.01% <i class="bi bi-graph-up-arrow misc-icon"></i></p>
                         </td>
                     </tr>
                 </tbody>
             </table>
 
-            <h2>Know Everything About sector 11 </h2>
+            <h2>Know Everything About Sector 14 Gurgaon</h2>
 
-            <p>Check out the details below and get better insights into Sector 11 Gurgaon :</p>
+            <p>Check out the details below and get better insights into Sector 14 Gurgaon:</p>
 
-            <h3>Overview of the locality and neighborhood </h3>
+            <h3>Overview of the locality and neighborhood</h3>
 
-            <p>It is situated in Gurugram district of Haryana bearing the pincode 122001.</p>
+            <p>Sector 14 Gurgaon is a notable residential locality located in Central Gurgaon. Although primarily residential, it has several commercial establishments as well. You can expect to find mid to high range apartments, builder floors and high-end luxury villas along with gated communities in Sector 14 Gurgaon. </p>
 
-            <p>Sector 11 Gurgaon is one of the preferred sectors for residence and commercial purposes due to its strategic location and the accessibility to all the amenities. With ample employment opportunities as it is one of most selected areas for business startups and IT companies.</p>
+            <p>Sector 14 is well-connected to several major highways and key roads like the Dwarka Expressway, NH-48 (Delhi-Gurgaon Expressway), and MG Road which provide easy connectivity to other parts of Gurgaon. </p>
 
-            <p>Sector 11 Gurgaon has many additional benefits due to its connectivity&ndash; National Highway 48 and 28A are within easy reach. Moreover IGI airport is just at a distance of </p>
+            <p>Some prominent localities near Sector 14 Gurgaon are - DLF Phase 1, Sikanderpur, Old DLF Colony, <a href="./sector-13-gurgaon.php"><strong>Sector 13</strong></a>, <a href="./sector-15-gurgaon.php"><strong>Sector 15</strong></a>, <a href="./sector-12-gurgaon.php"><strong>Sector 12</strong></a>, Huda City Centre, and Sushant Lok. </p>
+
+            <p>The rental prices for a 1 BHK apartment in Sector 14 Gurgaon range from Rs. 15,000-25,000 per month. For a 2 BHK apartment, the rent lies in the range Rs. 25,000-40,000 per month. A 3 BHK apartment in Sector 14 Gurgaon would cost you around Rs. 40,000-70,000 per month and higher. </p>
+
+            <p>Residential properties in Sector 14 Gurgaon are quite affordable if compared to other residential sectors in the vicinity. The cost-effectiveness promotes real estate investment in Sector 9 Gurgaon, increasing rental yields and price appreciation. </p>
 
             <h3>Infrastructure Development </h3>
 
-            <p>Sector 11 Gurgaon is well developed in terms of infrastructure. It has broad roads and expressways constructed. National Highway 48 and 28A passes through close distance to sector 11. </p>
+            <p>Sector 14 Gurgaon hosts an excellent blend of premium yet budget-friendly housing options, along with great infrastructure and facilities which makes it a popular choice of residence and real-estate investment.</p>
 
-            <p>Mg road metro station , Sikandarpur metro station, Huda city centre metro station and Iffco chowk metro station provide immediate metro service to the people from their residence to workplaces. </p>
+            <p>Several Metro Stations are conveniently located at just 10-11 mins away from Sector 14 Gurgaon. These are- Sikanderpur Metro Station (part of Yellow Line of the Delhi Metro), MG Road Metro Station, Huda City Center Metro Station, and Iffco Chowk Metro Station. Gurgaon Railway Station is just 22 mins from Sector 14 Gurgaon while Palam Vihar Railway Station is 26 mins from here. The Indira Gandhi International Airport is a 40 mins drive from Sector 14 Gurgaon via NH - 48.</p>
 
-            <p>The IGI airport is at a distance of 12 kilometres from sector 11. </p>
+            <p>DAV Public School, Our Lady of Fatima Convent Senior Secondary School, Air Force School, Kendriya Vidyalaya AFS Campus, and St. Xavier High Schools are the schools in Sector 14 Gurgaon. For higher education, Government College For Girls, PCS Vocational Institute, and Govt. PG College, are the institutes in Sector 14 Gurgaon.</p>
 
-            <h3>Social &amp; Infra Amenities </h3>
+            <p>Career Launcher and Akash Institutes have their coaching centers in Sector 14 Gurgaon. ICICI Bank and HDFC Banks are also present in Sector 14 Gurgaon.</p>
 
-            <p>Sector 11 Gurgaon has been a major commercial sector which has enhanced the demand for residential as well as social and infra amenities like schools, colleges, shopping Malls, hospitals, cinemas, banks and ATMs and paying guest houses.</p>
+            <p>For medical facilities, Cloudnine Hospital, Saraswati Hospital, Kalyani Hospital, Jain Hospital, and Fortis Hospital Gurugram are the hospitals near Sector 14 Gurgaon.</p>
 
-            <p>There are famous schools like Lieutenant Atul Kataria School, CR Model Public School And Manav Rachna School. Health care facilities are served by the hospital in the region&ndash; Thakral Nursing and Maternity Home, Vinayak Hospital Gurgaon, Parashar Hospital and Smile Plus Dental Clinic.</p>
+            <p>Riddhi Siddhi Apartment, DS Heights, The Paramount, Sagar Homes, Anamika Enclave Sector 14 and Allure Homes are the residential apartments in Sector 14 Gurgaon. There are numerous hostels and PGs for girls available in Sector 14 Gurgaon at affordable rental rates.</p>
 
-            <p>Shopping centres near Sector 11 Gurgaon include MGF Metropolitan, Palam Vihar Vyapar kendra and HUDA Sector 23 market. Nearby Restaurants and cafe are Darbar, 32nd Milestone and Cafe Coffee Day</p>
+            <h3>Social &amp; Infra Amenities</h3>
 
-            <h3>Proximity to major Employment Hubs </h3>
+            <p>Sector 14 Gurgaon is located near several local markets which provide a vibrant shopping experience to the residents. These are- Sadar Bazaar, Sector 14 Market, DLF Phase 1 Market, Vishal Mega Mart and Huda Market. Samsung service center office is also present in SectFor high-end retail and dining experiences, the residents have quick access to the grand malls and shopping complexes of Gurgaon. Sahara Mall, Ambience Mall, MGF Metropolitan Mall, Adree Mall, Sapphire Mall, and Omaxe Celebration Mall are all a short distance away from Sector 14 Gurgaon. </p>
 
-            <p>Owing to the connectivity and infrastructure and social development, Sector 11 Gurgaon has become a hubspot for commercial companies and IT parks . It has become one of the choices for business hubs and several business startups have been established here. </p>
+            <p>Dana Choga (near Air Force Station), Crazy Bites, Kabab &amp; Curry, Madras Restaurant and Cafe, Xero Degrees, and Yum And Grill are the diners that offer fine-dining experiences. Some even have vegan options. </p>
 
-            <p>Kore Tech Park, Emaar Business Park, SPAZE BUSINESS PARK, SP Infocity etc . Are the prominent employment hubs in Sector 11. </p>
+            <p>Radhe Shyam Temple and Hanuman Mandir are the temples in Sector 14 Gurgaon.</p>
 
-            <h2>Crucial Highlights of sector 11 </h2>
+            <p>Some hotels in and around Sector 14 Gurgaon are- Kosha 7, Country Inn &amp; Suites By Radisson, DS Clarks Inn Gurgaon, Skylark Hotel By Gabrian Hotels, and LimeTree Hotel.</p>
 
-            <h3>Great things about sector 11 </h3>
+            <h3>Proximity to major Employment Hubs</h3>
+
+            <p>The strategic location of Sector 14 Gurgaon near industrial and business hubs makes it a desired location for businessmen, investors and people looking for employment.</p>
+
+            <p>Some industrial areas near Sector 14 Gurgaon are- Udyog Vihar, Manesar, Sector 18, and Cyber City. Global Business Park, DLF IT Park, Unitech Cyber Park, Signature Towers, and Space 1-Tech Park are some business and tech parks near Sector 14 Gurgaon. </p>
+
+            <p>IBM, Cognizant, Accenture, Genpact, TCS, HCL Technologies, Oracle, Wipro and Infosys have their office spaces near Sector 14 Gurgaon, contributing to the city&rsquo;s reputation as a major tech hub. </p>
+
+            <p>These aspects of Sector 14 Gurgaon make it a profitable destination from an investment perspective.</p>
+
+            <h2>Crucial Highlights of Sector 14 Gurgaon</h2>
+
+            <h3>Great things about Sector 14 Gurgaon</h3>
 
             <ul class="arrow-list">
-                <li>Sector 11 Gurgaon, located in Old Gurgaon, primarily offers 2, 3, and 4 BHK residential apartments in the premium budget segment. </li>
-                <li>Proximity to Dwarka Expressway, Old Railway Road, and Carterpuri Road ensures widespread connectivity for residents.</li>
-                <li>The close proximity to their workplaces helps residents in fast and easy travel. </li>
-                <li>The Indira Gandhi international Airport is just 16 kilometres away from Sector 11 Gurgaon. </li>
+                <li>Sector 14 Gurgaon has easy availability of public transportation.</li>
+                <li>Educational institutes, hospitals and malls are located at walkable distance from Sector 14 Gurgaon.</li>
+                <li>Sector 14 Gurgaon has well-lit street lights that aid the residents.</li>
+                <li>There are PGs and hostels for girls at cheap prices in Sector 14 Gurgaon.</li>
+                <li>The property prices and rental rates are affordable in Sector 14 Gurgaon comparatively.</li>
             </ul>
 
-            <h3>Things that need attention in sector 11 </h3>
+            <h3>Things that need attention in Sector 14 Gurgaon </h3>
 
             <ul class="arrow-list">
-                <li>It is common to experience traffic congestion during peak hours especially on Dwarka Expressway, Old Railway Road, and Carterpuri Road </li>
-                <li>The area being crowded, parking spaces are usually in short supply, particularly in residential areas with apartment blocks and builder floors.</li>
-                <li>Noise Pollution consists of major levels of noise pollution from the roads and markets that affect the quality of life.</li>
-                <li>Potholes are seen during the rainy season which makes road travel difficult.</li>
-                <li>Security management: some regions of Sector 11 Gurgaon need security measures with CCTV cameras and guards. </li>
+                <li>Water shortage is a major issue in Sector 14 Gurgaon.</li>
+                <li>Due to congestion, you may experience traffic during peak hours.</li>
+                <li>Less parking space is available in Sector 14 Gurgaon.</li>
+                <li>Noise pollution due to traffic and constructions irks the residents.</li>
             </ul>
 
-            <h2>Sector 11 connectivity with nearby landmarks </h2>
+            <h2>Sector 14 Gurgaon connectivity with nearby landmarks</h2>
 
-            <h3>Nearby Areas to Sector 11 Gurgaon </h3>
+            <h3>Nearby Areas to Sector 14 Gurgaon</h3>
 
             <table class="beautiful-table">
                 <tbody>
                     <tr>
                         <td>
-                            <p>Heera Nagar, Gurgaon </p>
+                            <p>DLF Phase 1</p>
                         </td>
                         <td>
-                            <p>4 mins </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Arjun Nagar, Gurgaon</p>
-                        </td>
-                        <td>
-                            <p>4 mins </p>
+                            <p>23 mins</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Civil Lines, Gurgaon</p>
+                            <p>Sikanderpur</p>
                         </td>
                         <td>
-                            <p>6 mins </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Baldev Nagar, Gurgaon</p>
-                        </td>
-                        <td>
-                            <p>6 mins </p>
+                            <p>23 mins</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Hans Enclave, Gurgaon</p>
+                            <p>Huda City Center</p>
                         </td>
                         <td>
-                            <p>9 mins </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Jacobpura, Gurgaon</p>
-                        </td>
-                        <td>
-                            <p>13 mins </p>
+                            <p>11 mins</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Ashok Vihar, Gurgaon</p>
+                            <p>Sushant Lok</p>
                         </td>
                         <td>
-                            <p>19 mins </p>
+                            <p>16 mins</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Anand Garden, Gurgaon </p>
+                            <p>Sector 15 Gurgaon</p>
                         </td>
                         <td>
-                            <p>27 mins </p>
+                            <p>6 mins</p>
                         </td>
                     </tr>
                 </tbody>
             </table>
 
 
-            <h3>Shopping Mall/Restaurants near to Sector 11 Gurgaon </h3>
+            <h3>Shopping Mall/Restaurants near to Sector 14 Gurgaon </h3>
 
             <table class="beautiful-table">
                 <tbody>
                     <tr>
                         <td>
-                            <p>Gurgaon Central Mall</p>
+                            <p>Sahara Mall</p>
                         </td>
                         <td>
-                            <p>27 mins </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>MGF Metropolitan</p>
-                        </td>
-                        <td>
-                            <p>18 mins </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Palam Vihar Vyapar kendra</p>
-                        </td>
-                        <td>
-                            <p>28 mins </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>HUDA Sector 23 market </p>
-                        </td>
-                        <td>
-                            <p>27 mins </p>
+                            <p>15 mins</p>
                         </td>
                     </tr>
                     <tr>
@@ -430,409 +343,305 @@ apartments in gurgaon sector 11" />
                             <p>Ambience Mall</p>
                         </td>
                         <td>
-                            <p>21 mins </p>
+                            <p>18 mins</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Darbar </p>
+                            <p>Sapphire Mall</p>
                         </td>
                         <td>
-                            <p>8 mins </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>32nd Milestone</p>
-                        </td>
-                        <td>
-                            <p>11 mins </p>
+                            <p>21 mins</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Dhaba 29</p>
+                            <p>MGF Metropolitan Mall</p>
                         </td>
                         <td>
-                            <p>16 mins </p>
+                            <p>12 mins</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Dana Choga</p>
+                        </td>
+                        <td>
+                            <p>Sector 14 Gurgaon, Uttar Pradesh</p>
                         </td>
                     </tr>
                 </tbody>
             </table>
 
 
-            <h3>Transportation Hubs near to Sector 11 Gurgaon </h3>
+            <h3>Transportation Hubs near to Sector 14 Gurgaon </h3>
 
             <table class="beautiful-table">
                 <tbody>
                     <tr>
                         <td>
-                            <p>Mg road metro station </p>
+                            <p>Sikanderpur Metro Station</p>
                         </td>
                         <td>
-                            <p>17 mins </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Sikandarpur metro station</p>
-                        </td>
-                        <td>
-                            <p>19 mins </p>
+                            <p>14 mins</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Iffco chowk metro station</p>
+                            <p>MG Road Metro Station</p>
                         </td>
                         <td>
-                            <p>18 mins </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Huda city centre metro station</p>
-                        </td>
-                        <td>
-                            <p>22 mins </p>
+                            <p>11 mins</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Gurgaon railway station </p>
+                            <p>Huda City Center Metro Station</p>
                         </td>
                         <td>
-                            <p>20 mins </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Basai dhankot railway station</p>
-                        </td>
-                        <td>
-                            <p>18 mins </p>
+                            <p>11 mins</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Palam vihar railway station</p>
+                            <p>Iffco Chowk Metro Station</p>
                         </td>
                         <td>
-                            <p>27 mins </p>
+                            <p>11 mins</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Gurgaon Railway Station</p>
+                        </td>
+                        <td>
+                            <p>33 mins</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Palam Vihar Railway Station</p>
+                        </td>
+                        <td>
+                            <p>31 mins</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Indira Gandhi International Airport</p>
+                        </td>
+                        <td>
+                            <p>1 hour</p>
                         </td>
                     </tr>
                 </tbody>
             </table>
 
 
-            <h3>Educational Institutes near to Sector 11 Gurgaon </h3>
+            <h3>Educational Institutes near to Sector 14 Gurgaon </h3>
 
             <table class="beautiful-table">
                 <tbody>
                     <tr>
                         <td>
-                            <p>Kendriya Vidyalaya No.2 Sohna Road</p>
+                            <p>DAV Public School</p>
                         </td>
                         <td>
-                            <p>11 mins </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Lieutenant Atul Kataria School</p>
-                        </td>
-                        <td>
-                            <p>19 mins </p>
+                            <p>Sector 14 Gurgaon, Uttar Pradesh</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>C. R. Sr. Sec. Public School</p>
+                            <p>Our Lady of Fatima Convent Senior Secondary School</p>
                         </td>
                         <td>
-                            <p>14 mins </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Manav Rachna School</p>
-                        </td>
-                        <td>
-                            <p>20 mins </p>
+                            <p>Sector 14 Gurgaon, Uttar Pradesh</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Dronacharya Government College</p>
+                            <p>Kendriya Vidyalaya AFS Campus</p>
                         </td>
                         <td>
-                            <p>14 mins </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Management Development Institute</p>
-                        </td>
-                        <td>
-                            <p>14 mins </p>
+                            <p>Sector 14 Gurgaon, Uttar Pradesh</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>THE NORTHCAP UNIVERSITY</p>
+                            <p>Air Force School</p>
                         </td>
                         <td>
-                            <p>26 mins </p>
+                            <p>Sector 14 Gurgaon, Uttar Pradesh</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Sanlok Institute Of Management And Technology</p>
+                            <p>PCS Vocational Institute</p>
                         </td>
                         <td>
-                            <p>2 mins </p>
+                            <p>Sector 14 Gurgaon, Uttar Pradesh</p>
                         </td>
                     </tr>
                 </tbody>
             </table>
 
 
-            <h3>Hospitals near to Sector 11 Gurgaon </h3>
+            <h3>Hospitals near to Sector 14 Gurgaon </h3>
 
             <table class="beautiful-table">
                 <tbody>
                     <tr>
                         <td>
-                            <p>Thakral Nursing and Maternity Home</p>
+                            <p>Cloudnine Hospital</p>
                         </td>
                         <td>
-                            <p>4 mins </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Vinayak Hospital Gurgaon</p>
-                        </td>
-                        <td>
-                            <p>1 min</p>
+                            <p>Sector 14 Gurgaon, Uttar Pradesh</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Parashar Hospital</p>
+                            <p>Saraswati Hospital</p>
                         </td>
                         <td>
-                            <p>9 mins </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Smile Plus Dental Clinic</p>
-                        </td>
-                        <td>
-                            <p>4 mins </p>
+                            <p>Sector 14 Gurgaon, Uttar Pradesh</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Kathuria Hospital</p>
+                            <p>Kalyani Hospital</p>
                         </td>
                         <td>
-                            <p>1 min </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Rama Hospital &amp; Nursing Home</p>
-                        </td>
-                        <td>
-                            <p>4 mins</p>
+                            <p>Sector 14 Gurgaon, Uttar Pradesh</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Rajendra Hospital</p>
+                            <p>Jain Hospital</p>
                         </td>
                         <td>
-                            <p>5 mins</p>
+                            <p>Sector 14 Gurgaon, Uttar Pradesh</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Shubham Hospital Gurgaon</p>
+                            <p>Fortis Hospital Gurugram</p>
                         </td>
                         <td>
-                            <p>3 mins </p>
+                            <p>14 mins</p>
                         </td>
                     </tr>
                 </tbody>
             </table>
 
 
-            <h3>Commercial Hubs near to Sector 11 Gurgaon </h3>
+            <h3>Commercial Hubs near to Sector 14 Gurgaon </h3>
 
             <table class="beautiful-table">
                 <tbody>
                     <tr>
                         <td>
-                            <p>Kore Tech Park</p>
+                            <p>Udyog Vihar</p>
                         </td>
                         <td>
-                            <p>21 mins </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Emaar Business Park</p>
-                        </td>
-                        <td>
-                            <p>25 mins </p>
+                            <p>14 mins</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>SPAZE BUSINESS PARK</p>
+                            <p>Manesar</p>
                         </td>
                         <td>
-                            <p>26 mins </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>SP Infocity</p>
-                        </td>
-                        <td>
-                            <p>21 mins </p>
+                            <p>35 mins</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>DLF Cyber City Phase II</p>
+                            <p>DLF IT Park</p>
                         </td>
                         <td>
-                            <p>22 mins </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Ansal corporate plaza</p>
-                        </td>
-                        <td>
-                            <p>24 mins </p>
+                            <p>13 mins</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Avanta co-working space </p>
+                            <p>Global Business Park</p>
                         </td>
                         <td>
-                            <p>15 mins </p>
+                            <p>23 mins</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Regus - Gurugram, Unitech Cyber Park</p>
+                            <p>Signature Towers</p>
                         </td>
                         <td>
-                            <p>20 mins </p>
+                            <p>8 mins</p>
                         </td>
                     </tr>
                 </tbody>
             </table>
 
 
-            <h3>Residential Societies in Sector 11 Gurgaon </h3>
+            <h3>Residential Societies in Sector 14 Gurgaon </h3>
 
             <table class="beautiful-table">
                 <tbody>
                     <tr>
                         <td>
-                            <p>4 marla gurgaon</p>
+                            <p>Riddhi Siddhi Apartment</p>
                         </td>
                         <td>
-                            <p>Sector 11 Gurgaon Haryana 122001. </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Homezop One (Society</p>
-                        </td>
-                        <td>
-                            <p>Sector 11 Gurgaon Haryana 122001</p>
+                            <p>Sector 14 Gurgaon, Uttar Pradesh</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Alvin House</p>
+                            <p>DS Heights</p>
                         </td>
                         <td>
-                            <p>Sector 11 Gurgaon Haryana 122001</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Green view Society shivaji Nagar</p>
-                        </td>
-                        <td>
-                            <p>Sector 11 Gurgaon Haryana 122001</p>
+                            <p>Sector 14 Gurgaon, Uttar Pradesh</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Amar Colony Gali No 2</p>
+                            <p>The Paramount</p>
                         </td>
                         <td>
-                            <p>Sector 11 Gurgaon Haryana 122001</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Bhatnagar House</p>
-                        </td>
-                        <td>
-                            <p>Sector 11 Gurgaon Haryana 122001</p>
+                            <p>Sector 14 Gurgaon, Uttar Pradesh</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Global hill view</p>
+                            <p>Sagar Homes</p>
                         </td>
                         <td>
-                            <p>Sector 11 Gurgaon Haryana 122001</p>
+                            <p>Sector 14 Gurgaon, Uttar Pradesh</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Jangra house (ishant)</p>
+                            <p>Allure Homes</p>
                         </td>
                         <td>
-                            <p>Sector 11 Gurgaon Haryana 122001</p>
+                            <p>Sector 14 Gurgaon, Uttar Pradesh</p>
                         </td>
                     </tr>
                 </tbody>
             </table>
 
-            <h2>Investment Insights in Sector 11 Gurgaon </h2>
-
-            <p>Real estate market in Gurgaon sector 11 provides promising appreciation in commercial and residential properties and features competitive rental yields for real estate investors looking for a regular passive income. It features numerous state-of-the-art commercial and residential properties from leading real estate developers in the country like. Elan tower centre, Elan epic, Krisumi Waterfall Residences, Godrej Aristocrat etc. </p>
-
-            <p>Currently, the average price of commercial spaces in Gurgaon sector 11 costs around ₹6000 per square foot.</p>
-
-            <p>The key factor in capital appreciation and consequently rental yields in Gurgaon Sector 11 is Dwarka expressway, IGI Airport, National Highway 48 and 28A. </p>
-
-            <h2>Upcoming RERA Approved Projects near Sector 11 Gurgaon </h2>
+            <h2>Upcoming RERA Approved Projects near Sector 14 Gurgaon </h2>
 
             <p>Gurgaon Real estate is emerging with an array of state-of-the-art <a href="../category/commercial-property.php"><strong>commercial properties</strong></a> and <a href="../category/residential-property.php"><strong>residential properties</strong></a> from <a href="../blog/top-10-real-estate-company-in-noida.php"><strong>leading real estate developers in India</strong></a> featuring promising capital appreciation and ROI along with a wide range of amenities and facilities.</p>
-
             <p>Here, we list out the the top commercial and residential properties in Gurgaon:</p>
 
-            <h2>Commercial Property near Sector 11 Gurgaon</h2>
+            <h2>Commercial Property near Sector 14 Gurgaon </h2>
 
-            <h3>Hot-selling commercial property in Gurgaon include:</h3>
+            <h3>Hot-selling commercial property in Noida include:</h3>
 
             <h3>Elan Town Centre | Commercial Property in Sector 67 Gurgaon</h3>
 
-            <p><a href="../propertydetail/elan-town-centre-sector-67-gurugram.php"><strong>Elan Town Centre</strong></a> is the most sought-after retail destination in the commercial hub of Gurugram, Sector - 67, developed by the leading real estate developer in India Elan Group with a vision to channel real estate partners and customers. Elan Town Centre Sector 67 project features high street retail with double height shops, Plush Food Court, and PVR Multiplex.</p>
+            <p><a href="../propertydetail/elan-town-centre-sector-67-gurugram.php"><strong>Elan Town Centre</strong></a> in Gurgaon&rsquo;s Sector 67 is a bustling commercial district that offers shopping, dining and entertainment all in one location. With a variety of prominent brands and restaurants, it provides an inviting environment for both customers and entrepreneurs. Its handy location makes it a popular destination for both locals and visitors.</p>
+
 
             <table class="beautiful-table">
                 <tbody>
@@ -890,7 +699,7 @@ apartments in gurgaon sector 11" />
 
             <h3>Elan Epic | Commercial Property in Sector 70 Gurgaon</h3>
 
-            <p><a href="../propertydetail/elan-epic-sector-70-gurugram.php"><strong>Elan Epic</strong></a> is a present time&#39;s needed project, which has all modern facilities and amenities. It has promising infrastructure as compared to other commercial zones in Gurgaon with improving connectivity. Additionally, there are other conveniences available here such as a Cafeteria, CCTV Camera Security, 24/7 Power Backup, etc.</p>
+            <p><a href="../propertydetail/elan-epic-sector-70-gurugram.php"><strong>Elan Epic</strong></a> in Sector 70 Gurgaon is a mixed-use development. With a vibrant design and modern atmosphere, Elan Epic serves as a retail hub, diner and entertainment spot. It is a go-to place for both local residents and professionals. </p>
 
             <table class="beautiful-table">
                 <tbody>
@@ -948,7 +757,7 @@ apartments in gurgaon sector 11" />
 
             <h3>Elan Imperial | Commercial Property in Sector 82 Gurgaon</h3>
 
-            <p>Elan commercial projects offer space for retail shops, food courts, restaurants, hotels, and multiplexes. <a href="../propertydetail/elan-imperial-sector-82.php"><strong>Elan Imperial</strong></a> boasts a world-class architectural project with an array of amenities and cutting-edge facilities, making it the best real estate investment in India .</p>
+            <p><a href="../propertydetail/elan-imperial-sector-82.php"><strong>Elan Imperial</strong></a> is said to be the first luxury mall of Gurgaon. It consists of a five-star hotel along with offering the experiences of high-end retail shops, food court and even multiplex. Strategically located near Dwarka Expressway and other major highways, Elan Imperial is a great property to invest in.</p>
 
             <table class="beautiful-table">
                 <tbody>
@@ -1003,13 +812,13 @@ apartments in gurgaon sector 11" />
                 </tbody>
             </table>
 
-            <h2>Residential Property near Sector 11 Gurgaon </h2>
+            <h2>Residential Property near Sector 14 Gurgaon </h2>
 
-            <h3>Hot selling residential properties in Gurgaon include:</h3>
+            <h3>Hot selling residential properties in Noida include:</h3>
 
             <h3>Godrej Aristocrat | Residential Property in Sector 49 Gurgaon</h3>
 
-            <p>Godrej Aristocrat Sector 49 Gurugram, is a forest themed residential property offering <a href="../3-bhk-flats-in-gurgaon.php"><strong>3 BHK Apartments</strong></a> and <a href="../4-bhk-flats-in-gurgaon.php"><strong>4 BHK apartments</strong></a>. Apart from being surrounded by 1-acre of lush forest area, it features a grand 45,000 sq ft clubhouse which offers a unique blend of social, play, and self-care zones</p>
+            <p>Spread over a whooping 9.56 acres, <a href="../propertydetail/godrej-aristocrat-sector-49.php"><strong>Godrej Aristocrat</strong></a> offers 3 and 4 BHK luxury flats with a starting price of around Rs. 5 Cr. It features a large club house, a forest-themed landscape, and even a half-olympic length swimming pool.</p>
 
             <table class="beautiful-table">
                 <tbody>
@@ -1066,10 +875,9 @@ apartments in gurgaon sector 11" />
                 </tbody>
             </table>
 
-
             <h3>M3M Antalya Hills | Residential Property in Sector 79 Gurgaon</h3>
 
-            <p><a href="../propertydetail/m3m-antalya-hills-sector-79-gurugram.php"><strong>M3M Antalya Hills</strong></a> sector 79 Gurugram, is an Evergreen Valley at The foothills Of The Aravalli, designed By The M3M Group, that Offers 2.5 BHK &amp; 3.5 BHK Luxury Residence Property with world-class aesthetics and enduring a fun and comfortable life for affluent individuals. With a personal basement available with each flat and proximity to every modern comfort just 1 Minute away, M3M Antalya Hills sector 79 Gurugram residential property project is a unique mix of low street retail and uber residences.</p>
+            <p><a href="../propertydetail/m3m-antalya-hills-sector-79-gurugram.php"><strong>M3M Antalya Hills</strong></a> gives you 2 and 3 BHK independent apartments with a scenic view of Aravalli Hills straight from your balcony. The project is still under construction and starting price ranges from Rs. 1.71 Cr - Rs. 2.28 Cr.</p>
 
             <table class="beautiful-table">
                 <tbody>
@@ -1124,10 +932,9 @@ apartments in gurgaon sector 11" />
                 </tbody>
             </table>
 
-
             <h3>M3M Altitude | Residential Property in Sector 65 Gurgaon</h3>
 
-            <p><a href="../propertydetail/m3m-altitude-sector-65.php"><strong>M3M Altitude</strong></a> offers residential space in 3 BHK Apartments, and 4 BHK Apartments. It is strategically located on a 60 meter wide Main Arterial Sector Road and provides close proximity to Trump Towers and M3M Golf Estate along NH-8 IGI Airport. This residential property features state-of-the-art sky clubhouse, superlative amenities, resort style pool area, and a panoramic view for a luxurious and modern living at the heart of Gurugram.</p>
+            <p><a href="../propertydetail/m3m-altitude-sector-65.php"><strong>M3M Altitude</strong></a> spans over 3.95 acres and offers 4.5 and BHK apartments. It has 3 buildings and the sizes range from 3685 to 8065 sq. ft. It is located near the Golf Course Extension Road, and the average price is Rs. 24,000/sq. ft.</p>
 
             <table class="beautiful-table">
                 <tbody>
@@ -1182,11 +989,9 @@ apartments in gurgaon sector 11" />
                 </tbody>
             </table>
 
-
             <h3>M3M Mansion | Residential Property in Sector 113 Gurgaon</h3>
 
-            <p>This residential property is strategically located on Dwarka Expressway with seamless connectivity to numerous iconic landmarks making it the best real estate investment in India. <a href="../propertydetail/m3m-mansion-sector-113.php"><strong>M3M Mansion</strong></a> Provides an array of amenities like a spa, Intercom Facility, Community Centre, Coffee Shop, Gym, Clubhouse and many.</p>
-
+            <p><a href="../propertydetail/m3m-mansion-sector-113.php"><strong>M3M Mansion</strong></a> is a newly launched project offering 3, 4, and 5 BHK apartments, with prices ranging from Rs. 4 Cr to Rs. 15 Cr+ . It is situated along the Dwarka Expressway and is part of the Smart City Delhi Airport. The apartment features a golf club along with spacious flats and penthouses.</p>
 
             <table class="beautiful-table">
                 <tbody>
@@ -1243,10 +1048,9 @@ apartments in gurgaon sector 11" />
                 </tbody>
             </table>
 
-
             <h3>Paras Quartier | Residential Property in Sector 2 Gurgaon</h3>
 
-            <p><a href="../propertydetail/paras-quartier.php"><strong>Paras Quartier</strong></a> is a ready-to-move residential property in Sector 2 Gurugram. It comprises 1 Iconic Tower and 2 Condominium Towers offering an array of amenities and facilities like concierge service, private elevator access, a state-of-the-art business centre, and a rooftop infinity lap pool.</p>
+            <p>This 43 storey residential tower offers 4 BHK luxury apartments. It has a clubhouse that spans over 35,000 sq. ft. <a href="../propertydetail/paras-quartier.php"><strong>Paras Quartier</strong></a> features 3 swimming pools among which one is a rooftop pool. The prices of the property range between Rs. 7.5-15 Cr+ .</p>
 
             <table class="beautiful-table">
                 <tbody>
@@ -1301,10 +1105,9 @@ apartments in gurgaon sector 11" />
                 </tbody>
             </table>
 
-
             <h3>Krisumi Waterfall Residences | Residential Property in Sector 36A Gurgaon</h3>
 
-            <p><a href="../propertydetail/krisumi-waterfall-residences-sector-36a-gurgaon.php"><strong>Krisumi Waterfall Residences</strong></a> Features state-of-the-art luxurious residential property with 2 BHK, 3 BHK apartments. These residential apartments in Krisumi City are strategically located on the Dwarka expressway and provide seamless connectivity via a network of well-connected roads and highways. </p>
+            <p>Spread across 5.43 acres, <a href="../propertydetail/krisumi-waterfall-residences-sector-36a-gurgaon.php"><strong>Krisumi Waterfall Residences</strong></a> is an inclusive residential space that offers 1- BHK apartments, studio apartments, and 1 RK apartments. It has two towers with 34 floors each. The amenities include a large clubhouse, elevators, green zone and 24/7 power backup.</p>
 
             <table class="beautiful-table">
                 <tbody>
@@ -1359,11 +1162,10 @@ apartments in gurgaon sector 11" />
                 </tbody>
             </table>
 
-
-            <h2>Map of Sector 11 Gurgaon</h2>
+            <h2>Map of Sector 14 Gurgaon</h2>
 
             <div style="text-decoration:none; overflow:hidden;max-width:100%;height:500px;">
-                <div id="canvas-for-googlemap" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=sector+11+gurgaon&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class=" embed-ded-maphtml" href="https://www.bootstrapskins.com/themes" id="make-map-infor-mation">premium bootstrap themes</a>
+                <div id="canvas-for-googlemap" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=sector+14+gurgaon&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class=" embed-ded-maphtml" href="https://www.bootstrapskins.com/themes" id="make-map-infor-mation">premium bootstrap themes</a>
 
             </div>
 
@@ -1371,6 +1173,7 @@ apartments in gurgaon sector 11" />
 
             <p>
                 <a href="../index.php">Moneytree Realty</a> is the leading channel partner in real estate with a diverse portfolio of properties including commercial property, residential property, and <a href="../plots-for-sale.php"><strong>plots for sale</strong></a>. Our property dealers in Gurgaon provide best-in-class property consultations and present you with the best flat in Gurgaon.
+                <br>
 
                 Our <a href="../real-estate-consultant.php"><strong>real estate consultants</strong></a> at MoneyTree Realty provide valuable insights into market trends and property analysis and help you buy a flat in Gurgaon. We follow a client-centric approach and maintain transparency between each client & the developer and provide you with the best home in Gurgaon.
             </p>
@@ -1416,35 +1219,19 @@ apartments in gurgaon sector 11" />
 
 
             <section class="questions">
-                <h2>What are the top projects of Sector 11 Gurgaon?</h2>
-                <p>4 Marla Gurgaon, Homezop One (Society), Alvin House, Green View Society Shivaji Nagar are the top projects of Sector 11 Gurgaon.</p>
+                <h2>What is the pin code of Sector 14 Gurgaon?</h2>
+                <p>The pin code of Sector 14 Gurgaon is 122001.</p>
             </section>
 
             <section class="questions">
-                <h2>What are the average property prices in Sector 11 Gurgaon?</h2>
-                <p>The average property price in Sector 11 costs ₹6,000 per sq. ft. It has witnessed a year-on-year growth of about 2.6% in property prices.</p>
+                <h2>What is the rent for a 2 and 3 BHK flat in Sector 14 Gurgaon?</h2>
+                <p>The rent is ₹25,000-₹40,000 per month for a 2 BHK flat and ₹40,000-₹70,000 per month for a 3 BHK flat.</p>
             </section>
 
             <section class="questions">
-                <h2>What is the pincode for Sector 11 Gurgaon?</h2>
-                <p>The pincode for Sector 11 Gurgaon is 122001.</p>
+                <h2>Which is the nearest Metro Station from Sector 14 Gurgaon?</h2>
+                <p>The nearest metro station is Sikanderpur Metro Station.</p>
             </section>
-
-            <section class="questions">
-                <h2>What are the commute options in Sector 11 Gurgaon?</h2>
-                <p>MG Road Metro Station, Sikandarpur Metro Station, IFFCO Chowk Metro Station, HUDA City Center Metro Station, Gurgaon Railway Station, and Basai Dhankot Railway Station are major commute options available in Sector 11 Gurgaon.</p>
-            </section>
-
-            <section class="questions">
-                <h2>In which district is Sector 11 Gurgaon located?</h2>
-                <p>Sector 11 Gurgaon is located in the district of Gurugram.</p>
-            </section>
-
-            <section class="questions">
-                <h2>What is the population of Gurgaon Sector 11?</h2>
-                <p>Gurgaon Sector 11 has a total population of 28,362.</p>
-            </section>
-
 
 
         </main>
@@ -1463,17 +1250,6 @@ apartments in gurgaon sector 11" />
 
                 <p class="wp-block-tag-cloud">
 
-                    <a href="./sector-11-gurgaon">Sector 11 Gurugram, Haryana</a>
-                    <a href="./sector-11-gurgaon">3 bhk for rent sector 11 Gurgaon</a>
-                    <a href="./sector-11-gurgaon">Sector 11 pin code</a>
-                    <a href="./sector-11-gurgaon">Sector 11 market</a>
-                    <a href="./sector-11-gurgaon">Sector 11 police station Gurgaon</a>
-                    <a href="../blog/real-estate-investment-a-comprehensive-guide-on-real-estate.php">Real Estate Investment</a>
-                    <a href="../contact.php">Property Management</a>
-                    <a href="../category/residential-property.php">Residential Real Estate</a>
-                    <a href="../best-property-dealers-in-noida.php">Real Estate Deals</a>
-                    <a href="../real-estate-advisor-and-property-consulting-firm-in-india.php">Property Advice</a>
-                    <a href="../real-estate-consultant.php">Real Estate Consulting</a>
 
 
 
@@ -1490,17 +1266,6 @@ apartments in gurgaon sector 11" />
             <h6>Similar Tags:</h6>
             <ul class="tags">
 
-                <li><a href="./sector-11-gurgaon">Sector 11 Gurugram, Haryana</a></li>
-                <li><a href="./sector-11-gurgaon">3 bhk for rent sector 11 Gurgaon</a></li>
-                <li><a href="./sector-11-gurgaon">Sector 11 pin code</a></li>
-                <li><a href="./sector-11-gurgaon">Sector 11 market</a></li>
-                <li><a href="./sector-11-gurgaon">Sector 11 police station Gurgaon</a></li>
-                <li><a href="../blog/real-estate-investment-a-comprehensive-guide-on-real-estate.php">Real Estate Investment</a></li>
-                <li><a href="../contact.php">Property Management</a></li>
-                <li><a href="../category/residential-property.php">Residential Real Estate</a></li>
-                <li><a href="../best-property-dealers-in-noida.php">Real Estate Deals</a></li>
-                <li><a href="../real-estate-advisor-and-property-consulting-firm-in-india.php">Property Advice</a></li>
-                <li><a href="../real-estate-consultant.php">Real Estate Consulting</a></li>
 
 
             </ul>

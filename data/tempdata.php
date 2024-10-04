@@ -106,9 +106,9 @@ $properties = [
         'builder' => 'Elan Group',
         'location' => ['Gurugram', 'Sector 67', '122001', ''],
         'images' => [
-            'assets/img/projectdetails/elantower1.jpg',
-            'assets/img/projectdetails/elantower2.jpg',
-            'assets/img/projectdetails/elantower3.jpg'
+            'assets/img/projectdetails/elantower1.webp',
+            'assets/img/projectdetails/elantower2.webp',
+            'assets/img/projectdetails/elantower3.webp'
         ],
         'price' => 'on request',
         'possession' => 'Ready for possession',
@@ -125,9 +125,9 @@ $properties = [
         'builder' => 'Elan Group',
         'location' => ['Gurugram', 'Sector 70', '122001', ''],
         'images' => [
-            'assets/img/projectdetails/elanepic1.jpg',
-            'assets/img/projectdetails/elanepic2.jpg',
-            'assets/img/projectdetails/elanepic3.jpg',
+            'assets/img/projectdetails/elanepic1.webp',
+            'assets/img/projectdetails/elanepic2.webp',
+            'assets/img/projectdetails/elanepic3.webp',
         ],
         'price' => 'on request',
         'possession' => '*nt here',
@@ -145,9 +145,9 @@ $properties = [
         'builder' => 'Godrej Properties',
         'location' => ['Gurugram', 'Sector 49', '122018', ''],
         'images' => [
-            'assets/img/projectdetails/godrejaristocrat1.jpg',
-            'assets/img/projectdetails/godrejaristocrat2.jpg',
-            'assets/img/projectdetails/godrejaristocrat3.jpg',
+            'assets/img/projectdetails/godrejaristocrat1.webp',
+            'assets/img/projectdetails/godrejaristocrat2.webp',
+            'assets/img/projectdetails/godrejaristocrat3.webp',
         ],
         'price' => 'on request',
         'possession' => 'June, 2030',
@@ -224,8 +224,8 @@ $properties = [
         'location' => ['Gurugram', 'Sector 82', '122012', ''],
         'images' => [
             'assets/img/projectdetails/elanimperial1.webp',
-            'assets/img/projectdetails/elanimperial2.jpg',
-            'assets/img/projectdetails/elanimperial3.jpg',
+            'assets/img/projectdetails/elanimperial2.webp',
+            'assets/img/projectdetails/elanimperial3.webp',
         ],
         'price' => 'on request',
         'possession' => 'December, 2028',
