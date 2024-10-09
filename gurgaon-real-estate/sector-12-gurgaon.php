@@ -163,7 +163,7 @@ gurgaon sector 12 flats for rent, apartments in gurgaon sector 12" />
 
 
 
-    
+
     <!-- Google Tag Manager 
         -->
     <script>
@@ -786,7 +786,7 @@ gurgaon sector 12 flats for rent, apartments in gurgaon sector 12" />
 
             <h2>Commercial Property near Sector 12 Gurgaon </h2>
 
-            <h3>Hot-selling commercial property in Noida include:</h3>
+            <h3>Hot-selling commercial property in Gurgaon include:</h3>
 
             <h3>Elan Town Centre | Commercial Property in Sector 67 Gurgaon: </h3>
 
@@ -965,7 +965,7 @@ gurgaon sector 12 flats for rent, apartments in gurgaon sector 12" />
 
             <h2>Residential Property near Sector 12 Gurgaon </h2>
 
-            <h3>Hot selling residential properties in Noida include:</h3>
+            <h3>Hot selling residential properties in Gurgaon include:</h3>
 
             <h3>Godrej Aristocrat | Residential Property in Sector 49 Gurgaon:</h3>
 

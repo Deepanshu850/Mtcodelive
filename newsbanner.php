@@ -48,6 +48,7 @@
     }
 
     .notification-content p {
+        color: white;
         margin: 0;
         display: inline-block;
         white-space: nowrap;
@@ -57,6 +58,7 @@
 
     .notification-content p span {
         padding-left: 80px;
+        
         /* Space between repeated text */
     }
 
@@ -104,14 +106,15 @@
     <div class="notification-content">
         <p>
             <span>
-                🚨 Exclusive event: <strong>MoneyTree</strong> presents <strong>PropTree Mela</strong> at <strong>Radisson Blu</strong> on <strong>2nd October</strong> <a href="tel:9732300007" class="cta-link">Learn More</a>
+                🚨 New Launch: <strong>MoneyTree</strong> presents <strong>Midtown Plaza</strong> starts from <strong>49* lacs only</strong> <a href="tel:9732300007" class="cta-link">Learn More</a>
             </span>
             <span>
-                🚨 Exclusive event: <strong>MoneyTree</strong> presents <strong>PropTree Mela</strong> at <strong>Radisson Blu</strong> on <strong>2nd October</strong> <a href="tel:9732300007" class="cta-link">Learn More</a>
+                🚨 New Launch: <strong>MoneyTree</strong> presents <strong>Midtown Plaza</strong> starts from <strong>49* lacs only</strong> <a href="tel:9732300007" class="cta-link">Learn More</a>
             </span>
             <span>
-                🚨 Exclusive event: <strong>MoneyTree</strong> presents <strong>PropTree Mela</strong> at <strong>Radisson Blu</strong> on <strong>2nd October</strong> <a href="tel:9732300007" class="cta-link">Learn More</a>
+                🚨 New Launch: <strong>MoneyTree</strong> presents <strong>Midtown Plaza</strong> starts from <strong>49* lacs only</strong> <a href="tel:9732300007" class="cta-link">Learn More</a>
             </span>
+
 
 
         </p>

@@ -368,7 +368,7 @@
 
                     <p>Expressways refers to controlled-access highways and offers high-speed roads with limited entry and exit points, controlled by the use of cloverleaf, three-way trumpet, or grade separated to allow a faster and seamless travel.</p>
 
-                    <p>Highways on the other hand have open-access roads along with multiple traffic points and varying speed limits. Expressways feature various mixes of signals and intersections.</p>
+                    <p>Highways on the other hand have open-access roads along with multiple traffic points and varying speed limits. Highways feature various mixes of signals and intersections.</p>
 
                     <h3>Greenfield Expressway </h3>
 
@@ -376,7 +376,7 @@
 
                     <h2 id="heading-2">Insights into Expressways of India </h2>
 
-                    <p>Expressways of India provides seamless connectivity to major cities of the country and allows easy to and fro travel to major hubspots. Apart from easy connectivity, expressways of India flourishes infrastructural development around it, leading to construction of an array of commercial and residential properties around it. </p>
+                    <p>Expressways of India provides seamless connectivity to leading cities of the country and allows easy to and fro travel to major hubspots. Apart from easy connectivity, expressways of India flourishes infrastructural development around it, leading to construction of an array of commercial and residential properties around it. </p>
 
                     <p>Real estate projects around the expressways of India offer promising capital appreciation, and assured returns on investment to people looking to buy property for sale.</p>
 
@@ -771,7 +771,7 @@
 
 
 
-                            <p>Delhi - Mumbai Expressway is an access-controlled expressway with a total length of 1.350 km. It would be the longest expressway of India after its completion in October 2025. Delhi - Mumbai Expressway connects the Sohna Elevated Corridor in Delhi to the Jawaharlal Nehru Port in Maharashtra and passes through Dausa, Kota, Ratlam, Vadodara, and Surat.</p>
+                            <p>Delhi - Mumbai Expressway is an access-controlled expressway with a total length of 1,350 km. It would be the longest expressway of India after its completion in October 2025. Delhi - Mumbai Expressway connects the Sohna Elevated Corridor in Delhi to the Jawaharlal Nehru Port in Maharashtra and passes through Dausa, Kota, Ratlam, Vadodara, and Surat.</p>
 
                             <h3>Delhi - Mumbai Expressway Statistics </h3>
 

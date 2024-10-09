@@ -317,6 +317,35 @@
     }
 </style>
 
+
+
+<?php
+include '../data/tempdata.php';
+$url = $_SERVER['REQUEST_URI'];
+
+
+$posts = [];
+
+if (strpos($url, 'noida-real-estate') !== false) {
+    $posts = array_filter($properties, function ($property) {
+        return $property['location'][0] === 'Noida';
+    });
+}
+
+if (strpos($url, 'gurgaon-real-estate') !== false) {
+    $posts = array_filter($properties, function ($property) {
+        return $property['location'][0] === 'Gurugram';
+    });
+}
+
+function titleToSlug($title)
+{
+    $slug = strtolower(trim($title));
+    $slug = preg_replace('/[^a-z0-9-]+/', '-', $slug);
+    return $slug;
+}
+?>
+
 <div class="single-widgets widget_egns_recent_post mb-20">
     <div class="widget-title blog-title mb-20">
         <div class="slider-btn-group2 d-flex align-items-center justify-content-between">
@@ -340,7 +369,7 @@
     <div class="recent-post-wraper">
         <div class="swiper recent-post-sidebar-slider">
             <div class="swiper-wrapper" id="page-posts-container">
-                <?php foreach ($properties as $post): ?>
+                <?php foreach ($posts as $post): ?>
                     <?php $postUrl = '../propertydetail/' . $post['link']; ?>
                     <div class="swiper-slide">
                         <div class="widget-cnt">
@@ -389,11 +418,6 @@
 </div>
 
 <style>
-    .mpmpmp {
-        position: absolute;
-        opacity: 0.3;
-    }
-
     .card-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -408,6 +432,7 @@
     .card-grid p {
         font-size: 11px;
         line-height: 1.6;
+        margin-bottom: 0;
     }
 
     .card-grid span {
@@ -429,35 +454,20 @@
     .card a {
         font-weight: 600;
     }
+
+    .side-flex>div {
+        position: sticky;
+        top: -23rem;
+    }
+
+    @media (width < 700px) {
+        .side-flex>div {
+            top: 0rem;
+        }
+    }
 </style>
 
-<?php
-// Array of posts (you can later replace this with a database query if needed)
-$posts = [
-    [
-        'id' => 1,
-        'title' => '3 BHK Flats in Noida',
-        'imageUrl' => './assets/img/3bhk-flats-in-noida.jpeg',
-    ],
-    [
-        'id' => 2,
-        'title' => '4 BHK Flats in Noida',
-        'imageUrl' => './assets/img/4bhk-flats-in-noida.jpeg',
-    ],
-    [
-        'id' => 3,
-        'title' => 'Property in Noida',
-        'imageUrl' => './assets/img/property-in-noida.webp',
-    ],
-];
 
-function titleToSlug($title)
-{
-    $slug = strtolower(trim($title));
-    $slug = preg_replace('/[^a-z0-9-]+/', '-', $slug);
-    return $slug;
-}
-?>
 
 <div class="single-widgets widget_egns_recent_post mb-20">
     <div class="widget-title blog-title mb-20">
@@ -476,18 +486,39 @@ function titleToSlug($title)
         </div>
     </div>
 
+
+    <?php
+    $pages = [
+        [
+            'id' => 1,
+            'name' => '3 BHK Flats in Noida',
+            'imageUrl' => './assets/img/3bhk-flats-in-noida.jpeg',
+        ],
+        [
+            'id' => 2,
+            'name' => '4 BHK Flats in Noida',
+            'imageUrl' => './assets/img/4bhk-flats-in-noida.jpeg',
+        ],
+        [
+            'id' => 3,
+            'name' => 'Property in Noida',
+            'imageUrl' => './assets/img/property-in-noida.webp',
+        ],
+    ];
+    ?>
+
     <div class="recent-post-wraper">
         <div class="swiper recent-post-sidebar-slider">
             <div class="swiper-wrapper" id="page-posts-container">
-                <?php foreach ($posts as $post): ?>
-                    <?php $postUrl = '../' . titleToSlug($post['title']); ?>
+                <?php foreach ($pages as $page): ?>
+                    <?php $postUrl = '../' . titleToSlug($page['name']); ?>
                     <div class="swiper-slide">
                         <div class="widget-cnt">
                             <div class="wi">
-                                <a href="<?= $postUrl; ?>"><img src=".<?= $post['imageUrl']; ?>" alt="<?= $post['title']; ?> image"></a>
+                                <a href="<?= $postUrl; ?>"><img src="../<?= $page['imageUrl']; ?>" alt="<?= $page['name']; ?> image"></a>
                             </div>
                             <div class="wc">
-                                <h6><a class="page-title" href="<?= $postUrl; ?>"><?= $post['title']; ?></a></h6>
+                                <h6><a class="page-title" href="<?= $postUrl; ?>"><?= $page['name']; ?></a></h6>
                             </div>
                         </div>
                     </div>

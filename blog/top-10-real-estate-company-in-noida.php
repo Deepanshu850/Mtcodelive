@@ -46,16 +46,65 @@ Noida, Real estate property agents in Noida, property in noida" />
     <meta property="og:title" content="Top 10 Real Estate Company in Noida | Best Builders in Noida">
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/blog/top-10-real-estate-company-in-noida">
-    <meta property="og:description" content="Top 10 Real estate Company in Noida and top performing real estate companies in India.
-Top Builders in Noida - Godrej Properties, M3M Group, DLF, Devika.">
+    <meta property="og:description" content="Top 10 Real estate Company in Noida and top performing real estate companies in India. Top Builders in Noida - Godrej Properties, M3M Group, DLF, Devika.">
     <meta property="og:type" content="property">
-    <meta property="og:image" content="https://moneytreerealty.com/blog/assets/companies/top-10-real-estate-company-in-noida.jpeg">
+    <meta property="og:image" content="https://moneytreerealty.com/blog/assets/companies\top-10-companies-thumbnail.jpeg">
 
 
     <link rel="canonical" href="https://moneytreerealty.com/blog/top-10-real-estate-company-in-noida" />
 
 
 
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://moneytreerealty.com/blog/top-10-real-estate-company-in-noida"
+            },
+            "headline": "Top 10 Real Estate Company in Noida",
+            "description": "Noida has seen rapid urbanisation with population growth which lead to many MNCs flocking to the city. This led to many leading real estate company in Noida to initiate their property projects. The leading real estate company in Noida features residential properties and commercial properties that provide world-class amenities and facilities. Many of the projects from Paras Buildtech, M3M Group, Godrej properties etc are strategically located on major expressways of India with seamless connectivity, making them the best real estate company in Noida.",
+            "image": [
+                "https://moneytreerealty.com/blog/assets/companies/top-10-companies-thumbnail.jpeg",
+                "https://moneytreerealty.com/blog/assets/companies/godrej-properties.png",
+                "https://moneytreerealty.com/blog/assets/companies/m3m-group.png",
+                "https://moneytreerealty.com/blog/assets/companies/dlf-group.png",
+                "https://moneytreerealty.com/blog/assets/companies/mahagun-group.png",
+                "https://moneytreerealty.com/blog/assets/companies/paras-buildtech.png",
+                "https://moneytreerealty.com/blog/assets/companies/ace-group.png",
+                "https://moneytreerealty.com/blog/assets/companies/migsun-group.png",
+                "https://moneytreerealty.com/blog/assets/companies/signature-global.png",
+                "https://moneytreerealty.com/blog/assets/companies/experion-developers.png",
+                "https://moneytreerealty.com/assets/img/logo.png"
+            ],
+            "author": {
+                "@type": "Organization",
+                "name": "Moneytree Realty",
+                "url": "https://moneytreerealty.com/"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Moneytree Realty",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://moneytreerealty.com/assets/img/logo.png"
+                }
+            },
+            "datePublished": "2024-06-22",
+            "dateModified": "2024-10-09"
+        }
+    </script>
+
+
+
+
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="assets/blog.css">
+    <link href="../assets/css/nice-select.css" rel="stylesheet">
+    <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
 
 
     <!-- Google Tag Manager -->
@@ -76,28 +125,7 @@ Top Builders in Noida - Godrej Properties, M3M Group, DLF, Devika.">
         })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
     </script>
     <!-- End Google Tag Manager -->
-    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../assets/css/jquery-ui.css" rel="stylesheet">
-    <link href="../assets/css/bootstrap-icons.css" rel="stylesheet">
-    <link href="../assets/css/all.min.css" rel="stylesheet">
-    <link href="../assets/css/animate.min.css" rel="stylesheet">
-    <link href="../assets/css/jquery.fancybox.min.css" rel="stylesheet">
-    <link href="../assets/css/fontawesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="../assets/css/slick.css">
-    <link rel="stylesheet" href="../assets/css/slick-theme.css">
-    <link rel="stylesheet" href="../assets/css/magnific-popup.css">
-    <link href="../assets/css/boxicons.min.css" rel="stylesheet">
-    <link href="../assets/css/nice-select.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/blog.css">
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-
-
-    <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
-    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-JZJY23MWW7"></script>
     <script>
@@ -111,178 +139,20 @@ Top Builders in Noida - Godrej Properties, M3M Group, DLF, Devika.">
     </script>
     <!-- End Google Analytics -->
     <!--G-JZJY23MWW7-->
-</head>
 
-<body class="light-theme">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2ZBWP94" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
-
-
-    <div class="s-soft">
-        <a href="https://www.facebook.com/moneytreerealtyofficial" class="s-item facebook">
-            <span class="fa fa-facebook"></span>
-        </a>
-
-        <a href="https://www.linkedin.com/company/moneytree-realty-services/mycompany/" class="s-item linkedin">
-            <span class="fa fa-linkedin"></span>
-        </a>
-        <a href="https://www.instagram.com/moneytreerealtyofficial/" class="s-item instagram">
-            <span class="fa fa-instagram"></span>
-        </a>
-
-    </div>
-    <a id="so-open" class="s-item print so-collapse">
-        <span class="fa fa-arrow-right"></span>
-    </a>
-
-
- 
-
-    <?php
-    include './header.php';
-    ?>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const images = document.querySelectorAll('.image-gallery img');
-            images.forEach(img => {
-                window.setTimeout(() => {
-                    img.style.opacity = 1;
-                }, 300); // Adjust time as needed
-            });
-        });
-    </script>
 
     <style>
-        body,
-        html {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-
-        h1 {
-            font-size: 32px;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-
-
-        .blog-details-page .post-title {
-            font-size: 34px;
-        }
-
-
-        @media (width < 600px) {
-            .blog-details-page .post-title {
-                font-size: 27px;
-            }
-        }
-
-
-        h3 {
-            font-size: 20px;
-            margin-top: 25px;
-            margin-bottom: 10px;
-        }
-
-        p {
-            font-size: 16px;
-            margin-bottom: 15px;
-            text-align: justify;
-        }
-
-        h2 {
-            font-size: 24px;
-            margin-top: 30px;
-            margin-bottom: 10px;
-        }
-
-
-
-        #fake-heading {
-            font-family: var(--font-montserrat);
-            color: black;
-            font-weight: 600;
-            font-size: 24px;
-            margin-top: 30px;
-            margin-bottom: 10px;
-        }
-
-        ul {
-            margin-bottom: 15px;
-            padding-left: 20px;
-        }
-
-        li {
-            font-size: 16px;
-            margin-bottom: 10px;
-            text-align: justify;
-        }
-
-        .blog-details-page p {
+        .custom-list h2 {
             color: black;
         }
 
-        .arrow-list {
-            list-style: none;
-
-
+        .custom-list>li::before {
+            top: 4px;
         }
 
-        .arrow-list>li {
-            margin-block: 20px;
-            position: relative;
-            margin-inline-start: 20px;
-            color: black;
-            font-weight: 400;
-            font-size: 16px;
-        }
-
-        .arrow-list>h3 {
-            font-size: 18px !important;
-
-        }
-
-
-        .arrow-list>li::before {
-            content: "➔";
-            color: #005b52;
-            display: inline-block;
-            position: absolute;
-            left: -25px;
-        }
-
-        ol > li >  ul {
+        .custom-list ul {
             list-style-type: disc;
         }
-
-        ol > li > ul >li {
-            color: black;
-            font-weight: 400;
-            padding-block: 6px;
-            margin-left: 1.5rem;
-            font-size: 16px;
-        }
-
-
-        ol>li>h2 {
-            font-size: 20px;
-            color: #005b52;
-            margin-bottom: 6px;
-
-        }
-
-        ol>li {
-            padding-block: 1rem;
-            color: #005b52;
-            font-size: 19px;
-            font-weight: bold;
-        }
-
 
         .company-wrapper {
             display: flex;
@@ -298,32 +168,34 @@ Top Builders in Noida - Godrej Properties, M3M Group, DLF, Devika.">
 
         }
     </style>
+</head>
+
+<body class="light-theme">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2ZBWP94" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
 
-  
 
-    <div class="blog-details-page pt-100">
-        <div class="container">
+
+    <?php
+    include './header.php';
+    ?>
+
+
+    <div id="flex-wrapper" class="blog-details-page pt-50 ">
+        <div class="container col-lg-8 blog-main-content">
             <div class="row g-lg-4 gy-5">
-                <div class="col-lg-8">
+                <div>
                     <div class="post-thumb">
-                        <img src="./assets/companies/top-10-companies-thumbnail.jpeg" alt="Top 10 Real Estate Company in Noida | Best Builders in Noida">
+                        <img loading="lazy" src="./assets/companies/top-10-companies-thumbnail.jpeg" alt='Top 10 Real Estate Company in Noida | Best Builders in Noida'>
                         <div class="date">
-
 
                             <!-- flag -->
 
-
-
-                            <a href="../Property-in-noida.php">Property</a>
+                            <a href="../best-property-dealers-in-noida.php">Property</a>
                         </div>
                     </div>
-
-
-
-                    <!-- main title -->
-
-
 
                     <h1 class="post-title">
 
@@ -333,12 +205,9 @@ Top Builders in Noida - Godrej Properties, M3M Group, DLF, Devika.">
 
                     </h1>
                     <div class="author-area">
-                        <!-- <div class="author-img">
-                            <img style="object-fit:contain" src="../assets/img/jibbi.jpeg" alt>
-                        </div> -->
                         <div class="author-content">
-                            <h6>Jibran Suhail</h6>
-                            <a href="#">Posted on - 22 June, 2024</a>
+                            <h6> Team MoneyTree </h6>
+                            <span>Modified on - 9 October, 2024</span>
                         </div>
                     </div>
 
@@ -349,10 +218,8 @@ Top Builders in Noida - Godrej Properties, M3M Group, DLF, Devika.">
                             companies in India</strong>.
                         <br><br>
 
-
                         With the emergency of infrastructure and technology, numerous <strong>real estate
                             company in Noida</strong> have initiated their expansive projects in the city.
-
 
                     </p>
 
@@ -378,14 +245,10 @@ Top Builders in Noida - Godrej Properties, M3M Group, DLF, Devika.">
 
 
                     <p>
-                        Noida has seen rapid urbanisation with population growth which lead to many MNCs
-                        flocking to the city. This led to many leading real estate company in Noida to
-                        initiate their property projects.
-                        The leading real estate company in Noida features residential properties and
-                        commercial properties that provide world-class amenities and facilities.
-                        Many of the projects from Paras Buildtech, M3M Group, Godrej properties etc are
-                        strategically located on major expressways of India with seamless connectivity,
-                        making them the <a href=""><strong>best real estate builders in Noida</strong></a>.
+                        Noida has seen rapid urbanisation with population growth which lead to many MNCs flocking to the city. This led to many leading real estate company in Noida to initiate their property projects.
+                        The leading real estate company in Noida features <a href="../category/residential-property.php"><strong>residential properties</strong></a> and <a href="../category/commercial-property.php"><strong>commercial properties</strong></a> that provide world-class amenities and facilities.
+
+                        Many of the projects from Paras Buildtech, M3M Group, Godrej properties etc are strategically located on major expressways of India with seamless connectivity, making them the best real estate company in Noida.
 
 
                     </p>
@@ -399,12 +262,29 @@ Top Builders in Noida - Godrej Properties, M3M Group, DLF, Devika.">
                         leading real estate company in Noida and provides best in-class amenities and
                         facilities.
                     </p>
-                    <p>
+                    <h3>
 
                         Top 10 real estate company in Noida includes:
-                    </p>
+                    </h3>
 
-                    <ol>
+                    <ol class="custom-list">
+
+                        <li>
+
+                            <h2>
+                                MoneyTree Realty
+                            </h2>
+                            <p>
+                                <a href="../index.php">MoneyTree Realty</a> has emerged as the leader in the real estate industry under the dynamic leadership of renowned and trusted face of real estate, Mr. Sachin Arora, and is continuously striving to bring revolutionary changes by channelising the real estate market. The team of professionals at MoneyTree Realty offers valuable insights into market trends and help you make a comprehensive and strategic property analysis with a client-centric approach along with upholding transparency, accountability, and integrity.
+                            </p>
+
+                            <p>
+                                MoneyTree Realty is widely recognised for its fair and transparent practices in the real estate business and bringing and marketing commercial and residential properties that resonates with the need of the real estate investors looking for promising capital appreciation as well as people looking to buy a home that offers a premium and comfortable living experience.
+                            </p>
+                            <div class="company-wrapper">
+                                <img loading="lazy" src="../assets/img/logo.png" alt="Moneytree Realty">
+                            </div>
+                        </li>
 
                         <li>
                             <h2>
@@ -443,7 +323,7 @@ Top Builders in Noida - Godrej Properties, M3M Group, DLF, Devika.">
                             </ul>
 
                             <div class="company-wrapper">
-                                <img src="./assets/companies/godrej-properties.png" alt="Godrej Properties - Moneytree Realty">
+                                <img loading="lazy" src="./assets/companies/godrej-properties.png" alt="Godrej Properties - Moneytree Realty">
                             </div>
                         </li>
 
@@ -496,7 +376,7 @@ Top Builders in Noida - Godrej Properties, M3M Group, DLF, Devika.">
                             </ul>
 
                             <div class="company-wrapper">
-                                <img src="./assets/companies/m3m-group.png" alt="M3M Group - Moneytree Realty">
+                                <img loading="lazy" src="./assets/companies/m3m-group.png" alt="M3M Group - Moneytree Realty">
                             </div>
                         </li>
 
@@ -521,7 +401,7 @@ Top Builders in Noida - Godrej Properties, M3M Group, DLF, Devika.">
                             </p>
 
                             <div class="company-wrapper">
-                                <img src="./assets/companies/dlf-group.png" alt="dlf group - Moneytree Realty">
+                                <img loading="lazy" src="./assets/companies/dlf-group.png" alt="dlf group - Moneytree Realty">
                             </div>
 
                         </li>
@@ -565,7 +445,7 @@ Top Builders in Noida - Godrej Properties, M3M Group, DLF, Devika.">
 
                             </ul>
                             <div class="company-wrapper">
-                                <img src="./assets/companies/mahagun-group.png" alt="mahagun group - Moneytree Realty">
+                                <img loading="lazy" src="./assets/companies/mahagun-group.png" alt="mahagun group - Moneytree Realty">
                             </div>
                         </li>
                         <li>
@@ -602,7 +482,7 @@ Top Builders in Noida - Godrej Properties, M3M Group, DLF, Devika.">
 
                             </ul>
                             <div class="company-wrapper">
-                                <img src="./assets/companies/paras-buildtech.png" alt="Paras buildtech - Moneytree Realty">
+                                <img loading="lazy" src="./assets/companies/paras-buildtech.png" alt="Paras buildtech - Moneytree Realty">
                             </div>
                         </li>
                         <li>
@@ -638,7 +518,7 @@ Top Builders in Noida - Godrej Properties, M3M Group, DLF, Devika.">
 
                             </ul>
                             <div class="company-wrapper">
-                                <img src="./assets/companies/ace-group.png" alt="ace group - Moneytree Realty">
+                                <img loading="lazy" src="./assets/companies/ace-group.png" alt="ace group - Moneytree Realty">
                             </div>
                         </li>
 
@@ -679,7 +559,7 @@ Top Builders in Noida - Godrej Properties, M3M Group, DLF, Devika.">
 
                             </ul>
                             <div class="company-wrapper">
-                                <img src="./assets/companies/migsun-group.png" alt="migsun group - Moneytree Realty">
+                                <img loading="lazy" src="./assets/companies/migsun-group.png" alt="migsun group - Moneytree Realty">
                             </div>
                         </li>
                         <li>
@@ -702,7 +582,7 @@ Top Builders in Noida - Godrej Properties, M3M Group, DLF, Devika.">
 
                             </p>
                             <div class="company-wrapper">
-                                <img src="./assets/companies/signature-global.png" alt="Signature global - Moneytree Realty">
+                                <img loading="lazy" src="./assets/companies/signature-global.png" alt="Signature global - Moneytree Realty">
                             </div>
                         </li>
                         <li>
@@ -724,42 +604,7 @@ Top Builders in Noida - Godrej Properties, M3M Group, DLF, Devika.">
 
                             </p>
                             <div class="company-wrapper">
-                                <img src="./assets/companies/experion-developers.png" alt="Experion developers - Moneytree Realty">
-                            </div>
-
-                        </li>
-                        <li>
-                            <h2>
-                                Devika Group
-
-                            </h2>
-                            <p>
-                                <strong>Devika Group</strong> is the leading real estate developer in Delhi/NCR with an array of commercial and residential projects spread throughout the city. The Group’s legacy spans over 65 years and boosts a staggering 6 million sq ft of area delivered in over 35 projects curated to meet the various needs of more than 10,000 happy customers.
-                            </p>
-                            <p>
-                                Devika Group continuously strives with the vision to bring valuable changes to the real estate industry in India under the leadership of its visionary directors, Mr. Ankit Agarwal and Ms. Aarti Aggarwal
-
-
-                            </p>
-                            <p>
-                                Devika Group - real estate company in Noida, offers:
-
-
-                            </p>
-                            <ul>
-
-                                <li>
-                                    <a href="./propertydetail/devika-vibe-panache-bazaar.php">
-
-                                        Devika Vibe Panache Bazaar
-                                    </a>
-
-                                </li>
-
-
-                            </ul>
-                            <div class="company-wrapper">
-                                <img src="./assets/companies/devika-group.png" alt="Devika Group - Moneytree Realty">
+                                <img loading="lazy" src="./assets/companies/experion-developers.png" alt="Experion developers - Moneytree Realty">
                             </div>
 
                         </li>
@@ -771,9 +616,10 @@ Top Builders in Noida - Godrej Properties, M3M Group, DLF, Devika.">
 
 
 
-                    <p id="fake-heading">
-                        Tired of looking at Property in Noida?
-                    </p>
+                    <h2>
+                        Wrapping Up
+
+                    </h2>
                     <p>
                         <a href="./Property-in-noida.php"><strong>Property in Noida</strong></a> provides a luxurious living along with a promising <a href="./blog/jewar-airport-top-5-reasons-for-property-investment.php"><strong> real estate
                                 investment in India </strong></a>. Many leading real estate company in Noida offer their
@@ -788,31 +634,12 @@ Top Builders in Noida - Godrej Properties, M3M Group, DLF, Devika.">
                         investment.
                     </p>
                     <p>
-                        To know the details of projects from top real estate company in Noida, <a href="./contact.php"><b>Contact us now!</b></a>
+                        To know the details of projects from top real estate company in Noida, Contact us now on <a href="tel:+919732300007"><strong>+91 9732300007</strong></a>.
+
                     </p>
 
-
-
-
-
-                    <style>
-                        .tags>li {
-
-                            margin: 0;
-                            background-color: rgba(0, 0, 0, 0.06);
-
-                            padding: 2px 10px;
-
-                        }
-
-                        .tags>li>a {
-                            font-size: 11px !important;
-                        }
-                    </style>
-
-
                     <div class="blog-tag-social-area">
-                        <h6>Tags:</h6>
+                        <h6>Similar Tags:</h6>
                         <div class="bolg-tag">
                             <ul class="tags">
 
@@ -878,392 +705,253 @@ Top Builders in Noida - Godrej Properties, M3M Group, DLF, Devika.">
                                     </a>
                                 </li>
 
-
-
-
-
-
                             </ul>
                         </div>
                         <div class="social-area">
                             <h6>Share:</h6>
                             <ul class="social-link d-flex align-items-center">
-                                <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
-                                <li><a href="https://twitter.com/"><i class="bx bxl-twitter"></i></a></li>
-                                <li><a href="https://www.pinterest.com/"><i class="bx bxl-linkedin"></i></a></li>
-                                <li><a href="https://www.instagram.com/"><i class="bx bxl-instagram"></i></a></li>
+                                <li><a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/"><i class="bi bi-twitter"></i></a></li>
+                                <li><a href="https://www.pinterest.com/"><i class="bi bi-pinterest"></i></a></li>
+                                <li><a href="https://www.linkedin.com/"><i class="bi bi-linkedin"></i></a></li>
+                                <li><a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>
 
 
-
                     <div class="row">
-                        <div class="comment-area">
-                            <!-- <div class="comment-title">
-                                <h4>Comments (03)</h4>
-                                <div class="dash"></div>
+
+                        <div class="inquiry-form ">
+                            <div class="title">
+                                <h4>Contact Us</h4>
                             </div>
-                            <ul class="comment">
-                                <li>
-                                    <div class="single-comment-area">
-                                        <div class="author-img">
-                                            <img src="assets/img/inner-page/comment-author-01.png" alt>
-                                        </div>
-                                        <div class="comment-content">
-                                            <div class="author-name-deg">
-                                                <h6>Mr. Bowmik Haldar,</h6>
-                                                <span>05 June, 2023</span>
-                                            </div>
-                                            <p>However, here are some well-regarded car dealerships known for their customer service, inventory, and overall reputation. It's always a good idea to research and read reviews specific...</p>
-                                            <div class="replay-btn">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11">
-                                                    <path d="M8.55126 1.11188C8.52766 1.10118 8.50182 1.09676 8.47612 1.09903C8.45042 1.1013 8.42569 1.11018 8.40419 1.12486C8.3827 1.13954 8.36513 1.15954 8.35311 1.18304C8.34109 1.20653 8.335 1.23276 8.33539 1.25932V2.52797C8.33539 2.67388 8.2791 2.81381 8.17889 2.91698C8.07868 3.02016 7.94277 3.07812 7.80106 3.07812C7.08826 3.07812 5.64984 3.08362 4.27447 3.98257C3.2229 4.66916 2.14783 5.9191 1.50129 8.24735C2.59132 7.16575 3.83632 6.57929 4.92635 6.2679C5.59636 6.07737 6.28492 5.96444 6.97926 5.93121C7.26347 5.91835 7.54815 5.92129 7.83205 5.94001H7.84594L7.85129 5.94111L7.80106 6.48906L7.85449 5.94111C7.98638 5.95476 8.10864 6.01839 8.19751 6.11966C8.28638 6.22092 8.33553 6.35258 8.33539 6.48906V7.75771C8.33539 7.87654 8.45294 7.95136 8.55126 7.90515L12.8088 4.67796C12.8233 4.66692 12.8383 4.65664 12.8537 4.64715C12.8769 4.63278 12.8962 4.61245 12.9095 4.58816C12.9229 4.56386 12.9299 4.53643 12.9299 4.50851C12.9299 4.4806 12.9229 4.45316 12.9095 4.42887C12.8962 4.40458 12.8769 4.38425 12.8537 4.36988C12.8382 4.36039 12.8233 4.35011 12.8088 4.33907L8.55126 1.11188ZM7.26673 7.02381C7.19406 7.02381 7.11391 7.02711 7.02842 7.03041C6.56462 7.05242 5.92342 7.12504 5.21169 7.32859C3.79464 7.7335 2.11684 8.65116 1.00115 10.7175C0.940817 10.8291 0.844683 10.9155 0.729224 10.9621C0.613765 11.0087 0.486168 11.0124 0.368304 10.9728C0.250441 10.9331 0.149648 10.8525 0.0831985 10.7447C0.0167484 10.6369 -0.011219 10.5086 0.0040884 10.3819C0.499949 6.29981 2.01959 4.15202 3.70167 3.05391C5.03215 2.18467 6.40218 2.01743 7.26673 1.98552V1.25932C7.26663 1.03273 7.32593 0.810317 7.43839 0.615545C7.55084 0.420773 7.71227 0.260866 7.90565 0.152696C8.09902 0.0445258 8.31717 -0.00789584 8.53707 0.000962485C8.75698 0.00982081 8.97048 0.0796305 9.15506 0.203025L13.4233 3.43792C13.5998 3.55133 13.7453 3.7091 13.8462 3.8964C13.9471 4.08369 14 4.29434 14 4.50851C14 4.72269 13.9471 4.93333 13.8462 5.12063C13.7453 5.30792 13.5998 5.4657 13.4233 5.57911L9.15506 8.814C8.97048 8.9374 8.75698 9.00721 8.53707 9.01607C8.31717 9.02492 8.09902 8.9725 7.90565 8.86433C7.71227 8.75616 7.55084 8.59626 7.43839 8.40148C7.32593 8.20671 7.26663 7.9843 7.26673 7.75771V7.02381Z" />
-                                                </svg>
-                                                Reply (02)
-                                            </div>
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-inner mb-30">
+                                            <label>Your Name* :</label>
+                                            <input type="text" placeholder="Jackson Mile">
                                         </div>
                                     </div>
-                                    <ul class="comment-replay">
-                                        <li>
-                                            <div class="single-comment-area">
-                                                <div class="author-img">
-                                                    <img src="assets/img/inner-page/comment-author-02.png" alt>
-                                                </div>
-                                                <div class="comment-content">
-                                                    <div class="author-name-deg">
-                                                        <h6>Jacoline Juie,</h6>
-                                                        <span>05 June, 2023</span>
-                                                    </div>
-                                                    <p>However, here are some well-regarded car dealerships known for their customer service, inventory, and overall reputation. It's always a good idea to research and read reviews specific...</p>
-                                                    <div class="replay-btn">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11">
-                                                            <path d="M8.55126 1.11188C8.52766 1.10118 8.50182 1.09676 8.47612 1.09903C8.45042 1.1013 8.42569 1.11018 8.40419 1.12486C8.3827 1.13954 8.36513 1.15954 8.35311 1.18304C8.34109 1.20653 8.335 1.23276 8.33539 1.25932V2.52797C8.33539 2.67388 8.2791 2.81381 8.17889 2.91698C8.07868 3.02016 7.94277 3.07812 7.80106 3.07812C7.08826 3.07812 5.64984 3.08362 4.27447 3.98257C3.2229 4.66916 2.14783 5.9191 1.50129 8.24735C2.59132 7.16575 3.83632 6.57929 4.92635 6.2679C5.59636 6.07737 6.28492 5.96444 6.97926 5.93121C7.26347 5.91835 7.54815 5.92129 7.83205 5.94001H7.84594L7.85129 5.94111L7.80106 6.48906L7.85449 5.94111C7.98638 5.95476 8.10864 6.01839 8.19751 6.11966C8.28638 6.22092 8.33553 6.35258 8.33539 6.48906V7.75771C8.33539 7.87654 8.45294 7.95136 8.55126 7.90515L12.8088 4.67796C12.8233 4.66692 12.8383 4.65664 12.8537 4.64715C12.8769 4.63278 12.8962 4.61245 12.9095 4.58816C12.9229 4.56386 12.9299 4.53643 12.9299 4.50851C12.9299 4.4806 12.9229 4.45316 12.9095 4.42887C12.8962 4.40458 12.8769 4.38425 12.8537 4.36988C12.8382 4.36039 12.8233 4.35011 12.8088 4.33907L8.55126 1.11188ZM7.26673 7.02381C7.19406 7.02381 7.11391 7.02711 7.02842 7.03041C6.56462 7.05242 5.92342 7.12504 5.21169 7.32859C3.79464 7.7335 2.11684 8.65116 1.00115 10.7175C0.940817 10.8291 0.844683 10.9155 0.729224 10.9621C0.613765 11.0087 0.486168 11.0124 0.368304 10.9728C0.250441 10.9331 0.149648 10.8525 0.0831985 10.7447C0.0167484 10.6369 -0.011219 10.5086 0.0040884 10.3819C0.499949 6.29981 2.01959 4.15202 3.70167 3.05391C5.03215 2.18467 6.40218 2.01743 7.26673 1.98552V1.25932C7.26663 1.03273 7.32593 0.810317 7.43839 0.615545C7.55084 0.420773 7.71227 0.260866 7.90565 0.152696C8.09902 0.0445258 8.31717 -0.00789584 8.53707 0.000962485C8.75698 0.00982081 8.97048 0.0796305 9.15506 0.203025L13.4233 3.43792C13.5998 3.55133 13.7453 3.7091 13.8462 3.8964C13.9471 4.08369 14 4.29434 14 4.50851C14 4.72269 13.9471 4.93333 13.8462 5.12063C13.7453 5.30792 13.5998 5.4657 13.4233 5.57911L9.15506 8.814C8.97048 8.9374 8.75698 9.00721 8.53707 9.01607C8.31717 9.02492 8.09902 8.9725 7.90565 8.86433C7.71227 8.75616 7.55084 8.59626 7.43839 8.40148C7.32593 8.20671 7.26663 7.9843 7.26673 7.75771V7.02381Z" />
-                                                        </svg>
-                                                        Reply
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="single-comment-area">
-                                                <div class="author-img">
-                                                    <img src="assets/img/inner-page/comment-author-03.png" alt>
-                                                </div>
-                                                <div class="comment-content">
-                                                    <div class="author-name-deg">
-                                                        <h6>Robert Smith,</h6>
-                                                        <span>05 June, 2023</span>
-                                                    </div>
-                                                    <p>However, here are some well-regarded car dealerships known for their customer service, inventory, and overall reputation. It's always a good idea to research and read reviews specific...</p>
-                                                    <div class="replay-btn">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11">
-                                                            <path d="M8.55126 1.11188C8.52766 1.10118 8.50182 1.09676 8.47612 1.09903C8.45042 1.1013 8.42569 1.11018 8.40419 1.12486C8.3827 1.13954 8.36513 1.15954 8.35311 1.18304C8.34109 1.20653 8.335 1.23276 8.33539 1.25932V2.52797C8.33539 2.67388 8.2791 2.81381 8.17889 2.91698C8.07868 3.02016 7.94277 3.07812 7.80106 3.07812C7.08826 3.07812 5.64984 3.08362 4.27447 3.98257C3.2229 4.66916 2.14783 5.9191 1.50129 8.24735C2.59132 7.16575 3.83632 6.57929 4.92635 6.2679C5.59636 6.07737 6.28492 5.96444 6.97926 5.93121C7.26347 5.91835 7.54815 5.92129 7.83205 5.94001H7.84594L7.85129 5.94111L7.80106 6.48906L7.85449 5.94111C7.98638 5.95476 8.10864 6.01839 8.19751 6.11966C8.28638 6.22092 8.33553 6.35258 8.33539 6.48906V7.75771C8.33539 7.87654 8.45294 7.95136 8.55126 7.90515L12.8088 4.67796C12.8233 4.66692 12.8383 4.65664 12.8537 4.64715C12.8769 4.63278 12.8962 4.61245 12.9095 4.58816C12.9229 4.56386 12.9299 4.53643 12.9299 4.50851C12.9299 4.4806 12.9229 4.45316 12.9095 4.42887C12.8962 4.40458 12.8769 4.38425 12.8537 4.36988C12.8382 4.36039 12.8233 4.35011 12.8088 4.33907L8.55126 1.11188ZM7.26673 7.02381C7.19406 7.02381 7.11391 7.02711 7.02842 7.03041C6.56462 7.05242 5.92342 7.12504 5.21169 7.32859C3.79464 7.7335 2.11684 8.65116 1.00115 10.7175C0.940817 10.8291 0.844683 10.9155 0.729224 10.9621C0.613765 11.0087 0.486168 11.0124 0.368304 10.9728C0.250441 10.9331 0.149648 10.8525 0.0831985 10.7447C0.0167484 10.6369 -0.011219 10.5086 0.0040884 10.3819C0.499949 6.29981 2.01959 4.15202 3.70167 3.05391C5.03215 2.18467 6.40218 2.01743 7.26673 1.98552V1.25932C7.26663 1.03273 7.32593 0.810317 7.43839 0.615545C7.55084 0.420773 7.71227 0.260866 7.90565 0.152696C8.09902 0.0445258 8.31717 -0.00789584 8.53707 0.000962485C8.75698 0.00982081 8.97048 0.0796305 9.15506 0.203025L13.4233 3.43792C13.5998 3.55133 13.7453 3.7091 13.8462 3.8964C13.9471 4.08369 14 4.29434 14 4.50851C14 4.72269 13.9471 4.93333 13.8462 5.12063C13.7453 5.30792 13.5998 5.4657 13.4233 5.57911L9.15506 8.814C8.97048 8.9374 8.75698 9.00721 8.53707 9.01607C8.31717 9.02492 8.09902 8.9725 7.90565 8.86433C7.71227 8.75616 7.55084 8.59626 7.43839 8.40148C7.32593 8.20671 7.26663 7.9843 7.26673 7.75771V7.02381Z" />
-                                                        </svg>
-                                                        Reply
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <div class="single-comment-area">
-                                        <div class="author-img">
-                                            <img src="assets/img/inner-page/comment-author-04.png" alt>
-                                        </div>
-                                        <div class="comment-content">
-                                            <div class="author-name-deg">
-                                                <h6>Srileka Panday,</h6>
-                                                <span>05 June, 2023</span>
-                                            </div>
-                                            <p>However, here are some well-regarded car dealerships known for their customer service, inventory, and overall reputation. It's always a good idea to research and read reviews specific...</p>
-                                            <div class="replay-btn">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11">
-                                                    <path d="M8.55126 1.11188C8.52766 1.10118 8.50182 1.09676 8.47612 1.09903C8.45042 1.1013 8.42569 1.11018 8.40419 1.12486C8.3827 1.13954 8.36513 1.15954 8.35311 1.18304C8.34109 1.20653 8.335 1.23276 8.33539 1.25932V2.52797C8.33539 2.67388 8.2791 2.81381 8.17889 2.91698C8.07868 3.02016 7.94277 3.07812 7.80106 3.07812C7.08826 3.07812 5.64984 3.08362 4.27447 3.98257C3.2229 4.66916 2.14783 5.9191 1.50129 8.24735C2.59132 7.16575 3.83632 6.57929 4.92635 6.2679C5.59636 6.07737 6.28492 5.96444 6.97926 5.93121C7.26347 5.91835 7.54815 5.92129 7.83205 5.94001H7.84594L7.85129 5.94111L7.80106 6.48906L7.85449 5.94111C7.98638 5.95476 8.10864 6.01839 8.19751 6.11966C8.28638 6.22092 8.33553 6.35258 8.33539 6.48906V7.75771C8.33539 7.87654 8.45294 7.95136 8.55126 7.90515L12.8088 4.67796C12.8233 4.66692 12.8383 4.65664 12.8537 4.64715C12.8769 4.63278 12.8962 4.61245 12.9095 4.58816C12.9229 4.56386 12.9299 4.53643 12.9299 4.50851C12.9299 4.4806 12.9229 4.45316 12.9095 4.42887C12.8962 4.40458 12.8769 4.38425 12.8537 4.36988C12.8382 4.36039 12.8233 4.35011 12.8088 4.33907L8.55126 1.11188ZM7.26673 7.02381C7.19406 7.02381 7.11391 7.02711 7.02842 7.03041C6.56462 7.05242 5.92342 7.12504 5.21169 7.32859C3.79464 7.7335 2.11684 8.65116 1.00115 10.7175C0.940817 10.8291 0.844683 10.9155 0.729224 10.9621C0.613765 11.0087 0.486168 11.0124 0.368304 10.9728C0.250441 10.9331 0.149648 10.8525 0.0831985 10.7447C0.0167484 10.6369 -0.011219 10.5086 0.0040884 10.3819C0.499949 6.29981 2.01959 4.15202 3.70167 3.05391C5.03215 2.18467 6.40218 2.01743 7.26673 1.98552V1.25932C7.26663 1.03273 7.32593 0.810317 7.43839 0.615545C7.55084 0.420773 7.71227 0.260866 7.90565 0.152696C8.09902 0.0445258 8.31717 -0.00789584 8.53707 0.000962485C8.75698 0.00982081 8.97048 0.0796305 9.15506 0.203025L13.4233 3.43792C13.5998 3.55133 13.7453 3.7091 13.8462 3.8964C13.9471 4.08369 14 4.29434 14 4.50851C14 4.72269 13.9471 4.93333 13.8462 5.12063C13.7453 5.30792 13.5998 5.4657 13.4233 5.57911L9.15506 8.814C8.97048 8.9374 8.75698 9.00721 8.53707 9.01607C8.31717 9.02492 8.09902 8.9725 7.90565 8.86433C7.71227 8.75616 7.55084 8.59626 7.43839 8.40148C7.32593 8.20671 7.26663 7.9843 7.26673 7.75771V7.02381Z" />
-                                                </svg>
-                                                Reply (02)
-                                            </div>
+                                    <div class="col-md-6">
+                                        <div class="form-inner mb-30">
+                                            <label>Your Email* :</label>
+                                            <input type="email" placeholder="example@gamil.com">
                                         </div>
                                     </div>
-                                </li>
-                                <li>
-                                    <div class="single-comment-area">
-                                        <div class="author-img">
-                                            <img src="assets/img/inner-page/comment-author-05.png" alt>
-                                        </div>
-                                        <div class="comment-content">
-                                            <div class="author-name-deg">
-                                                <h6>Mr. Bowmik Haldar,</h6>
-                                                <span>05 June, 2023</span>
-                                            </div>
-                                            <p>However, here are some well-regarded car dealerships known for their customer service, inventory, and overall reputation. It's always a good idea to research and read reviews specific...</p>
-                                            <div class="replay-btn">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11">
-                                                    <path d="M8.55126 1.11188C8.52766 1.10118 8.50182 1.09676 8.47612 1.09903C8.45042 1.1013 8.42569 1.11018 8.40419 1.12486C8.3827 1.13954 8.36513 1.15954 8.35311 1.18304C8.34109 1.20653 8.335 1.23276 8.33539 1.25932V2.52797C8.33539 2.67388 8.2791 2.81381 8.17889 2.91698C8.07868 3.02016 7.94277 3.07812 7.80106 3.07812C7.08826 3.07812 5.64984 3.08362 4.27447 3.98257C3.2229 4.66916 2.14783 5.9191 1.50129 8.24735C2.59132 7.16575 3.83632 6.57929 4.92635 6.2679C5.59636 6.07737 6.28492 5.96444 6.97926 5.93121C7.26347 5.91835 7.54815 5.92129 7.83205 5.94001H7.84594L7.85129 5.94111L7.80106 6.48906L7.85449 5.94111C7.98638 5.95476 8.10864 6.01839 8.19751 6.11966C8.28638 6.22092 8.33553 6.35258 8.33539 6.48906V7.75771C8.33539 7.87654 8.45294 7.95136 8.55126 7.90515L12.8088 4.67796C12.8233 4.66692 12.8383 4.65664 12.8537 4.64715C12.8769 4.63278 12.8962 4.61245 12.9095 4.58816C12.9229 4.56386 12.9299 4.53643 12.9299 4.50851C12.9299 4.4806 12.9229 4.45316 12.9095 4.42887C12.8962 4.40458 12.8769 4.38425 12.8537 4.36988C12.8382 4.36039 12.8233 4.35011 12.8088 4.33907L8.55126 1.11188ZM7.26673 7.02381C7.19406 7.02381 7.11391 7.02711 7.02842 7.03041C6.56462 7.05242 5.92342 7.12504 5.21169 7.32859C3.79464 7.7335 2.11684 8.65116 1.00115 10.7175C0.940817 10.8291 0.844683 10.9155 0.729224 10.9621C0.613765 11.0087 0.486168 11.0124 0.368304 10.9728C0.250441 10.9331 0.149648 10.8525 0.0831985 10.7447C0.0167484 10.6369 -0.011219 10.5086 0.0040884 10.3819C0.499949 6.29981 2.01959 4.15202 3.70167 3.05391C5.03215 2.18467 6.40218 2.01743 7.26673 1.98552V1.25932C7.26663 1.03273 7.32593 0.810317 7.43839 0.615545C7.55084 0.420773 7.71227 0.260866 7.90565 0.152696C8.09902 0.0445258 8.31717 -0.00789584 8.53707 0.000962485C8.75698 0.00982081 8.97048 0.0796305 9.15506 0.203025L13.4233 3.43792C13.5998 3.55133 13.7453 3.7091 13.8462 3.8964C13.9471 4.08369 14 4.29434 14 4.50851C14 4.72269 13.9471 4.93333 13.8462 5.12063C13.7453 5.30792 13.5998 5.4657 13.4233 5.57911L9.15506 8.814C8.97048 8.9374 8.75698 9.00721 8.53707 9.01607C8.31717 9.02492 8.09902 8.9725 7.90565 8.86433C7.71227 8.75616 7.55084 8.59626 7.43839 8.40148C7.32593 8.20671 7.26663 7.9843 7.26673 7.75771V7.02381Z" />
-                                                </svg>
-                                                Reply (02)
-                                            </div>
+                                    <div class="col-md-12">
+                                        <div class="form-inner mb-30">
+                                            <label class="containerss">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+                                                <span class="text">Please save my name, email address for the next time I comment. </span>
+                                            </label>
                                         </div>
                                     </div>
-                                </li>
-                            </ul> -->
-                            <div class="inquiry-form ">
-                                <div class="title">
-                                    <h4>Contact Us</h4>
+                                    <div class="col-md-12">
+                                        <div class="form-inner mb-30">
+                                            <label>Your Message :</label>
+                                            <textarea placeholder="Write Something..."></textarea>
+                                        </div>
+                                    </div>
                                 </div>
-                                <form>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-inner mb-30">
-                                                <label>Your Name* :</label>
-                                                <input type="text" placeholder="Jackson Mile">
+                                <div class="form-inner">
+                                    <button class="primary-btn3" type="submit">
+                                        Post Comment
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+        <div id="side-stick" class="col-lg-4">
+            <div>
+                <div class="blog-sidebar mb-50">
+                    <div class="single-widgets widget_egns_recent_post mb-20">
+                        <div class="widget-title blog-title mb-20">
+                            <h6>Recent Properties</h6>
+                            <div class="slider-btn-group2 d-flex align-items-center justify-content-between">
+                                <div class="slider-btn prev-51">
+                                    <svg width="7" height="12" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 6.50008L8 0L2.90909 6.50008L8 13L0 6.50008Z"></path>
+                                    </svg>
+                                </div>
+                                <div class="slider-btn next-51">
+                                    <svg width="7" height="12" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 6.50008L0 0L5.09091 6.50008L0 13L8 6.50008Z"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <?php include '../data/tempdata.php'; ?>
+
+                        <div class="recent-post-wraper">
+                            <div class="swiper recent-post-sidebar-slider">
+                                <div class="swiper-wrapper" id="blog-posts-container">
+                                    <?php foreach ($properties as $post): ?>
+                                        <?php $postUrl = '../propertydetail/' . $post['link']; ?>
+                                        <div class="swiper-slide">
+                                            <div class="widget-cnt">
+                                                <div class="wi">
+                                                    <a href="<?= $postUrl; ?>"> <img loading="lazy" class="mpmpmp" src="../<?= $post['images'][1]; ?>" alt="<?= $post['name']; ?> image"></a>
+                                                </div>
+                                                <div class="wc">
+                                                    <h6><a class="page-title" href="<?= $postUrl; ?>"><?= $post['name']; ?></a></h6>
+                                                </div>
+                                                <div class="card-grid">
+                                                    <div>
+                                                        <p>Location</p>
+                                                        <p><?php echo $post['location'][1]; ?></p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Pincode</p>
+                                                        <p><?php echo $post['location'][2]; ?></p>
+
+                                                    </div>
+                                                    <div>
+                                                        <p>Price</p>
+                                                        <p><?php echo $post['price']; ?></p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Type</p>
+                                                        <p>
+                                                            <?php foreach ($post['type'] as $type): ?>
+                                                                <span>
+                                                                    <?php echo $type; ?>
+                                                                </span>
+                                                            <?php endforeach; ?>
+                                                        </p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Rera</p>
+                                                        <p><?php echo $post['rera'][0]; ?></p>
+                                                    </div>
+
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="form-inner mb-30">
-                                                <label>Your Email* :</label>
-                                                <input type="email" placeholder="example@gamil.com">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="form-inner mb-30">
-                                                <label class="containerss">
-                                                    <input type="checkbox">
-                                                    <span class="checkmark"></span>
-                                                    <span class="text">Please save my name, email address for the next time I comment. </span>
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="form-inner mb-30">
-                                                <label>Your Message :</label>
-                                                <textarea placeholder="Write Something..."></textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-inner">
-                                        <button class="primary-btn3" type="submit">
-                                            Post Comment
-                                        </button>
-                                    </div>
-                                </form>
+                                    <?php endforeach; ?>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <style>
-                        .disclaimer {
-                            background-color: #f9f9f9;
-                            color: #666;
-                            font-size: 12px;
-                            /* Smaller font size for less prominence */
-                            padding: 15px;
-                            margin-top: 20px;
-                            border-top: 1px solid #ddd;
-                            /* Adds a subtle line above the disclaimer */
+                        .card-grid {
+                            display: grid;
+                            grid-template-columns: repeat(3, 1fr);
+                            gap: 6px 0;
+                            margin-top: 10px;
                         }
 
-                        .disclaimer p {
+                        .card-grid div p:first-child {
+                            font-weight: 700;
+                        }
+
+                        .card-grid p {
+                            font-size: 11px;
+                            line-height: 1.6;
+                            margin-bottom: 0;
+                        }
+
+                        .card-grid span {
+                            font-size: 10px;
                             margin: 0;
-                            /* Removes default paragraph spacing for compact design */
+                            display: inline-block;
+                        }
+
+                        .card h2,
+                        .card a {
+                            background: linear-gradient(45deg, #d39f51, #e5b566, #f0cb7b, #f8e292);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            background-clip: text;
+                            text-fill-color: transparent;
+
+                        }
+
+                        .card a {
+                            font-weight: 600;
                         }
                     </style>
-                    <!-- <div class="disclaimer">
-                        <p>Disclaimer:
-                            This article ‘Noida International Airport | Jewar Airport Noida’ is provided for informational purposes only. While every effort is made to ensure the accuracy and timeliness of the information with extensive research and duly analysis, readers are advised to conduct their own due diligence with professionals before making any investment decision.
-                            The responsibility for the application of the information provided above rests solely on the reader. Proceed with caution and take decisions based on your real estate ventures.</p>
-                    </div> -->
-                </div>
 
 
-                <div class="col-lg-4">
-                    <div class="blog-sidebar mb-50">
-                        <div class="single-widgets widget_egns_categoris mb-20">
-                            <div class="widget-title mb-20">
-                                <h6>Category</h6>
-                            </div>
-                            <ul class="wp-block-categoris-cloud">
 
-                                <li><a href="#"><span>Industrial</span> <span class="number-of-categoris">(30)</span></a></li>
-                                <li><a href="#"><span>Development</span> <span class="number-of-categoris">(18)</span> </a></li>
-                                <li><a href="#"><span>Houses</span> <span class="number-of-categoris">(21)</span></a></li>
-                                <li><a href="#"><span>Health & Care</span> <span class="number-of-categoris">(25)</span></a></li>
-                                <li><a href="#"><span>Apartment</span> <span class="number-of-categoris">(29)</span></a></li>
-                                <li><a href="#"><span>Banglow</span> <span class="number-of-categoris">(2,554)</span></a></li>
-                                <li><a href="#"><span>Home Twon</span> <span class="number-of-categoris">(1,556)</span></a></li>
-                            </ul>
+                    <div class="single-widgets widget_egns_tag">
+                        <div class="widget-title mb-20">
+                            <h6>Popular Tags</h6>
                         </div>
-                        <style>
-                            .wi img {
-                                width: 100%;
-                                /* Ensures the image takes full width of its container */
-                                height: auto;
-                                /* Maintains the natural aspect ratio of the image */
-                                aspect-ratio: 16 / 9;
-                                /* Fixes the aspect ratio to 16:9 */
-                                object-fit: cover;
-                                /* Covers the area without distorting the image */
-                            }
-                        </style>
-                        <script>
-                            document.addEventListener('DOMContentLoaded', function() {
-                                const posts = [{
-                                        id: 10,
-                                        title: 'Top 10 upcoming expressways of India',
-                                        description: 'Infrastructure in India is rapidly growing with many expressways of India coming up and various commercial property, residential property,  and plots for sale emerging as a high - value real estate investment in India.',
-                                        imageUrl: ' ./assets/top-10-expressway-thumbnail.jpeg',
-                                        date: 'December 10, 2023'
-                                    },
-                                    {
-                                        id: 11,
-                                        title: 'What is Real Estate in India - 2024',
-                                        description: 'Real estate is a form of real property that consists of buildings or homes permanently attached to land.The term \' real estate \' means real(or physical) property. The real estate sector in India is blooming at an exponential rate currently valued at $477 billion,just second to the agricultural sector, and contributes 7.3 % to the country’ s GDP.',
-                                        imageUrl: './assets/what-is-real-estate-thumbnail.jpeg',
-                                        date: 'June 10, 2024'
-                                    },
-                                    {
-                                        id: 12,
-                                        title: 'Migsun Nehru Place 1 Luxury Studio Apartments on Yamuna Expressway',
-                                        description: 'Migsun Group provides a vast and diverse portfolio of commercial and residential projects with over 2 cr of sq ft of area delivered and under construction.This real estate company continuously strives to reimagine the real estate industry in India with their projects that feature a global outlook.',
-                                        imageUrl: ' ./assets/migsun-blog-thumbnail.jpg',
-                                        date: 'June 6, 2024'
-                                    },
-                                    {
-                                        id: 13,
-                                        title: 'Biggest Airports in India',
-                                        description: 'With the rise in tourism and rapid urbanisation in India, the Government of India formulated a standard plan to enhance the aviation industry with plans to initiate the biggest airports in India spread across the nation. IGI Airport, Chhatrapati Shivaji Maharaj International Airport, Rajiv Gandhi International Airport, Cochin International Airport are some of the biggest airports in India.',
-                                        imageUrl: ' ./assets/biggest-airport-image1.jpeg',
-                                        date: 'June 14, 2024'
-                                    },
+                        <p class="wp-block-tag-cloud">
+
+                            <a href="./what-is-real-estate-in-india-2024.php">
+                                Real Estate in India
+                            </a>
+
+                            <a href="./how-to-invest-in-real-estate-in-india.php">
+                                Invest in real estate
+
+                            </a>
+
+                            <a href="./top-10-upcoming-expressways-of-india.php">
+                                Upcoming expressway
+
+                            </a>
+
+                            <a href="../best-real-estate-property-consultant-in-india.php">
+                                Property Investment
+
+                            </a>
+
+                            <a href="./best-city-to-invest-in-real-estate-in-india.php">
+                                Best City to invest in real estate
+
+                            </a>
+
+                            <a href="./noida-international-airport-jewar-airport.php">
+                                Noida international airport
+
+                            </a>
+
+                            <a href="../propertydetail/m3m-the-line-sector-72-noida.php">
+                                commercial property in noida
+
+                            </a>
+
+                            <a href="../propertydetail/ace-terra-yamuna-expressway.php">
+                                Yamuna Expressway
+
+                            </a>
+
+                            <a href="./property-near-jewar-airport.php">
+                                Jewar Airport
+
+                            </a>
+
+                            <a href="../Property-in-noida.php">
+                                Property in Noida
+
+                            </a>
 
 
-                                ];
+                        </p>
 
-                                const container = document.getElementById('blog-posts-container');
-
-                                function titleToSlug(title) {
-                                    return title.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '');
-                                }
-
-                                posts.forEach(post => {
-                                    const slide = document.createElement('div');
-                                    slide.className = 'swiper-slide';
-                                    const postUrl = `./${titleToSlug(post.title)}.php`; // Adjusted for .php and blog folder
-                                    slide.innerHTML = `
-            <div class="widget-cnt">
-                <div class="wi">
-                    <a href="${postUrl}"><img src="${post.imageUrl}" alt="${post.title} image"></a>
-                </div>
-                <div class="wc">
-                    <a class="date" href="${postUrl}">May 18, 2023</a>
-                    <h6><a href="${postUrl}">${post.title}</a></h6>
-                </div>
-            </div>
-        `;
-                                    container.appendChild(slide);
-                                });
-                            });
-                        </script>
-                        <div class="single-widgets widget_egns_recent_post mb-20">
-                            <div class="widget-title blog-title mb-20">
-                                <h6>Recent Blog</h6>
-                                <div class="slider-btn-group2 d-flex align-items-center justify-content-between">
-                                    <div class="slider-btn prev-51">
-                                        <svg width="7" height="12" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M0 6.50008L8 0L2.90909 6.50008L8 13L0 6.50008Z"></path>
-                                        </svg>
-                                    </div>
-                                    <div class="slider-btn next-51">
-                                        <svg width="7" height="12" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M8 6.50008L0 0L5.09091 6.50008L0 13L8 6.50008Z"></path>
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="recent-post-wraper">
-                                <div class="swiper recent-post-sidebar-slider">
-                                    <div class="swiper-wrapper" id="blog-posts-container">
-                                        <!-- Dynamic content will be inserted here -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-widgets widget_egns_tag">
-                            <div class="widget-title mb-20">
-                                <h6>Popular Tags</h6>
-                            </div>
-
-
-
-
-
-                            <p class="wp-block-tag-cloud">
-
-                                <a href="./what-is-real-estate-in-india-2024.php">
-                                    Real Estate in India
-                                </a>
-
-                                <a href="./how-to-invest-in-real-estate-in-india.php">
-                                    Invest in real estate
-
-                                </a>
-
-                                <a href="./top-10-upcoming-expressways-of-india.php">
-                                    Upcoming expressway
-
-                                </a>
-
-                                <a href="../best-real-estate-property-consultant-in-india.php">
-                                    Property Investment
-
-                                </a>
-
-                                <a href="./best-city-to-invest-in-real-estate-in-india.php">
-                                    Best City to invest in real estate
-
-                                </a>
-
-                                <a href="./noida-international-airport-jewar-airport.php">
-                                    Noida international airport
-
-                                </a>
-
-                                <a href="../propertydetail/m3m-the-line-sector-72-noida.php">
-                                    commercial property in noida
-
-                                </a>
-
-                                <a href="../propertydetail/ace-terra-yamuna-expressway.php">
-                                    Yamuna Expressway
-
-                                </a>
-
-                                <a href="./property-near-jewar-airport.php">
-                                    Jewar Airport
-
-                                </a>
-
-                                <a href="../Property-in-noida.php">
-                                    Property in Noida
-
-                                </a>
-
-
-
-                            </p>
-                        </div>
                     </div>
-                    <div class="single-widgets sidebar-banner">
-                        <div class="product-content">
-                            <h4>For Summer Offer</h4>
-                            <p>Explore the benefits of eco-friendly homes</p>
-                            <a href="#" class="primary-btn3">View More</a>
-                        </div>
+                </div>
+                <div class="single-widgets sidebar-banner">
+                    <div class="product-content">
+                        <h4>For Summer Offer</h4>
+                        <p>Explore the benefits of eco-friendly homes</p><a href="#" class="primary-btn3">View More</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 
     <?php
     include './more-tags.php';
@@ -1271,43 +959,15 @@ Top Builders in Noida - Godrej Properties, M3M Group, DLF, Devika.">
     ?>
 
 
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script src="../assets/js/jquery-3.7.0.min.js"></script>
-    <script src="../assets/js/jquery-ui.js"></script>
-    <script src="../assets/js/bootstrap.min.js"></script>
-    <script src="../assets/js/popper.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="../assets/js/swiper-bundle.min.js"></script>
     <script src="../assets/js/slick.js"></script>
-    <script src="../assets/js/waypoints.min.js"></script>
-    <script src="../assets/js/wow.min.js"></script>
     <script src="../assets/js/jquery.counterup.min.js"></script>
-    <script src="../assets/js/isotope.pkgd.min.js"></script>
     <script src="../assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="../assets/js/gsap.min.js"></script>
-    <script src="../assets/js/simpleParallax.min.js"></script>
-    <script src="../assets/js/TweenMax.min.js"></script>
-    <script src="../assets/js/jquery.marquee.min.js"></script>
     <script src="../assets/js/jquery.nice-select.min.js"></script>
     <script src="../assets/js/jquery.fancybox.min.js"></script>
     <script src="../assets/js/custom.js"></script>
-    <script>
-        $(".marquee_text").marquee({
-            direction: "left",
-            duration: 25000,
-            gap: 50,
-            delayBeforeStart: 0,
-            duplicated: true,
-            startVisible: true,
-        });
-        $(".marquee_text2").marquee({
-            direction: "left",
-            duration: 25000,
-            gap: 50,
-            delayBeforeStart: 0,
-            duplicated: true,
-            startVisible: true,
-        });
-    </script>
+    <script src="./assets/common.js"></script>
 </body>
 
 </html>

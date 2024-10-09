@@ -12,7 +12,9 @@
 include "./data/blogdata.php";
 ?>
 <header class="header-area style-1">
-    
+    <?php
+    // include "./newsbanner.php" 
+    ?>
     <style>
         .img-fluid {
             max-width: 165px !important;

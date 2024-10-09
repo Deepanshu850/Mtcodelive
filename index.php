@@ -1762,7 +1762,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                 ?>
             <div class=content>
                 <p class=gradient-heading>Properties
-                <p class=text-section>We Discover your dream property with us. Explore listings that match your lifestyle and budget, from modern city apartments to cozy country homes. Let us guide you home by Best Real Estate Consultant In Delhi/NCR.
+                <p class=text-section>Discover your dream property with us. Explore listings that match your lifestyle and budget, from modern city apartments to cozy country homes. Let us guide you home by Best Real Estate Consultant In Delhi/NCR.
             </div>
             <div class=properties-grid id=propertiesGrid><?php if (empty($properties)) : ?><div class="property-card no-results-card"><img alt="No Results Found" src=./assets/img/logo.png>
                         <h2>Can't find what you're looking for?</h2>

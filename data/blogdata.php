@@ -250,6 +250,18 @@ $posts = [
         'writer' => 'Team Moneytree',
 
     ],
+    [
+        'id' => 28,
+        'title' => 'Top 50 Rangoli Designs for Diwali',
+        'description' => 'Indian rangoli design is an amazing art form in which beautiful rangoli designs are created on floors or tabletops. Simple to complex flower patterns can be found in rangoli design, which frequently represents a unique rangoli with lovely meaning for occasions like Diwali and Navratri. Let’s explore the top 50 rangoli designs for Diwali 2024.',
+
+        // 'imageUrl' => './assets/top-50-rangoli-designs-in-2024-banner.webp',
+        'imageUrl' => './assets/rangolies/floral-diya-rangoli-design-rangoli.webp',
+        'date' => 'October 5, 2024',
+        'category' => ['Celebratioin'],
+        'writer' => 'Team Moneytree',
+
+    ],
 ];
 
 ?>

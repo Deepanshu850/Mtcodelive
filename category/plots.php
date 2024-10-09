@@ -8,7 +8,7 @@
     <title>
         Residential Land for Sale - Plots for Sale for Sale
     </title>
-    <meta name="description" content="Discover residential properties for sale in leading cities by M3M Groups, Godrej Properties, Paras Group, and Migsun Group. Explore top apartments, villas, and homes in prime locations.">
+    <meta name="description" content="Discover residential Plots for sale in leading cities by M3M Groups, Godrej Properties, Paras Group, and Migsun Group. Explore top apartments, villas, and homes in prime locations.">
 
     <meta name="keywords" content="plots in noida, plot for sale in noida, residential plots in noida, land price in 
         noida, land rate in noida, noida plot price, land for sale in noida, noida plot 

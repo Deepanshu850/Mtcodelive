@@ -575,6 +575,45 @@ $properties = [
         'shortDescription' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, amet! Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aut? Aut quod deserunt quaerat nihil.',
     ],
 
+    [
+        'id' => 30,
+        'name' => 'Elan The Mark Sector 106',
+        'link' => 'elan-the-mark-sector-106',
+        'builder' => 'Elan Limited',
+        'location' => ['Gurugram', 'Sector 106', '122006', 'Dwarka Expressway / NH - 8A'],
+        'images' => [
+            'assets/img/projectdetails/elanthemark1.webp',
+            'assets/img/projectdetails/elanthemark2.webp',
+            'assets/img/projectdetails/elanthemark3.webp'
+        ],
+        'price' => '₹1.48 Cr+',
+        'possession' => 'March, 2027',
+        'area' => 'NaN',
+        'type' => ['Commercial'],
+        'typeDetail' => ['Commercial spaces'],
+        'rera' => ['RERA-GRG-1273-2023', 'https://haryanarera.gov.in/view_project/searchprojectDetail/2301'],
+        'shortDescription' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, amet! Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aut? Aut quod deserunt quaerat nihil.',
+    ],
+    [
+        'id' => 31,
+        'name' => 'Ametek Plaza One',
+        'link' => 'ametek-plaza-one',
+        'builder' => 'Ametek Buildtech',
+        'location' => ['Noida', 'Sector 27', '201307', 'Yamuna Expressway'],
+        'images' => [
+            'assets/img/projectdetails/ametek1.webp',
+            'assets/img/projectdetails/ametek2.webp',
+            'assets/img/projectdetails/ametek3.webp'
+        ],
+        'price' => '₹49 Lac+',
+        'possession' => 'Possession Started',
+        'area' => 'NaN',
+        'type' => ['Commercial'],
+        'typeDetail' => ['Commercial spaces','sports complex'],
+        'rera' => ['UPRERAPRJ257845', 'https://www.up-rera.in/Projectsummary?UI0aPA1ISD=S6FNkT850zg=&hfFlag=9emr4VdBw22M7BGjKtJWMPDI4s5cHQZP&NPJ6RAme=y8oI7ISx3PD28Qx5TVrBBg==&PaURJEMAN4=ZL9MNERkNdY/IPCrbS2pUw==&IRSAHEB=D6PY3lyims8='],
+        'shortDescription' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, amet! Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aut? Aut quod deserunt quaerat nihil.',
+    ],
+
 
 ];
 

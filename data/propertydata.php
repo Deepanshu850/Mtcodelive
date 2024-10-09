@@ -503,6 +503,38 @@ $properties = [
         'rera_link' => '',
         'property' => '',
     ],
+    [
+        'id' => 32,
+        'name' => 'Elan The Mark Sector 106',
+        'location' => 'Gurugram',
+        'images' => [
+            'assets/img/projectdetails/elanthemark1.webp',
+            'assets/img/projectdetails/elanthemark2.webp',
+            'assets/img/projectdetails/elanthemark3.webp',
+        ],
+        'price' => '₹1.48 Cr+',
+
+        'type' => ['Commercial'],
+        'rera' => 'RERA-GRG-1273-2023',
+        'rera_link' => '',
+        'property' => '',
+    ],
+    [
+        'id' => 33,
+        'name' => 'Ametek Plaza One',
+        'location' => 'Noida',
+        'images' => [
+            'assets/img/projectdetails/ametek1.webp',
+            'assets/img/projectdetails/ametek2.webp',
+            'assets/img/projectdetails/ametek3.webp',
+        ],
+        'price' => '₹49 Lac+',
+
+        'type' => ['Commercial'],
+        'rera' => 'UPRERAPRJ257845',
+        'rera_link' => '',
+        'property' => '',
+    ],
 
 ];
 ?>
