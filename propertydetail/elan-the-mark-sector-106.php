@@ -243,7 +243,7 @@ commercial property for sale in Gurgaon" />
                         <p>March, 2027</p>
                     </td>
                     <td>
-                        <p>RERA-GRG-1273-2023</p>
+                        <p><a href="https://haryanarera.gov.in/view_project/searchprojectDetail/2301">RERA-GRG-1273-2023</a></p>
                     </td>
                 </tr>
                 <tr>
@@ -424,7 +424,7 @@ commercial property for sale in Gurgaon" />
 
         <h2>RERA Details</h2>
 
-        <p>Elan The Mark |Sector 106 Gurgaon|RERA-GRG-1273-2023 - Available on RERA Website.</p>
+        <p>Elan The Mark |Sector 106 Gurgaon|<a href="https://haryanarera.gov.in/view_project/searchprojectDetail/2301">RERA-GRG-1273-2023</a> - Available on RERA Website.</p>
 
         <p>*T&amp;C Apply.</p>
 

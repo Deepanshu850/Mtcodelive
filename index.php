@@ -217,11 +217,11 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
     <link href="assets/img/favicon_io/favicon.ico" rel="icon" sizes="20x20" type="image/x-icon">
 
     <!-- CSS Files -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <link href="assets/css/nice-select.css" rel="stylesheet">
+    <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/bootstrap-icons.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/style.css" rel="stylesheet"> -->
+    <!-- <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/nice-select.css" rel="stylesheet"> -->
 
     <!-- Google Tag Manager -->
     <script>
@@ -1452,9 +1452,9 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
         include './header.php';
         // include './eventpop.php';
         ?>
-        
 
- 
+
+
         <div class=container>
             <div class="d-flex banner align-items-center">
                 <div class=banner-left>
@@ -1743,23 +1743,23 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                     images[currentIndex].style.display = 'block';
                 }
             </script>
-             <?php
-                function getTypeLink($type)
-                {
-                    switch ($type) {
-                        case 'Residential':
-                            return '../category/residential-property';
-                        case 'Commercial':
-                            return '../category/commercial-property';
-                        case 'Studio Apartments':
-                            return '../category/studio-apartments';
-                        case 'Plots':
-                            return '../category/plots';
-                        default:
-                            return '../404';
-                    }
+            <?php
+            function getTypeLink($type)
+            {
+                switch ($type) {
+                    case 'Residential':
+                        return '../category/residential-property';
+                    case 'Commercial':
+                        return '../category/commercial-property';
+                    case 'Studio Apartments':
+                        return '../category/studio-apartments';
+                    case 'Plots':
+                        return '../category/plots';
+                    default:
+                        return '../404';
                 }
-                ?>
+            }
+            ?>
             <div class=content>
                 <p class=gradient-heading>Properties
                 <p class=text-section>Discover your dream property with us. Explore listings that match your lifestyle and budget, from modern city apartments to cozy country homes. Let us guide you home by Best Real Estate Consultant In Delhi/NCR.
@@ -1782,10 +1782,10 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                             <p><b>Price:</b><?php echo htmlspecialchars($property['price']); ?></p><a href="<?php echo htmlspecialchars($detailsPagePath); ?>" class=details-link>View Details</a>
                             <div><b>Type:</b>
                                 <p><?php foreach ($property['type'] as $type) : ?>
-                                <a href="<?php echo htmlspecialchars(getTypeLink($type)); ?>">
-                                    <span><?php echo htmlspecialchars($type); ?></span>
-                                </a>
-                                <?php endforeach; ?>
+                                        <a href="<?php echo htmlspecialchars(getTypeLink($type)); ?>">
+                                            <span><?php echo htmlspecialchars($type); ?></span>
+                                        </a>
+                                    <?php endforeach; ?>
                             </div>
                         </div>
                     </div><?php endforeach; ?><?php endif; ?></div><?php if (count($properties) > 6) : ?><div class=read-more-container><button onclick=showMoreProperties() id=readMoreBtn>Show More</button></div><?php endif; ?><script>
@@ -2226,12 +2226,12 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                 max-height: 14rem;
                 overflow-y: scroll;
                 scrollbar-width: none;
-            
+
             }
 
             .review-text::-webkit-scrollbar {
                 display: none;
-                
+
             }
 
 
@@ -2306,7 +2306,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                         line-height: 1.65
                     }
                 </style><?php
-                         include './data/blogdata.php';
+                        include './data/blogdata.php';
 
                         $latestblogs = array_slice($posts, -3);
 
@@ -2338,9 +2338,9 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
             </div>
         </div><?php
                 include './more-tags.php';
-                include './footer.php';
+                // include './footer.php';
                 ?>
-        <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+        <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
         <script src="assets/js/jquery-3.7.0.min.js" defer></script>
         <script src="assets/js/slick.js" defer></script>
         <script src="assets/js/waypoints.min.js" defer></script>
@@ -2370,4 +2370,4 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                     startVisible: true
                 });
             });
-        </script>
+        </script> -->

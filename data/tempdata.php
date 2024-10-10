@@ -606,7 +606,7 @@ $properties = [
             'assets/img/projectdetails/ametek3.webp'
         ],
         'price' => '₹49 Lac+',
-        'possession' => 'Possession Started',
+        'possession' => 'October 2025',
         'area' => 'NaN',
         'type' => ['Commercial'],
         'typeDetail' => ['Commercial spaces','sports complex'],

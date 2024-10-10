@@ -231,7 +231,7 @@ Noida, Buy office space in Noida Extension" />
                         <p><strong>Property Status</strong></p>
                     </td>
                     <td>
-                        <p><strong>Possession by</strong></p>
+                        <p><strong>October 2025</strong></p>
                     </td>
                     <td>
                         <p><strong>RERA Details</strong></p>
@@ -245,7 +245,7 @@ Noida, Buy office space in Noida Extension" />
                         <p>Possession Started</p>
                     </td>
                     <td>
-                        <p>UPRERAPRJ257845</p>
+                        <p><a href="https://www.up-rera.in/Projectsummary?UI0aPA1ISD=S6FNkT850zg=&hfFlag=9emr4VdBw22M7BGjKtJWMPDI4s5cHQZP&NPJ6RAme=y8oI7ISx3PD28Qx5TVrBBg==&PaURJEMAN4=ZL9MNERkNdY/IPCrbS2pUw==&IRSAHEB=D6PY3lyims8=">UPRERAPRJ257845</a></p>
                     </td>
                 </tr>
                 <tr>
@@ -421,7 +421,7 @@ Noida, Buy office space in Noida Extension" />
 
         <h2>RERA Details</h2>
 
-        <p>Ametek Plaza One | Sector 27, Knowledge Park V | UPRERAPRJ257845 - Available on RERA Website.</p>
+        <p>Ametek Plaza One | Sector 27, Knowledge Park V | <a href="https://www.up-rera.in/Projectsummary?UI0aPA1ISD=S6FNkT850zg=&hfFlag=9emr4VdBw22M7BGjKtJWMPDI4s5cHQZP&NPJ6RAme=y8oI7ISx3PD28Qx5TVrBBg==&PaURJEMAN4=ZL9MNERkNdY/IPCrbS2pUw==&IRSAHEB=D6PY3lyims8=">UPRERAPRJ257845</a> - Available on RERA Website.</p>
 
         <p>*T&amp;C Apply.</p>
 
