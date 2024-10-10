@@ -245,7 +245,7 @@
                         echo '<a href="../blog/' . generateSlug($post['title']) . '" class="dropdown-link">
                         <div class="dropdown-item-content">
                         <div class="dropdown-text">
-                        <h3 class="dropdown-title">' . $post['title'] . '</h3>
+                        <p class="dropdown-title">' . $post['title'] . '</p>
                         <p class="dropdown-description">' . substr($post['description'], 0, 100) . '...</p>
                         </div>
                         <img src="../blog/' . $post['imageUrl'] . '" alt="' . $post['title'] . '" class="dropdown-image">
@@ -345,7 +345,7 @@
                 .dropdown-title {
                     margin: 0 0 4px;
                     font-size: 14px;
-                    font-weight: 600;
+                    font-weight: 700;
                     color: #333333;
                     letter-spacing: 0.35px;
                 }
