@@ -31,7 +31,7 @@ Rangoli, Easy Rangoli Designs for Diwali, New Rangoli Designs" />
     <!-- General Open Graph Tags for Facebook, LinkedIn, etc. -->
     <meta property="og:title" content="Top 50 Rangoli Designs for Diwali 2024 | Rangoli Design Ideas">
     <meta property="og:site_name" content="Moneytree Realty">
-    <meta property="og:url" content="https://moneytreerealty.com/top-50-rangoli-designs-for-diwali">
+    <meta property="og:url" content="https://moneytreerealty.com/blog/top-50-rangoli-designs-for-diwali">
     <meta property="og:description" content="Diwali brings joy and celebration! Get ready with stunning rangoli designs to adorn your doorstep, welcoming guests and honoring the deity of prosperity with ease and tradition.">
     <meta property="og:type" content="article">
     <meta property="og:image" content="https://moneytreerealty.com/blog/assets/top-50-rangoli-designs-for-diwali-banner.webp">
@@ -735,19 +735,10 @@ Rangoli, Easy Rangoli Designs for Diwali, New Rangoli Designs" />
                 </div>
             </div>
         </div>
-    </div>
-
-
-    
-    <?php
-    include './more-tags.php';
-    include './footer.php';
-    ?>
-
-
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </div><?php
+            include './more-tags.php';
+            include './footer.php';
+            ?><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="../assets/js/swiper-bundle.min.js"></script>
     <script src="../assets/js/slick.js"></script>
     <script src="../assets/js/jquery.counterup.min.js"></script>

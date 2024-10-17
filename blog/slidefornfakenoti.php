@@ -14,7 +14,7 @@
         }
     </script>
 
-  
+
     <style>
         .no-scrollbar {
 
@@ -131,7 +131,7 @@
             }
         }
 
-      .slide-in-form {
+        .slide-in-form {
             background: #005b53;
             color: white;
 
@@ -486,7 +486,7 @@
                 <img src="../assets/img/treelogo.png" alt="">
                 <p>Moneytree Realty</p>
             </div>
-            <p style="color: white;">Secure Your Spot!</p>
+            <p style="color: white;">Book Your Property Now!</p>
             <h3>Discover Your Dream Property Now!</h3>
 
             <div class="entryarea">
@@ -685,12 +685,12 @@
 <!--    }-->
 <!--</style>-->
 <!--<div id="notifications" class="notification-container">-->
-    <!-- Notification 1 -->
-    <!--<div class="notification" style="display: none;">-->
-    <!--    <img src="path/to/property-image1.jpg" alt="Property 1">-->
-    <!--    <p>John Doe just bought a 4BHK in Manhattan. <span class="timestamp">Just now</span></p>-->
-    <!--</div>-->
-    <!-- Add additional notifications here -->
+<!-- Notification 1 -->
+<!--<div class="notification" style="display: none;">-->
+<!--    <img src="path/to/property-image1.jpg" alt="Property 1">-->
+<!--    <p>John Doe just bought a 4BHK in Manhattan. <span class="timestamp">Just now</span></p>-->
+<!--</div>-->
+<!-- Add additional notifications here -->
 <!--</div>-->
 <script>
     // document.addEventListener('DOMContentLoaded', function() {
@@ -703,33 +703,33 @@
     // const notificationSound = new Audio('./mtnoti.mp3'); 
 
     // Debug: Check if the audio file is loaded
-//     notificationSound.addEventListener('canplaythrough', function() {
-//         console.log('Notification sound is ready to play.');
-//     }, false);
+    //     notificationSound.addEventListener('canplaythrough', function() {
+    //         console.log('Notification sound is ready to play.');
+    //     }, false);
 
-//     notificationSound.addEventListener('error', function(e) {
-//         console.error('Error loading notification sound:', e);
-//     }, false);
+    //     notificationSound.addEventListener('error', function(e) {
+    //         console.error('Error loading notification sound:', e);
+    //     }, false);
 
-//   const properties = [{
-//             message: "Shekhar just bought a 4 BHK in Godrej Aristocrat.",
-//             image: "../assets/img/projectdetails/godrejaristocrat2.jpg",
-//             time: "Just now"
-          
-//         },
-//         {
-//             message: "Deepak secured a cozy Home in M3M The Cullinan",
-//             image: "../assets/img/projectdetails/m3mcullinan1.webp",
-//             time: "5 minutes ago"
-//         },
-//         {
-//             message: "Arjun purchased a retail shop in Paras Avenue.",
-//             image: "../assets/img/projectdetails/parasavenue1.webp",
-//             time: "10 minutes ago"
-            
-//         },
-       
-//     ];
+    //   const properties = [{
+    //             message: "Shekhar just bought a 4 BHK in Godrej Aristocrat.",
+    //             image: "../assets/img/projectdetails/godrejaristocrat2.jpg",
+    //             time: "Just now"
+
+    //         },
+    //         {
+    //             message: "Deepak secured a cozy Home in M3M The Cullinan",
+    //             image: "../assets/img/projectdetails/m3mcullinan1.webp",
+    //             time: "5 minutes ago"
+    //         },
+    //         {
+    //             message: "Arjun purchased a retail shop in Paras Avenue.",
+    //             image: "../assets/img/projectdetails/parasavenue1.webp",
+    //             time: "10 minutes ago"
+
+    //         },
+
+    //     ];
 
     // Function to unlock audio playback on first user interaction
     // function unlockAudio() {
@@ -761,7 +761,7 @@
     //     notificationContainer.appendChild(notification);
     //     notification.style.display = 'flex'; 
 
-        // Debug: Check if the sound plays
+    // Debug: Check if the sound plays
     //     notificationSound.play().then(() => {
     //         console.log('Notification sound played.');
     //     }).catch(error => {

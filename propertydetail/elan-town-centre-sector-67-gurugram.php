@@ -252,7 +252,7 @@ Investment in Gurugram" />
                         <p>Ready for possession</p>
                     </td>
                     <td>
-                        <p>GRG-367-2019</p>
+                        <p><a href="https://haryanarera.gov.in/view_project/searchprojectDetail/964">GRG-367-2019</a></p>
                     </td>
                 </tr>
                 <tr>
@@ -471,7 +471,7 @@ Investment in Gurugram" />
 
         <h2>RERA Details </h2>
 
-        <p>Elan Town Centre| Sector 67 Gurgaon |GRG-367-201 - Available on RERA Website.</p>
+        <p>Elan Town Centre| Sector 67 Gurgaon | <a href="https://haryanarera.gov.in/view_project/searchprojectDetail/964">GRG-367-201</a> - Available on RERA Website.</p>
 
         <p>*T&amp;C Apply.</p>
 

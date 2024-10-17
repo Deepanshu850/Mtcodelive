@@ -100,9 +100,13 @@
         margin-left: 15px;
         font-weight: bold;
     }
+
+    .hide {
+        display: none;
+    }
 </style>
 
-<div class="notification-slider" onclick="window.location.href='tel:9732300007'">
+<div class="notification-slider hide" onclick="window.location.href='tel:9732300007'">
     <div class="notification-content">
         <p>
             <span>

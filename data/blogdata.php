@@ -258,7 +258,17 @@ $posts = [
         // 'imageUrl' => './assets/top-50-rangoli-designs-in-2024-banner.webp',
         'imageUrl' => './assets/rangolies/floral-diya-rangoli-design-rangoli.webp',
         'date' => 'October 5, 2024',
-        'category' => ['Celebratioin'],
+        'category' => ['Celebration'],
+        'writer' => 'Team Moneytree',
+
+    ],
+    [
+        'id' => 29,
+        'title' => 'Festivals and Finances',
+        'description' => 'No matter where you live in the globe, festivals are regarded as unique occasions that offer happiness and are considered an auspicious time to buy property for sale. In India, a country known for its unity in diversity, celebrations have a big influence on people’s choices, especially when it comes to real estate purchases during festivals.',
+        'imageUrl' => './assets/festivals-and-finances-rangoli.webp',
+        'date' => 'October 14, 2024',
+        'category' => ['Celebration'],
         'writer' => 'Team Moneytree',
 
     ],

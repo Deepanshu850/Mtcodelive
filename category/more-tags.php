@@ -150,22 +150,22 @@
                     </a>
                 </li>
                 <li>
-                    <a href="../index">
+                    <a href="../top-real-estate-poperty-consultant-in-india?search=goa">
                         Property in Goa
                     </a>
                 </li>
                 <li class="hidden">
-                    <a href="../index">
+                    <a href="../top-real-estate-poperty-consultant-in-india?search=mumbai">
                         Property in Mumbai
                     </a>
                 </li>
                 <li class="hidden">
-                    <a href="../index">
+                    <a href="../top-real-estate-poperty-consultant-in-india?search=ayodhya">
                         Property in Ayodhya
                     </a>
                 </li>
                 <li class="hidden">
-                    <a href="../index">
+                    <a href="../top-real-estate-poperty-consultant-in-india?search=alibaug">
                         Property in Alibaug
                     </a>
                 </li>
@@ -213,12 +213,12 @@
             <h2>Flats in Noida</h2>
             <ul class="property-list">
                 <li>
-                    <a href="../3-bhk-flats-in-noida.php">
+                    <a href="../flats-for-sale-in-noida">
                         Flats in Noida
                     </a>
                 </li>
                 <li>
-                    <a href="../flats-for-sale-in-gurgaon.php">
+                    <a href="../flats-for-sale-in-gurgaon">
                         Flats in Gurgaon
                     </a>
                 </li>
@@ -228,7 +228,7 @@
                     </a>
                 </li>
                 <li class="hidden">
-                    <a href="../index">
+                    <a href="../category/residential-property-for-sale-mumbai">
                         Flats in Mumbai
                     </a>
                 </li>
@@ -249,48 +249,48 @@
             <h2>Real Estate Developers in India</h2>
             <ul class="property-list">
                 <li>
-                    <a href="../index">
+                    <a href="../top-real-estate-poperty-consultant-in-india?search=paras">
                         Paras Buildtech
                     </a>
                 </li>
                 <li>
-                    <a href="../index">
+                    <a href="../top-real-estate-poperty-consultant-in-india?search=m3m">
                         M3M Group
                     </a>
                 </li>
                 <li>
-                    <a href="../index">
+                    <a href="../top-real-estate-poperty-consultant-in-india?search=godrej">
                         Godrej Properties
                     </a>
                 </li>
                 <li class="hidden">
-                    <a href="../index">
+                    <a href="../top-real-estate-poperty-consultant-in-india?search=sikka">
                         Sikka Group
                     </a>
                 </li>
                 <li class="hidden">
-                    <a href="../index">
+                    <a href="../top-real-estate-poperty-consultant-in-india?search=elan">
                         Elan Group
                     </a>
                 </li>
                 <li class="hidden">
-                    <a href="../index">
+                    <a href="../top-real-estate-poperty-consultant-in-india?search=ace">
                         Ace Group
                     </a>
                 </li>
                 <li class="hidden">
-                    <a href="../index">
+                    <a href="../top-real-estate-poperty-consultant-in-india?search=lodha">
                         The House of Abhinandan Lodha
                     </a>
                 </li>
                 <li class="hidden">
-                    <a href="../index">
+                    <a href="../top-real-estate-poperty-consultant-in-india?search=mahagun">
                         Mahagun Group
                     </a>
                 </li>
 
                 <li class="hidden">
-                    <a href="../index">
+                    <a href="../top-real-estate-poperty-consultant-in-india?search=piramal">
                         Piramal Realty
                     </a>
                 </li>

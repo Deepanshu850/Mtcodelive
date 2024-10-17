@@ -5,10 +5,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0">
 
-    <title> 3 BHK Flats in Gurgaon for sale | Property Sale in Gurgaon
+    <title>
+        3 BHK Flats in Gurgaon for sale | Property Sale in Gurgaon
     </title>
+
+
     <meta name="description" content="3 BHK Flats in Gurgaon for sale: buy new launch 3 BHK residential flats and ready-to-move flats for 
 sale are available at a real estate consultant in Gurgaon" />
+
+
     <meta name="keywords" content="dwarka expressway, dwarka expressway map, dwarka expressway route map, dwarka expressway
 route, dps dwarka expressway, dwarka expressway flats, dwarka expressway inauguration, dwarka
 expressway gurgaon, dwarka expressway news, dwarka expressway projects, dwarka expressway
@@ -71,6 +76,49 @@ gurgaon, flats in gurgaon 3 bhk, 3 bhk flat in gurgaon under 25 30 lakhs, 3 bhk 
 
     <link rel="canonical" href="https://moneytreerealty.com/3-bhk-flats-in-gurgaon" />
 
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+                    "@type": "Question",
+                    "name": "What is the meaning of 3 BHK?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "3 BHK flats refers to a residential apartment that offers 3 bedrooms, a hall, and a kitchen."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What are the best 3 BHK flats in Gurgaon?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The best 3 BHK flats in Gurgaon include M3M Mansion in Sector 113, Krisumi Waterfall Residences in Sector 36A, Paras Quartier in Sector 2, and M3M Antalya Hills in Sector 79."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is the average price of 3 BHK flats in Gurgaon?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The average price of 3 BHK flats in Gurgaon varies by locality, with 3 BHK flats typically available for sale at an average price of ₹1.75 Cr+."
+                    }
+                }
+            ]
+        }
+    </script>
+
+
+
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="./assets/css/nice-select.css" rel="stylesheet">
+    <link rel="icon" href="./assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
+    <link rel="stylesheet" href="./assets/css/property-page.css">
+
+
+
 
 
     <!-- Google Tag Manager -->
@@ -91,25 +139,7 @@ gurgaon, flats in gurgaon 3 bhk, 3 bhk flat in gurgaon under 25 30 lakhs, 3 bhk 
         })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
     </script>
     <!-- End Google Tag Manager -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/jquery-ui.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/css/all.min.css" rel="stylesheet">
-    <link href="assets/css/animate.min.css" rel="stylesheet">
-    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
-    <link href="assets/css/fontawesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/slick-theme.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link href="assets/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/css/nice-select.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
 
-
-
-    <link rel="icon" href="assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
-    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-JZJY23MWW7"></script>
     <script>
@@ -129,898 +159,804 @@ gurgaon, flats in gurgaon 3 bhk, 3 bhk flat in gurgaon under 25 30 lakhs, 3 bhk 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2ZBWP94" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <style>
-        *,
-        *::after,
-        *::before {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        .s-soft {
-            display: block;
-            position: fixed;
-            top: 250px;
-            /* left: 10px; */
-            z-index: 1000;
-            transition: all linear 0.2s;
-        }
-
-        .s-soft a:first-child {
-            border-radius: 0 5px 0 0;
-        }
-
-        .s-soft a:last-child {
-            border-radius: 0 0 5px 0;
-        }
-
-        .s-item {
-            display: block;
-            width: 40px;
-            height: 40px;
-            color: white;
-            font-size: 15px;
-            line-height: 30px;
-            text-align: center;
-            transition: all linear 0.2s;
-        }
-
-        .s-item:hover {
-            width: 55px;
-            border-radius: 0px 20px 20px 0px;
-        }
-
-        #so-open {
-            display: block;
-            position: fixed;
-            top: 100px;
-            left: -90px;
-            border-radius: 0 30px 30px 0;
-            transition: all linear 0.2s;
-        }
-
-        .facebook {
-            background-color: #3b5999;
-        }
-
-        .twitter {
-            background-color: #3AAFD6;
-        }
-
-        .print {
-            background-color: #de3c7d;
-        }
-
-        .pinterest {
-            background-color: #BD081C;
-        }
-
-        .linkedin {
-            background-color: #0e76a8;
-        }
-
-        .instagram {
-            background-color: #ed006f;
-        }
-
-        .so-collapse {
-            left: -30px;
-        }
-
-        /* Media Query to hide the sidebar on screens with a maximum width of 767 pixels */
-        @media (max-width: 767px) {
-            .s-soft {
-                display: none;
-            }
-
-            #so-open {
-                display: none;
-            }
-        }
-    </style>
-
-    <div class="s-soft">
-        <a href="https://www.facebook.com/moneytreerealtyofficial" class="s-item facebook">
-            <span class="fa fa-facebook"></span>
-        </a>
-
-        <a href="https://www.linkedin.com/company/moneytree-realty-services/mycompany/" class="s-item linkedin">
-            <span class="fa fa-linkedin"></span>
-        </a>
-        <a href="https://www.instagram.com/moneytreerealtyofficial/" class="s-item instagram">
-            <span class="fa fa-instagram"></span>
-        </a>
-
-    </div>
-    <a id="so-open" class="s-item print so-collapse">
-        <span class="fa fa-arrow-right"></span>
-    </a>
 
 
 
-   
 
-
-
- <?php
+    <?php
     include './header.php';
     ?>
 
+    <div class="side-flex">
 
-    <style>
-        main>h1,
-        h2,
-        h3,
-        h4 {
+        <main>
 
-            color: #005b52;
 
-        }
+            <div class="property-container">
 
-        main>p {
-            text-align: justify;
-            margin-block: 1.5rem;
-        }
 
-        h1 {
-            font-size: 32px;
-            text-wrap: wrap;
-            text-align: center;
-            padding-block: 1rem 2rem;
-            margin-top: 2rem;
-        }
+                <?php
+                include './data/tempdata.php';
 
-        h2 {
-            padding-block: 2rem;
-        }
 
-        h3 {
-            font-size: 24px;
-        }
+                $properties = array_filter($properties, function ($item) {
+                    $targetType = '3 bhk flats';
+                    $targetLocation = 'Gurugram';
+
+                    return in_array(strtolower($targetType), array_map('strtolower', $item['typeDetail'])) &&
+                        strtolower($item['location'][0]) === strtolower($targetLocation);
+                });
 
 
 
-        main {
+                $urlprefix = './propertydetail/';
+
+                include './property-grid-level2.php';
+
+                // print_r($properties);
+                ?>
 
 
-            width: 70%;
-            margin-inline: auto;
-            margin-bottom: 2rem;
+            </div>
 
 
-        }
-@media (width < 500px){
-    main {
-        width:90%;
-    }
-}
+            <h1>3 BHK Flats in Gurgaon | Flats for Sale in Gurgaon</h1>
 
-        ol {
-            font-weight: bold;
-        }
+            <h2>3 BHK Flats in Gurgaon - Overview </h2>
 
-        .arrow-list {
-            list-style: none;
+            <p>3 BHK flats in Gurgaon features premium and luxury residential apartments with world-class amenities and facilities along with thoughtful architecture. Gurgaon is emerging as the major IT city of India with many MNCs flocking to the city, making it a promising property investment with wide options in 3 BHK flats in Gurgaon.</p>
 
+            <p>Gurgaon features real estate projects from leading real estate companies in India like Godrej Properties, M3M Group, Paras Buildtech, Elan Group etc and provides state-of-the-art 3 BHK flats in Gurgaon.</p>
 
-        }
+            <p>Property in Gurgaon is well-surrounded with numerous malls, retail avenues, cafes, and food courts and features seamless connectivity via <a href="./blog/top-10-upcoming-expressways-of-india.php"><strong>major expressways of India</strong></a> like Dwarka Expressway, Delhi - Gurgaon Expressway, Delhi - Panipat Expressway for a comfort living for residents of 3 BHK Flats in Gurgaon. The city boasts state-of-the-art malls like Ambience Mall, DLF Mega Mall, Sahara Mall, Good Earth City Centre, Raheja Mall, Central Mall etc in its vicinity, and offers various options for recreational activities.</p>
 
-        .arrow-list>li {
-            position: relative;
-            margin-inline-start: 20px;
-            margin-top: 0.8rem;
-            font-weight: bold;
-            font-size: 20px;
+            <h3>Best Flats in Gurgaon</h3>
 
-        }
+            <p>Gurgaon is emerging as the leading IT Hub of India, and hence attracted various working professionals in the city. This led to rise in demand for flats for sale in Gurgaon. A number of leading real estate builders offer premium and luxurious commercial and residential properties including 2 BHK, and 3 BHK flats in Gurgaon.</p>
 
+            <p>MoneyTree Realty is the leading real estate advisory and property consulting firm with a diverse portfolio of properties and offers state-of-the-art 3 BHK flats in Gurgaon. </p>
 
-        .arrow-list>li::before {
-            content: "➔";
-            color: #005b52;
-            display: inline-block;
-            position: absolute;
-            top: 3px;
-            left: -30px;
-        }
-    </style>
+            <p>Our professional <a href="./property-dealers-in-gurgaon.php"><strong>property dealers in Gurgaon</strong></a> help you find ready to move apartments in Gurgaon while maintaining a client-centric approach and upholding transparency and integrity and present you with the best options to buy apartment in Gurgaon. </p>
 
-    <!-- main content -->
-    <main>
+            <p>To know Gurgaon flat price and make the best property investment, contact us now on +91 9732300007.</p>
 
+            <h3>Check out the list of best 3 BHK Flats in Gurgaon from leading builders in India: </h3>
 
+            <table class="beautiful-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p><strong>Name of Residential Property </strong></p>
+                        </td>
+                        <td>
+                            <p><strong>Builder Name </strong></p>
+                        </td>
+                        <td>
+                            <p><strong>Location</strong></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>M3M Antalya Hills</p>
+                        </td>
+                        <td>
+                            <p>M3M Group</p>
+                        </td>
+                        <td>
+                            <p>Sector 79 Gurgaon, Haryana, 122012</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>M3M Altitude</p>
+                        </td>
+                        <td>
+                            <p>M3M Group</p>
+                        </td>
+                        <td>
+                            <p>Sector 65 Gurgaon, Haryana, 122102</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>M3M Mansion</p>
+                        </td>
+                        <td>
+                            <p>M3M Group</p>
+                        </td>
+                        <td>
+                            <p>Sector 113 Gurgaon, Haryana, 122017</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Paras Quartier</p>
+                        </td>
+                        <td>
+                            <p>Paras Buildtech</p>
+                        </td>
+                        <td>
+                            <p>Sector 2 Gurgaon, Haryana, 122001</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Krisumi Waterfall Residences</p>
+                        </td>
+                        <td>
+                            <p>Krisumi Corporation</p>
+                        </td>
+                        <td>
+                            <p>Sector 36A Gurgaon, Haryana, 122002</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
 
-        <h1>
-            3 BHK Flats in Gurgaon for Sale | Luxury Apartments in Gurgaon | Dwarka Expressway
+            <h2>Why should you buy a 3 BHK Flats in Gurgaon? </h2>
 
-        </h1>
+            <p>3 BHK flats in Gurgaon provide various amenities and facilities with various options for recreational activities spread throughout the city for a comfortable and luxury living experience.</p>
 
-        <style>
-            .image-wrapper {
-                padding-block: 2rem 5rem;
-                display: flex;
-                justify-content: center;
-            }
+            <h3>3 BHK apartments in Gurgaon is the best property buy due to:</h3>
 
-            .image-wrapper img {
-
-                width: 87%;
-                border-radius: 8px;
-                box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-
-            }
-        </style>
-        <div class="image-wrapper">
-
-            <img src="./assets/img/3-bhk-flats-in-gurgaon.jpeg" alt="3 BHK Flats in Gurgaon for sale">
-        </div>
-
-
-
-        <p>
-
-            <strong>3 BHK flats in Gurgaon</strong> features premium and luxury <strong>residential apartments</strong> with
-            world-class amenities and facilities along with thoughtful architecture. Gurgaon is
-            emerging as the major IT city of India with many MNCs flocking to the city, making it a
-            promising <strong>property investment</strong> with wide options in 3 BHK <a href="./flats-for-sale-in-gurgaon.php"><strong>flats in Gurgaon</strong></a>.
-            <br><br>
-
-
-
-
-            Gurgaon features real estate projects from leading <a href="./blog/top-10-real-estate-company-in-noida"><strong>real estate companies in India</strong></a>
-            like Godrej Properties, M3M Group, Paras Buildtech, Elan Group etc and provides
-            state-of-the-art 3 BHK flats in Gurgaon<b>.</b><span id="dots">...</span>
-            <br>
-
-
-        </p>
-        <div id="readmore-wrapper">
-
-            <p>
-                Property in Gurgaon is well-surrounded with numerous malls, retail avenues, cafes,
-                and food courts and features seamless connectivity via <a href="./blog/top-10-upcoming-expressways-of-india.php"><strong>major expressways of India</strong></a>
-                like Dwarka Expressway, Delhi Gurgaon Expressway, Delhi Panipat Expressway for a
-                comfort living for residents of 3 BHK Flats in Gurgaon.
-            </p>
-
-
-
-
-            <h2>
-
-
-                Why to invest in 3 BHK flats in Gurgaon?
-            </h2>
-
-            <p>
-
-                3 BHK flats in Gurgaon provide various amenities and facilities with various options for
-                recreational activities spread throughout the city for a comfortable and luxury living.
-            </p>
-
-            <h2>
-
-
-                3 BHK apartments in Gurgaon is the best property buy due to:
-
-            </h2>
             <ul class="arrow-list">
-                <li>
-                    <p>
-                        Gurgaon is the leading IT hub of India with many international as well as
-                        start-ups setting up their offices in the city. This rapid urbanisation has increased the property values of 3 BHK apartments in Gurgaon.
-                    </p>
-
-                </li>
-                <li>
-                    <p>
-                        3 BHK flats in Gurgaon feature seamless connectivity with the Dwarka
-                        Expressway, Delhi Gurgaon Expressway, Delhi Panipat Expressway. Flats in
-                        Gurgaon are well-connected with metro and railways.
-                    </p>
-
-                </li>
-                <li>
-                    <p>
-                        3 BHK flats in Gurgaon provides a promising real estate investment along
-                        with other benefits like high capital appreciation and ROI, favourable rental
-                        yields, tax benefits, hedging against inflation and many others.
-                    </p>
-                </li>
+                <li>Gurgaon is the leading <strong>IT hub of India</strong> with many international as well as start-ups setting up their offices in the city. This rapid urbanisation has increased the property values of 3 BHK apartments in Gurgaon.</li>
+                <li>3 BHK flats in Gurgaon feature <strong>seamless connectivity</strong> with the Dwarka Expressway, Delhi Gurgaon Expressway, Delhi Panipat Expressway. Flats in Gurgaon are well-connected with metro and railways.</li>
+                <li>3 BHK flats in Gurgaon provides a<strong> promising real estate investment</strong> along with other benefits like high capital appreciation and ROI, favourable rental yields, tax benefits, hedging against inflation and many others.</li>
             </ul>
 
-            <p>
-                <a href="./index.php"><strong>MoneyTree Realty</strong></a> is the leading <a href="./real-estate-advisor-and-property-consulting-firm-in-india.php"><strong>real estate advisory and property consulting</strong></a>
-                firm with a diverse portfolio of properties and offers state-of-the-art 3 BHK flats in
-                Gurgaon.
-                <br><br>
-                Our professional <strong>property dealers in Noida</strong> help you find ready to move apartments
-                in Gurgaon while maintaining a client-centric approach and upholding transparency
-                and integrity and present you with the best options to <strong>buy apartment in Gurgaon</strong>.
-
-            </p>
-
-
-
-            <p>
-                To know Gurugram flat price and make the best property investment, <a href="./contact.php"><strong>contact us now!</strong></a>
-            </p>
-
-
-        </div>
-        <style>
-            #readmore-btn {
-
-                display: flex;
-                justify-content: center;
-                background-color: #005b52;
-                font-size: 16px;
-                padding: 10px 26px;
-                border-radius: 10px;
-                color: white;
-                margin-inline: auto;
-                margin: 3rem 0;
-                margin-inline: auto;
-
-
-            }
-
-            #dots {
-                font-weight: bold;
-            }
-
-            #readmore-wrapper {
-                display: none;
-            }
-        </style>
-
-        <button onclick="myFunction()" id="readmore-btn">
-
-            Read more
-
-
-
-        </button>
-
-    </main>
-
-    <script>
-        function myFunction() {
-            const dots = document.getElementById("dots");
-            const moreText = document.getElementById("readmore-wrapper");
-            const btnText = document.getElementById("readmore-btn");
-
-            if (dots.style.display === "none") {
-                dots.style.display = "inline";
-                btnText.innerHTML = "Read more";
-                moreText.style.display = "none";
-            } else {
-                dots.style.display = "none";
-                btnText.innerHTML = "Read less";
-                moreText.style.display = "inline";
-            }
-        }
-        document.addEventListener("DOMContentLoaded", () => {
-            document.getElementById("readmore-wrapper").style.display = "none";
-        });
-    </script>
-
-
-
-    <!-- tag styles -->
-    <style>
-        .tag-wrapper {
-            margin-top: 2rem;
-            width: 90%;
-            margin-inline: auto;
-
-
-        }
-
-        .tags {
-            display: flex;
-            list-style-type: none;
-            flex-wrap: wrap;
-            gap: 3px;
-        }
-
-        .tags>li {
-
-            margin: 0;
-            background-color: rgba(0, 0, 0, 0.06);
-
-            padding: 0px 10px;
-            border-radius: 6px;
-
-
-        }
-
-        .tags>li>a {
-            font-size: 11px !important;
-            color: #333;
-            transition: color 150ms ease-in-out;
-        }
-
-        .tags>li>a:hover {
-            color: #EFB93F;
-        }
-    </style>
-
-
-    <!-- property grid -->
-
-    <section class="property-container">
-
-        <?php
-        include "data/propertydata.php";
-
-
-        $namesToFilter = [
-            'Godrej Aristocrat Sector 49',
-            'M3M Antalya Hills Sector 79 Gurugram',
-            'M3M Altitude Sector 65',
-            'M3M Mansion Sector 113',
-
-        ];
-
-
-        $properties = array_filter($properties, function ($item) use ($namesToFilter) {
-            return in_array($item['name'], $namesToFilter);
-        });
-
-        // print_r($filteredItems);
-
-        ?>
-
-
-        <script>
-            function nextImage(element) {
-                const images = element.querySelectorAll('img');
-                const totalImages = images.length;
-                let currentIndex = [...images].findIndex(img => img.style.display !== 'none');
-
-                images[currentIndex].style.display = 'none';
-                currentIndex = (currentIndex + 1) % totalImages;
-                images[currentIndex].style.display = 'block';
-            }
-        </script>
-
-
-
-        <style>
-            .property-grid {
-                display: flex;
-                flex-wrap: wrap;
-                gap: 20px;
-                justify-content: center;
-                padding: 20px;
-            }
-
-            .property-card {
-                background: #fff;
-                border: 1px solid #ddd;
-                border-radius: 12px;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-                padding: 16px;
-                width: calc(33.333% - 40px);
-                /* 3 columns layout with gap */
-                margin-bottom: 20px;
-                transition: transform 0.3s;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-evenly;
-            }
-
-            .property-card:hover {
-                transform: translateY(-5px);
-            }
-
-            .property-card.no-results-card {
-                width: 100%;
-                max-width: 370px;
-                min-height: 420px;
-                text-align: center;
-            }
-
-            .property-card h2 {
-                padding: 0;
-                font-size: 24px;
-            }
-
-            .property-images img {
-                width: 100%;
-                display: block;
-                height: 165px;
-                object-fit: fill;
-                border-radius: 8px 8px 0 0;
-                margin-bottom: 24px;
-            }
-
-            .details-link {
-                display: inline-block;
-                margin-top: 10px;
-                padding: 10px 15px;
-                background-color: #005b52;
-                color: white;
-                text-decoration: none;
-                border-radius: 5px;
-                position: relative;
-                max-width: 135px;
-            }
-
-            .details-link:hover {
-                color: white;
-            }
-
-            .details-link::before {
-
-                content: '';
-                display: block;
-                position: absolute;
-                width: 100%;
-                border-radius: 5px;
-                height: 100%;
-                background: linear-gradient(164deg, white, transparent 40%);
-                top: 0;
-                left: 0;
-                opacity: 0;
-                transition: opacity 150ms ease-in-out;
-
-            }
-
-            .details-link:hover::before {
-                opacity: 0.4;
-            }
-
-            .read-more-container {
-                text-align: center;
-                margin-top: 20px;
-            }
-
-            #readMoreBtn {
-                padding: 10px 20px;
-                background-color: #016a5f;
-                color: white;
-                border: none;
-                border-radius: 5px;
-                cursor: pointer;
-            }
-
-            #readMoreBtn:hover {
-                background-color: #005b52;
-            }
-
-            /* Responsive Styles */
-            @media (max-width: 768px) {
-                .property-card {
-                    width: calc(50% - 20px);
-                    /* 2 columns layout for tablets */
-                }
-            }
-
-            @media (max-width: 480px) {
-                .property-card {
-                    width: 100%;
-                    /* 1 column layout for mobile devices */
-                }
-            }
-        </style>
-
-        <div class="property-grid" id="propertiesGrid">
-
-            <?php if (empty($properties)) : ?>
-                <!-- No Results Card -->
-                <div class="property-card no-results-card">
-                    <img src="./assets/img/logo.png" alt="No Results Found">
-                    <h2>Can't find what you're looking for?</h2>
-                    <p>Unfortunately, we don't have properties in this location at the moment. But we're always adding new listings!</p>
-                    <a href="contact.php" class="details-link">Contact Us</a>
+            <h2>Location Advantages of 3 BHK Flats in Gurgaon </h2>
+
+            <p>3 BHK flats from an array of leading real estate builders in Gurgaon are seamlessly connected with various major expressways and an array of arterial roads and link roads. Let&rsquo;s get better insights into location advantages of Gurgaon and explore its road connectivity.</p>
+
+            <h3>Major Expressway in Gurgaon include:</h3>
+
+            <ul class="arrow-list">
+                <li>Dwarka Expressway</li>
+                <li>NH - 48 (Delhi - Gurgaon Expressway)</li>
+                <li>Southern Peripheral Road</li>
+                <li>Kundli - Manesar - Palwal Expressway</li>
+                <li>Central Peripheral Expressway</li>
+                <li>Sohna Road</li>
+                <li>Golf Course Road</li>
+            </ul>
+
+            <h3>Major Arterial Roads in Gurgaon include:</h3>
+
+            <ul class="arrow-list">
+                <li>IFFCO Chowk</li>
+                <li>Sector 55 - 56 Road</li>
+                <li>Old Delhi - Gurgaon Road</li>
+                <li>Pataudi Road</li>
+                <li>Faridabad - Gurgaon Road</li>
+                <li>Huda City Centre Road</li>
+                <li>MG Road</li>
+                <li>Basai Road</li>
+            </ul>
+
+            <h2>Investment Insights into 3 BHK Flats in Gurgaon </h2>
+
+            <p>Situated to the southwest of New Delhi, Gurgaon is commonly known as the &quot;Millennium City of India.&quot; It is rapidly becoming a prominent commercial and financial centre in the country, offering a wide range of job opportunities across various industries, including IT/ITeS, e-commerce, hospitality, and real estate, attracting working professionals from across the country.</p>
+
+            <p>3 BHK flats in Gurgaon features a wide range of options in social and infra amenities and provides premium living experience to its residents. It boasts expressways like Dwarka Expressway, Southern Peripheral Expressway, Sohna Road, Golf Course Road, and KMP Expressway and major malls like Omaxe Celebration Mall, Galleria Market, Ardee City Mall, MGF Plaza, Raheja Mall, etc. The city offers lucrative property investments with promising capital appreciation, high returns on investments, and favourable rental yields.</p>
+
+            <h2>Top residential properties offering 3 BHK flats in Gurgaon </h2>
+
+            <p>Are you looking for the best flats in Gurgaon? We have got you covered with the exciting deals in the real estate market along with best-in-market property rates in Gurgaon. Check out the list of hot-selling rera-approved 3 BHK flats for sale in Gurgaon from renowned builders being marketed by the leading property dealers in Gurgaon - MoneyTree Realty:</p>
+
+            <h3>Godrej Aristocrat | 3 BHK Flats in Sector 49 Gurgaon </h3>
+
+            <p><a href="./propertydetail/godrej-aristocrat-sector-49.php"><strong>Godrej Aristocrat</strong></a> is a luxurious residential project that is carefully crafted to offer the perfect blend of sophisticated amenities with modern living. The property provides seamless connectivity to various commercial hubs of the city through the Golf Course Extension Road and the Sohna Road. With its state-of-the-art architecture and lavish residential units, Godrej Aristocrat offers profitable business prospects to the investors.</p>
+
+            <table class="beautiful-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p><strong>Type of Property</strong></p>
+                        </td>
+                        <td>
+                            <p>Residential Property</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Builder Name</strong></p>
+                        </td>
+                        <td>
+                            <p>Godrej Properties</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Date of Possession</strong></p>
+                        </td>
+                        <td>
+                            <p>June, 2030</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>RERA Registration Number</strong></p>
+                        </td>
+                        <td>
+                            <p><a href="https://haryanarera.gov.in/view_project/searchprojectDetail/2670">RC/REP/HARERA/GGM/</a></p>
+
+                            <p><a href="https://haryanarera.gov.in/view_project/searchprojectDetail/2670">767/499/2023/111</a></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Strategic Location</strong></p>
+                        </td>
+                        <td>
+                            <p>Golf Course Extension Road</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Starting Price*</strong></p>
+                        </td>
+                        <td>
+                            <p>Request Price</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>M3M Antalya Hills | 3 BHK Flats in Sector 79 Gurgaon </h3>
+
+            <p><a href="./propertydetail/m3m-antalya-hills-sector-79-gurugram.php"><strong>M3M Antalya Hills</strong></a> is a luxurious residential project by the M3M Group that features lavish 2 and 3 BHK apartments at the prime location of Sector 79 Gurgaon. It boasts world class amenities like a jogging track, tennis court and spa. M3M Antalya Hills also offers seamless connectivity to all the major commercial centres of the city via the NH-8 and Dwarka Expressway.</p>
+
+            <table class="beautiful-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p><strong>Type of Property</strong></p>
+                        </td>
+                        <td>
+                            <p>Residential Property</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Builder Name</strong></p>
+                        </td>
+                        <td>
+                            <p>M3M Group</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Date of Possession</strong></p>
+                        </td>
+                        <td>
+                            <p>Last Quarter of 2025</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>RERA Registration Number</strong></p>
+                        </td>
+                        <td>
+                            <p><a href="https://haryanarera.gov.in/view_project/searchprojectDetail/2254">GGM/650/382/2022/125</a></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Strategic Location</strong></p>
+                        </td>
+                        <td>
+                            <p>Foothills of Aravallis</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Starting Price*</strong></p>
+                        </td>
+                        <td>
+                            <p>Request Price</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>M3M Altitude | 3 BHK Flats in Sector 65 Gurgaon </h3>
+
+            <p><a href="./propertydetail/m3m-altitude-sector-65.php"><strong>M3M Altitude</strong></a> features luxury apartments in Gurgaon near NH-8 and the IGI Airport. The property provides state-of-the-art amenities such as a modular kitchen, VRV/VRF AC and resort style pools that facilitate a lavish lifestyle. Thus, with its robust connectivity and world class amenities, M3M Altitude has emerged as a key player in the real estate industry.</p>
+
+            <table class="beautiful-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p><strong>Type of Property</strong></p>
+                        </td>
+                        <td>
+                            <p>Residential Property</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Builder Name</strong></p>
+                        </td>
+                        <td>
+                            <p>M3M Group</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Date of Possession</strong></p>
+                        </td>
+                        <td>
+                            <p>June, 2028</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>RERA Registration Number</strong></p>
+                        </td>
+                        <td>
+                            <p>RC/REP/HARERA/GGM/821/553/2024/48</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Strategic Location</strong></p>
+                        </td>
+                        <td>
+                            <p>NH -8/ IGI Airport</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Starting Price*</strong></p>
+                        </td>
+                        <td>
+                            <p>Request Price</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>M3M Mansion | 3 BHK Flats in Sector 113 Gurgaon </h3>
+
+            <p><a href="./propertydetail/m3m-mansion-sector-113.php"><strong>M3M Mansion</strong></a> is an upcoming sustainable residential project of the M3M Group that aims to maintain air quality by ensuring proximity to high oxygen-releasing trees. It also provides a range of state-of-the-art amenities such as a clubhouse, gym and spa. M3M Mansion is surrounded by various commercial properties that consequently make it one of the most sought after residential centres of Gurgaon.</p>
+
+            <table class="beautiful-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p><strong>Type of Property</strong></p>
+                        </td>
+                        <td>
+                            <p>Residential Property</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Builder Name</strong></p>
+                        </td>
+                        <td>
+                            <p>M3M Group</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Date of Possession</strong></p>
+                        </td>
+                        <td>
+                            <p>December, 2028</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>RERA Registration Number</strong></p>
+                        </td>
+                        <td>
+                            <p><a href="https://haryanarera.gov.in/view_project/searchprojectDetail/2790">RC/REP/HARERA/GGM/</a></p>
+
+                            <p><a href="https://haryanarera.gov.in/view_project/searchprojectDetail/2790">802/534/2024/29</a></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Strategic Location</strong></p>
+                        </td>
+                        <td>
+                            <p>Dwarka Expressway</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Starting Price*</strong></p>
+                        </td>
+                        <td>
+                            <p>Request Price</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Paras Quartier | 3 BHK Flats in Sector 2 Gurgaon </h3>
+
+            <p><a href="./propertydetail/paras-quartier.php"><strong>Paras Quartier</strong></a> is a premier residential property near the Aravali Valley that offers an impressively low Air Quality Index and a remarkable panoramic view. It provides modern facilities like rooftop infinity lap pool and Sports Centres. Furthermore, the strong connectivity of the Paras Quartier to the important trade centres of the city marks it as a very profitable investment site.</p>
+
+            <table class="beautiful-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p><strong>Type of Property</strong></p>
+                        </td>
+                        <td>
+                            <p>Residential Property</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Builder Name</strong></p>
+                        </td>
+                        <td>
+                            <p>Paras Buildtech</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Date of Possession</strong></p>
+                        </td>
+                        <td>
+                            <p>August, 2022</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>RERA Registration Number</strong></p>
+                        </td>
+                        <td>
+                            <p><a href="https://www.up-rera.in/Projectsummary?UI0aPA1ISD=/x+U7YKVoG8=&amp;hfFlag=9emr4VdBw22M7BGjKtJWMPDI4s5cHQZP&amp;NPJ6RAme=Cr5QGWvZzeM3nHwIrAyLT2RWbY4wXS/s&amp;PaURJEMAN4=ZL9MNERkNdYiuRj8AyMT398sYbBmFj4s&amp;IRSAHEB=D6PY3lyims8=">164 of 2017 dated 29.08.2017</a></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Strategic Location</strong></p>
+                        </td>
+                        <td>
+                            <p>Gurgaon - Faridabad Expressway</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Starting Price*</strong></p>
+                        </td>
+                        <td>
+                            <p>Request Price</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Krisumi Waterfall Residences | 3 BHK Flats in Sector 36A Gurgaon </h3>
+
+            <p>Situated in the prime location of Sector 36A Gurgaon, <a href="./propertydetail/krisumi-waterfall-residences-sector-36a-gurgaon.php"><strong>Krisumi Waterfall Residences</strong></a> offer luxurious 2 and 3 BHK apartments. In addition to its world-class architecture and style, the hotel-like services of this project make it one of the most eminent residential centres in Gurgaon. The proximity of Krisumi Waterfall Residences to transport hubs like NH-48, NH-8 and IGI Airport establishes it as one of the most lucrative investment options in real estate.</p>
+
+            <table class="beautiful-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p><strong>Type of Property</strong></p>
+                        </td>
+                        <td>
+                            <p>Residential Property</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Builder Name</strong></p>
+                        </td>
+                        <td>
+                            <p>Krisumi Corporation</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Date of Possession</strong></p>
+                        </td>
+                        <td>
+                            <p>December, 2027</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>RERA Registration Number</strong></p>
+                        </td>
+                        <td>
+                            <p><a href="https://haryanarera.gov.in/view_project/searchprojectDetail/2817">RERA-GRG-1562-2024</a></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Strategic Location</strong></p>
+                        </td>
+                        <td>
+                            <p>Dwarka Expressway</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Starting Price*</strong></p>
+                        </td>
+                        <td>
+                            <p>Request Price</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>Buy Property for Sale in Gurgaon, Now!</h2>
+
+            <p><strong>We at MoneyTree reality got you! </strong></p>
+
+            <p>We&#39;re a trusted real estate consultancy in Delhi/NCR, dedicated to transform your property search into a seamless experience.</p>
+
+            <p><strong>Your Dream Space, Our Expertise</strong></p>
+
+            <p>With over 300 skilled real estate consultants, we offer a diverse portfolio of residential and commercial properties, carefully curated to meet your unique needs, and make a promising real estate investment.</p>
+
+            <p><strong>Partnering for Success</strong></p>
+
+            <p>We&#39;ve built strong relationships with leading real estate builders in India like Paras Buildtech, DLF Limited, Elan Limited, M3M Group, and Godrej Properties, ensuring access to exclusive real estate projects and unmatched expertise.</p>
+
+            <p><strong>You Come First</strong></p>
+
+            <p>At MoneyTree Realty, client satisfaction is our top priority. We harness technology to streamline your property journey with a client-centric approach, ensuring transparency, efficiency, and peace of mind.</p>
+
+            <p><strong>A Track Record of Excellence</strong></p>
+
+            <p>With over 10,000 delighted real estate investors and a legacy of successful transactions, we&#39;re committed to setting new standards in the real estate industry of India.</p>
+
+            <p><strong>Empowering Your Future</strong></p>
+
+            <p>Join the MoneyTree family and discover a refreshing approach to real estate. Let&#39;s grow your money together.</p>
+
+
+            <h3>Services offered by MoneyTree Realty</h3>
+
+            <p>MoneyTree Realty stands out as a <a href="../top-channel-partner-in-real-estate.php"><strong>leading channel partner in real estate</strong></a>, thanks to our exceptional services and expert property consultations.</p>
+
+            <h3>Property related services at MoneyTree Realty include:</h3>
+
+            <table class="beautiful-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>Best-in-class property consultations and guidance.</p>
+                        </td>
+                        <td>
+                            <p>Real estate related updates on property trends, announcements of new projects, RERA related queries etc.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Data-backed analytics and insights for comprehensive property analysis.</p>
+                        </td>
+                        <td>
+                            <p>Advanced consultation with the optimal use of technology and tools for a seamless experience.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Strong professionalism and ethical standards while helping you buy property for sale.</p>
+                        </td>
+                        <td>
+                            <p>Best property prices and valuations along with other exciting deals and offers.</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>Contact us and make a promising and strategic real estate investment in India, Call us on <a href="tel:+919732300007"><strong>+91 9732300007</strong></a>.</p>
+
+            <h2>FAQs on 3 BHK Flats in Gurgaon</h2>
+
+
+            <section class="questions">
+                <h2>What is the meaning of 3 BHK?</h2>
+                <p>3 BHK flats refers to a residential apartment that offers 3 bedrooms, a hall, and a kitchen.</p>
+            </section>
+
+            <section class="questions">
+                <h2>What are the best 3 BHK flats in Gurgaon?</h2>
+                <p>The best 3 BHK flats in Gurgaon include M3M Mansion in Sector 113, Krisumi Waterfall Residences in Sector 36A, Paras Quartier in Sector 2, and M3M Antalya Hills in Sector 79.</p>
+            </section>
+
+            <section class="questions">
+                <h2>What is the average price of 3 BHK flats in Gurgaon?</h2>
+                <p>The average price of 3 BHK flats in Gurgaon varies by locality, with 3 BHK flats typically available for sale at an average price of ₹1.75 Cr+.</p>
+            </section>
+
+
+        </main>
+
+        <div class="side-flex-right">
+            <?php
+            include './recent-page-component.php';
+            ?>
+
+            <div class="single-widgets widget_egns_tag">
+                <div class="widget-title mb-20">
+                    <h6 style="color:#005b52;text-align: center;font-size:18px;">Popular Tags</h6>
                 </div>
-            <?php else : ?>
-                <?php foreach ($properties as $property) : ?>
-                    <?php
-                    // Generate a URL slug from the property name
-                    $slug = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $property['name'])));
-                    // Construct the details page path with the 'propertydetail' folder
-                    $detailsPagePath = 'propertydetail/' . $slug . '.php';
-                    ?>
-                    <div class="property-card fade-in">
-                        <div class="property-images" onclick="nextImage(this)">
-                            <?php foreach ($property['images'] as $imgIndex => $image) : ?>
-                                <img src="<?php echo htmlspecialchars($image); ?>" alt="Property Image" style="<?php echo $imgIndex > 0 ? 'display:none;' : ''; ?>">
-                            <?php endforeach; ?>
-                        </div>
-                        <h2><?php echo htmlspecialchars($property['name']); ?></h2>
-                        <p>Location: <?php echo htmlspecialchars($property['location']); ?></p>
-                        <p><?php echo htmlspecialchars($property['price']); ?></p>
-                        <a href="<?php echo htmlspecialchars($detailsPagePath); ?>" class="details-link">View Details</a>
-                    </div>
-                <?php endforeach; ?>
-            <?php endif; ?>
+
+
+                <p class="wp-block-tag-cloud">
+
+                    <a href="./best-property-dealers-in-noida">
+                        property dealers in noida
+                    </a>
+                    <a href="./property-in-noida">
+                        property in noida
+                    </a>
+                    <a href="./4-bhk-flats-in-noida">
+                        4 BHK flats in noida
+                    </a>
+                    <a href="./property-in-gurgaon">
+                        Property in Gurgaon
+                    </a>
+                    <a href="./apartments-in-gurgaon">
+                        Apartments in Gurgaon
+                    </a>
+                    <a href="./flats-in-gurgaon">
+                        Flats in Gurgaon
+                    </a>
+                    <a href="./3-bhk-flats-in-gurgaon">
+                        3 BHK Flats in Gurgaon
+                    </a>
+                    <a href="./4-bhk-flats-in-gurgaon">
+                        4 BHK Flats in Gurgaon
+                    </a>
+                    <a href="./property-dealers-in-gurgaon">
+                        Property dealers in Gurgaon
+                    </a>
+
+
+                </p>
+            </div>
+
+
         </div>
 
-        <style>
-            .property-card {
-                opacity: 0;
-                transform: translateY(20px);
-                transition: opacity 1s ease-out, transform 1s ease-out;
-            }
-
-            .property-card.visible {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        </style>
-
-        <script>
-            function nextImage(container) {
-                const images = container.getElementsByTagName('img');
-                let currentIndex;
-                for (let i = 0; i < images.length; i++) {
-                    if (images[i].style.display !== 'none') {
-                        currentIndex = i;
-                        images[i].style.display = 'none';
-                        break;
-                    }
-                }
-                const nextIndex = (currentIndex + 1) % images.length;
-                images[nextIndex].style.display = 'flex';
-            }
-
-            document.addEventListener('DOMContentLoaded', () => {
-                const observer = new IntersectionObserver((entries, observer) => {
-                    entries.forEach(entry => {
-                        if (entry.isIntersecting) {
-                            entry.target.classList.add('visible');
-                        }
-                    });
-                }, {
-                    threshold: 0.1
-                });
-
-                document.querySelectorAll('.property-card').forEach(card => {
-                    observer.observe(card);
-                });
-            });
-        </script>
-
-
-    </section>
-
-
+    </div>
 
     <div class="blog-tag-social-area">
         <div class="tag-wrapper">
             <h6>Similar Properties:</h6>
             <ul class="tags">
                 <li>
-                    <a href="./index.php">
+                    <a href="./best-property-dealers-in-noida">
                         property dealers in noida
-
                     </a>
                 </li>
                 <li>
-                    <a href="./Property-in-noida.php">
+                    <a href="./property-in-noida">
                         property in noida
-
                     </a>
                 </li>
                 <li>
-                    <a href="./4-bhk-flats-in-noida.php">
+                    <a href="./4-bhk-flats-in-noida">
                         4 BHK flats in noida
-
                     </a>
                 </li>
                 <li>
-                    <a href="./property-in-gurgaon.php">
+                    <a href="./property-in-gurgaon">
                         Property in Gurgaon
-
                     </a>
                 </li>
                 <li>
-                    <a href="./apartments-in-gurgaon.php">
+                    <a href="./apartments-in-gurgaon">
                         Apartments in Gurgaon
-
                     </a>
                 </li>
                 <li>
-                    <a href="./flats-in-gurgaon.php">
+                    <a href="./flats-in-gurgaon">
                         Flats in Gurgaon
-
                     </a>
                 </li>
                 <li>
-                    <a href="./index.php">
+                    <a href="./3-bhk-flats-in-gurgaon">
                         3 BHK Flats in Gurgaon
                     </a>
                 </li>
                 <li>
-                    <a href="./index.php">
+                    <a href="./4-bhk-flats-in-gurgaon">
                         4 BHK Flats in Gurgaon
                     </a>
                 </li>
                 <li>
-                    <a href="./index.php">
+                    <a href="./property-dealers-in-gurgaon">
                         Property dealers in Gurgaon
-
                     </a>
                 </li>
                 <li>
-                    <a href="./index.php">
-                        Flats in Sale in Gurgaon
-
+                    <a href="./flats-for-sale-in-gurgaon">
+                        Flats for Sale in Gurgaon
                     </a>
                 </li>
                 <li>
-                    <a href="./index.php">
+                    <a href="./godrej-properties-in-india">
                         Godrej Property in India
-
                     </a>
                 </li>
                 <li>
-                    <a href="./index.php">
+                    <a href="./plots-for-sale">
                         Plots for Sale
-
                     </a>
                 </li>
                 <li>
-                    <a href="./index.php">
+                    <a href="./blog/top-10-real-estate-company-in-noida">
                         Top 10 Best Real Estate Companies in Gurgaon
-
                     </a>
                 </li>
-
-
                 <li>
-                    <a href="./index.php">
+                    <a href="./top-commercial-property-in-noida">
                         commercial property in noida
-
                     </a>
                 </li>
                 <li>
-                    <a href="./index.php">
+                    <a href="./category/residential-property-for-sale-noida">
                         Residential property in Noida
-
                     </a>
                 </li>
                 <li>
-                    <a href="./index.php">
-                        House for sale in Noida
-
-                    </a>
-                </li>
-                <li>
-                    <a href="./index.php">
-                        Home in Noida
-
-                    </a>
-                </li>
-                <li>
-                    <a href="./index.php">
+                    <a href="./top-real-estate-poperty-consultant-in-india?search=noida">
                         Property prices in noida
-
                     </a>
                 </li>
                 <li>
-                    <a href="./index.php">
+                    <a href="./apartments-in-noida">
                         Noida apartments for sale
-
                     </a>
                 </li>
                 <li>
-                    <a href="./index.php">
-                        Villa for sale in Noida
-
-                    </a>
-                </li>
-                <li>
-                    <a href="./index.php">
+                    <a href="./flats-for-sale-in-noida">
                         Flats for sale in Noida
-
                     </a>
                 </li>
                 <li>
-                    <a href="./index.php">
-                        property for rent in noida
-
-                    </a>
-                </li>
-                <li>
-                    <a href="./index.php">
+                    <a href="./property-in-noida">
                         property for sale in noida
-
                     </a>
                 </li>
                 <li>
-                    <a href="./index.php">
+                    <a href="./category/commercial-property-for-sale-noida">
                         commercial property for sale in noida
-
                     </a>
                 </li>
-                <li>
-                    <a href="./index.php">
-                        best property in noida
 
-                    </a>
-                </li>
-                <li>
-                    <a href="./index.php">
-                        Buy property in Noida
-
-                    </a>
-                </li>
-                <li>
-                    <a href="./index.php">
-                        best commercial property in noida
-
-                    </a>
-                </li>
-                <li>
-                    <a href="./index.php">
-                        Noida Real Estate
-
-                    </a>
-                </li>
-                <li>
-                    <a href="./index.php">
-                        Real estate builders in Noida
-
-                    </a>
-                </li>
 
 
 
             </ul>
+
+
         </div>
+
+
         <?php
         include './more-tags.php';
         include './footer.php';
         ?>
 
 
+    </div>
 
 
 
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <script src="./assets/js/slick.js"></script>
+    <script src="./assets/js/jquery.counterup.min.js"></script>
+    <script src="./assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="./assets/js/jquery.nice-select.min.js"></script>
+    <script src="./assets/js/jquery.fancybox.min.js"></script>
+    <script src="./assets/js/custom.js"></script>
 
-        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-        <script src="assets/js/jquery-3.7.0.min.js"></script>
-        <script src="assets/js/jquery-ui.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/popper.min.js"></script>
-        <script src="assets/js/swiper-bundle.min.js"></script>
-        <script src="assets/js/slick.js"></script>
-        <script src="assets/js/waypoints.min.js"></script>
-        <script src="assets/js/wow.min.js"></script>
-        <script src="assets/js/jquery.counterup.min.js"></script>
-        <script src="assets/js/isotope.pkgd.min.js"></script>
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
-        <script src="assets/js/gsap.min.js"></script>
-        <script src="assets/js/simpleParallax.min.js"></script>
-        <script src="assets/js/TweenMax.min.js"></script>
-        <script src="assets/js/jquery.marquee.min.js"></script>
-        <script src="assets/js/jquery.nice-select.min.js"></script>
-        <script src="assets/js/jquery.fancybox.min.js"></script>
-        <script src="assets/js/custom.js"></script>
-        <script>
-            $(".marquee_text").marquee({
-                direction: "left",
-                duration: 25000,
-                gap: 50,
-                delayBeforeStart: 0,
-                duplicated: true,
-                startVisible: true,
-            });
-            $(".marquee_text2").marquee({
-                direction: "left",
-                duration: 25000,
-                gap: 50,
-                delayBeforeStart: 0,
-                duplicated: true,
-                startVisible: true,
-            });
-        </script>
 </body>
 
 </html>

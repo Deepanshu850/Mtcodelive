@@ -23402,19 +23402,19 @@ button {
 	background: #fff;
 	padding: 10px;
 }
-.product-sidebar .wp-block-categoris-cloud {
+ .wp-block-categoris-cloud {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
-.product-sidebar .wp-block-categoris-cloud li {
+ .wp-block-categoris-cloud li {
 	line-height: 1;
 	margin-bottom: 18px;
 }
-.product-sidebar .wp-block-categoris-cloud li:last-child {
+ .wp-block-categoris-cloud li:last-child {
 	margin-bottom: 0;
 }
-.product-sidebar .wp-block-categoris-cloud li a {
+ .wp-block-categoris-cloud li a {
 	color: var(--title-color);
 	font-family: var(--font-open-sans);
 	font-size: 14px;
@@ -23427,7 +23427,7 @@ button {
 	position: relative;
 	transition: 0.35s;
 }
-.product-sidebar .wp-block-categoris-cloud li a::before {
+ .wp-block-categoris-cloud li a::before {
 	content: "";
 	height: 12px;
 	width: 12px;
@@ -23438,15 +23438,15 @@ button {
 	top: 50%;
 	transform: translateY(-50%);
 }
-.product-sidebar .wp-block-categoris-cloud li a .number-of-categoris {
+ .wp-block-categoris-cloud li a .number-of-categoris {
 	color: var(--text-color);
 	font-weight: 400;
 	transition: 0.35s;
 }
-.product-sidebar .wp-block-categoris-cloud li a:hover {
+ .wp-block-categoris-cloud li a:hover {
 	color: var(--primary-color1);
 }
-.product-sidebar .wp-block-categoris-cloud li a:hover .number-of-categoris {
+ .wp-block-categoris-cloud li a:hover .number-of-categoris {
 	color: var(--primary-color1);
 }
 .product-sidebar .product-widget {

@@ -320,9 +320,11 @@ Noida,List of House Brokers in Noida" />
                 flex-direction: column;
                 align-items: center;
             }
-            .side-flex > div {
+
+            .side-flex>div {
                 width: 100%;
             }
+
             main {
                 padding-inline: 1.2rem;
             }
@@ -1720,7 +1722,6 @@ Noida,List of House Brokers in Noida" />
                     <h6 style="color:#005b52;text-align: center;font-size:18px;">Popular Tags</h6>
                 </div>
 
-
                 <p class="wp-block-tag-cloud">
 
                     <a href="./studio-apartments-in-noida.php">
@@ -1857,7 +1858,12 @@ Noida,List of House Brokers in Noida" />
 
 
 
+
                 </p>
+
+
+
+
             </div>
 
 
@@ -1914,7 +1920,7 @@ Noida,List of House Brokers in Noida" />
 
     <div class="blog-tag-social-area">
         <div class="tag-wrapper">
-            <h6>Similar Properties:</h6>
+            <h6>Similar :</h6>
             <ul class="tags">
                 <li>
                     <a href="./index.php">

@@ -617,3 +617,86 @@ html {
 ul.arrow-list + p {
 	margin-top: 1.2rem;
 }
+
+.single-widgets .wp-block-tag-cloud {
+	margin-bottom: 0;
+	line-height: 1;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 12px;
+}
+
+.single-widgets .wp-block-tag-cloud a {
+	color: var(--text-color);
+	text-align: center;
+	font-family: var(--font-open-sans);
+	font-size: 14px;
+	font-weight: 600;
+	border-radius: 5px;
+	border: 1px solid rgba(255, 255, 255, 0.8);
+	line-height: 1;
+	padding: 8px 18px;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	white-space: nowrap;
+	transition: all 0.5s ease-out 0s;
+}
+
+@media (max-width: 1399px) {
+	.single-widgets .wp-block-tag-cloud a {
+		padding: 8px 14px;
+	}
+}
+
+.single-widgets .wp-block-tag-cloud a::after {
+	position: absolute;
+	content: "";
+	display: block;
+	left: -5%;
+	right: -20%;
+	top: -4%;
+	height: 150%;
+	width: 150%;
+	bottom: 0;
+	border-radius: 2px;
+	background-color: var(--title-color);
+	transform: skewX(45deg) scale(0, 1);
+	z-index: -1;
+	transition: all 0.5s ease-out 0s;
+}
+
+.single-widgets .wp-block-tag-cloud a:hover {
+	color: var(--white-color);
+	border-color: var(--title-color);
+}
+
+.single-widgets .wp-block-tag-cloud a:hover::after {
+	transform: skewX(45deg) scale(1, 1);
+}
+
+div[class="single-widgets widget_egns_tag"],
+.wp-block-tag-cloud {
+	background: linear-gradient(
+		to bottom right,
+		rgba(249, 249, 249, 0.51),
+		rgba(50, 97, 92, 0.05)
+	);
+}
+
+div[class="single-widgets widget_egns_tag"] {
+	padding-top: 2rem;
+	padding-inline: 14px;
+	border-radius: 10px;
+}
+
+div[class="single-widgets widget_egns_tag"] > p {
+	padding-bottom: 2rem;
+}
+
+.tag-wrapper {
+	margin-top: 2rem;
+	width: 67%;
+	margin-inline: 5% auto;
+}

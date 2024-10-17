@@ -119,3 +119,6 @@ if (isset($_COOKIE['user_consent']) && $_COOKIE['user_consent'] == 'accepted') {
         }
     }
 </script>
+
+
+

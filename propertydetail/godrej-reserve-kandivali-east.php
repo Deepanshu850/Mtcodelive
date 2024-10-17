@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Tite goes here -->
-    <Title>Godrej Reserve Kandivali East| Residential Apartments/Flats in Mumbai
+    <title>Godrej Reserve Kandivali East| Residential Apartments/Flats in Mumbai
 
-    </Title>
+    </title>
     <meta name="description" content="Godrej Reserve Kandivali East, Mumbai. New residential Apartments in Godrej 
 Reserve offers 2, 3, 4 BHK Apartments. Call Now Real Estate Consultants +91-9732300007" />
     <meta name="keywords" content="Godrej Reserve Kandivali, Godrej Reserve Kandivali East Mumbai, 3 BHK Apartments Godrej 
@@ -606,11 +606,11 @@ enquiry, plot information, land for sale" />
         <br>
         <p align="justify">
 
-            <strong>Godrej Reserve Kandivali East</strong> is a <strong><a href="./Piramal-Mahalaxmi.php">residential property in Mumbai</a> offering 2, 3, & 4 BHK apartments</strong> with resort-like living at urban neighbourhood.These residential apartments in Mumbai offers an array of amenities and facilities like forest retreat, tropical oasis, green acres, and spring terraces. <strong>Godrej Reserve Kandivali East</strong> features <strong>seamless connectivity</strong> with the upcoming Mumbai Coastal Road, and Goregaon - Mulund Link Road.
+            <strong>Godrej Reserve Kandivali East</strong> is a <strong><a href="./piramal-mahalaxmi.php">residential property in Mumbai</a> offering 2, 3, & 4 BHK apartments</strong> with resort-like living at urban neighbourhood.These residential apartments in Mumbai offers an array of amenities and facilities like forest retreat, tropical oasis, green acres, and spring terraces. <strong>Godrej Reserve Kandivali East</strong> features <strong>seamless connectivity</strong> with the upcoming Mumbai Coastal Road, and Goregaon - Mulund Link Road.
             <br><br>
 
             Godrej Reserve Kandivali East is a <strong>RERA-registered society</strong> with registration number <strong>P51800054703</strong> which is available on Maha Rera website. <br>
-            <a href="./L-T-Elixir-Reserve.php"><strong> Godrej Properties Mumbai</strong></a> residential apartments feature <strong>2.5 acres of lush green landscape</strong> filled with majestic <strong>Banyan trees</strong> and exhibits a <strong>breathtaking view.</strong>
+            <a href="./l-t-elixir-reserve.php"><strong> Godrej Properties Mumbai</strong></a> residential apartments feature <strong>2.5 acres of lush green landscape</strong> filled with majestic <strong>Banyan trees</strong> and exhibits a <strong>breathtaking view.</strong>
             <br><br>
 
 

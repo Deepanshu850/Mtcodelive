@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0">
 
     <title>
-        Residential Properties for Sale in Goa
+        Commercial Properties for Sale in Goa
     </title>
     <meta name="description" content="">
     <meta name="keywords" content="" />
@@ -245,7 +245,7 @@
         <form method="GET" action="" class="search-form">
             <div class="form-group d-flex flex-wrap justify-content-center">
                 <h1 style="font-size: 20px;">
-                    Residential Properties for Sale in Goa
+                    Commercial Properties for Sale in Goa
 
                 </h1>
                 <input type="text" class="form-control" name="search" id="exampleInputtext1" placeholder="Enter City or Property Name to search properties here" value="<?php echo isset($_GET['search']) ? htmlspecialchars($_GET['search']) : ''; ?>">

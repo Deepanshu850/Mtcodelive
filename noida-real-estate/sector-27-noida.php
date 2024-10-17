@@ -986,7 +986,7 @@ fortune hotel noida sector 27, sector 27 market noida, indira market noida secto
                 </tbody>
             </table>
 
-            <h3><strong>M3M The Line | Studio Apartments in Sector 72 Noida</strong></h3>
+            <h3>M3M The Line | Studio Apartments in Sector 72 Noida</h3>
 
             <p><a href="../propertydetail/m3m-the-line-sector-72-noida.php"><strong>M3M The line</strong></a> offers state-of-the-art studio apartments along with expansive high-street retail space on the ground floor exhibiting international as well as home grown brands. These studio apartments in Noida provide an array of modern amenities like 100% Power Back-up, Amphitheatre, club house, swimming pool, gym, safe play area for kids.</p>
 

@@ -453,6 +453,7 @@ function getTypeLink($type)
     .property-card-image {
         display: flex;
         overflow: auto;
+        max-height: 250px;
     }
 
 

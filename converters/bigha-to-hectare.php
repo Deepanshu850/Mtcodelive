@@ -31,86 +31,85 @@
 
     <link rel="canonical" href="https://moneytreerealty.com/converters/bigha-to-hectare" />
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How many bigha in 1 hectare?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "1 Hectare is equal to 1.6133 bigha."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How many bigha in 1 acre?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "1 acre is equal to 1.6133 bigha."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much is 25 bigha in acres?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "25 bigha is equal to 15.49 acres."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much is 100 bigha in acres?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "100 bigha is equal to 61.98 acres."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much is 25 bigha in acres?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "25 bigha is equal to 123.966 acres."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much is 1 acre?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "1 Acre is approximately equal to 4,046.856 square metres, or 4,840 sq yards, or 43,560 sq feet."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How to calculate bigha to hectare?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To convert bighas into hectares, multiply the unit by 0.251."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the length of 2 bigha?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "2 bigha is approximately equal to 5016.76 sq metres in area."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long is 40 bigha?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A 40 bigha of land is approximately equal to 100335.24 sq metres."
-      }
-    }
-  ]
-}
-</script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+                    "@type": "Question",
+                    "name": "How many bigha in 1 hectare?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1 Hectare is equal to 1.6133 bigha."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many bigha in 1 acre?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1 acre is equal to 1.6133 bigha."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is 25 bigha in acres?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "25 bigha is equal to 15.49 acres."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is 100 bigha in acres?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "100 bigha is equal to 61.98 acres."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is 25 bigha in acres?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "25 bigha is equal to 123.966 acres."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is 1 acre?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1 Acre is approximately equal to 4,046.856 square metres, or 4,840 sq yards, or 43,560 sq feet."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How to calculate bigha to hectare?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "To convert bighas into hectares, multiply the unit by 0.251."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is the length of 2 bigha?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "2 bigha is approximately equal to 5016.76 sq metres in area."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How long is 40 bigha?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "A 40 bigha of land is approximately equal to 100335.24 sq metres."
+                    }
+                }
+            ]
+        }
+    </script>
 
 
     <!-- Google Tag Manager -->
@@ -131,7 +130,7 @@
         })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
     </script>
     <!-- End Google Tag Manager -->
-      <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
+    <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
 
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
@@ -151,7 +150,7 @@
     </script>
     <!-- End Google Analytics -->
     <!--G-JZJY23MWW7-->
-   
+
 </head>
 
 <body>
@@ -176,7 +175,7 @@
 
                 <canvas id="conversionChart"></canvas>
             </div>
-            
+
             <script>
                 function convertBighaToHectare() {
                     const input = document.getElementById("input").value;
@@ -239,8 +238,8 @@
 
             ?>
         </div>
-        
-       
+
+
         <section>
 
             <div class="links-list">
@@ -389,7 +388,7 @@
 
 
                 </h3>
-              
+
                 <p class="random-p">
 
                     Hectare = (bigha) x 0.251
@@ -781,7 +780,7 @@
 
             </h3>
 
-           
+
 
             <ul class="faq-list">
                 <li class="faq">
@@ -903,15 +902,15 @@
 
 
 
-       
+
 
 
         </div>
 
-        
-        
-        
-        
+
+
+
+
     </main>
 
 
@@ -922,7 +921,7 @@
 
 
 
- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

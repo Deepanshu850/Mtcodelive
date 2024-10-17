@@ -217,11 +217,11 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
     <link href="assets/img/favicon_io/favicon.ico" rel="icon" sizes="20x20" type="image/x-icon">
 
     <!-- CSS Files -->
-    <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet"> -->
-    <!-- <link href="assets/css/bootstrap-icons.css" rel="stylesheet"> -->
-    <!-- <link href="assets/css/style.css" rel="stylesheet"> -->
-    <!-- <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet"> -->
-    <!-- <link href="assets/css/nice-select.css" rel="stylesheet"> -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/css/nice-select.css" rel="stylesheet">
 
     <!-- Google Tag Manager -->
     <script>
@@ -1450,11 +1450,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
 
         <?php
         include './header.php';
-        // include './eventpop.php';
         ?>
-
-
-
         <div class=container>
             <div class="d-flex banner align-items-center">
                 <div class=banner-left>
@@ -1467,7 +1463,85 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                         <p>Best Real Estate Consultant in Delhi/NCR, The MONEYTREE REALTY SERVICES PVT. LTD.(RERA REG.), comprises a group of proficient professionals to provide the world-class Real Estate Service.
                         <p><br>Under the leadership of renowned Real Estate Tycoon <b>Mr. Sachin Arora</b>, We at MONEYTREE REALTY SERVICES PVT. LTD.(RERA REG.) works with great enthusiasm and provides a diverse catalogue of properties from residential to commercial.
                         <form action=top-real-estate-poperty-consultant-in-india.php>
-                            <div class="d-flex flex-wrap form-group"><input class=form-control id=exampleInputtext1 name=search placeholder="Enter City or Property Name to search properties here" value="<?php echo isset($_GET['search']) ? htmlspecialchars($_GET['search']) : ''; ?>"> <button class=black-btn type=submit>Search</button></div>
+                            <style>
+                                /* Custom Styles for the search input and button */
+                                .search-container {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin: 40px auto;
+                                    max-width: 900px;
+                                }
+
+                                .search-input {
+                                    padding: 14px 18px;
+                                    font-size: 16px;
+                                    width: 100%;
+                                    max-width: 900px;
+                                    border: 2px solid #ddd;
+                                    border-radius: 50px 0 0 50px;
+                                    /* Rounded edges for a softer look */
+                                    outline: none;
+                                    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                                    /* Soft shadow for depth */
+                                    transition: border 0.3s ease, box-shadow 0.3s ease;
+                                }
+
+                                .search-input:focus {
+                                    border-color: #009688;
+                                    box-shadow: 0 6px 12px rgba(0, 150, 136, 0.2);
+                                    /* Enhanced shadow on focus */
+                                }
+
+                                .search-btn {
+                                    padding: 16px 32px;
+                                    font-size: 18px;
+                                    background: linear-gradient(135deg, #005b52, #00796b);
+                                    /* Gradient background */
+                                    color: white;
+                                    border: none;
+                                    border-radius: 0 50px 50px 0;
+                                    /* Rounded edges for the button */
+                                    cursor: pointer;
+                                    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+                                    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                                    /* Soft shadow for depth */
+                                }
+
+                                .search-btn:hover {
+                                    background: linear-gradient(135deg, #00796b, #009688);
+                                    /* Lighter gradient on hover */
+                                    transform: translateY(-2px);
+                                    /* Subtle lift on hover */
+                                    box-shadow: 0 6px 12px rgba(0, 150, 136, 0.3);
+                                    /* Enhanced shadow on hover */
+                                }
+
+                                /* Mobile responsiveness */
+                                @media (max-width: 768px) {
+                                    .search-container {
+                                        flex-direction: column;
+                                        gap: 10px;
+                                    }
+
+                                    .search-input {
+                                        border-radius: 50px;
+                                        /* Full rounded input on mobile */
+                                        width: 100%;
+                                    }
+
+                                    .search-btn {
+                                        border-radius: 50px;
+                                        /* Full rounded button on mobile */
+                                        width: 100%;
+                                    }
+                                }
+                            </style>
+                            <div class="search-container">
+                                <input type="text" class="search-input" name="search" placeholder="Enter City or Property Name to search properties here"
+                                    value="<?php echo isset($_GET['search']) ? htmlspecialchars($_GET['search']) : ''; ?>">
+                                <button class="search-btn" type="submit">Search</button>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -2338,9 +2412,9 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
             </div>
         </div><?php
                 include './more-tags.php';
-                // include './footer.php';
+                include './footer.php';
                 ?>
-        <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
         <script src="assets/js/jquery-3.7.0.min.js" defer></script>
         <script src="assets/js/slick.js" defer></script>
         <script src="assets/js/waypoints.min.js" defer></script>
@@ -2370,4 +2444,4 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                     startVisible: true
                 });
             });
-        </script> -->
+        </script>
