@@ -309,7 +309,7 @@ city park noida, galaxy galactic food court" />
 
         <h2>Galactic City Description</h2>
 
-        <p>Galactic City is a premium and luxurious ready-to-move office space near the bustling residential sectors of Noida - <a href="./sector-10-noida.php"><strong>Sector 10 Noida</strong></a> and <a href="./sector-12-noida.php"><strong>Sector 12 Noida</strong></a> and the YOTTA Data Centre. It provides a comfortable working space for professionals and enhances their productivity with an array of amenities and facilities like a 5-star hotel, multiplex, food court, bank, ATM, gym, medical center, and broadband facility.</p>
+        <p>Galactic City is a premium and luxurious ready-to-move office space near the bustling residential sectors of Noida - <a href="../noida-real-estate/sector-10-noida.php"><strong>Sector 10 Noida</strong></a> and <a href="../noida-real-estate/sector-12-noida.ph"><strong>Sector 12 Noida</strong></a> and the YOTTA Data Centre. It provides a comfortable working space for professionals and enhances their productivity with an array of amenities and facilities like a 5-star hotel, multiplex, food court, bank, ATM, gym, medical center, and broadband facility.</p>
 
         <p>Galactic City provides vastu-friendly office spaces along with 70% open space filled with posh green surroundings. The office space in the Galactic City features a flexible floor plan from 425 sq ft and could be expanded up to 10,000 sq ft, depending on the growth of your company.</p>
 

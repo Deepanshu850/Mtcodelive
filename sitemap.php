@@ -1471,7 +1471,21 @@
           </a>
         </li>
 
-
+        <li class="lpage">
+          <a href="https://moneytreerealty.com/gurgaon-real-estate/sector-55-gurgaon" title="Sector 55 Gurgaon: Map, Property Rates, Projects, Photos, Reviews, Info">
+            Sector 55 Gurgaon | Moneytree Realty
+          </a>
+        </li>
+        <li class="lpage">
+          <a href="https://moneytreerealty.com/gurgaon-real-estate/sector-59-gurgaon" title="Sector 59 Gurgaon: Map, Property Rates, Projects, Photos, Reviews, Info">
+            Sector 59 Gurgaon | Moneytree Realty
+          </a>
+        </li>
+        <li class="lpage">
+          <a href="https://moneytreerealty.com/gurgaon-real-estate/sector-60-gurgaon" title="Sector 60 Gurgaon: Map, Property Rates, Projects, Photos, Reviews, Info">
+            Sector 60 Gurgaon | Moneytree Realty
+          </a>
+        </li>
 
 
         <!-- marker -->
@@ -1727,10 +1741,7 @@
           <a href="https://moneytreerealty.com/propertydetail/elan-imperial-sector-82" title="Elan Imperial Sector 82 Gurgaon | New Commercial Project    ">Elan Imperial Sector 82 Gurgaon | New Commercial Project
           </a>
         </li>
-        <li class="lpage last-page">
-          <a href="https://moneytreerealty.com/propertydetail/l-t-elixir-reserve" title="L&amp;T Elixir Reserve Powai | 2 &amp; 3 BHK Apartments in Powai">L&T Elixir Reserve Powai | 2 & 3 BHK Apartments in
-            Powai</a>
-        </li>
+
         <li class="lpage last-page">
           <a href="https://moneytreerealty.com/propertydetail/galactic-city-knowledge-park-5-greater-noida" title=" Galactic City in Knowledge Park 5, Greater Noida: Price, Brochure, Floor Plan, Reviews">
             Galactic City Knowledge Park 5, Greater Noida
