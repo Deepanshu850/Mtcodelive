@@ -231,7 +231,7 @@ Noida, Buy office space in Noida Extension" />
                         <p><strong>Property Status</strong></p>
                     </td>
                     <td>
-                        <p><strong>October 2025</strong></p>
+                        <p><strong>Possession by</strong></p>
                     </td>
                     <td>
                         <p><strong>RERA Details</strong></p>
@@ -242,10 +242,10 @@ Noida, Buy office space in Noida Extension" />
                         <p>Completed</p>
                     </td>
                     <td>
-                        <p>Possession Started</p>
+                        <p>October 2025</p>
                     </td>
                     <td>
-                        <p><a href="https://www.up-rera.in/Projectsummary?UI0aPA1ISD=S6FNkT850zg=&hfFlag=9emr4VdBw22M7BGjKtJWMPDI4s5cHQZP&NPJ6RAme=y8oI7ISx3PD28Qx5TVrBBg==&PaURJEMAN4=ZL9MNERkNdY/IPCrbS2pUw==&IRSAHEB=D6PY3lyims8=">UPRERAPRJ257845</a></p>
+                        <p>UPRERAPRJ257845</p>
                     </td>
                 </tr>
                 <tr>
@@ -267,11 +267,12 @@ Noida, Buy office space in Noida Extension" />
                         <p>₹49 Lac+</p>
                     </td>
                     <td>
-                        <p>Yamuna Expressway</p>
+                        <p>Surrounded by 50+ Educational Institutes</p>
                     </td>
                 </tr>
             </tbody>
         </table>
+
 
         <h2>Overview of Ametek Plaza One</h2>
 

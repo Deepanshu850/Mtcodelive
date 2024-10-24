@@ -64,12 +64,12 @@ $properties = [
         'name' => 'Godrej Tropical Isle Sector 146 Noida',
         'location' => 'Noida',
         'images' => [
-            "assets/img/projectdetails/godrejtropical1.jpg",
-            "assets/img/projectdetails/godrejtropical2.jpg",
-            "assets/img/projectdetails/godrejtropical3.jpg"
+            "assets/img/projectdetails/godrejtropical1.webp",
+            "assets/img/projectdetails/godrejtropical2.webp",
+            "assets/img/projectdetails/godrejtropical3.webp"
 
         ],
-        'price' => '2.3 Cr+*',
+        'price' => 'on request',
 
         'type' => ['Residential'],
         'rera' => 'UPRERAPRJ303390',
@@ -428,15 +428,15 @@ $properties = [
         'name' => 'AU The Sunflower Phase 1',
         'location' => 'Ghaziabad',
         'images' => [
-            'assets/img/projectdetails/ausunflower1.avif',
-            'assets/img/projectdetails/ausunflower2.jpg',
-            'assets/img/projectdetails/ausunflower3.jpg',
+            'assets/img/projectdetails/ausunflower1.webp',
+            'assets/img/projectdetails/ausunflower2.webp',
+            'assets/img/projectdetails/ausunflower3.webp',
         ],
         'price' => 'On Request',
 
         'type' => ['Residential'],
-        'rera' => 'UPRERAPRJ297873',
-        'rera_link' => '',
+        'rera' => 'UPRERAPRJ448904/04/2024',
+        'rera_link' => 'https://up-rera.in/Projectsummary?UI0aPA1ISD=Bvn4arhIAQE=&hfFlag=q5Tk0QUeJB8oatkp/Oqbxw==&NPJ6RAme=3FQJTPue5cbP7aZkKq6JOZUNjYCxpP8A&PaURJEMAN4=ZL9MNERkNdbbxwjE0Gd5eCHIt70ehhCF&IRSAHEB=D6PY3lyims8=',
         'property' => '',
     ],
     [

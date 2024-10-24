@@ -106,15 +106,15 @@ function getTypeLink($type)
                             </p>
                         </div>
                     </div>
-                    <!-- <p class="read-more-content" id="text"> -->
+                    <p class="read-more-content" id="text">
                     <?php
-                    // echo $property['shortDescription']; 
+                    echo $property['shortDescription']; 
                     ?>
-                    <!-- </p> -->
+                    </p>
 
-                    <!-- <span class="read-more-toggle" id="toggle">
+                    <span class="read-more-toggle" id="toggle">
                                         Read more <span class="icon">▼</span>
-                                    </span> -->
+                                    </span>
 
 
                 </div>

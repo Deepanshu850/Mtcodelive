@@ -301,7 +301,7 @@
                             <li><a href="../about-us">About us</a></li>
 
                             <li><a href="#">Expert Team</a></li>
-                            <li><a href="./blog/index">Latest News</a></li>
+                            <li><a href="./index">Latest News</a></li>
                             <li><a href="../sitemap">Sitemap</a></li>
                             <li><a href="../privacy-policy">Privacy Policy</a></li>
                         </ul>
