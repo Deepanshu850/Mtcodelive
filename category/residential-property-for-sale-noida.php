@@ -41,17 +41,12 @@ property in Noida, buy property in Noida, 2 bhk apartments in Noida" />
     <meta property="og:url" content="https://moneytreerealty.com/category/residential-property-for-sale-noida">
     <meta property="og:description" content="Explore premium residential property in Noida. Find top real estate properties in India, offering luxury 3 BHK and 4 BHK flats with modern amenities and prime locations.">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://moneytreerealty.com/assets/image/residential-property-noida-banner.webp"> <!-- Update with the correct image URL -->
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Luxury residential properties in Noida">
     <meta property="og:locale" content="en_IN">
 
     <!-- Twitter Specific Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Residential Property In Noida, Real Estate Properties in India">
     <meta name="twitter:description" content="Explore premium residential property in Noida. Find top real estate properties in India, offering luxury 3 BHK and 4 BHK flats with modern amenities and prime locations.">
-    <meta name="twitter:image" content="https://moneytreerealty.com/assets/image/residential-property-noida-banner.webp"> <!-- Update with the correct image URL -->
     <meta name="twitter:site" content="@MoneytreeRSPL">
 
 

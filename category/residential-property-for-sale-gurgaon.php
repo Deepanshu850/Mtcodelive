@@ -2,6 +2,7 @@
 <html lang="en">
 
 
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0">
@@ -12,7 +13,22 @@
     <meta name="description" content="Discover luxury residential property in Gurgaon with MoneyTree Realty. Explore prime real estate in Gurgaon, offering modern homes with world-class amenities and top locations.">
 
 
-    <meta name="keywords" content="" />
+    <meta name="keywords" content="Property In Gurgaon, Real Estate Property In Gurgaon, Real Estate 
+Projects, Real Estate Projects In Gurgaon, Luxury Real Estate Projects, 
+Real Estate, Real Estate Projects In Gurgaon, Residential Property In 
+Gurgaon, Real Estate Property In Gurgaon, Buy Gurgaon Properties, 
+Residential Property for sale in Gurgaon, Property for sale in 
+Gurgaon, Gurgaon Property Sale, flats on sale in Gurgaon, properties 
+in Gurgaon, apartment in Gurgaon, real estate in Gurgaon, residential 
+projects in Gurgaon, flats in Gurgaon extension, flat for sale in 
+Gurgaon extension, apartments in Gurgaon extension, buy flat in 
+Gurgaon extension, Gurgaon Property, Buy Property In Gurgaon, Best 
+Property In Gurgaon, Property Gurgaon, Gurgaon Properties, Projects 
+in Gurgaon, 3 BHK Flats in Gurgaon, 4 BHK Flats in Gurgaon, best 
+property in Gurgaon, real-estate investment in Gurgaon , Real Estate 
+in Gurgaon , property in Gurgaon, buy property in Gurgaon, 2 bhk 
+apartments in Gurgaon, Gurgaon real estate, property for sale in 
+Gurgaon, real estate investment in Gurgaon, Apartments in Gurgaon" />
 
     <meta name="Owner" content="Moneytreerealty.com" />
     <meta name="Copyright" content="Moneytreereal.com" />
@@ -30,17 +46,12 @@
     <meta property="og:url" content="https://moneytreerealty.com/category/residential-property-for-sale-gurgaon">
     <meta property="og:description" content="Discover luxury residential property in Gurgaon with MoneyTree Realty. Explore prime real estate in Gurgaon, offering modern homes with world-class amenities and top locations.">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://moneytreerealty.com/assets/image/residential-property-gurgaon-banner.webp">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Luxury residential property in Gurgaon">
     <meta property="og:locale" content="en_IN">
 
     <!-- Twitter Specific Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Residential Property In Gurgaon, Real Estate in Gurgaon">
     <meta name="twitter:description" content="Discover luxury residential property in Gurgaon with MoneyTree Realty. Explore prime real estate in Gurgaon, offering modern homes with world-class amenities and top locations.">
-    <meta name="twitter:image" content="https://moneytreerealty.com/assets/image/residential-property-gurgaon-banner.webp">
     <meta name="twitter:site" content="@MoneytreeRSPL">
 
 
