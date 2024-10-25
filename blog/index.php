@@ -309,35 +309,119 @@ companies in India" />
                 </div>
                 <div class="col-lg-4" style="padding-bottom: 1rem;">
                     <div class="blog-sidebar mb-50 sticky-sidebar">
-                        <div class="widget recent-posts">
-                            <h3>Recent Posts</h3>
-                            <ul>
-                                <?php foreach (array_slice($posts, 0, 3) as $recentPost) : ?>
-                                    <li><a href="<?= generateSlug($recentPost['title']) ?>"><?= $recentPost['title'] ?></a></li>
-                                <?php endforeach; ?>
-                            </ul>
-                        </div>
+
                         <div class="widget categories">
-                            <h3>Categories</h3>
-                            <ul>
-                                <li><a href="#">Residential</a></li>
-                                <li><a href="#">Commercial</a></li>
-                                <li><a href="#">Investment</a></li>
-                                <li><a href="#">Guides</a></li>
-                                <li><a href="#">News</a></li>
-                            </ul>
-                        </div>
-                        <div class="widget tags">
-                            <h3>Tags</h3>
-                            <div class="tag-cloud">
-                                <a href="#">Real Estate</a>
-                                <a href="#">Investment</a>
-                                <a href="#">Noida</a>
-                                <a href="#">Commercial</a>
-                                <a href="#">Residential</a>
-                                <a href="#">Guide</a>
+
+
+
+                            <div class="single-widgets widget_egns_recent_post">
+                                <div class="widget-title blog-title mb-20">
+                                    <h6>Recent Properties</h6>
+                                    <div class="slider-btn-group2 d-flex align-items-center justify-content-between">
+                                        <div class="slider-btn prev-51">
+                                            <svg width="7" height="12" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 6.50008L8 0L2.90909 6.50008L8 13L0 6.50008Z"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="slider-btn next-51">
+                                            <svg width="7" height="12" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M8 6.50008L0 0L5.09091 6.50008L0 13L8 6.50008Z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <?php include '../data/tempdata.php'; ?>
+
+                                <div class="recent-post-wraper">
+                                    <div class="swiper recent-post-sidebar-slider">
+                                        <div class="swiper-wrapper" id="blog-posts-container">
+                                            <?php foreach ($properties as $post): ?>
+                                                <?php $postUrl = '../propertydetail/' . $post['link']; ?>
+                                                <div class="swiper-slide">
+                                                    <div class="widget-cnt">
+                                                        <div class="wi">
+                                                            <a href="<?= $postUrl; ?>"><img class="mpmpmp" src="../<?= $post['images'][1]; ?>" alt="<?= $post['name']; ?> image"></a>
+                                                        </div>
+                                                        <div class="wc">
+                                                            <h6><a class="page-title" href="<?= $postUrl; ?>"><?= $post['name']; ?></a></h6>
+                                                        </div>
+                                                        <div class="card-grid">
+                                                            <div>
+                                                                <p>Location</p>
+                                                                <p><?php echo $post['location'][1]; ?></p>
+                                                            </div>
+                                                            <div>
+                                                                <p>Pincode</p>
+                                                                <p><?php echo $post['location'][2]; ?></p>
+
+                                                            </div>
+                                                            <div>
+                                                                <p>Price</p>
+                                                                <p><?php echo $post['price']; ?></p>
+                                                            </div>
+                                                            <div>
+                                                                <p>Type</p>
+                                                                <p>
+                                                                    <?php foreach ($post['type'] as $type): ?>
+                                                                        <span>
+                                                                            <?php echo $type; ?>
+                                                                        </span>
+                                                                    <?php endforeach; ?>
+                                                                </p>
+                                                            </div>
+                                                            <div>
+                                                                <p>Rera</p>
+                                                                <p><?php echo $post['rera'][0]; ?></p>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            <?php endforeach; ?>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+
+
+
+
+
+
                         </div>
+
+                        <style>
+                            .card-grid {
+                                display: grid;
+                                grid-template-columns: repeat(3, 1fr);
+                                gap: 6px 0;
+                                margin-top: 10px;
+                            }
+
+                            .card-grid div p:first-child {
+                                font-weight: 700;
+                            }
+
+                            .card-grid p {
+                                font-size: 11px;
+                                line-height: 1.6;
+                                margin-bottom: 0;
+                            }
+
+                            .card-grid span {
+                                font-size: 10px;
+                                margin: 0;
+                                display: inline-block;
+                            }
+
+                            .sticky-sidebar,
+                            .blog-sidebar {
+                                padding: 0;
+                            }
+                        </style>
+
+
+
                     </div>
                 </div>
             </div>
