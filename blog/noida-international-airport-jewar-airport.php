@@ -115,7 +115,7 @@ property near jewar airport, jewar airport construction company">
                     "name": "What is the progress of Jewar Airport?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "As of October, 2023, 50% of work has been completed on the Jewar International Airport Noida."
+                        "text": "As of October 2023, 50% of work has been completed on the Jewar International Airport Noida."
                     }
                 },
                 {
@@ -139,7 +139,7 @@ property near jewar airport, jewar airport construction company">
                     "name": "Who is making Jewar Airport?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Noida International Airport in Jewar is to be developed by Yamuna International Airport Private Limited, which is a 100% subsidiary of Zurich Airport International AG and under the civil construction contract of Tata Projects Limited."
+                        "text": "Noida International Airport in Jewar is being developed by Yamuna International Airport Private Limited, a 100% subsidiary of Zurich Airport International AG, with Tata Projects Limited handling the civil construction."
                     }
                 },
                 {
@@ -147,13 +147,12 @@ property near jewar airport, jewar airport construction company">
                     "name": "Is Jewar Airport the largest airport in India?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Noida International Airport is planned to be the biggest airport in India and 4th largest airport in the world."
+                        "text": "Noida International Airport is planned to be the largest airport in India and the 4th largest airport in the world."
                     }
                 }
             ]
         }
     </script>
-
 
 
 
@@ -200,6 +199,36 @@ property near jewar airport, jewar airport construction company">
     </script>
     <!-- End Google Analytics -->
     <!--G-JZJY23MWW7-->
+
+
+
+
+    <style>
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 6px 0;
+            margin-top: 10px;
+        }
+
+        .card-grid div p:first-child {
+            font-weight: 700;
+        }
+
+        .card-grid p {
+            font-size: 11px;
+            line-height: 1.6;
+            margin-bottom: 0;
+        }
+
+        .card-grid span {
+            font-size: 10px;
+            margin: 0;
+            display: inline-block;
+        }
+    </style>
+
+
 </head>
 
 <body class="light-theme">
@@ -222,12 +251,7 @@ property near jewar airport, jewar airport construction company">
                 <div>
                     <div class="post-thumb">
                         <img src="./assets/noida-international-airport.webp" alt='Noida International Airport | Jewar Airport to be operational by April 2025'>
-                        <div class="date">
 
-                            <!-- flag -->
-
-                            <a href="./jewar-airport-top-5-reasons-for-property-investment.php">Property</a>
-                        </div>
                     </div>
 
 
@@ -1418,6 +1442,10 @@ property near jewar airport, jewar airport construction company">
                         </tbody>
                     </table>
 
+                    <p>Contact us and make a promising and strategic real estate investment in India, Call us on <a href="tel:+919732300007"><strong>+91 9732300007</strong></a>.</p>
+
+
+
 
 
                     <h2>
@@ -1427,99 +1455,35 @@ property near jewar airport, jewar airport construction company">
 
 
 
-                    <div class="faq">
+                    <section class="questions">
+                        <h2>Where is Jewar Airport?</h2>
+                        <p>Noida International Airport, also known as Jewar Airport, is situated in Jewar, Gautam Buddha Nagar District, Uttar Pradesh, 203155.</p>
+                    </section>
 
-                        <h3>
-                            Where is Jewar Airport?
+                    <section class="questions">
+                        <h2>What is the progress of Jewar Airport?</h2>
+                        <p>As of October 2023, 50% of work has been completed on the Jewar International Airport Noida.</p>
+                    </section>
 
+                    <section class="questions">
+                        <h2>How many runways are in Jewar Airport?</h2>
+                        <p>The Jewar International Airport Noida has a proposed plan to build a 2-runway airport by 2024 and expand it into an 8-runway airport in the future.</p>
+                    </section>
 
-                        </h3>
-                        <div class="answer">
-                            <p>
-                                Noida International Airport, also known as Jewar Airport is situated in Jewar, Gautam Buddha Nagar District, Uttar Pradesh, 203155.
+                    <section class="questions">
+                        <h2>When will Jewar Airport be completed?</h2>
+                        <p>Noida International Airport Jewar is expected to be operational by April 2025.</p>
+                    </section>
 
-                            </p>
-                        </div>
-                        <div class="arrow collapsed">&#9660;</div>
-                    </div>
-                    <div class="faq">
+                    <section class="questions">
+                        <h2>Who is making Jewar Airport?</h2>
+                        <p>Noida International Airport in Jewar is being developed by Yamuna International Airport Private Limited, a 100% subsidiary of Zurich Airport International AG, with Tata Projects Limited handling the civil construction.</p>
+                    </section>
 
-                        <h3>
-                            What is the progress of Jewar Airport?
-
-
-                        </h3>
-                        <div class="answer">
-                            <p>
-                                As of October, 2023 50% of work has been completed on the Jewar International Airport Noida.
-                            </p>
-                        </div>
-                        <div class="arrow collapsed">&#9660;</div>
-                    </div>
-                    <div class="faq">
-
-                        <h3>
-                            How many runways are in Jewar Airport?
-
-
-                        </h3>
-                        <div class="answer">
-                            <p>
-                                The Jewar International Airport Noida has a proposed plan to build a 2-runway airport by 2024 and expand it into a 8-runway airport in the future.
-                            </p>
-                        </div>
-                        <div class="arrow collapsed">&#9660;</div>
-                    </div>
-                    <div class="faq">
-
-                        <h3>
-                            When will Jewar Airport be completed?
-
-
-
-                        </h3>
-                        <div class="answer">
-                            <p>
-                                Noida International Airport Jewar is expected to be operational by April 2025.
-                            </p>
-                        </div>
-                        <div class="arrow collapsed">&#9660;</div>
-                    </div>
-                    <div class="faq">
-
-                        <h3>
-                            Who is making Jewar Airport?
-
-
-
-
-                        </h3>
-                        <div class="answer">
-                            <p>
-                                Noida International Airport in Jewar is to be developed by Yamuna International Airport Private Limited, which is a 100% subsidiary of Zurich Airport International AG and under the civil construction contract of Tata Projects Limited.
-                            </p>
-                        </div>
-                        <div class="arrow collapsed">&#9660;</div>
-                    </div>
-                    <div class="faq">
-
-                        <h3> Is Jewar Airport the largest airport in India?
-
-
-
-                        </h3>
-                        <div class="answer">
-                            <p>
-                                Noida International Airport is planned to be the biggest airport in India and 4th largest airport in the world.
-                            </p>
-                        </div>
-                        <div class="arrow collapsed">&#9660;</div>
-                    </div>
-
-
-
-
-
+                    <section class="questions">
+                        <h2>Is Jewar Airport the largest airport in India?</h2>
+                        <p>Noida International Airport is planned to be the largest airport in India and the 4th largest airport in the world.</p>
+                    </section>
 
 
 
@@ -1787,20 +1751,73 @@ property near jewar airport, jewar airport construction company">
         <div id="side-stick" class="col-lg-4">
             <div>
                 <div class="blog-sidebar mb-50">
-                    <div class="single-widgets widget_egns_categoris mb-20">
-                        <div class="widget-title mb-20">
-                            <h6>Category</h6>
+                    <div class="single-widgets widget_egns_recent_post mb-20">
+                        <div class="widget-title blog-title mb-20">
+                            <h6>Recent Properties</h6>
+                            <div class="slider-btn-group2 d-flex align-items-center justify-content-between">
+                                <div class="slider-btn prev-51">
+                                    <svg width="7" height="12" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 6.50008L8 0L2.90909 6.50008L8 13L0 6.50008Z"></path>
+                                    </svg>
+                                </div>
+                                <div class="slider-btn next-51">
+                                    <svg width="7" height="12" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 6.50008L0 0L5.09091 6.50008L0 13L8 6.50008Z"></path>
+                                    </svg>
+                                </div>
+                            </div>
                         </div>
-                        <ul class="wp-block-categoris-cloud">
+                        <?php include '../data/tempdata.php'; ?>
 
-                            <li><a href="#"><span>Industrial</span> <span class="number-of-categoris">(30)</span></a></li>
-                            <li><a href="#"><span>Development</span> <span class="number-of-categoris">(18)</span> </a></li>
-                            <li><a href="#"><span>Houses</span> <span class="number-of-categoris">(21)</span></a></li>
-                            <li><a href="#"><span>Health & Care</span> <span class="number-of-categoris">(25)</span></a></li>
-                            <li><a href="#"><span>Apartment</span> <span class="number-of-categoris">(29)</span></a></li>
-                            <li><a href="#"><span>Banglow</span> <span class="number-of-categoris">(2,554)</span></a></li>
-                            <li><a href="#"><span>Home Twon</span> <span class="number-of-categoris">(1,556)</span></a></li>
-                        </ul>
+                        <div class="recent-post-wraper">
+                            <div class="swiper recent-post-sidebar-slider">
+                                <div class="swiper-wrapper" id="blog-posts-container">
+                                    <?php foreach ($properties as $post): ?>
+                                        <?php $postUrl = '../propertydetail/' . $post['link']; ?>
+                                        <div class="swiper-slide">
+                                            <div class="widget-cnt">
+                                                <div class="wi">
+                                                    <a href="<?= $postUrl; ?>"><img class="mpmpmp" src="../<?= $post['images'][1]; ?>" alt="<?= $post['name']; ?> image"></a>
+                                                </div>
+                                                <div class="wc">
+                                                    <h6><a class="page-title" href="<?= $postUrl; ?>"><?= $post['name']; ?></a></h6>
+                                                </div>
+                                                <div class="card-grid">
+                                                    <div>
+                                                        <p>Location</p>
+                                                        <p><?php echo $post['location'][1]; ?></p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Pincode</p>
+                                                        <p><?php echo $post['location'][2]; ?></p>
+
+                                                    </div>
+                                                    <div>
+                                                        <p>Price</p>
+                                                        <p><?php echo $post['price']; ?></p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Type</p>
+                                                        <p>
+                                                            <?php foreach ($post['type'] as $type): ?>
+                                                                <span>
+                                                                    <?php echo $type; ?>
+                                                                </span>
+                                                            <?php endforeach; ?>
+                                                        </p>
+                                                    </div>
+                                                    <div>
+                                                        <p>Rera</p>
+                                                        <p><?php echo $post['rera'][0]; ?></p>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <?php endforeach; ?>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
 
@@ -1822,9 +1839,9 @@ property near jewar airport, jewar airport construction company">
                         </div>
                         <div class="recent-post-wraper">
                             <div class="swiper recent-post-sidebar-slider">
-                                <div class="swiper-wrapper" id="blog-posts-container">
-                                    <!-- Dynamic content will be inserted here -->
-                                </div>
+                                <?php
+                                include './blogpost-slider.php';
+                                ?>
                             </div>
                         </div>
                     </div>
@@ -1964,66 +1981,6 @@ property near jewar airport, jewar airport construction company">
 
                             </a>
 
-                            <a href="../index.php">
-                                RERA news
-
-                            </a>
-
-                            <a href="../index.php">
-                                Real Estate Regulation
-
-                            </a>
-
-                            <a href="../index.php">
-                                Development Act 2016
-
-                            </a>
-
-                            <a href="../index.php">
-                                real estate industry
-
-                            </a>
-
-
-                            <a href="./index.php">
-                                Noida apartments for sale
-
-                            </a>
-
-                            <a href="./index.php">
-                                Flats for sale in Noida
-
-                            </a>
-
-                            <a href="./studio-apartments-in-noida.php">
-                                studio apartment
-
-                            </a>
-
-                            <a href="./index.php">
-                                best property in noida
-
-                            </a>
-
-                            <a href="./index.php">
-                                Buy property in Noida
-
-                            </a>
-
-                            <a href="./index.php">
-                                best commercial property in noida
-
-                            </a>
-
-                            <a href="./studio-apartments-in-noida.php">
-                                Noida Real Estate
-
-                            </a>
-
-                            <a href="./index.php">
-                                Real estate builders in Noida
-
-                            </a>
 
 
                         </p>
@@ -2032,13 +1989,7 @@ property near jewar airport, jewar airport construction company">
 
                     </div>
                 </div>
-                <div class="single-widgets sidebar-banner">
-                    <div class="product-content">
-                        <h4>For Summer Offer</h4>
-                        <p>Explore the benefits of eco-friendly homes</p>
-                        <a href="#" class="primary-btn3">View More</a>
-                    </div>
-                </div>
+
             </div>
         </div>
 

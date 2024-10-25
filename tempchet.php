@@ -9,34 +9,28 @@
     </div>
     <div class="content open">
         <a href="#heading-1">
-            1. Expressways of India - Brief Description
+            1. Exploring Real Estate Industry in India
         </a>
         <a href="#heading-2">
-            2. Insights into Expressways of India
+            2. Top 5 points to consider on how to invest in Real Estate in India
         </a>
 
         <a href="#heading-3">
-            3. Longest National Expressways in India
-
+            3. Top 5 ways to Invest in Real Estate Investment in India
         </a>
         <a href="#heading-4">
-            4. Longest State Expressways in India
+            4. Top reasons to Invest in Real Estate in Noida
 
         </a>
         <a href="#heading-5">
-            5. Check out the details of top 5 longest expressways of India
+            5. Top Developers to Invest in Real Estate in India
 
         </a>
         <a href="#heading-6">
-            6. Top upcoming expressways in India
+            6. Buy Real Estate in India with MoneyTree Realty
 
         </a>
-        <a href="#heading-7">
-            7. Want to invest in properties near expressways of India?
-        </a>
-        <a href="#heading-8">
-            8. FAQs regarding Expressways of India
-        </a>
+        
 
 
 
@@ -45,3 +39,6 @@
 
 
 
+<?php
+include './blogpost-slider.php';
+?>

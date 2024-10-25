@@ -250,9 +250,47 @@ noida, when jewar airport will start," />
                     <p class="overview">
                         Real estate investment in India is widely recognised as the prominent source of wealth creation and has emerged as the major asset providing a promising capital appreciation and lucrative ROI along with an array of perks like the regular rental income, land appreciation, hedging against inflation and other tax benefits.
                     </p>
+                    <div class="tableOfContent">
+                        <div class="header" onclick="">
+                            <p id="fake-heading">
+                                Table of Content
+                            </p>
+                            <button id="toggleButton">
+                                <i class="bi bi-list"></i>
+                            </button>
+                        </div>
+                        <div class="content open">
+                            <a href="#heading-1">
+                                1. Exploring Real Estate Industry in India
+                            </a>
+                            <a href="#heading-2">
+                                2. Top 5 points to consider on how to invest in Real Estate in India
+                            </a>
+
+                            <a href="#heading-3">
+                                3. Top 5 ways to Invest in Real Estate Investment in India
+                            </a>
+                            <a href="#heading-4">
+                                4. Top reasons to Invest in Real Estate in Noida
+
+                            </a>
+                            <a href="#heading-5">
+                                5. Top Developers to Invest in Real Estate in India
+
+                            </a>
+                            <a href="#heading-6">
+                                6. Buy Real Estate in India with MoneyTree Realty
+
+                            </a>
 
 
-                    <h2>Exploring Real Estate Industry in India </h2>
+
+
+                        </div>
+                    </div>
+
+
+                    <h2 id="heading-1">Exploring Real Estate Industry in India </h2>
 
                     <p>Blooming at an exponential rate, the <strong>Real Estate Industry in India</strong> is the second largest employer after the agricultural sector currently valued at $477 billion, contributing approximately 7.3 % to the country&rsquo;s GDP. </p>
 
@@ -264,7 +302,7 @@ noida, when jewar airport will start," />
 
                     <p>Let&rsquo;s explore more on real estate investments in India and better understand the industry so as to make an analysed and comprehensive decision while you look to buy property for sale.</p>
 
-                    <h2>Top 5 points to consider on how to invest in Real Estate in India: </h2>
+                    <h2 id="heading-2">Top 5 points to consider on how to invest in Real Estate in India: </h2>
 
                     <ul class="arrow-list">
                         <li><strong>Financial Goals</strong>: Real estate investing offers lucrative benefits and perks but it&#39;s important to plan out your financial objectives and expectations depending on whether you are looking for a regular rental income, long-term appreciation and if you are looking for a commercial space like retail shops, malls, multiplex, food courts etc. for your business, or residential apartments like 2 BHK, 3 BHK, and 4 BHK flats for living purposes.</li>
@@ -276,7 +314,7 @@ noida, when jewar airport will start," />
 
                     <p>We at <strong>MoneyTree Realty</strong> consist of highly trained <strong>real estate consultant</strong> and offer consultations on how to invest in real estate in India and make a comprehensive property investment. Our sales associates continuously strive to offer best-in-market deals on properties and follow a cement-centric approach and maintain transparency, accountability, and integrity.</p>
 
-                    <h2>Top 5 ways to Invest in Real Estate Investment in India </h2>
+                    <h2 id="heading-3">Top 5 ways to Invest in Real Estate Investment in India </h2>
 
 
                     <style>
@@ -661,7 +699,7 @@ noida, when jewar airport will start," />
 
 
 
-                    <h2>Top reasons to Invest in Real Estate in Noida </h2>
+                    <h2 id="heading-4">Top reasons to Invest in Real Estate in Noida </h2>
 
                     <p>Noida is witnessing a 3% growth in residential/commercial property sales making it one of the best cities to invest in real estate in India.
                     </p>
@@ -677,7 +715,7 @@ noida, when jewar airport will start," />
                         <li><strong>Great Scenery</strong>: Noida&rsquo;s planning takes into consideration the benefits of living in a green and well-maintained scenery and boasts various parks and gardens to help people of the city to attain peace and calm making it the best city to invest in real estate in india.</li>
                     </ul>
 
-                    <h2>Top Developers to Invest in Real Estate in India </h2>
+                    <h2 id="heading-5">Top Developers to Invest in Real Estate in India </h2>
 
 
 
@@ -750,7 +788,7 @@ noida, when jewar airport will start," />
                         <li>Be patient and have a long-term oriented mindset and seek out professional real estate consultant to get a seamless experience when you invest in real estate in India and get insights into how to invest in real estate in India.</li>
                     </ul>
 
-                    <h2>Buy Real Estate in India with MoneyTree Realty</h2>
+                    <h2 id="heading-6">Buy Real Estate in India with MoneyTree Realty</h2>
 
                     <p>MoneyTree Realty brings together a group of energised real estate consultant offering a diverse catalogue of commercial property, residential property, and plots for sale and offers expertise consultations on investment analysis and insights into how to invest in real estate in India.
                     </p>
@@ -905,7 +943,30 @@ noida, when jewar airport will start," />
                             </div>
                         </div>
                     </div>
-
+                    <div class="single-widgets widget_egns_recent_post mb-20">
+                        <div class="widget-title blog-title mb-20">
+                            <h6>Recent Blog</h6>
+                            <div class="slider-btn-group2 d-flex align-items-center justify-content-between">
+                                <div class="slider-btn prev-51">
+                                    <svg width="7" height="12" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 6.50008L8 0L2.90909 6.50008L8 13L0 6.50008Z"></path>
+                                    </svg>
+                                </div>
+                                <div class="slider-btn next-51">
+                                    <svg width="7" height="12" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 6.50008L0 0L5.09091 6.50008L0 13L8 6.50008Z"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recent-post-wraper">
+                            <div class="swiper recent-post-sidebar-slider">
+                                <?php
+                                include './blogpost-slider.php';
+                                ?>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="single-widgets widget_egns_tag">
                         <div class="widget-title mb-20">
