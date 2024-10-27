@@ -7,26 +7,35 @@
 
 
     <title>
-        How to invest in Real Estate in India
+        how to invest in real estate in india, Real Estate Investing Opportunities
+
     </title>
 
 
-    <meta name="description" content="Explore leading real estate companies in Noida and India with our comprehensive listings. Whether you're looking for property investment opportunities, seeking the best real estate jobs, or need expert real estate consulting services, our guide covers top agencies, agents, and consultants in Noida and across India. Discover why we are your go-to source for all things real estate in Noida and nationwide, helping you make informed decisions in the dynamic real estate market.">
+    <meta name="description" content="Learn how to invest in real estate in India with expert tips. Explore property types, locations, and strategies for profitable investment in Indian real estate..">
 
 
-    <meta name="keywords" content="real estate investment in india, how to invest in real estate in india, best city to invest in real estate in india, best place to invest in real estate in india, best real estate investment in india, is real estate
-a good investment in india, nri investment in india real estate, best city for investment in real estate
-in india, real estate investment companies in india, real estate investment course in india,jewar 
-airport, jewar airport news, jewar international airport, jewar airport city, jewar airport location, 
-jewar airport latest news, plots near jewar airport, jewar airport opening date, jewar airport 
-construction, jewar airport completion date, jewar airport map, jewar airport noida, jewar airport 
-design, jewar airport distance, jewar airport master plan, jewar airport area, jewar airport latest 
-news 2024, jewar airport plots, property near jewar airport, jewar airport construction company, 
-noida international airport jewar, jewar airport construction status, jewar airport image, pari chowk 
-to jewar airport distance, land near jewar airport, residential plots near jewar airport , flats near 
-jewar airport, jewar airport runway, commercial plots near jewar airport, jewar airport property, 
-jewar airport property investment, land price near jewar airport, latest news on jewar airport greater 
-noida, when jewar airport will start," />
+    <meta name="keywords" content="real estate investment in india, how to invest in real estate in 
+india, real estate investing, property investment in india, how 
+to invest in real estate, real estate investment in india, what is 
+real estate investment, invest in real estate online, best place 
+to invest in real estate in india, best places to invest in real 
+estate, how to make money in real estate, benefits of 
+investing in real estate, how to invest in property, best real 
+estate investment in india, how to start investing in real 
+estate, is real estate a good investment in india, how to invest 
+in property, invest in property shares, real estate investment 
+meaning, property plan, is real estate a good investment, 
+best real estate investments, how to start investing in 
+property, buying rental property, investment in property 
+requires, best property investment, real estate investment 
+business, how to start investing in real estate, investment in 
+property requires, estate invest company, top ten property 
+sites in india, how to get started in real estate investing, real 
+estate investment companies, what is real estate business in 
+india, benefits of investing in real estate, property purchase in 
+india, how to start real estate business in india, why is real 
+estate an investment, best city to invest in real estate in india" />
 
 
 
@@ -41,10 +50,10 @@ noida, when jewar airport will start," />
     <meta name="audience" content="All" />
 
 
-    <meta property="og:title" content="How to invest in Real Estate in India">
+    <meta property="og:title" content="how to invest in real estate in india, Real Estate Investing Opportunities">
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/blog/how-to-invest-in-real-estate-in-india.php">
-    <meta property="og:description" content="Explore leading real estate companies in Noida and India with our comprehensive listings. Whether you're looking for property investment opportunities, seeking the best real estate jobs, or need expert real estate consulting services, our guide covers top agencies, agents, and consultants in Noida and across India. Discover why we are your go-to source for all things real estate in Noida and nationwide, helping you make informed decisions in the dynamic real estate market.">
+    <meta property="og:description" content="Learn how to invest in real estate in India with expert tips. Explore property types, locations, and strategies for profitable investment in Indian real estate.">
     <meta property="og:type" content="property">
     <meta property="og:image" content="https://moneytreerealty.com/blog/assets/howtoinvestinrealestateinnoida.png">
 
@@ -161,20 +170,6 @@ noida, when jewar airport will start," />
             margin: 0;
             display: inline-block;
         }
-
-        .card h2,
-        .card a {
-            background: linear-gradient(45deg, #d39f51, #e5b566, #f0cb7b, #f8e292);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            text-fill-color: transparent;
-
-        }
-
-        .card a {
-            font-weight: 600;
-        }
     </style>
 
 
@@ -187,12 +182,6 @@ noida, when jewar airport will start," />
                 <div>
                     <div class="post-thumb">
                         <img src="./assets/howtoinvestinrealestateinnoida.png" alt='How to Invest in Real Estate in India | Explore Best Real Estate Investments'>
-                        <div class="date">
-
-                            <!-- flag -->
-
-                            <a href="../category/commercial-property-for-sale-noida">Investment</a>
-                        </div>
                     </div>
 
                     <h1>
@@ -206,45 +195,6 @@ noida, when jewar airport will start," />
                             <span>Posted on - 21 October, 2024</span>
                         </div>
                     </div>
-                    <br>
-
-                    <!-- <div class="tableOfContent">
-                        <div class="header" onclick="">
-                            <p id="fake-heading">
-                                Table of Content
-                            </p>
-                            <button id="toggleButton">
-                                <i class="bi bi-list"></i>
-                            </button>
-                        </div>
-                        <div class="content open">
-                            <a href="#heading-1">
-                                1. Understanding Occupancy Certificate (OC)
-                            </a>
-                            <a href="#heading-2">
-                                2. Why do even homebuyers understand what OC in real estate means?
-                            </a>
-
-                            <a href="#heading-3">
-                                3. OC Full Form, Meaning &amp; Analysis
-
-                            </a>
-                            <a href="#heading-4">
-                                4. Debunking common misconceptions on OC in Real Estate!
-
-                            </a>
-                            <a href="#heading-5">
-                                5. Looking to buy Property for Sale?
-
-                            </a>
-                            <a href="#heading-6">
-                                6. FAQs regarding OC in Real Estate
-                            </a>
-
-
-
-                        </div>
-                    </div> -->
 
 
                     <p class="overview">
@@ -717,7 +667,12 @@ noida, when jewar airport will start," />
 
                     <h2 id="heading-5">Top Developers to Invest in Real Estate in India </h2>
 
+                    <?php
+                    include '../data/tempdata.php';
 
+                    include '../property-grid-level3.php';
+                    $urlprefix = '../';
+                    ?>
 
 
                     <h3>Paras Buildtech </h3>
@@ -726,11 +681,25 @@ noida, when jewar airport will start," />
 
                     <h3>Top Real Estate Projects from Paras Buildtech </h3>
 
+                    <div class="property-container">
+                        <?php
 
+                        $paras = array_filter($properties, function ($item) {
+                            $pattern = '/paras/i';
 
+                            $matchesLocation = preg_match($pattern, strtolower($item['name']));
+                            if ($matchesLocation) {
+                                return true;
+                            }
 
+                            return false;
+                        });
 
+                        echo renderPropertiesGrid($paras, $urlprefix);
 
+                        // print_r($properties);
+                        ?>
+                    </div>
 
                     <h3>M3M Group </h3>
 
@@ -740,6 +709,25 @@ noida, when jewar airport will start," />
                     <h3>Top Real Estate Projects from M3M Group </h3>
 
 
+                    <div class="property-container">
+                        <?php
+
+                        $m3m = array_filter($properties, function ($item) {
+                            $pattern = '/m3m/i';
+
+                            $matchesLocation = preg_match($pattern, strtolower($item['name']));
+                            if ($matchesLocation) {
+                                return true;
+                            }
+
+                            return false;
+                        });
+
+                        echo renderPropertiesGrid($m3m, $urlprefix);
+
+                        // print_r($properties);
+                        ?>
+                    </div>
 
                     <h3>Elan Group </h3>
 
@@ -805,6 +793,17 @@ noida, when jewar airport will start," />
                         <div class="bolg-tag">
                             <ul class="tags">
 
+                                <li><a href="../blog/real-estate-investment-a-comprehensive-guide-on-real-estate.php">Real Estate Investment In India</a></li>
+                                <li><a href="../blog/how-to-invest-in-real-estate-in-india.php">How To Invest In Real Estate In India</a></li>
+                                <li><a href="../blog/how-to-invest-in-real-estate-in-india.php">Real Estate Investing</a></li>
+                                <li><a href="../blog/how-to-invest-in-real-estate-in-india.php">Property Investment In India</a></li>
+                                <li><a href="../blog/how-to-invest-in-real-estate-in-india.php">How To Invest In Real Estate</a></li>
+                                <li><a href="../blog/how-to-invest-in-real-estate-in-india.php">Real Estate Investment</a></li>
+                                <li><a href="../contact.php">Property Management</a></li>
+                                <li><a href="../category/residential-property.php">Residential Real Estate</a></li>
+                                <li><a href="../best-property-dealers-in-noida.php">Real Estate Deals</a></li>
+                                <li><a href="../real-estate-advisor-and-property-consulting-firm-in-india.php">Property Advice</a></li>
+                                <li><a href="../real-estate-consultant.php">Real Estate Consulting</a></li>
 
 
                             </ul>
@@ -875,98 +874,10 @@ noida, when jewar airport will start," />
         <div id="side-stick" class="col-lg-4">
             <div>
                 <div class="blog-sidebar mb-50">
-                    <div class="single-widgets widget_egns_recent_post mb-20">
-                        <div class="widget-title blog-title mb-20">
-                            <h6>Recent Properties</h6>
-                            <div class="slider-btn-group2 d-flex align-items-center justify-content-between">
-                                <div class="slider-btn prev-51">
-                                    <svg width="7" height="12" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0 6.50008L8 0L2.90909 6.50008L8 13L0 6.50008Z"></path>
-                                    </svg>
-                                </div>
-                                <div class="slider-btn next-51">
-                                    <svg width="7" height="12" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M8 6.50008L0 0L5.09091 6.50008L0 13L8 6.50008Z"></path>
-                                    </svg>
-                                </div>
-                            </div>
-                        </div>
-                        <?php include '../data/tempdata.php'; ?>
+                    <?php
+                    include './blogpost-slider.php';
+                    ?>
 
-                        <div class="recent-post-wraper">
-                            <div class="swiper recent-post-sidebar-slider">
-                                <div class="swiper-wrapper" id="blog-posts-container">
-                                    <?php foreach ($properties as $post): ?>
-                                        <?php $postUrl = '../propertydetail/' . $post['link']; ?>
-                                        <div class="swiper-slide">
-                                            <div class="widget-cnt">
-                                                <div class="wi">
-                                                    <a href="<?= $postUrl; ?>"><img class="mpmpmp" src="../<?= $post['images'][1]; ?>" alt="<?= $post['name']; ?> image"></a>
-                                                </div>
-                                                <div class="wc">
-                                                    <h6><a class="page-title" href="<?= $postUrl; ?>"><?= $post['name']; ?></a></h6>
-                                                </div>
-                                                <div class="card-grid">
-                                                    <div>
-                                                        <p>Location</p>
-                                                        <p><?php echo $post['location'][1]; ?></p>
-                                                    </div>
-                                                    <div>
-                                                        <p>Pincode</p>
-                                                        <p><?php echo $post['location'][2]; ?></p>
-
-                                                    </div>
-                                                    <div>
-                                                        <p>Price</p>
-                                                        <p><?php echo $post['price']; ?></p>
-                                                    </div>
-                                                    <div>
-                                                        <p>Type</p>
-                                                        <p>
-                                                            <?php foreach ($post['type'] as $type): ?>
-                                                                <span>
-                                                                    <?php echo $type; ?>
-                                                                </span>
-                                                            <?php endforeach; ?>
-                                                        </p>
-                                                    </div>
-                                                    <div>
-                                                        <p>Rera</p>
-                                                        <p><?php echo $post['rera'][0]; ?></p>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    <?php endforeach; ?>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-widgets widget_egns_recent_post mb-20">
-                        <div class="widget-title blog-title mb-20">
-                            <h6>Recent Blog</h6>
-                            <div class="slider-btn-group2 d-flex align-items-center justify-content-between">
-                                <div class="slider-btn prev-51">
-                                    <svg width="7" height="12" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0 6.50008L8 0L2.90909 6.50008L8 13L0 6.50008Z"></path>
-                                    </svg>
-                                </div>
-                                <div class="slider-btn next-51">
-                                    <svg width="7" height="12" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M8 6.50008L0 0L5.09091 6.50008L0 13L8 6.50008Z"></path>
-                                    </svg>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="recent-post-wraper">
-                            <div class="swiper recent-post-sidebar-slider">
-                                <?php
-                                include './blogpost-slider.php';
-                                ?>
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="single-widgets widget_egns_tag">
                         <div class="widget-title mb-20">
@@ -974,30 +885,21 @@ noida, when jewar airport will start," />
                         </div>
                         <p class="wp-block-tag-cloud">
 
-                            <a href="../blog/how-to-invest-in-real-estate-in-india.php">Real Estate Investments</a>
-                            <a href="../category/commercial-property.php">Commercial Property for Sale</a>
-                            <a href="../category/residential-property.php">Residential Property for Sale</a>
-                            <a href="../top-real-estate-poperty-consultant-in-india.php">Property Rates</a>
-                            <a href="./festivals-and-finances.php">Auspicious Time to Buy Property</a>
-                            <a href="./festivals-and-finances.php">Real Estate Purchases during Festivals</a>
-                            <a href="./festivals-and-finances.php">Benefits of Buying Property during Festivals</a>
-                            <a href="../blog/real-estate-investment-a-comprehensive-guide-on-real-estate.php">Real Estate Investment Guide</a>
-                            <a href="../real-estate-consultant.php">Real Estate Consultants</a>
-                            <a href="../blog/understanding-rera-act-2016.php">RERA Act 2016</a>
-                            <a href="../index.php">Real Estate Consultancy</a>
-                            <a href="../best-property-dealers-in-noida.php">Best Property Dealers in Delhi NCR</a>
-                            <a href="../real-estate-advisor-and-property-consulting-firm-in-india.php">Property Advisors</a>
-                            <a href="../blog/top-10-real-estate-company-in-noida.php">Leading Builders in India</a>
 
 
+                            <a href="../blog/real-estate-investment-a-comprehensive-guide-on-real-estate.php">Real Estate Investment In India</a>
+                            <a href="../blog/how-to-invest-in-real-estate-in-india.php">How To Invest In Real Estate In India</a>
+                            <a href="../blog/how-to-invest-in-real-estate-in-india.php">Real Estate Investing</a>
+                            <a href="../blog/how-to-invest-in-real-estate-in-india.php">Property Investment In India</a>
+                            <a href="../blog/how-to-invest-in-real-estate-in-india.php">How To Invest In Real Estate</a>
+                            <a href="../blog/how-to-invest-in-real-estate-in-india.php">Real Estate Investment</a>
+                            <a href="../contact.php">Property Management</a>
+                            <a href="../category/residential-property.php">Residential Real Estate</a>
+                            <a href="../best-property-dealers-in-noida.php">Real Estate Deals</a>
+                            <a href="../real-estate-advisor-and-property-consulting-firm-in-india.php">Property Advice</a>
+                            <a href="../real-estate-consultant.php">Real Estate Consulting</a>
 
                         </p>
-                    </div>
-                </div>
-                <div class="single-widgets sidebar-banner">
-                    <div class="product-content">
-                        <h4>For Summer Offer</h4>
-                        <p>Explore the benefits of eco-friendly homes</p><a href="#" class="primary-btn3">View More</a>
                     </div>
                 </div>
             </div>

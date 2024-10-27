@@ -9,28 +9,40 @@
     </div>
     <div class="content open">
         <a href="#heading-1">
-            1. Exploring Real Estate Industry in India
+            1. Expressways of India | An Overview
         </a>
         <a href="#heading-2">
-            2. Top 5 points to consider on how to invest in Real Estate in India
+            2. Upcoming Expressways in India | Real Estate Insights
         </a>
 
         <a href="#heading-3">
-            3. Top 5 ways to Invest in Real Estate Investment in India
+            3. Top 10 Upcoming Expressways of India
         </a>
         <a href="#heading-4">
-            4. Top reasons to Invest in Real Estate in Noida
+            4. Tired of looking to buy property on expressways in India?
 
         </a>
         <a href="#heading-5">
-            5. Top Developers to Invest in Real Estate in India
+            5. Frequently asked questions
 
         </a>
         <a href="#heading-6">
-            6. Buy Real Estate in India with MoneyTree Realty
+            6. Concluding Thoughts
 
         </a>
-        
+        <a href="#heading-7">
+            7. Check more real estate projects on Yamuna Expressway
+
+        </a>
+        <a href="#heading-8">
+            8. Looking to buy property near Jewar Airport?
+
+        </a>
+        <a href="#heading-9">
+            9. Frequently asked questions
+
+        </a>
+
 
 
 
@@ -39,6 +51,3 @@
 
 
 
-<?php
-include './blogpost-slider.php';
-?>

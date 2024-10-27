@@ -529,7 +529,7 @@
                         <path class="gold-gradient" d="M21.667 12.343C21.5521 12.343 21.4419 12.2974 21.3606 12.2161C21.2793 12.1348 21.2337 12.0246 21.2337 11.9097V3.03864C21.2324 3.0473 21.2151 3.03517 21.186 3.03517H4.81495C4.80548 3.0346 4.79598 3.03595 4.78704 3.03916C4.77811 3.04236 4.76991 3.04734 4.76295 3.0538L4.76729 11.9097C4.76729 12.0246 4.72163 12.1348 4.64037 12.2161C4.5591 12.2974 4.44889 12.343 4.33396 12.343C4.21904 12.343 4.10882 12.2974 4.02755 12.2161C3.94629 12.1348 3.90063 12.0246 3.90063 11.9097V3.03517C3.90744 2.79916 4.00747 2.57546 4.17883 2.41303C4.35019 2.25061 4.57892 2.16269 4.81495 2.16852H21.186C21.4221 2.16269 21.6508 2.25061 21.8222 2.41303C21.9935 2.57546 22.0935 2.79916 22.1003 3.03517V11.9097C22.1003 12.0246 22.0547 12.1348 21.9734 12.2161C21.8922 12.2974 21.7819 12.343 21.667 12.343Z" />
                     </svg> </div>
                 <div class="content"> <span>To More Inquiry</span>
-                    <h6><a href="tel:+919732300007">+91-9732300007</a></h6>
+                    <span><a href="tel:+919732300007">+91-9732300007</a></span>
                 </div>
             </div>
         </div>
@@ -539,7 +539,7 @@
                 color: #c7c7c7;
             }
 
-            header.style-1 .main-menu .hotline-area .content h6 a {
+            header.style-1 .main-menu .hotline-area .content span a {
                 background: linear-gradient(45deg, #d39f51, #e5b566, #f0cb7b, #f8e292, #fff7a9);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
@@ -547,7 +547,7 @@
                 text-fill-color: transparent;
             }
 
-            header.style-1 .main-menu .hotline-area .content h6 a:hover {
+            header.style-1 .main-menu .hotline-area .content span a:hover {
                 background: linear-gradient(-45deg, #d39f51, #e5b566, #f0cb7b, #f8e292, #fff7a9);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
