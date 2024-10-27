@@ -9,17 +9,17 @@
     </div>
     <div class="content open">
         <a href="#heading-1">
-            1. Expressways of India | An Overview
+            1. Real Estate Investments in India | Overview of the Market
         </a>
         <a href="#heading-2">
-            2. Upcoming Expressways in India | Real Estate Insights
+            2. Factors to Determine the Best Cities to Invest in Real Estate in India
         </a>
 
         <a href="#heading-3">
-            3. Top 10 Upcoming Expressways of India
+            3. Best Cities to Invest in Real Estate in India
         </a>
         <a href="#heading-4">
-            4. Tired of looking to buy property on expressways in India?
+            4. Looking to buy property for sale in Indian Cities?
 
         </a>
         <a href="#heading-5">
@@ -48,6 +48,3 @@
 
     </div>
 </div>
-
-
-
