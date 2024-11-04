@@ -212,25 +212,25 @@ Noida, Real estate property agents in Noida, property in noida" />
                     </div>
 
 
+                    <h2>
+                        Noida Real Estate | Understanding the Market
+                    </h2>
+
+
                     <p>
                         Infrastructure in India is flourishing at an exponential rate with the emergence of
                         state-of-the-art commercial projects and residential projects from <strong>biggest real estate
                             companies in India</strong>.
-                        <br><br>
+                        
 
                         With the emergency of infrastructure and technology, numerous <strong>real estate
                             company in Noida</strong> have initiated their expansive projects in the city.
 
                     </p>
 
-
-
-                    <h2>
-                        What is real estate?
-
-
-                    </h2>
-
+                    <h3>
+                        What is Real Estate?
+                    </h3>
 
                     <p>
                         Real estate refers to the form of real property that consists of building for residential
@@ -240,7 +240,7 @@ Noida, Real estate property agents in Noida, property in noida" />
                     </p>
 
                     <h2>
-                        What makes a top real estate company in Noida?
+                       What Makes a Top Real Estate Company in Noida?
                     </h2>
 
 
@@ -253,7 +253,8 @@ Noida, Real estate property agents in Noida, property in noida" />
 
                     </p>
                     <h2>
-                        Top 10 real estate company in Noida:
+                        
+                        Top 10 Real Estate Company in Noida:
 
                     </h2>
 
