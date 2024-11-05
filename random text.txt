@@ -1,20 +1,3 @@
-sed -i '/<main>/,/<\/main>/ { 
-    /<p>&nbsp;<\/p>/d; 
-    s/&nbsp;/ /g; 
-    s/<table[^>]*>/<table class="beautiful-table">/g; 
-    s/<ul[^>]*>/<ul class="arrow-list">/g; 
-    s/<td[^>]*>/<td>/g; 
-    s/<td>.*<\/td>/<td><\/td>/g; 
-    s/(h2)//Ig; 
-    s/(h3)//Ig; 
-    s/<thead>/<tbody>/g; 
-    s/<\/thead>/<\/tbody>/g; 
-    s/<th>/<td>/g; 
-    s/<\/th>/<\/td>/g 
-}' sector-156-noida.php
-
-
-
 
 
 ** prompt for og **
