@@ -8,11 +8,10 @@
 
     <title>
         how to invest in real estate in india, Real Estate Investing Opportunities
-
     </title>
 
 
-    <meta name="description" content="Learn how to invest in real estate in India with expert tips. Explore property types, locations, and strategies for profitable investment in Indian real estate..">
+    <meta name="description" content="Learn how to invest in real estate in India with expert tips. Explore property types, locations, and strategies for profitable investment in Indian real estate.">
 
 
     <meta name="keywords" content="real estate investment in india, how to invest in real estate in 
@@ -821,50 +820,6 @@ estate an investment, best city to invest in real estate in india" />
                     </div>
 
 
-                    <div class="row">
-
-                        <div class="inquiry-form ">
-                            <div class="title">
-                                <h4>Contact Us</h4>
-                            </div>
-                            <form>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-inner mb-30">
-                                            <label>Your Name* :</label>
-                                            <input type="text" placeholder="Jackson Mile">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-inner mb-30">
-                                            <label>Your Email* :</label>
-                                            <input type="email" placeholder="example@gamil.com">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="form-inner mb-30">
-                                            <label class="containerss">
-                                                <input type="checkbox">
-                                                <span class="checkmark"></span>
-                                                <span class="text">Please save my name, email address for the next time I comment. </span>
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="form-inner mb-30">
-                                            <label>Your Message :</label>
-                                            <textarea placeholder="Write Something..."></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-inner">
-                                    <button class="primary-btn3" type="submit">
-                                        Post Comment
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
 
                 </div>
 

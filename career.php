@@ -495,9 +495,10 @@
         }
 
         /* General styling */
-        .container {
+        .wrapper {
             max-width: 800px;
             margin: 0 auto 24px;
+            padding-top: 1rem;
         }
 
         .search-label {
@@ -602,7 +603,7 @@
         }
     </style>
 
-    <div class="container">
+    <div class="wrapper">
         <label for="search" class="search-label">Search by Job Title or Location:</label>
         <input type="text" id="search" placeholder="Enter job title or location" class="search-input">
     </div>

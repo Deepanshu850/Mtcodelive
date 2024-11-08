@@ -25,7 +25,7 @@ function renderPropertiesGrid($properties, $urlprefix)
                     </div>
 
                     <!-- data part -->
-                    <div class="property-card-text">
+                    <div class="property-card-data">
                         <h2>
                             <a class="colored-link" href="<?php echo $urlprefix . 'propertydetail/' . $property['link']; ?>">
                                 <?php echo $property['name'] ?>
@@ -69,15 +69,18 @@ function renderPropertiesGrid($properties, $urlprefix)
                             </div>
                         </div>
 
+
+                        <!-- button part -->
+                        <div class="property-card-button">
+                            <button class="card-button">Call Us</button>
+                            <a href="<?php echo $urlprefix . 'propertydetail/' . $property['link']; ?>" class="card-button card-button--white">
+                                More info
+                            </a>
+                        </div>
                     </div>
 
-                    <!-- button part -->
-                    <div class="property-card-button">
-                        <button class="card-button">Call Us</button>
-                        <a href="<?php echo $urlprefix . 'propertydetail/' . $property['link']; ?>" class="card-button card-button--white">
-                            More info
-                        </a>
-                    </div>
+
+
                 </div>
             <?php endforeach; ?>
         <?php endif; ?>
@@ -106,7 +109,7 @@ function renderPropertiesGrid($properties, $urlprefix)
 <style>
     .property-card {
         display: grid;
-        grid-template-columns: 14rem 2fr 10rem;
+        grid-template-columns: 14rem 1fr;
         gap: 10px;
         padding: 12px;
         outline: 3px solid hsl(210, 17%, 98%);
@@ -130,7 +133,7 @@ function renderPropertiesGrid($properties, $urlprefix)
 
     .property-card h2 {
         font-size: 20px;
-        margin-block: 6px 12px;
+        /* margin-block: 6px 12px; */
     }
 
     .property-card p {
@@ -162,13 +165,11 @@ function renderPropertiesGrid($properties, $urlprefix)
         place-items: center;
         font-size: 12px;
         background: #f8f9fa;
-        padding-block: 1rem;
-        margin-bottom: 8px;
+        /* padding-block: 1rem; */
         width: 98%;
         margin-inline: auto;
         border-radius: 8px;
         transform: translateY(8px);
-        margin-bottom: 20px;
     }
 
     .data-grid>div {
@@ -229,12 +230,10 @@ function renderPropertiesGrid($properties, $urlprefix)
 
     .property-card-button {
         display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 100%;
+        /* width: 100%; */
         gap: 25px;
-        height: 100%;
     }
 
 
@@ -244,7 +243,7 @@ function renderPropertiesGrid($properties, $urlprefix)
         border-radius: 12px;
         color: white;
         text-transform: capitalize;
-        width: 100%;
+        /* width: 100%; */
         font-size: 14px;
         font-weight: 500;
         box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;

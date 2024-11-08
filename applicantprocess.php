@@ -14,6 +14,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Handle file upload
     $resume = $_FILES['resume']['name'];
     $target_dir = "uploads/";
+    // Check if the target directory exists, if not create it
+    if (!is_dir($target_dir)) {
+        mkdir($target_dir, 0777, true);
+    }
     $target_file = $target_dir . basename($resume);
     $fileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
 

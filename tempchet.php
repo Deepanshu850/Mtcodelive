@@ -9,37 +9,37 @@
     </div>
     <div class="content open">
         <a href="#heading-1">
-            1. Real Estate Investments in India | Overview of the Market
+            1. Real Estate Industry in India
         </a>
         <a href="#heading-2">
-            2. Factors to Determine the Best Cities to Invest in Real Estate in India
+            2. Best Real Estate Investment for Wealth Creation
         </a>
 
         <a href="#heading-3">
-            3. Best Cities to Invest in Real Estate in India
+            3. What is RERA in Real Estate?
         </a>
         <a href="#heading-4">
-            4. Looking to buy property for sale in Indian Cities?
+            4. Role of Professional Consultants when making a Real Estate Investment
 
         </a>
         <a href="#heading-5">
-            5. Frequently asked questions
+            5. Tired of looking for Property for Sale?
 
         </a>
         <a href="#heading-6">
-            6. Concluding Thoughts
+            6. Why is Real Estate a great investment option?
 
         </a>
         <a href="#heading-7">
-            7. Check more real estate projects on Yamuna Expressway
+            7. How to invest in Real Estate?
 
         </a>
         <a href="#heading-8">
-            8. Looking to buy property near Jewar Airport?
+            8. Looking to Invest in Real Estate in India?
 
         </a>
         <a href="#heading-9">
-            9. Frequently asked questions
+            9. Frequently Asked Questions
 
         </a>
 
@@ -50,3 +50,8 @@
 </div>
 
 
+<main>
+
+
+
+</main>

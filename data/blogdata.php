@@ -103,7 +103,7 @@ $posts = [
         'id' => 12,
         'title' => 'What is Real Estate in India-2024',
         'description' => 'Real estate is a form of real property that consists of buildings or homes permanently attached to land.The term \' real estate \' means real(or physical) property. The real estate sector in India is blooming at an exponential rate currently valued at $477 billion,just second to the agricultural sector, and contributes 7.3 % to the country’ s GDP.',
-        'imageUrl' => './assets/what-is-real-estate-thumbnail.jpeg',
+        'imageUrl' => './assets/what-is-real-estate-thumbnail.webp',
         'date' => 'June 13, 2024',
         'writer' => 'Team Moneytree',
 
@@ -148,7 +148,7 @@ $posts = [
         'id' => 17,
         'title' => 'Krisumi City Sector 36A Gurgaon | Waterfall Residences & Waterside Suites',
         'description' => 'Krisumi City is a residential project in Sector 36A Gurgaon and features state-of-the-art studio apartments, 3 BHK, and 4 BHK apartments on the Dwarka Expressway. This residential property on Dwarka Expressway is being developed in collaboration between Krishna Group - a leading real estate developer in India and Sumitomo Corporation - a Japanese developer.',
-        'imageUrl' => './assets/unveiling-krisumi-corporation-sector-36a-waterfall-residences-and-waterside-suites.jpg',
+        'imageUrl' => './assets/unveiling-krisumi-corporation-sector-36a-waterfall-residences-and-waterside-suites.webp',
         'date' => 'June 28, 2024',
         'writer' => 'Team Moneytree',
 
@@ -157,7 +157,7 @@ $posts = [
         'id' => 18,
         'title' => 'Real Estate Investment : A Comprehensive Guide on Real Estate',
         'description' => 'Real estate industry in India is emerging as a major asset for wealth creation in a wide variety of property for sale from leading real estate developers like M3M Group, Godrej Properties, Paras Buildtech, Elan Group, Piramal Realty, Migsun Group etc.',
-        'imageUrl' => './assets/real-estate-investment-a-comprehensive-guide-on-real-estate.jpeg',
+        'imageUrl' => './assets/real-estate-investment-a-comprehensive-guide-on-real-estate.webp',
         'date' => 'June 30, 2024',
         'writer' => 'Team Moneytree',
 

@@ -576,7 +576,7 @@
                 <tbody>
                     <tr>
                         <td>
-                            <h2>Orris Carnation Residency</h2>
+                            <p>Orris Carnation Residency</p>
                         </td>
                         <td>
                             <p>Orris Carnation Rd, Residency, Sector 85, Gurugram, Haryana 122004</p>
@@ -584,7 +584,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <h2>Orris Aster Court</h2>
+                            <p>Orris Aster Court</p>
                         </td>
                         <td>
                             <p>Sector 85, Gurugram, Haryana 122004</p>
@@ -592,7 +592,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <h2>SS The Leaf</h2>
+                            <p>SS The Leaf</p>
                         </td>
                         <td>
                             <p>THE LEAF, Sector 85, Gurugram, Haryana 122004</p>
@@ -600,7 +600,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <h2>Godrej Air</h2>
+                            <p>Godrej Air</p>
                         </td>
                         <td>
                             <p>Sector 85, Gurugram, Haryana 122004</p>
@@ -608,7 +608,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <h2>Pyramid Heights</h2>
+                            <p>Pyramid Heights</p>
                         </td>
                         <td>
                             <p>Sector 86 Rd, Sector 85, Gurugram, Haryana 122051</p>

@@ -7,26 +7,14 @@
 
 
     <title>
-        How to invest in Real Estate in India
+
     </title>
 
 
-    <meta name="description" content="Explore leading real estate companies in Noida and India with our comprehensive listings. Whether you're looking for property investment opportunities, seeking the best real estate jobs, or need expert real estate consulting services, our guide covers top agencies, agents, and consultants in Noida and across India. Discover why we are your go-to source for all things real estate in Noida and nationwide, helping you make informed decisions in the dynamic real estate market.">
+    <meta name="description" content="">
 
 
-    <meta name="keywords" content="real estate investment in india, how to invest in real estate in india, best city to invest in real estate in india, best place to invest in real estate in india, best real estate investment in india, is real estate
-a good investment in india, nri investment in india real estate, best city for investment in real estate
-in india, real estate investment companies in india, real estate investment course in india,jewar 
-airport, jewar airport news, jewar international airport, jewar airport city, jewar airport location, 
-jewar airport latest news, plots near jewar airport, jewar airport opening date, jewar airport 
-construction, jewar airport completion date, jewar airport map, jewar airport noida, jewar airport 
-design, jewar airport distance, jewar airport master plan, jewar airport area, jewar airport latest 
-news 2024, jewar airport plots, property near jewar airport, jewar airport construction company, 
-noida international airport jewar, jewar airport construction status, jewar airport image, pari chowk 
-to jewar airport distance, land near jewar airport, residential plots near jewar airport , flats near 
-jewar airport, jewar airport runway, commercial plots near jewar airport, jewar airport property, 
-jewar airport property investment, land price near jewar airport, latest news on jewar airport greater 
-noida, when jewar airport will start," />
+    <meta name="keywords" content="" />
 
 
 
@@ -39,44 +27,17 @@ noida, when jewar airport will start," />
     <meta name="audience" content="All" />
 
 
-    <meta property="og:title" content="How to invest in Real Estate in India">
+    <meta property="og:title" content="">
     <meta property="og:site_name" content="Moneytree Realty">
-    <meta property="og:url" content="https://moneytreerealty.com/blog/how-to-invest-in-real-estate-in-india.php">
-    <meta property="og:description" content="Explore leading real estate companies in Noida and India with our comprehensive listings. Whether you're looking for property investment opportunities, seeking the best real estate jobs, or need expert real estate consulting services, our guide covers top agencies, agents, and consultants in Noida and across India. Discover why we are your go-to source for all things real estate in Noida and nationwide, helping you make informed decisions in the dynamic real estate market.">
+    <meta property="og:url" content="https://moneytreerealty.com/blog/how-to-invest-in-real-estate-in-india">
+    <meta property="og:description" content="">
     <meta property="og:type" content="property">
-    <meta property="og:image" content="https://moneytreerealty.com/blog/assets/">
+    <meta property="og:image" content="https://moneytreerealty.com/blog/assets/how-to-invest-in-real-estate-in-india.webp">
 
 
-    <link rel="canonical" href="https://moneytreerealty.com/blog/how-to-invest-in-real-estate-in-india.php" />
+    <link rel="canonical" href="https://moneytreerealty.com/blog/how-to-invest-in-real-estate-in-india" />
 
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "BlogPosting",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://moneytreerealty.com/blog/how-to-invest-in-real-estate-in-india"
-            },
-            "headline": "How to Invest in Real Estate in India",
-            "description": "Blooming at an exponential rate, the real estate sector in India is the second largest employer after the agricultural sector, currently valued at $477 billion and contributing approximately 7.3% to the country’s GDP.",
-            "image": "https://moneytreerealty.com/blog/assets/howtoinvestinrealestateinnoida.png",
-            "author": {
-                "@type": "Person",
-                "name": "MoneyTree Realty",
-                "url": "https://moneytreerealty.com/"
-            },
-            "publisher": {
-                "@type": "Organization",
-                "name": "MoneyTree Realty",
-                "logo": {
-                    "@type": "ImageObject",
-                    "url": "https://moneytreerealty.com/assets/logo.png" // Add the logo URL if available
-                }
-            },
-            "datePublished": "2024-02-20",
-            "dateModified": "2024-10-21"
-        }
-    </script>
+    
 
 
     <!-- Google Tag Manager -->
@@ -255,51 +216,6 @@ noida, when jewar airport will start," />
                         </div>
                     </div>
 
-                    <!-- form -->
-                    <div class="row">
-
-                        <div class="inquiry-form ">
-                            <div class="title">
-                                <h4>Contact Us</h4>
-                            </div>
-                            <form>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-inner mb-30">
-                                            <label>Your Name* :</label>
-                                            <input type="text" placeholder="Jackson Mile">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-inner mb-30">
-                                            <label>Your Email* :</label>
-                                            <input type="email" placeholder="example@gamil.com">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="form-inner mb-30">
-                                            <label class="containerss">
-                                                <input type="checkbox">
-                                                <span class="checkmark"></span>
-                                                <span class="text">Please save my name, email address for the next time I comment. </span>
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="form-inner mb-30">
-                                            <label>Your Message :</label>
-                                            <textarea placeholder="Write Something..."></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-inner">
-                                    <button class="primary-btn3" type="submit">
-                                        Post Comment
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
 
                 </div>
 

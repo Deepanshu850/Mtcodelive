@@ -229,6 +229,10 @@
     }
 </style>
 
+<?php 
+include '../sticky-call-component.php';
+?>
+
 <footer class="footer-section">
     <div class="container">
 

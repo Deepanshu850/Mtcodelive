@@ -731,9 +731,13 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 </style>
 
+<<<<<<< Updated upstream
 <a href="https://wa.me/+919732300007" class="track-click" data-id="3"  class="float bounce" target="_blank">
+=======
+<!-- <a href="https://wa.me/+919732300007" class="float bounce" target="_blank">
+>>>>>>> Stashed changes
     <i class="bi bi-whatsapp my-float"></i>
-</a>
+</a> -->
 
 
 <?php

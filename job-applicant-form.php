@@ -227,7 +227,7 @@
         display: none;
         font-size: 14px;
         z-index: 1000;
-        padding-inline: 1.5rem;
+        padding-inline: 2.5rem;
 
     }
 </style>
