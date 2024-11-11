@@ -371,7 +371,7 @@
                     }
                 </style>
             <li id="misc1">
-                <a id="number1" href="tel:+919732300007">
+                <a id="number1" class="track-click" data-id="1" href="tel:+919732300007">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                         <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.17-.17c1.12.56 2.38.86 3.69.86a1 1 0 011 1v3.59a1 1 0 01-1 1C10.64 22.96 1.04 13.36 1.04 4a1 1 0 011-1H5.63a1 1 0 011 1c0 1.31.3 2.57.86 3.69a1 1 0 01-.17 1.17l-2.2 2.2z" />
                     </svg>
@@ -533,7 +533,7 @@
                     <path class="gold-gradient" d="M21.667 12.343C21.5521 12.343 21.4419 12.2974 21.3606 12.2161C21.2793 12.1348 21.2337 12.0246 21.2337 11.9097V3.03864C21.2324 3.0473 21.2151 3.03517 21.186 3.03517H4.81495C4.80548 3.0346 4.79598 3.03595 4.78704 3.03916C4.77811 3.04236 4.76991 3.04734 4.76295 3.0538L4.76729 11.9097C4.76729 12.0246 4.72163 12.1348 4.64037 12.2161C4.5591 12.2974 4.44889 12.343 4.33396 12.343C4.21904 12.343 4.10882 12.2974 4.02755 12.2161C3.94629 12.1348 3.90063 12.0246 3.90063 11.9097V3.03517C3.90744 2.79916 4.00747 2.57546 4.17883 2.41303C4.35019 2.25061 4.57892 2.16269 4.81495 2.16852H21.186C21.4221 2.16269 21.6508 2.25061 21.8222 2.41303C21.9935 2.57546 22.0935 2.79916 22.1003 3.03517V11.9097C22.1003 12.0246 22.0547 12.1348 21.9734 12.2161C21.8922 12.2974 21.7819 12.343 21.667 12.343Z" />
                 </svg> </div>
             <div class="content"> <span>To More Inquiry</span>
-                <span><a href="tel:+919732300007">+91-9732300007</a></span>
+                <span><a href="tel:+919732300007" class="track-click" data-id="2">+91-9732300007</a></span>
             </div>
         </div>
     </div>
@@ -613,7 +613,7 @@
         }
     </style>
 
-    <a id="number2" href="tel:+919732300007">
+    <a id="number2" class="track-click" data-id="3" href="tel:+919732300007">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.17-.17c1.12.56 2.38.86 3.69.86a1 1 0 011 1v3.59a1 1 0 01-1 1C10.64 22.96 1.04 13.36 1.04 4a1 1 0 011-1H5.63a1 1 0 011 1c0 1.31.3 2.57.86 3.69a1 1 0 01-.17 1.17l-2.2 2.2z" />
         </svg>
@@ -628,7 +628,7 @@
 </header>
 
 <?php
-include "./slidefornfakenoti.php"
+// include "./slidefornfakenoti.php"
 ?>
 <style>
     .float {
@@ -690,6 +690,42 @@ include "./slidefornfakenoti.php"
     }
 </style>
 
-<a href="https://wa.me/+919732300007" class="float bounce" target="_blank">
+<a href="https://wa.me/+919732300007" class="float bounce track-click" data-id="4" target="_blank">
     <i class="bi bi-whatsapp my-float"></i>
 </a>
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Select all elements with the 'track-click' class
+        var trackableElements = document.querySelectorAll('.track-click');
+
+        trackableElements.forEach(function(element) {
+            element.addEventListener('click', function(event) {
+                // Get the unique ID from the data attribute
+                var id = element.getAttribute('data-id');
+
+                // Create an AJAX request
+                var xhr = new XMLHttpRequest();
+                xhr.open('POST', '../track_click.php', true);
+                xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+
+                // Data to send in the POST request
+                var data = 'id=' + encodeURIComponent(id);
+
+                xhr.onreadystatechange = function() {
+                    if (xhr.readyState === XMLHttpRequest.DONE) {
+                        if (xhr.status === 200) {
+                            console.log('Click tracked successfully');
+                        } else {
+                            console.error('Error tracking click');
+                        }
+                    }
+                };
+
+                xhr.send(data);
+            });
+        });
+    });
+</script>

@@ -9,25 +9,25 @@
     </div>
     <div class="content open">
         <a href="#heading-1">
-            1. Real Estate Industry in India
+            1. Property in Noida - Brief Description
         </a>
         <a href="#heading-2">
-            2. Best Real Estate Investment for Wealth Creation
+            2. How to buy Property in Noida?
         </a>
 
         <a href="#heading-3">
-            3. What is RERA in Real Estate?
+            3. Types of Real Estate investment in Noida
         </a>
         <a href="#heading-4">
-            4. Role of Professional Consultants when making a Real Estate Investment
+            4. Where to buy Property in Noida?
 
         </a>
         <a href="#heading-5">
-            5. Tired of looking for Property for Sale?
+            5. Tired of looking to buy Property in Noida?
 
         </a>
         <a href="#heading-6">
-            6. Why is Real Estate a great investment option?
+            6. Tired of looking at Property for Sale on Dwarka Expressway
 
         </a>
         <a href="#heading-7">
@@ -50,8 +50,6 @@
 </div>
 
 
-<main>
 
 
 
-</main>

@@ -75,9 +75,9 @@
 </style>
 
 <div class="sticky-footer">
-    <a class="button-call" href="tel:+919732300007"><i class="bi bi-telephone-outbound-fill"></i> Call Us</a>
+    <a class="button-call track-click" data-id="5" href="tel:+919732300007"><i class="bi bi-telephone-outbound-fill"></i> Call Us</a>
     <button class="button-enquiry" onclick="openForm()"><i class="bi bi-envelope-paper-fill"></i> Enquiry</button>
-    <a class="button-whatsapp" href="https://wa.me/+919732300007?text=Hi" target="_blank"> <i class="bi bi-whatsapp"></i> WhatsApp</a>
+    <a class=" track-click button-whatsapp" data-id="6" href="https://wa.me/+919732300007?text=Hi" target="_blank"> <i class="bi bi-whatsapp"></i> WhatsApp</a>
 </div>
 
 <script>

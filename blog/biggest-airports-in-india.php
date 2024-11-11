@@ -714,7 +714,35 @@
                         In this article, we list top 5 biggest airports in India:
                     </h3>
 
-                    <ol class="coustom-list">
+
+                    <style>
+                        .custom-list {
+                            padding-left: 1rem;
+                        }
+
+                        .custom-list h2 {
+                            font-size: 26px;
+                        }
+
+                        .custom-list>li::before {
+                            top: 5px;
+                            font-size: 19px;
+                        }
+                        
+                        .custom-list li h2 + h3 {
+                            margin-top: 0.5rem;
+                            font-size: 18px;
+                        }
+                        
+                        @media (width < 700px) {
+                            .custom-list {
+                                padding-left: 0;
+                            }
+                            
+                        }
+                    </style>
+
+                    <ol class="custom-list">
 
                         <!-- rajiv gandhi -->
                         <li>
@@ -722,11 +750,7 @@
                                 Rajiv Gandhi International Airport
                             </h2>
 
-                            <p>
-                                <strong>
-                                    Hyderabad, 500108
-                                </strong>
-                            </p>
+                            <h3> Hyderabad, 500108 Hyderabad, 500108</h3>
                             <p>
                                 <strong>Rajiv Gandhi International Airport</strong> is situated in Hyderabad and emerges as the biggest airport in India spread over 5,500 acres of land with an enormous terminal to handle 1.2 million passengers. It was the first international airport in India to approve e-boarding of domestic and international; flights.
 
@@ -737,6 +761,7 @@
 
 
                             <h3>Rajiv Gandhi International Airport - Quick Insights</h3>
+
 
 
 
@@ -809,11 +834,9 @@
                             <h2>
                                 IGI Airport - Biggest Airport in India
                             </h2>
-                            <p>
-                                <strong>
-                                    New Delhi, 110037
-                                </strong>
-                            </p>
+                            <h3>
+                                New Delhi, 110037
+                            </h3>
 
                             <p>
                                 IGI Airport, acronym for <strong>Indira Gandhi International Airport</strong>, is one of the busiest
@@ -891,12 +914,9 @@
                                 Kempegowda International Airport
 
                             </h2>
-                            <p>
-                                <strong>
-                                    Bangalore, 560300
-                                </strong>
-
-                            </p>
+                            <h3>
+                                Bangalore, 560300
+                            </h3>
 
                             <p>
 
@@ -971,8 +991,9 @@
                         <li>
                             <h2>Dabolim Airport</h2>
 
-                            <p><strong>Goa, 403801</strong></p>
-
+                            <h3>
+                                Goa, 403801
+                            </h3>
                             <p>Dabolim Airport is the tenth busiest airport in India, handing over 8.5 million passengers 6.8 million passengers in the year 2023-24. It serves the capital city of Goa, Panaji. It has witnessed a drop in number of passengers due to inauguration of a new airport, Manohar International Airport, in the state of Goa. Dabolim Airport is the major hub of AIX Connect, and IndiGo.</p>
 
                             <h3>Dabolim Airport - Quick insights</h3>
@@ -1038,7 +1059,9 @@
                         <li>
                             <h2>Netaji Subhas Chandra Bose International Airport</h2>
 
-                            <p><strong>Kolkata, 700052</strong></p>
+                            <h3>
+                                Kolkata, 700052
+                            </h3>
 
                             <p>Netaji Subhas Chandra Bose International Airport is the sixth busiest airport in India and serves the Capital of West Bengal - Kolkata and is the primary aviation hub for eastern and north-eastern India. It handles about 20 million passengers annually. Netaji Subhas Chandra Bose International Airport is the major hub of various airlines such as Air India, AIX Connect, SpiceJet, Alliance Air, and IndiGo.</p>
 
@@ -1117,17 +1140,20 @@
                         introduce more biggest airports in India and provide a seamless experience to the
                         passengers.
                     </p>
-                    <p>
-                        <strong>The upcoming biggest airports in India includes:</strong>
-                    </p>
+                    <h3>
+                        The upcoming biggest airports in India includes:
+                    </h3>
 
 
-                    <ol class="coustom-list">
+                    <ol class="custom-list">
                         <li>
                             <h2>
                                 Noida International Airport
                             </h2>
 
+                            <h3>
+                                Jewar, 203135
+                            </h3>
                             <p>
 
                                 <a href="./property-near-jewar-airport.php"><strong>Noida International Airport</strong></a>, also known as Jewar Airport, is one of the
@@ -1217,6 +1243,10 @@
                             <h2>
                                 Navi Mumbai International Airport
                             </h2>
+
+                            <h3>
+                                Navi Mumbai, 400099
+                            </h3>
 
                             <p>
                                 <strong>Navi Mumbai International Airport</strong> is the upcoming international airport

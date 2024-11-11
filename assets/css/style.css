@@ -3525,7 +3525,7 @@ header.style-1 .main-menu ul li.menu-item-has-children > i {
 }
 header.style-1 .main-menu .topbar-right {
 	padding-top: 40px;
-	padding-bottom: 50px;
+	/* padding-bottom: 50px; */
 	border-bottom: 1px solid rgba(238, 238, 238, 0.93);
 }
 header.style-1 .main-menu .topbar-right a {
@@ -3574,7 +3574,7 @@ header.style-1 .main-menu .hotline-area {
 	display: flex;
 	align-items: center;
 	gap: 20px;
-	padding-top: 40px;
+	padding-block: 40px;
 }
 header.style-1 .main-menu .hotline-area .content {
 	position: relative;
@@ -3646,7 +3646,7 @@ header.style-1 .main-menu .hotline-area .content h6 a:hover {
 		padding-bottom: 8px;
 	}
 	header.style-1 .main-menu .menu-list {
-		padding-top: 50px;
+		/* padding-top: 50px; */
 		padding-bottom: 0;
 	}
 	header.style-1 .main-menu ul {
@@ -4649,7 +4649,7 @@ header.style-2 .main-menu ul li.menu-item-has-children > i {
 		padding-bottom: 8px;
 	}
 	header.style-2 .main-menu .menu-list {
-		padding-top: 50px;
+		/* padding-top: 50px; */
 		padding-bottom: 30px;
 	}
 	header.style-2 .main-menu ul {
@@ -5650,7 +5650,7 @@ header.style-3 .main-menu .hotline-area .content h6 a:hover {
 		padding-bottom: 8px;
 	}
 	header.style-3 .main-menu .menu-list {
-		padding-top: 50px;
+		/* padding-top: 50px; */
 		padding-bottom: 30px;
 	}
 	header.style-3 .main-menu ul {

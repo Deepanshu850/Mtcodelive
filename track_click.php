@@ -1,11 +1,10 @@
 <?php
 // track_click.php
 
-// Database configuration using MySQLi
 $servername = "localhost";
 $username = "root";
 $password = "";
-$database = "test";
+$database = "testchet";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database);
@@ -14,6 +13,7 @@ $conn = new mysqli($servername, $username, $password, $database);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
+
 
 // Retrieve the 'id' from POST data
 $id = isset($_POST['id']) ? intval($_POST['id']) : 0;
@@ -54,4 +54,4 @@ if ($id > 0) {
 
 // Close the connection
 $conn->close();
- 
+?>

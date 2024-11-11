@@ -88,7 +88,7 @@ estate an investment, best city to invest in real estate in india" />
                 }
             },
             "datePublished": "2024-02-20",
-            "dateModified": "2024-10-21"
+            "dateModified": "2024-11-8"
         }
     </script>
 
@@ -169,6 +169,10 @@ estate an investment, best city to invest in real estate in india" />
             margin: 0;
             display: inline-block;
         }
+
+        ol.custom-list {
+            padding-left: 0;
+        }
     </style>
 
 
@@ -191,7 +195,7 @@ estate an investment, best city to invest in real estate in india" />
 
                         <div class="author-content">
                             <h6> Team MoneyTree </h6>
-                            <span>Posted on - 21 October, 2024</span>
+                            <span>Posted on - 08 November, 2024</span>
                         </div>
                     </div>
 
@@ -735,7 +739,25 @@ estate an investment, best city to invest in real estate in india" />
 
                     <h3>Top Real Estate Projects from Elan Group </h3>
 
+                    <div class="property-container">
+                        <?php
 
+                        $paras = array_filter($properties, function ($item) {
+                            $pattern = '/elan/i';
+
+                            $matchesLocation = preg_match($pattern, strtolower($item['name']));
+                            if ($matchesLocation) {
+                                return true;
+                            }
+
+                            return false;
+                        });
+
+                        echo renderPropertiesGrid($paras, $urlprefix);
+
+                        // print_r($properties);
+                        ?>
+                    </div>
 
 
                     <h3>Devika Group </h3>
@@ -744,7 +766,25 @@ estate an investment, best city to invest in real estate in india" />
 
                     <h3>Top Real Estate Projects from Devika Group </h3>
 
+                    <div class="property-container">
+                        <?php
 
+                        $paras = array_filter($properties, function ($item) {
+                            $pattern = '/devika/i';
+
+                            $matchesLocation = preg_match($pattern, strtolower($item['name']));
+                            if ($matchesLocation) {
+                                return true;
+                            }
+
+                            return false;
+                        });
+
+                        echo renderPropertiesGrid($paras, $urlprefix);
+
+                        // print_r($properties);
+                        ?>
+                    </div>
 
 
                     <h3>Axis Ecorp </h3>
@@ -753,7 +793,25 @@ estate an investment, best city to invest in real estate in india" />
 
                     <h3>Top Real Estate Projects from Axis ECorp </h3>
 
+                    <div class="property-container">
+                        <?php
 
+                        $paras = array_filter($properties, function ($item) {
+                            $pattern = '/axis/i';
+
+                            $matchesLocation = preg_match($pattern, strtolower($item['name']));
+                            if ($matchesLocation) {
+                                return true;
+                            }
+
+                            return false;
+                        });
+
+                        echo renderPropertiesGrid($paras, $urlprefix);
+
+                        // print_r($properties);
+                        ?>
+                    </div>
 
                     <h3>Godrej Properties </h3>
 
@@ -763,7 +821,25 @@ estate an investment, best city to invest in real estate in india" />
 
                     <h3>Top Real Estate Projects from Godrej Properties </h3>
 
+                    <div class="property-container">
+                        <?php
 
+                        $paras = array_filter($properties, function ($item) {
+                            $pattern = '/godrej/i';
+
+                            $matchesLocation = preg_match($pattern, strtolower($item['name']));
+                            if ($matchesLocation) {
+                                return true;
+                            }
+
+                            return false;
+                        });
+
+                        echo renderPropertiesGrid($paras, $urlprefix);
+
+                        // print_r($properties);
+                        ?>
+                    </div>
 
 
                     <h2>BONUS: Tips for beginners on how to invest in real estate in India </h2>
