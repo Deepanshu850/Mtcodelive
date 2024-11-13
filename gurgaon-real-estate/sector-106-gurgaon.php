@@ -5,11 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0">
 
-    <title>Sector 101 Gurgaon: Map, Property Rates, Projects, Photos, Reviews, Info</title>
 
-    <meta name="description" content="Explore prime real estate in Sector 101 Gurgaon with Moneytree Realty. Discover luxurious properties offering modern amenities for an upscale lifestyle. Start today!" />
 
-    <meta name="keywords" content="airport to sector 100 gurgaon, affordable housing sector 101 gurgaon on dwarka expressway, amusement park in gurgaon sector 101, apartments in sector 101 gurgaon, sector 101 market Gurgaon, gurgaon sector 101, sector 101 gurgaon map, sector 101 gurgaon pin code, huda market sector 101 gurgaon, pg in sector 101 gurgaon, sector 101 gurgaon nearest metro, hero honda chowk gurgaon sector 101, sector 101 sohna gurgaon, iffco chowk to sector 101 gurgaon, huda city centre to sector 101 gurgaon, pg near sector 101 gurgaon, sector 101 gurgaon nearest metro station, huda market sector 101 gurgaon, property dealers in sector 101 gurgaon, gym in sector 101 gurgaon, Rajiv Chowk to Sector 101 Gurgaon, Sohna Road to Sector 101 Gurgaon, sector 101 gurgaon distance, 2 bhk for rent in sector 101 gurgaon, property in sector 101 Gurgaon, 1 bhk flat for rent in Gurgaon sector 101, botanical garden to sector 101 gurgaon" />
+
+    <title>Sector 106 Gurgaon: Map, Property Rates, Projects, Photos, Reviews, Info</title>
+
+    <meta name="description" content="Discover luxury real estate in Sector 106, Gurgaon with Moneytree Realty. Explore modern homes, world-class amenities, and top investment options in prime locations." />
+
+    <meta name="keywords" content="paras dews sector 106 gurgaon, the plaza sector 106 gurgaon, sector 106 gurgaon pin code, godrej meridien gurgaon sector 106, sector 106 gurgaon distance, sector 106 gurgaon to huda city centre, property in sector 106 gurgaon, godrej project in sector 106 gurgaon, world trade center sector 106 gurgaon, chd golf avenue sector 106 gurgaon, godrej prive gurgaon sector 106, golf avenue sector 106 gurgaon, haryana housing board sector 106 gurgaon, wtc sector 106 gurgaon, chintels hospital in sector 106 gurgaon, luxury apartments in gurgaon sector 106, m3m project in sector 106 gurgaon, sector 106 gurgaon plots for sale, sector 106 gurgaon map, huda market sector 106 gurgaon, pg in sector 106 gurgaon, sector 106 gurgaon nearest metro, hero honda chowk gurgaon sector 106, sector 106 sohna gurgaon, iffco chowk to sector 106 gurgaon, huda city centre to sector 106 gurgaon, pg near sector 106 gurgaon, sector 106 gurgaon nearest metro station, huda market sector 106 gurgaon, property dealers in sector 106 gurgaon, gym in sector 106 gurgaon, Rajiv Chowk to Sector 106 Gurgaon, Sohna Road to Sector 106 Gurgaon, sector 106 gurgaon distance, 2 bhk for rent in sector 106 gurgaon, property in sector 106 Gurgaon, 1 bhk flat for rent in Gurgaon sector 106, botanical garden to sector 106 gurgaon" />
 
     <meta name="owner" content="Moneytreerealty.com" />
     <meta name="copyright" content="Moneytreerealty.com" />
@@ -20,90 +23,107 @@
     <meta name="audience" content="All" />
 
     <!-- Open Graph Tags -->
-    <meta property="og:title" content="Sector 101 Gurgaon: Map, Property Rates, Projects, Photos, Reviews, Info" />
-    <meta property="og:description" content="Explore prime real estate in Sector 101 Gurgaon with Moneytree Realty. Discover luxurious properties offering modern amenities for an upscale lifestyle. Start today!" />
+    <meta property="og:title" content="Sector 106 Gurgaon: Map, Property Rates, Projects, Photos, Reviews, Info" />
+    <meta property="og:description" content="Discover luxury real estate in Sector 106, Gurgaon with Moneytree Realty. Explore modern homes, world-class amenities, and top investment options in prime locations." />
     <meta property="og:site_name" content="Moneytree Realty" />
-    <meta property="og:url" content="https://moneytreerealty.com/gurgaon-real-estate/sector-101-gurgaon" />
+    <meta property="og:url" content="https://moneytreerealty.com/gurgaon-real-estate/sector-106-gurgaon" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://moneytreerealty.com/gurgaon-real-estate/assets/image/sector-101-gurgaon-banner.webp" />
+    <meta property="og:image" content="https://moneytreerealty.com/gurgaon-real-estate/assets/image/sector-106-gurgaon-banner.webp" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Sector 101 Gurgaon" />
+    <meta property="og:image:alt" content="Sector 106 Gurgaon" />
     <meta property="og:locale" content="en_IN" />
 
     <!-- Twitter-specific Tags -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Sector 101 Gurgaon: Map, Property Rates, Projects, Photos, Reviews, Info" />
-    <meta name="twitter:description" content="Explore prime real estate in Sector 101 Gurgaon with Moneytree Realty. Discover luxurious properties offering modern amenities for an upscale lifestyle. Start today!" />
-    <meta name="twitter:image" content="https://moneytreerealty.com/gurgaon-real-estate/assets/image/sector-101-gurgaon-banner.webp" />
-    <meta name="twitter:image:alt" content="Sector 101 Gurgaon" />
+    <meta name="twitter:title" content="Sector 106 Gurgaon: Map, Property Rates, Projects, Photos, Reviews, Info" />
+    <meta name="twitter:description" content="Discover luxury real estate in Sector 106, Gurgaon with Moneytree Realty. Explore modern homes, world-class amenities, and top investment options in prime locations." />
+    <meta name="twitter:image" content="https://moneytreerealty.com/gurgaon-real-estate/assets/image/sector-106-gurgaon-banner.webp" />
+    <meta name="twitter:image:alt" content="Sector 106 Gurgaon" />
 
     <!-- Pinterest-specific Tags -->
     <meta name="pinterest-rich-pin" content="true" />
 
 
-    <link rel="canonical" href="https://moneytreerealty.com/gurgaon-real-estate/sector-101-gurgaon" />
 
+
+
+    <link rel="canonical" href="https://moneytreerealty.com/gurgaon-real-estate/sector-106-gurgaon" />
 
     <script type="application/ld+json">
         {
             "@context": "https://schema.org/",
             "@type": "Product",
-            "name": "Sector 101 Gurgaon",
-            "image": "https://moneytreerealty.com/gurgaon-real-estate/assets/image/sector-101-gurgaon-banner.webp",
-            "description": "Sector 101 Gurgaon boasts a well-laid network of roadways, clean and well-maintained sidewalks, and street lights, making it relatively safe for walking and cycling. The area ensures uninterrupted access to water and power at all hours, contributing to its clean and well-maintained environment. Significant development in infrastructure has greatly enhanced the appeal of Sector 101, establishing it as a prime residential destination. The robust infrastructure supports a comfortable and convenient lifestyle, attracting families and professionals alike to this thriving locality.",
+            "name": "Sector 106 Gurgaon",
+            "image": "https://moneytreerealty.com/gurgaon-real-estate/assets/image/sector-106-gurgaon-banner.webp",
+            "description": "Sector 106 Gurgaon is a developing locality situated on the Dwarka Expressway, featuring numerous projects under construction by prominent developers such as Godrej, Paras, and CHD Developers. The sector benefits from excellent connectivity, making it a desirable location for both residential and commercial investments. Neighboring areas include Sector 103, 105, 109, and Babupur Village, offering a blend of modern amenities and strategic access to key parts of Gurgaon and the National Capital Region (NCR). With ongoing infrastructure developments and a range of housing options, Sector 106 Gurgaon is poised for significant growth and offers a promising environment for families and professionals alike.",
             "brand": {
                 "@type": "Brand",
                 "name": "Moneytree Realty"
             },
             "aggregateRating": {
                 "@type": "AggregateRating",
-                "ratingValue": "4.6",
-                "ratingCount": "2387"
+                "ratingValue": "4.7",
+                "ratingCount": "2840"
             }
         }
     </script>
-
-
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [{
                     "@type": "Question",
-                    "name": "How much time does it take to reach Starbic Business Solutions from Sector 101, Gurgaon?",
+                    "name": "What are some commercial hubs located near Sector 106?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "It takes about 16 minutes via car to reach Starbic Business Solutions from Sector 101, Gurgaon."
+                        "text": "Some prominent commercial hubs near the area are Conscient One, MGF Metropolitan Mall, DLF Cyber City, etc."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "What is the strategic location of Gurgaon Sector 101?",
+                    "name": "What is the PIN Code of Sector 106?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Sector 101, Gurgaon is strategically located near Dwarka Expressway."
+                        "text": "The PIN Code of the area is 122006."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "What is the pin code of Sector 101?",
+                    "name": "What are the popular residential projects in Sector 106?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "The pin code of Sector 101, Gurgaon is 122006."
+                        "text": "Paras Dews, Godrej Meridien, Elan The Mark, and Haryana Housing Board Projects are some prominent Residential Projects in Sector 106."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "What are some nearby localities to Sector 101, Gurgaon?",
+                    "name": "How is the connectivity of Sector 106?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Sector 102, Sector 100, Kherki Majra, Dhankot, Tikampur, Sector 103, Sector 107, and Babupur Village are some nearby localities to Sector 101, Gurgaon."
+                        "text": "Sector 106 is well-connected to other parts of Gurgaon and Delhi through major roads and highways such as Dwarka Expressway, NH-8, Sohna Road, etc."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is the average property rate in Sector 106?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The average property rate in Sector 106 is Rs 15,500-16,200 per sq ft."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which is the nearest metro station from the area?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Dwarka Sector 21 Metro station is the nearest metro station from Sector 106."
                     }
                 }
             ]
         }
     </script>
+
 
 
     <!-- Google Tag Manager 
@@ -179,19 +199,18 @@
 
         <main>
             <div class="image-wrapper">
-                <img src="./assets/image/sector-101-gurgaon-banner.webp" alt="Sector 101 Gurgaon | Moneytree Realty">
+                <img src="./assets/image/sector-106-gurgaon-banner.webp" alt="Sector 106 Gurgaon | Moneytree Realty">
             </div>
             <h1>
-                Sector 101 Gurgaon | Moneytree Realty
+                Sector 106 Gurgaon | Moneytree Realty
 
             </h1>
 
-
-            <h2>Sector 101 Gurgaon - Quick Insights </h2>
+            <h2>Sector 106 Gurgaon - Quick Insights </h2>
 
             <p>Gurgaon is a city located to the southwest of New Delhi and is often referred to as the &lsquo;Millenium City of India&rsquo;. Gurgaon is the emerging commercial and financial hub of the country and features job opportunities in an array of industries such as IT/ITeS Sector, E-Commerce, Hospitality, Real Estate Sector etc. </p>
 
-            <h2 style="text-align: justify; margin: 0; margin-block: 0 1.5rem; font-family: var(--font-open-sans); font-size: 16px; font-weight: 400; line-height: 26px; text-wrap: pretty; color: #1b1e16;">Sector 101 Gurgaon Pin code -122006</h2>
+            <h2 style="text-align: justify; margin: 0; margin-block: 0 1.5rem; font-family: var(--font-open-sans); font-size: 16px; font-weight: 400; line-height: 26px; text-wrap: pretty; color: #1b1e16;">Sector 106 Gurgaon Pin code -122006 </h2>
 
             <table class="beautiful-table">
                 <tbody>
@@ -211,52 +230,81 @@
                             <p>Dwarka Expressway</p>
                         </td>
                         <td>
-                            <p>Rs. 12, 350 per sqft. <i class="bi bi-graph-up-arrow misc-icon"></i></p>
+                            <p>₹15500-16200 per sq ft <i class="bi bi-graph-up-arrow misc-icon"></i></p>
                         </td>
                         <td>
-                            <p>23.5% Y-O-Y growth rate <i class="bi bi-graph-up-arrow misc-icon"></i></p>
+                            <p>20.5 % Y-O-Y growth rate <i class="bi bi-graph-up-arrow misc-icon"></i></p>
                         </td>
                     </tr>
                 </tbody>
             </table>
 
-            <h2>Know Everything About Sector 101 Gurgaon </h2>
+            <h2>Know Everything About Sector 106 Gurgaon </h2>
 
-            <p>Check out the details below and get better insights into Sector 101 Gurgaon:</p>
+            <p>Check out the details below and get better insights into Sector 106 Gurgaon:</p>
+
+            <h3>Overview of the locality and neighborhood </h3>
+
+            <p>Sector 106 Gurgaon is a developing locality situated on the Dwarka expressway, with numerous projects under construction by developers like Godrej, Paras and CHD Developers. Some of the neighboring areas of Sector 106 are Sector 103, 105, 109 and Babupur Village.</p>
+
+            <p>Some prominent residential projects in the area are Paras Dews, Godrej Meridien and CHD 106 Golf Avenue. Sector 106 features ample affordable housing options including spacious apartments, villas, and penthouses. The area also features a local market for the everyday needs of the residents. </p>
 
             <h3>Infrastructure Development </h3>
 
-            <p>Sector 101 Gurgaon has a well-laid network of roadways, clean and well-maintained sidewalks and street lights that it is relatively safe to walk or even ride a bicycle there. Supposed to obtain water and power at all hours of the day, the area is clean and well-maintained. It has had very good development in infrastructure and it is the well-developed infrastructure that highly contributes to the appeal of Sector 101 as a prime residential destination.</p>
+            <p>Sector 106 is connected by several major roads and highways such as Dwarka expressway, NH-8, Sohna Road, Golf Course Road,etc The Hero HondaChowk is a major Intersection that connects sector 106 to many places. </p>
 
-            <p>Sector 101 is connected to other significant locations in Gurgaon via the Babupur Main Road, Diplomatic Greens Road, Chauma Road, and Bajghera Road. Further, Sector 101 is connected through Sohna Chowk Bus Stop and even Gurgaon Railway Station. The Huda City Centre station is approximately 34 minutes away from the concerned sector. Additionally, Sector 101 is only thirty-two minutes and 22.6 km away from Indira Gandhi International Airport while Gurgaon Railway Station at a distance of 7 km. Public transportation within the sector is provided adequately by cabs, autos, and buses.</p>
+            <p>The nearest railway station to the area is The Gurgaon Railway station which is only 10 minutes away from the area and the Indira Gandhi international airport is just 30-40 minutes away from the area. </p>
 
-            <p>The direct connectivity makes it an ideal place for homebuyers as well as investors who are searching for plots available for sale and residential properties. With this abundance of roads and transport networks, Sector 101 has all the makings of a well-connected locality for people seeking ease of commute to nearby commercial centers and other parts of the city. </p>
+            <p>The nearest Metro station From Sector 106 is Dwarka Sector 21 Metro station which is about 20 minutes away from the area. The proposed metro station along the Dwarka expressway is also expected to enhance connectivity of the area. </p>
 
             <h3>Social &amp; Infra Amenities </h3>
 
-            <p>Sector 101 Gurgaon has abundant social facilities that enhance the quality of living. Facilities like gyms, markets, and easy access towards key places make staying or investing in Sector 101 easy and worthwhile. Future plans in terms of provision of social amenities ensure that the sector will have prospective growth. Sector 101 Market and an emerging Huda Market provide daily essentials for residents.</p>
+            <p>As the area is still undergoing development, there is a lack of social and infra amenities. However there are numerous facilities available in the nearby developed area such as Sector 3, 4, 5, 7 and 9, which are only 5 km away from the area. </p>
 
-            <p>Gurgaon&rsquo;s Sector 101 has a number of qualitative educational institutes along with plenty of places to unwind offering varied retail options, entertainment, and dining out, making it an ideal location for families and bachelor working professionals. Sufficient and competent medical facilities such as Sagar hospital, Shri Balaji&#39;s Multi Speciality Hospital, and KD Hospital are close by and will not leave the residents unattended during emergencies. </p>
+            <p>Educational Institutes like St. Michael&#39;s Sr. Sec. School, Euro International School, Royal Oak International School, The NorthCap University , DPG Degree College , Gurugram University, Dronacharya Government College are located in close proximity to sector 106. </p>
 
-            <p>Local markets along with quite a few restaurants can be accessed by one to cater to their daily requirements. There are quite a number of banks and ATMs which add to the convenience to the sector. Overall, Sector 101 is an attractive and well-rounded residential destination of Gurgaon due to the large number of amenities for educational, healthcare, and entertainment.</p>
+            <p>Medical centers like Chirag Hospital, Chintels Hospital, Rion&#39;s Hospital , Shivpriya holistic health hospital are also located nearby. </p>
+
+            <p>Prominent shopping centers like Gurgaon Dreamz Mall, Ansal Plaza, Conscient One, WTC Plaza, etc are located around Sector 106. </p>
 
             <h3>Proximity to major Employment Hubs </h3>
 
-            <p>Sector 101 in Gurgaon has been aptly placed near major corporate hubs, making it ideal for working professional residents. Skyview Corporate Park is at a drivable distance of 22 minutes, but boasts an array of well-planned amenities that cater to suit the needs of various industries. The second major business hub, Candor Tech Space is at a distance of 24 minutes, boasting the presence of many known corporations and the spirited professional atmosphere that it sustains.</p>
+            <p>Employment Hubs like Udyog Vihar and Cyber City are located at a distance of just 10-15 km away from the area and offer ample employment opportunities. Other corporate hubs and offices are also located nearby and can be accessed via major roads. </p>
 
-            <p>It takes only 23 minutes to get to Vatika One on One, from Gurgaon&rsquo;s Sector 101, for those commuting to it. As an integrated commercial complex, it boasts office spaces incorporated with social amenities well suited for professionals who seek an active work environment. More so, Starbic Business Solutions is located about 16 minutes from Sector 101 and cuts closer for commuters in the IT and consulting sectors, thereby increasing ease of commute.</p>
+            <p>Some companies based in this area are RBS, Bank of America, Ernst &amp; Young, Publicis Sapient, Accenture, etc. </p>
 
-            <p>Info Technology Park is another prime employment hub, 17 minutes away from sector 101 of Gurgaon housing many firms that are IT and service-oriented. They also offer direct accessibility from Sector 101, thus reducing their daily travel time and giving the professionals time to enjoy a better work-life harmony. The strategic location of Sector 101 makes the place preferable for connectivity with other main employment centers in Gurgaon.</p>
 
-            <h2>Sector 101 Gurgaon connectivity with nearby landmarks </h2>
+            <h2>Crucial Highlights of Sector 106 Gurgaon </h2>
 
-            <h3>Nearby Areas to Sector 101 Gurgaon </h3>
+            <h3>Great things about Sector 106 Gurgaon </h3>
+
+            <ul class="arrow-list">
+                <li>It is a developing sector located close to the Dwarka Expressway which allows seamless connectivity. </li>
+                <li>The locality offers affordable ready-to-move-in apartments </li>
+                <li>It is well connected to other areas because of major arterial roads such as Daulatabad Main Road and Diplomats Road.</li>
+                <li>Prominent commercial hubs are located in close proximity to the area. </li>
+                <li>The area features wide roads and ample green spaces. </li>
+                <li>Sector 106 also enjoys good water connectivity and Power supply. </li>
+            </ul>
+
+            <h3>Things that need attention in Sector 106 Gurgaon </h3>
+
+            <ul class="arrow-list">
+                <li>During the rainy season the locality faces water clogging </li>
+                <li>The roads need proper maintenance. </li>
+                <li>There is frequent traffic congestion near the DAulatabad area. </li>
+                <li>Due to construction activity and traffic the area faces air and noise pollution. </li>
+            </ul>
+
+            <h2>Sector 106 Gurgaon connectivity with nearby landmarks </h2>
+
+            <h3>Nearby Areas to Sector 106 Gurgaon </h3>
 
             <table class="beautiful-table">
                 <tbody>
                     <tr>
                         <td>
-                            <p>Sector 9, Gurgaon</p>
+                            <p>Shankar Vihar Sector 104</p>
                         </td>
                         <td>
                             <p>11 min</p>
@@ -264,23 +312,23 @@
                     </tr>
                     <tr>
                         <td>
-                            <p>Sector 9A, Gurgaon</p>
+                            <p>Shastri Nagar Industrial Area Sector 106, </p>
                         </td>
                         <td>
-                            <p>10 min</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Sector 100, Gurgaon</p>
-                        </td>
-                        <td>
-                            <p>3 min</p>
+                            <p>5 min</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Sector 102, Gurgaon</p>
+                            <p>Anand Garden</p>
+                        </td>
+                        <td>
+                            <p>11 min</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Daulatabad</p>
                         </td>
                         <td>
                             <p>6 min</p>
@@ -288,47 +336,15 @@
                     </tr>
                     <tr>
                         <td>
-                            <p>Gopalpur, Gurgaon</p>
+                            <p>Rajendra Park</p>
                         </td>
                         <td>
-                            <p>8 min</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-
-            <h3>Shopping Mall/Restaurants near to Sector 101 Gurgaon </h3>
-
-            <table class="beautiful-table">
-                <tbody>
-                    <tr>
-                        <td>
-                            <p>City Emporio</p>
-                        </td>
-                        <td>
-                            <p>18 min</p>
+                            <p>11 min</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Gurgaon Dreamz Mall</p>
-                        </td>
-                        <td>
-                            <p>15 min</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Sadar Market</p>
-                        </td>
-                        <td>
-                            <p>23 min</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>WTC Plaza</p>
+                            <p>Ratan Vihar</p>
                         </td>
                         <td>
                             <p>13 min</p>
@@ -338,69 +354,29 @@
             </table>
 
 
-            <h3>Transportation Hubs near to Sector 101 Gurgaon </h3>
+            <h3>Shopping Mall/Restaurants near to Sector 106 Gurgaon </h3>
 
             <table class="beautiful-table">
                 <tbody>
                     <tr>
                         <td>
-                            <p>Huda City Centre Metro Station</p>
+                            <p>Gurgaon Dreamz Mall</p>
                         </td>
                         <td>
-                            <p>34 min</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Sector-4 Police Station Bus Stop</p>
-                        </td>
-                        <td>
-                            <p>12 min</p>
+                            <p>25 min</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Iffco Chowk Metro Station</p>
+                            <p>Ansal Plaza</p>
                         </td>
                         <td>
-                            <p>30 min</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Gurgaon Railway Station</p>
-                        </td>
-                        <td>
-                            <p>15 min</p>
+                            <p>20 min</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Sohna Chowk Bus Stop</p>
-                        </td>
-                        <td>
-                            <p>22 min</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-
-            <h3>Educational Institutes near to Sector 101 Gurgaon </h3>
-
-            <table class="beautiful-table">
-                <tbody>
-                    <tr>
-                        <td>
-                            <p>Gyan Devi Montessori School</p>
-                        </td>
-                        <td>
-                            <p>10 min</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Greenwood Public School</p>
+                            <p>Conscient One</p>
                         </td>
                         <td>
                             <p>7 min</p>
@@ -408,112 +384,39 @@
                     </tr>
                     <tr>
                         <td>
-                            <p>Aditya Public School</p>
+                            <p>WTC Plaza</p>
                         </td>
                         <td>
-                            <p>24 min</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Shri Shiv Narayan Sidheshwar Senior Secondary Public School</p>
-                        </td>
-                        <td>
-                            <p>9 min</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-
-            <h3>Hospitals near to Sector 101 Gurgaon </h3>
-
-            <table class="beautiful-table">
-                <tbody>
-                    <tr>
-                        <td>
-                            <p>Sagar hospital</p>
-                        </td>
-                        <td>
-                            <p>8 min</p>
+                            <p>4 min</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Shri Balaji&#39;s Multi Speciality Hospital</p>
+                            <p>Kataria Complex</p>
                         </td>
                         <td>
-                            <p>7 min</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>KD Hospital</p>
-                        </td>
-                        <td>
-                            <p>10 min</p>
+                            <p>20 min</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>The Signature Hospital</p>
+                            <p>Chodari Makhan Saini Complex</p>
                         </td>
                         <td>
-                            <p>7 min</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Vibrant Hospital</p>
-                        </td>
-                        <td>
-                            <p>2 min</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <h3>Commercial Hubs near to Sector 101 Gurgaon </h3>
-
-            <table class="beautiful-table">
-                <tbody>
-                    <tr>
-                        <td>
-                            <p>Skyview Corporate Park</p>
-                        </td>
-                        <td>
-                            <p>22 min</p>
+                            <p>19 min</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Candor Tech Space</p>
+                            <p>Global Foyer Mall</p>
                         </td>
                         <td>
-                            <p>24 min</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Vatika One on One</p>
-                        </td>
-                        <td>
-                            <p>23 min</p>
+                            <p>20 min</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Starbic Business Solutions</p>
-                        </td>
-                        <td>
-                            <p>16 min</p>
-                        </td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td>
-                            <p>Info Technology Park</p>
+                            <p>Aditya Kataria Complex</p>
                         </td>
                         <td>
                             <p>17 min</p>
@@ -522,19 +425,309 @@
                 </tbody>
             </table>
 
-            <h2>Upcoming RERA Approved Projects near Sector 101 Gurgaon </h2>
+
+            <h3>Transportation Hubs near to Sector 106 Gurgaon </h3>
+
+            <table class="beautiful-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>Gurgaon Railway Station</p>
+                        </td>
+                        <td>
+                            <p>14 min</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Dwarka Sector 21 Metro Station</p>
+                        </td>
+                        <td>
+                            <p>19 min</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Yashobhoomi Dwarka Sector 25 Metro Station</p>
+                        </td>
+                        <td>
+                            <p>14 min</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Iffco Chowk Metro Station</p>
+                        </td>
+                        <td>
+                            <p>39 min</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>MG Road Metro Station</p>
+                        </td>
+                        <td>
+                            <p>38 min</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+            <h3>Educational Institutes near to Sector 106 Gurgaon </h3>
+
+            <table class="beautiful-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>Blue Bells Model School</p>
+                        </td>
+                        <td>
+                            <p>20 min</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Xion International Convent School</p>
+                        </td>
+                        <td>
+                            <p>22 min</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>St. Michaels Sr. Sec. School</p>
+                        </td>
+                        <td>
+                            <p>25 min</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Euro International School</p>
+                        </td>
+                        <td>
+                            <p>20 min</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Royal Oak International School</p>
+                        </td>
+                        <td>
+                            <p>6 min</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>The NorthCap University </p>
+                        </td>
+                        <td>
+                            <p>23 min</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>DPG Degree College </p>
+                        </td>
+                        <td>
+                            <p>28 min</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Gurugram University </p>
+                        </td>
+                        <td>
+                            <p>44 min</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Dronacharya Government College </p>
+                        </td>
+                        <td>
+                            <p>28 min</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+            <h3>Hospitals near to Sector 106 Gurgaon </h3>
+
+            <table class="beautiful-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>Chirag Hospital</p>
+                        </td>
+                        <td>
+                            <p>10 min</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Chintels Hospital</p>
+                        </td>
+                        <td>
+                            <p>16 min</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Rion&#39;s Hospital </p>
+                        </td>
+                        <td>
+                            <p>12 min</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Shivpriya holistic health hospital</p>
+                        </td>
+                        <td>
+                            <p>13 min</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>ULTRA CARE HOSPITAL AND PILES CENTER</p>
+                        </td>
+                        <td>
+                            <p>20 min</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+            <h3>Commercial Hubs near to Sector 106 Gurgaon </h3>
+
+            <table class="beautiful-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>Conscient One</p>
+                        </td>
+                        <td>
+                            <p>Gurgaon, Haryana</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Cyber City</p>
+                        </td>
+                        <td>
+                            <p>Gurgaon, Haryana</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>World Trade Center</p>
+                        </td>
+                        <td>
+                            <p>Gurgaon, Haryana</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>The Plaza</p>
+                        </td>
+                        <td>
+                            <p>Gurgaon, Haryana</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>MGF Metropolitan Mall</p>
+                        </td>
+                        <td>
+                            <p>Gurgaon, Haryana</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+            <h3>Residential Societies in Sector 106 Gurgaon </h3>
+
+            <table class="beautiful-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>Paras Dews</p>
+                        </td>
+                        <td>
+                            <p>Gurgaon, Haryana</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Godrej Meridien</p>
+                        </td>
+                        <td>
+                            <p>Gurgaon, Haryana</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>CHD Golf Avenue</p>
+                        </td>
+                        <td>
+                            <p>Gurgaon, Haryana</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Godrej Prive</p>
+                        </td>
+                        <td>
+                            <p>Gurgaon, Haryana</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Golf Avenue</p>
+                        </td>
+                        <td>
+                            <p>Gurgaon, Haryana</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Haryana Housing Board</p>
+                        </td>
+                        <td>
+                            <p>Gurgaon, Haryana</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+
+            <h2>Investment Insights in Sector 106 Gurgaon </h2>
+
+            <p>Sector 106 is strategically located near major roads and highways which provides seamless connectivity to other parts of Gurgaon as well as Delhi-NCR. The proposed metro station will further improve the connectivity of the area. Sector 106 has a well planned infrastructure along with wide roads, ample green spaces and modern facilities and amenities. </p>
+
+            <p>There are various affordable housing options in the area. And with the development of more commercial hubs the demand for the area will potentially increase, along with employment opportunities, leading to an increase in demand for residential and commercial properties, further driving the property values upwards as well as rental yields. All of these reasons make sector 106 a profitable investment option. </p>
+
+
+            <h2>Upcoming RERA Approved Projects near Sector 106 Gurgaon </h2>
 
             <p><a href="../property-in-gurgaon.php"><strong>Gurgaon Real estate</strong></a> is emerging with an array of state-of-the-art <a href="../category/commercial-property.php"><strong>commercial properties</strong></a> and <a href="../category/residential-property.php"><strong>residential properties</strong></a> from <a href="../blog/top-10-real-estate-company-in-noida.php"><strong>leading real estate developers in India</strong></a> featuring promising capital appreciation and ROI along with a wide range of amenities and facilities.</p>
 
             <p>Here, we list out the the top commercial and residential properties in Gurgaon:</p>
 
-            <h2>Commercial Property near Sector 101 Gurgaon </h2>
+
+            <h2>Commercial Property near Sector 106 Gurgaon </h2>
 
             <h3>Hot-selling commercial property in Gurgaon include:</h3>
 
             <h3>Elan Town Centre | Commercial Property in Sector 67 Gurgaon</h3>
 
-            <p>Elan Group&#39;s high-end commercial development located at Sector 67, Gurgaon, comprising high-street retail shops, office spaces, plush food court, and a PVR multiplex. Available connectivity to Sohna Road, Golf Course Extension, and Southern Peripheral Road. <a href="../propertydetail/elan-town-centre-sector-67-gurugram.php"><strong>Elan Town Centre</strong></a> is a mainly residential area that has surrounded this business and consumer hub, which really complements a very vibrant feel to the place and presents the most convenient commercial marketplace.</p>
+            <p><a href="../propertydetail/elan-town-centre-sector-67-gurugram.php"><strong>Elan Town Centre</strong></a> is a coveted project located in Sector 67 Gurgaon, Built by the Elan Group. The project features high-street retail with double-height shops, a Food Court, and a PVR Multiplex. The project is also surrounded by various luxurious residential projects and IT Companies which makes it a desirable place for businesses and investors.</p>
 
 
             <table class="beautiful-table">
@@ -593,9 +786,8 @@
 
             <h3>Elan Epic | Commercial Property in Sector 70 Gurgaon</h3>
 
-            <p>
-                <a href="../propertydetail/elan-epic-sector-70-gurugram.php"><strong>Elan Epic</strong></a> is a high-end commercial complex developed by Elan Group at Sector 73, Gurugram. Positioned on the SPR, it offers upscale retail shops, office spaces, showrooms, and entertainment facilities, as envisioned by architecture firm UHA London. The futuristic design provides hanging pods, waterfront-facing shops, and a huge atrium. It also offers such facilities that include a gaming zone, multiplexes, rooftop restaurants, and many more. It is the best commercial destination offering excellent connectivity to major roads and residential complexes.
-            </p>
+            <p><a href="../propertydetail/elan-epic-sector-70-gurugram.php"><strong>Elan Epic</strong></a> is built by the Elan Group, featuring luxury office space in Gurgaon, setting the standard of retail stores with the <strong>finest office space, studio apartments</strong> &amp; <strong>showrooms, </strong>as well as entertainment options, fine dining, and necessary amenities. The project features state-of-the-art architecture with its multiplexes on top floors and an array of <strong>rooftop restaurants</strong> and a <strong>flourishing flora all around the building</strong> setting it apart.</p>
+
 
             <table class="beautiful-table">
                 <tbody>
@@ -653,9 +845,7 @@
 
             <h3>Elan Imperial | Commercial Property in Sector 82 Gurgaon</h3>
 
-            <p>
-                <a href="../propertydetail/elan-imperial-sector-82.php"><strong>Elan Imperial</strong></a>, Sector 82, Gurugram, is a luxury commercial project from Elan Limited with retail space and food court, restaurants, hotels, and multiplexes of built-to-order architecture, wellness centers, floating sauna, and infinity rooftop pool. Strategically located, it offers smooth commuting to almost all the important locations in Gurgaon, promising a great investment with handsome capital appreciation.
-            </p>
+            <p><a href="../propertydetail/elan-imperial-sector-82.php"><strong>Elan Imperial</strong></a> is a sought-after commercial property owing to its prime location in the heart of Gurgaon featuring an array of <strong>retail shops, food courts, restaurants, hotels, and multiplex</strong>. The project has a <strong>potential high capital appreciation</strong>, and ROI, which makes it a profitable <a href="../blog/how-to-invest-in-real-estate-in-india.php"><strong>real estate investment</strong></a>.</p>
 
             <table class="beautiful-table">
                 <tbody>
@@ -711,15 +901,13 @@
             </table>
 
 
-            <h2>Residential Property near Sector 101 Gurgaon </h2>
+            <h2>Residential Property near Sector 106 Gurgaon </h2>
 
             <h3>Hot selling residential properties in Gurgaon include:</h3>
 
             <h3>Godrej Aristocrat | Residential Property in Sector 49 Gurgaon</h3>
 
-            <p>
-                <a href="../propertydetail/godrej-aristocrat-sector-49.php"><strong>Godrej Aristocrat</strong></a> is a luxurious 3 and 4 BHK located in Sector 49, Gurugram. It is the kind of modern and natural surroundings that make it truly commendable. It offers an opulent 45,000 sq. ft clubhouse, smart home feature, and some of the most sublime amenities which include a half Olympic-length pool, an organic farming space, and forest trails. Strategically placed near Sohna Road and key commercial hubs, it provides excellent connectivity to educational institutions, healthcare facilities, and retail destinations.
-            </p>
+            <p><a href="../propertydetail/godrej-aristocrat-sector-49.php"><strong>Godrej Aristocrat</strong></a> is a forest-themed residential property, surrounded by 1-acre of lush forest area featuring an array of luxurious <a href="../3-bhk-flats-in-gurgaon.php"><strong>3 BHK Apartments</strong></a> and <a href="../4-bhk-flats-in-gurgaon.php"><strong>4 BHK apartments</strong></a> in Godrej Aristocrat, allowing the residents to enjoy a luxurious life while being in touch with nature. Its strategic location allows uninterrupted connectivity which makes it convenient for the residents to travel to and fro, amplifying comfortable living for its residents</p>
 
             <table class="beautiful-table">
                 <tbody>
@@ -779,9 +967,7 @@
 
             <h3>M3M Antalya Hills | Residential Property in Sector 79 Gurgaon</h3>
 
-            <p>
-                <a href="../propertydetail/m3m-antalya-hills-sector-79-gurugram.php"><strong>M3M Antalya Hills</strong></a> is a luxury residential development by M3M Group in Sector 79, Gurugram. This location houses specially designed 2.5 BHK and 3.5 BHK apartments that seamlessly blend modern lifestyles with the splendor of nature. With world-class amenities such as private terrace, floating sauna, and scenic pool, clubhouses, parks, and wellness spaces for health, fitness, and leisure, this project enjoys a top-of-the-line connection with NH-8, Dwarka Expressway, and IGI Airport.
-            </p>
+            <p><a href="../propertydetail/m3m-antalya-hills-sector-79-gurugram.php"><strong>M3M Antalya Hills</strong></a> is settled in the base of Aravalli Hills featuring <strong>2.5 BHK &amp; 3.5 BHK Luxury Residence Properties </strong>With a personal <strong>basement available with each flat, </strong>with an array of ample health and wellness amenities like a swimming pool, kids play area, spa, jogging track, tennis court, spa, pet park, etc. The property is also well-connected to all major hotspots and provides easy and smooth connectivity with NH-8, making it a prime residential project.</p>
 
             <table class="beautiful-table">
                 <tbody>
@@ -839,7 +1025,7 @@
 
             <h3>M3M Altitude | Residential Property in Sector 65 Gurgaon</h3>
 
-            <p><a href="../propertydetail/m3m-altitude-sector-65.php"><strong>M3M Altitude</strong></a>, Sector 65 Gurugram is an ultra-luxury residential offering 3 and 4 BHK apartments. The project has been conceptualized with modern architecture by UHA, London. These apartments are equipped with VRV/VRF air conditioners and modular kitchen facilities with European-style cabinetry. This iconic skyscraper will offer panoramic views of the city, a sky clubhouse, resort-style pool, and other state-of-the-art amenities. Strategically located to provide easy connectivity to all major hubs like NH-8, IGI Airport, and Golf Course Road Extension. It is the ideal place to opt for everyone wanting the high life.</p>
+            <p>This residential property is situated in the heart of Gurugram, featuring state-of-the-art luxurious residential properties with 3 BHK Apartments, and 4 BHK Apartments equipped with <strong>VRV/VRF ACs</strong> in bedrooms and living room and a modular kitchen with European-styled cabinetry and floor-to-ceiling windows for a peaceful living.</p>
 
 
             <table class="beautiful-table">
@@ -898,7 +1084,7 @@
 
             <h3>M3M Mansion | Residential Property in Sector 113 Gurgaon</h3>
 
-            <p><a href="../propertydetail/m3m-mansion-sector-113.php"><strong>M3M Mansion</strong></a> is a luxury residential project along the Dwarka Expressway in Sector 113, Gurugram, comprising work-in-progress luxury 3.5 and 4.5 BHK apartments and penthouses. With modern luxury and utmost amenities like a fitness center, community spaces, high-speed elevators, and high oxygen-releasing trees, this upscale project has all the strategic proximity to any major landmark: both IGI Airport and Diplomatic Enclave II.</p>
+            <p><a href="../propertydetail/m3m-mansion-sector-113.php"><strong>M3M Mansion</strong></a> is a luxurious residential property in Gurgaon developed by <strong>M3M Group</strong>. Major landmarks like IGI Airport, Yashobhoomi, Diplomatic Enclave II, International Sports Complex, and Delhi Golf Club II surround the project. The project makes for a lucrative investment option owing to its <strong>seamless connectivity</strong> to numerous iconic landmarks.</p>
 
 
             <table class="beautiful-table">
@@ -959,7 +1145,8 @@
 
             <h3>Paras Quartier | Residential Property in Sector 2 Gurgaon</h3>
 
-            <p><a href="../propertydetail/paras-quartier.php"><strong>Paras Quartier</strong></a>, located in Sector 2, Gurugram, offers the majesty of panoramic views of the Aravali Valley with luxurious 4 BHK apartments. It comprises high-class facilities such as personal elevator access, business center, rooftop infinity pool, and state-of-the-art clubhouse, coupled with strategically being poised near the Gurgaon-Faridabad Expressway, which guarantees seamless connectivity to South Delhi, Gurugram and Faridabad.</p>
+            <p><a href="../propertydetail/paras-quartier.php"><strong>Paras Quartier</strong></a> is a ready-to-move-in residential property comprised of 1 Iconic Tower and 2 Condominium Towers offering an array of <strong>amenities and facilities</strong> like concierge service, private elevator access, a state-of-the-art business center, and a rooftop infinity lap pool. The property is surrounded by the <strong>lush green Aravali Valley </strong>features a panoramic view of the valley and offers seamless connectivity with South Delhi, Gurugram, and Faridabad making it a promising real estate investment in India.</p>
+
 
             <table class="beautiful-table">
                 <tbody>
@@ -1017,7 +1204,7 @@
 
             <h3>Krisumi Waterfall Residences | Residential Property in Sector 36A Gurgaon</h3>
 
-            <p><a href="../propertydetail/krisumi-waterfall-residences-sector-36a-gurgaon.php"><strong>Krisumi Waterfall Residences</strong></a>s in Sector 36A, Gurgaon, offers Japanese-inspired luxurious apartments with 2 and 3 BHK options. The property located on the Dwarka Expressway, boasts state-of-the art amenities, the clubhouse of 1.60 lakh sq ft, and is surrounded by 220 acres of greens away from the chaos of city life. It has been developed by Krisumi Corporation, a joint venture between Krishna Group and Sumitomo Corporation of Japan - a perfect blend of Indian hospitality and Japanese craftsmanship. This project ensures hassle-free connectivity to the important destinations such as Cyber Hub 2, NH-48, and IGI Airport.</p>
+            <p><a href="../propertydetail/krisumi-waterfall-residences-sector-36a-gurgaon.php"><strong>Krisumi Waterfall Residences</strong></a> is a residential property inspired by Japanese craftsmanship and a range of amenities and luxurious facilities for its residents. Its strategic location allows seamless connectivity, which makes it a prime residential location.</p>
 
 
             <table class="beautiful-table">
@@ -1073,9 +1260,11 @@
                 </tbody>
             </table>
 
-            <h2>Map of Sector 101 Gurgaon</h2>
+
+
+            <h2>Map of Sector 106 Gurgaon</h2>
             <div style="text-decoration:none; overflow:hidden;max-width:100%;height:500px;">
-                <div id="canvas-for-googlemap" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=sector+101+gurgaon&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class=" embed-ded-maphtml" href="https://www.bootstrapskins.com/themes" id="make-map-infor-mation">premium bootstrap themes</a>
+                <div id="canvas-for-googlemap" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=sector+106+gurgaon&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class=" embed-ded-maphtml" href="https://www.bootstrapskins.com/themes" id="make-map-infor-mation">premium bootstrap themes</a>
 
             </div>
 
@@ -1127,29 +1316,36 @@
             <h2>Frequently asked questions</h2>
 
 
+
             <section class="questions">
-                <h2>How much time does it take to reach Starbic Business Solutions from Sector 101, Gurgaon?</h2>
-                <p>It takes about 16 minutes via car to reach Starbic Business Solutions from Sector 101, Gurgaon.</p>
+                <h2>What are some commercial hubs located near Sector 106?</h2>
+                <p>Some prominent commercial hubs near the area are Conscient One, MGF Metropolitan Mall, DLF Cyber City, etc.</p>
             </section>
 
             <section class="questions">
-                <h2>What is the strategic location of Gurgaon Sector 101?</h2>
-                <p>Sector 101, Gurgaon is strategically located near Dwarka Expressway.</p>
+                <h2>What is the PIN Code of Sector 106?</h2>
+                <p>The PIN Code of the area is 122006.</p>
             </section>
 
             <section class="questions">
-                <h2>What is the pin code of Sector 101?</h2>
-                <p>The pin code of Sector 101, Gurgaon is 122006.</p>
+                <h2>What are the popular residential projects in Sector 106?</h2>
+                <p>Paras Dews, Godrej Meridien, Elan The Mark, and Haryana Housing Board Projects are some prominent Residential Projects in Sector 106.</p>
             </section>
 
             <section class="questions">
-                <h2>What are some nearby localities to Sector 101, Gurgaon?</h2>
-                <p>Sector 102, Sector 100, Kherki Majra, Dhankot, Tikampur, Sector 103, Sector 107, and Babupur Village are some nearby localities to Sector 101, Gurgaon.</p>
+                <h2>How is the connectivity of Sector 106?</h2>
+                <p>Sector 106 is well-connected to other parts of Gurgaon and Delhi through major roads and highways such as Dwarka Expressway, NH-8, Sohna Road, etc.</p>
             </section>
 
+            <section class="questions">
+                <h2>What is the average property rate in Sector 106?</h2>
+                <p>The average property rate in Sector 106 is Rs 15,500-16,200 per sq ft.</p>
+            </section>
 
-
-
+            <section class="questions">
+                <h2>Which is the nearest metro station from the area?</h2>
+                <p>Dwarka Sector 21 Metro station is the nearest metro station from Sector 106.</p>
+            </section>
 
 
 
@@ -1170,12 +1366,12 @@
                 <p class="wp-block-tag-cloud">
 
 
-                    <a href="./sector-101-gurgaon">Airport To Sector 100 Gurgaon</a>
-                    <a href="./sector-101-gurgaon">Affordable Housing Sector 101 Gurgaon On Dwarka Expressway</a>
-                    <a href="./sector-101-gurgaon">Amusement Park In Gurgaon Sector 101</a>
+                    <a href="./sector-106-gurgaon">Paras Dews Sector 106 Gurgaon</a>
+                    <a href="./sector-106-gurgaon">The Plaza Sector 106 Gurgaon</a>
+                    <a href="./sector-106-gurgaon">Sector 106 Gurgaon Pin Code</a>
+                    <a href="./sector-106-gurgaon">Godrej Meridien Gurgaon Sector 106</a>
                     <a href="../blog/real-estate-investment-a-comprehensive-guide-on-real-estate">Real Estate Investment</a>
                     <a href="../contact">Property Management</a>
-                    <a href="../category/residential-property">Residential Real Estate</a>
                     <a href="../category/residential-property">Residential Real Estate</a>
                     <a href="../property-dealers-in-gurgaon">Real Estate Deals</a>
                     <a href="../real-estate-advisor-and-property-consulting-firm-in-india">Property Advice</a>
@@ -1195,12 +1391,12 @@
             <h6>Similar Tags:</h6>
             <ul class="tags">
 
-                <li><a href="./sector-101-gurgaon">Airport To Sector 100 Gurgaon</a></li>
-                <li><a href="./sector-101-gurgaon">Affordable Housing Sector 101 Gurgaon On Dwarka Expressway</a></li>
-                <li><a href="./sector-101-gurgaon">Amusement Park In Gurgaon Sector 101</a></li>
+                <li><a href="./sector-106-gurgaon">Paras Dews Sector 106 Gurgaon</a></li>
+                <li><a href="./sector-106-gurgaon">The Plaza Sector 106 Gurgaon</a></li>
+                <li><a href="./sector-106-gurgaon">Sector 106 Gurgaon Pin Code</a></li>
+                <li><a href="./sector-106-gurgaon">Godrej Meridien Gurgaon Sector 106</a></li>
                 <li><a href="../blog/real-estate-investment-a-comprehensive-guide-on-real-estate">Real Estate Investment</a></li>
                 <li><a href="../contact">Property Management</a></li>
-                <li><a href="../category/residential-property">Residential Real Estate</a></li>
                 <li><a href="../category/residential-property">Residential Real Estate</a></li>
                 <li><a href="../property-dealers-in-gurgaon">Real Estate Deals</a></li>
                 <li><a href="../real-estate-advisor-and-property-consulting-firm-in-india">Property Advice</a></li>

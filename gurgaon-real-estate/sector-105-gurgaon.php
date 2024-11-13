@@ -5,11 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0">
 
-    <title>Sector 101 Gurgaon: Map, Property Rates, Projects, Photos, Reviews, Info</title>
 
-    <meta name="description" content="Explore prime real estate in Sector 101 Gurgaon with Moneytree Realty. Discover luxurious properties offering modern amenities for an upscale lifestyle. Start today!" />
 
-    <meta name="keywords" content="airport to sector 100 gurgaon, affordable housing sector 101 gurgaon on dwarka expressway, amusement park in gurgaon sector 101, apartments in sector 101 gurgaon, sector 101 market Gurgaon, gurgaon sector 101, sector 101 gurgaon map, sector 101 gurgaon pin code, huda market sector 101 gurgaon, pg in sector 101 gurgaon, sector 101 gurgaon nearest metro, hero honda chowk gurgaon sector 101, sector 101 sohna gurgaon, iffco chowk to sector 101 gurgaon, huda city centre to sector 101 gurgaon, pg near sector 101 gurgaon, sector 101 gurgaon nearest metro station, huda market sector 101 gurgaon, property dealers in sector 101 gurgaon, gym in sector 101 gurgaon, Rajiv Chowk to Sector 101 Gurgaon, Sohna Road to Sector 101 Gurgaon, sector 101 gurgaon distance, 2 bhk for rent in sector 101 gurgaon, property in sector 101 Gurgaon, 1 bhk flat for rent in Gurgaon sector 101, botanical garden to sector 101 gurgaon" />
+
+    <title>Sector 105 Gurgaon: Map, Property Rates, Projects, Photos, Reviews, Info</title>
+
+    <meta name="description" content="Explore premium real estate in Sector 105, Gurgaon with Moneytree Realty. Discover luxury homes, modern amenities, and prime locations for investment opportunities." />
+
+    <meta name="keywords" content="rajendra park sector 105 gurgaon, ats sector 105 gurgaon, sector 105 gurgaon to huda city centre, rajendra park sector 105 gurgaon pin code, uphaar homes sector 105 gurgaon, 105 sector gurgaon to dwarka delhi distance, 2 bhk flat in rajendra park gurgaon sector 105, cake shop rajendra park sector 105 gurgaon, golf course road to sector 105 gurgaon, sagar homes sector 105 gurgaon, sbi branch near jai vihar sector 105 gurgaon, siemens test lab sector 105 gurgaon, gurgaon sector 105, sector 105 gurgaon map, sector 105 gurgaon pin code, huda market sector 105 gurgaon, pg in sector 105 gurgaon, sector 105 gurgaon nearest metro, hero honda chowk gurgaon sector 105, sector 105 sohna gurgaon, iffco chowk to sector 105 gurgaon, huda city centre to sector 105 gurgaon, pg near sector 105 gurgaon, sector 105 gurgaon nearest metro station, huda market sector 105 gurgaon, property dealers in sector 105 gurgaon, gym in sector 105 gurgaon, Rajiv Chowk to Sector 105 Gurgaon, Sohna Road to Sector 105 Gurgaon, sector 105 gurgaon distance, 2 bhk for rent in sector 105 gurgaon, property in sector 105 Gurgaon, 1 bhk flat for rent in Gurgaon sector 105, botanical garden to sector 105 gurgaon" />
 
     <meta name="owner" content="Moneytreerealty.com" />
     <meta name="copyright" content="Moneytreerealty.com" />
@@ -20,90 +23,91 @@
     <meta name="audience" content="All" />
 
     <!-- Open Graph Tags -->
-    <meta property="og:title" content="Sector 101 Gurgaon: Map, Property Rates, Projects, Photos, Reviews, Info" />
-    <meta property="og:description" content="Explore prime real estate in Sector 101 Gurgaon with Moneytree Realty. Discover luxurious properties offering modern amenities for an upscale lifestyle. Start today!" />
+    <meta property="og:title" content="Sector 105 Gurgaon: Map, Property Rates, Projects, Photos, Reviews, Info" />
+    <meta property="og:description" content="Explore premium real estate in Sector 105, Gurgaon with Moneytree Realty. Discover luxury homes, modern amenities, and prime locations for investment opportunities." />
     <meta property="og:site_name" content="Moneytree Realty" />
-    <meta property="og:url" content="https://moneytreerealty.com/gurgaon-real-estate/sector-101-gurgaon" />
+    <meta property="og:url" content="https://moneytreerealty.com/gurgaon-real-estate/sector-105-gurgaon" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://moneytreerealty.com/gurgaon-real-estate/assets/image/sector-101-gurgaon-banner.webp" />
+    <meta property="og:image" content="https://moneytreerealty.com/gurgaon-real-estate/assets/image/sector-105-gurgaon-banner.webp" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Sector 101 Gurgaon" />
+    <meta property="og:image:alt" content="Sector 105 Gurgaon" />
     <meta property="og:locale" content="en_IN" />
 
     <!-- Twitter-specific Tags -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Sector 101 Gurgaon: Map, Property Rates, Projects, Photos, Reviews, Info" />
-    <meta name="twitter:description" content="Explore prime real estate in Sector 101 Gurgaon with Moneytree Realty. Discover luxurious properties offering modern amenities for an upscale lifestyle. Start today!" />
-    <meta name="twitter:image" content="https://moneytreerealty.com/gurgaon-real-estate/assets/image/sector-101-gurgaon-banner.webp" />
-    <meta name="twitter:image:alt" content="Sector 101 Gurgaon" />
+    <meta name="twitter:title" content="Sector 105 Gurgaon: Map, Property Rates, Projects, Photos, Reviews, Info" />
+    <meta name="twitter:description" content="Explore premium real estate in Sector 105, Gurgaon with Moneytree Realty. Discover luxury homes, modern amenities, and prime locations for investment opportunities." />
+    <meta name="twitter:image" content="https://moneytreerealty.com/gurgaon-real-estate/assets/image/sector-105-gurgaon-banner.webp" />
+    <meta name="twitter:image:alt" content="Sector 105 Gurgaon" />
 
     <!-- Pinterest-specific Tags -->
     <meta name="pinterest-rich-pin" content="true" />
 
 
-    <link rel="canonical" href="https://moneytreerealty.com/gurgaon-real-estate/sector-101-gurgaon" />
 
+
+
+    <link rel="canonical" href="https://moneytreerealty.com/gurgaon-real-estate/sector-105-gurgaon" />
 
     <script type="application/ld+json">
         {
             "@context": "https://schema.org/",
             "@type": "Product",
-            "name": "Sector 101 Gurgaon",
-            "image": "https://moneytreerealty.com/gurgaon-real-estate/assets/image/sector-101-gurgaon-banner.webp",
-            "description": "Sector 101 Gurgaon boasts a well-laid network of roadways, clean and well-maintained sidewalks, and street lights, making it relatively safe for walking and cycling. The area ensures uninterrupted access to water and power at all hours, contributing to its clean and well-maintained environment. Significant development in infrastructure has greatly enhanced the appeal of Sector 101, establishing it as a prime residential destination. The robust infrastructure supports a comfortable and convenient lifestyle, attracting families and professionals alike to this thriving locality.",
+            "name": "Sector 105 Gurgaon",
+            "image": "https://moneytreerealty.com/gurgaon-real-estate/assets/image/sector-105-gurgaon-banner.webp",
+            "description": "Sector 105 Gurgaon is an affordable, rapidly developing residential area offering excellent connectivity and natural surroundings. The sector is well-connected via Dwarka Expressway and NH8, providing an enticing proposition for daily commuters traveling to Delhi and other parts of the National Capital Region (NCR). Adjacent to Rajendra Park, Sector 105 offers a variety of property options, currently featuring over 70 properties available for sale along with numerous rental alternatives in the real estate market. The area combines affordable housing with modern amenities, making it a popular choice for families and professionals seeking a balanced and comfortable living environment.",
             "brand": {
                 "@type": "Brand",
                 "name": "Moneytree Realty"
             },
             "aggregateRating": {
                 "@type": "AggregateRating",
-                "ratingValue": "4.6",
-                "ratingCount": "2387"
+                "ratingValue": "4.3",
+                "ratingCount": "2450"
             }
         }
     </script>
-
-
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [{
                     "@type": "Question",
-                    "name": "How much time does it take to reach Starbic Business Solutions from Sector 101, Gurgaon?",
+                    "name": "What are the primary residential options (apartments, villas, or builder floors) available in Sector 105, and how do they compare in price and amenities?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "It takes about 16 minutes via car to reach Starbic Business Solutions from Sector 101, Gurgaon."
+                        "text": "The Sector 105 provides a mix of apartments and builder floors, which are sold at varied prices depending on the amenities available in the project and proximity to the main roads."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "What is the strategic location of Gurgaon Sector 101?",
+                    "name": "How many properties are available for sale in Sector 105?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Sector 101, Gurgaon is strategically located near Dwarka Expressway."
+                        "text": "Gurgaon’s Sector 105 is well-connected and has many residential properties. Currently, there are 30+ properties for sale in Sector 105."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "What is the pin code of Sector 101?",
+                    "name": "Are there any ongoing or planned infrastructure developments that might impact property values in this sector?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "The pin code of Sector 101, Gurgaon is 122006."
+                        "text": "Yes, the property prices in Sector 105 are expected to spike shortly with the addition of infrastructural projects, including road expansions."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "What are some nearby localities to Sector 101, Gurgaon?",
+                    "name": "What is the security situation in Sector 105?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Sector 102, Sector 100, Kherki Majra, Dhankot, Tikampur, Sector 103, Sector 107, and Babupur Village are some nearby localities to Sector 101, Gurgaon."
+                        "text": "Security is of decent standard, with quite a number of gated towns offering extra safety features for its residents."
                     }
                 }
             ]
         }
     </script>
+
 
 
     <!-- Google Tag Manager 
@@ -179,19 +183,19 @@
 
         <main>
             <div class="image-wrapper">
-                <img src="./assets/image/sector-101-gurgaon-banner.webp" alt="Sector 101 Gurgaon | Moneytree Realty">
+                <img src="./assets/image/sector-105-gurgaon-banner.webp" alt="Sector 105 Gurgaon | Moneytree Realty">
             </div>
             <h1>
-                Sector 101 Gurgaon | Moneytree Realty
+                Sector 105 Gurgaon | Moneytree Realty
 
             </h1>
 
 
-            <h2>Sector 101 Gurgaon - Quick Insights </h2>
+            <h2>Sector 105 Gurgaon - Quick Insights </h2>
 
             <p>Gurgaon is a city located to the southwest of New Delhi and is often referred to as the &lsquo;Millenium City of India&rsquo;. Gurgaon is the emerging commercial and financial hub of the country and features job opportunities in an array of industries such as IT/ITeS Sector, E-Commerce, Hospitality, Real Estate Sector etc. </p>
 
-            <h2 style="text-align: justify; margin: 0; margin-block: 0 1.5rem; font-family: var(--font-open-sans); font-size: 16px; font-weight: 400; line-height: 26px; text-wrap: pretty; color: #1b1e16;">Sector 101 Gurgaon Pin code -122006</h2>
+            <p style="text-align: justify; margin: 0; margin-block: 0 1.5rem; font-family: var(--font-open-sans); font-size: 16px; font-weight: 400; line-height: 26px; text-wrap: pretty; color: #1b1e16;">Sector 105 Gurgaon Pin code -122001 </p>
 
             <table class="beautiful-table">
                 <tbody>
@@ -211,68 +215,92 @@
                             <p>Dwarka Expressway</p>
                         </td>
                         <td>
-                            <p>Rs. 12, 350 per sqft. <i class="bi bi-graph-up-arrow misc-icon"></i></p>
+                            <p>Rs. 8, 565 per sqft. <i class="bi bi-graph-up-arrow misc-icon"></i></p>
                         </td>
                         <td>
-                            <p>23.5% Y-O-Y growth rate <i class="bi bi-graph-up-arrow misc-icon"></i></p>
+                            <p>25.52% Y-O-Y growth rate <i class="bi bi-graph-up-arrow misc-icon"></i></p>
                         </td>
                     </tr>
                 </tbody>
             </table>
 
-            <h2>Know Everything About Sector 101 Gurgaon </h2>
+            <h2>Know Everything About Sector 105 Gurgaon </h2>
 
-            <p>Check out the details below and get better insights into Sector 101 Gurgaon:</p>
+            <p>Check out the details below and get better insights into Sector 105 Gurgaon :</p>
+
+            <h3>Overview of the locality and neighborhood </h3>
+
+            <p>Sector 105 Gurgaon is an affordable rapidly developing residential area with good connectivity and natural surroundings. Dwarka Expressway and NH8 connect the sector with Delhi providing a quite enticing proposition to those traveling on a daily basis. Sector 105 of Gurgaon is adjacent to Rajendra Park offering varied property options, currently having over 70 properties available for sale along with many other alternatives for rentals in the real estate market.</p>
+
+            <p>Moreover, Sector 105 offers special natural ambience amidst modern urban amenities credited to the side of River Sahibi, a few kilometers away from the Jainpur forest and bird sanctuaries. This conjunction of nature and infrastructure further facilitates easy access to educational institutions, medical facilities and play spaces making Sector 105 of Gurgaon, a picture-perfect area for families to reside.</p>
+
+            <p>The local residents of sector 105 have rated connectivity and safety aspects of the locality 4/5 and 3.9/5, respectively, which indicates a well-rounded infrastructure. Given the fact that all the essential services and the airport are nearby, Sector 105 attracts many residents who want a well-balanced and accessible lifestyle in Gurgaon.</p>
 
             <h3>Infrastructure Development </h3>
 
-            <p>Sector 101 Gurgaon has a well-laid network of roadways, clean and well-maintained sidewalks and street lights that it is relatively safe to walk or even ride a bicycle there. Supposed to obtain water and power at all hours of the day, the area is clean and well-maintained. It has had very good development in infrastructure and it is the well-developed infrastructure that highly contributes to the appeal of Sector 101 as a prime residential destination.</p>
+            <p>Sector 105 Gurgaon has a well-laid network of roadways, clean and well-maintained sidewalks and street lights that make it relatively safe to walk or for childrens to ride a bicycle there. The sector has water and power supply at all hours of the day, the area is clean and well-maintained. It has had very good development in infrastructure and it is the well-developed infrastructure that highly contributes to the appeal of Gurgaon&rsquo;s Sector 105 as a prime residential destination. </p>
 
-            <p>Sector 101 is connected to other significant locations in Gurgaon via the Babupur Main Road, Diplomatic Greens Road, Chauma Road, and Bajghera Road. Further, Sector 101 is connected through Sohna Chowk Bus Stop and even Gurgaon Railway Station. The Huda City Centre station is approximately 34 minutes away from the concerned sector. Additionally, Sector 101 is only thirty-two minutes and 22.6 km away from Indira Gandhi International Airport while Gurgaon Railway Station at a distance of 7 km. Public transportation within the sector is provided adequately by cabs, autos, and buses.</p>
+            <p>Sector 105 is connected to other significant locations in Gurgaon. All major roads, such as the Dwarka Expressway and Chauma Road, offer excellent connectivity and hassle-free journeys across every nook and corner of the city. Gurgaon Railway Station is at about 2.4 km from here, while Palam Vihar Railway Station will be in the vicinity, making intercity routes travel easy for commuters. The Delhi-Gurgaon Expressway connects Indira Gandhi International Airport, IGI, which is about 21 km from here. Dwarka Sector 21 Metro Station is approximately 11 km north and MG Road Metro Station is around 10 km east of DMRC&#39;s Yellow Line.Public transportation within the sector is provided adequately by cabs, autos, and buses.</p>
 
-            <p>The direct connectivity makes it an ideal place for homebuyers as well as investors who are searching for plots available for sale and residential properties. With this abundance of roads and transport networks, Sector 101 has all the makings of a well-connected locality for people seeking ease of commute to nearby commercial centers and other parts of the city. </p>
+            <p>The direct connectivity makes it an ideal place for homebuyers as well as investors who are searching for plots available for sale and residential properties. With this abundance of roads and transport networks, Sector 105 has all the makings of a well-connected locality for people seeking ease of commute to nearby commercial centers and other parts of the city. </p>
 
             <h3>Social &amp; Infra Amenities </h3>
 
-            <p>Sector 101 Gurgaon has abundant social facilities that enhance the quality of living. Facilities like gyms, markets, and easy access towards key places make staying or investing in Sector 101 easy and worthwhile. Future plans in terms of provision of social amenities ensure that the sector will have prospective growth. Sector 101 Market and an emerging Huda Market provide daily essentials for residents.</p>
+            <p>Sector 105 in Gurgaon is well-rounded in terms of social infrastructure, where most vital facilities are all within each other&#39;s arm&#39;s length. Facilities like gyms, markets, and easy access towards key places make staying or investing in Sector 105 worthwhile. Future plans in terms of provision of social amenities ensure that the sector will have prospective growth. </p>
 
-            <p>Gurgaon&rsquo;s Sector 101 has a number of qualitative educational institutes along with plenty of places to unwind offering varied retail options, entertainment, and dining out, making it an ideal location for families and bachelor working professionals. Sufficient and competent medical facilities such as Sagar hospital, Shri Balaji&#39;s Multi Speciality Hospital, and KD Hospital are close by and will not leave the residents unattended during emergencies. </p>
+            <p>Sector 105 of Gurgaon is known to have many good schools, such as GEMS International School, Golden Valley Public School, Wisdom Valley School, Green Field Public School, and Bal Bharti Public School, among a few others, all of which are within the range of 2-4 km. Which is a must requisite for families with kids. Health care needs are likewise well catered to, with a spate of hospitals such as Shree Krishna Hospital, Chirag Hospital, Monika Hospital, Lotus Hospital, and Columbia Asia Hospital all within striking distance of Sector 105 residents, thereby affording easy access to top-class medical facilities when needed.</p>
 
-            <p>Local markets along with quite a few restaurants can be accessed by one to cater to their daily requirements. There are quite a number of banks and ATMs which add to the convenience to the sector. Overall, Sector 101 is an attractive and well-rounded residential destination of Gurgaon due to the large number of amenities for educational, healthcare, and entertainment.</p>
+            <p>Local markets along with quite a few restaurants can be accessed by one to cater to their daily requirements. There are quite a number of banks and ATMs which add to the convenience of the residents of the sector.</p>
+
+            <p>Gurgaon&rsquo;s Sector 105 has a number of qualitative educational institutes along with plenty of places to unwind offering varied retail options, entertainment, and dining out, making it an ideal location for families and bachelor working professionals. </p>
 
             <h3>Proximity to major Employment Hubs </h3>
 
-            <p>Sector 101 in Gurgaon has been aptly placed near major corporate hubs, making it ideal for working professional residents. Skyview Corporate Park is at a drivable distance of 22 minutes, but boasts an array of well-planned amenities that cater to suit the needs of various industries. The second major business hub, Candor Tech Space is at a distance of 24 minutes, boasting the presence of many known corporations and the spirited professional atmosphere that it sustains.</p>
+            <p>Sector 105 in Gurgaon has been aptly placed near major corporate hubs, making it ideal for working professional residents. Key business hubs such as Skyview Corporate Park, Google Signature Towers, and World Tech Park can be accessed through 28-31 minutes travel time from here, hence sector 105 of Gurgaon offers easy convenience for daily commuters. Major corporate companies like Mankind Pharma, Arise BPO, and Mahindra Finance also operate out of this location, thereby adding to employment levels in the sector.</p>
 
-            <p>It takes only 23 minutes to get to Vatika One on One, from Gurgaon&rsquo;s Sector 101, for those commuting to it. As an integrated commercial complex, it boasts office spaces incorporated with social amenities well suited for professionals who seek an active work environment. More so, Starbic Business Solutions is located about 16 minutes from Sector 101 and cuts closer for commuters in the IT and consulting sectors, thereby increasing ease of commute.</p>
+            <p>Some of the other hubs which are easily accessible from Sector 105 include DLF Cyber City (13 km), Udyog Vihar (12 km), and Golf Course Road (17 km). Further, about 22 km away lies ASF Insignia SEZ that offers employment for professionals of various disciplines as it accommodates a number of business sectors. Located within the threshold of important corporate spaces, Sector 105 is a complete fit for residents who wish to use this geographical advantage for both short commutes and extensive job options</p>
 
-            <p>Info Technology Park is another prime employment hub, 17 minutes away from sector 101 of Gurgaon housing many firms that are IT and service-oriented. They also offer direct accessibility from Sector 101, thus reducing their daily travel time and giving the professionals time to enjoy a better work-life harmony. The strategic location of Sector 101 makes the place preferable for connectivity with other main employment centers in Gurgaon.</p>
+            <h2>Crucial Highlights of Sector 105 Gurgaon </h2>
 
-            <h2>Sector 101 Gurgaon connectivity with nearby landmarks </h2>
+            <h3>Great things about Sector 105 Gurgaon </h3>
 
-            <h3>Nearby Areas to Sector 101 Gurgaon </h3>
+            <ul class="arrow-list">
+                <li>Sector 105 allows access to several quality schools within just a few kilometers..</li>
+                <li>The locality consists of many nearby hospitals, thus in case of urgency or a general check-up, fast and quality medical treatments are assured.</li>
+                <li>A water supply is available that is consistent and fulfills the residential needs well without frequent shortages.</li>
+                <li>Autos and Cabs are easily available for daily commutes and trips within the city.</li>
+                <li>Electricity is absolutely reliable throughout homes and offices due to minimal power outage. </li>
+                <li> Wide and spacious roads in good condition along with ample space for car parking.</li>
+                <li>Street lights are lit all over the sector during night time ensuring safe passage through roads and pathways.</li>
+                <li> Sector 105 of Gurgaon is highly rated for safety, an assured safe zone for children, women and families.</li>
+                <li>About 20 km from Indira Gandhi International Airport through the Chauma Road</li>
+                <li>Affordable rentals and connectivity to employment hubs drive demand for rented accommodations in Sector 105 Gurgaon</li>
+            </ul>
+
+            <h3>Things that need attention in Sector 105 Gurgaon </h3>
+
+            <ul class="arrow-list">
+                <li>Sector 105 suffers from grueling traffic jams during prime time hours, mainly along stretches like Dwarka Expressway. These repeated bottlenecks increase the duration and frustration of commuters in this area. This crisis requires road capacity enhancement as well as smart traffic arrangements and carpooling to reduce overall vehicular traffic on the highways.</li>
+                <li>Many roads of Sector 105 are dotted with potholes and uneven surfaces, which makes driving here uncomfortable and slow. Timely repair and periodic maintenance of the roads would enhance safety, ease the flow of traffic, and increase the appeal of the sector.</li>
+            </ul>
+
+            <h2>Sector 105 Gurgaon connectivity with nearby landmarks </h2>
+
+            <h3>Nearby Areas to Sector 105 Gurgaon </h3>
 
             <table class="beautiful-table">
                 <tbody>
                     <tr>
                         <td>
-                            <p>Sector 9, Gurgaon</p>
+                            <p>Jay Vihar, Gurgaon</p>
                         </td>
                         <td>
-                            <p>11 min</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Sector 9A, Gurgaon</p>
-                        </td>
-                        <td>
-                            <p>10 min</p>
+                            <p>4 min</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Sector 100, Gurgaon</p>
+                            <p>Ratan Vihar, Gurgaon</p>
                         </td>
                         <td>
                             <p>3 min</p>
@@ -280,25 +308,33 @@
                     </tr>
                     <tr>
                         <td>
-                            <p>Sector 102, Gurgaon</p>
+                            <p>Anand Garden, Gurgaon</p>
                         </td>
                         <td>
-                            <p>6 min</p>
+                            <p>3 min</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Gopalpur, Gurgaon</p>
+                            <p>Ashok Vihar, Gurgaon</p>
                         </td>
                         <td>
-                            <p>8 min</p>
+                            <p>19 min</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Sector 109, Gurgaon</p>
+                        </td>
+                        <td>
+                            <p>10 min</p>
                         </td>
                     </tr>
                 </tbody>
             </table>
 
 
-            <h3>Shopping Mall/Restaurants near to Sector 101 Gurgaon </h3>
+            <h3>Shopping Mall/Restaurants near to Sector 105 Gurgaon </h3>
 
             <table class="beautiful-table">
                 <tbody>
@@ -307,7 +343,7 @@
                             <p>City Emporio</p>
                         </td>
                         <td>
-                            <p>18 min</p>
+                            <p>22 min</p>
                         </td>
                     </tr>
                     <tr>
@@ -315,15 +351,15 @@
                             <p>Gurgaon Dreamz Mall</p>
                         </td>
                         <td>
-                            <p>15 min</p>
+                            <p>18 min</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Sadar Market</p>
+                            <p>Global Foyer Mall</p>
                         </td>
                         <td>
-                            <p>23 min</p>
+                            <p>22 min</p>
                         </td>
                     </tr>
                     <tr>
@@ -331,23 +367,31 @@
                             <p>WTC Plaza</p>
                         </td>
                         <td>
-                            <p>13 min</p>
+                            <p>12 min</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Kataria Complex</p>
+                        </td>
+                        <td>
+                            <p>17 min</p>
                         </td>
                     </tr>
                 </tbody>
             </table>
 
 
-            <h3>Transportation Hubs near to Sector 101 Gurgaon </h3>
+            <h3>Transportation Hubs near to Sector 105 Gurgaon </h3>
 
             <table class="beautiful-table">
                 <tbody>
                     <tr>
                         <td>
-                            <p>Huda City Centre Metro Station</p>
+                            <p>MG Road Metro Station</p>
                         </td>
                         <td>
-                            <p>34 min</p>
+                            <p>38 min</p>
                         </td>
                     </tr>
                     <tr>
@@ -355,7 +399,7 @@
                             <p>Sector-4 Police Station Bus Stop</p>
                         </td>
                         <td>
-                            <p>12 min</p>
+                            <p>15 min</p>
                         </td>
                     </tr>
                     <tr>
@@ -363,7 +407,7 @@
                             <p>Iffco Chowk Metro Station</p>
                         </td>
                         <td>
-                            <p>30 min</p>
+                            <p>37 min</p>
                         </td>
                     </tr>
                     <tr>
@@ -371,7 +415,7 @@
                             <p>Gurgaon Railway Station</p>
                         </td>
                         <td>
-                            <p>15 min</p>
+                            <p>5 min</p>
                         </td>
                     </tr>
                     <tr>
@@ -379,101 +423,110 @@
                             <p>Sohna Chowk Bus Stop</p>
                         </td>
                         <td>
-                            <p>22 min</p>
+                            <p>25 min</p>
                         </td>
                     </tr>
                 </tbody>
             </table>
 
 
-            <h3>Educational Institutes near to Sector 101 Gurgaon </h3>
+            <h3>Educational Institutes near to Sector 105 Gurgaon </h3>
 
             <table class="beautiful-table">
                 <tbody>
                     <tr>
                         <td>
-                            <p>Gyan Devi Montessori School</p>
+                            <p>IPS High School</p>
                         </td>
                         <td>
-                            <p>10 min</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Greenwood Public School</p>
-                        </td>
-                        <td>
-                            <p>7 min</p>
+                            <p>1 min</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Aditya Public School</p>
-                        </td>
-                        <td>
-                            <p>24 min</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Shri Shiv Narayan Sidheshwar Senior Secondary Public School</p>
-                        </td>
-                        <td>
-                            <p>9 min</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-
-            <h3>Hospitals near to Sector 101 Gurgaon </h3>
-
-            <table class="beautiful-table">
-                <tbody>
-                    <tr>
-                        <td>
-                            <p>Sagar hospital</p>
-                        </td>
-                        <td>
-                            <p>8 min</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Shri Balaji&#39;s Multi Speciality Hospital</p>
-                        </td>
-                        <td>
-                            <p>7 min</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>KD Hospital</p>
-                        </td>
-                        <td>
-                            <p>10 min</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>The Signature Hospital</p>
-                        </td>
-                        <td>
-                            <p>7 min</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Vibrant Hospital</p>
+                            <p>Shiva School</p>
                         </td>
                         <td>
                             <p>2 min</p>
                         </td>
                     </tr>
+                    <tr>
+                        <td>
+                            <p>Suraj Memorial School</p>
+                        </td>
+                        <td>
+                            <p>2 min</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Green Field Public School</p>
+                        </td>
+                        <td>
+                            <p>17 min</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Royal Oak International School</p>
+                        </td>
+                        <td>
+                            <p>6 min</p>
+                        </td>
+                    </tr>
                 </tbody>
             </table>
 
-            <h3>Commercial Hubs near to Sector 101 Gurgaon </h3>
+
+            <h3>Hospitals near to Sector 105 Gurgaon </h3>
+
+            <table class="beautiful-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>Gautam Medicare Hospital</p>
+                        </td>
+                        <td>
+                            <p>3 min</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Chirag Hospital</p>
+                        </td>
+                        <td>
+                            <p>1 min</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Sarvodya Hospital</p>
+                        </td>
+                        <td>
+                            <p>14 min</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Nand Hospital</p>
+                        </td>
+                        <td>
+                            <p>2 min</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Ultra Care Hospital and Piles Centre</p>
+                        </td>
+                        <td>
+                            <p>16 min</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+            <h3>Commercial Hubs near to Sector 105 Gurgaon </h3>
 
             <table class="beautiful-table">
                 <tbody>
@@ -482,23 +535,23 @@
                             <p>Skyview Corporate Park</p>
                         </td>
                         <td>
-                            <p>22 min</p>
+                            <p>28 min</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Candor Tech Space</p>
+                            <p>Google Signature Towers </p>
                         </td>
                         <td>
-                            <p>24 min</p>
+                            <p>31 min</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Vatika One on One</p>
+                            <p>World Tech Park</p>
                         </td>
                         <td>
-                            <p>23 min</p>
+                            <p>30 min</p>
                         </td>
                     </tr>
                     <tr>
@@ -506,7 +559,7 @@
                             <p>Starbic Business Solutions</p>
                         </td>
                         <td>
-                            <p>16 min</p>
+                            <p>22 min</p>
                         </td>
                     </tr>
                 </tbody>
@@ -516,19 +569,73 @@
                             <p>Info Technology Park</p>
                         </td>
                         <td>
-                            <p>17 min</p>
+                            <p>23 min</p>
                         </td>
                     </tr>
                 </tbody>
             </table>
 
-            <h2>Upcoming RERA Approved Projects near Sector 101 Gurgaon </h2>
+
+            <h3>Residential Societies in Sector 105 Gurgaon </h3>
+
+            <table class="beautiful-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>Sai Apartments</p>
+                        </td>
+                        <td>
+                            <p>Ward No.7, Rajendra Park, Sector 105, Gurugram, Haryana 122006</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Shreeja Apartment</p>
+                        </td>
+                        <td>
+                            <p>Ward No.7, Rajendra Park, Gurgaon Rural, Gurugram, Haryana 122006</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Kaveri Apartment</p>
+                        </td>
+                        <td>
+                            <p>Plot No 76, Block G, Rajendra Park, Sector 105, Gurugram, Haryana 122006</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Bharti Vatika Apartments</p>
+                        </td>
+                        <td>
+                            <p>Plot no. 136-137, Lane Number 3, Rattan Vihar, Gurugram, Ratan Vihar, Sector 105, Gurugram, Haryana 122006</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Royal Dream Homes</p>
+                        </td>
+                        <td>
+                            <p>Gali Number 2, Rattan Vihar, Rajendra Park, Sector 105, Gurugram, Haryana 122001</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>Investment Insights in Sector 105 Gurgaon </h2>
+
+            <p>Gurgaon, Sector 105 offers affordable rental and purchase options, making it attractive for both investors and tenants. For rentals, the area has over two budget-friendly properties available under ₹21,000 per month, with popular housing societies like ATS Sanctuary 105, Sagar Homes 4, and 1000 Trees. About 38% of rentals fall in the ₹5,000 - ₹10,000 range, while 25% are in the ₹10,000 - ₹15,000 bracket, with 2 BHK units being the most common, comprising around 50% of rental listings. Additionally, 36% of rental properties are residential houses, mostly posted by individual owners.</p>
+
+            <p>For property purchases, 26% of listings are priced between ₹40-₹60 lakh, and 20% are within the ₹20-₹40 lakh range, appealing to mid-range buyers. The prevalent 3 BHK configuration accounts for 44% of properties, and multistorey apartments make up 35% of available homes. This mix of affordable rentals and mid-range purchase options makes Sector 105 a viable location for diverse investor needs.</p>
+
+            <h2>Upcoming RERA Approved Projects near Sector 105 Gurgaon </h2>
 
             <p><a href="../property-in-gurgaon.php"><strong>Gurgaon Real estate</strong></a> is emerging with an array of state-of-the-art <a href="../category/commercial-property.php"><strong>commercial properties</strong></a> and <a href="../category/residential-property.php"><strong>residential properties</strong></a> from <a href="../blog/top-10-real-estate-company-in-noida.php"><strong>leading real estate developers in India</strong></a> featuring promising capital appreciation and ROI along with a wide range of amenities and facilities.</p>
 
             <p>Here, we list out the the top commercial and residential properties in Gurgaon:</p>
 
-            <h2>Commercial Property near Sector 101 Gurgaon </h2>
+            <h2>Commercial Property near Sector 105 Gurgaon </h2>
 
             <h3>Hot-selling commercial property in Gurgaon include:</h3>
 
@@ -711,7 +818,7 @@
             </table>
 
 
-            <h2>Residential Property near Sector 101 Gurgaon </h2>
+            <h2>Residential Property near Sector 105 Gurgaon </h2>
 
             <h3>Hot selling residential properties in Gurgaon include:</h3>
 
@@ -1017,7 +1124,7 @@
 
             <h3>Krisumi Waterfall Residences | Residential Property in Sector 36A Gurgaon</h3>
 
-            <p><a href="../propertydetail/krisumi-waterfall-residences-sector-36a-gurgaon.php"><strong>Krisumi Waterfall Residences</strong></a>s in Sector 36A, Gurgaon, offers Japanese-inspired luxurious apartments with 2 and 3 BHK options. The property located on the Dwarka Expressway, boasts state-of-the art amenities, the clubhouse of 1.60 lakh sq ft, and is surrounded by 220 acres of greens away from the chaos of city life. It has been developed by Krisumi Corporation, a joint venture between Krishna Group and Sumitomo Corporation of Japan - a perfect blend of Indian hospitality and Japanese craftsmanship. This project ensures hassle-free connectivity to the important destinations such as Cyber Hub 2, NH-48, and IGI Airport.</p>
+            <p><a href="../propertydetail/krisumi-waterfall-residences-sector-36a-gurgaon.php"><strong>Krisumi Waterfall Residences</strong></a> in Sector 36A, Gurgaon, offers Japanese-inspired luxurious apartments with 2 and 3 BHK options. The property located on the Dwarka Expressway, boasts state-of-the art amenities, the clubhouse of 1.60 lakh sq ft, and is surrounded by 220 acres of greens away from the chaos of city life. It has been developed by Krisumi Corporation, a joint venture between Krishna Group and Sumitomo Corporation of Japan - a perfect blend of Indian hospitality and Japanese craftsmanship. This project ensures hassle-free connectivity to the important destinations such as Cyber Hub 2, NH-48, and IGI Airport.</p>
 
 
             <table class="beautiful-table">
@@ -1073,9 +1180,9 @@
                 </tbody>
             </table>
 
-            <h2>Map of Sector 101 Gurgaon</h2>
+            <h2>Map of Sector 105 Gurgaon</h2>
             <div style="text-decoration:none; overflow:hidden;max-width:100%;height:500px;">
-                <div id="canvas-for-googlemap" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=sector+101+gurgaon&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class=" embed-ded-maphtml" href="https://www.bootstrapskins.com/themes" id="make-map-infor-mation">premium bootstrap themes</a>
+                <div id="canvas-for-googlemap" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=sector+105+gurgaon&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class=" embed-ded-maphtml" href="https://www.bootstrapskins.com/themes" id="make-map-infor-mation">premium bootstrap themes</a>
 
             </div>
 
@@ -1128,26 +1235,24 @@
 
 
             <section class="questions">
-                <h2>How much time does it take to reach Starbic Business Solutions from Sector 101, Gurgaon?</h2>
-                <p>It takes about 16 minutes via car to reach Starbic Business Solutions from Sector 101, Gurgaon.</p>
+                <h2>What are the primary residential options (apartments, villas, or builder floors) available in Sector 105, and how do they compare in price and amenities?</h2>
+                <p>The Sector 105 provides a mix of apartments and builder floors, which are sold at varied prices depending on the amenities available in the project and proximity to the main roads.</p>
             </section>
 
             <section class="questions">
-                <h2>What is the strategic location of Gurgaon Sector 101?</h2>
-                <p>Sector 101, Gurgaon is strategically located near Dwarka Expressway.</p>
+                <h2>How many properties are available for sale in Sector 105?</h2>
+                <p>Gurgaon’s Sector 105 is well-connected and has many residential properties. Currently, there are 30+ properties for sale in Sector 105.</p>
             </section>
 
             <section class="questions">
-                <h2>What is the pin code of Sector 101?</h2>
-                <p>The pin code of Sector 101, Gurgaon is 122006.</p>
+                <h2>Are there any ongoing or planned infrastructure developments that might impact property values in this sector?</h2>
+                <p>Yes, the property prices in Sector 105 are expected to spike shortly with the addition of infrastructural projects, including road expansions.</p>
             </section>
 
             <section class="questions">
-                <h2>What are some nearby localities to Sector 101, Gurgaon?</h2>
-                <p>Sector 102, Sector 100, Kherki Majra, Dhankot, Tikampur, Sector 103, Sector 107, and Babupur Village are some nearby localities to Sector 101, Gurgaon.</p>
+                <h2>What is the security situation in Sector 105?</h2>
+                <p>Security is of decent standard, with quite a number of gated towns offering extra safety features for its residents.</p>
             </section>
-
-
 
 
 
@@ -1169,17 +1274,17 @@
 
                 <p class="wp-block-tag-cloud">
 
+                    <li><a href="./sector-105-gurgaon">Rajendra Park Sector 105 Gurgaon</a></li>
+                    <li><a href="./sector-105-gurgaon">ATS Sector 105 Gurgaon</a></li>
+                    <li><a href="./sector-105-gurgaon">Sector 105 Gurgaon to Huda City Centre</a></li>
+                    <li><a href="./sector-105-gurgaon">Rajendra Park Sector 105 Gurgaon Pin Code</a></li>
+                    <li><a href="../blog/real-estate-investment-a-comprehensive-guide-on-real-estate">Real Estate Investment</a></li>
+                    <li><a href="../contact">Property Management</a></li>
+                    <li><a href="../category/residential-property">Residential Real Estate</a></li>
+                    <li><a href="../property-dealers-in-gurgaon">Real Estate Deals</a></li>
+                    <li><a href="../real-estate-advisor-and-property-consulting-firm-in-india">Property Advice</a></li>
+                    <li><a href="../real-estate-consultant">Real Estate Consulting</a></li>
 
-                    <a href="./sector-101-gurgaon">Airport To Sector 100 Gurgaon</a>
-                    <a href="./sector-101-gurgaon">Affordable Housing Sector 101 Gurgaon On Dwarka Expressway</a>
-                    <a href="./sector-101-gurgaon">Amusement Park In Gurgaon Sector 101</a>
-                    <a href="../blog/real-estate-investment-a-comprehensive-guide-on-real-estate">Real Estate Investment</a>
-                    <a href="../contact">Property Management</a>
-                    <a href="../category/residential-property">Residential Real Estate</a>
-                    <a href="../category/residential-property">Residential Real Estate</a>
-                    <a href="../property-dealers-in-gurgaon">Real Estate Deals</a>
-                    <a href="../real-estate-advisor-and-property-consulting-firm-in-india">Property Advice</a>
-                    <a href="../real-estate-consultant">Real Estate Consulting</a>
 
 
                 </p>
@@ -1195,12 +1300,12 @@
             <h6>Similar Tags:</h6>
             <ul class="tags">
 
-                <li><a href="./sector-101-gurgaon">Airport To Sector 100 Gurgaon</a></li>
-                <li><a href="./sector-101-gurgaon">Affordable Housing Sector 101 Gurgaon On Dwarka Expressway</a></li>
-                <li><a href="./sector-101-gurgaon">Amusement Park In Gurgaon Sector 101</a></li>
+                <li><a href="./sector-105-gurgaon">Rajendra Park Sector 105 Gurgaon</a></li>
+                <li><a href="./sector-105-gurgaon">ATS Sector 105 Gurgaon</a></li>
+                <li><a href="./sector-105-gurgaon">Sector 105 Gurgaon to Huda City Centre</a></li>
+                <li><a href="./sector-105-gurgaon">Rajendra Park Sector 105 Gurgaon Pin Code</a></li>
                 <li><a href="../blog/real-estate-investment-a-comprehensive-guide-on-real-estate">Real Estate Investment</a></li>
                 <li><a href="../contact">Property Management</a></li>
-                <li><a href="../category/residential-property">Residential Real Estate</a></li>
                 <li><a href="../category/residential-property">Residential Real Estate</a></li>
                 <li><a href="../property-dealers-in-gurgaon">Real Estate Deals</a></li>
                 <li><a href="../real-estate-advisor-and-property-consulting-firm-in-india">Property Advice</a></li>
@@ -1231,5 +1336,7 @@
 
 
 </body>
+
+</html>
 
 </html>
