@@ -244,10 +244,7 @@
     <div class="search-container">
         <form method="GET" action="" class="search-form">
             <div class="form-group d-flex flex-wrap justify-content-center">
-                <h1 style="font-size: 20px;">
-                    Commercial Properties for Sale in Goa
-
-                </h1>
+                <h1 style="font-size: 20px;">Commercial Properties for Sale in Goa</h1>
                 <input type="text" class="form-control" name="search" id="exampleInputtext1" placeholder="Enter City or Property Name to search properties here" value="<?php echo isset($_GET['search']) ? htmlspecialchars($_GET['search']) : ''; ?>">
                 <button type="submit" class="black-btn">Search</button>
             </div>
@@ -255,31 +252,15 @@
     </div>
 
     <div class="property-container">
-
         <?php
         include '../data/propertydata.php';
+        include './filter-logic.php';
 
-        $properties = array_filter($properties, function ($item) {
-            $pattern = '/goa/i';
-
-            $matchesLocation = preg_match($pattern, strtolower($item['location']));
-            $isResidential = in_array('commercial', array_map('strtolower', $item['type']));
-
-            // Filter out properties that match both 'Noida' in location and 'Residential' in type
-            if ($matchesLocation && $isResidential) {
-                return true; // Exclude this property
-            }
-
-            return false; // Include this property
-        });
+        $properties = filterProperties($properties, ['goa'], ['commercial']);
 
         include '../property-grid.php';
-        // print_r($properties);
         ?>
     </div>
-
-
-
     <?php
     include './more-tags.php';
     include './footer.php';

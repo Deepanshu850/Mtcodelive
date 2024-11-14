@@ -167,46 +167,31 @@
     </div>
 
     <div class="property-container">
-
         <?php
         include '../data/propertydata.php';
+        include './filter-logic.php';
 
-        $properties = array_filter($properties, function ($item) {
-            $pattern = '/gurugram/i';
-
-            $matchesLocation = preg_match($pattern, strtolower($item['location']));
-            $isResidential = in_array('plots', array_map('strtolower', $item['type']));
-
-            // Filter out properties that match both 'Noida' in location and 'Residential' in type
-            if ($matchesLocation && $isResidential) {
-                return true; // Exclude this property
-            }
-
-            return false; // Include this property
-        });
+        $properties = filterProperties($properties, ['gurugram'], ['plots']);
 
         include '../property-grid.php';
-        // print_r($properties);
         ?>
+
     </div>
+        <?php
+        include './more-tags.php';
+        include './footer.php';
+        ?>
 
 
-
-    <?php
-    include './more-tags.php';
-    include './footer.php';
-    ?>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="../assets/js/jquery-3.7.0.min.js"></script>
-    <script src="../assets/js/swiper-bundle.min.js"></script>
-    <script src="../assets/js/slick.js"></script>
-    <script src="../assets/js/jquery.counterup.min.js"></script>
-    <script src="../assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="../assets/js/jquery.nice-select.min.js"></script>
-    <script src="../assets/js/jquery.fancybox.min.js"></script>
-    <script src="../assets/js/custom.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="../assets/js/jquery-3.7.0.min.js"></script>
+        <script src="../assets/js/swiper-bundle.min.js"></script>
+        <script src="../assets/js/slick.js"></script>
+        <script src="../assets/js/jquery.counterup.min.js"></script>
+        <script src="../assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="../assets/js/jquery.nice-select.min.js"></script>
+        <script src="../assets/js/jquery.fancybox.min.js"></script>
+        <script src="../assets/js/custom.js"></script>
 </body>
 
 </html>

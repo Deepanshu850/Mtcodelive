@@ -18,38 +18,46 @@
     <meta name="subject" content="Learn about MoneyTree Realty's mission, services, and how we can assist you in navigating the real estate market in India" />
     <meta name="audience" content="All" />
     <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Event",
-  "name": "Navratree Property mela",
-  "description": "The biggest brand in the real estate sector, MoneyTree Realty brings together Navratree Property Mela 2024 with numerous developers offering multiple commercial as well as residential projects on the auspicious Navratree Celebration on 13th & 14th April starting 10 A.M. onwards featuring divine spaces and a platter of prosperous possessions.
-This Navratree, MoneyTree Realty Expo 2024 features best residential and commercial projects from various top developers under one roof featuring spin-the-wheel to win a chance to get an iPhone, Air Fryer, 32” LED, Microwave, Smartwatch, and other attractive prizes with your purchase.
-This MoneyTree Realty Expo on Navratree offers various commercial and residential properties in Delhi/NCR curated to meet every need of an individual. Whether you are looking for your dream home or a promising investment option with a guaranteed high ROI, the highly trained professionals at MoneyTree thoroughly understand your every need and present you with an array of premium options from top real estate projects in Delhi/NCR along with attractive prizes",
-  "image": "https://moneytreerealty.com/event.jpeg",
-  "startDate": "2024-04-13T10:00",
-  "endDate": "2024-04-14T20:00",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
-  "location": [{
-    "@type": "VirtualLocation",
-    "url": ""
-  },{		
-    "@type": "Place",
-    "name": "2nd Floor, Tower B, Tapasya Corp Heights, Sector 126, Noida.",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "floor no-2, Tapasya Corp heights, subarea, Sector 126",
-      "addressLocality": "Noida",
-      "postalCode": "201303",
-      "addressCountry": "IN"
-    }
-  }],
-  "performer": {
-    "@type": "PerformingGroup",
-    "name": "Gulati Brothers"
-  }
-}
-</script>
+        {
+            "@context": "https://schema.org",
+            "@type": "Event",
+            "name": "Navratree Property mela",
+            "description": "The biggest brand in the real estate sector, MoneyTree Realty brings together Navratree Property Mela 2024 with numerous developers offering multiple commercial as well as residential projects on the auspicious Navratree Celebration on 13th & 14th April starting 10 A.M. onwards featuring divine spaces and a platter of prosperous possessions.
+            This Navratree,
+            MoneyTree Realty Expo 2024 features best residential and commercial projects from various top developers under one roof featuring spin - the - wheel to win a chance to get an iPhone,
+            Air Fryer,
+            32” LED,
+            Microwave,
+            Smartwatch,
+            and other attractive prizes with your purchase.
+            This MoneyTree Realty Expo on Navratree offers various commercial and residential properties in Delhi / NCR curated to meet every need of an individual.Whether you are looking
+            for your dream home or a promising investment option with a guaranteed high ROI,
+            the highly trained professionals at MoneyTree thoroughly understand your every need and present you with an array of premium options from top real estate projects in Delhi / NCR along with attractive prizes ",
+            "image": "https://moneytreerealty.com/event.jpeg",
+            "startDate": "2024-04-13T10:00",
+            "endDate": "2024-04-14T20:00",
+            "eventStatus": "https://schema.org/EventScheduled",
+            "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+            "location": [{
+                "@type": "VirtualLocation",
+                "url": ""
+            }, {
+                "@type": "Place",
+                "name": "2nd Floor, Tower B, Tapasya Corp Heights, Sector 126, Noida.",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "floor no-2, Tapasya Corp heights, subarea, Sector 126",
+                    "addressLocality": "Noida",
+                    "postalCode": "201303",
+                    "addressCountry": "IN"
+                }
+            }],
+            "performer": {
+                "@type": "PerformingGroup",
+                "name": "Gulati Brothers"
+            }
+        }
+    </script>
 
     <!-- Google Tag Manager -->
     <script>
@@ -83,7 +91,7 @@ This MoneyTree Realty Expo on Navratree offers various commercial and residentia
     <link href="assets/css/boxicons.min.css" rel="stylesheet">
     <link href="assets/css/nice-select.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-<link rel="canonical" href="https://moneytreerealty.com/navratree-property-mela.php" />
+    <link rel="canonical" href="https://moneytreerealty.com/navratree-property-mela.php" />
 
     <link rel="icon" href="assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
@@ -214,7 +222,7 @@ This MoneyTree Realty Expo on Navratree offers various commercial and residentia
 
 
 
- <?php
+    <?php
     include './header.php';
     ?>
 
@@ -224,7 +232,7 @@ This MoneyTree Realty Expo on Navratree offers various commercial and residentia
 
     <div class="container" style="background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-top: 20px; width: 90%;   margin-left: auto; margin-right: auto;">
 
-        <h1 style="text-align: center;"> Navratree Property Mela | MoneyTree Realty  </h1>
+        <h1 style="text-align: center;"> Navratree Property Mela | MoneyTree Realty </h1>
         <div style="text-align: center; width: 100%;">
             <img src="./event.jpeg" style="max-width:300px; margin: auto; display: block;" alt="Navratree Property Mela">
         </div>
@@ -418,13 +426,13 @@ This MoneyTree Realty Expo on Navratree offers various commercial and residentia
         </div>
 
     </div>
-    
-    
-    
-     <?php
-        include './more-tags.php';
-        include './footer.php';
-        ?>
+
+
+
+    <?php
+    include './more-tags.php';
+    include './footer.php';
+    ?>
 
 
 

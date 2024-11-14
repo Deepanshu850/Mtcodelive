@@ -535,6 +535,22 @@ $properties = [
         'rera_link' => '',
         'property' => '',
     ],
+    [
+        'id' => 34,
+        'name' => 'Elan The Presidential Sector 106 Gurgaon',
+        'location' => 'Gurugram',
+        'images' => [
+            'assets\img\projectdetails\elanpresidential1.webp',
+            'assets\img\projectdetails\elanpresidential2.webp',
+            'assets\img\projectdetails\elanpresidential3.webp',
+        ],
+        'price' => 'On Request',
+
+        'type' => ['Residential'],
+        'rera' => 'GGM/626/358/2022/101',
+        'rera_link' => 'https://haryanarera.gov.in/view_project/searchprojectDetail/2177',
+        'property' => '',
+    ],
 
 ];
 ?>

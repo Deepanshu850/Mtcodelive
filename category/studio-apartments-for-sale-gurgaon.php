@@ -165,29 +165,15 @@
     </div>
 
     <div class="property-container">
-
         <?php
         include '../data/propertydata.php';
+        include './filter-logic.php';
 
-        $properties = array_filter($properties, function ($item) {
-            $pattern = '/gurugram/i';
-
-            $matchesLocation = preg_match($pattern, strtolower($item['location']));
-            $isResidential = in_array('studio apartments', array_map('strtolower', $item['type']));
-
-            // Filter out properties that match both 'Noida' in location and 'Residential' in type
-            if ($matchesLocation && $isResidential) {
-                return true; // Exclude this property
-            }
-
-            return false; // Include this property
-        });
+        $properties = filterProperties($properties, ['gurugram'], ['Studio Apartments']);
 
         include '../property-grid.php';
-        // print_r($properties);
         ?>
     </div>
-
 
 
     <?php

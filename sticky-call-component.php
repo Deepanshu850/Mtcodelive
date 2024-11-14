@@ -83,8 +83,15 @@
 <script>
     function openForm() {
         var form = document.getElementById('slideInForm');
-        form.style.display = form.style.display === 'grid' ? 'none' : 'grid';
-        console.log('Form Opened');
+        var overlay = document.querySelector('.overlay');
+        if (form.classList.contains('active')) {
+            form.classList.remove('active');
+            overlay.classList.remove('active');
+        } else {
+            form.classList.add('active');
+            overlay.classList.add('active');
+        }
+        console.log('Form toggled');
     }
 
     window.addEventListener('resize', function() {

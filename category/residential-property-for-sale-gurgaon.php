@@ -210,45 +210,28 @@ Gurgaon, real estate investment in Gurgaon, Apartments in Gurgaon" />
 
 
     <!-- property -->
+
     <div class="search-container">
         <form method="GET" action="" class="search-form">
             <div class="form-group d-flex flex-wrap justify-content-center">
-                <h1 style="font-size: 20px;">
-                    Residential Property In Gurgaon | Real Estate in Gurgaon
-
-
-                </h1>
+                <h1 style="font-size: 20px;">Residential Property In Gurgaon | Real Estate in Gurgaon</h1>
                 <input type="text" class="form-control" name="search" id="exampleInputtext1" placeholder="Enter City or Property Name to search properties here" value="<?php echo isset($_GET['search']) ? htmlspecialchars($_GET['search']) : ''; ?>">
                 <button type="submit" class="black-btn">Search</button>
             </div>
         </form>
     </div>
 
-    <div class="property-container">
 
+    <div class="property-container">
         <?php
         include '../data/propertydata.php';
+        include './filter-logic.php';
 
-        $properties = array_filter($properties, function ($item) {
-            $pattern = '/gurugram/i';
-
-            $matchesLocation = preg_match($pattern, strtolower($item['location']));
-            $isResidential = in_array('residential', array_map('strtolower', $item['type']));
-
-            // Filter out properties that match both 'Noida' in location and 'Residential' in type
-            if ($matchesLocation && $isResidential) {
-                return true; // Exclude this property
-            }
-
-            return false; // Include this property
-        });
+        $properties = filterProperties($properties, ['gurugram'], ['residential']);
 
         include '../property-grid.php';
-        // print_r($properties);
         ?>
     </div>
-
-
 
     <div class="card-style">
         <h2>Residential Property in Gurgaon</h2>

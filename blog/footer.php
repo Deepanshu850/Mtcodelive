@@ -229,7 +229,7 @@
     }
 </style>
 
-<?php 
+<?php
 include '../sticky-call-component.php';
 ?>
 
@@ -278,7 +278,7 @@ include '../sticky-call-component.php';
                             <br />
                             <!-- <script></script> -->
                             <span>Follow us</span>
-                            <a href="https://www.facebook.com">
+                            <a href="https://www.facebook.com/moneytreerealtyofficial">
                                 <img src="../assets/img/home2/icon/facebook.svg" alt="Facebook" style="width: 24px; height: 24px;">
                             </a>
 

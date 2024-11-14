@@ -311,7 +311,7 @@
                     <li> <a href="../associated-developers" class="drop-down"> DEVELOPERS</a></li>
                     <li> <a href="../media" class="drop-down">MEDIA</a> </li>
                     <li> <a href="../calendar-tab" class="drop-down">CALENDAR </a> </li>
-                    <li> <a href="../proptree-mela" class="drop-down">Event </a> </li>
+                    <li> <a href="../event" class="drop-down">Event </a> </li>
 
                 </ul>
 

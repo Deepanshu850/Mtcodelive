@@ -1,20 +1,23 @@
 <div>
     <!-- form slide -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            setTimeout(function() {
-                var form = document.getElementById('slideInForm');
-                form.classList.add('active'); // Changed from 'slide-in' to 'active'
-            }, 0); // 10000 milliseconds = 10 seconds
-        });
-
-        function closeForm() {
-            var form = document.getElementById('slideInForm');
-            form.classList.remove('active');
-        }
-    </script>
 
     <style>
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(3px);
+            z-index: 999;
+        }
+
+        .overlay.active {
+            display: block;
+        }
+
         .no-scrollbar {
 
             scrollbar-width: none;
@@ -28,14 +31,17 @@
 
         .slide-in-form {
             position: fixed;
-            top: 14%;
-            right: -500px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
             width: 100%;
-            max-width: 350px;
+            max-width: 400px;
             background-color: #f8f9fa;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             padding: 20px;
-            transition: right 1s ease-in-out;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.5s ease-in-out, visibility 0.5s;
             z-index: 1000;
             border-radius: 5px;
             max-height: 90vh;
@@ -43,7 +49,8 @@
         }
 
         .slide-in-form.active {
-            right: 10px;
+            opacity: 1;
+            visibility: visible;
         }
 
 
@@ -114,11 +121,6 @@
             .slide-in-form {
                 width: 90%;
                 right: -100%;
-            }
-
-            .slide-in-form.active {
-                right: 5%;
-                top: 16%;
             }
 
             .slide-in-form button {
@@ -589,13 +591,29 @@
             <button type="submit">Submit</button>
         </form>
     </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const overlay = document.createElement('div');
+            overlay.className = 'overlay';
+            document.body.appendChild(overlay);
 
+            setTimeout(function() {
+                var form = document.getElementById('slideInForm');
+                form.classList.add('active');
+                overlay.classList.add('active');
+            }, 5000);
+            // change  this timer to change the time it takes for the form to slide in
+        });
+
+        function closeForm() {
+            var form = document.getElementById('slideInForm');
+            const overlay = document.querySelector('.overlay');
+            form.classList.remove('active');
+            overlay.classList.remove('active');
+        }
+    </script>
 
     <script>
-        function closeForm() {
-            document.getElementById('slideInForm').style.display = 'none';
-        }
-
         $(document).ready(function() {
             $('#propertyForm').on('submit', function(e) {
                 e.preventDefault();
@@ -645,140 +663,3 @@
 
     <!-- form slide -->
 </div>
-
-
-<!-- fake buying notification on top left -->
-<!--<style>-->
-<!--    .notification-container {-->
-<!--        position: fixed;-->
-<!--        top: 85px;-->
-<!--        left: 10px;-->
-<!--        z-index: 1000;-->
-<!--    }-->
-
-<!--    .notification {-->
-<!--        background-color: whitesmoke;-->
-<!--        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);-->
-<!--        margin-top: 10px;-->
-<!--        padding: 10px;-->
-<!--        display: flex;-->
-<!--        align-items: center;-->
-<!--        border-radius: 5px;-->
-<!--        width: 300px;-->
-<!--    }-->
-
-<!--    .notification img {-->
-<!--        width: 50px;-->
-<!--        height: 50px;-->
-<!--        border-radius: 5px;-->
-<!--        margin-right: 10px;-->
-<!--    }-->
-
-<!--    .notification p {-->
-<!--        margin: 0;-->
-<!--        font-size: 13px;-->
-<!--        line-height: 1.5;-->
-<!--    }-->
-
-<!--    .timestamp {-->
-<!--        font-style: italic;-->
-<!--        font-size: 10px;-->
-<!--    }-->
-<!--</style>-->
-<!--<div id="notifications" class="notification-container">-->
-<!-- Notification 1 -->
-<!--<div class="notification" style="display: none;">-->
-<!--    <img src="path/to/property-image1.jpg" alt="Property 1">-->
-<!--    <p>John Doe just bought a 4BHK in Manhattan. <span class="timestamp">Just now</span></p>-->
-<!--</div>-->
-<!-- Add additional notifications here -->
-<!--</div>-->
-<script>
-    //     document.addEventListener('DOMContentLoaded', function() {
-    //         setTimeout(function() {
-    //             showNotifications(0); 
-    //         }, 7000); 
-    //     });
-
-    //     const notificationContainer = document.getElementById('notifications');
-    //     const notificationSound = new Audio('./mtnoti.mp3'); 
-
-
-    // Debug: Check if the audio file is loaded
-    // notificationSound.addEventListener('canplaythrough', function() {
-    //         console.log('Notification sound is ready to play.');
-    //     }, false);
-
-    //     notificationSound.addEventListener('error', function(e) {
-    //         console.error('Error loading notification sound:', e);
-    //     }, false);
-
-    //   const properties = [{
-    //             message: "Shekhar just bought a 4 BHK in Godrej Aristocrat.",
-    //             image: "../assets/img/projectdetails/godrejaristocrat2.jpg",
-    //             time: "Just now"
-
-    //         },
-    //         {
-    //             message: "Deepak secured a cozy Home in M3M The Cullinan",
-    //             image: "../assets/img/projectdetails/m3mcullinan1.webp",
-    //             time: "5 minutes ago"
-    //         },
-    //         {
-    //             message: "Arjun purchased a retail shop in Paras Avenue.",
-    //             image: "../assets/img/projectdetails/parasavenue1.webp",
-    //             time: "10 minutes ago"
-
-    //         },
-
-    //     ];
-
-    // Function to unlock audio playback on first user interaction
-    // function unlockAudio() {
-    //     document.body.removeEventListener('click', unlockAudio);
-    //     notificationSound.play().then(() => {
-    //         console.log('Notification sound played on user interaction.');
-    //         notificationSound.pause();
-    //     }).catch(error => {
-    //         console.error('Error playing notification sound on user interaction:', error);
-    //     });
-    // }
-
-    // document.body.addEventListener('click', unlockAudio);
-
-    // function createNotification(property) {
-    //     const notification = document.createElement('div');
-    //     notification.className = 'notification';
-    //     notification.innerHTML = `
-    //     <img src="${property.image}" alt="Property">
-    //     <p>${property.message} <span class="timestamp">${property.time}</span></p>
-    // `;
-    //     return notification;
-    // }
-
-    // function showNotifications(index) {
-    //     if (index >= properties.length) return; 
-
-    //     const notification = createNotification(properties[index]);
-    //     notificationContainer.appendChild(notification);
-    //     notification.style.display = 'flex'; 
-
-    // Debug: Check if the sound plays
-    //         notificationSound.play().then(() => {
-    //             console.log('Notification sound played.');
-    //         }).catch(error => {
-    //             console.error('Error playing notification sound:', error);
-    //         });
-
-    //         setTimeout(() => {
-    //             notificationContainer.removeChild(notification);
-    //         }, 10000); 
-
-    //         setTimeout(() => {
-    //             showNotifications(index + 1); 
-    //         }, 12000); 
-    //     }
-</script>
-
-
-<!-- fake buying notification on top left -->
