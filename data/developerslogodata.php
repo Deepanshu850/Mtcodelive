@@ -24,17 +24,13 @@ $developerLogos = [
         'src' => 'assets/img/partner/img/paras-buildtech.png',
         'alt' => 'Paras Buildtech'
     ],
-    // [
-    //     'src' => 'assets/img/partner/img/supertech.png',
-    //     'alt' => 'Supertech'
-    // ],
-     [
+    [
         'src' => 'assets/img/partner/elan-golden-removebg-preview.png',
         'alt' => 'elan'
-    ], [
+    ],
+    [
         'src' => 'assets/img/partner/dlf.png',
         'alt' => 'dlf'
     ]
     // Add more developers as needed...
 ];
-?>

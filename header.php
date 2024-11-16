@@ -675,7 +675,7 @@ include "./data/blogdata.php";
 </header>
 
 
-<br>
+
 <style>
     .float {
         position: fixed;
