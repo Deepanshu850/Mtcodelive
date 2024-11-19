@@ -100,88 +100,13 @@ New Property Projects, Real Estate Developments Delhi/NCR, Upcoming Property Lau
 
 
 
-    <style>
-        .search-form {
-            width: 100%;
-            max-width: 800px;
-            /* Adjust the form width as needed */
-            margin: auto;
-            padding: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            background: #ffffff;
-        }
-
-        .form-group {
-            display: flex;
-            gap: 10px;
-            /* Spacing between input and button */
-        }
-
-        .form-control {
-            flex-grow: 1;
-            /* Allows the input to grow and fill available space */
-            padding: 10px;
-            border: 1px solid #cccccc;
-            border-radius: 4px;
-        }
-
-        .black-btn {
-            padding: 10px 20px;
-            background-color: #333;
-            color: #fff;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        .black-btn:hover {
-            background-color: #555;
-        }
-
-        @media (max-width: 768px) {
-            .form-group {
-                flex-direction: column;
-                /* Stack input and button on smaller screens */
-            }
-
-            .form-control,
-            .black-btn {
-                width: 100%;
-            }
-        }
-
-        .search-container {
-            background: #f3f3f4;
-        }
-
-        .property-container {
-            background: #f3f3f4;
-
-        }
-    </style>
-    <!-- property -->
-    <div class="search-container">
-        <form method="GET" action="" class="search-form">
-            <div class="form-group d-flex flex-wrap justify-content-center">
-                <h1 style="font-size: 20px;">Top Real Estate Property Consultant In India </h1>
-
-                <input type=" text" class="form-control" name="search" id="exampleInputtext1" placeholder="Enter City or Property Name to search properties here" value="<?php echo isset($_GET['search']) ? htmlspecialchars($_GET['search']) : ''; ?>">
-                <button type="submit" class="black-btn">Search</button>
-            </div>
-        </form>
-    </div>
-
-
-
-
 
     <div class="property-container">
 
         <?php
         include './data/propertydata.php';
 
-        $typeToFilter = isset($_GET['search']) ? $_GET['search'] : '';
+        $typeToFilter = '';
 
         $properties = array_filter($properties, function ($item) use ($typeToFilter) {
             // if (empty($typeToFilter)) {

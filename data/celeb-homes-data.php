@@ -27,6 +27,15 @@ $celebHomesData = [
             'image3.jpg'
         ]
     ],
+    [
+        'name' => 'Inside BTS Jimin’s Luxurious Home',
+        'link' => 'bts-jimin-home',
+        'images' => [
+            'bts-jimin-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
 
 
 

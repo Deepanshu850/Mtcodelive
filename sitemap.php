@@ -105,6 +105,9 @@
       <h2>
         Converters (<span class="lcount">n pages</span>)
       </h2>
+      <h2>
+        Developers (<span class="lcount">n pages</span>)
+      </h2>
     </div>
 
     <div id="list-container">
@@ -2180,6 +2183,11 @@
         </li>
       </ul>
 
+      <ul id="real-estate-developers list-7">
+        <li class="lpage">
+          <a href="https://moneytreerealty.com/real-estate-developers/ace-group" title="Explore Upcoming Real Estate Projects by ACE Group">Explore Upcoming Real Estate Projects from ACE Group</a>
+        </li>
+      </ul>
 
     </div>
   </div>
@@ -2391,7 +2399,9 @@
         "Gurgaon Sectors": "gurgaon-sectors list-3",
         "Blogs": "blogs list-4",
         "Propertydetail": "propertydetail list-5",
-        "Converters": "converters list-6"
+        "Converters": "converters list-6",
+        "Real Estate Developers": "real-estate-developers list-7"
+
       };
 
       headers.forEach(header => {

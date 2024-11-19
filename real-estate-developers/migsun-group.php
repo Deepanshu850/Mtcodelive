@@ -6,12 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>
+        Explore Migsun Group's Upcoming Real Estate Projects
 
     </title>
 
-    <meta name="description" content="">
+    <meta name="description" content="Explore the upcoming real estate projects by Migsun Group. Discover premium residential and commercial properties with modern amenities in prime locations.">
 
-    <meta name="keywords" content="" />
+    <meta name="keywords" content="Migsun Group, Real Estate Projects, Upcoming Properties, Luxury
+Living, Migsun Developments, Property Investment, New Properties, 
+Residential Projects, Commercial Real Estate, Modern Living, Smart
+Homes, Migsun Builders, Property Launch, Real Estate News, 
+Investment Opportunities, Real Estate Trends, Luxury Apartments, 
+Property Buyers, Migsun Homes, Prime Locations, Urban Living, New
+Launch, Migsun Real Estate, Real Estate 2024, Property Market, 
+Affordable Homes, Dream Homes, Migsun Properties, Real Estate
+India, Property Development, Home Buyers, Luxury Real Estate, 
+Construction News, Future Homes, Residential Investment, Real
+Estate India 2024, Property For Sale, Sustainable Living, New Real
+Estate, Smart Investment, Migsun Projects, Migsun Group India, 
+Upcoming Launch, 3 bhk flats, 4 bhk flats" />
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0" />
@@ -24,13 +37,13 @@
     <meta name="audience" content="All" />
 
 
-    <meta property="og:title" content="">
+    <meta property="og:title" content="Explore Migsun Group's Upcoming Real Estate Projects">
     <meta property="og:site_name" content="Moneytree Realty">
-    <meta property="og:url" content="https://moneytreerealty.com/real-estate-developers/primarl-realty">
-    <meta property="og:description" content="">
+    <meta property="og:url" content="https://moneytreerealty.com/real-estate-developers/migsun-group">
+    <meta property="og:description" content="Explore the upcoming real estate projects by Migsun Group. Discover premium residential and commercial properties with modern amenities in prime locations.">
     <meta property="og:type" content="property">
 
-    <link rel="canonical" href="https://moneytreerealty.com/real-estate-developers/primarl-realty" />
+    <link rel="canonical" href="https://moneytreerealty.com/real-estate-developers/migsun-group" />
 
     <script type="application/ld+json">
         {
@@ -38,32 +51,39 @@
             "@type": "FAQPage",
             "mainEntity": [{
                     "@type": "Question",
-                    "name": "What are the leading real estate companies in India?",
+                    "name": "What is Migsun Company?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "The real estate industry in India is emerging with state-of-the-art architectural infrastructure along with lucrative price appreciation and ROI. MoneyTree Realty, Paras Buildtech, M3M Group, Devika Group, Sarvottam Group, and ACE Group are the leading real estate companies in India."
+                        "text": "Migsun Group is India’s leading real estate developer with numerous commercial projects and residential projects across the nation."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "Is Piramal Mahalaxmi a good investment?",
+                    "name": "What is the new project in Migsun Lucknow?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Piramal Mahalaxmi offers 2 BHK, 3 BHK, and 4 BHK apartments in South Mumbai with state-of-the-art architecture and provides an array of world-class amenities and facilities, making it a promising real estate investment in India."
+                        "text": "Migsun Lucknow Central is the latest launch of the Migsun Group."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "Which real estate projects of Piramal Realty are available for sale below 1 Cr?",
+                    "name": "What is the possession status of Migsun Nehru Place 1?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Piramal Revanta, Piramal Mahalaxmi, and Piramal Aranya are some promising real estate projects in the catalogue of Piramal Realty available for sale under 1 Cr. These projects are strategically located and feature top-notch amenities, offering a premium and leisure living experience."
+                        "text": "The possessions for Migsun Nehru Place 1 will start by October 2028 and will offer luxurious Jet Suites at Yamuna Expressway."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which real estate projects of Migsun Group are available for sale below 1 Cr?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Migsun Nehru Place 1, Migsun Lucknow Central, and Migsun Twiinz are some promising real estate projects in the catalogue of Migsun Group available for sale under 1 Cr. These projects are strategically located and feature top-notch amenities, offering a premium and leisure living experience."
                     }
                 }
             ]
         }
     </script>
-
 
     <!-- Google Tag Manager -->
     <script>
@@ -124,16 +144,17 @@
 
         <div class="builderData">
 
-            <h1>Explore Upcoming Real Estate Projects from Piramal Realty</h1>
+            <h1>Explore Migsun Group's Upcoming Real Estate Projects</h1>
 
+            <h2>Migsun Group | An Overview </h2>
 
-            <h2>Piramal Realty | An Overview </h2>
+            <p>With a legacy of over 27 years, Migsun Group has emerged as the leading real estate builder in Northern India with an enormous portfolio of projects that offer luxury apartments, high-street shops, and other commercial spaces along with sticking to its core values of transparency, teamwork, and tenacity. The group is widely regarded for its timely delivery of state-of-the-art real estate projects and building architectural gems that present a global outlook.</p>
 
-            <p>Piramal Realty, founded in 2012, has carried forward its parent group&rsquo;s legacy of uplifting and serving each individual from across every community and has established itself as the most admired real estate builder in India diversifying the way people invest in real estate in india. The group envisioned not just profits and gains but impacting the lives of its customers, committing to the highest standard, and building trust, and culture in the market. </p>
+            <p>Migsun Group boasts a vast number of 12,000 satisfied customers and over 2 cr sq ft of area delivered and under construction and continuously strives to build magnificent, sustainable and future-ready commercial and residential properties.</p>
 
-            <p>Piramal Realty is widely regarded for its high standard and customer-centric residential and commercial projects that feature top-notch architectural design and quality. The group&#39;s expertise spans over 11 years and boasts more than 13 million sq ft of real estate under development and 5,000 happy families along with a private equity investment fund of $235 million. </p>
+            <p>Apart from the real estate industry, the group has a strong presence in education, hospitality, film production, and skill India. </p>
 
-            <h3>Key Insights into Piramal Realty </h3>
+            <h3>Key Insights into Migsun Group </h3>
 
             <table class="beautiful-table">
                 <tbody>
@@ -142,7 +163,7 @@
                             <p><strong>Founded in</strong></p>
                         </td>
                         <td>
-                            <p>2012</p>
+                            <p>1992</p>
                         </td>
                     </tr>
                     <tr>
@@ -150,7 +171,7 @@
                             <p><strong>Completed Projects</strong></p>
                         </td>
                         <td>
-                            <p>N/A</p>
+                            <p>2 Cr sq ft of area delivered</p>
                         </td>
                     </tr>
                     <tr>
@@ -158,7 +179,7 @@
                             <p><strong>On-going Projects</strong></p>
                         </td>
                         <td>
-                            <p>13 million sq ft of area under-development</p>
+                            <p>22+ On-going Projects</p>
                         </td>
                     </tr>
                     <tr>
@@ -166,9 +187,7 @@
                             <p><strong>Owner of Group</strong></p>
                         </td>
                         <td>
-                            <p>Mr Ajay Piramal, Chairman &amp; Executive Director</p>
-
-                            <p>Anand Piramal, Executive Director</p>
+                            <p>Sunil Miglani, CMD, Migsun Group</p>
                         </td>
                     </tr>
                     <tr>
@@ -176,9 +195,13 @@
                             <p><strong>Operating in Cities</strong></p>
                         </td>
                         <td>
-                            <p>Mumbai</p>
+                            <p>Greater Noida</p>
 
-                            <p>Thane</p>
+                            <p>Ghaziabad</p>
+
+                            <p>New Delhi</p>
+
+                            <p>Lucknow</p>
                         </td>
                     </tr>
                     <tr>
@@ -186,22 +209,19 @@
                             <p><strong>Official Website</strong></p>
                         </td>
                         <td>
-                            <p><a href="https://www.piramalrealty.com/">https://www.piramalrealty.com/</a></p>
+                            <p><a href="http://migsun.in/">http://migsun.in/</a></p>
                         </td>
                     </tr>
                 </tbody>
             </table>
 
-            <h3>Piramal Realty Office Address </h3>
+            <h3>Migsun Group Office Address </h3>
 
-            <p><strong>Piramal Group, Corporate Office</strong></p>
+            <p><strong>Migsun Group, Corporate Office</strong></p>
 
-            <p>Piramal Tower</p>
+            <p>C1/C2 Mahaluxmi Metro Tower, Sector - 4, Vaishali, Ghaziabad - 201010</p>
 
-            <p>8th Floor, Peninsula Corporate Park, Ganapatrao Kadam Marg, Mumbai, Maharashtra 400013, US</p>
-
-            <h2>Upcoming Real Estate Projects from Piramal Realty </h2>
-
+            <h2>Upcoming Real Estate Projects from Migsun Group </h2>
 
 
             <?php
@@ -209,7 +229,7 @@
             include '../property-grid-level3.php';
             $urlprefix = '../';
 
-            $groupName = 'Piramal Realty';
+            $groupName = 'migsun Group';
 
             $aceGroupProperties = array_filter($properties, function ($property) use ($groupName) {
                 return strtolower($property['builder']) === strtolower($groupName);
@@ -225,21 +245,26 @@
 
 
             <h2>Frequently Asked Questions (FAQs)</h2>
+
             <section class="questions">
-                <h2>What are the leading real estate companies in India?</h2>
-                <p>The real estate industry in India is emerging with state-of-the-art architectural infrastructure along with lucrative price appreciation and ROI. MoneyTree Realty, Paras Buildtech, M3M Group, Devika Group, Sarvottam Group, and ACE Group are the leading real estate companies in India.</p>
+                <h2>What is Migsun Company?</h2>
+                <p>Migsun Group is India’s leading real estate developer with numerous commercial projects and residential projects across the nation.</p>
             </section>
 
             <section class="questions">
-                <h2>Is Piramal Mahalaxmi a good investment?</h2>
-                <p>Piramal Mahalaxmi offers 2 BHK, 3 BHK, and 4 BHK apartments in South Mumbai with state-of-the-art architecture and provides an array of world-class amenities and facilities, making it a promising real estate investment in India.</p>
+                <h2>What is the new project in Migsun Lucknow?</h2>
+                <p>Migsun Lucknow Central is the latest launch of the Migsun Group.</p>
             </section>
 
             <section class="questions">
-                <h2>Which real estate projects of Piramal Realty are available for sale below 1 Cr?</h2>
-                <p>Piramal Revanta, Piramal Mahalaxmi, and Piramal Aranya are some promising real estate projects in the catalogue of Piramal Realty available for sale under 1 Cr. These projects are strategically located and feature top-notch amenities, offering a premium and leisure living experience.</p>
+                <h2>What is the possession status of Migsun Nehru Place 1?</h2>
+                <p>The possessions for Migsun Nehru Place 1 will start by October 2028 and will offer luxurious Jet Suites at Yamuna Expressway.</p>
             </section>
 
+            <section class="questions">
+                <h2>Which real estate projects of Migsun Group are available for sale below 1 Cr?</h2>
+                <p>Migsun Nehru Place 1, Migsun Lucknow Central, and Migsun Twiinz are some promising real estate projects in the catalogue of Migsun Group available for sale under 1 Cr. These projects are strategically located and feature top-notch amenities, offering a premium and leisure living experience.</p>
+            </section>
 
 
         </div>

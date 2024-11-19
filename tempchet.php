@@ -51,38 +51,176 @@
 
 
 
+<style>
+    .blog-carousel {
+        overflow: auto;
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
+        position: relative;
+        padding-bottom: 3rem;
+    }
 
-<h2>Similar Properties</h2>
-<div class="custom-carousel-container">
-    <h2 class="custom-carousel-title">Similar Properties</h2>
-    <div class="custom-carousel-wrapper">
-        <!-- Carousel Item 1 -->
-        <div class="custom-carousel-item">
-            <img src="image1.jpg" alt="Modern Apartment in City Center" class="custom-carousel-image">
-            <div class="custom-carousel-content">
-                <h3 class="custom-carousel-property-title">City Center Apartment</h3>
-                <p class="custom-carousel-property-details">$1.5M • 2 Beds • 2 Baths • Apartment</p>
-                <a href="#" class="custom-contact-agent-btn">Contact Agent</a>
-            </div>
+    .blog-carousel::-webkit-scrollbar {
+        display: none;
+        /* Chrome, Safari and Opera */
+    }
+
+    .blog-carousel .swiper-slide h3 {
+        font-size: 18px;
+    }
+
+    .blog-carousel .swiper-slide img {
+        object-fit: fill;
+    }
+
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        top: 35%;
+        color: #000000;
+        background-color: rgba(255, 255, 255, 0.4);
+        border: 1px solid #000000;
+        border-radius: 50%;
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .swiper-pagination-bullet-active {
+        background: linear-gradient(90deg, #00796b, #009688, #26a69a);
+    }
+</style>
+
+
+<div class="blog-carousel">
+    <div class="swiper-container blogSwiper">
+        <div class="swiper-wrapper">
+            <?php foreach ($posts as $post): ?>
+                <div class="swiper-slide">
+                    <div class="blog-post">
+
+                        <img src="../blog/<?php echo $post['imageUrl']; ?>" alt="<?php echo $post['title']; ?>">
+                        <h3><?php echo $post['title']; ?></h3>
+
+                    </div>
+                </div>
+            <?php endforeach; ?>
         </div>
-        <!-- Carousel Item 2 -->
-        <div class="custom-carousel-item">
-            <img src="image2.jpg" alt="Luxurious Villa in Suburbia" class="custom-carousel-image">
-            <div class="custom-carousel-content">
-                <h3 class="custom-carousel-property-title">Luxurious Suburban Villa</h3>
-                <p class="custom-carousel-property-details">$3.8M • 5 Beds • 4 Baths • Villa</p>
-                <a href="#" class="custom-contact-agent-btn">Contact Agent</a>
-            </div>
-        </div>
-        <!-- Carousel Item 3 -->
-        <div class="custom-carousel-item">
-            <img src="image3.jpg" alt="Charming Family Home with Garden" class="custom-carousel-image">
-            <div class="custom-carousel-content">
-                <h3 class="custom-carousel-property-title">Family Home with Garden</h3>
-                <p class="custom-carousel-property-details">$2.0M • 3 Beds • 2 Baths • House</p>
-                <a href="#" class="custom-contact-agent-btn">Contact Agent</a>
-            </div>
-        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
     </div>
 </div>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var swiper = new Swiper('.blogSwiper', {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                // when window width is >= 700px
+                700: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                }
+            }
+        });
+    });
+</script>
+
+
+
+
+
+
+<li class="lpage">
+    <a href="https://moneytreerealty.com/real-estate-developers/elan-group" title="">
+
+
+    </a>
+</li>
+<li class="lpage">
+    <a href="https://moneytreerealty.com/real-estate-developers/godrej-properties" title="">
+
+
+    </a>
+</li>
+<li class="lpage">
+    <a href="https://moneytreerealty.com/real-estate-developers/l-t-realty" title="">
+
+
+    </a>
+</li>
+<li class="lpage">
+    <a href="https://moneytreerealty.com/real-estate-developers/m3m-group" title="">
+
+
+    </a>
+</li>
+<li class="lpage">
+    <a href="https://moneytreerealty.com/real-estate-developers/mahagun-group" title="">
+
+
+    </a>
+</li>
+<li class="lpage">
+    <a href="https://moneytreerealty.com/real-estate-developers/migsun-group" title="">
+
+
+    </a>
+</li>
+<li class="lpage">
+    <a href="https://moneytreerealty.com/real-estate-developers/paras-buildtech" title="">
+
+
+    </a>
+</li>
+<li class="lpage">
+    <a href="https://moneytreerealty.com/real-estate-developers/piramal-realty" title="">
+
+
+    </a>
+</li>
+<li class="lpage">
+    <a href="https://moneytreerealty.com/real-estate-developers/sikka-group" title="">
+
+
+    </a>
+</li>
+<li class="lpage">
+    <a href="https://moneytreerealty.com/real-estate-developers/the-house-of-abhinandan-lodha" title="">
+
+
+    </a>
+</li>
+<li class="lpage">
+    <a href="https://moneytreerealty.com/real-estate-developers/devika-group" title="">
+
+
+    </a>
+</li>
+
+
 

@@ -1,11 +1,9 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
 
         Harshad Mehta House: His House, Family, Net Worth, Other Properties
@@ -44,10 +42,7 @@
     <link rel="canonical" href="https://moneytreerealty.com/celeb-homes/harshad-mehta-house" />
 
 
-
-
-    <!-- Google Tag Manager 
-        -->
+    <!-- Google Tag Manager -->
     <script>
         (function(w, d, s, l, i) {
             w[l] = w[l] || [];
@@ -64,10 +59,9 @@
             f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
     </script>
-
-
-
     <!-- End Google Tag Manager -->
+    <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
+
 
 
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
@@ -76,12 +70,13 @@
     <link href="../assets/css/nice-select.css" rel="stylesheet">
     <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
     <link rel="stylesheet" href="../assets/css/property-page.css">
+    <link rel="stylesheet" href="./assets/celeb-homes.css">
+
 
 
 
     <!-- Google Analytics -->
-
-    <script src="https://www.googletagmanager.com/gtag/js?id=G-JZJY23MWW7"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JZJY23MWW7"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -93,27 +88,19 @@
     </script>
     <!-- End Google Analytics -->
     <!--G-JZJY23MWW7-->
+
+
 </head>
 
-<body class="light-theme">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2ZBWP94" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+<body>
 
+    <?php
+    include '../category/header.php';
+    ?>
 
+    <main>
 
-
-    <?php include '../category/header.php'; ?>
-
-
-
-    <!-- main content -->
-    <div class="side-flex">
-
-
-        <main>
-
+        <div class="mainData">
 
             <div class="image-wrapper">
                 <img src="./assets/harshad-mehta-house-banner1.webp" alt="Harshad Mehta House | Glimpse into the House of Big Bull" loading="lazy">
@@ -298,81 +285,92 @@
 
 
 
-
-        </main>
-
-
-        <div class="side-flex-right">
-
-            <?php
-            include '../data/celeb-homes-data.php';
-            $exclude = 'harshad-mehta-house';
-            $celebHomesData = array_filter($celebHomesData, function ($home) use ($exclude) {
-                return $home['link'] !== $exclude;
-            });
-            include './celeb-homes-side-component.php';
-            ?>
-
-            <div class="single-widgets widget_egns_tag">
-                <div class="widget-title mb-20">
-                    <h6 style="color:#005b52;text-align: center;font-size:18px;">Popular Tags</h6>
-                </div>
+            <div>
+                <h6>Similar Tags:</h6>
+                <ul class="tags">
+                    <li><a href="./harshad-mehta-house">Harshad Mehta Net Worth</a></li>
+                    <li><a href="./harshad-mehta-house">Is Harshad Mehta Family Still Rich</a></li>
+                    <li><a href="./harshad-mehta-house">Harshad Mehta Son</a></li>
+                    <li><a href="./harshad-mehta-house">Harshad Mehta House</a></li>
+                    <li><a href="./harshad-mehta-house">Harshad Mehta Son Net Worth</a></li>
+                    <li><a href="./harshad-mehta-house">Net Worth Of Harshad Mehta</a></li>
+                    <li><a href="../category/residential-property.php">Residential Real Estate</a></li>
+                    <li><a href="../best-property-dealers-in-noida.php">Real Estate Deals</a></li>
+                    <li><a href="../real-estate-advisor-and-property-consulting-firm-in-india.php">Property Advice</a></li>
+                    <li><a href="../real-estate-consultant.php">Real Estate Consulting</a></li>
 
 
-                <p class="wp-block-tag-cloud">
 
-                    <a href="./harshad-mehta-house">Harshad Mehta Net Worth</a>
-                    <a href="./harshad-mehta-house">Is Harshad Mehta Family Still Rich</a>
-                    <a href="./harshad-mehta-house">Harshad Mehta Son</a>
-                    <a href="./harshad-mehta-house">Harshad Mehta House</a>
-                    <a href="./harshad-mehta-house">Harshad Mehta Son Net Worth</a>
-                    <a href="./harshad-mehta-house">Net Worth Of Harshad Mehta</a>
-                    <a href="../category/residential-property.php">Residential Real Estate</a>
-                    <a href="../best-property-dealers-in-noida.php">Real Estate Deals</a>
-                    <a href="../real-estate-advisor-and-property-consulting-firm-in-india.php">Property Advice</a>
-                    <a href="../real-estate-consultant.php">Real Estate Consulting</a>
-
-
-                </p>
+                </ul>
             </div>
 
 
         </div>
 
-    </div>
-
-
-
-
-    <div class="blog-tag-social-area">
-        <div class="tag-wrapper">
-            <h6>Similar Tags:</h6>
-            <ul class="tags">
-
-                <li><a href="./harshad-mehta-house">Harshad Mehta Net Worth</a></li>
-                <li><a href="./harshad-mehta-house">Is Harshad Mehta Family Still Rich</a></li>
-                <li><a href="./harshad-mehta-house">Harshad Mehta Son</a></li>
-                <li><a href="./harshad-mehta-house">Harshad Mehta House</a></li>
-                <li><a href="./harshad-mehta-house">Harshad Mehta Son Net Worth</a></li>
-                <li><a href="./harshad-mehta-house">Net Worth Of Harshad Mehta</a></li>
-                <li><a href="../category/residential-property.php">Residential Real Estate</a></li>
-                <li><a href="../best-property-dealers-in-noida.php">Real Estate Deals</a></li>
-                <li><a href="../real-estate-advisor-and-property-consulting-firm-in-india.php">Property Advice</a></li>
-                <li><a href="../real-estate-consultant.php">Real Estate Consulting</a></li>
-
-            </ul>
-        </div>
-
 
         <?php
-        include '../category/more-tags.php';
-        include '../category/footer.php';
+        include '../data/celeb-homes-data.php';
+        $exclude = 'harshad-mehta-house';
+        $celebHomesData = array_filter($celebHomesData, function ($home) use ($exclude) {
+            return $home['link'] !== $exclude;
+        });
         ?>
 
 
-    </div>
+        <div>
+            <?php
+            // this adds a div that is flexed on the right includes the form and celeb home swiper 
+            include './celeb-homes-side-component.php';
+            ?>
 
+        </div>
+
+
+
+    </main>
+
+    <div>
+
+        <h2>Check out Latest Blogs on the Real Estate Market </h2>
+
+        <?php
+        include '../data/blogdata.php';
+        $posts = array_reverse(array_slice($posts, -7));
+        ?>
+
+        <div class="blog-carousel">
+            <div class="swiper-container blogSwiper">
+                <div class="swiper-wrapper">
+                    <?php foreach ($posts as $post): ?>
+                        <div class="swiper-slide">
+                            <div class="blog-post">
+
+                                <img src="../blog/<?php echo $post['imageUrl']; ?>" alt="<?php echo $post['title']; ?>">
+                                <h3><?php echo $post['title']; ?></h3>
+
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </div>
+    <?php
+    include '../propertydetail/more-tags.php';
+    include '../category/footer.php';
+    ?>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="../assets/js/swiper-bundle.min.js"></script>
     <script src="../assets/js/slick.js"></script>
     <script src="../assets/js/jquery.counterup.min.js"></script>
@@ -380,7 +378,7 @@
     <script src="../assets/js/jquery.nice-select.min.js"></script>
     <script src="../assets/js/jquery.fancybox.min.js"></script>
     <script src="../assets/js/custom.js"></script>
-    <script src="../assets/js/property-page.js"></script>
+    <script src="./assets/celeb-homes.js"></script>
 
 
 </body>

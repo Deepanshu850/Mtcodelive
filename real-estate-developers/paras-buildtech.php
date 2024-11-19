@@ -6,12 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>
-
+        Explore Upcoming Real Estate Projects by Paras Buildtech
     </title>
 
-    <meta name="description" content="">
+    <meta name="description" content="Explore upcoming real estate projects by Paras Buildtech. Uncover luxury residences, prime commercial spaces, and modern amenities crafted for exceptional living.">
 
-    <meta name="keywords" content="" />
+    <meta name="keywords" content="paras buildtech, paras buildtech gurgaon, paras buildtech 
+india private limited, paras buildtech pvt ltd, paras buildtech 
+owner, paras buildtech upcoming projects, paras buildtech 
+corporate office, Paras Buildtech construction, Paras 
+Buildtech projects, Paras Buildtech builders, Paras Buildtech 
+real estate, Paras Buildtech new projects, Paras Buildtech 
+plots, Paras Buildtech homes, Paras Buildtech construction 
+company, Paras Buildtech properties" />
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0" />
@@ -24,16 +31,47 @@
     <meta name="audience" content="All" />
 
 
-    <meta property="og:title" content="">
+    <meta property="og:title" content="Explore Upcoming Real Estate Projects by Paras Buildtech">
     <meta property="og:site_name" content="Moneytree Realty">
-    <meta property="og:url" content="https://moneytreerealty.com/converters/acre-to-bigha">
+    <meta property="og:url" content="https://moneytreerealty.com/real-estate-developers/paras-buildtech">
     <meta property="og:description" content="">
     <meta property="og:type" content="property">
 
 
-    <link rel="canonical" href="https://moneytreerealty.com/converters/acre-to-bigha" />
+    <link rel="canonical" href="https://moneytreerealty.com/real-estate-developers/paras-buildtech" />
 
 
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+                    "@type": "Question",
+                    "name": "Who is the owner of Paras Buildtech?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Manakchandji Ghevarchandji Bothara is the chairman of Paras Buildtech."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which real estate projects of Paras Buildtech are available for sale below 1 Cr?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Paras Quartier, Paras Dews, Paras Trinity, and Paras Avenue are some promising real estate projects in the catalogue of ACE Group available for sale under 1 Cr. These projects are strategically located and feature top-notch amenities and offer a premium and leisure living experience."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What types of apartments are available at Paras Quartier?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Paras Quartier features ready-to-move 4 BHK apartments surrounded by lush green Aravali Valley along with a 270-degree panoramic view through spacious balconies."
+                    }
+                }
+            ]
+        }
+    </script>
 
 
     <!-- Google Tag Manager -->
@@ -56,9 +94,16 @@
     <!-- End Google Tag Manager -->
     <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
 
+
+
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link href="../assets/css/nice-select.css" rel="stylesheet">
+    <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
     <link rel="stylesheet" href="../assets/css/property-page.css">
+    <link rel="stylesheet" href="./assets/real-estate-developer-page.css">
+
 
 
 
@@ -84,20 +129,133 @@
     include '../category/header.php';
     ?>
 
+    <main>
 
-    <?php
-    include '../data/tempdata.php';
-    include '../property-grid-level3.php';
+        <div class="builderData">
 
-    $urlprefix = '../';
-    $groupName = 'paras buildtech';
+            <h1>Paras Buildtech | Explore Upcoming Real Estate Projects from Paras Buildtech</h1>
 
-    $aceGroupProperties = array_filter($properties, function ($property) use ($groupName) {
-        return strtolower($property['builder']) === strtolower($groupName);
-    });
+            <h2>Paras Buildtech | An Overview </h2>
 
-    echo renderPropertiesGrid($aceGroupProperties, '../');
-    ?>
+            <p>With more than 5 decades of legacy, Paras Buildtech, a vertical venture of the PARAS Group, is rapidly evolving the real estate industry in India with its high-end commercial projects featuring international-styled retail shops, along luxurious residential apartments that uplift the living experience of its residents. Over the span of more than 20 years, the group has sold 6,500 homes sustaining its vision to uplift customer experiences and lifestyles across geographies, and communities.</p>
+
+            <p>Real estate projects from the Paras Buildtech feature a promising return on investment, seamless connectivity, and an array of world-class amenities and their legacy sparks for themselves as the upholder of the highest quality standards and corporate professionalism.</p>
+
+            <h3>Key Insights into Paras Buildtech </h3>
+
+            <table class="beautiful-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p><strong>Founded in</strong></p>
+                        </td>
+                        <td>
+                            <p>2002</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Completed Projects</strong></p>
+                        </td>
+                        <td>
+                            <p>12 Projects delivered</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>On-going Projects</strong></p>
+                        </td>
+                        <td>
+                            <p>15 Lac+ on-going projects</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Owner of Group</strong></p>
+                        </td>
+                        <td>
+                            <p>Manakchandji Ghevarchandji Bothara</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Operating in Cities</strong></p>
+                        </td>
+                        <td>
+                            <p>Noida, Gurgaon, Chandigarh, Zirakpur, Mohali</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Official Website</strong></p>
+                        </td>
+                        <td>
+                            <p><a href="http://www.parasbuildtech.com/">http://www.parasbuildtech.com</a></p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Paras Buildtech Office Address </h3>
+
+            <p><strong>Paras Buildtech India</strong></p>
+
+            <p>Corporate HO: 11th Floor, Paras Twin Towers (Tower B), Sec - 54, Golf Course Road, Gurgaon, Haryana 122002, IN</p>
+
+
+
+            <h2>Upcoming Real Estate Projects from Paras Buildtech </h2>
+
+
+
+            <?php
+            include '../data/tempdata.php';
+            include '../property-grid-level3.php';
+            $urlprefix = '../';
+
+            $groupName = 'Paras Buildtech';
+
+            $aceGroupProperties = array_filter($properties, function ($property) use ($groupName) {
+                return strtolower($property['builder']) === strtolower($groupName);
+            });
+
+            echo renderPropertiesGrid($aceGroupProperties, $urlprefix);
+            ?>
+
+
+
+            <?php
+            include './developer-and-blog-component.php';
+            ?>
+
+
+            <h2>Frequently Asked Questions (FAQs) </h2>
+
+            <section class="questions">
+                <h2>Who is the owner of Paras Buildtech?</h2>
+                <p>Manakchandji Ghevarchandji Bothara is the chairman of Paras Buildtech.</p>
+            </section>
+
+            <section class="questions">
+                <h2>Which real estate projects of Paras Buildtech are available for sale below 1 Cr?</h2>
+                <p>Paras Quartier, Paras Dews, Paras Trinity, and Paras Avenue are some promising real estate projects in the catalogue of ACE Group available for sale under 1 Cr. These projects are strategically located and feature top-notch amenities and offer a premium and leisure living experience.</p>
+            </section>
+
+            <section class="questions">
+                <h2>What types of apartments are available at Paras Quartier?</h2>
+                <p>Paras Quartier features ready-to-move 4 BHK apartments surrounded by lush green Aravali Valley along with a 270-degree panoramic view through spacious balconies.</p>
+            </section>
+
+
+
+        </div>
+
+        <!-- this adds a div that is flexed on the right includes the forma and celeb home swiper -->
+        <?php
+        include './real-estate-developer-right-side-component.php';
+        ?>
+
+    </main>
 
 
     <?php
@@ -119,6 +277,7 @@
     <script src="../assets/js/jquery.nice-select.min.js"></script>
     <script src="../assets/js/jquery.fancybox.min.js"></script>
     <script src="../assets/js/custom.js"></script>
+    <script src="./assets/real-estate-developer-page.js"></script>
 
 </body>
 

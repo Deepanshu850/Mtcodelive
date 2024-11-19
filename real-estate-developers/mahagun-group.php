@@ -6,12 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>
-
+        New Projects by Mahagun Group: Top Builders & Developers
     </title>
 
-    <meta name="description" content="">
+    <meta name="description" content="Discover new and upcoming projects by Mahagun Group, top builders in Noida and Ghaziabad. Experience premium living with world-class amenities and designs.">
 
-    <meta name="keywords" content="" />
+    <meta name="keywords" content="Mahagun Group, Real Estate, Luxury Homes, Noida Real Estate, 
+Ghaziabad Properties, Mahagun Projects, Dream Homes, Real Estate
+Investing, Top Builders, Upcoming Projects, Luxury Living, Home
+Buyers, Modern Homes, Smart Living, Property, Investment, Urban
+Living, Real Estate India, Noida Luxury Homes, Ghaziabad Real Estate, 
+Home Goals, Future Homes, Affordable Luxury, Luxury Residences, 
+Mahagun Noida, Green Living, Sustainable Homes, Dream Living, 
+Premium Homes, Home Sweet Home, Mahagun Developers, Smart
+Homes, Urban Life style, Exclusive Homes, Top Developers, Real
+Estate Opportunities, Home Dreams, Mahagun Luxury, Luxury
+Properties, India Real Estate, Modern Living" />
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0" />
@@ -24,16 +34,46 @@
     <meta name="audience" content="All" />
 
 
-    <meta property="og:title" content="">
+    <meta property="og:title" content="New Projects by Mahagun Group: Top Builders & Developers">
     <meta property="og:site_name" content="Moneytree Realty">
-    <meta property="og:url" content="https://moneytreerealty.com/converters/acre-to-bigha">
-    <meta property="og:description" content="">
+    <meta property="og:url" content="https://moneytreerealty.com/real-estate-developers/mahagun-group">
+    <meta property="og:description" content="Discover new and upcoming projects by Mahagun Group, top builders in Noida and Ghaziabad. Experience premium living with world-class amenities and designs.">
     <meta property="og:type" content="property">
 
+    <link rel="canonical" href="https://moneytreerealty.com/real-estate-developers/mahagun-group" />
 
-    <link rel="canonical" href="https://moneytreerealty.com/converters/acre-to-bigha" />
 
-
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+                    "@type": "Question",
+                    "name": "What are the leading real estate companies in Noida?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Real estate industry in India is emerging with state-of-the-art architectural infrastructure along with lucrative price appreciation and ROI. MoneyTree Realty, Paras Buildtech, M3M Group, Devika Group, Sarvottam Group, and Mahagun Group are the leading real estate companies in Noida."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How big is Mahagun Medalleo from Mahagun Group?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Mahagun Medalleo comprises 3 BHK apartments and 4 BHK apartments of square area of 2500-3720 sq. ft."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which real estate projects of Mahagun Group are available for sale below 1 Cr?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Mahagun Medalleo, Mahagun Majestic, Mahagun Manor, and Mahagun Mywoods are some promising real estate projects in the catalogue of Mahagun Group available for sale under 1 Cr. These projects are strategically located and feature top-notch amenities and offer a premium and leisure living experience."
+                    }
+                }
+            ]
+        }
+    </script>
 
 
     <!-- Google Tag Manager -->
@@ -56,9 +96,15 @@
     <!-- End Google Tag Manager -->
     <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
 
+
+
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link href="../assets/css/nice-select.css" rel="stylesheet">
+    <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
     <link rel="stylesheet" href="../assets/css/property-page.css">
+    <link rel="stylesheet" href="./assets/real-estate-developer-page.css">
 
 
 
@@ -76,6 +122,7 @@
     <!-- End Google Analytics -->
     <!--G-JZJY23MWW7-->
 
+
 </head>
 
 <body>
@@ -84,20 +131,138 @@
     include '../category/header.php';
     ?>
 
+    <main>
 
-    <?php
-    include '../data/tempdata.php';
-    include '../property-grid-level3.php';
+        <div class="builderData">
 
-    $urlprefix = '../';
-    $groupName = 'mahagun group';
+            <h1>Explore Upcoming Real Estate Projects from Mahagun Group</h1>
 
-    $aceGroupProperties = array_filter($properties, function ($property) use ($groupName) {
-        return strtolower($property['builder']) === strtolower($groupName);
-    });
+            <h2>Mahagun Group | An Overview </h2>
 
-    echo renderPropertiesGrid($aceGroupProperties, '../');
-    ?>
+            <p>With a legacy of over 25 years in the industry, Mahagun Group has delivered around 15.76 million sq ft of area in the National Capital Region (NCR) and has emerged as the leading player in the real estate and hospitality sectors. Under the leadership of Mr. Pawan Kumar Jain, Mahagun Group is driven by the mission to sustain quality in real estate projects, promising timely delivery, and continuously striving to maintain transparency and moral code of conduct.</p>
+
+            <p>Mahagun Group was founded with the mission to offer value for money to its customers, and using transparent and ethical procedures for people looking to buy property for sale in India. The group has delivered iconic projects in Ghaziabad, Noida, Greater Noida etc offering residential apartments, commercial shops, and high-street avenues. </p>
+
+            <h3>Key Insights into Mahagun Group </h3>
+
+            <table class="beautiful-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p><strong>Founded in</strong></p>
+                        </td>
+                        <td>
+                            <p>1995</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Completed Projects</strong></p>
+                        </td>
+                        <td>
+                            <p>15.76 million sq ft of area delivered</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>On-going Projects</strong></p>
+                        </td>
+                        <td>
+                            <p>11.57 million sq ft of area under-development</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Owner of Group</strong></p>
+                        </td>
+                        <td>
+                            <p>Mr Pawan Kumar Jain, Chairman</p>
+
+                            <p>Mr Dhiraj Jain, Director</p>
+
+                            <p>Mr Amit jain, Director</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Operating in Cities</strong></p>
+                        </td>
+                        <td>
+                            <p>Ghaziabad</p>
+
+                            <p>Greater Noida</p>
+
+                            <p>Noida</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Official Website</strong></p>
+                        </td>
+                        <td>
+                            <p><a href="http://www.mahagunindia.com/">http://www.mahagunindia.com/</a></p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Mahagun Group Office Address </h3>
+
+            <p><strong>Mahagun Group, Corporate Office</strong></p>
+
+            <p>A-19 , Sector 63, Noida, Uttar Pradesh 201301, IN</p>
+
+            <h2>Upcoming Real Estate Projects from Mahagun Group</h2>
+
+
+
+
+            <?php
+            include '../data/tempdata.php';
+            include '../property-grid-level3.php';
+            $urlprefix = '../';
+
+            $groupName = 'Mahagun Group';
+
+            $aceGroupProperties = array_filter($properties, function ($property) use ($groupName) {
+                return strtolower($property['builder']) === strtolower($groupName);
+            });
+
+            echo renderPropertiesGrid($aceGroupProperties, $urlprefix);
+            ?>
+
+
+            <?php
+            include './developer-and-blog-component.php';
+            ?>
+
+
+            <h2>Frequently Asked Questions (FAQs)</h2>
+
+            <section class="questions">
+                <h2>What are the leading real estate companies in Noida?</h2>
+                <p>Real estate industry in India is emerging with state-of-the-art architectural infrastructure along with lucrative price appreciation and ROI. MoneyTree Realty, Paras Buildtech, M3M Group, Devika Group, Sarvottam Group, and Mahagun Group are the leading real estate companies in Noida.</p>
+            </section>
+
+            <section class="questions">
+                <h2>How big is Mahagun Medalleo from Mahagun Group?</h2>
+                <p>Mahagun Medalleo comprises 3 BHK apartments and 4 BHK apartments of square area of 2500-3720 sq. ft.</p>
+            </section>
+
+            <section class="questions">
+                <h2>Which real estate projects of Mahagun Group are available for sale below 1 Cr?</h2>
+                <p>Mahagun Medalleo, Mahagun Majestic, Mahagun Manor, and Mahagun Mywoods are some promising real estate projects in the catalogue of Mahagun Group available for sale under 1 Cr. These projects are strategically located and feature top-notch amenities and offer a premium and leisure living experience.</p>
+            </section>
+
+
+        </div>
+
+        <!-- this adds a div that is flexed on the right includes the forma and celeb home swiper -->
+        <?php
+        include './real-estate-developer-right-side-component.php';
+        ?>
+
+    </main>
 
 
     <?php
@@ -119,6 +284,8 @@
     <script src="../assets/js/jquery.nice-select.min.js"></script>
     <script src="../assets/js/jquery.fancybox.min.js"></script>
     <script src="../assets/js/custom.js"></script>
+    <script src="./assets/real-estate-developer-page.js"></script>
+
 
 </body>
 

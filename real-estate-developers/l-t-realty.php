@@ -26,11 +26,11 @@
 
     <meta property="og:title" content="">
     <meta property="og:site_name" content="Moneytree Realty">
-    <meta property="og:url" content="https://moneytreerealty.com/real-estate-developers/primarl-realty">
+    <meta property="og:url" content="https://moneytreerealty.com/real-estate-developers/l-t-realty">
     <meta property="og:description" content="">
     <meta property="og:type" content="property">
 
-    <link rel="canonical" href="https://moneytreerealty.com/real-estate-developers/primarl-realty" />
+    <link rel="canonical" href="https://moneytreerealty.com/real-estate-developers/l-t-realty" />
 
     <script type="application/ld+json">
         {
@@ -38,26 +38,26 @@
             "@type": "FAQPage",
             "mainEntity": [{
                     "@type": "Question",
-                    "name": "What are the leading real estate companies in India?",
+                    "name": "What types of apartments are available at L&T Elixir Reserve?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "The real estate industry in India is emerging with state-of-the-art architectural infrastructure along with lucrative price appreciation and ROI. MoneyTree Realty, Paras Buildtech, M3M Group, Devika Group, Sarvottam Group, and ACE Group are the leading real estate companies in India."
+                        "text": "L&T Elixir Reserve offers luxurious 2, 3, and 4 BHK apartments in Powai with amenities like swimming pool, rooftop tennis court, squash court, jogging track, cycling track, reflexology path, jacuzzi, futsal court, and juice bar."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "Is Piramal Mahalaxmi a good investment?",
+                    "name": "Which real estate projects of L&T Realty are available for sale below 1 Cr?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Piramal Mahalaxmi offers 2 BHK, 3 BHK, and 4 BHK apartments in South Mumbai with state-of-the-art architecture and provides an array of world-class amenities and facilities, making it a promising real estate investment in India."
+                        "text": "L&T Elixir, L&T Raintree Boulevard, and L&T Rejuve 360 are some promising real estate projects in the catalogue of L&T Realty available for sale under 1 Cr. These projects are strategically located and feature top-notch amenities, offering a premium and leisure living experience."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "Which real estate projects of Piramal Realty are available for sale below 1 Cr?",
+                    "name": "How promising is the real estate market in India?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Piramal Revanta, Piramal Mahalaxmi, and Piramal Aranya are some promising real estate projects in the catalogue of Piramal Realty available for sale under 1 Cr. These projects are strategically located and feature top-notch amenities, offering a premium and leisure living experience."
+                        "text": "The real estate industry in India is emerging as a major asset for wealth creation with a wide variety of properties for sale from leading real estate developers. It is expected to reach USD 1 trillion by 2030."
                     }
                 }
             ]
@@ -65,6 +65,7 @@
     </script>
 
 
+    
     <!-- Google Tag Manager -->
     <script>
         (function(w, d, s, l, i) {
@@ -124,16 +125,15 @@
 
         <div class="builderData">
 
-            <h1>Explore Upcoming Real Estate Projects from Piramal Realty</h1>
+            <h1>Explore Upcoming Real Estate Projects from L&T Realty</h1>
 
+            <h2>L&amp;T Realty | An Overview </h2>
 
-            <h2>Piramal Realty | An Overview </h2>
+            <p>L&amp;T Realty, the real estate venture of the Larsen &amp; Toubro Limited, has expansive real estate projects spanning across 6.5 million sq metres in area and offers residential apartments, commercial and retail spaces and has established itself as the most sought-after real estate company in India. The group is focussed on innovation and excellence in each of its real estate projects and exhibits excellent expertise in offering well-thought design and architecture along with optimal use of cutting-edge technology and thus consequently building a strong reputation in the real estate market.</p>
 
-            <p>Piramal Realty, founded in 2012, has carried forward its parent group&rsquo;s legacy of uplifting and serving each individual from across every community and has established itself as the most admired real estate builder in India diversifying the way people invest in real estate in india. The group envisioned not just profits and gains but impacting the lives of its customers, committing to the highest standard, and building trust, and culture in the market. </p>
+            <p>Founded in 2011, L&amp;T Realty is climbing up the industry through leveraging its philosophies and strategies from its parent company, Larsen &amp; Toubro Limited and making its synonym with delightful customer experience and top-notch quality in real estate projects. The group has envisioned to be the most respected real estate builder in India, sustaining customer satisfaction, and upholding the well-being of communities and environment.</p>
 
-            <p>Piramal Realty is widely regarded for its high standard and customer-centric residential and commercial projects that feature top-notch architectural design and quality. The group&#39;s expertise spans over 11 years and boasts more than 13 million sq ft of real estate under development and 5,000 happy families along with a private equity investment fund of $235 million. </p>
-
-            <h3>Key Insights into Piramal Realty </h3>
+            <h3>Key Insights into L&amp;T Realty </h3>
 
             <table class="beautiful-table">
                 <tbody>
@@ -142,7 +142,7 @@
                             <p><strong>Founded in</strong></p>
                         </td>
                         <td>
-                            <p>2012</p>
+                            <p>2011</p>
                         </td>
                     </tr>
                     <tr>
@@ -150,7 +150,7 @@
                             <p><strong>Completed Projects</strong></p>
                         </td>
                         <td>
-                            <p>N/A</p>
+                            <p>70 million sq ft on-going and under-development projects</p>
                         </td>
                     </tr>
                     <tr>
@@ -158,7 +158,7 @@
                             <p><strong>On-going Projects</strong></p>
                         </td>
                         <td>
-                            <p>13 million sq ft of area under-development</p>
+                            <p>70 million sq ft on-going and under-development projects</p>
                         </td>
                     </tr>
                     <tr>
@@ -166,9 +166,11 @@
                             <p><strong>Owner of Group</strong></p>
                         </td>
                         <td>
-                            <p>Mr Ajay Piramal, Chairman &amp; Executive Director</p>
+                            <p>Henning Holck-Larsen (Co-founder)</p>
 
-                            <p>Anand Piramal, Executive Director</p>
+                            <p>S&oslash;ren Kristian Toubro (Co-founder)</p>
+
+                            <p>Mr. Anupam Kumar, CEO &amp; MD</p>
                         </td>
                     </tr>
                     <tr>
@@ -178,7 +180,9 @@
                         <td>
                             <p>Mumbai</p>
 
-                            <p>Thane</p>
+                            <p>Navi Mumbai</p>
+
+                            <p>Bangalore</p>
                         </td>
                     </tr>
                     <tr>
@@ -186,22 +190,19 @@
                             <p><strong>Official Website</strong></p>
                         </td>
                         <td>
-                            <p><a href="https://www.piramalrealty.com/">https://www.piramalrealty.com/</a></p>
+                            <p><a href="http://www.lntrealty.com/">http://www.lntrealty.com</a></p>
                         </td>
                     </tr>
                 </tbody>
             </table>
 
-            <h3>Piramal Realty Office Address </h3>
+            <h3>L&amp;T Realty Office Address </h3>
 
-            <p><strong>Piramal Group, Corporate Office</strong></p>
+            <p><strong>L&amp;T Realty Corporate Office</strong></p>
 
-            <p>Piramal Tower</p>
+            <p>L&amp;T Business Park, L&amp;T Business Park, Tower A, Gate No. 5, Saki Vihar Road, Mumbai, Maharashtra 400072, IN</p>
 
-            <p>8th Floor, Peninsula Corporate Park, Ganapatrao Kadam Marg, Mumbai, Maharashtra 400013, US</p>
-
-            <h2>Upcoming Real Estate Projects from Piramal Realty </h2>
-
+            <h2>Upcoming Real Estate Projects from L&amp;T Realty </h2>
 
 
             <?php
@@ -209,7 +210,7 @@
             include '../property-grid-level3.php';
             $urlprefix = '../';
 
-            $groupName = 'Piramal Realty';
+            $groupName = 'L&T Realty';
 
             $aceGroupProperties = array_filter($properties, function ($property) use ($groupName) {
                 return strtolower($property['builder']) === strtolower($groupName);
@@ -225,21 +226,21 @@
 
 
             <h2>Frequently Asked Questions (FAQs)</h2>
+
             <section class="questions">
-                <h2>What are the leading real estate companies in India?</h2>
-                <p>The real estate industry in India is emerging with state-of-the-art architectural infrastructure along with lucrative price appreciation and ROI. MoneyTree Realty, Paras Buildtech, M3M Group, Devika Group, Sarvottam Group, and ACE Group are the leading real estate companies in India.</p>
+                <h2>What types of apartments are available at L&T Elixir Reserve?</h2>
+                <p>L&T Elixir Reserve offers luxurious 2, 3, and 4 BHK apartments in Powai with amenities like swimming pool, rooftop tennis court, squash court, jogging track, cycling track, reflexology path, jacuzzi, futsal court, and juice bar.</p>
             </section>
 
             <section class="questions">
-                <h2>Is Piramal Mahalaxmi a good investment?</h2>
-                <p>Piramal Mahalaxmi offers 2 BHK, 3 BHK, and 4 BHK apartments in South Mumbai with state-of-the-art architecture and provides an array of world-class amenities and facilities, making it a promising real estate investment in India.</p>
+                <h2>Which real estate projects of L&T Realty are available for sale below 1 Cr?</h2>
+                <p>L&T Elixir, L&T Raintree Boulevard, and L&T Rejuve 360 are some promising real estate projects in the catalogue of L&T Realty available for sale under 1 Cr. These projects are strategically located and feature top-notch amenities, offering a premium and leisure living experience.</p>
             </section>
 
             <section class="questions">
-                <h2>Which real estate projects of Piramal Realty are available for sale below 1 Cr?</h2>
-                <p>Piramal Revanta, Piramal Mahalaxmi, and Piramal Aranya are some promising real estate projects in the catalogue of Piramal Realty available for sale under 1 Cr. These projects are strategically located and feature top-notch amenities, offering a premium and leisure living experience.</p>
+                <h2>How promising is the real estate market in India?</h2>
+                <p>The real estate industry in India is emerging as a major asset for wealth creation with a wide variety of properties for sale from leading real estate developers. It is expected to reach USD 1 trillion by 2030.</p>
             </section>
-
 
 
         </div>

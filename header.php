@@ -372,6 +372,156 @@ include "./data/blogdata.php";
                         }
                     }
                 </style>
+
+
+            <li>
+                <!-- Search Icon -->
+
+                <svg id="searchIcon" style="cursor: pointer;color: white;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                </svg>
+
+                <div id="searchContainer" style="display: none; width: 100vw; background: #fff; padding: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); position: fixed; left: 0; top: 0; z-index: 1000; transform: translateY(80px);">
+                    <div style="max-width: 600px; margin: 0 auto;">
+                        <form id="searchForm" style="display: flex; gap: 10px;">
+                            <input type="text" name="q" id="searchInput" placeholder="Search..." style="flex: 1; padding: 10px; border: 1px solid #ddd; border-radius: 5px; font-size: 16px;">
+                            <button type="submit" style="padding: 10px 20px; background: #efb93f; border: none; border-radius: 5px; color: white; cursor: pointer;">Search</button>
+                            <button type="button" id="closeSearch" style="padding: 10px; background: none; border: none; color: #666; cursor: pointer;">
+                                <i class="bi bi-x-lg"></i>
+                            </button>
+                        </form>
+                        <!-- Search Preview Container -->
+                        <div id="searchPreview" style="background: #fff; border: 1px solid #ddd; border-radius: 5px; margin-top: 10px; max-height: 300px; overflow-y: auto;"></div>
+                    </div>
+                </div>
+
+                <!-- JavaScript Code -->
+                <script>
+                    // Toggle Search Container
+                    document.getElementById('searchIcon').addEventListener('click', function(e) {
+                        e.preventDefault();
+                        const container = document.getElementById('searchContainer');
+                        if (container.style.display === 'none') {
+                            container.style.display = 'block';
+                            container.querySelector('input').focus();
+                        } else {
+                            container.style.display = 'none';
+                        }
+                    });
+
+                    // Close Search Container
+                    document.getElementById('closeSearch').addEventListener('click', function() {
+                        document.getElementById('searchContainer').style.display = 'none';
+                    });
+
+                    // Hide Search Container on Escape Key
+                    document.addEventListener('keydown', function(e) {
+                        if (e.key === 'Escape') {
+                            document.getElementById('searchContainer').style.display = 'none';
+                        }
+                    });
+
+                    // Hide Search Container on Click Outside
+                    document.addEventListener('click', function(e) {
+                        const container = document.getElementById('searchContainer');
+                        const searchIcon = document.getElementById('searchIcon');
+                        if (!container.contains(e.target) && e.target !== searchIcon) {
+                            container.style.display = 'none';
+                        }
+                    });
+
+                    // Show Search Icon Only on Wider Screens
+                    function handleResize() {
+                        const searchIcon = document.getElementById('searchIcon');
+                        if (window.innerWidth > 700) {
+                            searchIcon.style.display = 'block';
+                        } else {
+                            searchIcon.style.display = 'none';
+                        }
+                    }
+
+                    window.addEventListener('resize', handleResize);
+                    handleResize(); // Initial check
+
+                    // Form Submission
+                    document.getElementById('searchForm').addEventListener('submit', function(e) {
+                        e.preventDefault();
+                        const searchTerm = this.querySelector('input[name="q"]').value;
+                        window.location.href = 'search.php?search=' + encodeURIComponent(searchTerm);
+                    });
+
+                    // Asynchronous Search Preview Functionality
+                    const searchInput = document.getElementById('searchInput');
+                    const searchPreview = document.getElementById('searchPreview');
+
+                    let searchTimeout;
+                    searchInput.addEventListener('input', function() {
+                        const query = this.value.trim();
+                        if (query.length === 0) {
+                            searchPreview.innerHTML = '';
+                            return;
+                        }
+
+                        // Debounce to prevent too many requests
+                        clearTimeout(searchTimeout);
+                        searchTimeout = setTimeout(() => {
+                            fetchSearchResults(query);
+                        }, 300); // Adjust the delay as needed
+                    });
+
+                    async function fetchSearchResults(query) {
+                        try {
+                            const response = await fetch('search_preview.php?q=' + encodeURIComponent(query));
+                            if (!response.ok) {
+                                throw new Error('Network response was not ok');
+                            }
+                            const data = await response.json();
+                            displaySearchPreview(data);
+                        } catch (error) {
+                            console.error('Error fetching search preview:', error);
+                            // Optionally, display an error message to the user
+                            searchPreview.innerHTML = '<p style="padding: 10px; color: red;">An error occurred while fetching results.</p>';
+                        }
+                    }
+
+                    function displaySearchPreview(results) {
+                        if (results.length === 0) {
+                            searchPreview.innerHTML = '<p style="padding: 10px;">No results found.</p>';
+                            return;
+                        }
+
+                        const previewHTML = results.map(result => `
+            <div style="padding: 8px; border-bottom: 1px solid #eee; max-width: 500px;">
+                <a href="./propertydetail/${encodeURIComponent(result.link)}" style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: 10px;">
+                    <img src="./${result.image}" style="width: 30%; height:auto;max-height: 100px; object-fit: cover; border-radius: 4px;">
+                    <div>
+                        <h5 style="margin: 0 0 4px 0; font-size: 14px;">${escapeHTML(result.name)}</h5>
+                        <p style="margin: 0; font-size: 12px; color: #666;">${escapeHTML(result.builder)} - ${escapeHTML(result.location.join(', '))}</p>
+                    </div>
+                </a>
+            </div>
+        `).join('');
+
+                        searchPreview.innerHTML = previewHTML;
+                    }
+
+                    // Helper function to escape HTML to prevent XSS attacks
+                    function escapeHTML(str) {
+                        if (typeof str !== 'string') return '';
+                        return str.replace(/[&<>'"]/g, function(tag) {
+                            const charsToReplace = {
+                                '&': '&amp;',
+                                '<': '&lt;',
+                                '>': '&gt;',
+                                "'": '&#39;',
+                                '"': '&quot;'
+                            };
+                            return charsToReplace[tag] || tag;
+                        });
+                    }
+                </script>
+            </li>
+
             <li id="misc1">
                 <a id="number1" href="tel:+919732300007" class="track-click" data-id="1">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -383,7 +533,6 @@ include "./data/blogdata.php";
             </li>
 
 
-            </li>
             <style>
                 .frame {
                     width: 90%;
@@ -504,7 +653,6 @@ include "./data/blogdata.php";
 
         </ul>
         <div class="topbar-right d-lg-none d-block">
-
 
 
         </div>
@@ -667,6 +815,74 @@ include "./data/blogdata.php";
         +91-9732300007
     </a>
 
+    <svg id="mobileSearchIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16" style="display: none; cursor: pointer;color: white;">
+        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+    </svg>
+
+    <!-- Search Container Below Header -->
+    <div id="mobileSearchContainer" style="display: none; width: 100vw; background: #fff; padding: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); position: fixed; left: 0; top: 0; z-index: 1000; transform: translateY(80px);">
+        <div style="max-width: 600px; margin: 0 auto;">
+            <form id="mobileSearchForm" style="display: flex; gap: 10px;">
+                <input type="text" name="q" placeholder="Search..." style="flex: 1; padding: 8px; border: 1px solid #ddd; border-radius: 5px; font-size: 14px;">
+                <button type="submit" style="padding: 8px 16px; background: #efb93f; border: none; border-radius: 5px; color: white; cursor: pointer;">Search</button>
+                <button type="button" id="closeMobileSearch" style="padding: 8px; background: none; border: none; color: #666; cursor: pointer;">
+                    <i class="bi bi-x-lg"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('mobileSearchForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const searchTerm = this.querySelector('input[name="q"]').value;
+            window.location.href = 'search.php?search=' + encodeURIComponent(searchTerm);
+        });
+
+        document.getElementById('mobileSearchIcon').addEventListener('click', function(e) {
+            e.preventDefault();
+            const container = document.getElementById('mobileSearchContainer');
+            if (container.style.display === 'none') {
+                container.style.display = 'block';
+                container.querySelector('input').focus();
+            } else {
+                container.style.display = 'none';
+            }
+        });
+
+        document.getElementById('closeMobileSearch').addEventListener('click', function() {
+            document.getElementById('mobileSearchContainer').style.display = 'none';
+        });
+
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                document.getElementById('mobileSearchContainer').style.display = 'none';
+            }
+        });
+
+        document.addEventListener('click', function(e) {
+            const container = document.getElementById('mobileSearchContainer');
+            const searchIcon = document.getElementById('mobileSearchIcon');
+            if (!container.contains(e.target) && e.target !== searchIcon) {
+                container.style.display = 'none';
+            }
+        });
+
+        // Show mobile search icon only for screens narrower than 700px
+        function handleResize() {
+            const mobileSearchIcon = document.getElementById('mobileSearchIcon');
+            if (window.innerWidth <= 700) {
+                mobileSearchIcon.style.display = 'block';
+            } else {
+                mobileSearchIcon.style.display = 'none';
+            }
+        }
+
+        window.addEventListener('resize', handleResize);
+        handleResize(); // Initial check
+    </script>
+
+
     <div class="nav-right d-flex jsutify-content-end align-items-center">
 
         <div class="sidebar-button mobile-menu-btn "> <span></span> </div>
@@ -733,6 +949,36 @@ include "./data/blogdata.php";
         60% {
             transform: translateY(-12px);
         }
+    }
+
+    @media (width < 500px) {
+        div[class="header-logo d-lg-none d-flex"] {
+            width: 84px !important;
+        }
+
+        #number2 {
+            font-size: 13px;
+        }
+
+        #number2 svg {
+            width: 14px;
+            height: 14px;
+            margin-right: 4px;
+        }
+    }
+
+
+    #number1 {
+        font-size: 18px;
+    }
+
+    #number1 svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .nav-item {
+        margin-right: 0;
     }
 </style>
 

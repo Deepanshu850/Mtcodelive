@@ -26,17 +26,26 @@
 
     <meta property="og:title" content="">
     <meta property="og:site_name" content="Moneytree Realty">
-    <meta property="og:url" content="https://moneytreerealty.com/real-estate-developers/primarl-realty">
+    <meta property="og:url" content="https://moneytreerealty.com/real-estate-developers/au-real-estate">
     <meta property="og:description" content="">
     <meta property="og:type" content="property">
 
-    <link rel="canonical" href="https://moneytreerealty.com/real-estate-developers/primarl-realty" />
+    <link rel="canonical" href="https://moneytreerealty.com/real-estate-developers/au-real-estate" />
+
 
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [{
+                    "@type": "Question",
+                    "name": "What types of apartments are available at AU The Sunflower Phase 1?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "AU The Sunflower is a luxury residential property featuring state-of-the-art 3 BHK and 4 BHK apartments on NH-24."
+                    }
+                },
+                {
                     "@type": "Question",
                     "name": "What are the leading real estate companies in India?",
                     "acceptedAnswer": {
@@ -46,23 +55,16 @@
                 },
                 {
                     "@type": "Question",
-                    "name": "Is Piramal Mahalaxmi a good investment?",
+                    "name": "What are some of the benefits of investing in commercial property?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Piramal Mahalaxmi offers 2 BHK, 3 BHK, and 4 BHK apartments in South Mumbai with state-of-the-art architecture and provides an array of world-class amenities and facilities, making it a promising real estate investment in India."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "Which real estate projects of Piramal Realty are available for sale below 1 Cr?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Piramal Revanta, Piramal Mahalaxmi, and Piramal Aranya are some promising real estate projects in the catalogue of Piramal Realty available for sale under 1 Cr. These projects are strategically located and feature top-notch amenities, offering a premium and leisure living experience."
+                        "text": "Commercial property for sale in India provides promising capital appreciation and high ROI, and features favourable rental yields, minimal maintenance, and hedging against inflation."
                     }
                 }
             ]
         }
     </script>
+
 
 
     <!-- Google Tag Manager -->
@@ -124,16 +126,18 @@
 
         <div class="builderData">
 
-            <h1>Explore Upcoming Real Estate Projects from Piramal Realty</h1>
+            <h1>
+
+            </h1>
 
 
-            <h2>Piramal Realty | An Overview </h2>
+            <h2>AU Real Estate | An Overview </h2>
 
-            <p>Piramal Realty, founded in 2012, has carried forward its parent group&rsquo;s legacy of uplifting and serving each individual from across every community and has established itself as the most admired real estate builder in India diversifying the way people invest in real estate in india. The group envisioned not just profits and gains but impacting the lives of its customers, committing to the highest standard, and building trust, and culture in the market. </p>
+            <p>AU Real Estate is a multifaceted real estate company that aspires to bring excellence when you buy property for sale and instil a sense of pride and ownership while making real estate investment in residential apartments, commercial spaces, or retail shops. The group is emerging in the real estate market with its unique philosophy that revolves around integrity, innovation, and dedication towards each client. AU Real Estate include various business verticals such as AU Real Estate Residences, AU Real Estate Commercial, AU Real Estate Advisory, AU Real Estate Joint Ventures, AU Real Estate Services.</p>
 
-            <p>Piramal Realty is widely regarded for its high standard and customer-centric residential and commercial projects that feature top-notch architectural design and quality. The group&#39;s expertise spans over 11 years and boasts more than 13 million sq ft of real estate under development and 5,000 happy families along with a private equity investment fund of $235 million. </p>
+            <p>AU Real Estate, under the leadership of Ashish Agarwal, has committed itself to build a legacy of trust, value, and customer-centric real estate transactions.</p>
 
-            <h3>Key Insights into Piramal Realty </h3>
+            <h3>Key Insights into AU Real Estate </h3>
 
             <table class="beautiful-table">
                 <tbody>
@@ -142,7 +146,7 @@
                             <p><strong>Founded in</strong></p>
                         </td>
                         <td>
-                            <p>2012</p>
+                            <p>2022</p>
                         </td>
                     </tr>
                     <tr>
@@ -158,7 +162,7 @@
                             <p><strong>On-going Projects</strong></p>
                         </td>
                         <td>
-                            <p>13 million sq ft of area under-development</p>
+                            <p>N/A</p>
                         </td>
                     </tr>
                     <tr>
@@ -166,9 +170,7 @@
                             <p><strong>Owner of Group</strong></p>
                         </td>
                         <td>
-                            <p>Mr Ajay Piramal, Chairman &amp; Executive Director</p>
-
-                            <p>Anand Piramal, Executive Director</p>
+                            <p>Mr Ashish Agarwal, Founder</p>
                         </td>
                     </tr>
                     <tr>
@@ -176,9 +178,7 @@
                             <p><strong>Operating in Cities</strong></p>
                         </td>
                         <td>
-                            <p>Mumbai</p>
-
-                            <p>Thane</p>
+                            <p>Ghaziabad</p>
                         </td>
                     </tr>
                     <tr>
@@ -186,22 +186,34 @@
                             <p><strong>Official Website</strong></p>
                         </td>
                         <td>
-                            <p><a href="https://www.piramalrealty.com/">https://www.piramalrealty.com/</a></p>
+                            <p>https://aurealestate.in/</p>
                         </td>
                     </tr>
                 </tbody>
             </table>
 
-            <h3>Piramal Realty Office Address </h3>
+            <h3>AU Real Estate Office Address </h3>
 
-            <p><strong>Piramal Group, Corporate Office</strong></p>
+            <p><strong>AU Real Estate, Corporate Office</strong></p>
 
-            <p>Piramal Tower</p>
+            <p>10, Bharat Bhawan, New Rajdhani Enclave, Vikas Marg, New Delhi 110092</p>
 
-            <p>8th Floor, Peninsula Corporate Park, Ganapatrao Kadam Marg, Mumbai, Maharashtra 400013, US</p>
+            <h2>Upcoming Real Estate Projects from AU Real Estate </h2>
 
-            <h2>Upcoming Real Estate Projects from Piramal Realty </h2>
+            <section class="questions">
+                <h2>What types of apartments are available at AU The Sunflower Phase 1?</h2>
+                <p>AU The Sunflower is a luxury residential property featuring state-of-the-art 3 BHK and 4 BHK apartments on NH-24.</p>
+            </section>
 
+            <section class="questions">
+                <h2>What are the leading real estate companies in India?</h2>
+                <p>The real estate industry in India is emerging with state-of-the-art architectural infrastructure along with lucrative price appreciation and ROI. MoneyTree Realty, Paras Buildtech, M3M Group, Devika Group, Sarvottam Group, and ACE Group are the leading real estate companies in India.</p>
+            </section>
+
+            <section class="questions">
+                <h2>What are some of the benefits of investing in commercial property?</h2>
+                <p>Commercial property for sale in India provides promising capital appreciation and high ROI, and features favourable rental yields, minimal maintenance, and hedging against inflation.</p>
+            </section>
 
 
             <?php
@@ -209,7 +221,7 @@
             include '../property-grid-level3.php';
             $urlprefix = '../';
 
-            $groupName = 'Piramal Realty';
+            $groupName = 'Krisumi Corporation';
 
             $aceGroupProperties = array_filter($properties, function ($property) use ($groupName) {
                 return strtolower($property['builder']) === strtolower($groupName);
@@ -225,20 +237,6 @@
 
 
             <h2>Frequently Asked Questions (FAQs)</h2>
-            <section class="questions">
-                <h2>What are the leading real estate companies in India?</h2>
-                <p>The real estate industry in India is emerging with state-of-the-art architectural infrastructure along with lucrative price appreciation and ROI. MoneyTree Realty, Paras Buildtech, M3M Group, Devika Group, Sarvottam Group, and ACE Group are the leading real estate companies in India.</p>
-            </section>
-
-            <section class="questions">
-                <h2>Is Piramal Mahalaxmi a good investment?</h2>
-                <p>Piramal Mahalaxmi offers 2 BHK, 3 BHK, and 4 BHK apartments in South Mumbai with state-of-the-art architecture and provides an array of world-class amenities and facilities, making it a promising real estate investment in India.</p>
-            </section>
-
-            <section class="questions">
-                <h2>Which real estate projects of Piramal Realty are available for sale below 1 Cr?</h2>
-                <p>Piramal Revanta, Piramal Mahalaxmi, and Piramal Aranya are some promising real estate projects in the catalogue of Piramal Realty available for sale under 1 Cr. These projects are strategically located and feature top-notch amenities, offering a premium and leisure living experience.</p>
-            </section>
 
 
 

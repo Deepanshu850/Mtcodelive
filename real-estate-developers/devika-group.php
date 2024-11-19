@@ -26,11 +26,11 @@
 
     <meta property="og:title" content="">
     <meta property="og:site_name" content="Moneytree Realty">
-    <meta property="og:url" content="https://moneytreerealty.com/real-estate-developers/primarl-realty">
+    <meta property="og:url" content="https://moneytreerealty.com/real-estate-developers/devika-group">
     <meta property="og:description" content="">
     <meta property="og:type" content="property">
 
-    <link rel="canonical" href="https://moneytreerealty.com/real-estate-developers/primarl-realty" />
+    <link rel="canonical" href="https://moneytreerealty.com/real-estate-developers/devika-group" />
 
     <script type="application/ld+json">
         {
@@ -38,31 +38,33 @@
             "@type": "FAQPage",
             "mainEntity": [{
                     "@type": "Question",
-                    "name": "What are the leading real estate companies in India?",
+                    "name": "What types of commercial spaces are available at Devika VIBE Panache Bazaar?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "The real estate industry in India is emerging with state-of-the-art architectural infrastructure along with lucrative price appreciation and ROI. MoneyTree Realty, Paras Buildtech, M3M Group, Devika Group, Sarvottam Group, and ACE Group are the leading real estate companies in India."
+                        "text": "Devika Vibe Panache Bazaar is a commercial property in Noida offering retail shops, food courts, and kiosks in the bustling residential sector of Noida - 110."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "Is Piramal Mahalaxmi a good investment?",
+                    "name": "What is the RERA number of Devika VIBE Panache Bazaar?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Piramal Mahalaxmi offers 2 BHK, 3 BHK, and 4 BHK apartments in South Mumbai with state-of-the-art architecture and provides an array of world-class amenities and facilities, making it a promising real estate investment in India."
+                        "text": "Devika Vibe Panache Bazaar is registered under RERA with registration number UPRERAPRJ9275, available on the RERA Website."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "Which real estate projects of Piramal Realty are available for sale below 1 Cr?",
+                    "name": "What are the leading real estate companies in Noida?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Piramal Revanta, Piramal Mahalaxmi, and Piramal Aranya are some promising real estate projects in the catalogue of Piramal Realty available for sale under 1 Cr. These projects are strategically located and feature top-notch amenities, offering a premium and leisure living experience."
+                        "text": "Noida real estate is emerging with state-of-the-art architectural infrastructure along with lucrative price appreciation and ROI. MoneyTree Realty, Paras Buildtech, M3M Group, Devika Group, Sarvottam Group, and ACE Group are the leading real estate companies in India."
                     }
                 }
             ]
         }
     </script>
+
+
 
 
     <!-- Google Tag Manager -->
@@ -124,16 +126,17 @@
 
         <div class="builderData">
 
-            <h1>Explore Upcoming Real Estate Projects from Piramal Realty</h1>
+            <h1>
+                Explore Upcoming Real Estate Projects from Devika Group
+            </h1>
 
+            <h2>Devika Group | An Overview </h2>
 
-            <h2>Piramal Realty | An Overview </h2>
+            <p>Ever since its establishment in 1954, Devika Group is known for redefining the real estate market with state-of-the-art commercial and residential projects in the National Capital Region (NCR). The Group&rsquo;s expertise spans over 65 years and boasts a staggering 6 million sq ft of area delivered in over 35 projects curated to meet the various needs of more than 10,000 happy customers.</p>
 
-            <p>Piramal Realty, founded in 2012, has carried forward its parent group&rsquo;s legacy of uplifting and serving each individual from across every community and has established itself as the most admired real estate builder in India diversifying the way people invest in real estate in india. The group envisioned not just profits and gains but impacting the lives of its customers, committing to the highest standard, and building trust, and culture in the market. </p>
+            <p>Under the leadership of its exemplary directors, Mr. Ankit Agarwal and Ms. Aarti Aggarwal, Devika Group has taken a visionary approach and built iconic landmarks across Delhi and Noida along with providing value to its clients. The real estate projects from Devika Group include luxurious residential apartments, high-end commercial shops, high-street avenues and many more. </p>
 
-            <p>Piramal Realty is widely regarded for its high standard and customer-centric residential and commercial projects that feature top-notch architectural design and quality. The group&#39;s expertise spans over 11 years and boasts more than 13 million sq ft of real estate under development and 5,000 happy families along with a private equity investment fund of $235 million. </p>
-
-            <h3>Key Insights into Piramal Realty </h3>
+            <h3>Key Insights into Devika Group </h3>
 
             <table class="beautiful-table">
                 <tbody>
@@ -142,7 +145,7 @@
                             <p><strong>Founded in</strong></p>
                         </td>
                         <td>
-                            <p>2012</p>
+                            <p>1954</p>
                         </td>
                     </tr>
                     <tr>
@@ -150,25 +153,21 @@
                             <p><strong>Completed Projects</strong></p>
                         </td>
                         <td>
-                            <p>N/A</p>
+                            <p>35 Projects Completed</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
                             <p><strong>On-going Projects</strong></p>
                         </td>
-                        <td>
-                            <p>13 million sq ft of area under-development</p>
-                        </td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>
                             <p><strong>Owner of Group</strong></p>
                         </td>
                         <td>
-                            <p>Mr Ajay Piramal, Chairman &amp; Executive Director</p>
-
-                            <p>Anand Piramal, Executive Director</p>
+                            <p>Ankit Agarwal, Director</p>
                         </td>
                     </tr>
                     <tr>
@@ -176,9 +175,11 @@
                             <p><strong>Operating in Cities</strong></p>
                         </td>
                         <td>
-                            <p>Mumbai</p>
+                            <p>Delhi</p>
 
-                            <p>Thane</p>
+                            <p>Noida</p>
+
+                            <p>Goa</p>
                         </td>
                     </tr>
                     <tr>
@@ -186,22 +187,19 @@
                             <p><strong>Official Website</strong></p>
                         </td>
                         <td>
-                            <p><a href="https://www.piramalrealty.com/">https://www.piramalrealty.com/</a></p>
+                            <p><a href="https://www.devikagroup.com/">www.devikagroup.com</a></p>
                         </td>
                     </tr>
                 </tbody>
             </table>
 
-            <h3>Piramal Realty Office Address </h3>
+            <h3>Devika Group Office Address </h3>
 
-            <p><strong>Piramal Group, Corporate Office</strong></p>
+            <p><strong>Devika Group Corporate Office</strong></p>
 
-            <p>Piramal Tower</p>
+            <p>Devika Tower 6, Lala Lajpat Rai Road, Nehru Place, New Delhi-110019., New Delhi, Delhi 110019, IN</p>
 
-            <p>8th Floor, Peninsula Corporate Park, Ganapatrao Kadam Marg, Mumbai, Maharashtra 400013, US</p>
-
-            <h2>Upcoming Real Estate Projects from Piramal Realty </h2>
-
+            <h2>Upcoming Real Estate Projects from Devika Group </h2>
 
 
             <?php
@@ -209,7 +207,7 @@
             include '../property-grid-level3.php';
             $urlprefix = '../';
 
-            $groupName = 'Piramal Realty';
+            $groupName = 'Devika Group';
 
             $aceGroupProperties = array_filter($properties, function ($property) use ($groupName) {
                 return strtolower($property['builder']) === strtolower($groupName);
@@ -225,21 +223,21 @@
 
 
             <h2>Frequently Asked Questions (FAQs)</h2>
+
             <section class="questions">
-                <h2>What are the leading real estate companies in India?</h2>
-                <p>The real estate industry in India is emerging with state-of-the-art architectural infrastructure along with lucrative price appreciation and ROI. MoneyTree Realty, Paras Buildtech, M3M Group, Devika Group, Sarvottam Group, and ACE Group are the leading real estate companies in India.</p>
+                <h2>What types of commercial spaces are available at Devika VIBE Panache Bazaar?</h2>
+                <p>Devika Vibe Panache Bazaar is a commercial property in Noida offering retail shops, food courts, and kiosks in the bustling residential sector of Noida - 110.</p>
             </section>
 
             <section class="questions">
-                <h2>Is Piramal Mahalaxmi a good investment?</h2>
-                <p>Piramal Mahalaxmi offers 2 BHK, 3 BHK, and 4 BHK apartments in South Mumbai with state-of-the-art architecture and provides an array of world-class amenities and facilities, making it a promising real estate investment in India.</p>
+                <h2>What is the RERA number of Devika VIBE Panache Bazaar?</h2>
+                <p>Devika Vibe Panache Bazaar is registered under RERA with registration number UPRERAPRJ9275, available on the RERA Website.</p>
             </section>
 
             <section class="questions">
-                <h2>Which real estate projects of Piramal Realty are available for sale below 1 Cr?</h2>
-                <p>Piramal Revanta, Piramal Mahalaxmi, and Piramal Aranya are some promising real estate projects in the catalogue of Piramal Realty available for sale under 1 Cr. These projects are strategically located and feature top-notch amenities, offering a premium and leisure living experience.</p>
+                <h2>What are the leading real estate companies in Noida?</h2>
+                <p>Noida real estate is emerging with state-of-the-art architectural infrastructure along with lucrative price appreciation and ROI. MoneyTree Realty, Paras Buildtech, M3M Group, Devika Group, Sarvottam Group, and ACE Group are the leading real estate companies in India.</p>
             </section>
-
 
 
         </div>
