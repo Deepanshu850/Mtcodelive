@@ -1,25 +1,53 @@
 <?php
-// Set response headers
-header('Access-Control-Allow-Origin: *');
+// Set response headers for open CORS
+header('Access-Control-Allow-Origin: *'); // Allow requests from any origin
+header('Access-Control-Allow-Methods: POST, GET, OPTIONS');
+header('Access-Control-Allow-Headers: Content-Type, X-API-KEY');
 header('Content-Type: application/json');
+
+// Handle preflight (OPTIONS) requests
+if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
+    header('Access-Control-Allow-Origin: *');
+    header('Access-Control-Allow-Methods: POST, GET, OPTIONS');
+    header('Access-Control-Allow-Headers: Content-Type, X-API-KEY');
+    http_response_code(204); // No Content
+    exit;
+}
 
 // Define a valid API key
 $validApiKey = '8565bae9-44c2-4502-a895-dc70a7e24bc1';
 
 // Check for the API key in the request headers
 $headers = getallheaders();
-if (!isset($headers['X-API-KEY']) || $headers['X-API-KEY'] !== $validApiKey) {
+$apiKey = $headers['X-API-KEY'] ?? $headers['x-api-key'] ?? null;
+if ($apiKey !== $validApiKey) {
     http_response_code(403); // Forbidden
     echo json_encode(['message' => 'Forbidden: Invalid or missing API key']);
     exit;
 }
 
-// Check if the request is a POST for contact form submission
+// Database connection details
+$host = 'localhost';
+$db = 'mt';
+$user = 'root';
+$pass = '';
+$charset = 'utf8mb4';
+$dsn = "mysql:host=$host;dbname=$db;charset=$charset";
+
+try {
+    $pdo = new PDO($dsn, $user, $pass);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    http_response_code(500); // Internal Server Error
+    echo json_encode(['message' => 'Database connection failed', 'error' => $e->getMessage()]);
+    exit;
+}
+
+// Handle POST requests for contact form
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Get the raw POST data
     $postData = json_decode(file_get_contents('php://input'), true);
 
-    // Validate the required fields for the contact form
+    // Validate required fields
     if (
         isset($postData['name'], $postData['phone_number'], $postData['subject'], $postData['message']) &&
         !empty(trim($postData['name'])) &&
@@ -34,26 +62,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             exit;
         }
 
-        // Database connection details
-        $host = 'localhost'; // Database host
-        $db = 'mt'; // Database name
-        $user = 'root'; // Database username
-        $pass = ''; // Database password
-        $charset = 'utf8mb4'; // Character set
-        // Connect to the database
-        $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
-        try {
-            $pdo = new PDO($dsn, $user, $pass);
-            $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        } catch (PDOException $e) {
-            http_response_code(500); // Internal Server Error
-            echo json_encode(['message' => 'Database connection failed', 'error' => $e->getMessage()]);
-            exit;
-        }
-
-        // Insert the contact form data into the database
         $sql = "INSERT INTO contact_form_submissions (name, phone_number, subject, message, submitted_at)
                 VALUES (:name, :phone_number, :subject, :message, NOW())";
+
         try {
             $stmt = $pdo->prepare($sql);
             $stmt->execute([
@@ -62,23 +73,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 ':subject' => trim($postData['subject']),
                 ':message' => trim($postData['message'])
             ]);
-
-            // Return success response
             echo json_encode(['message' => 'Form submitted successfully!']);
         } catch (PDOException $e) {
             http_response_code(500); // Internal Server Error
             echo json_encode(['message' => 'Failed to save data', 'error' => $e->getMessage()]);
         }
-        exit;
     } else {
-        // Missing or empty fields
         http_response_code(400); // Bad Request
-        echo json_encode(['message' => 'All fields are required and cannot be empty.']);
-        exit;
+        echo json_encode(['message' => 'All fields are required.']);
     }
+    exit;
 }
 
-// Array of files to include for other types
+// Handle GET requests
 $dataFiles = [
     'blogdata.php' => 'posts',
     'developerslogodata.php' => 'developerLogos',
@@ -97,18 +104,15 @@ foreach ($dataFiles as $file => $variableName) {
     $filePath = __DIR__ . '/' . $file;
     if (file_exists($filePath)) {
         include $filePath;
-        // Check if the expected variable exists in the included file
         if (isset($$variableName) && is_array($$variableName)) {
             $allData[$variableName] = $$variableName;
         }
     }
 }
 
-// Check for `type` parameter for GET requests
 if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['type'])) {
     $type = $_GET['type'];
     if (isset($allData[$type])) {
-        // Handle `id` parameter for filtering specific items
         if (isset($_GET['id'])) {
             $id = (int)$_GET['id'];
             $filteredData = array_filter($allData[$type], function ($item) use ($id) {
@@ -122,7 +126,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['type'])) {
                 exit;
             }
         }
-        // Return all items for the specified type
         echo json_encode($allData[$type], JSON_PRETTY_PRINT);
         exit;
     } else {
@@ -131,7 +134,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['type'])) {
     }
 }
 
-// Return all data if no specific type is requested for GET
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     echo json_encode($allData, JSON_PRETTY_PRINT);
+} else {
+    http_response_code(404); // Not Found
+    echo json_encode(['message' => 'Endpoint not found']);
 }
