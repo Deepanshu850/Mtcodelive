@@ -21,21 +21,19 @@
     <main style="min-height: 100vh;width: 100%;">
 
         <section class="search-section">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-8">
-                        <!-- Ensure method is GET and 'action' points to the correct endpoint -->
-                        <form action="search" method="GET" class="search-form">
-                            <div class="input-group position-relative">
-                                <input type="text" name="search" id="search-input" class="form-control" placeholder="Search..." required autocomplete="off">
-                                <button type="submit" class="btn btn-primary">Search</button>
-                                <!-- Suggestions List -->
-                                <ul id="suggestions" class="list-group suggestions-box"></ul>
-                            </div>
-                        </form>
-                    </div>
+
+
+            <!-- Ensure method is GET and 'action' points to the correct endpoint -->
+            <form action="search" method="GET" class="search-form">
+                <div class="input-group position-relative">
+                    <input type="text" name="search" id="search-input" class="form-control" placeholder="Search..." required autocomplete="off">
+                    <button type="submit" class="btn btn-primary">Search</button>
+                    <!-- Suggestions List -->
+                    <ul id="suggestions" class="list-group suggestions-box"></ul>
                 </div>
-            </div>
+            </form>
+
+
         </section>
 
 
@@ -111,6 +109,14 @@
         </script>
 
         <style>
+            .search-section {
+                padding-block: 1.5rem;
+                max-width: 600px;
+                margin-inline: auto;
+            }
+
+
+
             /* Suggestions styling */
             .suggestions-box {
                 position: absolute;
@@ -172,6 +178,11 @@
                 border: none;
                 font-size: 14px;
                 font-weight: 600;
+            }
+
+            .search-section .btn-primary {
+                border-top-right-radius: 4px !important;
+                border-bottom-right-radius: 4px !important;
             }
         </style>
 

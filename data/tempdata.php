@@ -582,7 +582,7 @@ Real Estate',
     [
         'id' => 20,
         'name' => 'Piramal Mahalaxmi',
-        'link' => 'piramal-mahalaxm',
+        'link' => 'piramal-mahalaxmi',
         'builder' => 'Piramal Realty',
         'location' => ['Mumbai', 'Sane Guruji Road', '201304', ''],
         'images' => [
