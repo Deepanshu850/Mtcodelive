@@ -5,167 +5,165 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pincode Finder</title>
-    <style>
-    /* Enhanced CSS styles */
-    /* Container */
-    .finder-container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 20px;
-        background-color: #fafafa;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-        border-radius: 10px;
-        transition: all 0.3s ease;
-    }
+    <style>/* Enhanced CSS styles */
+/* Container */
+.finder-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fafafa;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
 
-    .finder-container:hover {
-        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
-    }
+.finder-container:hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
 
-    /* Heading */
-    .finder-heading {
-        color: #2c3e50;
-        text-align: center;
-        font-size: 28px;
-        font-weight: 700;
-        letter-spacing: 1px;
-        margin-bottom: 30px;
-        font-family: 'Arial', sans-serif;
-        text-transform: uppercase;
-        position: relative;
-    }
+/* Heading */
+.finder-heading {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+}
 
-    .finder-heading:after {
-        content: '';
-        width: 80px;
-        height: 3px;
-        background-color: #007bff;
-        display: block;
-        margin: 10px auto 0;
-        border-radius: 2px;
-    }
+.finder-heading:after {
+    content: '';
+    width: 80px;
+    height: 3px;
+    background-color: #005b52;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
 
-    /* Search Form */
-    .finder-form {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 30px;
-    }
+/* Search Form */
+.finder-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
 
-    .finder-input {
-        padding: 12px 15px;
-        font-size: 18px;
-        border: 2px solid #ddd;
-        border-radius: 30px;
-        width: 100%;
-        max-width: 400px;
-        transition: border-color 0.3s ease;
-    }
+.finder-input {
+    padding: 12px 15px;
+    font-size: 18px;
+    border: 2px solid #ddd;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 400px;
+    transition: border-color 0.3s ease;
+}
 
-    .finder-input:focus {
-        outline: none;
-        border-color: #007bff;
-        box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+.finder-input:focus {
+    outline: none;
+    border-color: #005b52;
+    box-shadow: 0 0 8px rgba(0, 91, 82, 0.2);
+}
+
+.finder-button {
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    background-color: #005b52;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 15px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.finder-button:hover {
+    background-color: #004741;
+    box-shadow: 0 4px 15px rgba(0, 91, 82, 0.3);
+}
+
+/* Cards */
+.finder-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    margin: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+    cursor: pointer;
+    width: 100%;
+    max-width: 320px;
+    opacity: 0;
+    animation: fadeInUp 0.5s ease forwards;
+}
+
+.finder-card:nth-child(odd) {
+    animation-delay: 0.1s;
+}
+
+.finder-card:nth-child(even) {
+    animation-delay: 0.2s;
+}
+
+.finder-card:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.finder-card h2 {
+    font-size: 22px;
+    margin: 0 0 15px;
+    color: #005b52;
+    font-weight: 600;
+}
+
+.finder-card p {
+    margin: 0;
+    color: #777;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.finder-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Animation for cards */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+    .finder-card {
+        width: 90%;
+        max-width: 100%;
     }
 
     .finder-button {
-        padding: 12px 25px;
-        font-size: 18px;
-        font-weight: 600;
-        border: none;
-        background-color: #007bff;
-        color: white;
-        border-radius: 30px;
-        cursor: pointer;
-        margin-left: 15px;
-        transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    .finder-button:hover {
-        background-color: #0056b3;
-        box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
-    }
-
-    /* Cards */
-    .finder-card {
-        background-color: white;
-        border-radius: 12px;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-        padding: 25px;
-        margin: 15px;
-        text-align: center;
-        transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
-        cursor: pointer;
+        margin-left: 0;
+        margin-top: 10px;
         width: 100%;
-        max-width: 320px;
-        opacity: 0;
-        animation: fadeInUp 0.5s ease forwards;
     }
 
-    .finder-card:nth-child(odd) {
-        animation-delay: 0.1s;
+    .finder-form {
+        flex-direction: column;
+        align-items: center;
     }
-
-    .finder-card:nth-child(even) {
-        animation-delay: 0.2s;
-    }
-
-    .finder-card:hover {
-        transform: translateY(-5px) scale(1.05);
-        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-    }
-
-    .finder-card h2 {
-        font-size: 22px;
-        margin: 0 0 15px;
-        color: #333;
-        font-weight: 600;
-    }
-
-    .finder-card p {
-        margin: 0;
-        color: #777;
-        font-size: 16px;
-        line-height: 1.5;
-    }
-
-    .finder-card-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    /* Animation for cards */
-    @keyframes fadeInUp {
-        0% {
-            opacity: 0;
-            transform: translateY(20px);
-        }
-        100% {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    }
-
-    /* Media Queries for Mobile Responsiveness */
-    @media (max-width: 768px) {
-        .finder-card {
-            width: 90%;
-            max-width: 100%;
-        }
-
-        .finder-button {
-            margin-left: 0;
-            margin-top: 10px;
-            width: 100%;
-        }
-
-        .finder-form {
-            flex-direction: column;
-            align-items: center;
-        }
-    }
-</style>
+}</style>
 </head>
 <body>
 
