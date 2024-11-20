@@ -320,16 +320,301 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                     <div class=inner-desc>
                         <p>Best Real Estate Consultant in Delhi/NCR, The MONEYTREE REALTY SERVICES PVT. LTD.(RERA REG.), comprises a group of proficient professionals to provide the world-class Real Estate Service.
                         <p><br>Under the leadership of renowned Real Estate Tycoon <b>Mr. Sachin Arora</b>, We at MONEYTREE REALTY SERVICES PVT. LTD.(RERA REG.) works with great enthusiasm and provides a diverse catalogue of properties from residential to commercial.
-                        <form action=top-real-estate-poperty-consultant-in-india.php>
-
-                            <div class="search-container">
-                                <input type="text" class="search-input" name="search" placeholder="Enter City or Property Name to search properties here"
-                                    value="<?php echo isset($_GET['search']) ? htmlspecialchars($_GET['search']) : ''; ?>">
-                                <button class="search-btn" type="submit">Search</button>
+                        <form class="search-form" action="search.php" method="GET" onsubmit="event.preventDefault(); window.location.href='search?search=' + document.querySelector('input[name=search]').value;">
+                            <!-- Location Input -->
+                            <div class="form-group position-relative">
+                                <input type="text" name="search" placeholder="Enter City, Location, or Project Name" autocomplete="off" oninput="fetchSuggestions(this.value)" onkeydown="handleKeyNavigation(event)">
+                                <!-- Suggestions List -->
+                                <ul id="suggestions" class="list-group suggestions-box"></ul>
                             </div>
+
+                            <!-- Search Button -->
+                            <button type="submit" class="search-btn">Search</button>
                         </form>
                     </div>
                 </div>
+
+
+                <style>
+                    /* General Styles */
+
+                    .hero-section {
+                        position: relative;
+                        width: 100%;
+                        height: 100vh;
+                        background: url('./best-real-estate-property-consultant-in-india.jpeg') center/cover no-repeat;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background-size: cover;
+                        /* Make sure the image covers the section */
+                        background-position: center;
+                        /* Center the image */
+                        background-attachment: fixed;
+                        /* Creates the parallax effect */
+                        background-repeat: no-repeat;
+                    }
+
+                    .overlay {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        background: rgba(0, 0, 0, 0.4);
+                        z-index: 1;
+                    }
+
+                    .search-bar-container {
+                        position: relative;
+                        z-index: 500;
+                        width: 90%;
+                        max-width: 1000px;
+                        background: rgba(255, 255, 255, 0.2);
+                        border-radius: 15px;
+                        padding: 30px 20px;
+                        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+                        text-align: center;
+                        backdrop-filter: blur(10px);
+                        -webkit-backdrop-filter: blur(10px);
+                        border: 1px solid rgba(255, 255, 255, 0.3);
+                    }
+
+                    .search-bar-container h1 {
+                        font-size: 2.5rem;
+                        font-weight: bold;
+                        color: #fff;
+                        margin-bottom: 20px;
+                    }
+
+                    .search-bar-container p {
+                        font-size: 1rem;
+                        color: #ddd;
+                        margin-bottom: 20px;
+                    }
+
+                    .search-form {
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 10px;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                    .form-group {
+                        position: relative;
+                        width: 70%;
+                    }
+
+                    .form-group input {
+                        width: 100%;
+                        padding: 6px 20px;
+                        font-size: 1rem;
+                        border: 2px solid rgba(255, 255, 255, 0.3);
+                        border-radius: 30px;
+                        outline: 1px solid grey;
+                        transition: all 0.3s ease;
+                        background: rgba(255, 255, 255, 0.2);
+                        color: grey;
+                        font-weight: bold;
+                    }
+
+                    .form-group input::placeholder {
+                        color: #ddd;
+                    }
+
+                    .form-group input:focus {
+                        border: 2px solid #00aaff;
+                        background: rgba(255, 255, 255, 0.5);
+                        color: grey;
+                        box-shadow: 0 0 8px rgba(0, 170, 255, 0.5);
+                    }
+
+                    .search-btn {
+                        padding: 8px 16px;
+                        font-size: 15px;
+                        background: radial-gradient(circle at top, #0e9688 0%, #007f70 30%, #005b52 100%);
+                        color: white;
+                        font-weight: 600;
+                        border: none;
+                        border-radius: 20px;
+                        cursor: pointer;
+                        transition: background 0.3s ease, transform 0.2s ease;
+                    }
+
+                    .search-btn:hover {
+                        background: radial-gradient(circle at top, #0e9688 0%, #1c9486 30%, #005b52 100%);
+                        transform: translateY(-1px);
+                    }
+
+                    /* Mobile Responsiveness */
+                    @media (max-width: 768px) {
+                        .search-bar-container {
+                            padding: 20px;
+                        }
+
+                        .search-bar-container h1 {
+                            font-size: 2rem;
+                        }
+
+                        .search-btn {
+                            font-size: 14px;
+                            padding: 12px;
+                            width: 120px;
+                        }
+
+                        .search-form {
+                            flex-direction: column;
+                        }
+
+                        .form-group {
+                            position: relative;
+                            width: 100%;
+                        }
+                    }
+                </style>
+
+
+                <style>
+                    /* Suggestions styling */
+                    .suggestions-box {
+                        position: absolute;
+                        top: 100%;
+                        left: 0;
+                        width: 100%;
+                        max-height: 200px;
+                        overflow-y: auto;
+                        background: #fff;
+                        border: 1px solid #ddd;
+                        border-radius: 4px;
+                        z-index: 500;
+                        display: none;
+                        /* Hidden by default */
+                        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+                        margin-top: 5px;
+                    }
+
+                    .suggestions-box .list-group-item {
+                        padding: 10px 15px;
+                        font-size: 1rem;
+                        cursor: pointer;
+                        border: none;
+                        text-align: left;
+                    }
+
+                    .suggestions-box .list-group-item.active {
+                        background-color: #007bff;
+                        /* Highlight background */
+                        color: #fff;
+                        /* Highlight text */
+                    }
+
+                    .suggestions-box.show {
+                        display: block;
+                    }
+                </style>
+
+
+
+                <script>
+                    let activeIndex = -1; // Tracks the active suggestion
+
+                    function fetchSuggestions(query) {
+                        const suggestionsBox = document.getElementById('suggestions');
+
+                        if (query.trim().length > 0) {
+                            fetch(`suggest.php?query=${encodeURIComponent(query)}`)
+                                .then((response) => response.json())
+                                .then((data) => {
+                                    suggestionsBox.innerHTML = '';
+                                    if (data.length > 0) {
+                                        data.forEach((keyword, index) => {
+                                            const listItem = document.createElement('li');
+                                            listItem.classList.add('list-group-item');
+                                            listItem.textContent = keyword;
+
+                                            // Handle click event
+                                            listItem.addEventListener('click', () => {
+                                                document.querySelector('input[name=search]').value = keyword;
+                                                suggestionsBox.classList.remove('show');
+                                                document.querySelector('.search-form').submit();
+                                            });
+
+                                            suggestionsBox.appendChild(listItem);
+                                        });
+                                        suggestionsBox.classList.add('show');
+                                        activeIndex = -1; // Reset active index
+                                    } else {
+                                        suggestionsBox.classList.remove('show');
+                                    }
+                                })
+                                .catch((error) => {
+                                    console.error('Error fetching suggestions:', error);
+                                });
+                        } else {
+                            suggestionsBox.classList.remove('show');
+                        }
+                    }
+
+                    function handleKeyNavigation(event) {
+                        const suggestionsBox = document.getElementById('suggestions');
+                        const suggestions = suggestionsBox.querySelectorAll('.list-group-item');
+
+                        if (suggestions.length > 0) {
+                            if (event.key === 'ArrowDown') {
+                                // Move down
+                                event.preventDefault();
+                                activeIndex = (activeIndex + 1) % suggestions.length;
+                                highlightSuggestion(suggestions, activeIndex);
+                            } else if (event.key === 'ArrowUp') {
+                                // Move up
+                                event.preventDefault();
+                                activeIndex = (activeIndex - 1 + suggestions.length) % suggestions.length;
+                                highlightSuggestion(suggestions, activeIndex);
+                            } else if (event.key === 'Enter') {
+                                // Select the highlighted suggestion
+                                event.preventDefault();
+                                if (activeIndex >= 0) {
+                                    const selectedSuggestion = suggestions[activeIndex].textContent;
+                                    document.querySelector('input[name=search]').value = selectedSuggestion;
+                                    suggestionsBox.classList.remove('show');
+                                }
+                                document.querySelector('.search-form').submit();
+                            }
+                        }
+                    }
+
+                    function highlightSuggestion(suggestions, index) {
+                        suggestions.forEach((item, i) => {
+                            if (i === index) {
+                                item.classList.add('active');
+                                // Ensure the active suggestion is in view
+                                item.scrollIntoView({
+                                    block: 'nearest',
+                                    behavior: 'smooth'
+                                });
+                            } else {
+                                item.classList.remove('active');
+                            }
+                        });
+                    }
+
+                    // Hide suggestions when clicking outside
+                    document.addEventListener('click', function(event) {
+                        const suggestionsBox = document.getElementById('suggestions');
+                        if (!event.target.closest('.form-group')) {
+                            suggestionsBox.classList.remove('show');
+                        }
+                    });
+                </script>
+
+
+
+
+
+
+
+
                 <div class="d-flex banner-right">
                     <div class=family><img loading="lazy" alt="moneytree realty property image" src=assets/img/slideras/property-img-one.png class=img-fluid> <img loading="lazy" alt="property consultant " src=assets/img/slideras/property-img-two.png class=img-fluid>
                         <div class=banner-right-inner>
@@ -350,141 +635,6 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
 
 
 
-
-
-
-
-        <style>
-            /* Suggestions styling */
-            .suggestions-box {
-                position: absolute;
-                top: 100%;
-                left: 0;
-                width: 100%;
-                max-height: 200px;
-                overflow-y: auto;
-                background: #fff;
-                border: 1px solid #ddd;
-                border-radius: 4px;
-                z-index: 500;
-                display: none;
-                /* Hidden by default */
-                box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-                margin-top: 5px;
-            }
-
-            .suggestions-box .list-group-item {
-                padding: 10px 15px;
-                font-size: 1rem;
-                cursor: pointer;
-                border: none;
-                text-align: left;
-            }
-
-            .suggestions-box .list-group-item.active {
-                background-color: #007bff;
-                /* Highlight background */
-                color: #fff;
-                /* Highlight text */
-            }
-
-            .suggestions-box.show {
-                display: block;
-            }
-        </style>
-
-
-        <script>
-            let activeIndex = -1; // Tracks the active suggestion
-
-            function fetchSuggestions(query) {
-                const suggestionsBox = document.getElementById('suggestions');
-
-                if (query.trim().length > 0) {
-                    fetch(`suggest.php?query=${encodeURIComponent(query)}`)
-                        .then((response) => response.json())
-                        .then((data) => {
-                            suggestionsBox.innerHTML = '';
-                            if (data.length > 0) {
-                                data.forEach((keyword, index) => {
-                                    const listItem = document.createElement('li');
-                                    listItem.classList.add('list-group-item');
-                                    listItem.textContent = keyword;
-
-                                    // Handle click event
-                                    listItem.addEventListener('click', () => {
-                                        document.querySelector('input[name=search]').value = keyword;
-                                        suggestionsBox.classList.remove('show');
-                                        document.querySelector('.search-form').submit();
-                                    });
-
-                                    suggestionsBox.appendChild(listItem);
-                                });
-                                suggestionsBox.classList.add('show');
-                                activeIndex = -1; // Reset active index
-                            } else {
-                                suggestionsBox.classList.remove('show');
-                            }
-                        })
-                        .catch((error) => {
-                            console.error('Error fetching suggestions:', error);
-                        });
-                } else {
-                    suggestionsBox.classList.remove('show');
-                }
-            }
-
-            function handleKeyNavigation(event) {
-                const suggestionsBox = document.getElementById('suggestions');
-                const suggestions = suggestionsBox.querySelectorAll('.list-group-item');
-
-                if (suggestions.length > 0) {
-                    if (event.key === 'ArrowDown') {
-                        // Move down
-                        event.preventDefault();
-                        activeIndex = (activeIndex + 1) % suggestions.length;
-                        highlightSuggestion(suggestions, activeIndex);
-                    } else if (event.key === 'ArrowUp') {
-                        // Move up
-                        event.preventDefault();
-                        activeIndex = (activeIndex - 1 + suggestions.length) % suggestions.length;
-                        highlightSuggestion(suggestions, activeIndex);
-                    } else if (event.key === 'Enter') {
-                        // Select the highlighted suggestion
-                        event.preventDefault();
-                        if (activeIndex >= 0) {
-                            const selectedSuggestion = suggestions[activeIndex].textContent;
-                            document.querySelector('input[name=search]').value = selectedSuggestion;
-                            suggestionsBox.classList.remove('show');
-                        }
-                        document.querySelector('.search-form').submit();
-                    }
-                }
-            }
-
-            function highlightSuggestion(suggestions, index) {
-                suggestions.forEach((item, i) => {
-                    if (i === index) {
-                        item.classList.add('active');
-                        // Ensure the active suggestion is in view
-                        item.scrollIntoView({
-                            block: 'nearest',
-                            behavior: 'smooth'
-                        });
-                    } else {
-                        item.classList.remove('active');
-                    }
-                });
-            }
-
-            // Hide suggestions when clicking outside
-            document.addEventListener('click', function(event) {
-                const suggestionsBox = document.getElementById('suggestions');
-                if (!event.target.closest('.form-group')) {
-                    suggestionsBox.classList.remove('show');
-                }
-            });
-        </script>
 
         <style>
             .property-carousel {
@@ -1058,116 +1208,79 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                 grid-column: 2
             }
         </style>
-        <div class=property-container style=padding:20px><?php
-                                                            include "data/propertydata.php";
-
-                                                            $searchQuery = isset($_GET['search']) ? strtolower($_GET['search']) : null;
-
-                                                            $displayProperties = [];
-
-                                                            if ($searchQuery) {
-                                                                $displayProperties = array_filter($properties, function ($property) use ($searchQuery) {
-                                                                    $propertyName = strtolower($property['name']);
-                                                                    $propertyLocation = strtolower($property['location']);
-                                                                    return strpos($propertyName, $searchQuery) !== false || strpos($propertyLocation, $searchQuery) !== false;
-                                                                });
-                                                            } else {
-                                                                $displayProperties = $properties;
-                                                            }
 
 
-                                                            ?><script>
-                function nextImage(element) {
-                    const images = element.querySelectorAll('img');
-                    const totalImages = images.length;
-                    let currentIndex = [...images].findIndex(img => img.style.display !== 'none');
 
-                    images[currentIndex].style.display = 'none';
-                    currentIndex = (currentIndex + 1) % totalImages;
-                    images[currentIndex].style.display = 'block';
-                }
-            </script>
-            <?php
-            function getTypeLink($type)
-            {
-                switch ($type) {
-                    case 'Residential':
-                        return '../category/residential-property';
-                    case 'Commercial':
-                        return '../category/commercial-property';
-                    case 'Studio Apartments':
-                        return '../category/studio-apartments';
-                    case 'Plots':
-                        return '../category/plots';
-                    default:
-                        return '../404';
-                }
+        <?php
+        function getTypeLink($type)
+        {
+            switch ($type) {
+                case 'Residential':
+                    return '../category/residential-property';
+                case 'Commercial':
+                    return '../category/commercial-property';
+                case 'Studio Apartments':
+                    return '../category/studio-apartments';
+                case 'Plots':
+                    return '../category/plots';
+                default:
+                    return '../404';
             }
-            ?>
-            <div class=content>
-                <p class=gradient-heading>Properties
-                <p class=text-section>Discover your dream property with us. Explore listings that match your lifestyle and budget, from modern city apartments to cozy country homes. Let us guide you home by Best Real Estate Consultant In Delhi/NCR.
-            </div>
-            <div class=properties-grid id=propertiesGrid><?php if (empty($properties)) : ?><div class="property-card no-results-card"><img alt="No Results Found" src=./assets/img/logo.png>
-                        <h2>Can't find what you're looking for?</h2>
-                        <p>Unfortunately, we don't have properties in this location at the moment. But we're always adding new listings!</p><a href=contact.php#contact-form class=details-link>Contact Us</a>
-                    </div><?php else : ?><?php foreach ($properties as $index => $property) :
-                                            ?>
-                    <?php
+        }
+        ?>
 
-                                                                    $slug = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $property['name'])));
 
-                                                                    $detailsPagePath = 'propertydetail/' . $slug;
-                    ?><div class=property-card style="display:<?php echo $index < 6 ? 'grid' : 'none'; ?>">
-                        <div class=property-images onclick=nextImage(this)><?php foreach ($property['images'] as $imgIndex => $image) : ?><img alt="Property Image" loading="lazy" src="<?php echo htmlspecialchars($image); ?>" style="<?php echo $imgIndex > 0 ? 'display:none;' : ''; ?>"><?php endforeach; ?></div>
-                        <h2><a href="<?php echo htmlspecialchars($detailsPagePath); ?>"><?php echo htmlspecialchars($property['name']); ?></a></h2>
-                        <div class=property-info-wrapper>
-                            <p><b>Location:</b><?php echo htmlspecialchars($property['location']); ?>
-                            <p><b>Price:</b><?php echo htmlspecialchars($property['price']); ?></p><a href="<?php echo htmlspecialchars($detailsPagePath); ?>" class=details-link>View Details</a>
-                            <div><b>Type:</b>
-                                <p><?php foreach ($property['type'] as $type) : ?>
-                                        <a href="<?php echo htmlspecialchars(getTypeLink($type)); ?>">
-                                            <span><?php echo htmlspecialchars($type); ?></span>
-                                        </a>
-                                    <?php endforeach; ?>
-                            </div>
+
+
+        <div class="property-container" style="padding:20px;">
+            <?php include "data/propertydata.php"; ?>
+
+            <div class="properties-grid" id="propertiesGrid">
+                <?php foreach ($properties as $index => $property): ?>
+                    <div class="property-card" style="display:<?php echo $index < 6 ? 'grid' : 'none'; ?>">
+                        <div class="property-images">
+                            <?php foreach ($property['images'] as $imgIndex => $image): ?>
+                                <img alt="Property Image" src="<?php echo htmlspecialchars($image); ?>">
+                            <?php endforeach; ?>
                         </div>
-                    </div><?php endforeach; ?><?php endif; ?></div><?php if (count($properties) > 6) : ?><div class=read-more-container><button onclick=showMoreProperties() id=readMoreBtn>Show More</button></div><?php endif; ?><script>
-                function showMoreProperties() {
-                    const propertyCards = document.querySelectorAll('#propertiesGrid .property-card');
-                    let visibleCount = 0;
+                        <h2><a href="propertydetail/<?php echo strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $property['name']))); ?>">
+                                <?php echo htmlspecialchars($property['name']); ?>
+                            </a></h2>
+                        <p><b>Location:</b> <?php echo htmlspecialchars(implode(', ', $property['location'])); ?></p>
+                        <p><b>Price:</b> <?php echo htmlspecialchars($property['price']); ?></p>
+                        <p><b>Type:</b> <?php echo htmlspecialchars(implode(', ', $property['type'])); ?></p>
+                        <a href="propertydetail/<?php echo strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $property['name']))); ?>" class="details-link">View Details</a>
+                    </div>
+                <?php endforeach; ?>
+            </div>
 
-                    for (const card of propertyCards) {
-                        if (card.style.display !== 'none') {
-                            visibleCount++;
-                        }
-                    }
-
-                    for (let i = visibleCount; i < visibleCount + 3 && i < propertyCards.length; i++) {
-                        propertyCards[i].style.display = 'grid';
-                    }
-
-                    if (visibleCount + 3 >= propertyCards.length) {
-                        document.getElementById('readMoreBtn').style.display = 'none';
-                    }
-                }
-
-                function nextImage(container) {
-                    const images = container.getElementsByTagName('img');
-                    let currentIndex;
-                    for (let i = 0; i < images.length; i++) {
-                        if (images[i].style.display !== 'none') {
-                            currentIndex = i;
-                            images[i].style.display = 'none';
-                            break;
-                        }
-                    }
-                    const nextIndex = (currentIndex + 1) % images.length;
-                    images[nextIndex].style.display = 'grid';
-                }
-            </script>
+            <?php if (count($properties) > 6): ?>
+                <div class="read-more-container">
+                    <button onclick="showMoreProperties()" id="readMoreBtn">Show More</button>
+                </div>
+            <?php endif; ?>
         </div>
 
+        <script>
+            function showMoreProperties() {
+                const propertyCards = document.querySelectorAll('#propertiesGrid .property-card');
+                let visibleCount = 0;
+
+                for (const card of propertyCards) {
+                    if (card.style.display !== 'none') {
+                        visibleCount++;
+                    }
+                }
+
+                for (let i = visibleCount; i < visibleCount + 6 && i < propertyCards.length; i++) {
+                    propertyCards[i].style.display = 'grid';
+                }
+
+                if (visibleCount + 6 >= propertyCards.length) {
+                    document.getElementById('readMoreBtn').style.display = 'none';
+                }
+            }
+        </script>
 
 
         <div class="mb-100 pt-90 pb-40 why-choose-area">
