@@ -34,5 +34,5 @@ Thanks again for helping me in buying My Dream Property.'
         'pic' => 'https://lh3.googleusercontent.com/a/ACg8ocLhA6mLKHiCt9E01q8kmRTIzqdmIGJmkulDBg6hVAxLPlzWa84=w36-h36-p-rp-mo-br100',
         'review' => 'Excellent experience; trustworthy company; one-stop shop for all my real estate needs, whether for personal or financial purposes. Each employee in the business cares for customers as if they were family.'
     ],
- 
+
 ];

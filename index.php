@@ -1026,8 +1026,9 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
             }
 
             .property-card h2 {
-                font-size: 22px;
-                margin: 0
+                font-size: 20px;
+                line-height: 1.6;
+                margin: 0;
             }
 
             .property-card h2 a {
@@ -1176,7 +1177,8 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                 }
 
                 .property-card h2 {
-                    font-size: 24px
+                    font-size: 20px;
+                    line-height: 1.6;
                 }
 
                 .property-card p,
@@ -1208,48 +1210,56 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                 grid-column: 2
             }
         </style>
-
-
-
-        <?php
-        function getTypeLink($type)
-        {
-            switch ($type) {
-                case 'Residential':
-                    return '../category/residential-property';
-                case 'Commercial':
-                    return '../category/commercial-property';
-                case 'Studio Apartments':
-                    return '../category/studio-apartments';
-                case 'Plots':
-                    return '../category/plots';
-                default:
-                    return '../404';
-            }
-        }
-        ?>
-
-
-
-
         <div class="property-container" style="padding:20px;">
-            <?php include "data/propertydata.php"; ?>
+
+            <?php
+            include "data/tempdata.php";
+
+            // Function to generate type links
+            function getTypeLink($type)
+            {
+                switch ($type) {
+                    case 'Residential':
+                        return '../category/residential-property';
+                    case 'Commercial':
+                        return '../category/commercial-property';
+                    case 'Studio Apartments':
+                        return '../category/studio-apartments';
+                    case 'Plots':
+                        return '../category/plots';
+                    default:
+                        return '../404';
+                }
+            }
+            ?>
 
             <div class="properties-grid" id="propertiesGrid">
                 <?php foreach ($properties as $index => $property): ?>
-                    <div class="property-card" style="display:<?php echo $index < 6 ? 'grid' : 'none'; ?>">
-                        <div class="property-images">
+
+                    <div class="property-card" style="display: <?php echo $index < 6 ? 'grid' : 'none'; ?>;">
+                        <div class="property-images" onclick="nextImage(this)">
                             <?php foreach ($property['images'] as $imgIndex => $image): ?>
-                                <img alt="Property Image" src="<?php echo htmlspecialchars($image); ?>">
+                                <img alt="Property Image" src="<?php echo htmlspecialchars($image); ?>"
+                                    style="<?php echo $imgIndex > 0 ? 'display:none;' : ''; ?>">
                             <?php endforeach; ?>
                         </div>
-                        <h2><a href="propertydetail/<?php echo strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $property['name']))); ?>">
+                        <h2>
+                            <a href="<?php echo htmlspecialchars($property['link']); ?>">
                                 <?php echo htmlspecialchars($property['name']); ?>
-                            </a></h2>
-                        <p><b>Location:</b> <?php echo htmlspecialchars(implode(', ', $property['location'])); ?></p>
-                        <p><b>Price:</b> <?php echo htmlspecialchars($property['price']); ?></p>
-                        <p><b>Type:</b> <?php echo htmlspecialchars(implode(', ', $property['type'])); ?></p>
-                        <a href="propertydetail/<?php echo strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $property['name']))); ?>" class="details-link">View Details</a>
+                            </a>
+                        </h2>
+                        <div class="property-info-wrapper">
+                            <p><b>Location:</b> <?php echo htmlspecialchars($property['location'][1] . ', ' . $property['location'][0]); ?></p>
+                            <p><b>Price:</b> <?php echo htmlspecialchars($property['price']); ?></p>
+                            <p><b>Type:</b>
+                                <?php foreach ($property['type'] as $type): ?>
+                                    <a href="<?php echo htmlspecialchars(getTypeLink($type)); ?>">
+                                        <span><?php echo htmlspecialchars($type); ?></span>
+                                    </a>
+                                <?php endforeach; ?>
+                            </p>
+                            <a href="./propertydetail/<?php echo htmlspecialchars($property['link']); ?>" class="details-link">View Details</a>
+                        </div>
                     </div>
                 <?php endforeach; ?>
             </div>
@@ -1259,18 +1269,20 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                     <button onclick="showMoreProperties()" id="readMoreBtn">Show More</button>
                 </div>
             <?php endif; ?>
+
         </div>
+
 
         <script>
             function showMoreProperties() {
                 const propertyCards = document.querySelectorAll('#propertiesGrid .property-card');
                 let visibleCount = 0;
 
-                for (const card of propertyCards) {
+                propertyCards.forEach((card) => {
                     if (card.style.display !== 'none') {
                         visibleCount++;
                     }
-                }
+                });
 
                 for (let i = visibleCount; i < visibleCount + 6 && i < propertyCards.length; i++) {
                     propertyCards[i].style.display = 'grid';
@@ -1279,6 +1291,20 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                 if (visibleCount + 6 >= propertyCards.length) {
                     document.getElementById('readMoreBtn').style.display = 'none';
                 }
+            }
+
+            function nextImage(container) {
+                const images = container.getElementsByTagName('img');
+                let currentIndex;
+                for (let i = 0; i < images.length; i++) {
+                    if (images[i].style.display !== 'none') {
+                        currentIndex = i;
+                        images[i].style.display = 'none';
+                        break;
+                    }
+                }
+                const nextIndex = (currentIndex + 1) % images.length;
+                images[nextIndex].style.display = 'block';
             }
         </script>
 

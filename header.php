@@ -389,22 +389,20 @@ include "./data/blogdata.php";
                 </div>
 
                 <style>
-
                     div> :has(svg) {
                         width: auto;
                         height: auto;
                     }
+
                     div>svg {
                         --size: 19px;
                         width: var(--size);
                         height: var(--size);
                         /* margin: 3px; */
                     }
-
-
                 </style>
 
-                <div id="searchContainer" style="display: none; width: 100vw; background: transparent; padding: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); position: fixed; left: 0; top: 0; z-index: 1000; transform: translateY(80px);">
+                <div id="searchContainer" style="display: none; width: max-content; background: transparent; padding: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); position: fixed; left: 0%;right: 0%; top: 0; z-index: 1000; transform: translateY(80px);margin-inline: auto;min-width: 47%;">
                     <div style="max-width: 600px; margin: 0 auto;">
                         <form id="searchForm" style="display: flex; gap: 10px;">
                             <input type="text" name="q" id="searchInput" placeholder="Search..." style="flex: 1; padding: 10px; border: 1px solid #ddd; border-radius: 5px; font-size: 16px;">
@@ -548,7 +546,7 @@ include "./data/blogdata.php";
             <li id="misc1">
                 <a id="number1" href="tel:+919732300007" class="track-click" data-id="1">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                        <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.17-.17c1.12.56 2.38.86 3.69.86a1 1 0 011 1v3.59a1 1 0 01-1 1C10.64 22.96 1.04 13.36 1.04 4a1 1 0 011-1H5.63a1 1 0 011 1c0 1.31.3 2.57.86 3.69a1 1 0 01-.17 1.17l-2.2 2.2z" />
+                        <path class="gold-gradient" d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.17-.17c1.12.56 2.38.86 3.69.86a1 1 0 011 1v3.59a1 1 0 01-1 1C10.64 22.96 1.04 13.36 1.04 4a1 1 0 011-1H5.63a1 1 0 011 1c0 1.31.3 2.57.86 3.69a1 1 0 01-.17 1.17l-2.2 2.2z" />
                     </svg>
 
                     +91-9732300007
