@@ -148,6 +148,31 @@
             .suggestions-box.show {
                 display: block;
             }
+
+
+            .card-img-top {
+                height: 200px;
+            }
+
+            .card-text {
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+
+
+            .card-title {
+                background: linear-gradient(-90deg, #00796b, #009688, #26a69a);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+
+            }
+
+            .btn-primary {
+                background: radial-gradient(circle at top, #0e9688 0%, #007f70 30%, #005b52 100%);
+                border: none;
+                font-size: 14px;
+                font-weight: 600;
+            }
         </style>
 
 
@@ -253,7 +278,6 @@
                 // echo '<pre>Results After Filtering "' . $word . '": ' . print_r(array_column($results, 'name'), true) . '</pre>';
             }
 
-            // Display results
             if (!empty($results)) {
                 echo '<div class="container mt-4">';
                 echo '<div class="row">';
@@ -262,11 +286,12 @@
                     echo '<div class="card">';
                     echo '<img src="' . $result['images'][0] . '" class="card-img-top" alt="Property Image">';
                     echo '<div class="card-body">';
-                    echo '<h5 class="card-title">' . $result['name'] . '</h5>';
-                    echo '<p class="card-text">Builder: ' . $result['builder'] . '</p>';
-                    echo '<p class="card-text">Location: ' . implode(', ', $result['location']) . '</p>';
-                    echo '<p class="card-text">Price: ' . $result['price'] . '</p>';
-                    echo '<a href="property.php?link=' . $result['link'] . '" class="btn btn-primary">View Details</a>';
+                    echo '<h5 class="card-title"><a href="propertydetail/' . $result['link'] . '" class="text-decoration-none text-primary">' . $result['name'] . '</a></h5>';
+                    echo '<p class="card-text"><b>Builder:</b> ' . $result['builder'] . '</p>';
+                    echo '<p class="card-text"><b>Location:</b> ' . implode(', ', $result['location']) . '</p>';
+                    echo '<p class="card-text"><b>Price:</b> ' . $result['price'] . '</p>';
+                    echo '<p class="card-text"><b>Type:</b> ' . implode(', ', $result['type']) . '</p>'; // Display property types
+                    echo '<a href="propertydetail/' . $result['link'] . '" class="btn btn-primary">View Details</a>';
                     echo '</div></div></div>';
                 }
                 echo '</div></div>';

@@ -452,12 +452,18 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                 }
 
                 .search-btn {
-                    font-size: 1rem;
+                    font-size: 14px;
                     padding: 12px;
+                    width: 120px;
                 }
 
                 .search-form {
                     flex-direction: column;
+                }
+
+                .form-group {
+                    position: relative;
+                    width: 100%;
                 }
             }
         </style>
@@ -594,131 +600,131 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
             });
         </script>
 
-        <div class=property-container style=padding:20px>
-            <?php
-            include "data/propertydata.php";
 
-            $searchQuery = isset($_GET['search']) ? strtolower($_GET['search']) : null;
+        <style>
+            .property-carousel {
+                overflow: auto;
+                -ms-overflow-style: none;
+                /* IE and Edge */
+                scrollbar-width: none;
+                /* Firefox */
+                position: relative;
+                padding-bottom: 3rem;
 
-            $displayProperties = [];
+                width: 90%;
+                margin-inline: auto;
+                margin-block: 3rem;
+            }
 
-            if ($searchQuery) {
-                $displayProperties = array_filter($properties, function ($property) use ($searchQuery) {
-                    $propertyName = strtolower($property['name']);
-                    $propertyLocation = strtolower($property['location']);
-                    return strpos($propertyName, $searchQuery) !== false || strpos($propertyLocation, $searchQuery) !== false;
-                });
-            } else {
-                $displayProperties = $properties;
+            .property-carousel::-webkit-scrollbar {
+                display: none;
+                /* Chrome, Safari and Opera */
+            }
+
+            .property-carousel .swiper-slide h3 {
+                font-size: 18px;
+                margin-block: 0.5rem;
+            }
+
+            .property-carousel .swiper-slide img {
+                object-fit: fill;
+            }
+
+            .swiper-button-next:after,
+            .swiper-button-prev:after {
+                font-size: 30px;
+                font-weight: 600;
+            }
+
+            .swiper-button-prev,
+            .swiper-button-next {
+                top: 35%;
+                color: #000000;
+                background-color: rgba(255, 255, 255, 0.4);
+                border: 1px solid #000000;
+                border-radius: 50%;
+                width: 3rem;
+                height: 3rem;
+            }
+
+            .swiper-pagination-bullet-active {
+                background: linear-gradient(90deg, #00796b, #009688, #26a69a);
+            }
+
+            .property-card-image {
+                width: 100%;
+                height: 200px;
+                overflow: hidden;
+                border-radius: 10px;
             }
 
 
-            ?>
-            <script>
-                function nextImage(element) {
-                    const images = element.querySelectorAll('img');
-                    const totalImages = images.length;
-                    let currentIndex = [...images].findIndex(img => img.style.display !== 'none');
-
-                    images[currentIndex].style.display = 'none';
-                    currentIndex = (currentIndex + 1) % totalImages;
-                    images[currentIndex].style.display = 'block';
-                }
-            </script>
-            <?php
-            function getTypeLink($type)
-            {
-                switch ($type) {
-                    case 'Residential':
-                        return '../category/residential-property';
-                    case 'Commercial':
-                        return '../category/commercial-property';
-                    case 'Studio Apartments':
-                        return '../category/studio-apartments';
-                    case 'Plots':
-                        return '../category/plots';
-                    default:
-                        return '../404';
-                }
+            .property-card-image img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
             }
-            ?>
-            <div class=content>
-                <p class=gradient-heading>Properties
-                <p class=text-section>Discover your dream property with us. Explore listings that match your
-                    lifestyle and budget, from modern city apartments to cozy country homes. Let us guide you home
-                    by Best Real Estate Consultant In Delhi/NCR.
-            </div>
-            <div class=properties-grid id=propertiesGrid><?php if (empty($properties)): ?><div
-                        class="property-card no-results-card"><img alt="No Results Found" src=./assets/img/logo.png>
-                        <h2>Can't find what you're looking for?</h2>
-                        <p>Unfortunately, we don't have properties in this location at the moment. But we're always
-                            adding new listings!</p><a href=contact.php#contact-form class=details-link>Contact Us</a>
-                    </div><?php else: ?><?php foreach ($properties as $index => $property):
-                                        ?>
-                    <?php
-                                                                    $slug = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $property['name'])));
+        </style>
 
-                                                                    $detailsPagePath = 'propertydetail/' . $slug;
-                    ?>
-                    <div class=property-card style="display:<?php echo $index < 6 ? 'grid' : 'none'; ?>">
-                        <div class=property-images onclick=nextImage(this)><?php foreach ($property['images'] as $imgIndex => $image): ?><img alt="Property Image" loading="lazy"
-                                    src="<?php echo htmlspecialchars($image); ?>"
-                                    style="<?php echo $imgIndex > 0 ? 'display:none;' : ''; ?>"><?php endforeach; ?></div>
-                        <h2><a
-                                href="<?php echo htmlspecialchars($detailsPagePath); ?>"><?php echo htmlspecialchars($property['name']); ?></a>
-                        </h2>
-                        <div class=property-info-wrapper>
-                            <p><b>Location:</b><?php echo htmlspecialchars($property['location']); ?>
-                            <p><b>Price:</b><?php echo htmlspecialchars($property['price']); ?></p><a
-                                href="<?php echo htmlspecialchars($detailsPagePath); ?>" class=details-link>View
-                                Details</a>
-                            <div><b>Type:</b>
-                                <p><?php foreach ($property['type'] as $type): ?>
-                                        <a href="<?php echo htmlspecialchars(getTypeLink($type)); ?>">
-                                            <span><?php echo htmlspecialchars($type); ?></span>
-                                        </a>
-                                    <?php endforeach; ?>
+        <?php include './data/tempdata.php'; ?>
+
+        <div class="property-carousel">
+            <div class="swiper-container propertySwiper">
+                <div class="swiper-wrapper">
+                    <?php foreach ($properties as $post): ?>
+                        <div class="swiper-slide">
+                            <div class="property-post">
+
+                                <div class="property-card-image">
+                                    <img src="<?php echo $post['images'][0]; ?>" alt="<?php echo $post['name']; ?>">
+                                </div>
+
+                                <h3><?php echo $post['name']; ?></h3>
+
                             </div>
                         </div>
-                    </div><?php endforeach; ?><?php endif; ?>
-            </div><?php if (count($properties) > 6): ?>
-                <div class=read-more-container><button onclick=showMoreProperties() id=readMoreBtn>Show More</button>
-                </div><?php endif; ?>
-            <script>
-                function showMoreProperties() {
-                    const propertyCards = document.querySelectorAll('#propertiesGrid .property-card');
-                    let visibleCount = 0;
+                    <?php endforeach; ?>
+                </div>
 
-                    for (const card of propertyCards) {
-                        if (card.style.display !== 'none') {
-                            visibleCount++;
-                        }
-                    }
-
-                    for (let i = visibleCount; i < visibleCount + 3 && i < propertyCards.length; i++) {
-                        propertyCards[i].style.display = 'grid';
-                    }
-
-                    if (visibleCount + 3 >= propertyCards.length) {
-                        document.getElementById('readMoreBtn').style.display = 'none';
-                    }
-                }
-
-                function nextImage(container) {
-                    const images = container.getElementsByTagName('img');
-                    let currentIndex;
-                    for (let i = 0; i < images.length; i++) {
-                        if (images[i].style.display !== 'none') {
-                            currentIndex = i;
-                            images[i].style.display = 'none';
-                            break;
-                        }
-                    }
-                    const nextIndex = (currentIndex + 1) % images.length;
-                    images[nextIndex].style.display = 'grid';
-                }
-            </script>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
         </div>
+
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var swiper = new Swiper('.propertySwiper', {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                    loop: true,
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+
+                    autoplay: {
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    },
+                    breakpoints: {
+                        // when window width is >= 700px
+                        700: {
+                            slidesPerView: 3,
+                            spaceBetween: 30
+                        }
+                    }
+                });
+            });
+        </script>
+
+
+
+
+
+
+
         <div class="home1-about-section mb-50 pt-20" style=padding-top:3rem>
             <div class=container>
                 <div class="row g-lg-4 gy-5">
