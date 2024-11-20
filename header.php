@@ -11,6 +11,11 @@
 <?php
 include "./data/blogdata.php";
 ?>
+
+<?php
+// include './eventpop.php';
+?>
+
 <header class="header-area style-1">
     <?php
     // include "./newsbanner.php" 
@@ -377,11 +382,29 @@ include "./data/blogdata.php";
             <li>
                 <!-- Search Icon -->
 
-                <svg id="searchIcon" style="cursor: pointer;color: white;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
-                </svg>
+                <div>
+                    <svg id="searchIcon" style="cursor: pointer;color: white;stroke-width: 1.5;stroke: white;" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                    </svg>
+                </div>
 
-                <div id="searchContainer" style="display: none; width: 100vw; background: #fff; padding: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); position: fixed; left: 0; top: 0; z-index: 1000; transform: translateY(80px);">
+                <style>
+
+                    div> :has(svg) {
+                        width: auto;
+                        height: auto;
+                    }
+                    div>svg {
+                        --size: 19px;
+                        width: var(--size);
+                        height: var(--size);
+                        /* margin: 3px; */
+                    }
+
+
+                </style>
+
+                <div id="searchContainer" style="display: none; width: 100vw; background: transparent; padding: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); position: fixed; left: 0; top: 0; z-index: 1000; transform: translateY(80px);">
                     <div style="max-width: 600px; margin: 0 auto;">
                         <form id="searchForm" style="display: flex; gap: 10px;">
                             <input type="text" name="q" id="searchInput" placeholder="Search..." style="flex: 1; padding: 10px; border: 1px solid #ddd; border-radius: 5px; font-size: 16px;">
@@ -391,7 +414,7 @@ include "./data/blogdata.php";
                             </button>
                         </form>
                         <!-- Search Preview Container -->
-                        <div id="searchPreview" style="background: #fff; border: 1px solid #ddd; border-radius: 5px; margin-top: 10px; max-height: 300px; overflow-y: auto;"></div>
+                        <div id="searchPreview" style="background: #fff; border: 1px solid #ddd; border-radius: 5px; margin-top: 10px; max-height: 300px; overflow-y: auto;width: 95%;"></div>
                     </div>
                 </div>
 

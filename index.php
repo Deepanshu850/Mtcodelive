@@ -3,7 +3,9 @@ include "data/teammemberdata.php";
 include "data/developerslogodata.php";
 include "data/locationcitydata.php";
 include "data/propertydata.php"
-?><!doctypehtml>
+?>
+
+<!doctypehtml>
     <html lang=en>
     <meta charset=utf-8>
     <meta content="width=device-width,initial-scale=1" name=viewport>
@@ -67,31 +69,14 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
             "@type": "Corporation",
             "name": "Moneytree Realty",
             "alternateName": "MoneyTree",
-            "url": "https://moneytreerealty.com/",
-            "logo": "https://moneytreerealty.com/assets/img/logo.png",
-            "contactPoint": [{
-                "@type": "ContactPoint",
-                "telephone": "9732300007",
-                "contactType": "customer service",
-                "contactOption": "TollFree",
-                "areaServed": "IN",
-                "availableLanguage": ["Hindi", "en"]
-            }, {
-                "@type": "ContactPoint",
-                "telephone": "9732400007",
-                "contactType": "customer service",
-                "contactOption": "TollFree",
-                "areaServed": "IN",
-                "availableLanguage": ["en", "Hindi"]
-            }],
-            "sameAs": [
-                "https://www.instagram.com/moneytreerealtyofficial/",
-                "https://www.youtube.com/channel/UC3XFv2AbARz0En3wgWKOD9w",
-                "https://www.linkedin.com/company/moneytree-realty-services/mycompany/",
-                "https://in.pinterest.com/moneytreerealtyoffical/",
-                "https://www.facebook.com/moneytreerealtyofficial",
-                "https://moneytreerealty.com/index.php"
-            ]
+            "url": "https://moneytreerealty.cosearch.php?search=Paras+Avenue+Residential+Noida
+
+            "https://www.youtube.com/channel/UC3XFv2AbARz0En3wgWKOD9w",
+            "https://www.linkedin.com/company/moneytree-realty-services/mycompany/",
+            "https://in.pinterest.com/moneytreerealtyoffical/",
+            "https://www.facebook.com/moneytreerealtyofficial",
+            "https://moneytreerealty.com/index.php"
+        ]
         }
     </script>
     <script type=application/ld+json>
@@ -308,6 +293,9 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
 
             }
         </style>
+
+
+
         <script>
             let deg = 0;
 
@@ -322,56 +310,289 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
         <?php
         include './header.php';
         ?>
-        <div class=container>
-            <div class="d-flex banner align-items-center">
-                <div class=banner-left>
-                    <h1 class="green-gradient-text">
-                        Best Real Estate Property
-                        Consultant In Delhi/Ncr
-                    </h1>
 
-                    <div class=inner-desc>
-                        <p>Best Real Estate Consultant in Delhi/NCR, The MONEYTREE REALTY SERVICES PVT. LTD.(RERA
-                            REG.), comprises a group of proficient professionals to provide the world-class Real
-                            Estate Service.
-                        <p><br>Under the leadership of renowned Real Estate Tycoon <b>Mr. Sachin Arora</b>, We at
-                            MONEYTREE REALTY SERVICES PVT. LTD.(RERA REG.) works with great enthusiasm and provides
-                            a diverse catalogue of properties from residential to commercial.
-                        <form action=top-real-estate-poperty-consultant-in-india.php>
 
-                            <div class="search-container">
-                                <input type="text" class="search-input" name="search"
-                                    placeholder="Enter City or Property Name to search properties here"
-                                    value="<?php echo isset($_GET['search']) ? htmlspecialchars($_GET['search']) : ''; ?>">
-                                <button class="search-btn" type="submit">Search</button>
-                            </div>
-                        </form>
+
+
+
+        <div class="hero-section">
+            <div class="overlay"></div>
+            <div class="search-bar-container">
+                <h1>Find Your Dream Property</h1>
+                <p>Search properties for sale, rent, or lease across top locations.</p>
+                <form class="search-form" action="search.php" method="GET" onsubmit="event.preventDefault(); window.location.href='search?search=' + document.querySelector('input[name=search]').value;">
+                    <!-- Location Input -->
+                    <div class="form-group position-relative">
+                        <input type="text" name="search" placeholder="Enter City, Location, or Project Name" autocomplete="off" oninput="fetchSuggestions(this.value)" onkeydown="handleKeyNavigation(event)">
+                        <!-- Suggestions List -->
+                        <ul id="suggestions" class="list-group suggestions-box"></ul>
                     </div>
-                </div>
-                <div class="d-flex banner-right">
-                    <div class=family><img loading="lazy" alt="moneytree realty property image"
-                            src=assets/img/slideras/property-img-one.png class=img-fluid> <img loading="lazy"
-                            alt="property consultant " src=assets/img/slideras/property-img-two.png class=img-fluid>
-                        <div class=banner-right-inner>
-                            <h2>25k+</h2><span>satisfied<br>family</span> <img loading="lazy"
-                                alt="best real estate heart" src=assets/img/slideras/heart-icon.svg class=img-fluid>
-                        </div><img loading="lazy" alt="real estate consultant"
-                            src=assets/img/slideras/property-img-three.png class=img-fluid> <img loading="lazy"
-                            alt=img src=assets/img/slideras/property-img-four.png class=img-fluid>
-                    </div>
-                    <div class=sale><img loading="lazy" alt="Best Real Estate Property Consultant in Delhi/NCR"
-                            src=assets/img/slideras/property-img-five.png class=img-fluid> <img loading="lazy"
-                            alt=img src=assets/img/slideras/property-img-six.png class=img-fluid>
-                        <div class=banner-right-inner>
-                            <h2>25k+</h2><span>Happy<br>Deal Closed</span> <img loading="lazy" alt=unit-icon
-                                src=assets/img/slideras/unit-icon.svg class=img-fluid>
-                        </div><img loading="lazy" alt=img src=assets/img/slideras/property-img-seven.png
-                            class=img-fluid> <img loading="lazy" alt=img
-                            src=assets/img/slideras/property-img-eight.png class=img-fluid>
-                    </div>
-                </div>
+
+                    <!-- Search Button -->
+                    <button type="submit" class="search-btn">Search</button>
+                </form>
             </div>
         </div>
+
+
+
+        <style>
+            /* General Styles */
+
+            .hero-section {
+                position: relative;
+                width: 100%;
+                height: 100vh;
+                background: url('./best-real-estate-property-consultant-in-india.jpeg') center/cover no-repeat;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.4);
+                z-index: 1;
+            }
+
+            .search-bar-container {
+                position: relative;
+                z-index: 500;
+                width: 90%;
+                max-width: 1000px;
+                background: rgba(255, 255, 255, 0.2);
+                border-radius: 15px;
+                padding: 30px 20px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+                text-align: center;
+                backdrop-filter: blur(10px);
+                -webkit-backdrop-filter: blur(10px);
+                border: 1px solid rgba(255, 255, 255, 0.3);
+            }
+
+            .search-bar-container h1 {
+                font-size: 2.5rem;
+                font-weight: bold;
+                color: #fff;
+                margin-bottom: 20px;
+            }
+
+            .search-bar-container p {
+                font-size: 1rem;
+                color: #ddd;
+                margin-bottom: 20px;
+            }
+
+            .search-form {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .form-group {
+                position: relative;
+                width: 50%;
+            }
+
+            .form-group input {
+                width: 100%;
+                padding: 6px 20px;
+                font-size: 1rem;
+                border: 2px solid rgba(255, 255, 255, 0.3);
+                border-radius: 30px;
+                outline: none;
+                transition: all 0.3s ease;
+                background: rgba(255, 255, 255, 0.2);
+                color: #fff;
+                font-weight: bold;
+            }
+
+            .form-group input::placeholder {
+                color: #ddd;
+            }
+
+            .form-group input:focus {
+                border: 2px solid #00aaff;
+                background: rgba(255, 255, 255, 0.5);
+                color: #fff;
+                box-shadow: 0 0 8px rgba(0, 170, 255, 0.5);
+            }
+
+            .search-btn {
+                padding: 8px 16px;
+                font-size: 15px;
+                background: radial-gradient(circle at top, #0e9688 0%, #007f70 30%, #005b52 100%);
+                color: white;
+                font-weight: 600;
+                border: none;
+                border-radius: 20px;
+                cursor: pointer;
+                transition: background 0.3s ease, transform 0.2s ease;
+            }
+
+            .search-btn:hover {
+                background: radial-gradient(circle at top, #0e9688 0%, #1c9486 30%, #005b52 100%);
+                transform: translateY(-1px);
+            }
+
+            /* Mobile Responsiveness */
+            @media (max-width: 768px) {
+                .search-bar-container {
+                    padding: 20px;
+                }
+
+                .search-bar-container h1 {
+                    font-size: 2rem;
+                }
+
+                .search-btn {
+                    font-size: 1rem;
+                    padding: 12px;
+                }
+
+                .search-form {
+                    flex-direction: column;
+                }
+            }
+        </style>
+
+        <style>
+            /* Suggestions styling */
+            .suggestions-box {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                max-height: 200px;
+                overflow-y: auto;
+                background: #fff;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                z-index: 500;
+                display: none;
+                /* Hidden by default */
+                box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+                margin-top: 5px;
+            }
+
+            .suggestions-box .list-group-item {
+                padding: 10px 15px;
+                font-size: 1rem;
+                cursor: pointer;
+                border: none;
+                text-align: left;
+            }
+
+            .suggestions-box .list-group-item.active {
+                background-color: #007bff;
+                /* Highlight background */
+                color: #fff;
+                /* Highlight text */
+            }
+
+            .suggestions-box.show {
+                display: block;
+            }
+        </style>
+
+
+        <script>
+            let activeIndex = -1; // Tracks the active suggestion
+
+            function fetchSuggestions(query) {
+                const suggestionsBox = document.getElementById('suggestions');
+
+                if (query.trim().length > 0) {
+                    fetch(`suggest.php?query=${encodeURIComponent(query)}`)
+                        .then((response) => response.json())
+                        .then((data) => {
+                            suggestionsBox.innerHTML = '';
+                            if (data.length > 0) {
+                                data.forEach((keyword, index) => {
+                                    const listItem = document.createElement('li');
+                                    listItem.classList.add('list-group-item');
+                                    listItem.textContent = keyword;
+
+                                    // Handle click event
+                                    listItem.addEventListener('click', () => {
+                                        document.querySelector('input[name=search]').value = keyword;
+                                        suggestionsBox.classList.remove('show');
+                                        document.querySelector('.search-form').submit();
+                                    });
+
+                                    suggestionsBox.appendChild(listItem);
+                                });
+                                suggestionsBox.classList.add('show');
+                                activeIndex = -1; // Reset active index
+                            } else {
+                                suggestionsBox.classList.remove('show');
+                            }
+                        })
+                        .catch((error) => {
+                            console.error('Error fetching suggestions:', error);
+                        });
+                } else {
+                    suggestionsBox.classList.remove('show');
+                }
+            }
+
+            function handleKeyNavigation(event) {
+                const suggestionsBox = document.getElementById('suggestions');
+                const suggestions = suggestionsBox.querySelectorAll('.list-group-item');
+
+                if (suggestions.length > 0) {
+                    if (event.key === 'ArrowDown') {
+                        // Move down
+                        event.preventDefault();
+                        activeIndex = (activeIndex + 1) % suggestions.length;
+                        highlightSuggestion(suggestions, activeIndex);
+                    } else if (event.key === 'ArrowUp') {
+                        // Move up
+                        event.preventDefault();
+                        activeIndex = (activeIndex - 1 + suggestions.length) % suggestions.length;
+                        highlightSuggestion(suggestions, activeIndex);
+                    } else if (event.key === 'Enter') {
+                        // Select the highlighted suggestion
+                        event.preventDefault();
+                        if (activeIndex >= 0) {
+                            const selectedSuggestion = suggestions[activeIndex].textContent;
+                            document.querySelector('input[name=search]').value = selectedSuggestion;
+                            suggestionsBox.classList.remove('show');
+                        }
+                        document.querySelector('.search-form').submit();
+                    }
+                }
+            }
+
+            function highlightSuggestion(suggestions, index) {
+                suggestions.forEach((item, i) => {
+                    if (i === index) {
+                        item.classList.add('active');
+                        // Ensure the active suggestion is in view
+                        item.scrollIntoView({
+                            block: 'nearest',
+                            behavior: 'smooth'
+                        });
+                    } else {
+                        item.classList.remove('active');
+                    }
+                });
+            }
+
+            // Hide suggestions when clicking outside
+            document.addEventListener('click', function(event) {
+                const suggestionsBox = document.getElementById('suggestions');
+                if (!event.target.closest('.form-group')) {
+                    suggestionsBox.classList.remove('show');
+                }
+            });
+        </script>
 
         <div class=property-container style=padding:20px>
             <?php
@@ -529,7 +750,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                                 more with a present client base of 10,000+ happy investors and over 25000+
                                 satisfying deals till date making MoneyTree Realty Best Real Estate Consultant In
                                 Delhi/NCR.</p>
-                            
+
                             <ul class=about-features>
                                 <li class=single-features>
                                     <div class=icon-content>
@@ -786,7 +1007,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                         </div>
                     </div>
                 </div>
-                
+
                 <div class=row>
                     <div class=col-lg-12>
                         <div class="swiper home1-location-slider">
@@ -849,7 +1070,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                 </div>
             </div>
         </div>
-  
+
         <div class="mb-100 pt-90 home1-team-section pb-20">
             <div class=container>
                 <div class="fadeInUp wow mb-50 row" data-wow-delay=200ms>

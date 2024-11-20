@@ -72,6 +72,9 @@ if (isset($_COOKIE['user_consent']) && $_COOKIE['user_consent'] == 'accepted') {
     }
 </style>
 
+
+
+
 <div class="cookie-consent" id="cookieConsent">
     <div class="cookie-icon">🍪</div>
     <p>We use cookies to ensure you get the best experience on our website. Do you accept cookies?</p>

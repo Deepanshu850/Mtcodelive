@@ -24,10 +24,13 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-8">
-                        <form action="" method="GET" class="search-form">
-                            <div class="input-group">
-                                <input type="text" name="search" class="form-control" placeholder="Search..." required>
+                        <!-- Ensure method is GET and 'action' points to the correct endpoint -->
+                        <form action="search" method="GET" class="search-form">
+                            <div class="input-group position-relative">
+                                <input type="text" name="search" id="search-input" class="form-control" placeholder="Search..." required autocomplete="off">
                                 <button type="submit" class="btn btn-primary">Search</button>
+                                <!-- Suggestions List -->
+                                <ul id="suggestions" class="list-group suggestions-box"></ul>
                             </div>
                         </form>
                     </div>
@@ -35,67 +38,219 @@
             </div>
         </section>
 
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const searchInput = document.getElementById('search-input');
+                const suggestionsBox = document.getElementById('suggestions');
+                let activeIndex = -1;
+
+                // Fetch suggestions on input
+                searchInput.addEventListener('input', function() {
+                    const query = searchInput.value.trim();
+                    if (query.length > 0) {
+                        fetch(`/Mtcodelive/suggest.php?query=${encodeURIComponent(query)}`)
+                            .then((response) => response.json())
+                            .then((data) => {
+                                suggestionsBox.innerHTML = '';
+                                if (data.length > 0) {
+                                    data.forEach((keyword, index) => {
+                                        const listItem = document.createElement('li');
+                                        listItem.classList.add('list-group-item');
+                                        listItem.textContent = keyword;
+
+                                        listItem.addEventListener('click', function() {
+                                            searchInput.value = keyword;
+                                            suggestionsBox.style.display = 'none';
+                                            window.location.href = `/Mtcodelive/search?search=${encodeURIComponent(keyword)}`;
+                                        });
+
+                                        suggestionsBox.appendChild(listItem);
+                                    });
+                                    suggestionsBox.classList.add('show');
+                                    activeIndex = -1;
+                                } else {
+                                    suggestionsBox.classList.remove('show');
+                                }
+                            });
+                    } else {
+                        suggestionsBox.classList.remove('show');
+                    }
+                });
+
+                // Handle keyboard navigation
+                searchInput.addEventListener('keydown', function(event) {
+                    const suggestions = suggestionsBox.querySelectorAll('.list-group-item');
+                    if (event.key === 'ArrowDown') {
+                        event.preventDefault();
+                        activeIndex = (activeIndex + 1) % suggestions.length;
+                        highlightSuggestion(suggestions, activeIndex);
+                    } else if (event.key === 'ArrowUp') {
+                        event.preventDefault();
+                        activeIndex = (activeIndex - 1 + suggestions.length) % suggestions.length;
+                        highlightSuggestion(suggestions, activeIndex);
+                    } else if (event.key === 'Enter') {
+                        event.preventDefault();
+                        const searchQuery = activeIndex >= 0 && suggestions.length > 0 ?
+                            suggestions[activeIndex].textContent :
+                            searchInput.value.trim();
+                        window.location.href = `./search?search=${encodeURIComponent(searchQuery)}`;
+                    }
+                });
+
+                function highlightSuggestion(suggestions, index) {
+                    suggestions.forEach((item, i) => {
+                        if (i === index) {
+                            item.classList.add('active');
+                        } else {
+                            item.classList.remove('active');
+                        }
+                    });
+                }
+            });
+        </script>
+
+        <style>
+            /* Suggestions styling */
+            .suggestions-box {
+                position: absolute;
+                top: calc(100% + 5px);
+                /* Sticks just below the input field */
+                left: 0;
+                width: 100%;
+                max-height: 200px;
+                /* Add a max height for better UX */
+                overflow-y: auto;
+                /* Scroll if there are too many suggestions */
+                background: #fff;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                z-index: 500;
+                display: none;
+                /* Hidden by default */
+                box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            }
+
+            .suggestions-box .list-group-item {
+                padding: 10px 15px;
+                font-size: 1rem;
+                cursor: pointer;
+                border: none;
+            }
+
+            .suggestions-box .list-group-item.active {
+                background-color: #007bff;
+                /* Highlight background */
+                color: #fff;
+                /* Highlight text */
+            }
+
+            .suggestions-box.show {
+                display: block;
+            }
+        </style>
+
+
+
+
+
         <?php
         include './data/tempdata.php';
 
         function normalize($string)
         {
-            return str_replace(' ', '', strtolower($string));
+            return str_replace(' ', '', strtolower(trim($string)));
         }
 
+        // List of common helping words to ignore
+        $helpingWords = ['of', 'in', 'the', 'and', 'or', 'on', 'to', 'a', 'an', 'for', 'with', 'at'];
+
+        // List of multi-word terms to preserve
+        $multiWordTerms = ['5 bhk', '4 bhk', '3 bhk', '2 bhk', '1 bhk'];
+
+        // Check if there's a search query
         if (isset($_GET['search']) && !empty($_GET['search'])) {
-            $search = normalize($_GET['search']);
-            $results = [];
+            $search = strtolower(trim($_GET['search']));
 
-            foreach ($properties as $property) {
-                // Check name, builder
-                if (
-                    str_contains(normalize($property['name']), $search) ||
-                    str_contains(normalize($property['builder']), $search)
-                ) {
-                    $results[] = $property;
-                    continue;
+            // Preserve multi-word terms by replacing spaces with underscores
+            foreach ($multiWordTerms as $term) {
+                $search = str_replace($term, str_replace(' ', '_', $term), $search);
+            }
+
+            // Split search into words and remove helping words
+            $words = array_filter(
+                explode(' ', $search),
+                function ($word) use ($helpingWords) {
+                    return !in_array($word, $helpingWords) && !empty($word);
                 }
+            );
 
-                // Check location array
-                foreach ($property['location'] as $loc) {
-                    if (str_contains(normalize($loc), $search)) {
-                        $results[] = $property;
-                        continue 2;
+            // Replace underscores back to spaces in multi-word terms
+            $words = array_map(function ($word) {
+                return str_replace('_', ' ', $word);
+            }, $words);
+
+            // Debug: Print search words
+            // echo '<pre>Search Words: ' . print_r($words, true) . '</pre>';
+
+            // Initialize results with all properties
+            $results = $properties;
+
+            // Filter properties based on each word
+            foreach ($words as $word) {
+                $word = normalize($word);
+                $results = array_filter($results, function ($property) use ($word) {
+                    // Debug: Check which properties are being checked
+                    // echo '<pre>Checking Word: ' . $word . ' Against Property: ' . $property['name'] . '</pre>';
+
+                    // Check name, builder, location, type, typeDetail, RERA, and keywords
+                    if (
+                        str_contains(normalize($property['name']), $word) ||
+                        str_contains(normalize($property['builder']), $word)
+                    ) {
+                        return true;
                     }
-                }
 
-                // Check type array
-                foreach ($property['type'] as $type) {
-                    if (str_contains(normalize($type), $search)) {
-                        $results[] = $property;
-                        continue 2;
+                    // Check location array
+                    foreach ($property['location'] as $loc) {
+                        if (str_contains(normalize($loc), $word)) {
+                            return true;
+                        }
                     }
-                }
 
-                // Check typeDetail array
-                foreach ($property['typeDetail'] as $detail) {
-                    if (str_contains(normalize($detail), $search)) {
-                        $results[] = $property;
-                        continue 2;
+                    // Check type array
+                    foreach ($property['type'] as $type) {
+                        if (str_contains(normalize($type), $word)) {
+                            return true;
+                        }
                     }
-                }
 
-                // Check RERA array
-                foreach ($property['rera'] as $rera) {
-                    if (str_contains(normalize($rera), $search)) {
-                        $results[] = $property;
-                        continue 2;
+                    // Check typeDetail array
+                    foreach ($property['typeDetail'] as $detail) {
+                        if (str_contains(normalize($detail), $word)) {
+                            return true;
+                        }
                     }
-                }
 
-                // Check keywords
-                if (isset($property['keywords'])) {
-                    if (str_contains(normalize($property['keywords']), $search)) {
-                        $results[] = $property;
-                        continue;
+                    // Check RERA array
+                    foreach ($property['rera'] as $rera) {
+                        if (str_contains(normalize($rera), $word)) {
+                            return true;
+                        }
                     }
-                }
+
+                    // Check keywords
+                    if (isset($property['keywords'])) {
+                        if (str_contains(normalize($property['keywords']), $word)) {
+                            return true;
+                        }
+                    }
+
+                    return false; // Exclude property if none of the fields match
+                });
+
+                // Debug: Print filtered results after each word
+                // echo '<pre>Results After Filtering "' . $word . '": ' . print_r(array_column($results, 'name'), true) . '</pre>';
             }
 
             // Display results
@@ -121,10 +276,8 @@
         }
         ?>
 
-
-
-
     </main>
+
 
 
 
