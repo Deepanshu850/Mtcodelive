@@ -47,6 +47,7 @@ property in Noida" />
     <link rel="canonical" href="https://moneytreerealty.com/propertydetail/paras-avenue-sector-129-noida" />
 
 
+
     <script type="application/ld+json">
         {
             "@context": "https://schema.org/",
@@ -218,15 +219,8 @@ property in Noida" />
 
 
     <?php
-    include './header.php';
+    include '../header-demo.php';
     ?>
-
-
-
-
-
-
-
 
 
 

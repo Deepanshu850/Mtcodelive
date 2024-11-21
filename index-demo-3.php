@@ -309,20 +309,20 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                     Best Real Estate Property Consultant <br>
                     In <span class="typing"> Delhi/Ncr</span>
                 </h1>
-
+                <br>
                 <p>Best Real Estate Consultant in Delhi/NCR, The MONEYTREE REALTY SERVICES PVT. LTD.(RERA REG.), comprises a group of proficient professionals to provide world-class Real Estate Service.</p>
-                <p>Under the leadership of renowned Real Estate Tycoon <b>Mr. Sachin Arora</b>, We at MONEYTREE REALTY SERVICES PVT. LTD.(RERA REG.) work with great enthusiasm and provide a diverse catalog of properties from residential to commercial.</p>
-
+                <!-- <p>Under the leadership of renowned Real Estate Tycoon <b>Mr. Sachin Arora</b>, We at MONEYTREE REALTY SERVICES PVT. LTD.(RERA REG.) work with great enthusiasm and provide a diverse catalog of properties from residential to commercial.</p> -->
+                <br>
                 <a href="contact">Contact Us <i class="bi bi-arrow-right"></i></a>
             </div>
 
-            <form class="hero-form" action="process.php" method="POST">
+            <form class="hero-form" action="search.php" method="GET" onsubmit="event.preventDefault(); var name = document.querySelector('input[name=keyword]').value; var location = document.querySelector('input[name=location]').value; var type = document.querySelector('select[name=type]').value; window.location.href='search.php?search=' + encodeURIComponent(name + ' ' + location + ' ' + type);">
                 <p class="heroSectionFormTitle">
                     Looking For?
                 </p>
 
                 <div class="form-group">
-                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="text" name="keyword" placeholder="Keyword" required>
                 </div>
 
                 <div class="form-group">

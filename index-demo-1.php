@@ -297,7 +297,8 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
 
 
         <?php
-        include './header.php';
+        // include './header.php';
+        include './header-demo.php';
         ?>
 
 
@@ -331,8 +332,11 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
             .hero-section {
                 position: relative;
                 width: 100%;
+                /* height: calc(100vh + 6rem); */
                 height: 100vh;
-                background: url('./best-real-estate-property-consultant-in-india.jpeg') center/cover no-repeat;
+                background: url('./assets/img/IMG_0343.webp') center/cover no-repeat;
+                background: url('./assets/img/IMG_0342.webp') center/cover no-repeat;
+                /* background: url('./assets/img/IMG_0345.webp') center/cover no-repeat; */
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -343,7 +347,21 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                 background-attachment: fixed;
                 /* Creates the parallax effect */
                 background-repeat: no-repeat;
+                /* transform: translate(0,-6rem); */
+
             }
+
+            /* header {
+                background: rgba(255, 255, 255, 0.2) !important;
+                backdrop-filter: blur(5px);
+                -webkit-backdrop-filter: blur(10px);
+                border: 1px solid rgba(255, 255, 255, 0.3);
+                
+            }
+
+            body {
+                background: rgba(236, 236, 236, 0.2) !important;
+            } */
 
             .overlay {
                 position: absolute;
@@ -365,10 +383,10 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                 padding: 30px 20px;
                 box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
                 text-align: center;
-                backdrop-filter: blur(10px);
+                backdrop-filter: blur(5px);
                 -webkit-backdrop-filter: blur(10px);
                 border: 1px solid rgba(255, 255, 255, 0.3);
-                
+
             }
 
             .search-bar-container h1 {
@@ -806,7 +824,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                     <div class="fadeInUp wow col-lg-5" data-wow-delay=200ms>
                         <div class=about-img><img loading="lazy"
                                 alt='BEST REAL ESTATE PROPERTY CONSULTANT IN DELHI/NCR'
-                                src=assets/img/inner-page/aboutmtf.png></div>
+                                src='./assets/img/sachinsir.jpg'></div>
                     </div>
                     <div class=col-lg-7>
                         <div class="fadeInUp wow about-content-wrap" data-wow-delay=400ms>
@@ -1229,7 +1247,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
 
             <div class="properties-grid" id="propertiesGrid">
                 <?php foreach ($properties as $index => $property): ?>
-                    
+
                     <div class="property-card" style="display: <?php echo $index < 6 ? 'grid' : 'none'; ?>;">
                         <div class="property-images" onclick="nextImage(this)">
                             <?php foreach ($property['images'] as $imgIndex => $image): ?>

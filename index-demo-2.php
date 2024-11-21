@@ -42,8 +42,22 @@
 
 
     <style>
+        body {
+            background: pink;
+        }
+
         .header {
             display: flex;
+            outline: 2px solid red;
+            position: sticky;
+            top: 10vh;
+            width: 90%;
+            border-radius: 50px;
+            margin-inline: auto;
+            background: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
         }
 
         .headerNav {

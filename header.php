@@ -18,7 +18,7 @@ include "./data/blogdata.php";
 
 <header class="header-area style-1">
     <?php
-    include "./newsbanner.php" 
+    include "./newsbanner.php"
     ?>
     <style>
         .img-fluid {
@@ -340,6 +340,15 @@ include "./data/blogdata.php";
                             transform: rotate(10deg);
                             scale: 1.1;
                         }
+                    }
+
+                    #number1 {
+                        font-size: 18px;
+                    }
+
+                    #number1 svg {
+                        width: 18px;
+                        height: 18px;
                     }
 
                     #number1 {
