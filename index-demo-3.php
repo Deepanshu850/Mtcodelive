@@ -303,167 +303,294 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
 
 
 
-
         <div class="hero-section">
-            <div class="overlay"></div>
-            <div class="search-bar-container">
-                <h1>Find Your Dream Property</h1>
-                <p>Search properties for sale, rent, or lease across top locations.</p>
-                <form class="search-form" action="search.php" method="GET" onsubmit="event.preventDefault(); window.location.href='search?search=' + document.querySelector('input[name=search]').value;">
-                    <!-- Location Input -->
-                    <div class="form-group position-relative">
-                        <input type="text" name="search" placeholder="Enter City, Location, or Project Name" autocomplete="off" oninput="fetchSuggestions(this.value)" onkeydown="handleKeyNavigation(event)">
-                        <!-- Suggestions List -->
-                        <ul id="suggestions" class="list-group suggestions-box"></ul>
-                    </div>
+            <div>
+                <h1>
+                    Best Real Estate Property Consultant <br>
+                    In <span class="typing"> Delhi/Ncr</span>
+                </h1>
 
-                    <!-- Search Button -->
-                    <button type="submit" class="search-btn">Search</button>
-                </form>
+                <p>Best Real Estate Consultant in Delhi/NCR, The MONEYTREE REALTY SERVICES PVT. LTD.(RERA REG.), comprises a group of proficient professionals to provide world-class Real Estate Service.</p>
+                <p>Under the leadership of renowned Real Estate Tycoon <b>Mr. Sachin Arora</b>, We at MONEYTREE REALTY SERVICES PVT. LTD.(RERA REG.) work with great enthusiasm and provide a diverse catalog of properties from residential to commercial.</p>
+
+                <a href="contact">Contact Us <i class="bi bi-arrow-right"></i></a>
             </div>
+
+            <form class="hero-form" action="process.php" method="POST">
+                <p class="heroSectionFormTitle">
+                    Looking For?
+                </p>
+
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Name" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" name="location" placeholder="Location" required>
+                </div>
+
+                <div class="form-group">
+                    <select name="type" required>
+                        <option value="" disabled selected>Select Property Type</option>
+                        <option value="residential">Residential</option>
+                        <option value="commercial">Commercial</option>
+                        <option value="industrial">Industrial</option>
+                        <option value="land">Land</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="submit-btn">Search <i class="bi bi-search"></i></button>
+            </form>
         </div>
 
 
 
-        <style>
-            /* General Styles */
 
+
+        <style>
             .hero-section {
                 position: relative;
                 width: 100%;
-                height: 100vh;
-                background: url('./best-real-estate-property-consultant-in-india.jpeg') center/cover no-repeat;
+                min-height: 90svh;
+                background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+                    url('./assets/img/IMG_0342.webp') center/cover no-repeat;
+
+
+
+
+                /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+                    url('./assets/img/IMG_0343.webp') center/cover no-repeat; */
+
+
+
+                /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+                    url('./assets/img/IMG_0345.webp') center/cover no-repeat; */
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                background-size: cover;
-                /* Make sure the image covers the section */
-                background-position: center;
-                /* Center the image */
-                background-attachment: fixed;
-                /* Creates the parallax effect */
-                background-repeat: no-repeat;
-            }
-
-            .overlay {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                background: rgba(0, 0, 0, 0.4);
-                z-index: 1;
-            }
-
-            .search-bar-container {
-                position: relative;
-                z-index: 500;
-                width: 90%;
-                max-width: 1000px;
-                background: rgba(255, 255, 255, 0.2);
-                border-radius: 15px;
-                padding: 30px 20px;
-                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-                text-align: center;
-                backdrop-filter: blur(10px);
-                -webkit-backdrop-filter: blur(10px);
-                border: 1px solid rgba(255, 255, 255, 0.3);
-                
-            }
-
-            .search-bar-container h1 {
-                font-size: 2.5rem;
-                font-weight: bold;
                 color: #fff;
-                margin-bottom: 20px;
+                text-align: center;
+                padding: 0 20px;
+                background-attachment: fixed;
             }
 
-            .search-bar-container p {
-                font-size: 1rem;
-                color: #ddd;
-                margin-bottom: 20px;
+            .hero-section>div {
+                width: 60%;
+                text-align: left;
+                color: white;
             }
 
-            .search-form {
-                display: flex;
-                flex-wrap: wrap;
-                gap: 10px;
-                justify-content: center;
-                align-items: center;
+            .hero-section h1 {
+                color: inherit;
+                font-size: 3.5rem;
+                font-family: 'Poppins', 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+                line-height: 1.3;
+            }
+
+            .hero-section h1 .typing {
+                border-right: 5px solid #fff;
+                padding-right: 10px;
+                animation: blink 0.75s step-end infinite;
+            }
+
+            @keyframes blink {
+
+                from,
+                to {
+                    border-color: transparent;
+                }
+
+                50% {
+                    border-color: #fff;
+                }
+            }
+
+            .hero-section p {
+                color: inherit;
+                font-size: 13px;
+                letter-spacing: 0.85px;
+                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+            }
+
+
+
+            .hero-section>div a {
+                background: white;
+                color: #005b52;
+                outline: 2px solid #005b52;
+                font-weight: 600;
+                font-size: 16px;
+                padding: 10px 24px;
+                border-radius: 6px;
+                text-decoration: none;
+                transition: all 0.3s ease;
+            }
+
+            .hero-section>div a:hover {
+                background: #005b52;
+                color: white;
+            }
+
+            .hero-form {
+                background: rgba(255, 255, 255, 0.15);
+                padding: 2rem;
+                padding-top: 18px;
+                border-radius: 10px;
+                width: 100%;
+                max-width: 350px;
+                margin-left: 2rem;
+                backdrop-filter: blur(12px);
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+                border: 1px solid rgba(255, 255, 255, 0.2);
+            }
+
+            p.heroSectionFormTitle {
+                font-size: 22px;
+                font-weight: 600;
+                color: white;
+
             }
 
             .form-group {
-                position: relative;
-                width: 50%;
+                margin-bottom: 1rem;
             }
 
-            .form-group input {
+            .form-group input,
+            .form-group select {
                 width: 100%;
-                padding: 6px 20px;
+                padding: 0.8rem;
+                border: 1px solid rgba(0, 91, 82, 0.4);
+                border-radius: 5px;
                 font-size: 1rem;
-                border: 2px solid rgba(255, 255, 255, 0.3);
-                border-radius: 30px;
-                outline: none;
+                background: transparent;
+                backdrop-filter: blur(12px);
+                color: white;
                 transition: all 0.3s ease;
-                background: rgba(255, 255, 255, 0.2);
-                color: #fff;
-                font-weight: bold;
+                font-weight: 500;
             }
+
+            .hero-form .form-group .nice-select {
+                width: 100%;
+                margin-bottom: 20px;
+                background: transparent;
+                backdrop-filter: blur(12px);
+                color: whitesmoke;
+            }
+
+            /* .hero-form .form-group .nice-select::placeholder {
+                color: whitesmoke;
+            } */
+            .hero-form .form-group .nice-select .current {
+                color: whitesmoke;
+                backdrop-filter: blur(12px);
+            }
+
+            .hero-form .form-group .nice-select:hover {
+                background: transparent;
+            }
+
 
             .form-group input::placeholder {
-                color: #ddd;
+                opacity: 1;
+                color: whitesmoke;
             }
 
-            .form-group input:focus {
-                border: 2px solid #00aaff;
-                background: rgba(255, 255, 255, 0.5);
-                color: #fff;
-                box-shadow: 0 0 8px rgba(0, 170, 255, 0.5);
+            .form-group input:focus,
+            .form-group select:focus {
+                border-color: #005b52;
+                background: transparent;
+                outline: none;
+                box-shadow: 0 0 6px rgba(0, 91, 82, 0.6);
             }
 
-            .search-btn {
-                padding: 8px 16px;
-                font-size: 15px;
+            .submit-btn {
+                min-width: max-content;
+                max-width: 70%;
+                width: 100%;
+                padding: 10px 2rem;
                 background: radial-gradient(circle at top, #0e9688 0%, #007f70 30%, #005b52 100%);
                 color: white;
-                font-weight: 600;
                 border: none;
-                border-radius: 20px;
+                border-radius: 10px;
+                font-size: 14px;
                 cursor: pointer;
-                transition: background 0.3s ease, transform 0.2s ease;
+                transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+                text-transform: uppercase;
+                font-weight: 600;
+                box-shadow: 0 2px 8px rgba(0, 91, 82, 0.2);
             }
 
-            .search-btn:hover {
-                background: radial-gradient(circle at top, #0e9688 0%, #1c9486 30%, #005b52 100%);
+            .submit-btn:hover {
+                background: linear-gradient(135deg, #004540, #00796b);
                 transform: translateY(-1px);
             }
 
-            /* Mobile Responsiveness */
+            .hero-section .bi::before {
+                margin: 0;
+            }
+
             @media (max-width: 768px) {
-                .search-bar-container {
-                    padding: 20px;
+                .hero-form {
+                    margin: 1rem auto;
+                    width: 90%;
                 }
 
-                .search-bar-container h1 {
-                    font-size: 2rem;
+                .hero-section>div {
+                    width: 90%;
+                    text-align: center;
                 }
 
-                .search-btn {
-                    font-size: 14px;
-                    padding: 12px;
-                    width: 120px;
-                }
-
-                .search-form {
-                    flex-direction: column;
-                }
-
-                .form-group {
-                    position: relative;
-                    width: 100%;
+                .hero-section h1 {
+                    font-size: 2.5rem;
                 }
             }
         </style>
+
+
+
+        <script>
+            const texts = [
+                "Gurgaon",
+                "Mumbai",
+                "Delhi/Ncr",
+                "Goa"
+            ];
+
+            let textIndex = 0;
+            let charIndex = 0;
+            let isDeleting = false;
+            const typingDelay = 200;
+            const newTextDelay = 2000;
+            const h1Element = document.querySelector(".hero-section h1");
+            const firstPart = "Best Real Estate Property Consultant In";
+            let animatedPart = "Noida";
+
+            function typeEffect() {
+                h1Element.innerHTML = `${firstPart} <span class="typing">${animatedPart.substring(0, charIndex)}</span>`;
+
+                if (!isDeleting && charIndex < animatedPart.length) {
+                    charIndex++;
+                    setTimeout(typeEffect, 100);
+                } else if (isDeleting && charIndex > 0) {
+                    charIndex--;
+                    setTimeout(typeEffect, 50);
+                } else if (charIndex === 0) {
+                    isDeleting = false;
+                    animatedPart = texts[textIndex];
+                    textIndex = (textIndex + 1) % texts.length;
+                    setTimeout(typeEffect, 500);
+                } else {
+                    isDeleting = true;
+                    setTimeout(typeEffect, newTextDelay);
+                }
+            }
+
+            window.onload = () => setTimeout(typeEffect, 1000);
+        </script>
+
+
+
 
         <style>
             /* Suggestions styling */
@@ -1229,7 +1356,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
 
             <div class="properties-grid" id="propertiesGrid">
                 <?php foreach ($properties as $index => $property): ?>
-                    
+
                     <div class="property-card" style="display: <?php echo $index < 6 ? 'grid' : 'none'; ?>;">
                         <div class="property-images" onclick="nextImage(this)">
                             <?php foreach ($property['images'] as $imgIndex => $image): ?>

@@ -18,7 +18,7 @@ include "./data/blogdata.php";
 
 <header class="header-area style-1">
     <?php
-    // include "./newsbanner.php" 
+    include "./newsbanner.php" 
     ?>
     <style>
         .img-fluid {
@@ -910,6 +910,7 @@ include "./data/blogdata.php";
     </div>
 
 </header>
+
 
 
 

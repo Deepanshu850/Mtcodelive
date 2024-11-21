@@ -58,7 +58,7 @@
 
     .notification-content p span {
         padding-left: 80px;
-        
+
         /* Space between repeated text */
     }
 
