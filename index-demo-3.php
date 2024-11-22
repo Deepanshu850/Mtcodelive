@@ -322,7 +322,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                 </p>
 
                 <div class="form-group">
-                    <input type="text" name="keyword" placeholder="Keyword" required>
+                    <input type="text" name="keyword" placeholder="Search property" required>
                 </div>
 
                 <div class="form-group">
@@ -455,6 +455,9 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
             .form-group {
                 margin-bottom: 1rem;
             }
+            .form-group input::placeholder {
+                font-size: 13px;
+            }
 
             .form-group input,
             .form-group select {
@@ -536,13 +539,28 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                     width: 90%;
                 }
 
+                .hero-section {
+                    flex-direction: column;
+                }
+                
+                
                 .hero-section>div {
                     width: 90%;
                     text-align: center;
                 }
 
                 .hero-section h1 {
-                    font-size: 2.5rem;
+                    font-size: 27px;
+                    text-align: left;
+                    margin-top: 3rem;
+                }
+
+                .hero-section p {
+                    color: inherit;
+                    font-size: 12px;
+                    letter-spacing: 0.85px;
+                    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+                    text-align: left;
                 }
             }
         </style>
@@ -839,6 +857,12 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
             .propertySwiper .swiper-slide-next {
                 transform: perspective(1000px) rotateY(20deg) scale(0.9);
                 /* Tilt the other direction */
+            }
+
+            @media (max-width: 768px) {
+                .property-carousel {
+                    padding-inline: 28px;
+                }
             }
         </style>
 

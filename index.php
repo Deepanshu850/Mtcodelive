@@ -752,6 +752,12 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                 transform: perspective(1000px) rotateY(20deg) scale(0.9);
                 /* Tilt the other direction */
             }
+
+            @media (max-width: 768px) {
+                .property-carousel {
+                    padding-inline: 28px;
+                }
+            }
         </style>
 
 
