@@ -996,6 +996,37 @@ Noida, Buy office space in Noida Extension',
         'keywords' => 'elan presidential, elan presidential gurgaon, elan presidential price, elan presidential gurugram, elan presidential sector 106, elan presidential dwarka expressway, elan presidential apartments, elan presidential for sale, elan presidential price list, elan presidential buy, elan presidential brochure pdf, elan presidential floor plan, Elan The Presidential,Elan The Presidential Gurgaon,Elan The Presidential Sector 106,Elan The Presidential Sector 106 Gurgaon,Elan The Presidential Dwarka Expressway,Elan The Presidential Price,Elan The Presidential Floor Plan,Elan The Presidential Price List,Elan The Presidential Review,Elan The Presidential Brochure,Elan The Presidential Construction Update,Elan The Presidential Location,Elan The Presidential Resale,Elan The Presidential Gurgaon Floor Plan,Elan The Presidential Possession Date,Elan The Presidential Launch Date,Elan The Presidential Contact Number,Elan The Presidential Rera Number,Elan The Presidential Booking,Elan The Presidential 3 Bhk partments,Elan The Presidential 4 Bhk Apartments,Elan The Presidential 5 Bhk Apartments,Elan The Presidential 3 Bhk Price,Elan The Presidential 4 Bhk Price,Elan The Presidential 5 Bhk Price',
 
     ],
+    [
+        'id' => 33,
+        'name' => 'Mahindra Codename GreenLife',
+        'link' => 'mahindra-codename-greenlife',
+        'builder' => 'Mahindra Lifespaces Developers',
+        'location' => ['Maharashtra', 'Kalyan, Rajnouli', '421302', 'Mumbai - Nashik Expressway'],
+        'images' => [
+            'assets\img\projectdetails\mahindracodenamegreenlife1.webp',
+            'assets\img\projectdetails\mahindracodenamegreenlife2.webp',
+            'assets\img\projectdetails\mahindracodenamegreenlife3.webp',
+        ],
+
+        'price' => '₹ 49.5 lac onwards',
+        'possession' => 'December, 2028',
+        'area' => '398.91 sq ft to 633.24 sq ft',
+        'type' => ['Residential'],
+        'typeDetail' => ['1 BHK flats', '2 BHK flats'],
+        'rera' => ['P51700076963', 'https://maharerait.maharashtra.gov.in/project/view/47441'],
+        'shortDescription' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, amet! Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aut? Aut quod deserunt quaerat nihil.',
+        'keywords' => 'codename greenlife, mahindra codename greenlife, mahindra 
+greenlife, mahindra happinest, mahindra happinest kalyan, mahindra 
+happinest bhiwandi, mahindra kalyan, mahindra bhiwandi, mahindra 
+lifespaces, mahindra lifespaces kalyan, mahindra lifespaces bhiwandi, 
+happinest kalyan, happinest bhiwandi, codename greenlife kalyan, 
+codename greenlife bhiwandi, mahindra greenlife kalyan, mahindra 
+greenlife Bhiwandi, 1 BHK homes, 2 BHK homes, ready-to-move-in 
+homes, Health Sampanna homes, Kalyan real estate, Mahindra real 
+estate, mahindra happinest kalyan sample flat,mahindra happinest 
+ka, 1 BHK Flats, 2 BHK Flats',
+
+    ],
 
 
 ];

@@ -1,6 +1,6 @@
 <?php
 include "data/teammemberdata.php";
-include "data/developerslogodata.php";
+include "data/developer-data.php";
 include "data/locationcitydata.php";
 include "data/propertydata.php"
 ?>
@@ -221,6 +221,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
     <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
     <link href="assets/css/nice-select.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/index-page.css">
+    <link rel="stylesheet" href="./assets/css/index-page-demo.css">
 
     <!-- Google Tag Manager -->
     <script>
@@ -310,7 +311,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
             <div class="search-bar-container">
                 <h1>Find Your <span>Dream Property</span></h1>
                 <p>Search properties for sale, rent, or lease across top locations.</p>
-                <form class="search-form" action="search.php" method="GET" onsubmit="event.preventDefault(); window.location.href='search?search=' + document.querySelector('input[name=search]').value;">
+                <form class="search-form" action="search.php" method="GET" onsubmit="handleFormSubmit(event);">
                     <!-- Location Input -->
                     <div class="form-group position-relative">
                         <input type="text" name="search" placeholder="Enter City, Location, or Project Name" autocomplete="off" oninput="fetchSuggestions(this.value)" onkeydown="handleKeyNavigation(event)">
@@ -324,6 +325,111 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
             </div>
         </div>
 
+
+        <script>
+            let activeIndex = -1; // Tracks the active suggestion
+
+            function fetchSuggestions(query) {
+                const suggestionsBox = document.getElementById('suggestions');
+
+                if (query.trim().length > 0) {
+                    fetch(`suggest.php?query=${encodeURIComponent(query)}`)
+                        .then((response) => response.json())
+                        .then((data) => {
+                            suggestionsBox.innerHTML = '';
+                            if (data.length > 0) {
+                                data.forEach((keyword, index) => {
+                                    const listItem = document.createElement('li');
+                                    listItem.classList.add('list-group-item');
+                                    listItem.textContent = keyword;
+
+                                    // Handle click event
+                                    listItem.addEventListener('click', () => {
+                                        document.querySelector('input[name=search]').value = keyword;
+                                        submitForm();
+                                    });
+
+                                    suggestionsBox.appendChild(listItem);
+                                });
+                                suggestionsBox.classList.add('show');
+                                activeIndex = -1; // Reset active index
+                            } else {
+                                suggestionsBox.classList.remove('show');
+                            }
+                        })
+                        .catch((error) => {
+                            console.error('Error fetching suggestions:', error);
+                        });
+                } else {
+                    suggestionsBox.classList.remove('show');
+                }
+            }
+
+            function handleKeyNavigation(event) {
+                const suggestionsBox = document.getElementById('suggestions');
+                const suggestions = suggestionsBox.querySelectorAll('.list-group-item');
+
+                if (suggestions.length > 0) {
+                    if (event.key === 'ArrowDown') {
+                        // Move down
+                        event.preventDefault();
+                        activeIndex = (activeIndex + 1) % suggestions.length;
+                        highlightSuggestion(suggestions, activeIndex);
+                    } else if (event.key === 'ArrowUp') {
+                        // Move up
+                        event.preventDefault();
+                        activeIndex = (activeIndex - 1 + suggestions.length) % suggestions.length;
+                        highlightSuggestion(suggestions, activeIndex);
+                    } else if (event.key === 'Enter') {
+                        // Select the highlighted suggestion or submit input value
+                        event.preventDefault();
+                        if (activeIndex >= 0) {
+                            const selectedSuggestion = suggestions[activeIndex].textContent;
+                            document.querySelector('input[name=search]').value = selectedSuggestion;
+                        }
+                        submitForm();
+                    }
+                }
+            }
+
+            function highlightSuggestion(suggestions, index) {
+                suggestions.forEach((item, i) => {
+                    if (i === index) {
+                        item.classList.add('active');
+                        // Ensure the active suggestion is in view
+                        item.scrollIntoView({
+                            block: 'nearest',
+                            behavior: 'smooth'
+                        });
+                    } else {
+                        item.classList.remove('active');
+                    }
+                });
+            }
+
+            function handleFormSubmit(event) {
+                event.preventDefault();
+                submitForm();
+            }
+
+            function submitForm() {
+                const input = document.querySelector('input[name=search]');
+                const query = input.value.trim();
+                if (query) {
+                    window.location.href = `search.php?search=${encodeURIComponent(query)}`;
+                } else {
+                    alert('Please enter a search term.');
+                }
+            }
+
+            // Hide suggestions when clicking outside
+            document.addEventListener('click', function(event) {
+                const suggestionsBox = document.getElementById('suggestions');
+                if (!event.target.closest('.form-group')) {
+                    suggestionsBox.classList.remove('show');
+                }
+            });
+        </script>
 
 
         <style>
@@ -544,97 +650,6 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
         </style>
 
 
-        <script>
-            let activeIndex = -1; // Tracks the active suggestion
-
-            function fetchSuggestions(query) {
-                const suggestionsBox = document.getElementById('suggestions');
-
-                if (query.trim().length > 0) {
-                    fetch(`suggest.php?query=${encodeURIComponent(query)}`)
-                        .then((response) => response.json())
-                        .then((data) => {
-                            suggestionsBox.innerHTML = '';
-                            if (data.length > 0) {
-                                data.forEach((keyword, index) => {
-                                    const listItem = document.createElement('li');
-                                    listItem.classList.add('list-group-item');
-                                    listItem.textContent = keyword;
-
-                                    // Handle click event
-                                    listItem.addEventListener('click', () => {
-                                        document.querySelector('input[name=search]').value = keyword;
-                                        suggestionsBox.classList.remove('show');
-                                        document.querySelector('.search-form').submit();
-                                    });
-
-                                    suggestionsBox.appendChild(listItem);
-                                });
-                                suggestionsBox.classList.add('show');
-                                activeIndex = -1; // Reset active index
-                            } else {
-                                suggestionsBox.classList.remove('show');
-                            }
-                        })
-                        .catch((error) => {
-                            console.error('Error fetching suggestions:', error);
-                        });
-                } else {
-                    suggestionsBox.classList.remove('show');
-                }
-            }
-
-            function handleKeyNavigation(event) {
-                const suggestionsBox = document.getElementById('suggestions');
-                const suggestions = suggestionsBox.querySelectorAll('.list-group-item');
-
-                if (suggestions.length > 0) {
-                    if (event.key === 'ArrowDown') {
-                        // Move down
-                        event.preventDefault();
-                        activeIndex = (activeIndex + 1) % suggestions.length;
-                        highlightSuggestion(suggestions, activeIndex);
-                    } else if (event.key === 'ArrowUp') {
-                        // Move up
-                        event.preventDefault();
-                        activeIndex = (activeIndex - 1 + suggestions.length) % suggestions.length;
-                        highlightSuggestion(suggestions, activeIndex);
-                    } else if (event.key === 'Enter') {
-                        // Select the highlighted suggestion
-                        event.preventDefault();
-                        if (activeIndex >= 0) {
-                            const selectedSuggestion = suggestions[activeIndex].textContent;
-                            document.querySelector('input[name=search]').value = selectedSuggestion;
-                            suggestionsBox.classList.remove('show');
-                        }
-                        document.querySelector('.search-form').submit();
-                    }
-                }
-            }
-
-            function highlightSuggestion(suggestions, index) {
-                suggestions.forEach((item, i) => {
-                    if (i === index) {
-                        item.classList.add('active');
-                        // Ensure the active suggestion is in view
-                        item.scrollIntoView({
-                            block: 'nearest',
-                            behavior: 'smooth'
-                        });
-                    } else {
-                        item.classList.remove('active');
-                    }
-                });
-            }
-
-            // Hide suggestions when clicking outside
-            document.addEventListener('click', function(event) {
-                const suggestionsBox = document.getElementById('suggestions');
-                if (!event.target.closest('.form-group')) {
-                    suggestionsBox.classList.remove('show');
-                }
-            });
-        </script>
 
         <style>
             .property-carousel {
@@ -652,14 +667,32 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
 
             .full-width-bg {
                 padding-block-start: 2rem;
-                background: #f9f9f9;
+                background: #f0f0f0;
             }
 
             .property-carousel h2 {
                 font-weight: 600;
                 text-align: center;
                 margin-bottom: 2.5rem;
+                text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+
             }
+
+            .bg-green {
+                position: relative;
+                color: #fff;
+                display: inline-block;
+                background: linear-gradient(90deg, #00796b, #009688, #26a69a);
+                padding-block: 4px;
+                --padding-translate: 6px;
+                padding-inline: var(--padding-translate);
+                transform: translateX(-var(--padding-translate));
+                border-radius: 10px;
+
+            }
+
+
+
 
             .property-carousel::-webkit-scrollbar {
                 display: none;
@@ -715,6 +748,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
             }
 
             .propertySwiper .swiper-slide {
+                background: #fff;
                 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), inset 0 1px 3px rgba(0, 0, 0, 0.05);
                 padding: 20px 14px;
                 height: 100%;
@@ -725,7 +759,26 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                 /* Slightly smaller by default */
                 height: 25rem;
                 border-radius: 8px;
+                overflow: hidden;
             }
+
+
+            .propertySwiper .swiper-slide::after {
+                content: 'Exclusive';
+                position: absolute;
+                top: 20px;
+                left: -32px;
+                width: 40%;
+                transform: rotate(-45deg);
+                text-align: center;
+                background: #e63946;
+                color: #fff;
+
+            }
+
+
+
+
 
             .propertySwiper .swiper-slide a {
                 color: #000000;
@@ -775,7 +828,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
             <div class="property-carousel">
 
                 <h2>
-                    In Spotlight
+                    In Spot<span class="bg-green">light</span>
                 </h2>
 
                 <div class="swiper-container propertySwiper">
@@ -1572,15 +1625,198 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                 </div>
             </div>
         </div>
-        <div class="col-lg-12">
-            <div class="section-title1 container">
-                <h2>Developers</h2>
-            </div>
-            <div class=partner-slider style=overflow-x:hidden>
-                <div class=marquee_text2><?php foreach ($developerLogos as $logo): ?><img loading="lazy"
-                            alt="<?= $logo['alt']; ?>" src="<?= $logo['src']; ?>" height=100 width=300><?php endforeach; ?></div>
+
+
+        <style>
+            .full-width-bg:has(.developer-carousel) {
+                background: url('./assets/img/IMG_0342.webp') center/cover no-repeat;
+                background-attachment: fixed;
+                position: relative;
+                padding-block: 3rem;
+            }
+
+            .full-width-bg:has(.developer-carousel)::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(255, 255, 255, 0.3);
+                backdrop-filter: blur(5px);
+            }
+
+            .developer-carousel {
+                position: relative;
+                z-index: 1;
+            }
+
+
+            .developer-carousel {
+                overflow: hidden;
+                width: 90%;
+                margin-inline: auto;
+                padding-bottom: 4rem;
+            }
+
+            .developer-carousel h2 {
+                font-weight: 600;
+                text-align: center;
+                margin-bottom: 2.5rem;
+                font-size: 28px;
+                color: #fff;
+                text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+            }
+
+            .developer-card {
+                background: #fff;
+                border-radius: 12px;
+                padding: 20px;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+                transition: all 0.3s ease;
+                height: 200px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 1rem;
+            }
+
+            .developer-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            }
+
+            .developer-image {
+                width: 120px;
+                height: 120px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .developer-image img {
+                max-width: 100%;
+                max-height: 100%;
+                object-fit: contain;
+            }
+
+            .developer-card h3 {
+                font-size: 16px;
+                text-align: center;
+                color: #333;
+                margin: 0;
+                font-weight: 500;
+            }
+
+            /* .developerSwiper .swiper-slide {
+                opacity: 1;
+                transition: all 0.3s ease;
+            }
+
+            .developerSwiper .swiper-slide-active {
+                opacity: 1;
+            } */
+
+            .developerSwiper .swiper-button-next,
+            .developerSwiper .swiper-button-prev {
+                color: #000000;
+                background-color: rgba(255, 255, 255, 0.9);
+                border: 1px solid #e0e0e0;
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+            }
+
+            .developerSwiper .swiper-button-next:after,
+            .developerSwiper .swiper-button-prev:after {
+                font-size: 18px;
+                font-weight: bold;
+            }
+
+            .developerSwiper .swiper-button-next:hover,
+            .developerSwiper .swiper-button-prev:hover {
+                background-color: #009688;
+                color: #fff;
+                border-color: #009688;
+            }
+
+            @media (max-width: 768px) {
+                .developer-carousel {
+                    width: 100%;
+                    padding-inline: 20px;
+                }
+
+                .developer-card {
+                    height: 180px;
+                }
+
+                .developer-image {
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+        </style>
+
+        <div class="full-width-bg">
+            <div class="developer-carousel">
+                <h2>Our Deve<span class="bg-green">lopers</span></h2>
+                <div class="swiper-container developerSwiper">
+                    <div class="swiper-wrapper">
+                        <?php foreach ($developers as $developer): ?>
+                            <div class="swiper-slide">
+                                <a href="./real-estate-developers/<?php echo $developer['link']; ?>">
+                                    <div class="developer-card">
+                                        <div class="developer-image">
+                                            <img src="./assets/img/developer-logos/<?php echo $developer['image']; ?>"
+                                                alt="<?php echo $developer['name']; ?>"
+                                                loading="lazy">
+                                        </div>
+                                        <h3><?php echo $developer['name']; ?></h3>
+                                    </div>
+                                </a>
+                            </div>
+                        <?php endforeach; ?>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
             </div>
         </div>
+
+        <!-- Swiper JS Initialization for Developer Slider -->
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var swiper = new Swiper('.developerSwiper', {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                    loop: true,
+                    navigation: {
+                        nextEl: '.developer-carousel .swiper-button-next',
+                        prevEl: '.developer-carousel .swiper-button-prev',
+                    },
+                    autoplay: {
+                        delay: 3000,
+                        disableOnInteraction: false,
+                    },
+                    breakpoints: {
+                        700: {
+                            slidesPerView: 5,
+                            spaceBetween: 20,
+                        },
+                        0: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                        },
+                    },
+                });
+            });
+        </script>
+
+
+
+
+
         <div class="pt-90 news-section pb-90">
             <div class=container>
                 <div class="fadeInUp wow mb-50 row" data-wow-delay=200ms>

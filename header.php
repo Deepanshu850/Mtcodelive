@@ -3,9 +3,15 @@
 ?>
 
 <div class="s-soft">
-    <a href=https://www.facebook.com/moneytreerealtyofficial class="s-item facebook"><i class="bi bi-facebook"></i> </a>
-    <a href=https://www.linkedin.com/company/moneytree-realty-services/mycompany/ class="s-item linkedin"><i class="bi bi-linkedin"></i> </a>
-    <a href=https://www.instagram.com/moneytreerealtyofficial/ class="s-item instagram"><i class="bi bi-instagram"></i></a>
+    <a href=https://www.facebook.com/moneytreerealtyofficial class="s-item facebook">
+        <img src="./assets/img/FB.png" alt="">
+    </a>
+    <a href=https://www.linkedin.com/company/moneytree-realty-services/mycompany/ class="s-item linkedin">
+        <img src="./assets/img/Insta.png" alt="">
+    </a>
+    <a href=https://www.instagram.com/moneytreerealtyofficial/ class="s-item instagram">
+        <img src="./assets/img/Linkedin.png" alt="">
+    </a>
 </div>
 
 <?php

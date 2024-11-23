@@ -5,13 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>
+    <title>AU Real Estate | Top Real Estate Builders & Developers in India</title>
 
-    </title>
+    <meta name="description" content="AU Real Estate | Leading Real Estate Builders & Developers in India | Creating Exceptional Residential & Commercial Spaces with Innovation & Quality.">
 
-    <meta name="description" content="">
-
-    <meta name="keywords" content="" />
+    <meta name="keywords" content="Au Real Estate Services Pvt Ltd Developer, Au Real Estate Services Pvt Ltd Property Builder, About Au Real Estate Services Pvt Ltd and projects of Au Real Estate Services Pvt Lt, AU Real Estate builder & developer, AU Real Estate Vastu projects, AU Real Estate Vastu flats, Vastu compliant apartments by AU Real Estate, Vastu compliant societies by AU Real Estate, property in india, new projects, builder projects, premium apartment, resale, buy, sale, property for sale, 1 BHK, 2 BHK, 3 BHK" />
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0" />
@@ -24,10 +22,10 @@
     <meta name="audience" content="All" />
 
 
-    <meta property="og:title" content="">
+    <meta property="og:title" content="AU Real Estate | Top Real Estate Builders & Developers in India">
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/real-estate-developers/au-real-estate">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="AU Real Estate | Leading Real Estate Builders & Developers in India | Creating Exceptional Residential & Commercial Spaces with Innovation & Quality.">
     <meta property="og:type" content="property">
 
     <link rel="canonical" href="https://moneytreerealty.com/real-estate-developers/au-real-estate" />
@@ -127,7 +125,7 @@
         <div class="builderData">
 
             <h1>
-
+                Explore Upcoming Real Estate Projects from AU Real Estate
             </h1>
 
 

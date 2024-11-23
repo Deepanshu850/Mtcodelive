@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>
+        Krisumi Corporation | Top Real Estate Builders & Developers in India
 
     </title>
 
-    <meta name="description" content="">
+    <meta name="description" content="Krisumi Corporation | Leading Real Estate Builders & Developers in India | Redefining Luxury Living with Japanese Design and World-Class Residential Projects.">
 
-    <meta name="keywords" content="" />
-
+    <meta name="keywords" content="krisumi corporation, krisumi corporation private limited, krisumi logo, krisumi sales lounge, krisumi corporation pvt ltd, Real Estate India, Luxury Living, Builders And Developers, Dream Homes India, Smart Living, Krisumi Water fall Residences, Top Real Estate Developers, Luxury Apartments India, Luxury Real Estate, Affordable Luxury, Urban Living India, Real Estate Innovation, Premium Homes, Sustainable Living Spaces, Smart Homes India, Future Living, Krisumi Residences, Luxury Homes India, Top Builders India, Property For Sale, Residential Projects, Real Estate Experts, Best Builders India, Urban Development, Commercial Spaces India, Trusted Developers, Luxury Spaces, KrisumiProjects, Realty India, Exclusive Residences, Luxury Homes For Sale, Top Developers India" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0" />
     <meta name="Owner" content="Moneytreerealty.com" />
@@ -20,14 +20,13 @@
     <meta name="classification" content="Real Estate Property Search" />
     <meta name="distribution" content="India" />
     <meta name="rating" content="General" />
-    <meta name="subject" content="Search Property for Sale And Rent, Search New	Projects, Builders And Property Consultant in India" />
+    <meta name="subject" content="Search Property for Sale And Rent, Search New Projects, Builders And Property Consultant in India" />
     <meta name="audience" content="All" />
 
-
-    <meta property="og:title" content="">
+    <meta property="og:title" content="Krisumi Corporation | Top Real Estate Builders & Developers in India">
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/real-estate-developers/krisumi-corporation">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Krisumi Corporation | Leading Real Estate Builders & Developers in India | Redefining Luxury Living with Japanese Design and World-Class Residential Projects.">
     <meta property="og:type" content="property">
 
     <link rel="canonical" href="https://moneytreerealty.com/real-estate-developers/krisumi-corporation" />

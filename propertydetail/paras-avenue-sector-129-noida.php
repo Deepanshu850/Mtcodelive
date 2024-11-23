@@ -164,7 +164,6 @@ property in Noida" />
     </script>
 
 
-
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="../assets/css/nice-select.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">

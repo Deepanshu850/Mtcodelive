@@ -551,6 +551,22 @@ $properties = [
         'rera_link' => 'https://haryanarera.gov.in/view_project/searchprojectDetail/2177',
         'property' => '',
     ],
+    [
+        'id' => 34,
+        'name' => 'Mahindra Codename GreenLife',
+        'location' => 'Maharashtra',
+        'images' => [
+            'assets\img\projectdetails\mahindracodenamegreenlife1.webp',
+            'assets\img\projectdetails\mahindracodenamegreenlife2.webp',
+            'assets\img\projectdetails\mahindracodenamegreenlife3.webp',
+        ],
+        'price' => '₹ 49.5 lac onwards',
+
+        'type' => ['Residential'],
+        'rera' => 'P51700076963',
+        'rera_link' => 'https://maharerait.maharashtra.gov.in/project/view/47441',
+        'property' => '',
+    ],
 
 ];
 ?>

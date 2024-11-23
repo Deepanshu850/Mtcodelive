@@ -1,8 +1,66 @@
-<div class="s-soft">
-    <a href=https://www.facebook.com/moneytreerealtyofficial class="s-item facebook"><i class="bi bi-facebook"></i> </a>
-    <a href=https://www.linkedin.com/company/moneytree-realty-services/mycompany/ class="s-item linkedin"><i class="bi bi-linkedin"></i> </a>
-    <a href=https://www.instagram.com/moneytreerealtyofficial/ class="s-item instagram"><i class="bi bi-instagram"></i></a>
+<div class="socialLinks">
+    <a href="https://www.facebook.com/moneytreerealtyofficial" class="social-link">
+        <img src="./assets/img/FB.png" alt="Facebook">
+    </a>
+    <a href="https://www.linkedin.com/company/moneytreerealtyservices/mycompany/" class="social-link">
+        <img src="./assets/img/Linkedin.png" alt="LinkedIn">
+    </a>
+    <a href="https://www.instagram.com/moneytreerealtyofficial/" class="social-link">
+        <img src="./assets/img/Insta.png" alt="Instagram">
+    </a>
 </div>
+
+<style>
+    /* Container for Social Links */
+    .socialLinks {
+        position: fixed;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        z-index: 1000;
+        padding: 10px;
+        /* background: rgba(0, 0, 0, 0.5); */
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .socialLinks a {
+        --link-size: 40px;
+        width: var(--link-size);
+        height: var(--link-size);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #005b52;
+        border-radius: 50%;
+        overflow: hidden;
+        transition: transform 0.3s, background 0.3s;
+    }
+
+
+    .socialLinks a img {
+        --link-img-size: 70%;
+        width: var(--link-img-size);
+        height: var(--link-img-size);
+        object-fit: contain;
+    }
+    .socialLinks a img {
+        width: 70%;
+        height: 70%;
+        object-fit: contain;
+        transition: transform 0.3s ease;
+    }
+
+    .socialLinks a:hover img {
+        transform: scale(1.1);
+    }
+</style>
+
+
+
 
 <header class="custom-header" id="mainHeader">
     <div class="custom-logo">
