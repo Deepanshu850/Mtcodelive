@@ -231,6 +231,7 @@ main > :nth-child(2) {
 
 .blog-carousel .swiper-slide img {
 	object-fit: fill;
+	border-radius: 6px;
 }
 
 .swiper-button-next:after,
@@ -286,4 +287,84 @@ main > :nth-child(2) {
 	border-radius: 6px;
 	padding: 10px;
 	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08), inset 0 1px 3px rgba(0, 0, 0, 0.03);
+}
+
+.developer-carousel {
+	position: relative;
+	z-index: 1;
+}
+
+.developer-carousel {
+	overflow: hidden;
+	width: 100%;
+	margin-inline: auto;
+	padding-bottom: 2rem;
+}
+
+.developer-carousel h2 {
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 2.5rem;
+	font-size: 28px;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.developer-card {
+	background: #fff;
+	border-radius: 12px;
+	padding: 20px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+	transition: all 0.3s ease;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.developer-card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.developer-image {
+	width: 120px;
+	height: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.developer-image img {
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: contain;
+}
+
+.developer-card h3 {
+	font-size: 16px;
+	text-align: center;
+	color: #333;
+	margin: 0;
+	font-weight: 500;
+}
+
+
+
+@media (max-width: 768px) {
+	.developer-carousel {
+		width: 100%;
+		padding-inline: 20px;
+	}
+
+	.developer-card {
+		height: 180px;
+	}
+
+	.developer-image {
+		width: 100px;
+		height: 100px;
+	}
 }

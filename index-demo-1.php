@@ -1538,51 +1538,121 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                 </div>
             </div>
         </div>
-        <div class="mb-100 project-location-area">
-            <div class=container>
-                <div class="fadeInUp wow mb-50 row" data-wow-delay=200ms>
-                    <div class="d-flex col-lg-12 flex-wrap justify-content-between align-items-center gap-3">
-                        <div class=section-title1><span>Comfort Building</span>
-                            <h2>Property By Cities</h2>
-                        </div>
-                        <div class="slider-btn-group2 width-90">
-                            <div class="slider-btn prev-12"><svg height=15 viewBox="0 0 8 13" width=9
-                                    xmlns=http://www.w3.org/2000/svg>
-                                    <path d="M0 6.50008L8 0L2.90909 6.50008L8 13L0 6.50008Z"></path>
-                                </svg></div>
-                            <div class="slider-btn next-12"><svg height=15 viewBox="0 0 8 13" width=9
-                                    xmlns=http://www.w3.org/2000/svg>
-                                    <path d="M8 6.50008L0 0L5.09091 6.50008L0 13L8 6.50008Z"></path>
-                                </svg></div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class=row>
-                    <div class=col-lg-12>
-                        <div class="swiper home1-location-slider">
-                            <div class=swiper-wrapper><?php foreach ($locations as $location): ?><div
-                                        class=swiper-slide>
-                                        <div class=project-card><img loading="lazy" alt="<?= $location['name']; ?>"
-                                                src="<?= $location['image']; ?>">
-                                            <div class=location-content-wrap>
-                                                <div class=location-content>
-                                                    <h5><a href="<?= './top-real-estate-poperty-consultant-in-india?search=' . $location['name']; ?>"
-                                                            class=location-link><?= $location['name']; ?></a></h5>
-                                                    <span><?= $location['propertiesCount']; ?>Properties</span> <a
-                                                        href="<?= './top-real-estate-poperty-consultant-in-india?search=' . $location['name']; ?>"
-                                                        class=view-more-btn>
-                                                        <div class=view-btn><i class="bi bi-arrow-right"></i></div>
-                                                    </a>
-                                                </div>
-                                            </div>
+        <style>
+            .location-card {
+                position: relative;
+                height: 100%;
+            }
+
+            .location-image {
+                width: 100%;
+                height: 350px;
+                overflow: hidden;
+                position: relative;
+            }
+
+            .location-image img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: transform 0.3s ease;
+            }
+
+            .location-image:hover img {
+                /* transform: scale(1.1); */
+            }
+
+            .location-image .overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 26%, rgba(0, 0, 0, 0.45) 26%, rgba(0, 0, 0, 0.1));
+                transition: background 0.5s ease;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                padding: 20px;
+                overflow: hidden;
+            }
+
+            .location-image:hover .overlay {
+                background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 26%, rgba(0, 0, 0, 0.7) 26%, rgba(0, 0, 0, 0.1));
+            }
+
+            .location-image .overlay h3,
+            .location-image .overlay p {
+                color: #fff;
+                margin: 0;
+            }
+
+            .location-image .overlay p {
+                margin-top: 5px;
+                font-size: 14px;
+            }
+        </style>
+
+
+
+        <div class="full-width-bg">
+            <div class="property-carousel">
+                <h2>Explore Our <span class="bg-green">Locations</span></h2>
+                <div class="swiper-container locationSwiper">
+                    <div class="swiper-wrapper">
+                        <?php foreach ($locations as $location): ?>
+                            <div class="swiper-slide">
+                                <div class="location-card">
+                                    <div class="location-image">
+                                        <img src="<?php echo htmlspecialchars($location['image']); ?>" alt="<?php echo htmlspecialchars($location['name']); ?>">
+                                        <div class="overlay">
+                                            <h3><?php echo htmlspecialchars($location['name']); ?></h3>
+                                            <p><?php echo htmlspecialchars($location['propertiesCount']); ?> Properties</p>
                                         </div>
-                                    </div><?php endforeach; ?></div>
-                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php endforeach; ?>
+                    </div>
+                    <!-- Navigation buttons -->
+                    <div class="swiper-button-prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8.96 1.96a1 1 0 0 1 1.497 1.32l-.083.094L5.747 8l4.627 4.626a1 1 0 0 1 .083 1.32l-.083.094a1 1 0 0 1-1.32.084l-.094-.084-5.334-5.333a1 1 0 0 1-.083-1.32l.083-.094L8.96 1.96Z"></path>
+                        </svg>
+                    </div>
+                    <div class="swiper-button-next">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M7.04 1.96a1 1 0 0 0-1.497 1.32l.083.094L10.253 8l-4.627 4.626a1 1 0 0 0-.083 1.32l.083.094a1 1 0 0 0 1.32.084l.094-.084 5.334-5.333a1 1 0 0 0 .083-1.32l-.083-.094L7.04 1.96Z"></path>
+                        </svg>
                     </div>
                 </div>
             </div>
         </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                new Swiper('.locationSwiper', {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                    loop: true,
+                    navigation: {
+                        nextEl: '.locationSwiper .swiper-button-next',
+                        prevEl: '.locationSwiper .swiper-button-prev',
+                    },
+                    autoplay: {
+                        delay: 3000,
+                        disableOnInteraction: false,
+                    },
+                    breakpoints: {
+                        768: {
+                            slidesPerView: 3,
+                            spaceBetween: 20,
+                        }
+                    }
+                });
+            });
+        </script>
+
 
 
 
@@ -1590,11 +1660,21 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
 
         <style>
             .full-width-bg:has(.team-carousel) {
-                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/img/IMG_0345.webp');
+                background: url('./assets/img/IMG_0342.webp') center/cover no-repeat;
                 background-attachment: fixed;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
+                position: relative;
+                padding-block: 3rem;
+            }
+
+            .full-width-bg:has(.team-carousel)::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(255, 255, 255, 0.3);
+                backdrop-filter: blur(5px);
             }
 
             .team-carousel {
@@ -1616,7 +1696,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
             }
 
             .team-member-card {
-                background: rgba(255, 255, 255, 0.3);
+                /* background: rgba(255, 255, 255, 0.3); */
                 backdrop-filter: blur(5px);
                 -webkit-backdrop-filter: blur(5px);
                 border: 1px solid rgba(255, 255, 255, 0.3);
@@ -1625,9 +1705,9 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                 box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1), inset 0px 1px 8px rgba(0, 0, 0, 0.1);
                 transition: transform 0.3s ease, box-shadow 0.3s ease;
                 height: 100%;
-                padding: 12px;
+                padding: 2px;
                 outline: 1px solid #e0af60;
-
+                background: #fff;
             }
 
             .team-member-card:hover {
@@ -1636,10 +1716,10 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
 
             .member-image {
                 width: 100%;
-                height: 220px;
+                height: 270px;
                 position: relative;
                 overflow: hidden;
-                border-radius: 10px;
+                border-radius: 10px 10px 0 0;
                 outline: 1px solid #e0af60;
             }
 
@@ -1663,13 +1743,13 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
             .member-info h3 {
                 margin: 0;
                 font-size: 18px;
-                color: #fff;
+                color: #000;
             }
 
             .member-info p {
                 color: #bfbdbd;
                 font-size: 14px;
-                /* margin: 0.5rem 0 0; */
+                margin: 0;
             }
         </style>
 
