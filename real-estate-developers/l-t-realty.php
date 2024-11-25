@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>
-        Top India’s Real Estate L & T Developers And Builders
+        Top India’s Real Estate L&T Realty, Developers And Builders
     </title>
 
     <meta name="description" content="Top India’s Real Estate L & T Developers And Builders. Known for delivering innovative designs, quality construction, and prime residential & commercial projects.">
@@ -49,7 +49,7 @@ Residential Real Estate, Luxury Flats/Apartments, Luxury Residential Apartments"
     <meta name="audience" content="All" />
 
 
-    <meta property="og:title" content="Top India’s Real Estate L & T Developers And Builders">
+    <meta property="og:title" content="Top India’s Real Estate L&T Realty, Developers And Builders">
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/real-estate-developers/l-t-realty">
     <meta property="og:description" content="Top India’s Real Estate L & T Developers And Builders. Known for delivering innovative designs, quality construction, and prime residential & commercial projects.">

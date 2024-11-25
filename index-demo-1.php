@@ -2,7 +2,10 @@
 include "data/teammemberdata.php";
 include "data/developer-data.php";
 include "data/locationcitydata.php";
-include "data/propertydata.php"
+include "data/propertydata.php";
+include "data/googlereview.php";
+include "data/blogdata.php";
+
 ?>
 
 <!doctypehtml>
@@ -708,22 +711,46 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                 object-fit: fill;
             }
 
-            .swiper-button-next:after,
-            .swiper-button-prev:after {
-                font-size: 30px;
-                font-weight: 600;
-            }
-
             .swiper-button-prev,
             .swiper-button-next {
-                top: 35%;
+                --swiper-button-size: 40px;
+
+                top: 45%;
                 color: #000000;
-                background-color: rgba(255, 255, 255, 0.4);
+                background: rgba(0, 0, 0, 0.5);
                 border: 1px solid #000000;
                 border-radius: 50%;
-                width: 3rem;
-                height: 3rem;
+                width: var(--swiper-button-size);
+                height: var(--swiper-button-size);
+                background: rgba(17, 17, 17, 0.5);
+                box-shadow: rgba(0, 0, 0, 0.3) 0px 6px 12px 0px;
+                fill: #fff;
+                transition: all 200ms ease;
             }
+
+            .swiper-button-prev svg,
+            .swiper-button-next svg {
+                height: 26px;
+                /* width: 20px; */
+
+            }
+
+            .swiper-button-prev:hover,
+            .swiper-button-next:hover {
+                background: rgba(17, 17, 17, 0.9);
+                box-shadow: rgba(0, 0, 0, 0.5) 0px 6px 12px 0px;
+            }
+
+            .swiper-button-next:after,
+            .swiper-button-prev:after {
+                display: none;
+                font-size: 23px;
+                font-weight: 600;
+                color: #fff;
+            }
+
+
+
 
             .swiper-pagination-bullet-active {
                 background: linear-gradient(90deg, #00796b, #009688, #26a69a);
@@ -859,8 +886,16 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                     </div>
 
                     <!-- Add Arrows -->
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M7.04 1.96a1 1 0 0 0-1.497 1.32l.083.094L10.253 8l-4.627 4.626a1 1 0 0 0-.083 1.32l.083.094a1 1 0 0 0 1.32.084l.094-.084 5.334-5.333a1 1 0 0 0 .083-1.32l-.083-.094L7.04 1.96Z"></path>
+                        </svg>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8.96 1.96a1 1 0 0 1 1.497 1.32l-.083.094L5.747 8l4.627 4.626a1 1 0 0 1 .083 1.32l-.083.094a1 1 0 0 1-1.32.084l-.094-.084-5.334-5.333a1 1 0 0 1-.083-1.32l.083-.094L8.96 1.96Z"></path>
+                        </svg>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1548,83 +1583,478 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                 </div>
             </div>
         </div>
-        <div class="mb-100 pt-90 home1-team-section pb-20">
-            <div class=container>
-                <div class="fadeInUp wow mb-50 row" data-wow-delay=200ms>
-                    <div class="d-flex col-lg-12 flex-wrap justify-content-between align-items-center gap-3">
-                        <div class=section-title1><span>Top Expertise</span>
-                            <h2>Meet Industry Experts</h2>
-                        </div>
-                        <div class="slider-btn-group2 width-90">
-                            <div class="slider-btn prev-13"><svg height=15 viewBox="0 0 8 13" width=9
-                                    xmlns=http://www.w3.org/2000/svg>
-                                    <path d="M0 6.50008L8 0L2.90909 6.50008L8 13L0 6.50008Z"></path>
-                                </svg></div>
-                            <div class="slider-btn next-13"><svg height=15 viewBox="0 0 8 13" width=9
-                                    xmlns=http://www.w3.org/2000/svg>
-                                    <path d="M8 6.50008L0 0L5.09091 6.50008L0 13L8 6.50008Z"></path>
-                                </svg></div>
-                        </div>
-                    </div>
-                </div>
-                <div class=row>
-                    <div class=col-lg-12>
-                        <div class="swiper home1-team-slider">
-                            <div class=swiper-wrapper><?php foreach ($teamMembers as $member): ?><div
-                                        class=swiper-slide>
-                                        <div class=single-team-card>
-                                            <div class=team-img><img loading="lazy" alt="Team Member"
-                                                    src="<?= $member['image']; ?>" class=team-img></div>
-                                            <div class=team-content>
-                                                <h6><?= $member['name']; ?></h6><span><?= $member['role']; ?></span>
-                                            </div>
+
+
+
+
+
+        <style>
+            .full-width-bg:has(.team-carousel) {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/img/IMG_0345.webp');
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .team-carousel {
+                padding-block: 1rem 4rem;
+            }
+
+            .teamSwiper {
+                padding: 1rem 8px;
+            }
+
+            .team-carousel h2 {
+                text-align: center;
+                /* margin-bottom: 3rem; */
+                font-weight: 600;
+                font-size: 28px;
+                color: #fff;
+                text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+
+            }
+
+            .team-member-card {
+                background: rgba(255, 255, 255, 0.3);
+                backdrop-filter: blur(5px);
+                -webkit-backdrop-filter: blur(5px);
+                border: 1px solid rgba(255, 255, 255, 0.3);
+                border-radius: 12px;
+                overflow: hidden;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1), inset 0px 1px 8px rgba(0, 0, 0, 0.1);
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+                height: 100%;
+                padding: 12px;
+                outline: 1px solid #e0af60;
+
+            }
+
+            .team-member-card:hover {
+                transform: translateY(-3px);
+            }
+
+            .member-image {
+                width: 100%;
+                height: 220px;
+                position: relative;
+                overflow: hidden;
+                border-radius: 10px;
+                outline: 1px solid #e0af60;
+            }
+
+            .member-image img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: transform 0.2s ease;
+            }
+
+            .team-member-card:hover .member-image img {
+                transform: scale(1.02);
+            }
+
+            .member-info {
+                padding-block: 1rem 0;
+                text-align: center;
+                font-style: oblique;
+            }
+
+            .member-info h3 {
+                margin: 0;
+                font-size: 18px;
+                color: #fff;
+            }
+
+            .member-info p {
+                color: #bfbdbd;
+                font-size: 14px;
+                /* margin: 0.5rem 0 0; */
+            }
+        </style>
+
+        <div class="full-width-bg">
+
+
+            <div class="team-carousel">
+                <div class="container">
+                    <h2>Our<span class="bg-green">Team</span></h2>
+
+                    <div class="swiper teamSwiper">
+                        <div class="swiper-wrapper">
+                            <?php foreach ($teamMembers as $member): ?>
+                                <div class="swiper-slide">
+                                    <div class="team-member-card">
+                                        <div class="member-image">
+                                            <img src="<?php echo htmlspecialchars($member['image']); ?>"
+                                                alt="<?php echo htmlspecialchars($member['name']); ?>"
+                                                loading="lazy">
                                         </div>
-                                    </div><?php endforeach; ?></div>
+                                        <div class="member-info">
+                                            <h3><?php echo htmlspecialchars($member['name']); ?></h3>
+                                            <p><?php echo htmlspecialchars($member['role']); ?></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
+
+                        <div class="swiper-button-next">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M7.04 1.96a1 1 0 0 0-1.497 1.32l.083.094L10.253 8l-4.627 4.626a1 1 0 0 0-.083 1.32l.083.094a1 1 0 0 0 1.32.084l.094-.084 5.334-5.333a1 1 0 0 0 .083-1.32l-.083-.094L7.04 1.96Z"></path>
+                            </svg>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8.96 1.96a1 1 0 0 1 1.497 1.32l-.083.094L5.747 8l4.627 4.626a1 1 0 0 1 .083 1.32l-.083.094a1 1 0 0 1-1.32.084l-.094-.084-5.334-5.333a1 1 0 0 1-.083-1.32l.083-.094L8.96 1.96Z"></path>
+                            </svg>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                new Swiper('.teamSwiper', {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                    loop: true,
+                    navigation: {
+                        nextEl: '.team-carousel .swiper-button-next',
+                        prevEl: '.team-carousel .swiper-button-prev',
+                    },
+                    autoplay: {
+                        delay: 3000,
+                        disableOnInteraction: false,
+                    },
+                    breakpoints: {
+                        640: {
+                            slidesPerView: 2,
+                            spaceBetween: 10,
+                        },
+                        968: {
+                            slidesPerView: 4,
+                            spaceBetween: 10,
+                        }
+                    }
+                });
+            });
+        </script>
+
+
+
+
+
+
+        <style>
+            .full-width-bg:has(.testimonial-carousel) {
+                background: #ffffff;
+                /* padding: 2rem 0; */
+            }
+
+            .testimonial-carousel {
+                width: 80%;
+                margin-inline: auto;
+                padding-bottom: 4rem;
+            }
+
+            .testimonialSwiper {
+                padding-inline: 14px;
+                padding-block: 2rem 3rem;
+            }
+
+            .testimonial-carousel h2 {
+                text-align: center;
+                margin-bottom: 3rem;
+                font-weight: 600;
+                font-size: 28px;
+            }
+
+            .testimonial-card {
+                background: rgb(246, 246, 248);
+                padding: 2rem;
+                border-radius: 10px;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+            .testimonialSwiper .swiper-slide {
+                height: auto;
+            }
+
+            .testimonialSwiper .swiper-wrapper {
+                align-items: stretch;
+            }
+
+            .testimonial-content {
+                font-style: italic;
+                color: #555;
+                margin-bottom: 1.5rem;
+                line-height: 1.6;
+                display: -webkit-box;
+                -webkit-line-clamp: 6;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+            }
+
+            .testimonial-author {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+            }
+
+            .author-image {
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                /* overflow: hidden; */
+                position: relative;
+
+
+            }
+
+
+            .author-image::after {
+                --google-icon-size: 24px;
+                content: '';
+                position: absolute;
+                bottom: -2px;
+                right: -4px;
+                width: var(--google-icon-size);
+                height: var(--google-icon-size);
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 25' class='injected-svg' data-src='https://static.elfsight.com/icons/app-all-in-one-reviews-icons-google-multicolor-stroke.svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg clip-path='url(%23a-2)'%3E%3Cpath fill='rgb(246, 246, 248)' stroke='rgb(246, 246, 248)' stroke-width='2' d='M11.8 1.5C5.835 1.5 1 6.335 1 12.3v.4c0 5.965 4.835 10.8 10.8 10.8 5.965 0 10.8-4.835 10.8-10.8v-.4c0-5.965-4.835-10.8-10.8-10.8Z'%3E%3C/path%3E%3Cpath fill='%232A84FC' d='M21.579 12.734c0-.677-.055-1.358-.172-2.025h-9.403v3.839h5.384a4.614 4.614 0 0 1-1.992 3.029v2.49h3.212c1.886-1.736 2.97-4.3 2.97-7.333Z'%3E%3C/path%3E%3Cpath fill='%2300AC47' d='M12.004 22.474c2.688 0 4.956-.882 6.608-2.406l-3.213-2.491c-.893.608-2.047.952-3.392.952-2.6 0-4.806-1.754-5.597-4.113H3.095v2.567a9.97 9.97 0 0 0 8.909 5.491Z'%3E%3C/path%3E%3Cpath fill='%23FFBA00' d='M6.407 14.416a5.971 5.971 0 0 1 0-3.817V8.03H3.095a9.977 9.977 0 0 0 0 8.952l3.312-2.567Z'%3E%3C/path%3E%3Cpath fill='%23FC2C25' d='M12.004 6.482a5.417 5.417 0 0 1 3.824 1.494l2.846-2.846a9.581 9.581 0 0 0-6.67-2.593A9.967 9.967 0 0 0 3.095 8.03l3.312 2.57c.787-2.363 2.996-4.117 5.597-4.117Z'%3E%3C/path%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='a-2'%3E%3Cpath fill='%23fff' d='M0 0h24v24H0z' transform='translate(0 .5)'%3E%3C/path%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+                background-size: contain;
+                background-repeat: no-repeat;
+                z-index: 10;
+                /* filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2)); */
+
+            }
+
+            .author-image img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            .author-info h4 {
+                --blue-tick-size: 16px;
+                margin: 0;
+                font-size: 16px;
+                color: #333;
+            }
+
+            .author-info h4::after {
+
+                content: '';
+                display: inline-block;
+                width: var(--blue-tick-size);
+                height: var(--blue-tick-size);
+                margin-left: 4px;
+                background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAxNCAxNCIgY2xhc3M9IlJldmlld1ZlcmlmaWVkQmFkZ2VfX1N0eWxlZFZlcmlmaWVkQmFkZ2Utc2MtMTk0bmlnNC0wIGxrdmhCUSBlcy1yZXZpZXctdmVyaWZpZWQtYmFkZ2UtaWNvbiI+PHBhdGggZmlsbD0iIzE5N0JGRiIgZD0iTTYuNzU3LjIzNmEuMzUuMzUgMCAwIDEgLjQ4NiAwbDEuMTA2IDEuMDdhLjM1LjM1IDAgMCAwIC4zMjkuMDg5bDEuNDkzLS4zNzVhLjM1LjM1IDAgMCAxIC40MjIuMjQ0bC40MjIgMS40OGEuMzUuMzUgMCAwIDAgLjI0LjI0bDEuNDgxLjQyM2EuMzUuMzUgMCAwIDEgLjI0NC40MjJsLS4zNzUgMS40OTNhLjM1LjM1IDAgMCAwIC4wODguMzI5bDEuMDcxIDEuMTA2YS4zNS4zNSAwIDAgMSAwIC40ODZsLTEuMDcgMS4xMDZhLjM1LjM1IDAgMCAwLS4wODkuMzI5bC4zNzUgMS40OTNhLjM1LjM1IDAgMCAxLS4yNDQuNDIybC0xLjQ4LjQyMmEuMzUuMzUgMCAwIDAtLjI0LjI0bC0uNDIzIDEuNDgxYS4zNS4zNSAwIDAgMS0uNDIyLjI0NGwtMS40OTMtLjM3NWEuMzUuMzUgMCAwIDAtLjMyOS4wODhsLTEuMTA2IDEuMDcxYS4zNS4zNSAwIDAgMS0uNDg2IDBsLTEuMTA2LTEuMDdhLjM1LjM1IDAgMCAwLS4zMjktLjA4OWwtMS40OTMuMzc1YS4zNS4zNSAwIDAgMS0uNDIyLS4yNDRsLS40MjItMS40OGEuMzUuMzUgMCAwIDAtLjI0LS4yNGwtMS40ODEtLjQyM2EuMzUuMzUgMCAwIDEtLjI0NC0uNDIybC4zNzUtMS40OTNhLjM1LjM1IDAgMCAwLS4wODgtLjMyOUwuMjM2IDcuMjQzYS4zNS4zNSAwIDAgMSAwLS40ODZsMS4wNy0xLjEwNmEuMzUuMzUgMCAwIDAgLjA4OS0uMzI5TDEuMDIgMy44MjlhLjM1LjM1IDAgMCAxIC4yNDQtLjQyMmwxLjQ4LS40MjJhLjM1LjM1IDAgMCAwIC4yNC0uMjRsLjQyMy0xLjQ4MWEuMzUuMzUgMCAwIDEgLjQyMi0uMjQ0bDEuNDkzLjM3NWEuMzUuMzUgMCAwIDAgLjMyOS0uMDg4TDYuNzU3LjIzNloiPjwvcGF0aD48cGF0aCBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik05LjA2NSA0Ljg1YS42NDQuNjQ0IDAgMCAxIC44OTkgMCAuNjE1LjYxNSAwIDAgMSAuMDUzLjgyM2wtLjA1My4wNTlMNi40OCA5LjE1YS42NDUuNjQ1IDAgMCAxLS44NC4wNTJsLS4wNi0uMDUyLTEuNjYtMS41MjdhLjYxNi42MTYgMCAwIDEgMC0uODgyLjY0NS42NDUgMCAwIDEgLjg0LS4wNTJsLjA2LjA1MiAxLjIxIDEuMDg2IDMuMDM0LTIuOTc4WiIgY2xpcC1ydWxlPSJldmVub2RkIj48L3BhdGg+PC9zdmc+');
+                background-size: contain;
+                background-repeat: no-repeat;
+                vertical-align: middle;
+            }
+
+            .author-info h4+span {
+                font-size: 11px;
+                color: #808081;
+            }
+
+            .author-info p {
+                margin: 0;
+                font-size: 14px;
+                color: #666;
+            }
+
+            .testimonialSwiper .swiper-pagination {
+                bottom: -10px;
+            }
+
+            .testimonialSwiper .swiper-pagination-bullet-active {
+                background: #005b52;
+            }
+
+            .google-review-container {
+                display: flex;
+                align-items: center;
+                margin-inline: 1rem;
+                padding: 2rem 1rem;
+                background: rgb(246, 246, 248);
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            .google-review-logo img {
+                width: 120px;
+            }
+
+            .google-review-logo span {
+                font-weight: 700;
+                font-size: 20px;
+
+            }
+
+            .google-review-text {
+                font-weight: 700;
+            }
+
+            .google-review-stars {
+                font-weight: 700;
+            }
+
+            .google-review-stars span:nth-child(2) {
+                font-size: 18px;
+                color: rgb(252, 191, 2);
+            }
+
+            .google-review-count {
+                color: grey;
+                font-size: 10px;
+                font-weight: 400;
+            }
+
+            .google-review-button {
+                margin-inline-start: auto;
+                padding: 0 1rem;
+                width: 15rem;
+                height: 2.5rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: rgba(48, 136, 255, 1);
+                color: #fff;
+                border-radius: 50px;
+                font-weight: 600;
+                text-align: center;
+                outline: 2px solid rgb(48, 136, 255);
+
+                transition: color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+            }
+
+            .google-review-button:hover {
+                background: rgba(48, 136, 255, 0.85);
+                box-shadow: 0 3px 10px rgba(48, 136, 255, 0.5);
+                color: #fff;
+            }
+
+            @media (max-width: 768px) {
+                .testimonial-carousel {
+                    padding: 2rem 0;
+                }
+
+                .testimonial-card {
+                    margin: 0.5rem;
+                    min-height: 250px;
+                }
+            }
+        </style>
+
+
+        <div class="full-width-bg">
+
+
+            <div class="testimonial-carousel">
+                <div class="container">
+                    <h2>What Our Customers<span class="bg-green">Say</span></h2>
+
+
+
+                    <div class="google-review-container">
+                        <div class="google-review-info">
+                            <div class="google-review-logo">
+                                <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="Google">
+                                <span>Reviews</span>
+                            </div>
+                            <div>
+                                <div class="google-review-stars">
+                                    <span class="google-review-text">4.7</span>
+                                    <span>★ ★ ★ ★ ☆</span>
+                                    <span class="google-review-count">(14,827)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://www.google.com" class="google-review-button" target="_blank">Review us on Google</a>
+                    </div>
+
+                    <div class="swiper testimonialSwiper">
+                        <div class="swiper-wrapper">
+                            <?php foreach ($reviews as $review): ?>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-card">
+
+                                        <div class="testimonial-author">
+                                            <div class="author-image">
+                                                <img src="<?php echo htmlspecialchars($review['pic']); ?>" alt="<?php echo htmlspecialchars($review['name']); ?>">
+                                            </div>
+                                            <div class="author-info">
+                                                <h4><?php echo htmlspecialchars($review['name']); ?></h4>
+                                                <span>14 days ago</span>
+                                            </div>
+                                        </div>
+                                        <div style="margin-bottom: 1rem; color: rgb(252, 191, 2);font-size: 24px;">
+                                            <?php
+                                            // Display 5 stars, filled based on rating
+                                            for ($i = 1; $i <= 5; $i++) {
+                                                if ($i <= 5) { // Assuming all reviews are 5 stars
+                                                    echo '★';
+                                                } else {
+                                                    echo '☆';
+                                                }
+                                            }
+                                            ?>
+                                        </div>
+                                        <div class="testimonial-content">
+                                            "<?php echo htmlspecialchars($review['review']); ?>"
+                                        </div>
+
+                                    </div>
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
+                        <div class="swiper-button-next">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M7.04 1.96a1 1 0 0 0-1.497 1.32l.083.094L10.253 8l-4.627 4.626a1 1 0 0 0-.083 1.32l.083.094a1 1 0 0 0 1.32.084l.094-.084 5.334-5.333a1 1 0 0 0 .083-1.32l-.083-.094L7.04 1.96Z"></path>
+                            </svg>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8.96 1.96a1 1 0 0 1 1.497 1.32l-.083.094L5.747 8l4.627 4.626a1 1 0 0 1 .083 1.32l-.083.094a1 1 0 0 1-1.32.084l-.094-.084-5.334-5.333a1 1 0 0 1-.083-1.32l.083-.094L8.96 1.96Z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
-        <div class="mb-100 pt-90 home1-team-section pb-20">
-            <div class=container>
-                <div class="fadeInUp wow mb-50 row" data-wow-delay=200ms>
-                    <div class="d-flex col-lg-12 flex-wrap justify-content-between align-items-center gap-3">
-                        <div class=section-title1>
-                            <h2>Our Customer Reviews</h2>
-                        </div>
-                        <div class="slider-btn-group2 width-90">
-                            <div class="slider-btn prev-13"><svg height=15 viewBox="0 0 8 13" width=9
-                                    xmlns=http://www.w3.org/2000/svg>
-                                    <path d="M0 6.50008L8 0L2.90909 6.50008L8 13L0 6.50008Z"></path>
-                                </svg></div>
-                            <div class="slider-btn next-13"><svg height=15 viewBox="0 0 8 13" width=9
-                                    xmlns=http://www.w3.org/2000/svg>
-                                    <path d="M8 6.50008L0 0L5.09091 6.50008L0 13L8 6.50008Z"></path>
-                                </svg></div>
-                        </div>
-                    </div>
-                </div>
-                <div class=row>
-                    <div class=col-lg-12>
-                        <div class="swiper home1-team-slider"><?php include "./data/googlereview.php" ?>
-                            <div class=swiper-wrapper><?php foreach ($reviews as $review): ?><div
-                                        class=swiper-slide>
-                                        <div class=review-card tabindex=0>
-                                            <div class=review-content>
-                                                <div class=reviewer-details><img loading="lazy" alt="Reviewer photo"
-                                                        src="<?= $review['pic']; ?>" class=reviewer-photo>
-                                                    <p class=reviewer-name>-<?= $review['name']; ?>
-                                                </div>
-                                                <p class=review-text>"<?= $review['review']; ?>"
-                                            </div>
-                                        </div>
-                                    </div><?php endforeach; ?></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                new Swiper('.testimonialSwiper', {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                    loop: true,
+                    navigation: {
+                        nextEl: '.testimonial-carousel .swiper-button-next',
+                        prevEl: '.testimonial-carousel .swiper-button-prev',
+                    },
+                    autoplay: {
+                        delay: 3000,
+                        disableOnInteraction: false,
+                    },
+                    breakpoints: {
+                        768: {
+                            slidesPerView: 3,
+                            spaceBetween: 20
+                        }
+                    }
+                });
+            });
+        </script>
+
 
 
         <style>
@@ -1718,28 +2148,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                 opacity: 1;
             } */
 
-            .developerSwiper .swiper-button-next,
-            .developerSwiper .swiper-button-prev {
-                color: #000000;
-                background-color: rgba(255, 255, 255, 0.9);
-                border: 1px solid #e0e0e0;
-                border-radius: 50%;
-                width: 40px;
-                height: 40px;
-            }
 
-            .developerSwiper .swiper-button-next:after,
-            .developerSwiper .swiper-button-prev:after {
-                font-size: 18px;
-                font-weight: bold;
-            }
-
-            .developerSwiper .swiper-button-next:hover,
-            .developerSwiper .swiper-button-prev:hover {
-                background-color: #009688;
-                color: #fff;
-                border-color: #009688;
-            }
 
             @media (max-width: 768px) {
                 .developer-carousel {
@@ -1778,8 +2187,16 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                             </div>
                         <?php endforeach; ?>
                     </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M7.04 1.96a1 1 0 0 0-1.497 1.32l.083.094L10.253 8l-4.627 4.626a1 1 0 0 0-.083 1.32l.083.094a1 1 0 0 0 1.32.084l.094-.084 5.334-5.333a1 1 0 0 0 .083-1.32l-.083-.094L7.04 1.96Z"></path>
+                        </svg>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8.96 1.96a1 1 0 0 1 1.497 1.32l-.083.094L5.747 8l4.627 4.626a1 1 0 0 1 .083 1.32l-.083.094a1 1 0 0 1-1.32.084l-.094-.084-5.334-5.333a1 1 0 0 1-.083-1.32l.083-.094L8.96 1.96Z"></path>
+                        </svg>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1814,66 +2231,182 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
         </script>
 
 
+        <style>
+            .blog-carousel {
+                padding: 3rem 0;
+                background: #f8f8f8;
+            }
 
+            .blog-carousel h2 {
+                text-align: center;
+                font-size: 28px;
+                font-weight: 600;
+                margin-bottom: 2rem;
+            }
 
+            .blogSwiper {
+                width: 90%;
+                margin: 0 auto;
+                padding: 20px;
+            }
 
-        <div class="pt-90 news-section pb-90">
-            <div class=container>
-                <div class="fadeInUp wow mb-50 row" data-wow-delay=200ms>
-                    <div class="d-flex col-lg-12 flex-wrap justify-content-between align-items-end gap-4">
-                        <div class=section-title1><span>News & Blogs</span>
-                            <h2>The Latest Insight</h2>
-                        </div>
+            .blog-card {
+                background: #fff;
+                border: 1px solid #ddd;
+                padding: 25px;
+                height: 100%;
+                box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+                display: flex;
+                flex-direction: column;
+            }
+
+            .blog-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 15px;
+                padding-bottom: 10px;
+                border-bottom: 2px solid #eee;
+            }
+
+            .blog-date {
+                font-family: "Times New Roman", serif;
+                font-style: italic;
+                color: #666;
+            }
+
+            .blog-writer {
+                font-weight: 500;
+                color: #333;
+            }
+
+            .blog-title {
+                font-family: "Times New Roman", serif;
+                font-size: 24px;
+                font-weight: 700;
+                margin-bottom: 15px;
+                line-height: 1.2;
+            }
+
+            .blog-image {
+                width: 100%;
+                height: 200px;
+                margin-bottom: 15px;
+            }
+
+            .blog-image img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            .blog-description {
+                font-size: 15px;
+                color: #444;
+                line-height: 1.6;
+                margin-bottom: 20px;
+                flex-grow: 1;
+                display: -webkit-box;
+                -webkit-line-clamp: 4;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+            }
+
+            .blog-link {
+                align-self: flex-start;
+                padding: 8px 15px;
+                background: #005b52;
+                color: white;
+                text-decoration: none;
+                border-radius: 4px;
+                transition: all 0.3s ease;
+            }
+
+            .blog-link:hover {
+                background: #007f70;
+                color: white;
+            }
+
+            @media (max-width: 768px) {
+                .blog-card {
+                    margin: 10px;
+                }
+
+                .blog-title {
+                    font-size: 20px;
+                }
+            }
+        </style>
+
+        <div class="blog-carousel">
+            <div class="container">
+                <h2>Latest <span class="bg-green">News</span></h2>
+
+                <div class="swiper blogSwiper">
+                    <div class="swiper-wrapper">
+                        <?php foreach ($posts as $post): ?>
+                            <div class="swiper-slide">
+                                <a href="blog/<?php echo strtolower(str_replace(' ', '-', $post['title'])); ?>">
+                                    <div class="blog-card">
+                                        <div class="blog-header">
+                                            <span class="blog-date"><?php echo htmlspecialchars($post['date']); ?></span>
+                                            <span class="blog-writer"><?php echo htmlspecialchars($post['writer']); ?></span>
+                                        </div>
+                                        <h3 class="blog-title"><?php echo htmlspecialchars($post['title']); ?></h3>
+                                        <div class="blog-image">
+                                            <img src="blog/<?php echo htmlspecialchars($post['imageUrl']); ?>" alt="Blog Image">
+                                        </div>
+                                        <p class="blog-description"><?php echo htmlspecialchars($post['description']); ?></p>
+                                    </div>
+                                </a>
+                            </div>
+                        <?php endforeach; ?>
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M7.04 1.96a1 1 0 0 0-1.497 1.32l.083.094L10.253 8l-4.627 4.626a1 1 0 0 0-.083 1.32l.083.094a1 1 0 0 0 1.32.084l.094-.084 5.334-5.333a1 1 0 0 0 .083-1.32l-.083-.094L7.04 1.96Z" />
+                        </svg>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8.96 1.96a1 1 0 0 1 1.497 1.32l-.083.094L5.747 8l4.627 4.626a1 1 0 0 1 .083 1.32l-.083.094a1 1 0 0 1-1.32.084l-.094-.084-5.334-5.333a1 1 0 0 1-.083-1.32l.083-.094L8.96 1.96Z" />
+                        </svg>
                     </div>
                 </div>
-                <style>
-                    .news-section .news-card .content>h6 a {
-                        font-size: 15px;
-                        line-height: 1.65
-                    }
-                </style><?php
-                        include './data/blogdata.php';
-
-                        $latestblogs = array_slice($posts, -3);
-
-
-                        function createSlug($title)
-                        {
-                            $slug = strtolower($title);
-                            $slug = preg_replace('/[^a-z0-9-]+/', '-', $slug);
-                            $slug = trim($slug, '-');
-                            return $slug;
-                        }
-                        ?>
-                <div class="row justify-content-center g-4">
-                    <?php foreach (array_reverse($latestblogs) as $post): ?>
-                        <?php $slug = createSlug($post['title']); ?>
-                        <div class="fadeInUp wow col-lg-4 col-md-6" data-wow-delay=200ms>
-                            <div class=news-card>
-                                <div class=news-img><a href="blog/<?php echo $slug; ?>.php"><img loading="lazy"
-                                            alt="News Image" src="blog/<?php echo $post['imageUrl']; ?>"></a>
-                                    <div class=date><a
-                                            href="blog/<?php echo $slug; ?>.php"><?php echo $post['title']; ?></a></div>
-                                </div>
-                                <div class=content>
-                                    <h6><a href="blog/<?php echo $slug; ?>.php"><?php echo $post['description']; ?></a>
-                                    </h6>
-                                    <div class=news-btm>
-                                        <div class=author-area>
-                                            <div class=author-content>
-                                                <h6>MoneyTree Realty</h6><a href=#>Posted on -<?php echo date('d F, Y', strtotime($post['date'])); ?></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><?php endforeach; ?>
-                </div>
             </div>
-        </div><?php
-                include './more-tags.php';
-                include './footer.php';
-                ?>
+        </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                new Swiper('.blogSwiper', {
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    loop: true,
+                    navigation: {
+                        nextEl: '.blog-carousel .swiper-button-next',
+                        prevEl: '.blog-carousel .swiper-button-prev',
+                    },
+                    autoplay: {
+                        delay: 5000,
+                        disableOnInteraction: false,
+                    },
+                    breakpoints: {
+                        1024: {
+                            slidesPerView: 2,
+                            spaceBetween: 30,
+                        }
+                    }
+                });
+            });
+        </script>
+
+
+
+        <?php
+        include './more-tags.php';
+        include './footer.php';
+        ?>
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
         <script src="assets/js/jquery-3.7.0.min.js" defer></script>
         <script src="assets/js/slick.js" defer></script>

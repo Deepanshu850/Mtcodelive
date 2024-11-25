@@ -112,7 +112,7 @@ $posts = [
         'id' => 13,
         'title' => 'How to buy Property in Noida | Moneytree Realty',
         'description' => 'The Real Estate Industry in India is blooming at an exponential rate and currently contributes about 14% to the country’s GDP. Property investment has emerged as a prominent option for wealth creation in India along with various other perks like high capital appreciation, competitive rental yields, and hedging against inflation.',
-        'imageUrl' => ' ./assets/how-to-buy-property-in-noida.jpeg',
+        'imageUrl' => ' ./assets/how-to-buy-property-in-noida.webp',
         'date' => 'June 21, 2024',
         'writer' => 'Team Moneytree',
 
@@ -273,8 +273,3 @@ $posts = [
 
     ],
 ];
-
-
-
-?>
-

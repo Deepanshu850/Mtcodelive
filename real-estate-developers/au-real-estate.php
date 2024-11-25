@@ -22,7 +22,7 @@
     <meta name="audience" content="All" />
 
 
-    <meta property="og:title" content="AU Real Estate | Top Real Estate Builders & Developers in India">
+    <meta property="og:title" content="AU Real Estate, Top Real Estate Builders & Developers in India">
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/real-estate-developers/au-real-estate">
     <meta property="og:description" content="AU Real Estate | Leading Real Estate Builders & Developers in India | Creating Exceptional Residential & Commercial Spaces with Innovation & Quality.">
@@ -219,7 +219,7 @@
             include '../property-grid-level3.php';
             $urlprefix = '../';
 
-            $groupName = 'Krisumi Corporation';
+            $groupName = 'au real estate';
 
             $aceGroupProperties = array_filter($properties, function ($property) use ($groupName) {
                 return strtolower($property['builder']) === strtolower($groupName);

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Sarvottam Group| Top Real Estate Builders & Developers in India</title>
+    <title>Sarvottam Group | Top Real Estate Builders & Developers in India</title>
 
     <meta name="description" content="Sarvottam Group | Leading Real Estate Builders & Developers in India | Delivering Premium Residential & Commercial Projects with Excellence and Innovation.">
 
@@ -14,13 +14,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0" />
     <meta name="Owner" content="Moneytreerealty.com" />
     <meta name="Copyright" content="Moneytreereal.com" />
+
     <meta name="classification" content="Real Estate Property Search" />
     <meta name="distribution" content="India" />
     <meta name="rating" content="General" />
     <meta name="subject" content="Search Property for Sale And Rent, Search New	Projects, Builders And Property Consultant in India" />
     <meta name="audience" content="All" />
 
-    <meta property="og:title" content="Sarvottam Group| Top Real Estate Builders & Developers in India">
+    <meta property="og:title" content="Sarvottam Group | Top Real Estate Builders & Developers in India">
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/real-estate-developers/sarvottam-group">
     <meta property="og:description" content="Sarvottam Group | Leading Real Estate Builders & Developers in India | Delivering Premium Residential & Commercial Projects with Excellence and Innovation.">
