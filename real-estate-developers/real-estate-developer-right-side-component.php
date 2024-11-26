@@ -24,7 +24,7 @@
             <div class="swiper recent-post-sidebar-slider">
                 <div class="swiper-wrapper" id="property-posts-container">
                     <?php foreach ($celebHomesData as $home): ?>
-                        <?php $postUrl = './' . $home['link']; ?>
+                        <?php $postUrl = '../celeb-homes/' . $home['link']; ?>
                         <div class="swiper-slide">
                             <div class="widget-cnt">
                                 <div class="wi">

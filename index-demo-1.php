@@ -5,6 +5,7 @@ include "data/locationcitydata.php";
 include "data/propertydata.php";
 include "data/googlereview.php";
 include "data/blogdata.php";
+include "data/tempdata.php";
 
 ?>
 
@@ -218,12 +219,19 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
     <link href="assets/img/favicon_io/favicon.ico" rel="icon" sizes="20x20" type="image/x-icon">
 
     <!-- CSS Files -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/bootstrap-icons.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/style.css" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="assets/css/index-page-demo.css"> -->
+    <!-- <link rel="stylesheet" href="./assets/css/index-page.css"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
     <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
     <link href="assets/css/nice-select.css" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/index-page.css">
     <link rel="stylesheet" href="./assets/css/index-page-demo.css">
 
     <!-- Google Tag Manager -->
@@ -269,45 +277,10 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                 width=0></iframe></noscript>
 
 
-        <style>
-            @keyframes fadeIn {
-                from {
-                    opacity: 0;
-                    transform: translateY(-20px)
-                }
-
-                to {
-                    opacity: 1;
-                    transform: translateY(0)
-                }
-            }
-
-            .popup-container {
-                animation: fadeIn .5s ease-out forwards
-            }
-
-            :root {
-                --deg: 0deg;
-            }
-
-            .green-gradient-text {
-                background: linear-gradient(var(--deg), #005b52, #205752, #14897d, #e5b566);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-
-            }
-        </style>
-
-
-
         <?php
         // include './header.php';
         include './header-demo.php';
         ?>
-
-
-
-
 
         <div class="hero-section">
             <div class="overlay"></div>
@@ -329,531 +302,14 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
         </div>
 
 
-        <script>
-            let activeIndex = -1; // Tracks the active suggestion
 
-            function fetchSuggestions(query) {
-                const suggestionsBox = document.getElementById('suggestions');
 
-                if (query.trim().length > 0) {
-                    fetch(`suggest.php?query=${encodeURIComponent(query)}`)
-                        .then((response) => response.json())
-                        .then((data) => {
-                            suggestionsBox.innerHTML = '';
-                            if (data.length > 0) {
-                                data.forEach((keyword, index) => {
-                                    const listItem = document.createElement('li');
-                                    listItem.classList.add('list-group-item');
-                                    listItem.textContent = keyword;
-
-                                    // Handle click event
-                                    listItem.addEventListener('click', () => {
-                                        document.querySelector('input[name=search]').value = keyword;
-                                        submitForm();
-                                    });
-
-                                    suggestionsBox.appendChild(listItem);
-                                });
-                                suggestionsBox.classList.add('show');
-                                activeIndex = -1; // Reset active index
-                            } else {
-                                suggestionsBox.classList.remove('show');
-                            }
-                        })
-                        .catch((error) => {
-                            console.error('Error fetching suggestions:', error);
-                        });
-                } else {
-                    suggestionsBox.classList.remove('show');
-                }
-            }
-
-            function handleKeyNavigation(event) {
-                const suggestionsBox = document.getElementById('suggestions');
-                const suggestions = suggestionsBox.querySelectorAll('.list-group-item');
-
-                if (suggestions.length > 0) {
-                    if (event.key === 'ArrowDown') {
-                        // Move down
-                        event.preventDefault();
-                        activeIndex = (activeIndex + 1) % suggestions.length;
-                        highlightSuggestion(suggestions, activeIndex);
-                    } else if (event.key === 'ArrowUp') {
-                        // Move up
-                        event.preventDefault();
-                        activeIndex = (activeIndex - 1 + suggestions.length) % suggestions.length;
-                        highlightSuggestion(suggestions, activeIndex);
-                    } else if (event.key === 'Enter') {
-                        // Select the highlighted suggestion or submit input value
-                        event.preventDefault();
-                        if (activeIndex >= 0) {
-                            const selectedSuggestion = suggestions[activeIndex].textContent;
-                            document.querySelector('input[name=search]').value = selectedSuggestion;
-                        }
-                        submitForm();
-                    }
-                }
-            }
-
-            function highlightSuggestion(suggestions, index) {
-                suggestions.forEach((item, i) => {
-                    if (i === index) {
-                        item.classList.add('active');
-                        // Ensure the active suggestion is in view
-                        item.scrollIntoView({
-                            block: 'nearest',
-                            behavior: 'smooth'
-                        });
-                    } else {
-                        item.classList.remove('active');
-                    }
-                });
-            }
-
-            function handleFormSubmit(event) {
-                event.preventDefault();
-                submitForm();
-            }
-
-            function submitForm() {
-                const input = document.querySelector('input[name=search]');
-                const query = input.value.trim();
-                if (query) {
-                    window.location.href = `search.php?search=${encodeURIComponent(query)}`;
-                } else {
-                    alert('Please enter a search term.');
-                }
-            }
-
-            // Hide suggestions when clicking outside
-            document.addEventListener('click', function(event) {
-                const suggestionsBox = document.getElementById('suggestions');
-                if (!event.target.closest('.form-group')) {
-                    suggestionsBox.classList.remove('show');
-                }
-            });
-        </script>
-
-
-        <style>
-            /* General Styles */
-
-            .hero-section {
-                position: relative;
-                width: 100%;
-                /* height: calc(100vh + 6rem); */
-                height: 100vh;
-                background: url('./assets/img/IMG_0343.webp') center/cover no-repeat;
-                background: url('./assets/img/IMG_0342.webp') center/cover no-repeat;
-                /* background: url('./assets/img/IMG_0345.webp') center/cover no-repeat; */
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                background-size: cover;
-                /* Make sure the image covers the section */
-                background-position: center;
-                /* Center the image */
-                background-attachment: fixed;
-                /* Creates the parallax effect */
-                background-repeat: no-repeat;
-                /* transform: translate(0,-6rem); */
-
-            }
-
-            /* header {
-                background: rgba(255, 255, 255, 0.2) !important;
-                backdrop-filter: blur(5px);
-                -webkit-backdrop-filter: blur(10px);
-                border: 1px solid rgba(255, 255, 255, 0.3);
-                
-            }
-
-            body {
-                background: rgba(236, 236, 236, 0.2) !important;
-            } */
-
-            .overlay {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                background: rgba(0, 0, 0, 0.4);
-                z-index: 1;
-            }
-
-            .search-bar-container {
-                position: relative;
-                z-index: 500;
-                width: 90%;
-                max-width: 1000px;
-                background: rgba(255, 255, 255, 0.2);
-                border-radius: 15px;
-                padding: 30px 20px;
-                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-                text-align: center;
-                backdrop-filter: blur(5px);
-                -webkit-backdrop-filter: blur(10px);
-                border: 1px solid rgba(255, 255, 255, 0.3);
-
-            }
-
-            .search-bar-container h1 {
-                font-size: 2.5rem;
-                font-weight: bold;
-                color: #fff;
-                margin-bottom: 20px;
-            }
-
-
-            .search-bar-container p {
-                font-size: 12px;
-                line-height: 1.2;
-                color: #ddd;
-                margin-bottom: 10px;
-            }
-
-            .search-form {
-                display: flex;
-                flex-wrap: wrap;
-                gap: 10px;
-                justify-content: center;
-                align-items: center;
-            }
-
-            .form-group {
-                position: relative;
-                width: 50%;
-            }
-
-            .form-group input {
-                width: 100%;
-                padding: 6px 20px;
-                font-size: 1rem;
-                border: 2px solid rgba(255, 255, 255, 0.3);
-                border-radius: 30px;
-                outline: none;
-                transition: all 0.3s ease;
-                background: rgba(255, 255, 255, 0.2);
-                color: #fff;
-                font-weight: bold;
-            }
-
-            .form-group input::placeholder {
-                color: #ddd;
-            }
-
-            .form-group input:focus {
-                border: 2px solid #00aaff;
-                background: rgba(255, 255, 255, 0.5);
-                color: #fff;
-                box-shadow: 0 0 8px rgba(0, 170, 255, 0.5);
-            }
-
-            .search-btn {
-                padding: 8px 16px;
-                font-size: 15px;
-                background: radial-gradient(circle at top, #0e9688 0%, #007f70 30%, #005b52 100%);
-                color: white;
-                font-weight: 600;
-                border: none;
-                border-radius: 20px;
-                cursor: pointer;
-                transition: background 0.3s ease, transform 0.2s ease;
-            }
-
-            .search-btn:hover {
-                background: radial-gradient(circle at top, #0e9688 0%, #1c9486 30%, #005b52 100%);
-                transform: translateY(-1px);
-            }
-
-            /* Mobile Responsiveness */
-            @media (max-width: 768px) {
-                .search-bar-container {
-                    padding: 20px;
-                }
-
-                .search-bar-container h1 {
-                    font-size: 20px;
-                    line-height: 1.4;
-                    margin-bottom: 10px;
-                }
-
-
-                .search-bar-container h1 span {
-                    display: block;
-                    font-size: 30px;
-                }
-
-                .search-bar-container p {
-                    font-size: 14px;
-                    line-height: 1.2;
-                    color: #ddd;
-                    margin-bottom: 20px;
-                }
-
-                .search-btn {
-                    font-size: 14px;
-                    padding: 12px;
-                    width: 120px;
-                }
-
-                .search-form {
-                    /* flex-direction: column; */
-                }
-
-                .form-group {
-                    position: relative;
-                    width: 100%;
-                }
-
-                .form-group input::placeholder {
-                    font-size: 12px;
-                }
-            }
-        </style>
-
-        <style>
-            /* Suggestions styling */
-            .suggestions-box {
-                position: absolute;
-                top: 100%;
-                left: 0;
-                width: 100%;
-                max-height: 200px;
-                overflow-y: auto;
-                background: #fff;
-                border: 1px solid #ddd;
-                border-radius: 4px;
-                z-index: 500;
-                display: none;
-                /* Hidden by default */
-                box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-                margin-top: 5px;
-            }
-
-            .suggestions-box .list-group-item {
-                padding: 10px 15px;
-                font-size: 1rem;
-                cursor: pointer;
-                border: none;
-                text-align: left;
-            }
-
-            .suggestions-box .list-group-item.active {
-                background-color: #007bff;
-                /* Highlight background */
-                color: #fff;
-                /* Highlight text */
-            }
-
-            .suggestions-box.show {
-                display: block;
-            }
-        </style>
-
-
-
-        <style>
-            .property-carousel {
-                overflow: hidden;
-
-                -ms-overflow-style: none;
-                /* IE and Edge */
-                scrollbar-width: none;
-                /* Firefox */
-                position: relative;
-                padding-bottom: 5rem;
-                width: 90%;
-                margin-inline: auto;
-            }
-
-            .full-width-bg {
-                padding-block-start: 2rem;
-                background: #f0f0f0;
-            }
-
-            .property-carousel h2 {
-                font-weight: 600;
-                text-align: center;
-                margin-bottom: 2.5rem;
-                text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
-
-            }
-
-            .bg-green {
-                position: relative;
-                color: #fff;
-                display: inline-block;
-                background: linear-gradient(90deg, #00796b, #009688, #26a69a);
-                padding-block: 4px;
-                --padding-translate: 6px;
-                padding-inline: var(--padding-translate);
-                transform: translateX(-var(--padding-translate));
-                border-radius: 10px;
-
-            }
-
-
-
-
-            .property-carousel::-webkit-scrollbar {
-                display: none;
-                /* Chrome, Safari and Opera */
-            }
-
-            .property-carousel .swiper-slide h3 {
-                font-size: 18px;
-                margin-block: 0.5rem;
-            }
-
-            .property-carousel .swiper-slide img {
-                object-fit: fill;
-            }
-
-            .swiper-button-prev,
-            .swiper-button-next {
-                --swiper-button-size: 40px;
-
-                top: 45%;
-                color: #000000;
-                background: rgba(0, 0, 0, 0.5);
-                border: 1px solid #000000;
-                border-radius: 50%;
-                width: var(--swiper-button-size);
-                height: var(--swiper-button-size);
-                background: rgba(17, 17, 17, 0.5);
-                box-shadow: rgba(0, 0, 0, 0.3) 0px 6px 12px 0px;
-                fill: #fff;
-                transition: all 200ms ease;
-            }
-
-            .swiper-button-prev svg,
-            .swiper-button-next svg {
-                height: 26px;
-                /* width: 20px; */
-
-            }
-
-            .swiper-button-prev:hover,
-            .swiper-button-next:hover {
-                background: rgba(17, 17, 17, 0.9);
-                box-shadow: rgba(0, 0, 0, 0.5) 0px 6px 12px 0px;
-            }
-
-            .swiper-button-next:after,
-            .swiper-button-prev:after {
-                display: none;
-                font-size: 23px;
-                font-weight: 600;
-                color: #fff;
-            }
-
-
-
-
-            .swiper-pagination-bullet-active {
-                background: linear-gradient(90deg, #00796b, #009688, #26a69a);
-            }
-
-            .property-card-image {
-                width: 100%;
-                height: 150px;
-                overflow: hidden;
-                border-radius: 10px;
-            }
-
-            .property-card-image img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-
-            .card-text {
-                font-size: 13px;
-                margin-block: 4px;
-            }
-
-            .propertySwiper .swiper-slide {
-                background: #fff;
-                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), inset 0 1px 3px rgba(0, 0, 0, 0.05);
-                padding: 20px 14px;
-                height: 100%;
-                transition: transform 0.3s ease, opacity 0.3s ease;
-                opacity: 0.7;
-                /* Dim inactive slides */
-                transform: perspective(1000px) scale(0.9);
-                /* Slightly smaller by default */
-                height: 25rem;
-                border-radius: 8px;
-                overflow: hidden;
-            }
-
-
-            .propertySwiper .swiper-slide::after {
-                content: 'Exclusive';
-                position: absolute;
-                top: 20px;
-                left: -32px;
-                width: 40%;
-                transform: rotate(-45deg);
-                text-align: center;
-                background: #e63946;
-                color: #fff;
-
-            }
-
-
-
-
-
-            .propertySwiper .swiper-slide a {
-                color: #000000;
-            }
-
-            .propertySwiper .swiper-slide-active {
-                transform: perspective(1000px) scale(1.1);
-                /* Enlarged center slide */
-                opacity: 1;
-                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-                /* Add shadow for depth */
-            }
-
-            .propertySwiper .swiper-slide-prev,
-            .propertySwiper .swiper-slide-next {
-                transform: perspective(1000px) rotateY(-20deg) scale(0.9);
-                /* Slightly tilted */
-                opacity: 0.9;
-                /* Slightly dim */
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-                /* Shadow for depth */
-            }
-
-            .propertySwiper .swiper-slide-next {
-                transform: perspective(1000px) rotateY(20deg) scale(0.9);
-                /* Tilt the other direction */
-            }
-
-            @media (max-width: 768px) {
-                .property-carousel {
-                    padding-inline: 28px;
-                }
-            }
-        </style>
-
-
-        <?php include './data/tempdata.php'; ?>
-
-
-
-
+        <!-- featured property carasouel -->
 
 
         <div class="full-width-bg">
 
-
             <div class="property-carousel">
-
                 <h2>
                     In Spot<span class="bg-green">light</span>
                 </h2>
@@ -901,29 +357,168 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
         </div>
 
 
+        <!-- Comprising over 300 highly trained real estate consultant, We deal with
+        leading real estate giants like Lodha, Tata, Godrej, DLF, Elan, M3M, Paras
+        Buildtech, Experion, and many more and manage a portfolio of all kinds of commercial
+        and residential properties that include apartments, flats, villas, plots, duplexes,
+        penthouses, farmhouses, commercial shops, offices, showrooms, plazas, malls, and
+        more with a present client base of 10,000+ happy investors and over 25000+
+        satisfying deals till date making MoneyTree Realty Best Real Estate Consultant In
+        Delhi/NCR. -->
+        <!-- add the h1 here -->
+
+        <div class="about-section">
+            <div class="about-section-image animate-on-scroll" data-direction="right">
+                <img loading="lazy" alt="BEST REAL ESTATE PROPERTY CONSULTANT IN DELHI/NCR" src="./assets/img/sachinsir.jpg">
+            </div>
+
+            <h2 class="about-section-heading animate-on-scroll" data-direction="left">
+                Get To Know About
+                <br> <span>MoneyTree Realty</span>
+            </h2>
+
+            <div class="about-section-text animate-on-scroll" data-direction="bottom">
+                <p>
+                    <strong>BEST REAL ESTATE CONSULTANT IN DELHI/NCR</strong><br>
+                    <strong>Mr. Sachin Arora</strong>, CEO & Founder, often remarked as the brand trust in the Indian
+                    Real Estate Market with an experience spanning across more than a decade, led its
+                    foundation to make real estate experience easier and accessible. The MoneyTree
+                    Realty Services Pvt. Ltd. (RERA Reg.) brings together a group of energised real
+                    estate consultants offering a diverse catalogue.<br>Under the leadership of our
+                    founder, we have managed to establish ourselves as the Best Real Estate Consultant
+                    In Delhi/NCR by creating history in Sales Number and raising the bar with Customer
+                    Satisfaction Ratio in residential property as well as commercial property.<br>
+                </p>
+            </div>
+        </div>
+
+
+
+
+        <style>
+            .about-section {
+                display: grid;
+                grid-template-columns: repeat(12, 1fr);
+                grid-template-rows: repeat(12, 1fr);
+                padding-block: 4rem;
+                background: url('./assets/img/IMG_0343.webp');
+                max-height: 700px;
+
+            }
+
+            .about-section-image img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                border-radius: 10px;
+
+            }
+
+            .about-section-image {
+                height: 100%;
+                grid-column: 2/6;
+                grid-row: 2/13;
+                border-radius: 10px;
+                padding: 4px;
+                background: linear-gradient(45deg, #d39f51, #e5b566, #f0cb7b, #f8e292, #fff7a9);
+                outline: 1px solid white;
+                z-index: 2;
+
+            }
+
+
+            .about-section-heading {
+                grid-column: 5/11;
+                grid-row: 2/auto;
+                background: #fff;
+                border-radius: 12px;
+                margin-top: 30px;
+                font-size: 26px;
+                padding: 10px;
+                text-align: center;
+                z-index: 3;
+            }
+
+            .about-section-heading span {
+                background: linear-gradient(45deg, #d39f51, #e5b566, #f0cb7b, #f8e292, #fff7a9);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                font-size: 36px;
+
+            }
+
+            .about-section-text {
+                grid-column: 6/13;
+                grid-row: 3/11;
+                background: #fff;
+                padding: 10px 2rem;
+                border-radius: 8px;
+                margin: 40px;
+                transform: translateX(-13%);
+            }
+
+            .about-section-text p {
+                font-size: 12px;
+            }
+
+
+            .about-section {
+                display: grid;
+                grid-template-columns: repeat(12, 1fr);
+                grid-template-rows: repeat(12, 1fr);
+                padding-block: 4rem;
+                background: url('./assets/img/IMG_0343.webp');
+                max-height: 700px;
+            }
+
+            .animate-on-scroll {
+                opacity: 0;
+                transform: translate(0, 0);
+                transition: transform 0.6s ease, opacity 0.6s ease;
+            }
+
+            .animate-on-scroll[data-direction="left"] {
+                transform: translate(-100px, -100px);
+            }
+
+            .animate-on-scroll[data-direction="right"] {
+                transform: translateX(200px);
+            }
+
+            .animate-on-scroll[data-direction="top"] {
+                transform: translateY(-50px);
+            }
+
+            .animate-on-scroll[data-direction="bottom"] {
+                transform: translateY(50px);
+            }
+
+            .animate-on-scroll.active {
+                opacity: 1;
+                transform: translate(0, 0);
+            }
+        </style>
+
+
         <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                var swiper = new Swiper('.propertySwiper', {
-                    slidesPerView: 1,
-                    spaceBetween: 10,
-                    loop: true,
-                    centeredSlides: true, // Center the active slide
-                    navigation: {
-                        nextEl: '.swiper-button-next',
-                        prevEl: '.swiper-button-prev',
-                    },
-                    autoplay: {
-                        delay: 2500,
-                        disableOnInteraction: false,
-                    },
-                    breakpoints: {
-                        // when window width is >= 700px
-                        700: {
-                            slidesPerView: 3, // Show 3 slides
-                            spaceBetween: 30,
-                            centeredSlides: true, // Ensure the active slide is centered
+            document.addEventListener("DOMContentLoaded", function() {
+                const elements = document.querySelectorAll('.animate-on-scroll');
+
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('active'); // Add animation when in viewport
+                        } else {
+                            entry.target.classList.remove('active'); // Remove animation when out of viewport
                         }
-                    }
+                    });
+                }, {
+                    threshold: 0.2 // Trigger when 20% of the element is visible
+                });
+
+                elements.forEach(element => {
+                    observer.observe(element);
                 });
             });
         </script>
@@ -933,416 +528,164 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
 
 
 
-
+        <!-- 
         <div class="home1-about-section mb-50 pt-20" style=padding-top:3rem>
             <div class=container>
                 <div class="row g-lg-4 gy-5">
                     <div class="fadeInUp wow col-lg-5" data-wow-delay=200ms>
-                        <div class=about-img><img loading="lazy"
-                                alt='BEST REAL ESTATE PROPERTY CONSULTANT IN DELHI/NCR'
-                                src='./assets/img/sachinsir.jpg'></div>
-                    </div>
-                    <div class=col-lg-7>
-                        <div class="fadeInUp wow about-content-wrap" data-wow-delay=400ms>
-                            <div class=section-title1>
-                                <h2>Get To Know About MoneyTree Realty</h2>
-                            </div>
-                            <h6 style=padding-left:10px>Welcome to our MoneyTree!</h6>
-                            <p><strong>BEST REAL ESTATE CONSULTANT IN DELHI/NCR</strong><br><strong>Mr. Sachin
-                                    Arora</strong>, CEO & Founder, often remarked as the brand trust in the Indian
-                                Real Estate Market with an experience spanning across more than a decade, led its
-                                foundation to make real estate experience easier and accessible. The MoneyTree
-                                Realty Services Pvt. Ltd. (RERA Reg.) brings together a group of energised real
-                                estate consultant offering a diverse catalogue.<br>Under the leadership of our
-                                founder, we have managed to establish ourselves as the Best Real Estate Consultant
-                                In Delhi/NCR by creating history in Sales Number and raising the bar with Customer
-                                Satisfaction Ratio in residential property as well as commercial
-                                property.<br>Comprising over 300 highly trained real estate consultant, We deal with
-                                leading real estate giants like Lodha, Tata, Godrej, DLF, Elan, M3M, Paras
-                                Buildtech, Experion, and many more and manage a portfolio of all kinds of commercial
-                                and residential properties that include apartments, flats, villas, plots, duplexes,
-                                penthouses, farmhouses, commercial shops, offices, showrooms, plazas, malls, and
-                                more with a present client base of 10,000+ happy investors and over 25000+
-                                satisfying deals till date making MoneyTree Realty Best Real Estate Consultant In
-                                Delhi/NCR.</p>
+                        <div class=about-img>
 
-                            <ul class=about-features>
-                                <li class=single-features>
-                                    <div class=icon-content>
-                                        <div class=icon><svg height=43 viewBox="0 0 46 43" width=46
-                                                xmlns=http://www.w3.org/2000/svg>
-                                                <path
-                                                    d="M46 38C46 40.7614 43.7614 43 41 43H15L38.5198 39.5156C40.6074 39.2063 42.2761 37.6196 42.69 35.5501L46 19V38Z"
-                                                    class=vector />
-                                                <mask height=26 id=mask0_485_12369 maskUnits=userSpaceOnUse
-                                                    style=mask-type:alpha width=26 x=10 y=8>
-                                                    <rect height=26 width=26 x=10 y=8 />
-                                                </mask>
-                                                <g mask=url(#mask0_485_12369)>
+                        </div>
+                        <div class=col-lg-7>
+                            <div class="fadeInUp wow about-content-wrap" data-wow-delay=400ms>
+
+
+
+
+
+                                <ul class=about-features>
+                                    <li class=single-features>
+                                        <div class=icon-content>
+                                            <div class=icon><svg height=43 viewBox="0 0 46 43" width=46
+                                                    xmlns=http://www.w3.org/2000/svg>
                                                     <path
-                                                        d="M34.6984 30.4703C34.699 30.4513 34.6993 30.4325 34.6993 30.4138C34.6988 29.9384 34.516 29.4826 34.1911 29.1465C33.8662 28.8103 33.4256 28.6212 32.9661 28.6207V20.3276L34.526 19.1172C34.5802 19.0752 34.6241 19.0206 34.6542 18.9578C34.6843 18.8951 34.6997 18.8259 34.6993 18.7558C34.6989 18.6858 34.6826 18.6168 34.6518 18.5544C34.6209 18.4921 34.5764 18.438 34.5217 18.3967L30.7996 15.5827V10.6897C30.9145 10.6897 31.0247 10.6424 31.106 10.5584C31.1872 10.4743 31.2329 10.3603 31.2329 10.2414V8.44828C31.2329 8.32939 31.1872 8.21536 31.106 8.1313C31.0247 8.04723 30.9145 8 30.7996 8H26.4665C26.3515 8 26.2413 8.04723 26.1601 8.1313C26.0788 8.21536 26.0332 8.32939 26.0332 8.44828V10.2414C26.0332 10.3603 26.0788 10.4743 26.1601 10.5584C26.2413 10.6424 26.3515 10.6897 26.4665 10.6897V12.3069L23.2557 9.87945C23.1814 9.82335 23.0919 9.79312 23 9.79312C22.9081 9.79312 22.8186 9.82335 22.7443 9.87945L11.4783 18.3967C11.4236 18.438 11.3791 18.4921 11.3482 18.5544C11.3174 18.6168 11.3011 18.6858 11.3007 18.7558C11.3003 18.8259 11.3157 18.8951 11.3458 18.9578C11.3759 19.0206 11.4198 19.0752 11.474 19.1172L13.0339 20.3276V28.6207C12.5744 28.6212 12.1338 28.8103 11.8089 29.1465C11.484 29.4826 11.3012 29.9384 11.3007 30.4138C11.3007 30.4325 11.301 30.4513 11.3016 30.4703C10.8929 30.579 10.5365 30.8383 10.2994 31.1996C10.0623 31.5608 9.9607 31.9991 10.0138 32.4323C10.0668 32.8655 10.2708 33.2638 10.5876 33.5524C10.9043 33.841 11.3119 34.0002 11.734 34H34.266C34.6881 34.0002 35.0957 33.841 35.4124 33.5524C35.7292 33.2638 35.9332 32.8655 35.9862 32.4323C36.0393 31.9991 35.9377 31.5608 35.7006 31.1996C35.4635 30.8383 35.1071 30.579 34.6984 30.4703ZM26.8998 8.89655H30.3662V9.7931H26.8998V8.89655ZM27.3331 12.931V10.6897H29.9329V14.9275L27.2921 12.931H27.3331ZM23 10.7966L33.5378 18.7633L32.5288 19.5462L23.2549 12.5685C23.1808 12.5128 23.0916 12.4827 23 12.4827C22.9084 12.4827 22.8192 12.5128 22.7451 12.5685L13.4712 19.5462L12.4622 18.7633L23 10.7966ZM10.8674 32.2069C10.8676 31.9715 10.9572 31.7456 11.1169 31.5779C11.2765 31.4103 11.4935 31.3141 11.721 31.3103H11.722C11.7442 31.3135 11.7663 31.3163 11.7889 31.3178C11.8607 31.3225 11.9325 31.3086 11.9978 31.2774C12.0631 31.2462 12.1199 31.1987 12.1631 31.1391C12.2062 31.0795 12.2343 31.0097 12.2448 30.9361C12.2554 30.8625 12.248 30.7873 12.2235 30.7173C12.1876 30.6204 12.1686 30.5176 12.1673 30.4138C12.1676 30.1761 12.2589 29.9482 12.4214 29.7801C12.5839 29.6121 12.8041 29.5175 13.0339 29.5172V33.1034H11.734C11.5042 33.1032 11.2839 33.0086 11.1215 32.8405C10.959 32.6725 10.8676 32.4446 10.8674 32.2069ZM29.4996 33.1034H24.2999V23.2414H29.4996V33.1034ZM30.3662 33.1034V22.7931C30.3662 22.6742 30.3206 22.5602 30.2393 22.4761C30.1581 22.3921 30.0479 22.3448 29.9329 22.3448H23.8666C23.7517 22.3448 23.6415 22.3921 23.5602 22.4761C23.479 22.5602 23.4333 22.6742 23.4333 22.7931V33.1034H13.9005V20.3317L23 13.4853L32.0995 20.3317V33.1034H30.3662ZM34.266 33.1034H32.9661V29.5172C33.1959 29.5175 33.4161 29.6121 33.5786 29.7801C33.7411 29.9482 33.8324 30.1761 33.8327 30.4138C33.8314 30.5177 33.8124 30.6205 33.7766 30.7176C33.752 30.7875 33.7446 30.8627 33.7552 30.9363C33.7657 31.01 33.7938 31.0797 33.8369 31.1393C33.8801 31.1989 33.9369 31.2464 34.0022 31.2776C34.0675 31.3088 34.1393 31.3227 34.2111 31.318C34.2337 31.3165 34.2558 31.3138 34.278 31.3106H34.279C34.5089 31.3124 34.7286 31.4085 34.8899 31.5779C35.0512 31.7473 35.1409 31.9761 35.1391 32.2138C35.1374 32.4516 35.0445 32.679 34.8807 32.8458C34.717 33.0127 34.4959 33.1055 34.266 33.1037V33.1034Z" />
+                                                        d="M46 38C46 40.7614 43.7614 43 41 43H15L38.5198 39.5156C40.6074 39.2063 42.2761 37.6196 42.69 35.5501L46 19V38Z"
+                                                        class=vector />
+                                                    <mask height=26 id=mask0_485_12369 maskUnits=userSpaceOnUse
+                                                        style=mask-type:alpha width=26 x=10 y=8>
+                                                        <rect height=26 width=26 x=10 y=8 />
+                                                    </mask>
+                                                    <g mask=url(#mask0_485_12369)>
+                                                        <path
+                                                            d="M34.6984 30.4703C34.699 30.4513 34.6993 30.4325 34.6993 30.4138C34.6988 29.9384 34.516 29.4826 34.1911 29.1465C33.8662 28.8103 33.4256 28.6212 32.9661 28.6207V20.3276L34.526 19.1172C34.5802 19.0752 34.6241 19.0206 34.6542 18.9578C34.6843 18.8951 34.6997 18.8259 34.6993 18.7558C34.6989 18.6858 34.6826 18.6168 34.6518 18.5544C34.6209 18.4921 34.5764 18.438 34.5217 18.3967L30.7996 15.5827V10.6897C30.9145 10.6897 31.0247 10.6424 31.106 10.5584C31.1872 10.4743 31.2329 10.3603 31.2329 10.2414V8.44828C31.2329 8.32939 31.1872 8.21536 31.106 8.1313C31.0247 8.04723 30.9145 8 30.7996 8H26.4665C26.3515 8 26.2413 8.04723 26.1601 8.1313C26.0788 8.21536 26.0332 8.32939 26.0332 8.44828V10.2414C26.0332 10.3603 26.0788 10.4743 26.1601 10.5584C26.2413 10.6424 26.3515 10.6897 26.4665 10.6897V12.3069L23.2557 9.87945C23.1814 9.82335 23.0919 9.79312 23 9.79312C22.9081 9.79312 22.8186 9.82335 22.7443 9.87945L11.4783 18.3967C11.4236 18.438 11.3791 18.4921 11.3482 18.5544C11.3174 18.6168 11.3011 18.6858 11.3007 18.7558C11.3003 18.8259 11.3157 18.8951 11.3458 18.9578C11.3759 19.0206 11.4198 19.0752 11.474 19.1172L13.0339 20.3276V28.6207C12.5744 28.6212 12.1338 28.8103 11.8089 29.1465C11.484 29.4826 11.3012 29.9384 11.3007 30.4138C11.3007 30.4325 11.301 30.4513 11.3016 30.4703C10.8929 30.579 10.5365 30.8383 10.2994 31.1996C10.0623 31.5608 9.9607 31.9991 10.0138 32.4323C10.0668 32.8655 10.2708 33.2638 10.5876 33.5524C10.9043 33.841 11.3119 34.0002 11.734 34H34.266C34.6881 34.0002 35.0957 33.841 35.4124 33.5524C35.7292 33.2638 35.9332 32.8655 35.9862 32.4323C36.0393 31.9991 35.9377 31.5608 35.7006 31.1996C35.4635 30.8383 35.1071 30.579 34.6984 30.4703ZM26.8998 8.89655H30.3662V9.7931H26.8998V8.89655ZM27.3331 12.931V10.6897H29.9329V14.9275L27.2921 12.931H27.3331ZM23 10.7966L33.5378 18.7633L32.5288 19.5462L23.2549 12.5685C23.1808 12.5128 23.0916 12.4827 23 12.4827C22.9084 12.4827 22.8192 12.5128 22.7451 12.5685L13.4712 19.5462L12.4622 18.7633L23 10.7966ZM10.8674 32.2069C10.8676 31.9715 10.9572 31.7456 11.1169 31.5779C11.2765 31.4103 11.4935 31.3141 11.721 31.3103H11.722C11.7442 31.3135 11.7663 31.3163 11.7889 31.3178C11.8607 31.3225 11.9325 31.3086 11.9978 31.2774C12.0631 31.2462 12.1199 31.1987 12.1631 31.1391C12.2062 31.0795 12.2343 31.0097 12.2448 30.9361C12.2554 30.8625 12.248 30.7873 12.2235 30.7173C12.1876 30.6204 12.1686 30.5176 12.1673 30.4138C12.1676 30.1761 12.2589 29.9482 12.4214 29.7801C12.5839 29.6121 12.8041 29.5175 13.0339 29.5172V33.1034H11.734C11.5042 33.1032 11.2839 33.0086 11.1215 32.8405C10.959 32.6725 10.8676 32.4446 10.8674 32.2069ZM29.4996 33.1034H24.2999V23.2414H29.4996V33.1034ZM30.3662 33.1034V22.7931C30.3662 22.6742 30.3206 22.5602 30.2393 22.4761C30.1581 22.3921 30.0479 22.3448 29.9329 22.3448H23.8666C23.7517 22.3448 23.6415 22.3921 23.5602 22.4761C23.479 22.5602 23.4333 22.6742 23.4333 22.7931V33.1034H13.9005V20.3317L23 13.4853L32.0995 20.3317V33.1034H30.3662ZM34.266 33.1034H32.9661V29.5172C33.1959 29.5175 33.4161 29.6121 33.5786 29.7801C33.7411 29.9482 33.8324 30.1761 33.8327 30.4138C33.8314 30.5177 33.8124 30.6205 33.7766 30.7176C33.752 30.7875 33.7446 30.8627 33.7552 30.9363C33.7657 31.01 33.7938 31.0797 33.8369 31.1393C33.8801 31.1989 33.9369 31.2464 34.0022 31.2776C34.0675 31.3088 34.1393 31.3227 34.2111 31.318C34.2337 31.3165 34.2558 31.3138 34.278 31.3106H34.279C34.5089 31.3124 34.7286 31.4085 34.8899 31.5779C35.0512 31.7473 35.1409 31.9761 35.1391 32.2138C35.1374 32.4516 35.0445 32.679 34.8807 32.8458C34.717 33.0127 34.4959 33.1055 34.266 33.1037V33.1034Z" />
+                                                        <path
+                                                            d="M21.2663 22.3457H16.0666C15.9517 22.3457 15.8415 22.3929 15.7602 22.477C15.679 22.5611 15.6333 22.6751 15.6333 22.794V29.0698C15.6333 29.1887 15.679 29.3028 15.7602 29.3868C15.8415 29.4709 15.9517 29.5181 16.0666 29.5181H21.2663C21.3812 29.5181 21.4914 29.4709 21.5727 29.3868C21.654 29.3028 21.6996 29.1887 21.6996 29.0698V22.794C21.6996 22.6751 21.654 22.5611 21.5727 22.477C21.4914 22.3929 21.3812 22.3457 21.2663 22.3457ZM20.833 25.4836H19.0998V23.2423H20.833V25.4836ZM18.2332 23.2423V25.4836H16.4999V23.2423H18.2332ZM16.4999 26.3802H18.2332V28.6216H16.4999V26.3802ZM19.0998 28.6216V26.3802H20.833V28.6216H19.0998Z" />
+                                                        <path
+                                                            d="M26.0011 27.8965C26.0927 27.6677 25.9877 27.4055 25.7666 27.3108C25.5455 27.216 25.2921 27.3246 25.2005 27.5534C25.1089 27.7821 25.2139 28.0443 25.435 28.1391C25.6561 28.2338 25.9096 28.1252 26.0011 27.8965Z" />
+                                                    </g>
                                                     <path
-                                                        d="M21.2663 22.3457H16.0666C15.9517 22.3457 15.8415 22.3929 15.7602 22.477C15.679 22.5611 15.6333 22.6751 15.6333 22.794V29.0698C15.6333 29.1887 15.679 29.3028 15.7602 29.3868C15.8415 29.4709 15.9517 29.5181 16.0666 29.5181H21.2663C21.3812 29.5181 21.4914 29.4709 21.5727 29.3868C21.654 29.3028 21.6996 29.1887 21.6996 29.0698V22.794C21.6996 22.6751 21.654 22.5611 21.5727 22.477C21.4914 22.3929 21.3812 22.3457 21.2663 22.3457ZM20.833 25.4836H19.0998V23.2423H20.833V25.4836ZM18.2332 23.2423V25.4836H16.4999V23.2423H18.2332ZM16.4999 26.3802H18.2332V28.6216H16.4999V26.3802ZM19.0998 28.6216V26.3802H20.833V28.6216H19.0998Z" />
+                                                        d="M0 5C0 2.23858 2.23858 0 5 0H31L7.48019 3.48442C5.39257 3.79369 3.72391 5.38043 3.31003 7.44985L0 24V5Z"
+                                                        class=vector />
+                                                </svg></div>
+                                            <div class=content>
+                                                <h6>Residential Property</h6>
+                                                <p>This sector focuses on properties used for residential.
+                                            </div>
+                                        </div>
+                                        <div class=sent-btn><button onclick='openNav("residentialSidePanel")'>→</button>
+                                        </div>
+                                        <div class=side-panel id=residentialSidePanel><button
+                                                onclick='closeNav("residentialSidePanel")' class=close-button>×</button>
+                                            <h2 style=font-size:15px>Residential Property | Side Note</h2>
+                                            <p style=font-size:13px>We have numerous residential properties that offer a
+                                                premium and luxurious feel with world-class amenities and
+                                                state-of-the-art architecture in categories like apartments, flat,
+                                                studio apartments, villa, etc. With a client-centric approach, our
+                                                professional best real estate consultant takes into consideration
+                                                clients’ needs like their unique style, budget and other preferences and
+                                                provides them with the best residential property.
+                                            <h2 style=font-size:15px>Residential Property about and its advantages</h2>
+                                            <p style=font-size:13px>Residential property refers to real estate designed
+                                                for living. It includes residential space for homes, 2 BHK, 3 BHK, and 4
+                                                BHK apartments, flat, studio apartments, villa etc. Residential Property
+                                                offers numerous advantages like premium and luxurious feel, long-term
+                                                appreciation, hedge against inflation and tax benefits.
+                                            <h2 style=font-size:15px>Need for a best real estate consultant</h2>
+                                            <p style=font-size:13px>MoneyTree Realty is a well-known consultancy in
+                                                Noida and offers various new projects in Noida and other parts of the
+                                                country with the best real estate consultant. Our top property advisor
+                                                offers their expertise for investment in residential space with their
+                                                own extensive market research to provide best residential property like
+                                                apartments, flat, studio apartments, villa, etc.
+                                        </div>
+                                    <li class=single-features>
+                                        <div class=icon-content>
+                                            <div class=icon><svg height=43 viewBox="0 0 46 43" width=46
+                                                    xmlns=http://www.w3.org/2000/svg>
                                                     <path
-                                                        d="M26.0011 27.8965C26.0927 27.6677 25.9877 27.4055 25.7666 27.3108C25.5455 27.216 25.2921 27.3246 25.2005 27.5534C25.1089 27.7821 25.2139 28.0443 25.435 28.1391C25.6561 28.2338 25.9096 28.1252 26.0011 27.8965Z" />
-                                                </g>
-                                                <path
-                                                    d="M0 5C0 2.23858 2.23858 0 5 0H31L7.48019 3.48442C5.39257 3.79369 3.72391 5.38043 3.31003 7.44985L0 24V5Z"
-                                                    class=vector />
-                                            </svg></div>
-                                        <div class=content>
-                                            <h6>Residential Property</h6>
-                                            <p>This sector focuses on properties used for residential.
+                                                        d="M46 38C46 40.7614 43.7614 43 41 43H15L38.5198 39.5156C40.6074 39.2063 42.2761 37.6196 42.69 35.5501L46 19V38Z"
+                                                        class=vector />
+                                                    <mask height=26 id=mask0_485_12369 maskUnits=userSpaceOnUse
+                                                        style=mask-type:alpha width=26 x=10 y=8>
+                                                        <rect height=26 width=26 x=10 y=8 />
+                                                    </mask>
+                                                    <g mask=url(#mask0_485_12369)>
+                                                        <path
+                                                            d="M34.6984 30.4703C34.699 30.4513 34.6993 30.4325 34.6993 30.4138C34.6988 29.9384 34.516 29.4826 34.1911 29.1465C33.8662 28.8103 33.4256 28.6212 32.9661 28.6207V20.3276L34.526 19.1172C34.5802 19.0752 34.6241 19.0206 34.6542 18.9578C34.6843 18.8951 34.6997 18.8259 34.6993 18.7558C34.6989 18.6858 34.6826 18.6168 34.6518 18.5544C34.6209 18.4921 34.5764 18.438 34.5217 18.3967L30.7996 15.5827V10.6897C30.9145 10.6897 31.0247 10.6424 31.106 10.5584C31.1872 10.4743 31.2329 10.3603 31.2329 10.2414V8.44828C31.2329 8.32939 31.1872 8.21536 31.106 8.1313C31.0247 8.04723 30.9145 8 30.7996 8H26.4665C26.3515 8 26.2413 8.04723 26.1601 8.1313C26.0788 8.21536 26.0332 8.32939 26.0332 8.44828V10.2414C26.0332 10.3603 26.0788 10.4743 26.1601 10.5584C26.2413 10.6424 26.3515 10.6897 26.4665 10.6897V12.3069L23.2557 9.87945C23.1814 9.82335 23.0919 9.79312 23 9.79312C22.9081 9.79312 22.8186 9.82335 22.7443 9.87945L11.4783 18.3967C11.4236 18.438 11.3791 18.4921 11.3482 18.5544C11.3174 18.6168 11.3011 18.6858 11.3007 18.7558C11.3003 18.8259 11.3157 18.8951 11.3458 18.9578C11.3759 19.0206 11.4198 19.0752 11.474 19.1172L13.0339 20.3276V28.6207C12.5744 28.6212 12.1338 28.8103 11.8089 29.1465C11.484 29.4826 11.3012 29.9384 11.3007 30.4138C11.3007 30.4325 11.301 30.4513 11.3016 30.4703C10.8929 30.579 10.5365 30.8383 10.2994 31.1996C10.0623 31.5608 9.9607 31.9991 10.0138 32.4323C10.0668 32.8655 10.2708 33.2638 10.5876 33.5524C10.9043 33.841 11.3119 34.0002 11.734 34H34.266C34.6881 34.0002 35.0957 33.841 35.4124 33.5524C35.7292 33.2638 35.9332 32.8655 35.9862 32.4323C36.0393 31.9991 35.9377 31.5608 35.7006 31.1996C35.4635 30.8383 35.1071 30.579 34.6984 30.4703ZM26.8998 8.89655H30.3662V9.7931H26.8998V8.89655ZM27.3331 12.931V10.6897H29.9329V14.9275L27.2921 12.931H27.3331ZM23 10.7966L33.5378 18.7633L32.5288 19.5462L23.2549 12.5685C23.1808 12.5128 23.0916 12.4827 23 12.4827C22.9084 12.4827 22.8192 12.5128 22.7451 12.5685L13.4712 19.5462L12.4622 18.7633L23 10.7966ZM10.8674 32.2069C10.8676 31.9715 10.9572 31.7456 11.1169 31.5779C11.2765 31.4103 11.4935 31.3141 11.721 31.3103H11.722C11.7442 31.3135 11.7663 31.3163 11.7889 31.3178C11.8607 31.3225 11.9325 31.3086 11.9978 31.2774C12.0631 31.2462 12.1199 31.1987 12.1631 31.1391C12.2062 31.0795 12.2343 31.0097 12.2448 30.9361C12.2554 30.8625 12.248 30.7873 12.2235 30.7173C12.1876 30.6204 12.1686 30.5176 12.1673 30.4138C12.1676 30.1761 12.2589 29.9482 12.4214 29.7801C12.5839 29.6121 12.8041 29.5175 13.0339 29.5172V33.1034H11.734C11.5042 33.1032 11.2839 33.0086 11.1215 32.8405C10.959 32.6725 10.8676 32.4446 10.8674 32.2069ZM29.4996 33.1034H24.2999V23.2414H29.4996V33.1034ZM30.3662 33.1034V22.7931C30.3662 22.6742 30.3206 22.5602 30.2393 22.4761C30.1581 22.3921 30.0479 22.3448 29.9329 22.3448H23.8666C23.7517 22.3448 23.6415 22.3921 23.5602 22.4761C23.479 22.5602 23.4333 22.6742 23.4333 22.7931V33.1034H13.9005V20.3317L23 13.4853L32.0995 20.3317V33.1034H30.3662ZM34.266 33.1034H32.9661V29.5172C33.1959 29.5175 33.4161 29.6121 33.5786 29.7801C33.7411 29.9482 33.8324 30.1761 33.8327 30.4138C33.8314 30.5177 33.8124 30.6205 33.7766 30.7176C33.752 30.7875 33.7446 30.8627 33.7552 30.9363C33.7657 31.01 33.7938 31.0797 33.8369 31.1393C33.8801 31.1989 33.9369 31.2464 34.0022 31.2776C34.0675 31.3088 34.1393 31.3227 34.2111 31.318C34.2337 31.3165 34.2558 31.3138 34.278 31.3106H34.279C34.5089 31.3124 34.7286 31.4085 34.8899 31.5779C35.0512 31.7473 35.1409 31.9761 35.1391 32.2138C35.1374 32.4516 35.0445 32.679 34.8807 32.8458C34.717 33.0127 34.4959 33.1055 34.266 33.1037V33.1034Z" />
+                                                        <path
+                                                            d="M21.2663 22.3457H16.0666C15.9517 22.3457 15.8415 22.3929 15.7602 22.477C15.679 22.5611 15.6333 22.6751 15.6333 22.794V29.0698C15.6333 29.1887 15.679 29.3028 15.7602 29.3868C15.8415 29.4709 15.9517 29.5181 16.0666 29.5181H21.2663C21.3812 29.5181 21.4914 29.4709 21.5727 29.3868C21.654 29.3028 21.6996 29.1887 21.6996 29.0698V22.794C21.6996 22.6751 21.654 22.5611 21.5727 22.477C21.4914 22.3929 21.3812 22.3457 21.2663 22.3457ZM20.833 25.4836H19.0998V23.2423H20.833V25.4836ZM18.2332 23.2423V25.4836H16.4999V23.2423H18.2332ZM16.4999 26.3802H18.2332V28.6216H16.4999V26.3802ZM19.0998 28.6216V26.3802H20.833V28.6216H19.0998Z" />
+                                                        <path
+                                                            d="M26.0011 27.8965C26.0927 27.6677 25.9877 27.4055 25.7666 27.3108C25.5455 27.216 25.2921 27.3246 25.2005 27.5534C25.1089 27.7821 25.2139 28.0443 25.435 28.1391C25.6561 28.2338 25.9096 28.1252 26.0011 27.8965Z" />
+                                                    </g>
+                                                    <path
+                                                        d="M0 5C0 2.23858 2.23858 0 5 0H31L7.48019 3.48442C5.39257 3.79369 3.72391 5.38043 3.31003 7.44985L0 24V5Z"
+                                                        class=vector />
+                                                </svg></div>
+                                            <div class=content>
+                                                <h6>Commercial Property</h6>
+                                                <p>This sector focuses on properties used for commercial.
+                                            </div>
+                                        </div>
+                                        <div class=sent-btn><button onclick='openNav("commercialSidePanel")'>→</button>
+                                        </div>
+                                        <div class=side-panel id=commercialSidePanel><button
+                                                onclick='closeNav("commercialSidePanel")' class=close-button>×</button>
+                                            <h2 style=font-size:15px>Commercial Property | Details</h2>
+                                            <p style=font-size:13px>We have numerous commercial properties that offer
+                                                promising appreciation in rates and a potential high ROI in various
+                                                categories like retail shops, malls, multiplex, food courts etc.
+                                            <p style=font-size:13px>With a client-centric approach, our professional
+                                                best real estate consultant takes into consideration clients’ needs like
+                                                their unique style, budget and other preferences and provides them with
+                                                the best commercial property.
+                                            <h2 style=font-size:15px>Commercial Property about and its advantages</h2>
+                                            <p style=font-size:13px>Commercial Property refers to real estate for
+                                                business purposes. It includes commercial space for commercial
+                                                buildings, commercial flats, commercial land, retail shops, multiplex,
+                                                etc. Commercial Property offers numerous advantages like the regular
+                                                rental yields, higher appreciation rates and potential high ROI.
+                                            <h2 style=font-size:15px>Need for a best real estate consultant</h2>
+                                            <p style=font-size:13px>MoneyTree Realty is a well-known consultancy in
+                                                Noida with the best real estate consultant. Our top property advisor
+                                                offers their expertise for investment in commercial space with their own
+                                                extensive market research to provide best commercial property like
+                                                retail shops, malls, multiplex, food courts etc.
+                                        </div>
+                                </ul>
+                                <script>
+                                    function openNav(e) {
+                                        document.getElementById(e).style.width = "400px"
+                                    }
+
+                                    function closeNav(e) {
+                                        document.getElementById(e).style.width = "0"
+                                    }
+                                </script>
+                                <div class=author-and-exp-area>
+                                    <div class=author-area>
+                                        <p>"I believe, FROM LEARNING TOGETHER TO GROWING TOGETHER, I WANT EVERYONE TO
+                                            PROSPER WITH ME AND BUILD MILESTONES.”
+                                        <div class=name-deg><span><strong>Mr. Sachin Arora</strong> ( Founder )</span>
                                         </div>
                                     </div>
-                                    <div class=sent-btn><button onclick='openNav("residentialSidePanel")'>→</button>
-                                    </div>
-                                    <div class=side-panel id=residentialSidePanel><button
-                                            onclick='closeNav("residentialSidePanel")' class=close-button>×</button>
-                                        <h2 style=font-size:15px>Residential Property | Side Note</h2>
-                                        <p style=font-size:13px>We have numerous residential properties that offer a
-                                            premium and luxurious feel with world-class amenities and
-                                            state-of-the-art architecture in categories like apartments, flat,
-                                            studio apartments, villa, etc. With a client-centric approach, our
-                                            professional best real estate consultant takes into consideration
-                                            clients’ needs like their unique style, budget and other preferences and
-                                            provides them with the best residential property.
-                                        <h2 style=font-size:15px>Residential Property about and its advantages</h2>
-                                        <p style=font-size:13px>Residential property refers to real estate designed
-                                            for living. It includes residential space for homes, 2 BHK, 3 BHK, and 4
-                                            BHK apartments, flat, studio apartments, villa etc. Residential Property
-                                            offers numerous advantages like premium and luxurious feel, long-term
-                                            appreciation, hedge against inflation and tax benefits.
-                                        <h2 style=font-size:15px>Need for a best real estate consultant</h2>
-                                        <p style=font-size:13px>MoneyTree Realty is a well-known consultancy in
-                                            Noida and offers various new projects in Noida and other parts of the
-                                            country with the best real estate consultant. Our top property advisor
-                                            offers their expertise for investment in residential space with their
-                                            own extensive market research to provide best residential property like
-                                            apartments, flat, studio apartments, villa, etc.
-                                    </div>
-                                <li class=single-features>
-                                    <div class=icon-content>
-                                        <div class=icon><svg height=43 viewBox="0 0 46 43" width=46
-                                                xmlns=http://www.w3.org/2000/svg>
-                                                <path
-                                                    d="M46 38C46 40.7614 43.7614 43 41 43H15L38.5198 39.5156C40.6074 39.2063 42.2761 37.6196 42.69 35.5501L46 19V38Z"
-                                                    class=vector />
-                                                <mask height=26 id=mask0_485_12369 maskUnits=userSpaceOnUse
-                                                    style=mask-type:alpha width=26 x=10 y=8>
-                                                    <rect height=26 width=26 x=10 y=8 />
-                                                </mask>
-                                                <g mask=url(#mask0_485_12369)>
-                                                    <path
-                                                        d="M34.6984 30.4703C34.699 30.4513 34.6993 30.4325 34.6993 30.4138C34.6988 29.9384 34.516 29.4826 34.1911 29.1465C33.8662 28.8103 33.4256 28.6212 32.9661 28.6207V20.3276L34.526 19.1172C34.5802 19.0752 34.6241 19.0206 34.6542 18.9578C34.6843 18.8951 34.6997 18.8259 34.6993 18.7558C34.6989 18.6858 34.6826 18.6168 34.6518 18.5544C34.6209 18.4921 34.5764 18.438 34.5217 18.3967L30.7996 15.5827V10.6897C30.9145 10.6897 31.0247 10.6424 31.106 10.5584C31.1872 10.4743 31.2329 10.3603 31.2329 10.2414V8.44828C31.2329 8.32939 31.1872 8.21536 31.106 8.1313C31.0247 8.04723 30.9145 8 30.7996 8H26.4665C26.3515 8 26.2413 8.04723 26.1601 8.1313C26.0788 8.21536 26.0332 8.32939 26.0332 8.44828V10.2414C26.0332 10.3603 26.0788 10.4743 26.1601 10.5584C26.2413 10.6424 26.3515 10.6897 26.4665 10.6897V12.3069L23.2557 9.87945C23.1814 9.82335 23.0919 9.79312 23 9.79312C22.9081 9.79312 22.8186 9.82335 22.7443 9.87945L11.4783 18.3967C11.4236 18.438 11.3791 18.4921 11.3482 18.5544C11.3174 18.6168 11.3011 18.6858 11.3007 18.7558C11.3003 18.8259 11.3157 18.8951 11.3458 18.9578C11.3759 19.0206 11.4198 19.0752 11.474 19.1172L13.0339 20.3276V28.6207C12.5744 28.6212 12.1338 28.8103 11.8089 29.1465C11.484 29.4826 11.3012 29.9384 11.3007 30.4138C11.3007 30.4325 11.301 30.4513 11.3016 30.4703C10.8929 30.579 10.5365 30.8383 10.2994 31.1996C10.0623 31.5608 9.9607 31.9991 10.0138 32.4323C10.0668 32.8655 10.2708 33.2638 10.5876 33.5524C10.9043 33.841 11.3119 34.0002 11.734 34H34.266C34.6881 34.0002 35.0957 33.841 35.4124 33.5524C35.7292 33.2638 35.9332 32.8655 35.9862 32.4323C36.0393 31.9991 35.9377 31.5608 35.7006 31.1996C35.4635 30.8383 35.1071 30.579 34.6984 30.4703ZM26.8998 8.89655H30.3662V9.7931H26.8998V8.89655ZM27.3331 12.931V10.6897H29.9329V14.9275L27.2921 12.931H27.3331ZM23 10.7966L33.5378 18.7633L32.5288 19.5462L23.2549 12.5685C23.1808 12.5128 23.0916 12.4827 23 12.4827C22.9084 12.4827 22.8192 12.5128 22.7451 12.5685L13.4712 19.5462L12.4622 18.7633L23 10.7966ZM10.8674 32.2069C10.8676 31.9715 10.9572 31.7456 11.1169 31.5779C11.2765 31.4103 11.4935 31.3141 11.721 31.3103H11.722C11.7442 31.3135 11.7663 31.3163 11.7889 31.3178C11.8607 31.3225 11.9325 31.3086 11.9978 31.2774C12.0631 31.2462 12.1199 31.1987 12.1631 31.1391C12.2062 31.0795 12.2343 31.0097 12.2448 30.9361C12.2554 30.8625 12.248 30.7873 12.2235 30.7173C12.1876 30.6204 12.1686 30.5176 12.1673 30.4138C12.1676 30.1761 12.2589 29.9482 12.4214 29.7801C12.5839 29.6121 12.8041 29.5175 13.0339 29.5172V33.1034H11.734C11.5042 33.1032 11.2839 33.0086 11.1215 32.8405C10.959 32.6725 10.8676 32.4446 10.8674 32.2069ZM29.4996 33.1034H24.2999V23.2414H29.4996V33.1034ZM30.3662 33.1034V22.7931C30.3662 22.6742 30.3206 22.5602 30.2393 22.4761C30.1581 22.3921 30.0479 22.3448 29.9329 22.3448H23.8666C23.7517 22.3448 23.6415 22.3921 23.5602 22.4761C23.479 22.5602 23.4333 22.6742 23.4333 22.7931V33.1034H13.9005V20.3317L23 13.4853L32.0995 20.3317V33.1034H30.3662ZM34.266 33.1034H32.9661V29.5172C33.1959 29.5175 33.4161 29.6121 33.5786 29.7801C33.7411 29.9482 33.8324 30.1761 33.8327 30.4138C33.8314 30.5177 33.8124 30.6205 33.7766 30.7176C33.752 30.7875 33.7446 30.8627 33.7552 30.9363C33.7657 31.01 33.7938 31.0797 33.8369 31.1393C33.8801 31.1989 33.9369 31.2464 34.0022 31.2776C34.0675 31.3088 34.1393 31.3227 34.2111 31.318C34.2337 31.3165 34.2558 31.3138 34.278 31.3106H34.279C34.5089 31.3124 34.7286 31.4085 34.8899 31.5779C35.0512 31.7473 35.1409 31.9761 35.1391 32.2138C35.1374 32.4516 35.0445 32.679 34.8807 32.8458C34.717 33.0127 34.4959 33.1055 34.266 33.1037V33.1034Z" />
-                                                    <path
-                                                        d="M21.2663 22.3457H16.0666C15.9517 22.3457 15.8415 22.3929 15.7602 22.477C15.679 22.5611 15.6333 22.6751 15.6333 22.794V29.0698C15.6333 29.1887 15.679 29.3028 15.7602 29.3868C15.8415 29.4709 15.9517 29.5181 16.0666 29.5181H21.2663C21.3812 29.5181 21.4914 29.4709 21.5727 29.3868C21.654 29.3028 21.6996 29.1887 21.6996 29.0698V22.794C21.6996 22.6751 21.654 22.5611 21.5727 22.477C21.4914 22.3929 21.3812 22.3457 21.2663 22.3457ZM20.833 25.4836H19.0998V23.2423H20.833V25.4836ZM18.2332 23.2423V25.4836H16.4999V23.2423H18.2332ZM16.4999 26.3802H18.2332V28.6216H16.4999V26.3802ZM19.0998 28.6216V26.3802H20.833V28.6216H19.0998Z" />
-                                                    <path
-                                                        d="M26.0011 27.8965C26.0927 27.6677 25.9877 27.4055 25.7666 27.3108C25.5455 27.216 25.2921 27.3246 25.2005 27.5534C25.1089 27.7821 25.2139 28.0443 25.435 28.1391C25.6561 28.2338 25.9096 28.1252 26.0011 27.8965Z" />
-                                                </g>
-                                                <path
-                                                    d="M0 5C0 2.23858 2.23858 0 5 0H31L7.48019 3.48442C5.39257 3.79369 3.72391 5.38043 3.31003 7.44985L0 24V5Z"
-                                                    class=vector />
-                                            </svg></div>
-                                        <div class=content>
-                                            <h6>Commercial Property</h6>
-                                            <p>This sector focuses on properties used for commercial.
+                                    <div class=exp-area>
+                                        <div class=number>
+                                            <h2>14</h2>
                                         </div>
+                                        <h5><br>Years Of Experience</h5>
                                     </div>
-                                    <div class=sent-btn><button onclick='openNav("commercialSidePanel")'>→</button>
-                                    </div>
-                                    <div class=side-panel id=commercialSidePanel><button
-                                            onclick='closeNav("commercialSidePanel")' class=close-button>×</button>
-                                        <h2 style=font-size:15px>Commercial Property | Details</h2>
-                                        <p style=font-size:13px>We have numerous commercial properties that offer
-                                            promising appreciation in rates and a potential high ROI in various
-                                            categories like retail shops, malls, multiplex, food courts etc.
-                                        <p style=font-size:13px>With a client-centric approach, our professional
-                                            best real estate consultant takes into consideration clients’ needs like
-                                            their unique style, budget and other preferences and provides them with
-                                            the best commercial property.
-                                        <h2 style=font-size:15px>Commercial Property about and its advantages</h2>
-                                        <p style=font-size:13px>Commercial Property refers to real estate for
-                                            business purposes. It includes commercial space for commercial
-                                            buildings, commercial flats, commercial land, retail shops, multiplex,
-                                            etc. Commercial Property offers numerous advantages like the regular
-                                            rental yields, higher appreciation rates and potential high ROI.
-                                        <h2 style=font-size:15px>Need for a best real estate consultant</h2>
-                                        <p style=font-size:13px>MoneyTree Realty is a well-known consultancy in
-                                            Noida with the best real estate consultant. Our top property advisor
-                                            offers their expertise for investment in commercial space with their own
-                                            extensive market research to provide best commercial property like
-                                            retail shops, malls, multiplex, food courts etc.
-                                    </div>
-                            </ul>
-                            <script>
-                                function openNav(e) {
-                                    document.getElementById(e).style.width = "400px"
-                                }
-
-                                function closeNav(e) {
-                                    document.getElementById(e).style.width = "0"
-                                }
-                            </script>
-                            <div class=author-and-exp-area>
-                                <div class=author-area>
-                                    <p>"I believe, FROM LEARNING TOGETHER TO GROWING TOGETHER, I WANT EVERYONE TO
-                                        PROSPER WITH ME AND BUILD MILESTONES.”
-                                    <div class=name-deg><span><strong>Mr. Sachin Arora</strong> ( Founder )</span>
-                                    </div>
-                                </div>
-                                <div class=exp-area>
-                                    <div class=number>
-                                        <h2>14</h2>
-                                    </div>
-                                    <h5><br>Years Of Experience</h5>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+        </div> -->
 
 
 
-
-
-
-        <style>
-            .properties-grid {
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                gap: 20px;
-                width: 95vw;
-                padding: 20px;
-                margin-inline-start: auto
-            }
-
-            .property-card {
-                background: #fff;
-                border: 1px solid #ddd;
-                border-radius: 12px;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
-                padding: 16px;
-                margin-bottom: 20px;
-                transition: transform .3s;
-                display: grid;
-                height: 30rem
-            }
-
-            .property-card:hover {
-                transform: translateY(-5px)
-            }
-
-            .property-card.no-results-card {
-                width: 100%;
-                max-width: 370px;
-                min-height: 420px;
-                text-align: center
-            }
-
-            .property-info-wrapper {
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                justify-items: start;
-                align-items: start
-            }
-
-            .property-info-wrapper>div {
-                display: flex;
-                align-items: flex-start;
-                gap: 4px
-            }
-
-            .property-card h2 {
-                font-size: 22px;
-                margin: 0
-            }
-
-            .property-card h2 a {
-                color: #000;
-                font-weight: 600
-            }
-
-            .property-card h2 a:hover {
-                color: #000;
-                background: linear-gradient(90deg, #00796b, #009688, #26a69a);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                background-clip: text
-            }
-
-            .property-card p {
-                font-size: 16px;
-                margin-bottom: 4px
-            }
-
-            .property-card p:has(span) {
-                font-size: 15px;
-                margin-bottom: 4px;
-                display: flex;
-                gap: 4px 0;
-                padding-top: 5px;
-                flex-wrap: wrap;
-                flex-direction: column
-            }
-
-            .property-card span {
-                font-size: 12px;
-                display: inline-block;
-                border: 1px solid grey;
-                height: 20px;
-                display: flex;
-                width: max-content;
-                padding-inline: 4px;
-                align-items: center;
-                border-radius: 3px;
-                background: linear-gradient(90deg, #00796b, #009688, #26a69a);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                font-weight: 600
-            }
-
-            .property-images img {
-                width: 100%;
-                display: block;
-                height: 250px;
-                border-radius: 8px 8px 0 0
-            }
-
-            .details-link {
-                display: inline-flex;
-                margin-top: 10px;
-                padding: 0 15px;
-                background-color: #005b52;
-                color: #fff;
-                text-decoration: none;
-                border-radius: 5px;
-                position: relative;
-                max-width: 135px;
-                font-size: 14px;
-                height: 40px;
-                font-size: 14px;
-                align-items: center;
-                justify-content: center
-            }
-
-            .details-link:hover {
-                color: #fff
-            }
-
-            .details-link::before {
-                content: '';
-                display: block;
-                position: absolute;
-                width: 100%;
-                border-radius: 5px;
-                height: 100%;
-                background: linear-gradient(164deg, #fff, transparent 40%);
-                top: 0;
-                left: 0;
-                opacity: 0;
-                transition: opacity 150ms ease-in-out
-            }
-
-            .details-link:hover::before {
-                opacity: .4
-            }
-
-            .read-more-container {
-                text-align: center;
-                margin-top: 20px
-            }
-
-            #readMoreBtn {
-                padding: 10px 20px;
-                background-color: #016a5f;
-                color: #fff;
-                border: none;
-                border-radius: 5px;
-                cursor: pointer
-            }
-
-            #readMoreBtn:hover {
-                background-color: #005b52
-            }
-
-            .property-container p.gradient-heading {
-                background: linear-gradient(90deg, #00796b, #009688, #26a69a);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                font-size: 40px;
-                font-weight: 600;
-                height: 3rem;
-                display: flex;
-                align-items: center
-            }
-
-            .content {
-                width: 90%;
-                margin-inline: auto
-            }
-
-            .content .text-section {
-                width: 80%
-            }
-
-            @media (width < 972px) {
-                .properties-grid {
-                    grid-template-columns: repeat(2, 1fr)
-                }
-            }
-
-            @media (width < 670px) {
-                .properties-grid {
-                    width: 100%;
-                    grid-template-columns: repeat(1, 1fr);
-                    padding: 14px
-                }
-
-                .property-card span {
-                    font-size: 10px
-                }
-
-                .property-card h2 {
-                    font-size: 24px
-                }
-
-                .property-card p,
-                .property-info-wrapper>div {
-                    font-size: 14px
-                }
-
-                .property-card img {
-                    height: 240px;
-                    object-fit: cover
-                }
-
-                .property-card {
-                    margin-bottom: 0
-                }
-
-                .content .text-section {
-                    width: 94%;
-                    font-size: 15px;
-                    line-height: 1.6
-                }
-
-                .property-container {
-                    padding-inline: 0 !important
-                }
-            }
-
-            .properties-grid>.property-card:nth-child(1):only-child {
-                grid-column: 2
-            }
-        </style>
         <div class="property-container" style="padding:20px;">
 
             <?php
-            include "data/tempdata.php";
-
             // Function to generate type links
             function getTypeLink($type)
             {
@@ -1400,200 +743,151 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
 
         </div>
 
+        <!-- why choose section  -->
 
-        <script>
-            function showMoreProperties() {
-                const propertyCards = document.querySelectorAll('#propertiesGrid .property-card');
-                let visibleCount = 0;
+        <div class="why-choose-section">
 
-                propertyCards.forEach((card) => {
-                    if (card.style.display !== 'none') {
-                        visibleCount++;
-                    }
-                });
-
-                for (let i = visibleCount; i < visibleCount + 6 && i < propertyCards.length; i++) {
-                    propertyCards[i].style.display = 'grid';
-                }
-
-                if (visibleCount + 6 >= propertyCards.length) {
-                    document.getElementById('readMoreBtn').style.display = 'none';
-                }
-            }
-
-            function nextImage(container) {
-                const images = container.getElementsByTagName('img');
-                let currentIndex;
-                for (let i = 0; i < images.length; i++) {
-                    if (images[i].style.display !== 'none') {
-                        currentIndex = i;
-                        images[i].style.display = 'none';
-                        break;
-                    }
-                }
-                const nextIndex = (currentIndex + 1) % images.length;
-                images[nextIndex].style.display = 'block';
-            }
-        </script>
-
-
-
-
-        <div class="mb-100 pt-90 pb-40 why-choose-area">
-            <div class=container>
-                <div class="fadeInUp wow mb-50 row" data-wow-delay=200ms>
-                    <div class="d-flex col-lg-12 justify-content-center">
-                        <div class="section-title1 text-center">
-                            <h2>Why Only MoneyTree Realty</h2>
-                        </div>
+            <h2>Why Only MoneyTree Realty?</h2>
+            <div class="card-wrapper">
+                <div class="choose-card">
+                    <div class="image-wrapper">
+                        <img src="assets/img/home1/guarantee.svg" alt="">
                     </div>
+                    <p class="title">Why Trust MoneyTree Realty</p>
+                    <p class="description">MoneyTree Realty is the Best Real Estate Consultant in Delhi/NCR with a record number of sales, sustaining quality service with the help of our dedicated property consultants.</p>
                 </div>
-                <div class="row mb-50 g-4 justify-content-center">
-                    <div class="fadeInUp wow col-lg-4 col-md-6" data-wow-delay=200ms>
-                        <div class=choose-card>
-                            <div class=choose-top>
-                                <div class=choose-icon><img alt src=assets/img/home1/icon/affordable.svg></div>
-                                <h5><span>Why Trust </span>MoneyTree Realty</h5>
-                            </div>
-                            <p>MoneyTree Realty is the Best Real Estate Consultant in Delhi/NCR with a record number
-                                of sales through sustaining quality of service with each sale with the help of our
-                                dedicated property consultant.
-                        </div>
+                <div class="choose-card">
+                    <div class="image-wrapper">
+                        <img src="assets/img/home1/guarantee.svg" alt="">
                     </div>
-                    <div class="fadeInUp wow col-lg-4 col-md-6" data-wow-delay=300ms>
-                        <div class=choose-card>
-                            <div class=choose-top>
-                                <div class=choose-icon><img alt src=assets/img/home1/icon/guarantee.svg></div>
-                                <h5>Customer <span>Oriented</span></h5>
-                            </div>
-                            <p>What makes us the best real estate consultant In Delhi/NCR is our client-centric
-                                approach. Our group of property consultant takes into consideration your unique
-                                style, budget and other preferences and ensures to present you with properties that
-                                match your preferences.
-                        </div>
-                    </div>
-                    <div class="fadeInUp wow col-lg-4 col-md-6" data-wow-delay=400ms>
-                        <div class=choose-card>
-                            <div class=choose-top>
-                                <div class=choose-icon><img alt src=assets/img/home1/icon/warranty.svg></div>
-                                <h5><span>Tech</span> Enabled</h5>
-                            </div>
-                            <p>Discover your dream property with us. Explore listings that match your lifestyle and
-                                budget, from modern city apartments to cozy country homes. Let the Best Real Estate
-                                Consultant In Delhi/NCR guide you to your dream home.
-                        </div>
-                    </div>
+                    <p class="title">Customer Oriented</p>
+                    <p class="description">Our client-centric approach ensures properties tailored to your unique style, budget, and preferences, making us the best real estate consultant in Delhi/NCR.</p>
                 </div>
-                <div class=our-activetis>
-                    <div class="row justify-content-center g-lg-4 gy-5">
-                        <div class="fadeInUp wow col-lg-3 col-sm-4 col-sm-6 d-flex justify-content-sm-center divider justify-content-lg-start"
-                            data-wow-delay=200ms>
-                            <div class=single-activiti>
-                                <div class=icon><img alt src=assets/img/home1/icon/av-project.svg></div>
-                                <div class=content>
-                                    <div class=number>
-                                        <h5 class=counter>46</h5><span>+</span>
-                                    </div>
-                                    <p>Project Available
-                                </div>
-                            </div>
-                        </div>
-                        <div class="fadeInUp wow col-lg-3 col-sm-4 col-sm-6 d-flex justify-content-sm-center divider"
-                            data-wow-delay=300ms>
-                            <div class=single-activiti>
-                                <div class=icon><img alt src=assets/img/home1/icon/sold-car.svg></div>
-                                <div class=content>
-                                    <div class=number>
-                                        <h5 class=counter>25079</h5><span>+</span>
-                                    </div>
-                                    <p>Units Sold
-                                </div>
-                            </div>
-                        </div>
-                        <div class="fadeInUp wow col-lg-3 col-sm-4 col-sm-6 d-flex justify-content-sm-center divider"
-                            data-wow-delay=400ms>
-                            <div class=single-activiti>
-                                <div class=icon><img alt src=assets/img/home1/icon/new-home.svg></div>
-                                <div class=content>
-                                    <div class=number>
-                                        <h5 class=counter>10,576</h5><span>+</span>
-                                    </div>
-                                    <p>Happy Family
-                                </div>
-                            </div>
-                        </div>
-                        <div class="fadeInUp wow col-lg-3 col-sm-4 col-sm-6 d-flex justify-content-sm-center justify-content-lg-end"
-                            data-wow-delay=500ms>
-                            <div class=single-activiti>
-                                <div class=icon><img alt src=assets/img/home1/icon/happy-customar.svg></div>
-                                <div class=content>
-                                    <div class=number>
-                                        <h5 class=counter>93.60</h5><span>%</span>
-                                    </div>
-                                    <p>Customer Satisfaction
-                                </div>
-                            </div>
-                        </div>
+
+                <div class="choose-card">
+                    <div class="image-wrapper">
+                        <img src="assets/img/home1/guarantee.svg" alt="">
                     </div>
+                    <p class="title">Tech Enabled</p>
+                    <p class="description">Discover your dream property with listings matching your lifestyle and budget, guided by the Best Real Estate Consultant in Delhi/NCR.</p>
                 </div>
             </div>
+
         </div>
 
+
         <style>
-            .location-card {
-                position: relative;
-                height: 100%;
+            .why-choose-section {
+                /* background: pink; */
+                height: 70vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
             }
 
-            .location-image {
+            .why-choose-section h2 {
+                background: linear-gradient(45deg, #d39f51, #e5b566, #f0cb7b, #f8e292, #fff7a9);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                font-weight: 700;
+                text-align: center;
+                margin-bottom: 2rem;
+
+            }
+
+            .why-choose-section .card-wrapper {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .why-choose-section .choose-card {
+                /* outline: 2px solid red; */
+                display: grid;
+                grid-template-columns: auto 1fr;
+                grid-template-rows: repeat(4, 1fr);
+                position: relative;
+                overflow: visible;
+                gap: 10px;
+            }
+
+
+            .image-wrapper {
+                --choose-card-img-size: 64px;
+                position: relative;
+                width: var(--choose-card-img-size);
+                height: var(--choose-card-img-size);
+                margin: 2px;
+                padding: 14px;
+                transition: transform 0.3s ease;
+                grid-row: 1 / 5;
+                align-self: center;
+                border-radius: 99px;
+            }
+
+            .image-wrapper img {
                 width: 100%;
-                height: 350px;
-                overflow: hidden;
+                height: 100%;
+                border-radius: 99px;
+                z-index: 2;
                 position: relative;
             }
 
-            .location-image img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
+            .image-wrapper:hover {
+                transform: scale(1.1);
+                box-shadow: 0 4px 15px 0 rgba(229, 181, 102, 0.5), 0 6px 20px 0 rgba(229, 181, 102, 0.2);
+            }
+
+
+            .image-wrapper::before {
+                content: "";
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                width: var(--choose-card-img-size);
+                height: var(--choose-card-img-size);
+                border: 2px dotted;
+                border-color: #e5b566;
+                /* Golden color */
+                border-radius: 99px;
+                z-index: 1;
                 transition: transform 0.3s ease;
             }
 
-            .location-image:hover img {
-                /* transform: scale(1.1); */
+
+            .image-wrapper:hover::before {
+                animation: rotate-border-hover 1s linear infinite;
             }
 
-            .location-image .overlay {
-                position: absolute;
-                top: 0;
-                left: 0;
-                height: 100%;
-                background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 26%, rgba(0, 0, 0, 0.45) 26%, rgba(0, 0, 0, 0.1));
-                transition: background 0.5s ease;
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-end;
-                padding: 20px;
-                overflow: hidden;
+            @keyframes rotate-border-hover {
+                0% {
+                    transform: rotate(0deg);
+                }
+
+                100% {
+                    transform: rotate(360deg);
+                }
             }
 
-            .location-image:hover .overlay {
-                background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 26%, rgba(0, 0, 0, 0.7) 26%, rgba(0, 0, 0, 0.1));
+
+            .choose-card .title {
+                grid-column: 2/3;
+                grid-row: 1/2;
+                display: grid;
+                align-items: end;
             }
 
-            .location-image .overlay h3,
-            .location-image .overlay p {
-                color: #fff;
-                margin: 0;
-            }
-
-            .location-image .overlay p {
-                margin-top: 5px;
+            .choose-card .description {
+                grid-column: 2/3;
+                grid-row: 2/5;
                 font-size: 14px;
+
             }
         </style>
 
 
+        <!-- Location carasouel -->
 
         <div class="full-width-bg">
             <div class="property-carousel">
@@ -1629,409 +923,52 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
             </div>
         </div>
 
-        <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                new Swiper('.locationSwiper', {
-                    slidesPerView: 1,
-                    spaceBetween: 20,
-                    loop: true,
-                    navigation: {
-                        nextEl: '.locationSwiper .swiper-button-next',
-                        prevEl: '.locationSwiper .swiper-button-prev',
-                    },
-                    autoplay: {
-                        delay: 3000,
-                        disableOnInteraction: false,
-                    },
-                    breakpoints: {
-                        768: {
-                            slidesPerView: 3,
-                            spaceBetween: 20,
-                        }
-                    }
-                });
-            });
-        </script>
 
-
-
-
-
-
-        <style>
-            .full-width-bg:has(.team-carousel) {
-                background: url('./assets/img/IMG_0342.webp') center/cover no-repeat;
-                background-attachment: fixed;
-                position: relative;
-                padding-block: 3rem;
-            }
-
-            .full-width-bg:has(.team-carousel)::before {
-                content: '';
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                background: rgba(255, 255, 255, 0.3);
-                backdrop-filter: blur(5px);
-            }
-
-            .team-carousel {
-                padding-block: 1rem 4rem;
-            }
-
-            .teamSwiper {
-                padding: 1rem 8px;
-            }
-
-            .team-carousel h2 {
-                text-align: center;
-                /* margin-bottom: 3rem; */
-                font-weight: 600;
-                font-size: 28px;
-                color: #fff;
-                text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
-
-            }
-
-            .team-member-card {
-                /* background: rgba(255, 255, 255, 0.3); */
-                backdrop-filter: blur(5px);
-                -webkit-backdrop-filter: blur(5px);
-                border: 1px solid rgba(255, 255, 255, 0.3);
-                border-radius: 12px;
-                overflow: hidden;
-                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1), inset 0px 1px 8px rgba(0, 0, 0, 0.1);
-                transition: transform 0.3s ease, box-shadow 0.3s ease;
-                height: 100%;
-                padding: 2px;
-                outline: 1px solid #e0af60;
-                background: #fff;
-            }
-
-            .team-member-card:hover {
-                transform: translateY(-3px);
-            }
-
-            .member-image {
-                width: 100%;
-                height: 270px;
-                position: relative;
-                overflow: hidden;
-                border-radius: 10px 10px 0 0;
-                outline: 1px solid #e0af60;
-            }
-
-            .member-image img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                transition: transform 0.2s ease;
-            }
-
-            .team-member-card:hover .member-image img {
-                transform: scale(1.02);
-            }
-
-            .member-info {
-                padding-block: 1rem 0;
-                text-align: center;
-                font-style: oblique;
-            }
-
-            .member-info h3 {
-                margin: 0;
-                font-size: 18px;
-                color: #000;
-            }
-
-            .member-info p {
-                color: #bfbdbd;
-                font-size: 14px;
-                margin: 0;
-            }
-        </style>
+        <!--  team member carasouel -->
 
         <div class="full-width-bg">
 
 
             <div class="team-carousel">
-                <div class="container">
-                    <h2>Our<span class="bg-green">Team</span></h2>
 
-                    <div class="swiper teamSwiper">
-                        <div class="swiper-wrapper">
-                            <?php foreach ($teamMembers as $member): ?>
-                                <div class="swiper-slide">
-                                    <div class="team-member-card">
-                                        <div class="member-image">
-                                            <img src="<?php echo htmlspecialchars($member['image']); ?>"
-                                                alt="<?php echo htmlspecialchars($member['name']); ?>"
-                                                loading="lazy">
-                                        </div>
-                                        <div class="member-info">
-                                            <h3><?php echo htmlspecialchars($member['name']); ?></h3>
-                                            <p><?php echo htmlspecialchars($member['role']); ?></p>
-                                        </div>
+                <h2>Our<span class="bg-green">Team</span></h2>
+
+                <div class="swiper teamSwiper">
+                    <div class="swiper-wrapper">
+                        <?php foreach ($teamMembers as $member): ?>
+                            <div class="swiper-slide">
+                                <div class="team-member-card">
+                                    <div class="member-image">
+                                        <img src="<?php echo htmlspecialchars($member['image']); ?>"
+                                            alt="<?php echo htmlspecialchars($member['name']); ?>"
+                                            loading="lazy">
+                                    </div>
+                                    <div class="member-info">
+                                        <h3><?php echo htmlspecialchars($member['name']); ?></h3>
+                                        <p><?php echo htmlspecialchars($member['role']); ?></p>
                                     </div>
                                 </div>
-                            <?php endforeach; ?>
-                        </div>
+                            </div>
+                        <?php endforeach; ?>
+                    </div>
 
-                        <div class="swiper-button-next">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M7.04 1.96a1 1 0 0 0-1.497 1.32l.083.094L10.253 8l-4.627 4.626a1 1 0 0 0-.083 1.32l.083.094a1 1 0 0 0 1.32.084l.094-.084 5.334-5.333a1 1 0 0 0 .083-1.32l-.083-.094L7.04 1.96Z"></path>
-                            </svg>
-                        </div>
-                        <div class="swiper-button-prev">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M8.96 1.96a1 1 0 0 1 1.497 1.32l-.083.094L5.747 8l4.627 4.626a1 1 0 0 1 .083 1.32l-.083.094a1 1 0 0 1-1.32.084l-.094-.084-5.334-5.333a1 1 0 0 1-.083-1.32l.083-.094L8.96 1.96Z"></path>
-                            </svg>
-                        </div>
+                    <div class="swiper-button-next">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M7.04 1.96a1 1 0 0 0-1.497 1.32l.083.094L10.253 8l-4.627 4.626a1 1 0 0 0-.083 1.32l.083.094a1 1 0 0 0 1.32.084l.094-.084 5.334-5.333a1 1 0 0 0 .083-1.32l-.083-.094L7.04 1.96Z"></path>
+                        </svg>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8.96 1.96a1 1 0 0 1 1.497 1.32l-.083.094L5.747 8l4.627 4.626a1 1 0 0 1 .083 1.32l-.083.094a1 1 0 0 1-1.32.084l-.094-.084-5.334-5.333a1 1 0 0 1-.083-1.32l.083-.094L8.96 1.96Z"></path>
+                        </svg>
                     </div>
                 </div>
+
             </div>
         </div>
-        <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                new Swiper('.teamSwiper', {
-                    slidesPerView: 1,
-                    spaceBetween: 20,
-                    loop: true,
-                    navigation: {
-                        nextEl: '.team-carousel .swiper-button-next',
-                        prevEl: '.team-carousel .swiper-button-prev',
-                    },
-                    autoplay: {
-                        delay: 3000,
-                        disableOnInteraction: false,
-                    },
-                    breakpoints: {
-                        640: {
-                            slidesPerView: 2,
-                            spaceBetween: 10,
-                        },
-                        968: {
-                            slidesPerView: 4,
-                            spaceBetween: 10,
-                        }
-                    }
-                });
-            });
-        </script>
 
 
-
-
-
-
-        <style>
-            .full-width-bg:has(.testimonial-carousel) {
-                background: #ffffff;
-                /* padding: 2rem 0; */
-            }
-
-            .testimonial-carousel {
-                width: 80%;
-                margin-inline: auto;
-                padding-bottom: 4rem;
-            }
-
-            .testimonialSwiper {
-                padding-inline: 14px;
-                padding-block: 2rem 3rem;
-            }
-
-            .testimonial-carousel h2 {
-                text-align: center;
-                margin-bottom: 3rem;
-                font-weight: 600;
-                font-size: 28px;
-            }
-
-            .testimonial-card {
-                background: rgb(246, 246, 248);
-                padding: 2rem;
-                border-radius: 10px;
-                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-                height: 100%;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-            }
-
-            .testimonialSwiper .swiper-slide {
-                height: auto;
-            }
-
-            .testimonialSwiper .swiper-wrapper {
-                align-items: stretch;
-            }
-
-            .testimonial-content {
-                font-style: italic;
-                color: #555;
-                margin-bottom: 1.5rem;
-                line-height: 1.6;
-                display: -webkit-box;
-                -webkit-line-clamp: 6;
-                -webkit-box-orient: vertical;
-                overflow: hidden;
-            }
-
-            .testimonial-author {
-                display: flex;
-                align-items: center;
-                gap: 1rem;
-            }
-
-            .author-image {
-                width: 60px;
-                height: 60px;
-                border-radius: 50%;
-                /* overflow: hidden; */
-                position: relative;
-
-
-            }
-
-
-            .author-image::after {
-                --google-icon-size: 24px;
-                content: '';
-                position: absolute;
-                bottom: -2px;
-                right: -4px;
-                width: var(--google-icon-size);
-                height: var(--google-icon-size);
-                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 25' class='injected-svg' data-src='https://static.elfsight.com/icons/app-all-in-one-reviews-icons-google-multicolor-stroke.svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg clip-path='url(%23a-2)'%3E%3Cpath fill='rgb(246, 246, 248)' stroke='rgb(246, 246, 248)' stroke-width='2' d='M11.8 1.5C5.835 1.5 1 6.335 1 12.3v.4c0 5.965 4.835 10.8 10.8 10.8 5.965 0 10.8-4.835 10.8-10.8v-.4c0-5.965-4.835-10.8-10.8-10.8Z'%3E%3C/path%3E%3Cpath fill='%232A84FC' d='M21.579 12.734c0-.677-.055-1.358-.172-2.025h-9.403v3.839h5.384a4.614 4.614 0 0 1-1.992 3.029v2.49h3.212c1.886-1.736 2.97-4.3 2.97-7.333Z'%3E%3C/path%3E%3Cpath fill='%2300AC47' d='M12.004 22.474c2.688 0 4.956-.882 6.608-2.406l-3.213-2.491c-.893.608-2.047.952-3.392.952-2.6 0-4.806-1.754-5.597-4.113H3.095v2.567a9.97 9.97 0 0 0 8.909 5.491Z'%3E%3C/path%3E%3Cpath fill='%23FFBA00' d='M6.407 14.416a5.971 5.971 0 0 1 0-3.817V8.03H3.095a9.977 9.977 0 0 0 0 8.952l3.312-2.567Z'%3E%3C/path%3E%3Cpath fill='%23FC2C25' d='M12.004 6.482a5.417 5.417 0 0 1 3.824 1.494l2.846-2.846a9.581 9.581 0 0 0-6.67-2.593A9.967 9.967 0 0 0 3.095 8.03l3.312 2.57c.787-2.363 2.996-4.117 5.597-4.117Z'%3E%3C/path%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='a-2'%3E%3Cpath fill='%23fff' d='M0 0h24v24H0z' transform='translate(0 .5)'%3E%3C/path%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
-                background-size: contain;
-                background-repeat: no-repeat;
-                z-index: 10;
-                /* filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2)); */
-
-            }
-
-            .author-image img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-
-            .author-info h4 {
-                --blue-tick-size: 16px;
-                margin: 0;
-                font-size: 16px;
-                color: #333;
-            }
-
-            .author-info h4::after {
-
-                content: '';
-                display: inline-block;
-                width: var(--blue-tick-size);
-                height: var(--blue-tick-size);
-                margin-left: 4px;
-                background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAxNCAxNCIgY2xhc3M9IlJldmlld1ZlcmlmaWVkQmFkZ2VfX1N0eWxlZFZlcmlmaWVkQmFkZ2Utc2MtMTk0bmlnNC0wIGxrdmhCUSBlcy1yZXZpZXctdmVyaWZpZWQtYmFkZ2UtaWNvbiI+PHBhdGggZmlsbD0iIzE5N0JGRiIgZD0iTTYuNzU3LjIzNmEuMzUuMzUgMCAwIDEgLjQ4NiAwbDEuMTA2IDEuMDdhLjM1LjM1IDAgMCAwIC4zMjkuMDg5bDEuNDkzLS4zNzVhLjM1LjM1IDAgMCAxIC40MjIuMjQ0bC40MjIgMS40OGEuMzUuMzUgMCAwIDAgLjI0LjI0bDEuNDgxLjQyM2EuMzUuMzUgMCAwIDEgLjI0NC40MjJsLS4zNzUgMS40OTNhLjM1LjM1IDAgMCAwIC4wODguMzI5bDEuMDcxIDEuMTA2YS4zNS4zNSAwIDAgMSAwIC40ODZsLTEuMDcgMS4xMDZhLjM1LjM1IDAgMCAwLS4wODkuMzI5bC4zNzUgMS40OTNhLjM1LjM1IDAgMCAxLS4yNDQuNDIybC0xLjQ4LjQyMmEuMzUuMzUgMCAwIDAtLjI0LjI0bC0uNDIzIDEuNDgxYS4zNS4zNSAwIDAgMS0uNDIyLjI0NGwtMS40OTMtLjM3NWEuMzUuMzUgMCAwIDAtLjMyOS4wODhsLTEuMTA2IDEuMDcxYS4zNS4zNSAwIDAgMS0uNDg2IDBsLTEuMTA2LTEuMDdhLjM1LjM1IDAgMCAwLS4zMjktLjA4OWwtMS40OTMuMzc1YS4zNS4zNSAwIDAgMS0uNDIyLS4yNDRsLS40MjItMS40OGEuMzUuMzUgMCAwIDAtLjI0LS4yNGwtMS40ODEtLjQyM2EuMzUuMzUgMCAwIDEtLjI0NC0uNDIybC4zNzUtMS40OTNhLjM1LjM1IDAgMCAwLS4wODgtLjMyOUwuMjM2IDcuMjQzYS4zNS4zNSAwIDAgMSAwLS40ODZsMS4wNy0xLjEwNmEuMzUuMzUgMCAwIDAgLjA4OS0uMzI5TDEuMDIgMy44MjlhLjM1LjM1IDAgMCAxIC4yNDQtLjQyMmwxLjQ4LS40MjJhLjM1LjM1IDAgMCAwIC4yNC0uMjRsLjQyMy0xLjQ4MWEuMzUuMzUgMCAwIDEgLjQyMi0uMjQ0bDEuNDkzLjM3NWEuMzUuMzUgMCAwIDAgLjMyOS0uMDg4TDYuNzU3LjIzNloiPjwvcGF0aD48cGF0aCBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik05LjA2NSA0Ljg1YS42NDQuNjQ0IDAgMCAxIC44OTkgMCAuNjE1LjYxNSAwIDAgMSAuMDUzLjgyM2wtLjA1My4wNTlMNi40OCA5LjE1YS42NDUuNjQ1IDAgMCAxLS44NC4wNTJsLS4wNi0uMDUyLTEuNjYtMS41MjdhLjYxNi42MTYgMCAwIDEgMC0uODgyLjY0NS42NDUgMCAwIDEgLjg0LS4wNTJsLjA2LjA1MiAxLjIxIDEuMDg2IDMuMDM0LTIuOTc4WiIgY2xpcC1ydWxlPSJldmVub2RkIj48L3BhdGg+PC9zdmc+');
-                background-size: contain;
-                background-repeat: no-repeat;
-                vertical-align: middle;
-            }
-
-            .author-info h4+span {
-                font-size: 11px;
-                color: #808081;
-            }
-
-            .author-info p {
-                margin: 0;
-                font-size: 14px;
-                color: #666;
-            }
-
-            .testimonialSwiper .swiper-pagination {
-                bottom: -10px;
-            }
-
-            .testimonialSwiper .swiper-pagination-bullet-active {
-                background: #005b52;
-            }
-
-            .google-review-container {
-                display: flex;
-                align-items: center;
-                margin-inline: 1rem;
-                padding: 2rem 1rem;
-                background: rgb(246, 246, 248);
-                border-radius: 10px;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            }
-
-            .google-review-logo img {
-                width: 120px;
-            }
-
-            .google-review-logo span {
-                font-weight: 700;
-                font-size: 20px;
-
-            }
-
-            .google-review-text {
-                font-weight: 700;
-            }
-
-            .google-review-stars {
-                font-weight: 700;
-            }
-
-            .google-review-stars span:nth-child(2) {
-                font-size: 18px;
-                color: rgb(252, 191, 2);
-            }
-
-            .google-review-count {
-                color: grey;
-                font-size: 10px;
-                font-weight: 400;
-            }
-
-            .google-review-button {
-                margin-inline-start: auto;
-                padding: 0 1rem;
-                width: 15rem;
-                height: 2.5rem;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                background: rgba(48, 136, 255, 1);
-                color: #fff;
-                border-radius: 50px;
-                font-weight: 600;
-                text-align: center;
-                outline: 2px solid rgb(48, 136, 255);
-
-                transition: color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
-            }
-
-            .google-review-button:hover {
-                background: rgba(48, 136, 255, 0.85);
-                box-shadow: 0 3px 10px rgba(48, 136, 255, 0.5);
-                color: #fff;
-            }
-
-            @media (max-width: 768px) {
-                .testimonial-carousel {
-                    padding: 2rem 0;
-                }
-
-                .testimonial-card {
-                    margin: 0.5rem;
-                    min-height: 250px;
-                }
-            }
-        </style>
+        <!-- Testimonial or gogole review carasouel -->
 
 
         <div class="full-width-bg">
@@ -2111,141 +1048,8 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
 
         </div>
 
-        <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                new Swiper('.testimonialSwiper', {
-                    slidesPerView: 1,
-                    spaceBetween: 20,
-                    loop: true,
-                    navigation: {
-                        nextEl: '.testimonial-carousel .swiper-button-next',
-                        prevEl: '.testimonial-carousel .swiper-button-prev',
-                    },
-                    autoplay: {
-                        delay: 3000,
-                        disableOnInteraction: false,
-                    },
-                    breakpoints: {
-                        768: {
-                            slidesPerView: 3,
-                            spaceBetween: 20
-                        }
-                    }
-                });
-            });
-        </script>
 
-
-
-        <style>
-            .full-width-bg:has(.developer-carousel) {
-                background: url('./assets/img/IMG_0342.webp') center/cover no-repeat;
-                background-attachment: fixed;
-                position: relative;
-                padding-block: 3rem;
-            }
-
-            .full-width-bg:has(.developer-carousel)::before {
-                content: '';
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                background: rgba(255, 255, 255, 0.3);
-                backdrop-filter: blur(5px);
-            }
-
-            .developer-carousel {
-                position: relative;
-                z-index: 1;
-            }
-
-
-            .developer-carousel {
-                overflow: hidden;
-                width: 90%;
-                margin-inline: auto;
-                padding-bottom: 4rem;
-            }
-
-            .developer-carousel h2 {
-                font-weight: 600;
-                text-align: center;
-                margin-bottom: 2.5rem;
-                font-size: 28px;
-                color: #fff;
-                text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
-            }
-
-            .developer-card {
-                background: #fff;
-                border-radius: 12px;
-                padding: 20px;
-                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-                transition: all 0.3s ease;
-                height: 200px;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                gap: 1rem;
-            }
-
-            .developer-card:hover {
-                transform: translateY(-5px);
-                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            }
-
-            .developer-image {
-                width: 120px;
-                height: 120px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-
-            .developer-image img {
-                max-width: 100%;
-                max-height: 100%;
-                object-fit: contain;
-            }
-
-            .developer-card h3 {
-                font-size: 16px;
-                text-align: center;
-                color: #333;
-                margin: 0;
-                font-weight: 500;
-            }
-
-            /* .developerSwiper .swiper-slide {
-                opacity: 1;
-                transition: all 0.3s ease;
-            }
-
-            .developerSwiper .swiper-slide-active {
-                opacity: 1;
-            } */
-
-
-
-            @media (max-width: 768px) {
-                .developer-carousel {
-                    width: 100%;
-                    padding-inline: 20px;
-                }
-
-                .developer-card {
-                    height: 180px;
-                }
-
-                .developer-image {
-                    width: 100px;
-                    height: 100px;
-                }
-            }
-        </style>
+        <!--  Developer carasouel  -->
 
         <div class="full-width-bg">
             <div class="developer-carousel">
@@ -2281,142 +1085,8 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
             </div>
         </div>
 
-        <!-- Swiper JS Initialization for Developer Slider -->
-        <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                var swiper = new Swiper('.developerSwiper', {
-                    slidesPerView: 1,
-                    spaceBetween: 20,
-                    loop: true,
-                    navigation: {
-                        nextEl: '.developer-carousel .swiper-button-next',
-                        prevEl: '.developer-carousel .swiper-button-prev',
-                    },
-                    autoplay: {
-                        delay: 3000,
-                        disableOnInteraction: false,
-                    },
-                    breakpoints: {
-                        700: {
-                            slidesPerView: 5,
-                            spaceBetween: 20,
-                        },
-                        0: {
-                            slidesPerView: 2,
-                            spaceBetween: 20,
-                        },
-                    },
-                });
-            });
-        </script>
 
-
-        <style>
-            .blog-carousel {
-                padding: 3rem 0;
-                background: #f8f8f8;
-            }
-
-            .blog-carousel h2 {
-                text-align: center;
-                font-size: 28px;
-                font-weight: 600;
-                margin-bottom: 2rem;
-            }
-
-            .blogSwiper {
-                width: 90%;
-                margin: 0 auto;
-                padding: 20px;
-            }
-
-            .blog-card {
-                background: #fff;
-                border: 1px solid #ddd;
-                padding: 25px;
-                height: 100%;
-                box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-                display: flex;
-                flex-direction: column;
-            }
-
-            .blog-header {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                margin-bottom: 15px;
-                padding-bottom: 10px;
-                border-bottom: 2px solid #eee;
-            }
-
-            .blog-date {
-                font-family: "Times New Roman", serif;
-                font-style: italic;
-                color: #666;
-            }
-
-            .blog-writer {
-                font-weight: 500;
-                color: #333;
-            }
-
-            .blog-title {
-                font-family: "Times New Roman", serif;
-                font-size: 24px;
-                font-weight: 700;
-                margin-bottom: 15px;
-                line-height: 1.2;
-            }
-
-            .blog-image {
-                width: 100%;
-                height: 200px;
-                margin-bottom: 15px;
-            }
-
-            .blog-image img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-
-            .blog-description {
-                font-size: 15px;
-                color: #444;
-                line-height: 1.6;
-                margin-bottom: 20px;
-                flex-grow: 1;
-                display: -webkit-box;
-                -webkit-line-clamp: 4;
-                -webkit-box-orient: vertical;
-                overflow: hidden;
-            }
-
-            .blog-link {
-                align-self: flex-start;
-                padding: 8px 15px;
-                background: #005b52;
-                color: white;
-                text-decoration: none;
-                border-radius: 4px;
-                transition: all 0.3s ease;
-            }
-
-            .blog-link:hover {
-                background: #007f70;
-                color: white;
-            }
-
-            @media (max-width: 768px) {
-                .blog-card {
-                    margin: 10px;
-                }
-
-                .blog-title {
-                    font-size: 20px;
-                }
-            }
-        </style>
+        <!--  blog carasouel -->
 
         <div class="blog-carousel">
             <div class="container">
@@ -2457,36 +1127,13 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
             </div>
         </div>
 
-        <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                new Swiper('.blogSwiper', {
-                    slidesPerView: 1,
-                    spaceBetween: 30,
-                    loop: true,
-                    navigation: {
-                        nextEl: '.blog-carousel .swiper-button-next',
-                        prevEl: '.blog-carousel .swiper-button-prev',
-                    },
-                    autoplay: {
-                        delay: 5000,
-                        disableOnInteraction: false,
-                    },
-                    breakpoints: {
-                        1024: {
-                            slidesPerView: 2,
-                            spaceBetween: 30,
-                        }
-                    }
-                });
-            });
-        </script>
-
-
 
         <?php
         include './more-tags.php';
-        include './footer.php';
+        include './footer-demo.php';
         ?>
+
+        <script src="assets/js/index-page-demo.js" defer></script>
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
         <script src="assets/js/jquery-3.7.0.min.js" defer></script>
         <script src="assets/js/slick.js" defer></script>
@@ -2497,24 +1144,3 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
         <script src="assets/js/jquery.nice-select.min.js" defer></script>
         <script src="assets/js/jquery.fancybox.min.js" defer></script>
         <script src="assets/js/custom.js" defer></script>
-        <script defer>
-            document.addEventListener("DOMContentLoaded", function() {
-                $(".marquee_text").marquee({
-                    direction: "left",
-                    duration: 25000,
-                    gap: 50,
-                    delayBeforeStart: 0,
-                    duplicated: true,
-                    startVisible: true
-                });
-
-                $(".marquee_text2").marquee({
-                    direction: "left",
-                    duration: 25000,
-                    gap: 50,
-                    delayBeforeStart: 0,
-                    duplicated: true,
-                    startVisible: true
-                });
-            });
-        </script>
