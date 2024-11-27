@@ -3,9 +3,9 @@
         <linearGradient id="golden-gradient" gradientTransform="rotate(45)">
             <stop offset="0%" stop-color="#d39f51" />
             <stop offset="25%" stop-color="#e5b566" />
-            <stop offset="50%" stop-color="#f0cb7b" />
-            <stop offset="75%" stop-color="#f8e292" />
-            <stop offset="100%" stop-color="#fff7a9" />
+            <stop offset="50%" stop-color="#fff7a9" />
+            <stop offset="75%" stop-color="#e5b566" />
+            <stop offset="100%" stop-color="#d39f51" />
         </linearGradient>
     </defs>
     <mask id="a" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="42" height="42">
