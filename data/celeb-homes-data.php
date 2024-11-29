@@ -46,6 +46,7 @@ $celebHomesData = [
         ]
     ],
     [
+
         'name' => 'The Kohli’s Residence',
         'link' => 'kohli-residence',
         'images' => [
@@ -64,6 +65,68 @@ $celebHomesData = [
         ]
     ],
 
+    [
+        'name' => 'Sidharth Malhotra House',
+        'link' => 'sidharth-malhotra-house',
+        'images' => [
+            'sidharth-malhotra-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
+    [
+        'name' => 'The Hardik Pandya House',
+        'link' => 'hardik-pandya-house',
+        'images' => [
+            'hardik-pandya-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
+    [
+        'name' => 'The Sundar Pichai House',
+        'link' => 'sundar-pichai-house',
+        'images' => [
+            'sundar-pichai-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
+    [
+        'name' => 'Nawab | Nawazuddin Siddiqui House',
+        'link' => 'nawab-nawazuddin-siddiqui-house',
+        'images' => [
+            'nawab-nawazuddin-siddiqui-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
+    [
+        'name' => 'Ajay Devgan’s House',
+        'link' => 'ajay-devgan-house',
+        'images' => [
+            'ajay-devgan-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
 
-
+    [
+        'name' => 'Arvind Kejriwal House',
+        'link' => 'arvind-kejriwal-house',
+        'images' => [
+            'arvind-kejriwal-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
+    [
+        'name' => 'Sushant Singh Rajput',
+        'link' => 'sushant-singh-rajput-house',
+        'images' => [
+            'sushant-singh-rajput-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
 ];

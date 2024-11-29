@@ -337,6 +337,12 @@ if (strpos($url, 'gurgaon-real-estate') !== false) {
         return $property['location'][0] === 'Gurugram';
     });
 }
+if (strpos($url, 'delhi-real-estate') !== false) {
+    // Shuffle properties and pick the first 10
+    shuffle($properties);
+    $posts = array_slice($properties, 0, 10);
+}
+
 
 function titleToSlug($title)
 {

@@ -1,12 +1,20 @@
+<?php
+define('BASE_PATH', '/Mtcodelive');
+
+function internalLink($relativePath)
+{
+    return BASE_PATH . $relativePath;
+}
+?>
 <div class="socialLinks">
     <a href="https://www.facebook.com/moneytreerealtyofficial" class="social-link">
-        <img src="./assets/img/FB.png" alt="Facebook">
+        <img src="<?php echo internalLink('/assets/img/FB.png'); ?>" alt="Facebook">
     </a>
     <a href="https://www.linkedin.com/company/moneytreerealtyservices/mycompany/" class="social-link">
-        <img src="./assets/img/Linkedin.png" alt="LinkedIn">
+        <img src="<?php echo internalLink('/assets/img/Linkedin.png'); ?>" alt="LinkedIn">
     </a>
     <a href="https://www.instagram.com/moneytreerealtyofficial/" class="social-link">
-        <img src="./assets/img/Insta.png" alt="Instagram">
+        <img src="<?php echo internalLink('/assets/img/Insta.png'); ?>" alt="Instagram">
     </a>
 </div>
 
@@ -47,6 +55,7 @@
         height: var(--link-img-size);
         object-fit: contain;
     }
+
     .socialLinks a img {
         width: 70%;
         height: 70%;
@@ -62,44 +71,182 @@
 
 
 
+
 <header class="custom-header" id="mainHeader">
     <div class="custom-logo">
-        <a href="index"><img src="./assets/img/logo.png" alt="Best Real Estate Property Consultant in Delhi/NCR"></a>
+        <a href="<?php echo internalLink('/index'); ?>">
+            <img src="<?php echo internalLink('/assets/img/logo.png'); ?>" alt="Best Real Estate Property Consultant in Delhi/NCR">
+        </a>
     </div>
     <nav class="custom-nav">
         <ul class="custom-menu">
-            <li><a href="./index">Home</a></li>
-            <li><a href="./career">Career</a></li>
+            <li><a href="<?php echo internalLink('/index'); ?>">Home</a></li>
+            <li><a href="<?php echo internalLink('/career'); ?>">Career</a></li>
             <li class="custom-dropdown">
-                <a href="./projects">Projects</a>
+                <a href="<?php echo internalLink('/projects'); ?>">Projects</a>
                 <ul class="custom-submenu">
                     <li>
-                        <a href="./category/residential-property">Residential</a>
+                        <a href="<?php echo internalLink('/category/residential-property'); ?>">Residential</a>
                         <ul class="custom-sub-submenu">
-                            <li><a href="./category/residential-property-for-sale-noida">Noida</a></li>
-                            <li><a href="./category/residential-property-for-sale-gurgaon">Gurgaon</a></li>
-                            <li><a href="./category/residential-property-for-sale-mumbai">Mumbai</a></li>
-                            <li><a href="./category/residential-property-for-sale-goa">Goa</a></li>
+                            <li><a href="<?php echo internalLink('/category/residential-property-for-sale-noida'); ?>">Noida</a></li>
+                            <li><a href="<?php echo internalLink('/category/residential-property-for-sale-gurgaon'); ?>">Gurgaon</a></li>
+                            <li><a href="<?php echo internalLink('/category/residential-property-for-sale-mumbai'); ?>">Mumbai</a></li>
+                            <li><a href="<?php echo internalLink('/category/residential-property-for-sale-goa'); ?>">Goa</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="./category/commercial-property">Commercial</a>
+                        <a href="<?php echo internalLink('/category/commercial-property'); ?>">Commercial</a>
                         <ul class="custom-sub-submenu">
-                            <li><a href="./category/commercial-property-for-sale-noida">Noida</a></li>
-                            <li><a href="./category/commercial-property-for-sale-gurgaon">Gurgaon</a></li>
-                            <li><a href="./category/commercial-property-for-sale-mumbai">Mumbai</a></li>
-                            <li><a href="./category/commercial-property-for-sale-goa">Goa</a></li>
+                            <li><a href="<?php echo internalLink('/category/commercial-property-for-sale-noida'); ?>">Noida</a></li>
+                            <li><a href="<?php echo internalLink('/category/commercial-property-for-sale-gurgaon'); ?>">Gurgaon</a></li>
+                            <li><a href="<?php echo internalLink('/category/commercial-property-for-sale-mumbai'); ?>">Mumbai</a></li>
+                            <li><a href="<?php echo internalLink('/category/commercial-property-for-sale-goa'); ?>">Goa</a></li>
                         </ul>
                     </li>
-                    <li><a href="./category/studio-apartments">Studio Apartments</a></li>
-                    <li><a href="./category/plots">Plots</a></li>
+                    <li><a href="<?php echo internalLink('/category/studio-apartments'); ?>">Studio Apartments</a></li>
+                    <li><a href="<?php echo internalLink('/category/plots'); ?>">Plots</a></li>
                 </ul>
             </li>
-            <li><a href="./contact">Contact</a></li>
-            <li><a href="./blog">Blog</a></li>
+            <li><a href="<?php echo internalLink('/contact'); ?>">Contact</a></li>
+            <li>
+                <a href="<?php echo internalLink('/blog'); ?>">Blog</a>
+                <div class="blog-dropdown">
+                    <?php
+                    include $_SERVER['DOCUMENT_ROOT'] . BASE_PATH . '/data/blogdata.php';
+
+                    function generateSlug($title)
+                    {
+                        return strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $title)));
+                    }
+
+                    $posts = array_reverse($posts);
+
+                    $topPosts = array_slice($posts, 0, 3);
+
+                    foreach ($topPosts as $post) {
+                        echo '<a href="' . internalLink('/blog/' . generateSlug($post['title'])) . '">
+                        <div class="blog-dropdown-blog">
+                            <div class="blog-dropdown-text">
+                                <p class="blog-dropdown-title">' . $post['title'] . '</p>
+                                <p class="blog-dropdown-description">' . substr($post['description'], 0, 100) . '...</p>
+                            </div>
+                            <img src="' . internalLink('/blog/' . $post['imageUrl']) . '" alt="' . $post['title'] . '" class="blog-dropdown-image">
+                        </div>
+                        </a>';
+                    }
+                    ?>
+                </div>
+            </li>
         </ul>
     </nav>
 
+    <script>
+        // JavaScript for smooth dropdown transition
+        document.addEventListener('DOMContentLoaded', () => {
+            const blogLink = document.querySelector('a[href="./blog"]');
+            const blogDropdown = document.querySelector('.blog-dropdown');
+
+            if (blogLink && blogDropdown) {
+                let hideTimeout;
+
+                // Function to show the dropdown
+                function showDropdown() {
+                    clearTimeout(hideTimeout);
+                    blogDropdown.style.display = 'block';
+                    // Use requestAnimationFrame to ensure the class is added after display:block
+                    requestAnimationFrame(() => {
+                        blogDropdown.classList.add('active');
+                    });
+                }
+
+                // Function to hide the dropdown
+                function hideDropdown() {
+                    blogDropdown.classList.remove('active');
+                    // Wait for the CSS transition to finish before setting display:none
+                    hideTimeout = setTimeout(() => {
+                        blogDropdown.style.display = 'none';
+                    }, 300); // Matches the CSS transition duration
+                }
+
+                // Show dropdown when mouse enters the link or dropdown
+                blogLink.addEventListener('mouseenter', showDropdown);
+                blogDropdown.addEventListener('mouseenter', showDropdown);
+
+                // Hide dropdown when mouse leaves the link or dropdown
+                blogLink.addEventListener('mouseleave', hideDropdown);
+                blogDropdown.addEventListener('mouseleave', hideDropdown);
+            }
+        });
+    </script>
+    <style>
+        .blog-dropdown {
+            position: absolute;
+            background: transparent;
+            width: max-content;
+            max-width: 600px;
+            padding: 0;
+            border: 1px solid #000;
+            border-radius: 10px;
+            display: none;
+            opacity: 0;
+            transform: translateX(-45%) translateY(0);
+            overflow: hidden;
+
+        }
+
+        .blog-dropdown.active {
+            display: block;
+            opacity: 1;
+            transform: translateX(-45%) translateY(10px);
+        }
+
+        .blog-dropdown-blog {
+            display: flex;
+            align-items: center;
+            padding-block: 6px;
+            padding-inline: 12px;
+            border-bottom: 1px solid grey;
+            background: white;
+            /* backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px); */
+            color: #000;
+
+        }
+
+        .blog-dropdown-blog:hover {
+            background: radial-gradient(circle at top, #3eb6a8 0%, #1a9e8f 30%, #1a7b72 100%);
+            color: #fff;
+
+        }
+
+
+
+        .blog-dropdown-text {
+            padding-right: 10px;
+        }
+
+        .blog-dropdown-title {
+            margin: 0 0 4px;
+            font-size: 14px;
+            font-weight: 700;
+            /* color: #fff; */
+            letter-spacing: 0.35px;
+        }
+
+        .blog-dropdown-description {
+            font-size: 12px;
+            /* color: #fff; */
+            line-height: 1.6;
+            text-transform: capitalize;
+        }
+
+        .blog-dropdown-image {
+            width: 150px;
+            height: 100px;
+            /* object-fit: cover; */
+            border-radius: 8px;
+        }
+    </style>
 
     <div class="custom-actions">
 
@@ -157,11 +304,19 @@
                 </ul>
             </li>
             <li><a href="./contact">Contact</a></li>
-            <li><a href="./blog">Blog</a></li>
+            <li>
+                <a href="./blog">Blog</a>
+
+
+            </li>
             <li><a href="tel:+919732300007" class="mobile-phone"><i class="bi bi-telephone-fill"></i>+91-9732300007</a></li>
         </ul>
     </nav>
 </div>
+
+
+
+
 <style>
     /* Mobile Menu Container */
     div.mobile-menu {
@@ -442,6 +597,10 @@
     .custom-header .logo {
         font-size: 1.5rem;
         font-weight: bold;
+    }
+
+    .custom-header ul {
+        list-style-type: none;
     }
 
     .custom-logo img {

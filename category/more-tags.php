@@ -247,54 +247,100 @@
         </div>
         <div class="bigger-tag property-wrapper">
             <h2>Real Estate Developers in India</h2>
+
             <ul class="property-list">
                 <li>
-                    <a href="../top-real-estate-poperty-consultant-in-india?search=paras">
-                        Paras Buildtech
+                    <a href="../real-estate-developers/ace-group">
+                        Ace Group
                     </a>
                 </li>
                 <li>
-                    <a href="../top-real-estate-poperty-consultant-in-india?search=m3m">
+                    <a href="../real-estate-developers/ametek-buildtech">
+                        Ametek Buildtech
+                    </a>
+                </li>
+                <li>
+                    <a href="../real-estate-developers/au-real-estate">
+                        AU Real Estate
+                    </a>
+                </li>
+                <li>
+                    <a href="../real-estate-developers/axis-ecorp">
+                        Axis Ecorp
+                    </a>
+                </li>
+                <li>
+                    <a href="../real-estate-developers/devika-group">
+                        Devika Group
+                    </a>
+                </li>
+                <li>
+                    <a href="../real-estate-developers/elan-group">
+                        Elan Group
+                    </a>
+                </li>
+                <li>
+                    <a href="../real-estate-developers/godrej-properties">
+                        Godrej Properties
+                    </a>
+                </li>
+                <li>
+                    <a href="../real-estate-developers/krisumi-corporation">
+                        Krisumi Corporation
+                    </a>
+                </li>
+                <li>
+                    <a href="../real-estate-developers/l-t-realty">
+                        L&T Realty
+                    </a>
+                </li>
+                <li>
+                    <a href="../real-estate-developers/m3m-group">
                         M3M Group
                     </a>
                 </li>
                 <li>
-                    <a href="../top-real-estate-poperty-consultant-in-india?search=godrej">
-                        Godrej Properties
-                    </a>
-                </li>
-                <li class="hidden">
-                    <a href="../top-real-estate-poperty-consultant-in-india?search=sikka">
-                        Sikka Group
-                    </a>
-                </li>
-                <li class="hidden">
-                    <a href="../top-real-estate-poperty-consultant-in-india?search=elan">
-                        Elan Group
-                    </a>
-                </li>
-                <li class="hidden">
-                    <a href="../top-real-estate-poperty-consultant-in-india?search=ace">
-                        Ace Group
-                    </a>
-                </li>
-                <li class="hidden">
-                    <a href="../top-real-estate-poperty-consultant-in-india?search=lodha">
-                        The House of Abhinandan Lodha
-                    </a>
-                </li>
-                <li class="hidden">
-                    <a href="../top-real-estate-poperty-consultant-in-india?search=mahagun">
+                    <a href="../real-estate-developers/mahagun-group">
                         Mahagun Group
                     </a>
                 </li>
-
-                <li class="hidden">
-                    <a href="../top-real-estate-poperty-consultant-in-india?search=piramal">
+                <li>
+                    <a href="../real-estate-developers/mahindra-lifespace-developers">
+                        Mahindra Lifespace Developers
+                    </a>
+                </li>
+                <li>
+                    <a href="../real-estate-developers/migsun-group">
+                        Migsun Group
+                    </a>
+                </li>
+                <li>
+                    <a href="../real-estate-developers/paras-buildtech">
+                        Paras Buildtech
+                    </a>
+                </li>
+                <li>
+                    <a href="../real-estate-developers/piramal-realty">
                         Piramal Realty
                     </a>
                 </li>
+                <li>
+                    <a href="../real-estate-developers/sarvottam-group">
+                        Sarvottam Group
+                    </a>
+                </li>
+                <li>
+                    <a href="../real-estate-developers/sikka-group">
+                        Sikka Group
+                    </a>
+                </li>
+                <li>
+                    <a href="../real-estate-developers/the-house-of-abhinandan-lodha">
+                        The House of Abhinandan Lodha
+                    </a>
+                </li>
             </ul>
+
             <button class="toggle-btn">Read more</button>
         </div>
 

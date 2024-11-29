@@ -479,7 +479,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
             }
 
             .animate-on-scroll[data-direction="left"] {
-                transform: translate(-100px, -100px);
+                transform: translate(-100px, -60px);
             }
 
             .animate-on-scroll[data-direction="right"] {
@@ -777,6 +777,12 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
 
 
         <style>
+            @property --a {
+                syntax: "<angle>";
+                initial-value: 0deg;
+                inherits: false;
+            }
+
             .why-choose-section {
                 /* background: pink; */
                 height: 70vh;
@@ -784,6 +790,12 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+                /* background:
+                    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
+                    url('./assets/img/IMG_0343.webp') no-repeat center center / cover; */
+
+                background: url('./assets/img/IMG_0343.webp');
+
             }
 
             .why-choose-section h2 {
@@ -800,18 +812,85 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
             .why-choose-section .card-wrapper {
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
+                gap: 30px;
+                width: 90%;
+                margin-inline: auto;
             }
 
             .why-choose-section .choose-card {
                 /* outline: 2px solid red; */
                 display: grid;
-                grid-template-columns: auto 1fr;
-                grid-template-rows: repeat(4, 1fr);
+                grid-template-columns: 1fr;
+                /* grid-template-rows: repeat(4, 1fr); */
                 position: relative;
                 overflow: visible;
                 gap: 10px;
+                place-items: center;
+                border-radius: 10px;
+                padding: 20px;
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+                background: rgba(255, 255, 255, 0.02);
+                /* background: rgba(0, 0, 0, 0.02); */
+                backdrop-filter: blur(6px);
+                /* -webkit-backdrop-filter: blur(10px); */
             }
 
+            .why-choose-section .choose-card {
+                overflow: hidden;
+                position: relative;
+                /* background: red; */
+            }
+
+            .why-choose-section .choose-card::before {
+                position: absolute;
+                z-index: -1;
+                inset: -1em;
+                border: solid 10px;
+                border-image: conic-gradient(from var(--a), #ffffff, #c5c4c3, #ffffff, #c5c4c3) 1;
+                filter: blur(0.6em);
+
+                content: "";
+                /* animation: reverse-a 0.5s linear forwards infinite; */
+                /* animation: a 1s linear; */
+
+                z-index: 5;
+                transition: all 0.5s ease;
+            }
+
+            .why-choose-section .choose-card:hover::before {
+                border: solid 17px;
+                filter: blur(0.6em);
+                border-image: conic-gradient(from var(--a),
+                        #d39f51,
+                        #e5b566,
+                        #fff7a9,
+                        #e5b566,
+                        #d39f51) 1;
+
+                transition: all 0.5s ease;
+                /* animation: a 1s linear infinite alternate; */
+
+            }
+
+
+            @keyframes a {
+                to {
+                    --a: 180deg;
+                }
+            }
+
+            @keyframes reverse-a {
+                from {
+                    --a: 45deg;
+                    /* Start at the hovered state */
+                }
+
+                to {
+                    --a: 0deg;
+                    /* Return to original state */
+                }
+            }
 
             .image-wrapper {
                 --choose-card-img-size: 64px;
@@ -821,7 +900,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                 margin: 2px;
                 padding: 14px;
                 transition: transform 0.3s ease;
-                grid-row: 1 / 5;
+                /* grid-row: 1 / 5; */
                 align-self: center;
                 border-radius: 99px;
             }
@@ -834,10 +913,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                 position: relative;
             }
 
-            .image-wrapper:hover {
-                transform: scale(1.1);
-                box-shadow: 0 4px 15px 0 rgba(229, 181, 102, 0.5), 0 6px 20px 0 rgba(229, 181, 102, 0.2);
-            }
+            .image-wrapper img:hover {}
 
 
             .image-wrapper::before {
@@ -847,17 +923,19 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                 left: 0px;
                 width: var(--choose-card-img-size);
                 height: var(--choose-card-img-size);
-                border: 2px dotted;
-                border-color: #e5b566;
-                /* Golden color */
+                border: 1px solid #e5b566;
                 border-radius: 99px;
                 z-index: 1;
                 transition: transform 0.3s ease;
             }
 
+            /* e5b566 */
+
 
             .image-wrapper:hover::before {
-                animation: rotate-border-hover 1s linear infinite;
+
+                border: 1px solid red;
+
             }
 
             @keyframes rotate-border-hover {
@@ -872,17 +950,32 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
 
 
             .choose-card .title {
-                grid-column: 2/3;
-                grid-row: 1/2;
+                /* grid-column: 2/3; */
+                /* grid-row: 1/2; */
                 display: grid;
                 align-items: end;
             }
 
             .choose-card .description {
-                grid-column: 2/3;
-                grid-row: 2/5;
+                /* grid-column: 2/3; */
+                /* grid-row: 2/5; */
                 font-size: 14px;
 
+            }
+
+            .choose-card .title,
+            .choose-card .description {
+                background: linear-gradient(90deg,
+                        #d39f51,
+                        #e5b566,
+                        #fff7a9,
+                        #e5b566,
+                        #d39f51);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                text-fill-color: transparent;
+                text-align: center;
             }
         </style>
 

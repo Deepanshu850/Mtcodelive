@@ -270,7 +270,7 @@ include "./data/blogdata.php";
                 }
 
                 .dropdown-image {
-                    width: 150px;
+                    width: 120px;
                     height: 100px;
                     /* object-fit: cover; */
                     border-radius: 8px;

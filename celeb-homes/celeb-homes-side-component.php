@@ -15,6 +15,12 @@
         </div>
     </div>
 
+
+    <?php
+    shuffle($celebHomesData);
+    $celebHomesData = array_slice($celebHomesData, 0, 7);
+    ?>
+
     <div class="recent-post-wraper">
         <div class="swiper recent-post-sidebar-slider">
             <div class="swiper-wrapper" id="property-posts-container">

@@ -5,80 +5,52 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0">
 
-    <title>
-        Sector 20 Gurgaon: Map, Property Rates, Projects, Photos, Reviews, Info
+    <title>Sector 91 Gurgaon: Map, Property Rates, Projects, Photos, Reviews, Info</title>
 
-    </title>
+    <meta name="description" content="Discover top residential and commercial properties in Sector 91, Gurgaon, with MoneyTree Realty. Find luxury homes and investment opportunities tailored for you." />
 
+    <meta name="keywords" content="sector 91 market Gurgaon, gurgaon sector 91, dlf garden city sector 91 gurgaon, sector 91 gurgaon map, sector 91 gurgaon pin code, maceo sector 91 gurgaon, anant raj maceo sector 91 gurgaon, dlf galleria sector 91 gurgaon, the fernhill sector 91 gurgaon, anant raj maceo sector 91 gurgaon review, ipsaa sector 91 gurgaon, anant raj sector 91 gurgaon, ansal api sector 91 gurgaon, dlf garden city gurgaon sector 91, dlf sector 91 gurgaon new town heights, crescent parc sector 91 gurgaon magic bricks, kunskapsskolan international school gurgaon sector 91, mahendra shantimaa sector 91 92 gurgaon, newspaper agency sector 91 gurgaon, sector 91 gurgaon to huda city centre, plot for sale in sector 91 gurgaon, huda market sector 91 gurgaon, pg in sector 91 gurgaon, sector 91 gurgaon nearest metro, hero honda chowk gurgaon sector 91, sector 91 sohna gurgaon, iffco chowk to sector 91 gurgaon, huda city centre to sector 91 gurgaon, pg near sector 91 gurgaon, sector 91 gurgaon nearest metro station, huda market sector 91 gurgaon, property dealers in sector 91 gurgaon, gym in sector 91 gurgaon, Rajiv Chowk to Sector 91 Gurgaon, Sohna Road to Sector 91 Gurgaon, sector 91 gurgaon distance, 2 bhk for rent in sector 91 gurgaon, property in sector 91 Gurgaon, 1 bhk flat for rent in Gurgaon sector 91, botanical garden to sector 91 gurgaon" />
 
-    <meta name="description" content="Explore top properties in Sector 20, Gurgaon with Moneytree Realty. Offering modern homes with great amenities and connectivity." />
-
-
-    <meta name="keywords" content="gurgaon sector 20, sector 20 gurgaon pin code, pg in sector 20 
-gurgaon, hotels in sector 20 gurgaon, udyog vihar phase 1 sector 20 
-gurgaon, software companies in sector 20 gurgaon, sector 20 
-gurgaon distance, sector 20 gurgaon nearest metro, udyog vihar 
-sector 20 gurgaon nearest metro station, pg near sector 20 gurgaon, 
-call centers in gurgaon sector 20, companies in sector 20 gurgaon, pg 
-in sector 20 gurgaon, delhi airport to gurgaon sector 20 distance, 
-sector 20 gurgaon nearest metro station, nearest metro station to 
-sector 20 gurgaon, hotels in sector 20 gurgaon, sector 20 pg gurgaon,
-flats in sector 20 gurgaon, 2 bhk for rent in sector 20 gurgaon, sector 
-20 Gurgaon projects, property in sector 20 Gurgaon, sector 20 
-Gurgaon distance, Gurgaon Sector 20 metro station, Sector 20 
-Gurgaon flats, plots in sector 20 Gurgaon, 1 bhk flat for rent in 
-Gurgaon sector 20, 3 bhk flat for rent in sector 20 Gurgaon, botanical 
-garden to sector 20 gurgaon, Sector 20 urgaon apartment, schools 
-near sector 20 gurgaon, gurgaon sector 20 flats for rent, apartments 
-in gurgaon sector 20" />
-
-
-    <meta name="Owner" content="Moneytreerealty.com" />
-    <meta name="Copyright" content="Moneytreereal.com" />
+    <meta name="owner" content="MoneyTreeRealty.com" />
+    <meta name="copyright" content="MoneyTreeRealty.com" />
     <meta name="classification" content="About Real Estate Consulting" />
     <meta name="distribution" content="India" />
     <meta name="rating" content="General" />
     <meta name="subject" content="Learn about MoneyTree Realty's mission, services, and how we can assist you in navigating the real estate market in India" />
     <meta name="audience" content="All" />
 
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Sector 91 Gurgaon: Map, Property Rates, Projects, Photos, Reviews, Info" />
+    <meta property="og:description" content="Discover top residential and commercial properties in Sector 91, Gurgaon, with MoneyTree Realty. Find luxury homes and investment opportunities tailored for you." />
+    <meta property="og:site_name" content="MoneyTree Realty" />
+    <meta property="og:url" content="https://moneytreerealty.com/gurgaon-real-estate/sector-91-gurgaon" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://moneytreerealty.com/gurgaon-real-estate/assets/image/sector-91-gurgaon-banner.webp" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Sector 91 Gurgaon" />
+    <meta property="og:locale" content="en_IN" />
+
+    <!-- Twitter-specific Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sector 91 Gurgaon: Map, Property Rates, Projects, Photos, Reviews, Info" />
+    <meta name="twitter:description" content="Discover top residential and commercial properties in Sector 91, Gurgaon, with MoneyTree Realty. Find luxury homes and investment opportunities tailored for you." />
+    <meta name="twitter:image" content="https://moneytreerealty.com/gurgaon-real-estate/assets/image/sector-91-gurgaon-banner.webp" />
+    <meta name="twitter:image:alt" content="Sector 91 Gurgaon" />
+
+    <!-- Pinterest-specific Tags -->
+    <meta name="pinterest-rich-pin" content="true" />
 
 
-    <!-- General Open Graph Tags for Facebook, LinkedIn, etc. -->
-    <meta property="og:title" content="Sector 20 Gurgaon: Map, Property Rates, Projects, Photos, Reviews, Info">
-    <meta property="og:site_name" content="Moneytree Realty">
-    <meta property="og:url" content="https://moneytreerealty.com/gurgaon-real-estate/sector-20-gurgaon">
-    <meta property="og:description" content="Explore top properties in Sector 20, Gurgaon with Moneytree Realty. Offering modern homes with great amenities and connectivity.">
-    <meta property="og:type" content="property">
-    <meta property="og:image" content="https://moneytreerealty.com/gurgaon-real-estate/assets/image/sector-20-gurgaon-banner.webp">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Sector 20 Gurgaon banner image"> <!-- Added alt text for accessibility -->
-    <meta property="og:locale" content="en_IN">
-
-    <!-- Twitter Specific Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Sector 20 Gurgaon: Map, Property Rates, Projects, Photos, Reviews, Info">
-    <meta name="twitter:description" content="Explore top properties in Sector 20, Gurgaon with Moneytree Realty. Offering modern homes with great amenities and connectivity.">
-    <meta name="twitter:image" content="https://moneytreerealty.com/gurgaon-real-estate/assets/image/sector-20-gurgaon-banner.webp">
-    <meta name="twitter:site" content="@MoneytreeRSPL">
-
-    <!-- Pinterest Specific Tags -->
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="Sector 20 Gurgaon: Map, Property Rates, Projects, Photos, Reviews, Info">
-    <meta property="og:description" content="Explore top properties in Sector 20, Gurgaon with Moneytree Realty. Offering modern homes with great amenities and connectivity.">
-    <meta property="og:image" content="https://moneytreerealty.com/gurgaon-real-estate/assets/image/sector-20-gurgaon-banner.webp">
-    <meta property="og:url" content="https://moneytreerealty.com/gurgaon-real-estate/sector-20-gurgaon">
-
-
-    <link rel="canonical" href="https://moneytreerealty.com/gurgaon-real-estate/sector-20-gurgaon" />
+    <link rel="canonical" href="https://moneytreerealty.com/gurgaon-real-estate/sector-91-gurgaon" />
 
     <script type="application/ld+json">
         {
             "@context": "https://schema.org/",
             "@type": "Product",
-            "name": "Sector 20 Gurgaon",
-            "image": "https://moneytreerealty.com/gurgaon-real-estate/assets/image/sector-20-gurgaon-banner.webp",
-            "description": "Sector 20 in Gurgaon is located near Udyog Vihar Phase 1, a well-known commercial hub. It offers a variety of residential properties that provide families with a tranquil and safe atmosphere. The region is known for its big apartments and beautiful natural surroundings, making it an excellent alternative for individuals looking for a calm living environment.",
+            "name": "Sector 91 Gurgaon",
+            "image": "https://moneytreerealty.com/gurgaon-real-estate/assets/image/sector-91-gurgaon-banner.webp",
+            "description": "Sector 91 Gurgaon is a thriving residential locality situated in New Gurgaon, featuring an array of multi-storied residential projects from leading real estate builders in India. Strategically located in close vicinity to the Dwarka Expressway, Sector 91 offers an affluent and exuberant neighborhood for its residents. The area boasts modern infrastructure, excellent connectivity, and a range of amenities that cater to the needs of families and professionals alike. With the PIN Code 122505, Sector 91 is an integral part of the Haryana District, making it a sought-after destination for both homebuyers and investors looking for quality living spaces in Gurgaon.",
             "brand": {
                 "@type": "Brand",
                 "name": "Moneytree Realty"
@@ -86,58 +58,45 @@ in gurgaon sector 20" />
             "aggregateRating": {
                 "@type": "AggregateRating",
                 "ratingValue": "4.4",
-                "ratingCount": "2589"
+                "ratingCount": "2543"
             }
         }
     </script>
+
+
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [{
                     "@type": "Question",
-                    "name": "What is the pincode of Gurgaon Sector 20?",
+                    "name": "What is the pin code of Sector 91 Gurgaon?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "The pincode of Gurgaon Sector 20 is 122001."
+                        "text": "The pincode of Sector 91 Gurgaon is 122505 and lies in the state of Haryana."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "What types of residential properties are available in Gurgaon Sector 20?",
+                    "name": "What are the average property prices in Sector 91 Gurgaon?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Gurgaon Sector 20 offers a variety of residential properties including high-rise apartments, independent houses, and commercial spaces."
+                        "text": "The average price of a property in Sector 91 costs around ₹8,800 to ₹10,100 per square feet. It has witnessed a year-on-year growth of about 8.49% in property price appreciations."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "What facilities are available in Gurgaon Sector 20?",
+                    "name": "What is the population of Sector 91 Gurgaon?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "There are many facilities available in this sector such as educational institutions, healthcare facilities, hotels, ATMs, banks, grocery stores, and shopping malls."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "Which metro station is nearest to Gurgaon Sector 20?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "The nearest metro station from Sector 20 is MG Road Metro Station on the yellow line."
+                        "text": "Sector 91 comes under Gurgaon District of Haryana with an average population of around 2,979."
                     }
                 }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the distance between Delhi airport and Gurgaon Sector 20?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Delhi airport is 14 km away from Gurgaon Sector 20, and it takes about 40 minutes to reach."
-                }
-            }
-        ]
+            ]
         }
     </script>
+
+
 
 
 
@@ -204,14 +163,7 @@ in gurgaon sector 20" />
 
 
 
-    <?php
-    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
-
-    ?>
-    <?php
-    include 'header-demo.php';
-    ?>
-
+    <?php include '../category/header.php';  ?>
 
 
 
@@ -221,18 +173,19 @@ in gurgaon sector 20" />
 
         <main>
             <div class="image-wrapper">
-                <img src="./assets/image/sector-20-gurgaon-banner.webp" alt="Sector 20 Gurgaon | Moneytree Realty">
+                <img src="./assets/image/sector-91-gurgaon-banner.webp" alt="Sector 91 Gurgaon | Moneytree Realty">
             </div>
             <h1>
+                Sector 91 Gurgaon | Moneytree Realty
 
-                Sector 20 Gurgaon | Moneytree Realty
             </h1>
 
-            <h2>Sector 20 Gurgaon- Quick Insights </h2>
+
+            <h2>Sector 91 Gurgaon - Quick Insights </h2>
 
             <p>Gurgaon is a city located to the southwest of New Delhi and is often referred to as the &lsquo;Millenium City of India&rsquo;. Gurgaon is the emerging commercial and financial hub of the country and features job opportunities in an array of industries such as IT/ITeS Sector, E-Commerce, Hospitality, Real Estate Sector etc. </p>
 
-            <h2 style="text-align: justify; margin: 0; margin-block: 0 1.5rem; font-family: var(--font-open-sans); font-size: 16px; font-weight: 400; line-height: 26px; text-wrap: pretty; color: #1b1e16;">Gurgaon sector 20 Pin code - (122001)</h2>
+            <h2 style="text-align: justify; margin: 0; margin-block: 0 1.5rem; font-family: var(--font-open-sans); font-size: 16px; font-weight: 400; line-height: 26px; text-wrap: pretty; color: #1b1e16;">Sector 91 Gurgaon Pin code - 122505 </h2>
 
             <table class="beautiful-table">
                 <tbody>
@@ -249,313 +202,204 @@ in gurgaon sector 20" />
                     </tr>
                     <tr>
                         <td>
-                            <p>Gurgaon, Haryana </p>
+                            <p>New Gurgaon</p>
                         </td>
                         <td>
-                            <p>₹4.8k/ sq. ft <i class="bi bi-graph-up-arrow misc-icon"></i></p>
+                            <p>₹10,100 per sq ft <i class="bi bi-graph-up-arrow misc-icon"></i></p>
                         </td>
                         <td>
-                            <p>Null</p>
+                            <p>Y-o-Y growth rate at 8.49% <i class="bi bi-graph-up-arrow misc-icon"></i></p>
                         </td>
                     </tr>
                 </tbody>
             </table>
 
-            <h2>Know Everything About Sector 20 Gurgaon </h2>
+            <h2>Know Everything About Sector 91 Gurgaon </h2>
 
-            <p>Check out the details below and get better insights into Sector 20 Gurgaon:</p>
+            <p>Check out the details below and get better insights into Sector 91 Gurgaon:</p>
 
-            <h3>Overview of the locality and neighbourhood </h3>
+            <h3>Overview of the locality and neighborhood </h3>
 
-            <p>Sector 20 in Gurgaon is located near Udyog Vihar phase 1 sector 20 Gurgaon, a well-known commercial hub. It offers a variety of residential properties that provide families with a tranquil and safe atmosphere. The region is known for its big apartments and beautiful natural surroundings, making it an excellent alternative for individuals looking for a calm living environment.</p>
+            <p>Sector 91 Gurgaon is the thriving residential locality situated in New gurgaon and features an array of multi-storied residential projects from leading real estate builders in India. It is located in close vicinity to the Dwarka Expressway and provides an affluent and exuberant neighbourhood to its residents. The pin code of Sector 91 Gurgaon is 122505 and constitutes a part of Haryana District.</p>
 
-            <p>Sector 20 is a popular destination for professionals, with the presence of <strong>Software companies in sector 20</strong> located nearby. This proximity to renowned corporate headquarters adds to the allure of <strong>flats for sale in Sector 20 Gurgaon</strong>, making it a perfect location for living and investment.</p>
+            <p>Nearby localities to Sector 91 Gurgaon include Sector 92, Sector 90, Sector 87, Sector 86, Sector 93, and Manesar.</p>
 
             <h3>Infrastructure Development </h3>
 
-            <p>Ongoing improvements, such as improving road networks and creating green areas, have enhanced the quality of life in this sector. The availability of important services, in Sector 20 Gurgaon and other educational institutions, enhances the convenience of residents. Furthermore, this sector not only improves the area&#39;s livability but also increases its real estate value, making Sector 20, Gurgaon a very sought investment destination.</p>
+            <p>Sector 91 Gurgaon is located in New Gurgaon with seamless connectivity to Dwarka Expressway, and NH - 48 along with various arterial roads such as Sector 91 Road, DLF Road, Sector 90 Road, and Sector 86 Road. The locality is well-connected to major parts of Gurgaon, and Delhi such as Cyber City, Indira Gandhi International Airport, Gurgaon Railway Station, and the auto-manufacturing hub of Manesar.</p>
+
+            <p>Residential societies in Sector 91 Gurgaon are DLF New Town Heights Phase 3, DLF Garden City Plots, Anant Raj Maceo, Ansal API Fernhill, and JMD Samanvay.</p>
 
             <h3>Social &amp; Infra Amenities </h3>
 
-            <p>Sector 20 Gurgaon provides numerous facilities, including <strong>hotels in sector 20 gurgaon, call centres </strong>,prestigious schools for quality education, medical facilities, and residents can avail banking services.</p>
+            <p>Sector 91 Gurgaon offers limited options in social and infra amenities and facilities. It features malls like Sapphire 92 Mall, and Sapphire Ninety Mall. Reputed schools and colleges in Sector 91 Gurgaon include RPS International School, St. Xavier&#39;s High School, and MatriKiran High School and healthcare facilities such as Medeor Hospital, CareOcity Multi Speciality Clinic, Promla Clinic, and Yadav Clinic.</p>
 
             <h3>Proximity to major Employment Hubs </h3>
 
-            <p>Sector 20 Gurgaon is a more appealing location for professionals as it is close to major employment hubs enhancing its attractiveness and this sector is home to a multitude of corporate offices, call centres and <strong>companies in Sector 20 Gurgaon </strong></p>
+            <p>Sector 91 Gurgaon is located in close proximity to numerous auto-manufacturing hubs in Manesar such as Honda Motorcycle and Scooter Plant, Maruti Suzuki Plant, etc. The locality is also connected with leading business centres of Gurgaon such as Cyber City, Udyog Vihar, and Sohna Road.</p>
 
-            <h2>Crucial Highlights of Gurgaon Sector 20 </h2>
+            <h2>Crucial Highlights of Sector 91 Gurgaon </h2>
 
-            <h3>Great things about Gurgaon Sector 20 </h3>
+            <p>Sector 91 Gurgaon is located in New Gurgaon and boasts seamless connectivity with major parts of the National Capital Region (NCR). Let&rsquo;s explore crucial highlights of the locality.</p>
 
-            <ul class="arrow-list">
-                <li>This sector is known for its affordable living destination. It offers diverse range of accommodation options </li>
-                <li>Sector 20 is strategically located near <strong>Udyog Vihar Phase 1, DLF Cyber Park. </strong>It has proximity to major employment hubs.</li>
-                <li>Top educational institutions and hospitals are located nearby to facilitate the locals.</li>
-                <li>For shopping and entertainment residents can visit <strong>Huda Sector 21 Market, Ambience Mall </strong>and a variety of restaurants located nearby. </li>
-                <li>Sector 20 Gurgaon is a safe place to live with a family friendly environment.</li>
-                <li>It has connectivity to Gurgaon as well as other parts of Delhi. </li>
-                <li>This sector provides a hassle-free commute to major commercial and residential areas.</li>
-            </ul>
-
-            <h3>Things that need attention in Sector 20 Gurgaon </h3>
+            <h3>Great things about Sector 91 Gurgaon </h3>
 
             <ul class="arrow-list">
-                <li>This sector has a lack of parking spaces.</li>
-                <li>Sector 20 often experiences heavy traffic mostly during the office hours.</li>
+                <li>Sector 91 Gurgaon is a thriving residential locality in New Gurgaon and features various multi-storied real estate projects from renowned real estate builders.</li>
+                <li>Sector 91 Gurgaon offers easy connectivity with auto-manufacturing plants in Manesar</li>
+                <li>The locality is connected with Dwarka Expressway, and NH - 48</li>
+                <li>The locality features a green-filled neighbourhood.</li>
             </ul>
 
-            <h2>Sector 20 Gurgaon connectivity with nearby landmarks </h2>
+            <h3>Things that need attention in Sector 91 Gurgaon </h3>
 
-            <h3>Nearby Areas to Sector 20 Gurgaon </h3>
+            <ul class="arrow-list">
+                <li>Pothole ridden roads often cause inconvenience during commuting</li>
+                <li>Some areas often get congested due to the public transportation system.</li>
+                <li>Required installation of street lights in some areas of Sector 91.</li>
+                <li>Sector 91 Gurgaon is prone to water logging due to poor drainage system of the rainwater.</li>
+            </ul>
+
+            <h2>Sector 91 Gurgaon connectivity with nearby landmarks </h2>
+
+            <h3>Nearby Areas to Sector 91 Gurgaon </h3>
 
             <table class="beautiful-table">
                 <tbody>
                     <tr>
                         <td>
-                            <p>Kapashera</p>
+                            <p>Sector 92 Gurgaon</p>
                         </td>
                         <td>
-                            <p>10 minutes </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Sector 22 Gurgaon</p>
-                        </td>
-                        <td>
-                            <p>9 minutes</p>
+                            <p>6 Minutes</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Sector 21 Gurgaon</p>
+                            <p>Sector 90 Gurgaon</p>
                         </td>
                         <td>
-                            <p>7 minutes </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Rajokri</p>
-                        </td>
-                        <td>
-                            <p>8 minutes </p>
+                            <p>6 Minutes</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>DLF Phase 2</p>
+                            <p>Sector 93 Gurgaon</p>
                         </td>
                         <td>
-                            <p>11 minutes </p>
+                            <p>6 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Sector 87 Gurgaon</p>
+                        </td>
+                        <td>
+                            <p>8 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Sector 86 Gurgaon</p>
+                        </td>
+                        <td>
+                            <p>7 Minutes</p>
                         </td>
                     </tr>
                 </tbody>
             </table>
 
 
-            <h3>Shopping Mall/Restaurants near to Sector 20 Gurgaon </h3>
+            <h3>Shopping Mall/Restaurants near to Sector 91 Gurgaon </h3>
 
             <table class="beautiful-table">
                 <tbody>
                     <tr>
                         <td>
-                            <p>Salad Days</p>
+                            <p>Pizza Hut</p>
                         </td>
                         <td>
-                            <p>1 minute </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Mama Da Dhaba</p>
-                        </td>
-                        <td>
-                            <p>3 minutes </p>
+                            <p>8 Minutes</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>The Brew Bar</p>
+                            <p>KFC</p>
                         </td>
                         <td>
-                            <p>3 minutes </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Huda Commercial Complex </p>
-                        </td>
-                        <td>
-                            <p>14 minutes </p>
+                            <p>12 Minutes</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Ambience Mall</p>
+                            <p>Haldiram&rsquo;s</p>
                         </td>
                         <td>
-                            <p>9 minutes </p>
+                            <p>9 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Rao Dhaba</p>
+                        </td>
+                        <td>
+                            <p>6 Minutes</p>
                         </td>
                     </tr>
                 </tbody>
             </table>
 
 
-            <h3>Transportation Hubs near to Sector 20 Gurgaon </h3>
+            <h3>Hospitals near to Sector 91 Gurgaon </h3>
 
             <table class="beautiful-table">
                 <tbody>
                     <tr>
                         <td>
-                            <p>Belvedere Towers Metro Station</p>
+                            <p>Medeor Hospital</p>
                         </td>
                         <td>
-                            <p>12 minutes </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Sikanderpur Metro Station</p>
-                        </td>
-                        <td>
-                            <p>14 minutes </p>
+                            <p>40 Minutes</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>MG Road Metro Station </p>
+                            <p>CareOcity Multi Speciality Clinic</p>
                         </td>
                         <td>
-                            <p>15 minutes </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Iffco Chowk Metro Station </p>
-                        </td>
-                        <td>
-                            <p>18 minutes </p>
+                            <p>16 Minutes</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Guru Dronacharya metro station </p>
+                            <p>Promla Clinic</p>
                         </td>
                         <td>
-                            <p>15 minutes </p>
+                            <p>10 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Yadav Clinic</p>
+                        </td>
+                        <td>
+                            <p>5 Minutes</p>
                         </td>
                     </tr>
                 </tbody>
             </table>
 
 
-            <h3>Educational Institutes near to Sector 20 Gurgaon </h3>
+            <h3>Commercial Hubs near to Sector 91 Gurgaon </h3>
 
             <table class="beautiful-table">
                 <tbody>
                     <tr>
                         <td>
-                            <p>Masters&rsquo; Union School of Business </p>
+                            <p>Cyber City</p>
                         </td>
                         <td>
-                            <p>5 minutes </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>New Vision Senior Secondary School </p>
-                        </td>
-                        <td>
-                            <p>5 minutes </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>K.G. Sr. Sec School</p>
-                        </td>
-                        <td>
-                            <p>6 minutes </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Mothers&rsquo; Mount</p>
-                        </td>
-                        <td>
-                            <p>11 minutes </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Rao Ganga Ram Public School Delhi</p>
-                        </td>
-                        <td>
-                            <p>12 minutes </p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-
-            <h3>Hospitals near to Sector 20 Gurgaon </h3>
-
-            <table class="beautiful-table">
-                <tbody>
-                    <tr>
-                        <td>
-                            <p>Narayana Hospital Gurgaon </p>
-                        </td>
-                        <td>
-                            <p>13 minutes </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>RBS Hospital </p>
-                        </td>
-                        <td>
-                            <p>15 minutes </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>St. Stephen&rsquo;s Hospital </p>
-                        </td>
-                        <td>
-                            <p>17 minutes </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Medicity Hospital </p>
-                        </td>
-                        <td>
-                            <p>16 minutes </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Neelkanth Hospitals </p>
-                        </td>
-                        <td>
-                            <p>16 minutes </p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-
-            <h3>Commercial Hubs near to Sector 20 Gurgaon </h3>
-
-            <table class="beautiful-table">
-                <tbody>
-                    <tr>
-                        <td>
-                            <p>DLF Cyber Park</p>
-                        </td>
-                        <td>
-                            <p>5 minutes </p>
+                            <p>45 Minutes</p>
                         </td>
                     </tr>
                     <tr>
@@ -563,92 +407,93 @@ in gurgaon sector 20" />
                             <p>Udyog Vihar</p>
                         </td>
                         <td>
-                            <p>6 minutes </p>
+                            <p>30 Minutes</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>DLF Cyber City</p>
+                            <p>Sohna Road</p>
                         </td>
                         <td>
-                            <p>14 minutes </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Manesar Industrial Area</p>
-                        </td>
-                        <td>
-                            <p>51 minutes </p>
+                            <p>40 Minutes</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>MG Road </p>
+                            <p>Honda Motorcycle and Scooter Plant </p>
                         </td>
                         <td>
-                            <p>20 minutes </p>
+                            <p>14 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Maruti Suzuki Plant</p>
+                        </td>
+                        <td>
+                            <p>14 Minutes</p>
                         </td>
                     </tr>
                 </tbody>
             </table>
 
-            <h3>Residential Societies in Sector 20 Gurgaon </h3>
+            <h3>Residential Societies in Sector 91 Gurgaon </h3>
 
             <table class="beautiful-table">
                 <tbody>
                     <tr>
                         <td>
-                            <p>Palam Vihar</p>
+                            <p>DLF New Town Heights Phase 3</p>
                         </td>
                         <td>
-                            <p>17 minutes </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Sector 21</p>
-                        </td>
-                        <td>
-                            <p>7 minutes </p>
+                            <p>6 Minutes</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Sector 22</p>
+                            <p>DLF Garden City Plots</p>
                         </td>
                         <td>
-                            <p>8 minutes </p>
+                            <p>12 Minutes</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Sector 23</p>
+                            <p>Anant Raj Maceo</p>
                         </td>
                         <td>
-                            <p>14 minutes </p>
+                            <p>11 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Ansal API Fernhill</p>
+                        </td>
+                        <td>
+                            <p>3 Minutes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>JMD Samanvay</p>
+                        </td>
+                        <td>
+                            <p>30 Minutes</p>
                         </td>
                     </tr>
                 </tbody>
             </table>
 
-            <h2>Investment Insights in Sector 20 Gurgaon </h2>
-
-            <p>Sector 20 in Gurgaon is a potential investment opportunity in India&#39;s growing <strong>real estate industry</strong>. This area is notable for its strategic position and strong infrastructure, making it an appealing option for both <strong>residential properties </strong>and<strong> commercial properties</strong>. For those looking for residential properties, Sector 20 Gurgaon offers a variety of alternatives such as independent houses, builder floors, and apartments, all of which benefit from the sector&#39;s well-planned layout and connections. </p>
-
-            <p>Investing in <strong>Sector 20 Gurgaon</strong> is beneficial because of its continual development like <strong>Dwarka Expressway </strong>and growth possibilities. Whether through real estate consulting, or collaborating with a channel partner in real estate, Sector 20 offers a balanced and profitable opportunity for diversified <strong>real estate investments in India</strong>.</p>
-
-            <h2>Upcoming RERA Approved Projects near Sector 20 Gurgaon </h2>
+            <h2>Upcoming RERA Approved Projects near Sector 91 Gurgaon </h2>
 
             <p><a href="../property-in-gurgaon.php"><strong>Gurgaon Real estate</strong></a> is emerging with an array of state-of-the-art <a href="../category/commercial-property.php"><strong>commercial properties</strong></a> and <a href="../category/residential-property.php"><strong>residential properties</strong></a> from <a href="../blog/top-10-real-estate-company-in-noida.php"><strong>leading real estate developers in India</strong></a> featuring promising capital appreciation and ROI along with a wide range of amenities and facilities.</p>
-
             <p>Here, we list out the the top commercial and residential properties in Gurgaon:</p>
 
-            <h2>Commercial Property near Sector 20 Gurgaon </h2>
+            <h2>Commercial Property near Sector 91 Gurgaon </h2>
 
-            <h3>Hot-selling commercial property in Gurgaon include:</h3>
+            <h3>Elan Town Centre | Commercial Property in Sector 67 Gurgaon </h3>
 
-            <h3>Elan Town Centre | Commercial Property in Sector 67 Gurgaon</h3>
+            <p><a href="../propertydetail/elan-town-centre-sector-67-gurugram.php"><strong>Elan Town Centre</strong></a> is a colonial style retail centre that is developed by the Elan Group. It features a lavish food court, double height shops and a PVR multiplex. With its unique design and state-of-the-art amenities Elan Town Centre offers some lucrative business opportunities.</p>
 
             <table class="beautiful-table">
                 <tbody>
@@ -703,8 +548,9 @@ in gurgaon sector 20" />
                 </tbody>
             </table>
 
+            <h3>Elan Epic | Commercial Property in Sector 70 Gurgaon </h3>
 
-            <h3>Elan Epic | Commercial Property in Sector 70 Gurgaon</h3>
+            <p>Equipped with world class amenities such as food courts, gaming zones and multiplexes, <a href="../propertydetail/elan-epic-sector-70-gurugram.php"><strong>Elan Epic</strong></a> Sector 70 offers a luxurious commercial property option to the investors. It also offers well designed office spaces, studio apartments and showrooms near strategic locations such as the Dwarka Expressway and NH-8.</p>
 
             <table class="beautiful-table">
                 <tbody>
@@ -759,8 +605,9 @@ in gurgaon sector 20" />
                 </tbody>
             </table>
 
+            <h3>Elan Imperial | Commercial Property in Sector 82 Gurgaon </h3>
 
-            <h3>Elan Imperial | Commercial Property in Sector 82 Gurgaon</h3>
+            <p><a href="../propertydetail/elan-imperial-sector-82.php"><strong>Elan Imperial</strong></a> is a renowned commercial project that offers world class amenities and a robust infrastructure. It features a floating sauna, a rooftop pool and a wellness centre. Having crucial linkages with the major business hotspots of the city, Elan Imperial offers some lucrative investment options.</p>
 
             <table class="beautiful-table">
                 <tbody>
@@ -815,11 +662,13 @@ in gurgaon sector 20" />
                 </tbody>
             </table>
 
-            <h2>Residential Property near Sector 20 Gurgaon </h2>
+            <h2>Residential Property near Sector 91 Gurgaon </h2>
 
-            <h3>Hot selling residential properties in Gurgaon include:</h3>
+            <h3>Hot selling residential properties in Gurgaon include: </h3>
 
-            <h3>Godrej Aristocrat | Residential Property in Sector 49 Gurgaon</h3>
+            <h3>Godrej Aristocrat | Residential Property in Sector 49 Gurgaon </h3>
+
+            <p><a href="../propertydetail/godrej-aristocrat-sector-49.php"><strong>Godrej Aristocrat</strong></a> is a luxurious residential project that is carefully crafted to offer the perfect blend of sophisticated amenities with modern living. The property provides seamless connectivity to various commercial hubs of the city through the Golf Course Extension Road and the Sohna Road. With its state-of-the-art architecture and lavish residential units, Godrej Aristocrat offers profitable business prospects to the investors.</p>
 
             <table class="beautiful-table">
                 <tbody>
@@ -876,8 +725,9 @@ in gurgaon sector 20" />
                 </tbody>
             </table>
 
+            <h3>M3M Antalya Hills | Residential Property in Sector 79 Gurgaon </h3>
 
-            <h3>M3M Antalya Hills | Residential Property in Sector 79 Gurgaon</h3>
+            <p><a href="../propertydetail/m3m-antalya-hills-sector-79-gurugram.php"><strong>M3M Antalya Hills</strong></a> is a luxurious residential project by the M3M Group that features lavish 2.5 and 3.5 BHK apartments at the prime location of Sector 79 Gurgaon. It boasts world class amenities like a jogging track, tennis court and spa. M3M Antalya Hills also offers seamless connectivity to all the major commercial centres of the city via the NH-8 and Dwarka Expressway.</p>
 
             <table class="beautiful-table">
                 <tbody>
@@ -932,8 +782,9 @@ in gurgaon sector 20" />
                 </tbody>
             </table>
 
+            <h3>M3M Altitude | Residential Property in Sector 65 Gurgaon </h3>
 
-            <h3>M3M Altitude | Residential Property in Sector 65 Gurgaon</h3>
+            <p><a href="../propertydetail/m3m-altitude-sector-65.php"><strong>M3M Altitude</strong></a> is a premium residential project located at the heart of Gurgaon near NH-8 and the IGI Airport. The property provides state-of-the-art amenities such as a modular kitchen, VRV/VRF AC and resort style pools that facilitate a lavish lifestyle. Thus, with its robust connectivity and world class amenities, M3M Altitude has emerged as a key player in the real estate industry.</p>
 
             <table class="beautiful-table">
                 <tbody>
@@ -988,8 +839,9 @@ in gurgaon sector 20" />
                 </tbody>
             </table>
 
+            <h3>M3M Mansion | Residential Property in Sector 113 Gurgaon </h3>
 
-            <h3>M3M Mansion | Residential Property in Sector 113 Gurgaon</h3>
+            <p><a href="../propertydetail/m3m-mansion-sector-113.php"><strong>M3M Mansion</strong></a> is an upcoming sustainable residential project of the M3M Group that aims to maintain air quality by ensuring proximity to high oxygen-releasing trees. It also provides a range of state-of-the-art amenities such as a clubhouse, gym and spa. M3M Mansion is surrounded by various commercial properties that consequently make it one of the most sought after residential centres of Gurgaon.</p>
 
             <table class="beautiful-table">
                 <tbody>
@@ -1046,7 +898,9 @@ in gurgaon sector 20" />
                 </tbody>
             </table>
 
-            <h3>Paras Quartier | Residential Property in Sector 2 Gurgaon</h3>
+            <h3>Paras Quartier | Residential Property in Sector 2 Gurgaon </h3>
+
+            <p><a href="../propertydetail/paras-quartier.php"><strong>Paras Quartier</strong></a> is a premier residential property near the Aravali Valley that offers an impressively low Air Quality Index and a remarkable panoramic view. It provides modern facilities like rooftop infinity lap pool and Sports Centres. Furthermore, the strong connectivity of the Paras Quartier to the important trade centres of the city marks it as a very profitable investment site.</p>
 
             <table class="beautiful-table">
                 <tbody>
@@ -1101,10 +955,10 @@ in gurgaon sector 20" />
                 </tbody>
             </table>
 
+            <h3>Krisumi Waterfall Residences | Residential Property in Sector 36A Gurgaon </h3>
 
-            <h3>Krisumi Waterfall Residences | Residential Property in Sector 36A Gurgaon</h3>
+            <p>Situated in the prime location of Sector 36A Gurgaon, <a href="../propertydetail/krisumi-waterfall-residences-sector-36a-gurgaon.php"><strong>Krisumi Waterfall Residences</strong></a> offer luxurious 2 BHK and <a href="../3-bhk-flats-in-gurgaon.php"><strong>3 BHK Apartments</strong></a>. In addition to its world-class architecture and style, the hotel-like services of this project make it one of the most eminent residential centres in Gurgaon. The proximity of Krisumi Waterfall Residences to transport hubs like NH-48, NH-8 and IGI Airport establishes it as one of the most lucrative investment options in real estate.</p>
 
-            <p><a href="../propertydetail/krisumi-waterfall-residences-sector-36a-gurgaon.php"><strong>Krisumi Waterfall Residences</strong></a> located in Sector 36A is a high-end residential society that aims at modern living with premium projects. Residents can make use of facilities like beautiful gardens, sports and outdoor activities. </p>
 
             <table class="beautiful-table">
                 <tbody>
@@ -1159,9 +1013,9 @@ in gurgaon sector 20" />
                 </tbody>
             </table>
 
-            <h2>Map of Sector 20 Gurgaon</h2>
+            <h2>Map of Sector 91 Gurgaon</h2>
             <div style="text-decoration:none; overflow:hidden;max-width:100%;height:500px;">
-                <div id="canvas-for-googlemap" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=sector+20+gurgaon&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class=" embed-ded-maphtml" href="https://www.bootstrapskins.com/themes" id="make-map-infor-mation">premium bootstrap themes</a>
+                <div id="canvas-for-googlemap" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=sector+91+gurgaon&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class=" embed-ded-maphtml" href="https://www.bootstrapskins.com/themes" id="make-map-infor-mation">premium bootstrap themes</a>
 
             </div>
 
@@ -1213,29 +1067,20 @@ in gurgaon sector 20" />
             <h2>Frequently asked questions</h2>
 
             <section class="questions">
-                <h2>What is the pincode of Gurgaon Sector 20?</h2>
-                <p>The pincode of Gurgaon Sector 20 is 122001.</p>
+                <h2>What is the pin code of Sector 91 Gurgaon?</h2>
+                <p>The pincode of Sector 91 Gurgaon is 122505 and lies in the state of Haryana.</p>
             </section>
 
             <section class="questions">
-                <h2>What types of residential properties are available in Gurgaon Sector 20?</h2>
-                <p>Gurgaon Sector 20 offers a variety of residential properties including high-rise apartments, independent houses, and commercial spaces.</p>
+                <h2>What are the average property prices in Sector 91 Gurgaon?</h2>
+                <p>The average price of a property in Sector 91 costs around ₹8,800 to ₹10,100 per square feet. It has witnessed a year-on-year growth of about 8.49% in property price appreciations.</p>
             </section>
 
             <section class="questions">
-                <h2>What facilities are available in Gurgaon Sector 20?</h2>
-                <p>There are many facilities available in this sector such as educational institutions, healthcare facilities, hotels, ATMs, banks, grocery stores, and shopping malls.</p>
+                <h2>What is the population of Sector 91 Gurgaon?</h2>
+                <p>Sector 91 comes under Gurgaon District of Haryana with an average population of around 2,979.</p>
             </section>
 
-            <section class="questions">
-                <h2>Which metro station is nearest to Gurgaon Sector 20?</h2>
-                <p>The nearest metro station from Sector 20 is MG Road Metro Station on the yellow line.</p>
-            </section>
-
-            <section class="questions">
-                <h2>What is the distance between Delhi airport and Gurgaon Sector 20?</h2>
-                <p>Delhi airport is 14 km away from Gurgaon Sector 20, and it takes about 40 minutes to reach.</p>
-            </section>
 
 
         </main>
@@ -1255,17 +1100,18 @@ in gurgaon sector 20" />
                 <p class="wp-block-tag-cloud">
 
 
-                    <a href="./sector-20-gurgaon">Gurgaon Sector 20</a>
-                    <a href="./sector-20-gurgaon">Sector 20 Gurgaon Pin Code</a>
-                    <a href="./sector-20-gurgaon">Pg In Sector 20 Gurgaon</a>
-                    <a href="./sector-20-gurgaon">Hotels In Sector 20 Gurgaon</a>
-                    <a href="./sector-20-gurgaon">Udyog Vihar Phase 1 Sector 20 Gurgaon</a>
-                    <a href="../blog/real-estate-investment-a-comprehensive-guide-on-real-estate.php">Real Estate Investment</a>
-                    <a href="../contact.php">Property Management</a>
-                    <a href="../category/residential-property.php">Residential Real Estate</a>
-                    <a href="../best-property-dealers-in-noida.php">Real Estate Deals</a>
-                    <a href="../real-estate-advisor-and-property-consulting-firm-in-india.php">Property Advice</a>
-                    <a href="../real-estate-consultant.php">Real Estate Consulting</a>
+                    <a href="./sector-91-gurgaon">Sector 91 Market Gurgaon</a>
+                    <a href="./sector-91-gurgaon">Gurgaon Sector 91</a>
+                    <a href="./sector-91-gurgaon">DLF Garden City Sector 91 Gurgaon</a>
+                    <a href="./sector-91-gurgaon">Sector 91 Gurgaon Map</a>
+                    <a href="./sector-91-gurgaon">Sector 91 Gurgaon Pin Code</a>
+                    <a href="./sector-91-gurgaon">Maceo Sector 91 Gurgaon</a>
+                    <a href="../blog/real-estate-investment-a-comprehensive-guide-on-real-estate">Real Estate Investment</a>
+                    <a href="../contact">Property Management</a>
+                    <a href="../category/residential-property">Residential Real Estate</a>
+                    <a href="../property-dealers-in-gurgaon">Real Estate Deals</a>
+                    <a href="../real-estate-advisor-and-property-consulting-firm-in-india">Property Advice</a>
+                    <a href="../real-estate-consultant">Real Estate Consulting</a>
 
 
                 </p>
@@ -1280,17 +1126,18 @@ in gurgaon sector 20" />
         <div class="tag-wrapper">
             <h6>Similar Tags:</h6>
             <ul class="tags">
-                <li><a href="./sector-20-gurgaon">Gurgaon Sector 20</a></li>
-                <li><a href="./sector-20-gurgaon">Sector 20 Gurgaon Pin Code</a></li>
-                <li><a href="./sector-20-gurgaon">Pg In Sector 20 Gurgaon</a></li>
-                <li><a href="./sector-20-gurgaon">Hotels In Sector 20 Gurgaon</a></li>
-                <li><a href="./sector-20-gurgaon">Udyog Vihar Phase 1 Sector 20 Gurgaon</a></li>
-                <li><a href="../blog/real-estate-investment-a-comprehensive-guide-on-real-estate.php">Real Estate Investment</a></li>
-                <li><a href="../contact.php">Property Management</a></li>
-                <li><a href="../category/residential-property.php">Residential Real Estate</a></li>
-                <li><a href="../best-property-dealers-in-noida.php">Real Estate Deals</a></li>
-                <li><a href="../real-estate-advisor-and-property-consulting-firm-in-india.php">Property Advice</a></li>
-                <li><a href="../real-estate-consultant.php">Real Estate Consulting</a></li>
+                <li><a href="./sector-91-gurgaon">Sector 91 Market Gurgaon</a></li>
+                <li><a href="./sector-91-gurgaon">Gurgaon Sector 91</a></li>
+                <li><a href="./sector-91-gurgaon">DLF Garden City Sector 91 Gurgaon</a></li>
+                <li><a href="./sector-91-gurgaon">Sector 91 Gurgaon Map</a></li>
+                <li><a href="./sector-91-gurgaon">Sector 91 Gurgaon Pin Code</a></li>
+                <li><a href="./sector-91-gurgaon">Maceo Sector 91 Gurgaon</a></li>
+                <li><a href="../blog/real-estate-investment-a-comprehensive-guide-on-real-estate">Real Estate Investment</a></li>
+                <li><a href="../contact">Property Management</a></li>
+                <li><a href="../category/residential-property">Residential Real Estate</a></li>
+                <li><a href="../property-dealers-in-gurgaon">Real Estate Deals</a></li>
+                <li><a href="../real-estate-advisor-and-property-consulting-firm-in-india">Property Advice</a></li>
+                <li><a href="../real-estate-consultant">Real Estate Consulting</a></li>
 
 
 
@@ -1300,7 +1147,7 @@ in gurgaon sector 20" />
 
         <?php
         include '../category/more-tags.php';
-        include 'footer-demo.php';
+        include '../category/footer.php';
         ?>
 
 
