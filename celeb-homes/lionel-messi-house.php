@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-        Lionel Messi: Movies, Biography, News, Age, Football Player & Photos
+        Lionel Messi: Biography, News, Age, Football Player & Photos
 
     </title>
 
@@ -27,7 +27,7 @@
 
 
 
-    <meta property="og:title" content="Lionel Messi: Movies, Biography, News, Age, Football Player & Photos">
+    <meta property="og:title" content="Lionel Messi: Biography, News, Age, Football Player & Photos">
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/celeb-homes/lionel-messi-house">
     <meta property="og:description" content="Discover Lionel Messi's biography, career highlights, latest news, age, football achievements, and exclusive photos of the legendary player.">
