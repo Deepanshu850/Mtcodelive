@@ -72,7 +72,7 @@ function internalLink($relativePath)
 
 
 
-<header class="custom-header" id="mainHeader">
+<header class="custom-header scrolled" id="mainHeader">
     <div class="custom-logo">
         <a href="<?php echo internalLink('/index'); ?>">
             <img src="<?php echo internalLink('/assets/img/logo.png'); ?>" alt="Best Real Estate Property Consultant in Delhi/NCR">
@@ -140,39 +140,35 @@ function internalLink($relativePath)
         </ul>
     </nav>
 
+
     <script>
-        // JavaScript for smooth dropdown transition
         document.addEventListener('DOMContentLoaded', () => {
-            const blogLink = document.querySelector('a[href="./blog"]');
+            const blogLink = document.querySelector('a[href="' + '<?php echo internalLink('/blog'); ?>' + '"]');
             const blogDropdown = document.querySelector('.blog-dropdown');
 
             if (blogLink && blogDropdown) {
                 let hideTimeout;
 
                 // Function to show the dropdown
-                function showDropdown() {
-                    clearTimeout(hideTimeout);
-                    blogDropdown.style.display = 'block';
-                    // Use requestAnimationFrame to ensure the class is added after display:block
+                const showDropdown = () => {
+                    clearTimeout(hideTimeout); // Clear any pending hide timeout
+                    blogDropdown.style.display = 'block'; // Make the dropdown visible
                     requestAnimationFrame(() => {
-                        blogDropdown.classList.add('active');
+                        blogDropdown.classList.add('active'); // Add the active class for smooth transition
                     });
-                }
+                };
 
                 // Function to hide the dropdown
-                function hideDropdown() {
-                    blogDropdown.classList.remove('active');
-                    // Wait for the CSS transition to finish before setting display:none
+                const hideDropdown = () => {
+                    blogDropdown.classList.remove('active'); // Remove the active class
                     hideTimeout = setTimeout(() => {
-                        blogDropdown.style.display = 'none';
+                        blogDropdown.style.display = 'none'; // Hide the dropdown after the transition
                     }, 300); // Matches the CSS transition duration
-                }
+                };
 
-                // Show dropdown when mouse enters the link or dropdown
+                // Add event listeners for mouse enter and leave
                 blogLink.addEventListener('mouseenter', showDropdown);
                 blogDropdown.addEventListener('mouseenter', showDropdown);
-
-                // Hide dropdown when mouse leaves the link or dropdown
                 blogLink.addEventListener('mouseleave', hideDropdown);
                 blogDropdown.addEventListener('mouseleave', hideDropdown);
             }
@@ -531,26 +527,6 @@ function internalLink($relativePath)
 
 
 <script>
-    document.addEventListener("DOMContentLoaded", () => {
-        const header = document.querySelector(".custom-header");
-        let lastScrollPosition = 0;
-
-        window.addEventListener("scroll", () => {
-            const currentScrollPosition = window.scrollY;
-
-            if (currentScrollPosition > lastScrollPosition && currentScrollPosition > 50) {
-                // Scrolling Down
-                header.classList.add("scrolled");
-            } else if (currentScrollPosition < lastScrollPosition && currentScrollPosition < 100) {
-                // Scrolling Up
-                header.classList.remove("scrolled");
-            }
-
-            lastScrollPosition = currentScrollPosition;
-        });
-    });
-
-
     document.getElementById('mobileHamburgerIcon').addEventListener('click', function() {
         this.classList.toggle('active');
     });
