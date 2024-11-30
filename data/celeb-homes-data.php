@@ -129,4 +129,22 @@ $celebHomesData = [
             'image3.jpg'
         ]
     ],
+    [
+        'name' => 'Chiranjeevi House',
+        'link' => 'chiranjeevi-house',
+        'images' => [
+            'chiranjeevi-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
+    [
+        'name' => 'Lionel Messi House',
+        'link' => 'lionel-messi-house',
+        'images' => [
+            'lionel-messi-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
 ];
