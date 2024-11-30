@@ -89,7 +89,7 @@ $teamMembers = [
     ],
     
     [
-        'name' => 'Sumit Nagpal',
+        'name' => 'Devender Nagpal',
         'role' => 'Associate Director',
         'image' => 'assets/img/home1/nag1.jpg',
         // 'contactLink' => '#'
