@@ -1295,7 +1295,7 @@ in gurgaon sector 20" />
 
 
         <?php
-        include '../category/more-tags.php';
+        include 'more-tags.php';
         include 'footer-demo.php';
         ?>
 

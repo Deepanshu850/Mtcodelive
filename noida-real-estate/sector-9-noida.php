@@ -74,7 +74,7 @@ sector 9 bike market, bank of india sector 9 noida, furniture market sector 9 no
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-  
+
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-9-noida" />
@@ -192,7 +192,10 @@ sector 9 bike market, bank of india sector 9 noida, furniture market sector 9 no
 
 
 
-    <?php include '../category/header.php';  ?>
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
+    ?>
 
 
 
@@ -1274,8 +1277,8 @@ sector 9 bike market, bank of india sector 9 noida, furniture market sector 9 no
 
 
         <?php
-        include '../category/more-tags.php';
-        include '../category/footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

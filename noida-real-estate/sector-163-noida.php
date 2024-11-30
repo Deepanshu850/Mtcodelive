@@ -203,7 +203,10 @@
 
 
 
-        <?php include '../category/header.php';  ?>
+        <?php
+        set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+        include 'header-demo.php';
+        ?>
 
 
 
@@ -1458,41 +1461,41 @@
                 <h6>Similar Tags:</h6>
                 <ul class="tags">
 
-                    
-                        <li>
-                            <a href="./sector-163-noida">Sector 163 Noida Uttar Pradesh</a>
-                        </li>
-                        <li>
-                            <a href="./sector-163-noida">Plots In Sector 163 Noida</a>
-                        </li>
-                        <li>
-                            <a href="./sector-163-noida">Mohiyapur Noida</a>
-                        </li>
-                        <li>
-                            <a href="./sector-163-noida">Sector 163 Noida Plots</a>
-                        </li>
-                        <li>
-                            <a href="./sector-163-noida">Sector 163 Noida Cosmos</a>
-                        </li>
-                        <li>
-                            <a href="../blog/real-estate-investment-a-comprehensive-guide-on-real-estate.php">Real Estate Investment</a>
-                        </li>
-                        <li>
-                            <a href="../contact.php">Property Management</a>
-                        </li>
-                        <li>
-                            <a href="../category/residential-property.php">Residential Real Estate</a>
-                        </li>
-                        <li>
-                            <a href="../best-property-dealers-in-noida.php">Real Estate Deals</a>
-                        </li>
-                        <li>
-                            <a href="../real-estate-advisor-and-property-consulting-firm-in-india.php">Property Advice</a>
-                        </li>
-                        <li>
-                            <a href="../real-estate-consultant.php">Real Estate Consulting</a>
-                        </li>
-                    
+
+                    <li>
+                        <a href="./sector-163-noida">Sector 163 Noida Uttar Pradesh</a>
+                    </li>
+                    <li>
+                        <a href="./sector-163-noida">Plots In Sector 163 Noida</a>
+                    </li>
+                    <li>
+                        <a href="./sector-163-noida">Mohiyapur Noida</a>
+                    </li>
+                    <li>
+                        <a href="./sector-163-noida">Sector 163 Noida Plots</a>
+                    </li>
+                    <li>
+                        <a href="./sector-163-noida">Sector 163 Noida Cosmos</a>
+                    </li>
+                    <li>
+                        <a href="../blog/real-estate-investment-a-comprehensive-guide-on-real-estate.php">Real Estate Investment</a>
+                    </li>
+                    <li>
+                        <a href="../contact.php">Property Management</a>
+                    </li>
+                    <li>
+                        <a href="../category/residential-property.php">Residential Real Estate</a>
+                    </li>
+                    <li>
+                        <a href="../best-property-dealers-in-noida.php">Real Estate Deals</a>
+                    </li>
+                    <li>
+                        <a href="../real-estate-advisor-and-property-consulting-firm-in-india.php">Property Advice</a>
+                    </li>
+                    <li>
+                        <a href="../real-estate-consultant.php">Real Estate Consulting</a>
+                    </li>
+
 
 
                 </ul>
@@ -1500,8 +1503,8 @@
 
 
             <?php
-            include '../category/more-tags.php';
-            include '../category/footer.php';
+            include 'more-tags.php';
+            include 'footer-demo.php';
             ?>
 
 

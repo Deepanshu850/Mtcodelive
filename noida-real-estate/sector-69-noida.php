@@ -73,7 +73,7 @@ Sector 69" />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
- 
+
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-69-noida" />
 
     <script type="application/ld+json">
@@ -200,7 +200,10 @@ Sector 69" />
 
 
 
-    <?php include '../category/header.php';  ?>
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
+    ?>
 
 
 
@@ -1127,8 +1130,8 @@ Sector 69" />
 
 
         <?php
-        include '../category/more-tags.php';
-        include '../category/footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

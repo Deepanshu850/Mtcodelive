@@ -626,8 +626,8 @@ Krisumi City Sector 36A Gurgaon, Krisumi Corporation" />
 
     <?php
     include './emi-calc-component.php';
-    include './more-tags.php';
-    include './footer.php';
+    include 'more-tags.php';
+    include 'footer-demo.php';
     ?>
 
 

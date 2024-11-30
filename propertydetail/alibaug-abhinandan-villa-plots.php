@@ -1244,8 +1244,8 @@ Group. Call Real Estate Consultant Company in Noida +91-9732300007">
 
     <?php
     include './emi-calc-component.php';
-    include './more-tags.php';
-    include './footer.php';
+    include 'more-tags.php';
+    include 'footer-demo.php';
     ?>
 
 

@@ -1802,8 +1802,8 @@ road, vastral distance, city restaurant vastral, vastral post office, vastral te
 
 
         <?php
-        include './more-tags.php';
-        include './footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

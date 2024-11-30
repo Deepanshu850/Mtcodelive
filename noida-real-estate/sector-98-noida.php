@@ -178,7 +178,10 @@ Noida, Investment In Noida" />
 
 
 
-    <?php include '../category/header.php';  ?>
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
+    ?>
 
 
 
@@ -1621,7 +1624,7 @@ Noida, Investment In Noida" />
         <div class="tag-wrapper">
             <h6>Similar Properties:</h6>
             <ul class="tags">
-                
+
                 <li>
                     <a href="./sector-98-noida">
                         sector 98
@@ -1729,14 +1732,14 @@ Noida, Investment In Noida" />
                         Real Estate Consulting
                     </a>
                 </li>
-                
+
             </ul>
         </div>
 
 
         <?php
-        include '../category/more-tags.php';
-        include '../category/footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

@@ -171,7 +171,10 @@ Residential Real Estate, Real Estate Deals, Property Advice, Real Estate Consult
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2ZBWP94" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <?php include '../category/header.php';  ?>
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
+    ?>
 
     <!-- main content -->
     <div class="side-flex">
@@ -1741,8 +1744,8 @@ Residential Real Estate, Real Estate Deals, Property Advice, Real Estate Consult
 
 
         <?php
-        include '../category/more-tags.php';
-        include '../category/footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

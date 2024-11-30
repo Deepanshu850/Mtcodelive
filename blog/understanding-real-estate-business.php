@@ -586,8 +586,8 @@ estate, real estate investment, dream home">
             </div>
         </div>
     </div> <?php
-            include './more-tags.php';
-            include './footer.php';
+            include 'more-tags.php';
+            include 'footer-demo.php';
             ?> <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="../assets/js/swiper-bundle.min.js"></script>
     <script src="../assets/js/slick.js"></script>

@@ -999,8 +999,8 @@ available at Real Estate Consultant in Noida - Moneytree Realty.">
 
 
         <?php
-        include './more-tags.php';
-        include './footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

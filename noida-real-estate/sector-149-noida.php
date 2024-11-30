@@ -191,7 +191,10 @@ in sector 149 noida, apartments in noida sector 149 " />
 
 
 
-    <?php include '../category/header.php';  ?>
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
+    ?>
 
 
 
@@ -1421,66 +1424,66 @@ in sector 149 noida, apartments in noida sector 149 " />
             <ul class="tags">
 
 
-           
-                    <li>
-                        <a href="./sector-149-noida">
-                            Noida Sector 149
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./sector-149-noida">
-                            Bkr Developers Noida Sector 149
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./sector-149-noida">
-                            Greater Noida Sector 149 Map
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./sector-149-noida">
-                            Amity University Campus Greater Noida Sector 149
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../blog/real-estate-investment-a-comprehensive-guide-on-real-estate.php">
-                            Real Estate Investment
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../contact.php">
-                            Property Management
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../category/residential-property.php">
-                            Residential Real Estate
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../best-property-dealers-in-noida.php">
-                            Real Estate Deals
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../real-estate-advisor-and-property-consulting-firm-in-india.php">
-                            Property Advice
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../real-estate-consultant.php">
-                            Real Estate Consulting
-                        </a>
-                    </li>
-           
+
+                <li>
+                    <a href="./sector-149-noida">
+                        Noida Sector 149
+                    </a>
+                </li>
+                <li>
+                    <a href="./sector-149-noida">
+                        Bkr Developers Noida Sector 149
+                    </a>
+                </li>
+                <li>
+                    <a href="./sector-149-noida">
+                        Greater Noida Sector 149 Map
+                    </a>
+                </li>
+                <li>
+                    <a href="./sector-149-noida">
+                        Amity University Campus Greater Noida Sector 149
+                    </a>
+                </li>
+                <li>
+                    <a href="../blog/real-estate-investment-a-comprehensive-guide-on-real-estate.php">
+                        Real Estate Investment
+                    </a>
+                </li>
+                <li>
+                    <a href="../contact.php">
+                        Property Management
+                    </a>
+                </li>
+                <li>
+                    <a href="../category/residential-property.php">
+                        Residential Real Estate
+                    </a>
+                </li>
+                <li>
+                    <a href="../best-property-dealers-in-noida.php">
+                        Real Estate Deals
+                    </a>
+                </li>
+                <li>
+                    <a href="../real-estate-advisor-and-property-consulting-firm-in-india.php">
+                        Property Advice
+                    </a>
+                </li>
+                <li>
+                    <a href="../real-estate-consultant.php">
+                        Real Estate Consulting
+                    </a>
+                </li>
+
 
             </ul>
         </div>
 
 
         <?php
-        include '../category/more-tags.php';
-        include '../category/footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

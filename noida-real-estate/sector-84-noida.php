@@ -192,7 +192,10 @@ botanical garden to sector 84 noida " />
 
 
 
-    <?php include '../category/header.php';  ?>
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
+    ?>
 
 
 
@@ -1042,7 +1045,7 @@ botanical garden to sector 84 noida " />
                     </tr>
                 </tbody>
             </table>
-            
+
 
             <h3>Paras Avenue | Commercial Property in Sector 129 Noida</h3>
 
@@ -1629,8 +1632,8 @@ botanical garden to sector 84 noida " />
 
 
         <?php
-        include '../category/more-tags.php';
-        include '../category/footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

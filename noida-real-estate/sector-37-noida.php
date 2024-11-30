@@ -47,29 +47,29 @@
 
 
 
-<!-- Open Graph Metadata for Facebook, LinkedIn, etc. -->
-<meta property="og:title" content="Sector 37 Noida, Arun Vihar: Map, Property Rates, Reviews">
-<meta property="og:site_name" content="Moneytree Realty">
-<meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-37-noida">
-<meta property="og:description" content="Flats For Sale Near Sector 37 Noida, Arun Vihar: Prime Location with Seamless Connectivity, Gated Communities, Top-Notch Amenities, Real Estate Growth.">
-<meta property="og:type" content="property">
-<meta property="og:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-37-noida-banner.webp">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Sector 37 Noida, Arun Vihar - Aerial view of the locality">
-<meta property="og:locale" content="en_IN">
+    <!-- Open Graph Metadata for Facebook, LinkedIn, etc. -->
+    <meta property="og:title" content="Sector 37 Noida, Arun Vihar: Map, Property Rates, Reviews">
+    <meta property="og:site_name" content="Moneytree Realty">
+    <meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-37-noida">
+    <meta property="og:description" content="Flats For Sale Near Sector 37 Noida, Arun Vihar: Prime Location with Seamless Connectivity, Gated Communities, Top-Notch Amenities, Real Estate Growth.">
+    <meta property="og:type" content="property">
+    <meta property="og:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-37-noida-banner.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Sector 37 Noida, Arun Vihar - Aerial view of the locality">
+    <meta property="og:locale" content="en_IN">
 
-<!-- Twitter Card Metadata -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Sector 37 Noida, Arun Vihar: Map, Property Rates, Reviews">
-<meta name="twitter:description" content="Flats For Sale Near Sector 37 Noida, Arun Vihar: Prime Location with Seamless Connectivity, Gated Communities, Top-Notch Amenities, Real Estate Growth.">
-<meta name="twitter:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-37-noida-banner.webp">
-<meta name="twitter:site" content="@MoneytreeRSPL">
+    <!-- Twitter Card Metadata -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sector 37 Noida, Arun Vihar: Map, Property Rates, Reviews">
+    <meta name="twitter:description" content="Flats For Sale Near Sector 37 Noida, Arun Vihar: Prime Location with Seamless Connectivity, Gated Communities, Top-Notch Amenities, Real Estate Growth.">
+    <meta name="twitter:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-37-noida-banner.webp">
+    <meta name="twitter:site" content="@MoneytreeRSPL">
 
-<!-- Additional Metadata for Enhanced SEO -->
-<meta name="robots" content="index, follow">
-<meta name="keywords" content="Sector 37 Noida, Arun Vihar, property rates Noida, real estate Noida, flats for sale Noida, gated communities Noida, amenities Noida, real estate growth Noida">
-<meta name="author" content="Moneytree Realty">
+    <!-- Additional Metadata for Enhanced SEO -->
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="Sector 37 Noida, Arun Vihar, property rates Noida, real estate Noida, flats for sale Noida, gated communities Noida, amenities Noida, real estate growth Noida">
+    <meta name="author" content="Moneytree Realty">
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-37-noida" />
 
 
@@ -191,7 +191,10 @@
 
 
 
-    <?php include '../category/header.php';  ?>
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
+    ?>
 
 
 
@@ -1928,8 +1931,8 @@
 
 
         <?php
-        include '../category/more-tags.php';
-        include '../category/footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

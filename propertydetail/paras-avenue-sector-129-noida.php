@@ -218,7 +218,8 @@ property in Noida" />
 
 
     <?php
-    include '../header-demo.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
 
@@ -679,7 +680,7 @@ property in Noida" />
     <?php
     include './emi-calc-component.php';
     include './more-tags.php';
-    include './footer.php';
+    include 'footer-demo.php';
     ?>
 
 

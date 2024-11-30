@@ -203,7 +203,10 @@ station, flats in sector 79 noida, sector 79 noida flats, villas in sector 79 no
 
 
 
-    <?php include '../category/header.php';  ?>
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
+    ?>
 
 
 
@@ -1503,8 +1506,8 @@ station, flats in sector 79 noida, sector 79 noida flats, villas in sector 79 no
 
 
         <?php
-        include '../category/more-tags.php';
-        include '../category/footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

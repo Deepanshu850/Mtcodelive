@@ -1948,8 +1948,8 @@ Cochin International Airport, Pune Airport, Dabolim Airport" />
 
 
     <?php
-    include './more-tags.php';
-    include './footer.php';
+    include 'more-tags.php';
+    include 'footer-demo.php';
     ?>
 
 

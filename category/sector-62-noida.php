@@ -2023,8 +2023,8 @@ sector 62, ginger hotel sector 62 noida, ion digital zone idz 1 sector 62 noida 
 
 
         <?php
-        include './more-tags.php';
-        include './footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

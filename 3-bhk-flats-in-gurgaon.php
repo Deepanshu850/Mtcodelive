@@ -941,8 +941,8 @@ gurgaon, flats in gurgaon 3 bhk, 3 bhk flat in gurgaon under 25 30 lakhs, 3 bhk 
 
 
         <?php
-        include './more-tags.php';
-        include './footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

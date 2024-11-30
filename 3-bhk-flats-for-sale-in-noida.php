@@ -1009,8 +1009,8 @@ kosmos sector 128 noida, ready to move flats for sale in noida " />
         </div>
 
         <?php
-        include './more-tags.php';
-        include './footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

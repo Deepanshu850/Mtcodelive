@@ -659,8 +659,8 @@ are in a centimeter, millimeter to centimeter, how many mm is cm" />
 
 
     <?php
-    include '../propertydetail/more-tags.php';
-    include './footer.php';
+    include 'more-tags.php';
+    include 'footer-demo.php';
     ?>
 
 

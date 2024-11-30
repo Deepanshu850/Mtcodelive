@@ -124,7 +124,8 @@ careers, Elan Group of Companies" />
 <body>
 
     <?php
-    include '../category/header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
     <main>
@@ -258,8 +259,8 @@ careers, Elan Group of Companies" />
 
 
     <?php
-    include '../propertydetail/more-tags.php';
-    include '../category/footer.php';
+    include 'more-tags.php';
+    include 'footer-demo.php';
     ?>
 
 

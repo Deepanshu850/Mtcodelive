@@ -805,8 +805,8 @@ property for sale in noida, commercial property for rent sale in noida " />
         </div>
 
         <?php
-        include './more-tags.php';
-        include './footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

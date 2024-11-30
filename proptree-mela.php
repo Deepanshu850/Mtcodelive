@@ -735,8 +735,8 @@ Estate Advice, Real Estate Opportunities,   Commercial Real Estate" />
 
 
         <?php
-        include './more-tags.php';
-        include './footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

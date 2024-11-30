@@ -556,8 +556,8 @@ to centimeters, 20 inches in cm, 40 inches in cm" />
 
 
     <?php
-    include '../propertydetail/more-tags.php';
-    include './footer.php';
+    include 'more-tags.php';
+    include 'footer-demo.php';
     ?>
 
 

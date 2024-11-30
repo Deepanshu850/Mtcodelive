@@ -191,7 +191,10 @@ noida sec 112, pg near sector 112 noida, nearest metro station to sector 112 noi
 
 
 
-    <?php include '../category/header.php';  ?>
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
+    ?>
 
 
 
@@ -1095,8 +1098,8 @@ noida sec 112, pg near sector 112 noida, nearest metro station to sector 112 noi
 
 
         <?php
-        include '../category/more-tags.php';
-        include '../category/footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

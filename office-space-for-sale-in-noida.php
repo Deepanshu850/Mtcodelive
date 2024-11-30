@@ -540,8 +540,8 @@ Space Noida Expressway,Office Space In Noida Price" />
 
 
         <?php
-        include './more-tags.php';
-        include './footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

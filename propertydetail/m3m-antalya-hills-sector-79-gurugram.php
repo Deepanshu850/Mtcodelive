@@ -604,8 +604,8 @@ projects Gurugram, m3m residential projects in Gurugram, m3m property in Gurugra
 
     <?php
     include './emi-calc-component.php';
-    include './more-tags.php';
-    include './footer.php';
+    include 'more-tags.php';
+    include 'footer-demo.php';
     ?>
 
 

@@ -1743,8 +1743,8 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                 </div>
             </div>
         </div><?php
-                include './more-tags.php';
-                include './footer.php';
+                include 'more-tags.php';
+                include 'footer-demo.php';
                 ?>
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
         <script src="assets/js/jquery-3.7.0.min.js" defer></script>

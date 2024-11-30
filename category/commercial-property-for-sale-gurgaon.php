@@ -384,8 +384,8 @@ office space in Gurgaon , retail shops in Gurgaon" />
 
 
     <?php
-    include './more-tags.php';
-    include './footer.php';
+    include 'more-tags.php';
+    include 'footer-demo.php';
     ?>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>

@@ -1691,8 +1691,8 @@ Properties, Real Estate Investment, Real estate consultants, Channel Partner in 
 
 
         <?php
-        include './more-tags.php';
-        include './footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

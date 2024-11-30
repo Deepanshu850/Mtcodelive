@@ -820,8 +820,8 @@ oc, apply to local municipal authority, building codes, oc and cc, fire safety" 
 
 
     <?php
-    include './more-tags.php';
-    include './footer.php';
+    include 'more-tags.php';
+    include 'footer-demo.php';
     ?>
 
 

@@ -992,8 +992,8 @@ Noida Extension, Flats in Noida, Sale in Noida, Flats for Sale" />
 
 
         <?php
-        include './more-tags.php';
-        include './footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

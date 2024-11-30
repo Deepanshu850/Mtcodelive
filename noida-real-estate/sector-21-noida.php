@@ -76,7 +76,7 @@ noida sector 21 metro station, noida stadium sector 21a, noida sector 21 stadium
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
- 
+
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-21-noida" />
@@ -194,7 +194,10 @@ noida sector 21 metro station, noida stadium sector 21a, noida sector 21 stadium
 
 
 
-    <?php include '../category/header.php';  ?>
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
+    ?>
 
 
 
@@ -1157,7 +1160,7 @@ noida sector 21 metro station, noida stadium sector 21a, noida sector 21 stadium
                 </tbody>
             </table>
 
-             <p>Contact us and make a promising and strategic real estate investment in India, Call us on <a href="tel:+919732300007">+91 9732300007</a>.</p>
+            <p>Contact us and make a promising and strategic real estate investment in India, Call us on <a href="tel:+919732300007">+91 9732300007</a>.</p>
 
             <h2>Frequently Asked Questions</h2>
 
@@ -1374,8 +1377,8 @@ noida sector 21 metro station, noida stadium sector 21a, noida sector 21 stadium
 
 
         <?php
-        include '../category/more-tags.php';
-        include '../category/footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

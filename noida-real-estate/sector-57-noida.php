@@ -78,7 +78,7 @@ india today sector 57 noida, it companies in noida sector 57" />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
- 
+
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-57-noida" />
@@ -230,7 +230,10 @@ india today sector 57 noida, it companies in noida sector 57" />
 
 
 
-    <?php include '../category/header.php';  ?>
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
+    ?>
 
 
 
@@ -305,10 +308,10 @@ india today sector 57 noida, it companies in noida sector 57" />
             <ul class="arrow-list">
                 <li>Sector 57 Noida enjoys great connectivity with other major areas, owing to the presence of Delhi-Meerut Expressway, which allows easy commuting for the residents.&nbsp;</li>
                 <li>Prominent employment hubs such as Sector 62 Noida and Sector 63 Noida, are located within a 5 km radius, presenting sample job opportunities.&nbsp;</li>
-          
-            <li>Sector 59 metro station on the blue line is also located in close proximity.&nbsp;</li>
 
-            
+                <li>Sector 59 metro station on the blue line is also located in close proximity.&nbsp;</li>
+
+
                 <li>Reputable schools and colleges are also located within easy reach.&nbsp;</li>
                 <li>The Presence of prominent hospitals in the area also allows great medical care.&nbsp;</li>
                 <li>Well known market places and malls are also within easy reach.&nbsp;</li>
@@ -1372,8 +1375,8 @@ india today sector 57 noida, it companies in noida sector 57" />
 
 
         <?php
-        include '../category/more-tags.php';
-        include '../category/footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

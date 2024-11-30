@@ -183,7 +183,10 @@ gurugram haryana, sector 23 huda market, palam vihar sector 23, gurgaon from my 
 
 
 
-    <?php include '../category/header.php';  ?>
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
+    ?>
 
 
 
@@ -1777,8 +1780,8 @@ gurugram haryana, sector 23 huda market, palam vihar sector 23, gurgaon from my 
 
 
         <?php
-        include '../category/more-tags.php';
-        include '../category/footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

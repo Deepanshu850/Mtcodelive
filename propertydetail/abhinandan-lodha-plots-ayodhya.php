@@ -1215,8 +1215,8 @@ the Lodha Group. Abhinandan The Sarayu, Ayodhya offer plots for sale. Call Real 
 
     <?php
     include './emi-calc-component.php';
-    include './more-tags.php';
-    include './footer.php';
+    include 'more-tags.php';
+    include 'footer-demo.php';
     ?>
 
 

@@ -1875,8 +1875,8 @@ clubs, apple store nehru place, nehru place mobile shop, munirka to nehru place,
 
 
         <?php
-        include './more-tags.php';
-        include './footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

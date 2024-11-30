@@ -752,8 +752,8 @@ market leaders, comprehensive real estate services," />
     </div>
 
     <?php
-    include './more-tags.php';
-    include './footer.php';
+    include 'more-tags.php';
+    include 'footer-demo.php';
     ?>
 
 

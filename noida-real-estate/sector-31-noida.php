@@ -73,7 +73,7 @@
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
- 
+
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-31-noida" />
@@ -191,7 +191,10 @@
 
 
 
-    <?php include '../category/header.php';  ?>
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
+    ?>
 
 
 
@@ -765,18 +768,18 @@
                     <a href="./sector-31-noida.php">
                         Nithari Village Sector 31 Noida Uttar Pradesh
                     </a>
-                        <a href="../apartments-in-noida.php">
-                            Luxury Apartments
-                        </a>
-                   
-                        <a href="../property-in-noida.php">
-                            Noida Development
-                        </a>
-                  
-                        <a href="../top-real-estate-poperty-consultant-in-india.php?search=Noida">
-                            Greater Noida Projects
-                        </a>
-               
+                    <a href="../apartments-in-noida.php">
+                        Luxury Apartments
+                    </a>
+
+                    <a href="../property-in-noida.php">
+                        Noida Development
+                    </a>
+
+                    <a href="../top-real-estate-poperty-consultant-in-india.php?search=Noida">
+                        Greater Noida Projects
+                    </a>
+
 
 
 
@@ -850,8 +853,8 @@
 
 
         <?php
-        include '../category/more-tags.php';
-        include '../category/footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

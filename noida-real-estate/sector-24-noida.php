@@ -75,7 +75,7 @@ sector 24 nearest metro, noida sector 24 pin code, sector 24 hospital, sec 24 es
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-   
+
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-24-noida" />
@@ -185,7 +185,10 @@ sector 24 nearest metro, noida sector 24 pin code, sector 24 hospital, sec 24 es
 
 
 
-    <?php include '../category/header.php';  ?>
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
+    ?>
 
 
 
@@ -1559,8 +1562,8 @@ sector 24 nearest metro, noida sector 24 pin code, sector 24 hospital, sec 24 es
 
 
         <?php
-        include '../category/more-tags.php';
-        include '../category/footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

@@ -75,7 +75,7 @@ market noida, paytm office sector 5 noida, harola sector 5 noida pin code" />
     <meta property="og:image:alt" content="Sector 98 Noida - Greater Noida Expressway">
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
- 
+
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-5-noida" />
 
 
@@ -183,7 +183,10 @@ market noida, paytm office sector 5 noida, harola sector 5 noida pin code" />
 
 
 
-    <?php include '../category/header.php';  ?>
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
+    ?>
 
 
 
@@ -1264,8 +1267,8 @@ market noida, paytm office sector 5 noida, harola sector 5 noida pin code" />
 
 
         <?php
-        include '../category/more-tags.php';
-        include '../category/footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

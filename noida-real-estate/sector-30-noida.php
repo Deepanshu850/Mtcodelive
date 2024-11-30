@@ -77,7 +77,7 @@ government hospital, government hospital in noida sector 30" />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-   
+
 
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-30-noida" />
@@ -148,7 +148,10 @@ government hospital, government hospital in noida sector 30" />
 
 
 
-    <?php include '../category/header.php';  ?>
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
+    ?>
 
 
 
@@ -1365,8 +1368,8 @@ government hospital, government hospital in noida sector 30" />
 
 
         <?php
-        include '../category/more-tags.php';
-        include '../category/footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

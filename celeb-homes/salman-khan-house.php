@@ -193,7 +193,8 @@ MumbaiRealtyBuzz, CelebHomesIndia, SalmanLivingKingSize, BollywoodHomes" />
 <body>
 
     <?php
-    include '../category/header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
     <main>
@@ -345,7 +346,7 @@ MumbaiRealtyBuzz, CelebHomesIndia, SalmanLivingKingSize, BollywoodHomes" />
             <div>
                 <h6>Similar Tags:</h6>
                 <ul class="tags">
-                    
+
                     <li><a href="./salman-khan-house">Salman Khan House</a></li>
                     <li><a href="./salman-khan-house">Galaxy Apartment</a></li>
                     <li><a href="./salman-khan-house">Salman Khan House Name</a></li>
@@ -419,8 +420,8 @@ MumbaiRealtyBuzz, CelebHomesIndia, SalmanLivingKingSize, BollywoodHomes" />
         </div>
     </div>
     <?php
-    include '../propertydetail/more-tags.php';
-    include '../category/footer.php';
+    include 'more-tags.php';
+    include 'footer-demo.php';
     ?>
 
 

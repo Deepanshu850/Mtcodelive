@@ -231,7 +231,7 @@
 
 
     <?php
-    include './footer.php';
+    include 'footer-demo.php';
     ?>
 
 

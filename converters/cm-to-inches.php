@@ -638,8 +638,8 @@ to inches, 77 cm to inches, 36 cm to inch, 75cm in inches, 20 cm in inches, 48 c
 
 
     <?php
-    include '../propertydetail/more-tags.php';
-    include './footer.php';
+    include 'more-tags.php';
+    include 'footer-demo.php';
     ?>
 
 

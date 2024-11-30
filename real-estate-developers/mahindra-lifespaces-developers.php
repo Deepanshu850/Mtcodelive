@@ -30,7 +30,7 @@
 
     <link rel="canonical" href="https://moneytreerealty.com/real-estate-developers/mahindra-lifespaces-developers" />
 
-    real-estate-developers\mahindra-lifespaces-developers.php
+
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -117,7 +117,8 @@
 <body>
 
     <?php
-    include '../category/header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
     <main>
@@ -250,8 +251,8 @@
 
 
     <?php
-    include '../propertydetail/more-tags.php';
-    include '../category/footer.php';
+    include 'more-tags.php';
+    include 'footer-demo.php';
     ?>
 
 

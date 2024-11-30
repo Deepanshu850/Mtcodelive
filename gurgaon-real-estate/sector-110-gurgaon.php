@@ -180,7 +180,10 @@
 
 
 
-    <?php include '../category/header.php';  ?>
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
+    ?>
 
 
 
@@ -1420,7 +1423,7 @@
                     <a href="../real-estate-advisor-and-property-consulting-firm-in-india">Property Advice</a>
                     <a href="../real-estate-consultant">Real Estate Consulting</a>
 
-                    
+
                 </p>
             </div>
 
@@ -1454,8 +1457,8 @@
 
 
         <?php
-        include '../category/more-tags.php';
-        include '../category/footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

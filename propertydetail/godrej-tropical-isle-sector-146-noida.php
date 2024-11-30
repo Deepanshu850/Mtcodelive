@@ -584,8 +584,8 @@ in greater noida, property in Yamuna expressway," />
 
     <?php
     include './emi-calc-component.php';
-    include './more-tags.php';
-    include './footer.php';
+    include 'more-tags.php';
+    include 'footer-demo.php';
     ?>
 
 

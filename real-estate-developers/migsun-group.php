@@ -137,7 +137,8 @@ Upcoming Launch, 3 bhk flats, 4 bhk flats" />
 <body>
 
     <?php
-    include '../category/header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
     <main>
@@ -278,8 +279,8 @@ Upcoming Launch, 3 bhk flats, 4 bhk flats" />
 
 
     <?php
-    include '../propertydetail/more-tags.php';
-    include '../category/footer.php';
+    include 'more-tags.php';
+    include 'footer-demo.php';
     ?>
 
 

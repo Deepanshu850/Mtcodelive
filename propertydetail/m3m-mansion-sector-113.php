@@ -596,8 +596,8 @@ Property rates in Gurgaon, builder in Gurgaon, Luxury Real estate" />
 
     <?php
     include './emi-calc-component.php';
-    include './more-tags.php';
-    include './footer.php';
+    include 'more-tags.php';
+    include 'footer-demo.php';
     ?>
 
 

@@ -956,8 +956,8 @@ Noida, Real estate property agents in Noida, property in noida" />
 
 
     <?php
-    include './more-tags.php';
-    include './footer.php';
+    include 'more-tags.php';
+    include 'footer-demo.php';
     ?>
 
 

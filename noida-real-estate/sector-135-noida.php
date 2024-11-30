@@ -44,158 +44,158 @@ sector 135, companies in noida sector 135, sector 135 noida flats for rent" />
 
 
     <!-- General Open Graph Tags for Facebook -->
-        <meta property="og:title" content="Sector 135 Noida: Map, Property Rates, Projects, Review, Info">
-        <meta property="og:site_name" content="Moneytree Realty">
-        <meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-135-noida">
-        <meta property="og:description" content="Sector 135 Noida, Gautam Buddha Nagar, is a prime area known for IT parks and commercial spaces, offering excellent connectivity and a balanced work-life environment.">
-        <meta property="og:type" content="website">
-        <meta property="og:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-135-noida-banner.webp">
-        <meta property="og:image:width" content="1200">
-        <meta property="og:image:height" content="630">
-        <meta property="og:image:alt" content="Sector 135 Noida">
-        <meta property="og:locale" content="en_IN">
+    <meta property="og:title" content="Sector 135 Noida: Map, Property Rates, Projects, Review, Info">
+    <meta property="og:site_name" content="Moneytree Realty">
+    <meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-135-noida">
+    <meta property="og:description" content="Sector 135 Noida, Gautam Buddha Nagar, is a prime area known for IT parks and commercial spaces, offering excellent connectivity and a balanced work-life environment.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-135-noida-banner.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Sector 135 Noida">
+    <meta property="og:locale" content="en_IN">
 
-        <!-- Twitter Card Tags -->
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Sector 135 Noida: Map, Property Rates, Projects, Review, Info">
-        <meta name="twitter:description" content="Sector 135 Noida, Gautam Buddha Nagar, is a prime area known for IT parks and commercial spaces, offering excellent connectivity and a balanced work-life environment.">
-        <meta name="twitter:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-135-noida-banner.webp">
-        <meta name="twitter:image:alt" content="Sector 135 Noida">
-        <meta name="twitter:site" content="@MoneytreeRSPL">
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sector 135 Noida: Map, Property Rates, Projects, Review, Info">
+    <meta name="twitter:description" content="Sector 135 Noida, Gautam Buddha Nagar, is a prime area known for IT parks and commercial spaces, offering excellent connectivity and a balanced work-life environment.">
+    <meta name="twitter:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-135-noida-banner.webp">
+    <meta name="twitter:image:alt" content="Sector 135 Noida">
+    <meta name="twitter:site" content="@MoneytreeRSPL">
 
-        <!-- LinkedIn Open Graph Tags -->
-        <meta property="og:title" content="Sector 135 Noida: Map, Property Rates, Projects, Review, Info">
-        <meta property="og:description" content="Sector 135 Noida, Gautam Buddha Nagar, is a prime area known for IT parks and commercial spaces, offering excellent connectivity and a balanced work-life environment.">
-        <meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-135-noida">
-        <meta property="og:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-135-noida-banner.webp">
-        <meta property="og:image:alt" content="Sector 135 Noida">
+    <!-- LinkedIn Open Graph Tags -->
+    <meta property="og:title" content="Sector 135 Noida: Map, Property Rates, Projects, Review, Info">
+    <meta property="og:description" content="Sector 135 Noida, Gautam Buddha Nagar, is a prime area known for IT parks and commercial spaces, offering excellent connectivity and a balanced work-life environment.">
+    <meta property="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-135-noida">
+    <meta property="og:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-135-noida-banner.webp">
+    <meta property="og:image:alt" content="Sector 135 Noida">
 
-        <!-- Pinterest Tags -->
-        <meta name="og:title" content="Sector 135 Noida: Map, Property Rates, Projects, Review, Info">
-        <meta name="og:description" content="Sector 135 Noida, Gautam Buddha Nagar, is a prime area known for IT parks and commercial spaces, offering excellent connectivity and a balanced work-life environment.">
-        <meta name="og:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-135-noida-banner.webp">
-        <meta name="og:image:alt" content="Sector 135 Noida">
-        <meta name="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-135-noida">
-        <meta name="og:locale" content="en_IN">
-
-
-        <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-135-noida" />
+    <!-- Pinterest Tags -->
+    <meta name="og:title" content="Sector 135 Noida: Map, Property Rates, Projects, Review, Info">
+    <meta name="og:description" content="Sector 135 Noida, Gautam Buddha Nagar, is a prime area known for IT parks and commercial spaces, offering excellent connectivity and a balanced work-life environment.">
+    <meta name="og:image" content="https://moneytreerealty.com/noida-real-estate/assets/image/sector-135-noida-banner.webp">
+    <meta name="og:image:alt" content="Sector 135 Noida">
+    <meta name="og:url" content="https://moneytreerealty.com/noida-real-estate/sector-135-noida">
+    <meta name="og:locale" content="en_IN">
 
 
-        <script type="application/ld+json">
-            {
-                "@context": "https://schema.org/",
-                "@type": "Product",
-                "name": "Sector 135 Noida",
-                "image": "https://moneytreerealty.com/noida-real-estate/assets/image/sector-135-noida-banner.webp",
-                "description": "Sector 135 Noida is a key commercial hub featuring premium office spaces and state-of-the-art amenities. It is a prime investment destination due to its luxurious infrastructure and proximity to nearby localities such as Sector 168, Sector 137, and Sector 142. Residential developments include Today Homes Ridge Residency, Gokuldham LIG Apartments, Duplex Villas, ATS HomeKraft Infra, and Nimbus The Golden Palms.",
-                "brand": {
-                    "@type": "Brand",
-                    "name": "Moneytree Realty"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.6",
-                    "ratingCount": "1500"
-                }
+    <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-135-noida" />
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "name": "Sector 135 Noida",
+            "image": "https://moneytreerealty.com/noida-real-estate/assets/image/sector-135-noida-banner.webp",
+            "description": "Sector 135 Noida is a key commercial hub featuring premium office spaces and state-of-the-art amenities. It is a prime investment destination due to its luxurious infrastructure and proximity to nearby localities such as Sector 168, Sector 137, and Sector 142. Residential developments include Today Homes Ridge Residency, Gokuldham LIG Apartments, Duplex Villas, ATS HomeKraft Infra, and Nimbus The Golden Palms.",
+            "brand": {
+                "@type": "Brand",
+                "name": "Moneytree Realty"
+            },
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.6",
+                "ratingCount": "1500"
             }
-        </script>
+        }
+    </script>
 
 
-        <script type="application/ld+json">
-            {
-                "@context": "https://schema.org",
-                "@type": "FAQPage",
-                "mainEntity": [{
-                        "@type": "Question",
-                        "name": "What is the pin code of Sector 135 Noida?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "The pin code of Sector 135 Noida is 201304. It is a premium commercial locality with various tech parks like Assotech Business Cresterra, Genpact, Candor Techspace, and ABC Business Park."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "What is the nearest metro to Sector 135 Noida?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "The nearest metro stations to Sector 135 Noida include Sector 135 Metro Station, Sector 142 Metro Station, Sector 143 Metro Station, Sector 137 Metro Station, and Botanical Garden Metro Station."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Which district is Sector 135 Noida?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Sector 135 Noida is located in the Gautam Buddha District of Uttar Pradesh, and the pin code is 201304."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "What is the population of Sector 135 Noida?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Sector 135 Noida has an average population of around 5,012 people and is part of the Gautam Buddha District in Uttar Pradesh."
-                        }
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+                    "@type": "Question",
+                    "name": "What is the pin code of Sector 135 Noida?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The pin code of Sector 135 Noida is 201304. It is a premium commercial locality with various tech parks like Assotech Business Cresterra, Genpact, Candor Techspace, and ABC Business Park."
                     }
-                ]
-            }
-        </script>
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is the nearest metro to Sector 135 Noida?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The nearest metro stations to Sector 135 Noida include Sector 135 Metro Station, Sector 142 Metro Station, Sector 143 Metro Station, Sector 137 Metro Station, and Botanical Garden Metro Station."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which district is Sector 135 Noida?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sector 135 Noida is located in the Gautam Buddha District of Uttar Pradesh, and the pin code is 201304."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is the population of Sector 135 Noida?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sector 135 Noida has an average population of around 5,012 people and is part of the Gautam Buddha District in Uttar Pradesh."
+                    }
+                }
+            ]
+        }
+    </script>
 
 
-        <!-- Google Tag Manager 
+    <!-- Google Tag Manager 
         -->
-        <script>
-            (function(w, d, s, l, i) {
-                w[l] = w[l] || [];
-                w[l].push({
-                    'gtm.start': new Date().getTime(),
-                    event: 'gtm.js'
-                });
-                var f = d.getElementsByTagName(s)[0],
-                    j = d.createElement(s),
-                    dl = l != 'dataLayer' ? '&l=' + l : '';
-                j.async = true;
-                j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-                f.parentNode.insertBefore(j, f);
-            })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
-        </script>
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
+    </script>
 
 
 
-        <!-- End Google Tag Manager -->
-
-
-
-
-
-        <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
-        <link rel="stylesheet" href="../assets/css/style.css">
-        <link href="../assets/css/nice-select.css" rel="stylesheet">
-        <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
-        <link rel="stylesheet" href="../assets/css/property-page.css">
+    <!-- End Google Tag Manager -->
 
 
 
 
 
-        <!-- Google Analytics -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link href="../assets/css/nice-select.css" rel="stylesheet">
+    <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
+    <link rel="stylesheet" href="../assets/css/property-page.css">
 
 
-        <script src="https://www.googletagmanager.com/gtag/js?id=G-JZJY23MWW7"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
 
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag('js', new Date());
-            gtag('config', 'G-JZJY23MWW7');
-        </script>
-        <!-- End Google Analytics -->
-        <!--G-JZJY23MWW7-->
+
+
+    <!-- Google Analytics -->
+
+
+    <script src="https://www.googletagmanager.com/gtag/js?id=G-JZJY23MWW7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-JZJY23MWW7');
+    </script>
+    <!-- End Google Analytics -->
+    <!--G-JZJY23MWW7-->
 </head>
 
 <body class="light-theme">
@@ -206,7 +206,10 @@ sector 135, companies in noida sector 135, sector 135 noida flats for rent" />
 
 
 
-    <?php include '../category/header.php';  ?>
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
+    ?>
 
 
 
@@ -1477,8 +1480,8 @@ sector 135, companies in noida sector 135, sector 135 noida flats for rent" />
 
 
         <?php
-        include '../category/more-tags.php';
-        include '../category/footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

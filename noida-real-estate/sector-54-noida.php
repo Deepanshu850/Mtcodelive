@@ -75,7 +75,7 @@ market sector 50 noida 201307, b 54 sector 47 jagran public school noida
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-     
+
 
 
 
@@ -220,7 +220,10 @@ market sector 50 noida 201307, b 54 sector 47 jagran public school noida
 
 
 
-    <?php include '../category/header.php';  ?>
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
+    ?>
 
 
 
@@ -1518,8 +1521,8 @@ market sector 50 noida 201307, b 54 sector 47 jagran public school noida
 
 
         <?php
-        include '../category/more-tags.php';
-        include '../category/footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

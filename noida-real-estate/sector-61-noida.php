@@ -78,7 +78,7 @@ noida, plot for sale in sector 61 noida " />
     <meta property="og:locale" content="en_IN">
     <meta name="pinterest-rich-pin" content="true">
 
-    
+
 
     <link rel="canonical" href="https://moneytreerealty.com/noida-real-estate/sector-61-noida" />
 
@@ -207,7 +207,10 @@ noida, plot for sale in sector 61 noida " />
 
 
 
-    <?php include '../category/header.php';  ?>
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
+    ?>
 
 
 
@@ -1652,8 +1655,8 @@ noida, plot for sale in sector 61 noida " />
 
 
         <?php
-        include '../category/more-tags.php';
-        include '../category/footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

@@ -1345,8 +1345,8 @@ biggest airport in india, which is the biggest airport in india" />
 
 
         <?php
-        include './more-tags.php';
-        include './footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

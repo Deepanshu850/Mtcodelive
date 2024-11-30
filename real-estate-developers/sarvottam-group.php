@@ -116,7 +116,8 @@
 <body>
 
     <?php
-    include '../category/header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
     <main>
@@ -134,7 +135,7 @@
 
             <p>Sarvottam Group is on a mission to bring out the best real estate practices in the market in the most ethical, effective, and efficient way possible. The group believes in building long-lasting relationships and fostering ethical professionalism, teamwork, and innovation. </p>
 
-            <p>Sarvottam Group continues to build commercial, retail, and residential spaces in accordance with the RERA Act 2016 and continuously strives to enhance customer satisfaction with  cutting-edge amenities and facilities in its commercial and residential properties.</p>
+            <p>Sarvottam Group continues to build commercial, retail, and residential spaces in accordance with the RERA Act 2016 and continuously strives to enhance customer satisfaction with cutting-edge amenities and facilities in its commercial and residential properties.</p>
 
             <h3>Key Insights into Sarvottam Group </h3>
 
@@ -253,8 +254,8 @@
 
 
     <?php
-    include '../propertydetail/more-tags.php';
-    include '../category/footer.php';
+    include 'more-tags.php';
+    include 'footer-demo.php';
     ?>
 
 

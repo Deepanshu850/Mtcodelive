@@ -207,7 +207,10 @@ sector 82 pin code, janta flat in noida sector 82, noida authority flats sector 
 
 
 
-    <?php include '../category/header.php';  ?>
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
+    ?>
 
 
 
@@ -1269,7 +1272,7 @@ sector 82 pin code, janta flat in noida sector 82, noida authority flats sector 
             <h2>Tired of looking to buy property for sale?</h2>
 
 
-            
+
             <p><a href="../index.php"><strong>MoneyTree Realty</strong></a> is the leading <strong>channel partner in real estate with</strong> a diverse portfolio of properties including commercial property, residential property, and <a href="../plots-for-sale.php"><strong>plots for sale</strong></a>. Our <a href="../best-property-dealers-in-noida.phpstr"><strong>property dealers in Noida</strong></a> provide best-in-class property consultations and present you with the best flat in Noida.&nbsp;</p>
 
             <p>Our <a href="../real-estate-consultant.php"><strong>real estate consultants</strong></a> at MoneyTree Realty provide valuable insights into market trends and property analysis and help you buy flat in Noida. We follow a <strong>client-centric approach</strong> and maintain transparency between each client & the developer and provide you with the<strong> best home in Noida.</strong></p>
@@ -1521,8 +1524,8 @@ sector 82 pin code, janta flat in noida sector 82, noida authority flats sector 
 
 
         <?php
-        include '../category/more-tags.php';
-        include '../category/footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

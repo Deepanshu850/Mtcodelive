@@ -506,8 +506,8 @@ inches, 40 yards to meters, 10 meters to feet, 10 feet in meters, 70 cm to feet 
 
 
     <?php
-    include '../propertydetail/more-tags.php';
-    include './footer.php';
+    include 'more-tags.php';
+    include 'footer-demo.php';
     ?>
 
 

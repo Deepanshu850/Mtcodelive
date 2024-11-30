@@ -196,7 +196,10 @@ express zenith sector 77 noida review " />
 
 
 
-    <?php include '../category/header.php';  ?>
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
+    ?>
 
 
 
@@ -1069,7 +1072,7 @@ express zenith sector 77 noida review " />
             <p><a href="../index.php"><strong>MoneyTree Realty</strong></a> is a real estate industry based in Noida. A professional team of <a href="../real-estate-advisor-and-property-consulting-firm-in-india.php"><strong>property advisors in real estate</strong></a> and property consultants are available on call to help with making profitable investments in residential or commercial property by researching trends in the market and property value. Real estate service focuses on making the purchase of a home as easy as possible for clients. So, that you make profitable investments under the guidance of our professional property advisors.</p>
 
 
-            
+
 
             <h3>Services offered by MoneyTree Realty</h3>
 
@@ -1287,8 +1290,8 @@ express zenith sector 77 noida review " />
 
 
         <?php
-        include '../category/more-tags.php';
-        include '../category/footer.php';
+        include 'more-tags.php';
+        include 'footer-demo.php';
         ?>
 
 

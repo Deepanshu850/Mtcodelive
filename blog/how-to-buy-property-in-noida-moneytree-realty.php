@@ -489,8 +489,8 @@ capital region, payment date, house in Noida, noida sector, bhk home" />
     </div>
 
     <?php
-    include './more-tags.php';
-    include './footer.php';
+    include 'more-tags.php';
+    include 'footer-demo.php';
     ?>
 
 
