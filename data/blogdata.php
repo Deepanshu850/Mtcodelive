@@ -272,4 +272,14 @@ $posts = [
         'writer' => 'Team Moneytree',
 
     ],
+    [
+        'id' => 29,
+        'title' => 'Top 7 Commercial Projects in Noida',
+        'description' => 'Noida, often referred to as the Satellite City to Delhi, is making its presence in the IT and hospitality industries and is witnessing continuous upgradation in its infrastructure. The city showcases high-quality commercial projects from well-known builders, offering not only premium amenities but also significant increases in property values and profitable investment returns.',
+        'imageUrl' => './assets/top-7-commercial-projects-in-noida-banner.webp',
+        'date' => 'November 30, 2024',
+        'category' => ['Property'],
+        'writer' => 'Team Moneytree',
+
+    ],
 ];
