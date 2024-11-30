@@ -565,7 +565,8 @@
 
 
      <?php
-        include './header.php';
+        set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+        include 'header-demo.php';
         ?>
 
 

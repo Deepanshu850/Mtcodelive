@@ -168,7 +168,8 @@ noida to buy, commercial property in noida extension" />
 
 
 
-    <?php include './header.php';  ?>
+    <?php set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';  ?>
 
 
     <!-- main content -->
@@ -211,7 +212,7 @@ noida to buy, commercial property in noida extension" />
                 Property in Noida | Property Sale in Noida | Noida Real State
 
             </h1>
-            
+
             <p class="overview">
                 Property in Noida is flourishing at a fast pace and has emerged as a promising real estate investment in India with perks like regular rental income, high price appreciation, hedge against inflation and others. Check out the article on ‘Property in Noida’ and make a strategic real estate investment in India.
 

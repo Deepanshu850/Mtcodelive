@@ -179,7 +179,8 @@ Noida, Real estate property agents in Noida, property in noida" />
 
 
     <?php
-    include './header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
 
@@ -221,7 +222,7 @@ Noida, Real estate property agents in Noida, property in noida" />
                         Infrastructure in India is flourishing at an exponential rate with the emergence of
                         state-of-the-art commercial projects and residential projects from <strong>biggest real estate
                             companies in India</strong>.
-                        
+
 
                         With the emergency of infrastructure and technology, numerous <strong>real estate
                             company in Noida</strong> have initiated their expansive projects in the city.
@@ -240,7 +241,7 @@ Noida, Real estate property agents in Noida, property in noida" />
                     </p>
 
                     <h2>
-                       What Makes a Top Real Estate Company in Noida?
+                        What Makes a Top Real Estate Company in Noida?
                     </h2>
 
 
@@ -253,7 +254,7 @@ Noida, Real estate property agents in Noida, property in noida" />
 
                     </p>
                     <h2>
-                        
+
                         Top 10 Real Estate Company in Noida:
 
                     </h2>

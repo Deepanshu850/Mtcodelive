@@ -105,7 +105,8 @@
 <body>
 
     <?php
-    include './header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
     <main>
         <div class="flex-wrapper">
@@ -295,10 +296,10 @@
 
                 <h3>Learn to convert Feet to CM with an example</>
 
-                <p>Let&rsquo;s say you have 5 Feet of the wall, and you want to convert that piece of land/plot into CM, for that you just need to multiply 5 foot by 30.38<br />
-                    Foot = (5) x 30.48 = 152.4</p>
+                    <p>Let&rsquo;s say you have 5 Feet of the wall, and you want to convert that piece of land/plot into CM, for that you just need to multiply 5 foot by 30.38<br />
+                        Foot = (5) x 30.48 = 152.4</p>
 
-                <p>Therefore, 5 Feet of land/plot would be approximately equal to 152.4 CM.</p>
+                    <p>Therefore, 5 Feet of land/plot would be approximately equal to 152.4 CM.</p>
 
             </div>
 

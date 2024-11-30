@@ -222,7 +222,8 @@ clubs, apple store nehru place, nehru place mobile shop, munirka to nehru place,
 
 
 
-    <?php include './header.php';  ?>
+    <?php set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';  ?>
 
 
     <!-- main content -->

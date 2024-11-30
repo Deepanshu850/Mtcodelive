@@ -128,7 +128,8 @@ Real Estate" />
 
 
     <?php
-    include './header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
     <style>
@@ -318,16 +319,16 @@ Real Estate" />
 
                     //  ACE YXP, ACE Terra, Ametek Plaza One, and Devika Vibe
 
-                    $keywords = ['yxp', 'terra', 'Ametek', 'Devika']; 
+                    $keywords = ['yxp', 'terra', 'Ametek', 'Devika'];
 
                     $filtered = array_filter($properties, function ($item) use ($keywords) {
                         foreach ($keywords as $keyword) {
                             $pattern = '/' . preg_quote($keyword, '/') . '/i';
                             if (preg_match($pattern, strtolower($item['name']))) {
-                                return true; 
+                                return true;
                             }
                         }
-                        return false; 
+                        return false;
                     });
 
 

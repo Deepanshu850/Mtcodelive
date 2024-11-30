@@ -206,9 +206,6 @@ in gurgaon sector 20" />
 
     <?php
     set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
-
-    ?>
-    <?php
     include 'header-demo.php';
     ?>
 

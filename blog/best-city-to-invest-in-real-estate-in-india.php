@@ -40,145 +40,145 @@ noida, when jewar airport will start," />
 
 
     <!-- og tags -->
-        <meta property="og:title" content="Explore Best Cities to Invest in Real Estate in India ">
-        <meta property="og:site_name" content="Moneytree Realty">
-        <meta property="og:url" content="https://moneytreerealty.com/propertydetail/best-city-to-invest-in-real-estate-in-india">
-        <meta property="og:description" content=" We have Some of the top cities in India like Bangalore, Mumbai, Gurugram, Hyderabad, oida - IT Capital of NCR, Chennai, Delhi, leading to high demand for real estate. Call Real Estate Consultant Company in Noida +91-9732300007 ">
-        <meta property="og:type" content="property">
-        <meta property="og:image" content="https://moneytreerealty.com/blog/assets/best-city-thumbnail.jpeg">
+    <meta property="og:title" content="Explore Best Cities to Invest in Real Estate in India ">
+    <meta property="og:site_name" content="Moneytree Realty">
+    <meta property="og:url" content="https://moneytreerealty.com/propertydetail/best-city-to-invest-in-real-estate-in-india">
+    <meta property="og:description" content=" We have Some of the top cities in India like Bangalore, Mumbai, Gurugram, Hyderabad, oida - IT Capital of NCR, Chennai, Delhi, leading to high demand for real estate. Call Real Estate Consultant Company in Noida +91-9732300007 ">
+    <meta property="og:type" content="property">
+    <meta property="og:image" content="https://moneytreerealty.com/blog/assets/best-city-thumbnail.jpeg">
 
 
-        <link rel="canonical" href="https://moneytreerealty.com/blog/how-to-invest-in-real-estate-in-india" />
+    <link rel="canonical" href="https://moneytreerealty.com/blog/how-to-invest-in-real-estate-in-india" />
 
-        <script type="application/ld+json">
-            {
-                "@context": "https://schema.org",
-                "@type": "BlogPosting",
-                "mainEntityOfPage": {
-                    "@type": "WebPage",
-                    "@id": "https://moneytreerealty.com/blog/best-city-to-invest-in-real-estate-in-india"
-                },
-                "headline": "Best City to invest in Real Estate in India",
-                "description": "The Real Estate Sector in India is blooming at an exponential rate offering the best property investment in India. Currently contributing approximately 7.3 % to the country’s GDP, the real estate sector in India is projected to reach $1 trillion by 2030.",
-                "image": "https://moneytreerealty.com/blog/assets/best-city-thumbnail.jpeg",
-                "author": {
-                    "@type": "",
-                    "name": "Moneytree Realty",
-                    "url": "https://moneytreerealty.com/"
-                },
-                "publisher": {
-                    "@type": "Organization",
-                    "name": "",
-                    "logo": {
-                        "@type": "ImageObject",
-                        "url": ""
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://moneytreerealty.com/blog/best-city-to-invest-in-real-estate-in-india"
+            },
+            "headline": "Best City to invest in Real Estate in India",
+            "description": "The Real Estate Sector in India is blooming at an exponential rate offering the best property investment in India. Currently contributing approximately 7.3 % to the country’s GDP, the real estate sector in India is projected to reach $1 trillion by 2030.",
+            "image": "https://moneytreerealty.com/blog/assets/best-city-thumbnail.jpeg",
+            "author": {
+                "@type": "",
+                "name": "Moneytree Realty",
+                "url": "https://moneytreerealty.com/"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": ""
+                }
+            },
+            "datePublished": "2024-06-04",
+            "dateModified": "2024-10-27"
+
+        }
+    </script>
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+                    "@type": "Question",
+                    "name": "Which is the most developed city in India?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "India's most developed cities include Mumbai, Bangalore, Chennai, Delhi/NCR, and Hyderabad, making them some of the best places to invest in real estate in the country."
                     }
                 },
-                "datePublished": "2024-06-04",
-                "dateModified": "2024-10-27"
-
-            }
-        </script>
-
-        <script type="application/ld+json">
-            {
-                "@context": "https://schema.org",
-                "@type": "FAQPage",
-                "mainEntity": [{
-                        "@type": "Question",
-                        "name": "Which is the most developed city in India?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "India's most developed cities include Mumbai, Bangalore, Chennai, Delhi/NCR, and Hyderabad, making them some of the best places to invest in real estate in the country."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Which city has the best real estate in India?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "The best cities to invest in real estate in India are Bangalore, Mumbai, Chennai, Delhi/NCR, and Hyderabad."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Which Tier 2 cities are best to invest in India?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Tier 2 cities like Ayodhya, Jaipur, Nagpur, Vadodara, and Kochi have emerged as some of the best places to invest in real estate in India."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "How to invest in real estate in India?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Investing in real estate in India requires property analysis and understanding market trends. Evaluate both commercial and residential properties based on location, amenities, financial options, rental yields, and more."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "How to purchase real estate in India?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "To purchase real estate in India, analyze the property market for favorable rental yields and a promising ROI. Consulting with a professional property advisor can also guide investment strategies."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "How to buy commercial property in India?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Investing in commercial projects in India requires a strategy focused on due diligence and rental yield, along with an understanding of GST implications on commercial properties to maximize ROI."
-                        }
+                {
+                    "@type": "Question",
+                    "name": "Which city has the best real estate in India?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The best cities to invest in real estate in India are Bangalore, Mumbai, Chennai, Delhi/NCR, and Hyderabad."
                     }
-                ]
-            }
-        </script>
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which Tier 2 cities are best to invest in India?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Tier 2 cities like Ayodhya, Jaipur, Nagpur, Vadodara, and Kochi have emerged as some of the best places to invest in real estate in India."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How to invest in real estate in India?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Investing in real estate in India requires property analysis and understanding market trends. Evaluate both commercial and residential properties based on location, amenities, financial options, rental yields, and more."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How to purchase real estate in India?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "To purchase real estate in India, analyze the property market for favorable rental yields and a promising ROI. Consulting with a professional property advisor can also guide investment strategies."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How to buy commercial property in India?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Investing in commercial projects in India requires a strategy focused on due diligence and rental yield, along with an understanding of GST implications on commercial properties to maximize ROI."
+                    }
+                }
+            ]
+        }
+    </script>
 
 
 
-        <!-- Google Tag Manager -->
-        <script>
-            (function(w, d, s, l, i) {
-                w[l] = w[l] || [];
-                w[l].push({
-                    'gtm.start': new Date().getTime(),
-                    event: 'gtm.js'
-                });
-                var f = d.getElementsByTagName(s)[0],
-                    j = d.createElement(s),
-                    dl = l != 'dataLayer' ? '&l=' + l : '';
-                j.async = true;
-                j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-                f.parentNode.insertBefore(j, f);
-            })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
-        </script>
-        <!-- End Google Tag Manager -->
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
+    </script>
+    <!-- End Google Tag Manager -->
 
 
-        <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
-        <link rel="stylesheet" href="../assets/css/style.css">
-        <link rel="stylesheet" href="assets/blog.css">
-        <link href="../assets/css/nice-select.css" rel="stylesheet">
-        <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="assets/blog.css">
+    <link href="../assets/css/nice-select.css" rel="stylesheet">
+    <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
 
 
-        <!-- Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-JZJY23MWW7"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JZJY23MWW7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag('js', new Date());
-            gtag('config', 'G-JZJY23MWW7');
-        </script>
-        <!-- End Google Analytics -->
-        <!--G-JZJY23MWW7-->
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-JZJY23MWW7');
+    </script>
+    <!-- End Google Analytics -->
+    <!--G-JZJY23MWW7-->
 </head>
 
 <body class="light-theme">
@@ -188,7 +188,8 @@ noida, when jewar airport will start," />
 
 
     <?php
-    include './header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
     <style>

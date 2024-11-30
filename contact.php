@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 
@@ -74,7 +73,7 @@
 
     <!-- Meta Pixel Code -->
     <script>
-        !function(f, b, e, v, n, t, s) {
+        ! function(f, b, e, v, n, t, s) {
             if (f.fbq) return;
             n = f.fbq = function() {
                 n.callMethod ?
@@ -212,7 +211,8 @@
 
 
     <?php
-    include './header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
 

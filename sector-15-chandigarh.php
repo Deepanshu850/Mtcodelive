@@ -171,7 +171,8 @@ chandigarh sector 15" />
 
 
 
-    <?php include './header.php';  ?>
+    <?php set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';  ?>
 
 
 

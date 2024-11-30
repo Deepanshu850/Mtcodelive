@@ -34,70 +34,69 @@
 
 
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How many sq ft for one cent?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "1 cent is approximately equal to 435.560 sq ft."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How many cents is 1 acre?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "1 acre is equal to 100.00935 cent."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How many square feet per cent?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "1 cent is equal to 435.560 square feet, both of these units are widely used in the real estate sector across the globe for measuring and comparing sizes of real estate projects."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much is 100 Cent in acres?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "100 cent is equal to 0.999 acres."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much is 25 Cent in acres?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "25 cent is equal to 0.249 acres."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How to calculate Cent to Square Feet?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To convert Cents into Square Feet, you just need to multiply the unit by 435.560."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the length of 2 Cent?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "2 cent is approximately equal to 5016.76 sq metres in area."
-      }
-    }
-  ]
-}
-</script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+                    "@type": "Question",
+                    "name": "How many sq ft for one cent?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1 cent is approximately equal to 435.560 sq ft."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many cents is 1 acre?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1 acre is equal to 100.00935 cent."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many square feet per cent?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1 cent is equal to 435.560 square feet, both of these units are widely used in the real estate sector across the globe for measuring and comparing sizes of real estate projects."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is 100 Cent in acres?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "100 cent is equal to 0.999 acres."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is 25 Cent in acres?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "25 cent is equal to 0.249 acres."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How to calculate Cent to Square Feet?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "To convert Cents into Square Feet, you just need to multiply the unit by 435.560."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is the length of 2 Cent?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "2 cent is approximately equal to 5016.76 sq metres in area."
+                    }
+                }
+            ]
+        }
+    </script>
 
 
 
@@ -139,13 +138,14 @@
     </script>
     <!-- End Google Analytics -->
     <!--G-JZJY23MWW7-->
-   
+
 </head>
 
 <body>
 
     <?php
-    include './header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
     <main>
         <div class="flex-wrapper">
@@ -165,7 +165,7 @@
 
                 <canvas id="conversionChart"></canvas>
             </div>
-            
+
             <script>
                 function convertCentToSquareFeet() {
                     const input = document.getElementById("input").value;
@@ -228,12 +228,12 @@
 
             ?>
         </div>
-        
-        
-    
-    
-    
-      
+
+
+
+
+
+
         <section>
 
             <div class="links-list">
@@ -405,7 +405,7 @@
 
 
                 </h3>
-                
+
                 <p class="random-p">
 
                     Square Feet = (Cent) x 435.559
@@ -755,7 +755,7 @@
 
 
 
-       
+
 
         </div>
 
@@ -763,16 +763,16 @@
 
 
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
     </main>
 
 
@@ -783,7 +783,7 @@
 
 
 
- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

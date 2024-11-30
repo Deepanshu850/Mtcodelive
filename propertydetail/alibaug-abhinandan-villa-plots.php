@@ -197,183 +197,184 @@ Group. Call Real Estate Consultant Company in Noida +91-9732300007">
     <!-- End Google Tag Manager (noscript) -->
 
 
-<style>
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color: #edf2f7;
-        color: #333;
-
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-
-        /* Add padding to the top of the body, assuming the navbar is at the top of the body */
-    }
-
-    h1 {
-        /* Gradient background for text */
-        font-size: 32px;
-        background: -webkit-linear-gradient(left, #005b52, #d39f51);
-        /* For Chrome and Safari */
-        background: linear-gradient(to right, #005b52, #d39f51);
-        /* Standard syntax */
-        -webkit-background-clip: text;
-        background-clip: text;
-        color: transparent;
-        /* Hide the original text color */
-        font-weight: bold;
-        /* Enhance the visual */
-
-        /* Add underline */
-        text-decoration: underline;
-    }
-
-    h2 {
-        /* Gradient background for text */
-        font-size: 30px;
-        background: -webkit-linear-gradient(left, #005b52, #d39f51);
-        /* For Chrome and Safari */
-        background: linear-gradient(to right, #005b52, #d39f51);
-        /* Standard syntax */
-        -webkit-background-clip: text;
-        background-clip: text;
-        color: transparent;
-        /* Hide the original text color */
-        font-weight: 600;
-        /* Enhance the visual */
-
-        /* Add underline */
-
-    }
-
-
-
-    .navbar {
-        width: 100%;
-        /* Ensures the navbar spans the full width */
-        background-color: #fff;
-        /* Assuming the navbar has a white background */
-        /* Add other styles for your navbar here */
-    }
-
-    .property-content {
-        background-color: #ffffff;
-        padding: 30px;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        margin: 10px;
-        width: 100%;
-        max-width: 800px;
-    }
-
-    .property-images img {
-        width: calc(50% - 10px);
-        margin-bottom: 20px;
-        border-radius: 5px;
-    }
-
-    .sticky-container {
-        position: -webkit-sticky;
-        position: relative;
-
-        background-color: #ffffff;
-        padding: 10px;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        width: 300px;
-        margin: 10px;
-        max-height: 1700px;
-        overflow-y: auto;
-    }
-
-    .input-group {
-        margin-bottom: 1rem;
-    }
-
-    .input-group label {
-        display: block;
-        margin-bottom: 0.5rem;
-        font-weight: 600;
-        color: #4a5568;
-    }
-
-    input[type="number"],
-    input[type="text"],
-    input[type="email"],
-    textarea {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 20px;
-        border-radius: 5px;
-        border: 1px solid #cbd5e0;
-        font-size: 16px;
-    }
-
-    button {
-        width: 100%;
-        padding: 12px 20px;
-        border: none;
-        border-radius: 5px;
-        background-color: #005b52;
-        color: white;
-        font-size: 16px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-    }
-
-    button:hover {
-        background-color: #005b52;
-    }
-
-    #emiChart {
-        margin-top: 30px;
-        width: 100%;
-        height: 200px;
-    }
-
-    @media (max-width: 767px) {
-
-        .sticky-container,
-        .property-images img {
-            width: 100%;
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
-        .property-content,
-        .property-images img {
-            width: 100%;
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #edf2f7;
+            color: #333;
+
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            /* Add padding to the top of the body, assuming the navbar is at the top of the body */
+        }
+
+        h1 {
+            /* Gradient background for text */
+            font-size: 32px;
+            background: -webkit-linear-gradient(left, #005b52, #d39f51);
+            /* For Chrome and Safari */
+            background: linear-gradient(to right, #005b52, #d39f51);
+            /* Standard syntax */
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            /* Hide the original text color */
+            font-weight: bold;
+            /* Enhance the visual */
+
+            /* Add underline */
+            text-decoration: underline;
+        }
+
+        h2 {
+            /* Gradient background for text */
+            font-size: 30px;
+            background: -webkit-linear-gradient(left, #005b52, #d39f51);
+            /* For Chrome and Safari */
+            background: linear-gradient(to right, #005b52, #d39f51);
+            /* Standard syntax */
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            /* Hide the original text color */
+            font-weight: 600;
+            /* Enhance the visual */
+
+            /* Add underline */
+
         }
 
 
 
-        /* Add any additional mobile-specific styles here */
-        .property-location-map iframe {
+        .navbar {
+            width: 100%;
+            /* Ensures the navbar spans the full width */
+            background-color: #fff;
+            /* Assuming the navbar has a white background */
+            /* Add other styles for your navbar here */
+        }
+
+        .property-content {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
             width: 100%;
             max-width: 800px;
-            /* Adjust based on your layout's needs */
+        }
+
+        .property-images img {
+            width: calc(50% - 10px);
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .sticky-container {
+            position: -webkit-sticky;
+            position: relative;
+
+            background-color: #ffffff;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin: 10px;
+            max-height: 1700px;
+            overflow-y: auto;
+        }
+
+        .input-group {
+            margin-bottom: 1rem;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: #4a5568;
+        }
+
+        input[type="number"],
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #cbd5e0;
+            font-size: 16px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #005b52;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #005b52;
+        }
+
+        #emiChart {
+            margin-top: 30px;
+            width: 100%;
             height: 200px;
-            aspect-ratio: 16 / 9;
         }
 
-        @media (max-width: 768px) {
-            .property-location-map iframe {
-                height: 300px;
-                /* Adjust height for smaller devices */
+        @media (max-width: 767px) {
+
+            .sticky-container,
+            .property-images img {
+                width: 100%;
             }
+
+            .property-content,
+            .property-images img {
+                width: 100%;
+            }
+
+
+
+            /* Add any additional mobile-specific styles here */
+            .property-location-map iframe {
+                width: 100%;
+                max-width: 800px;
+                /* Adjust based on your layout's needs */
+                height: 200px;
+                aspect-ratio: 16 / 9;
+            }
+
+            @media (max-width: 768px) {
+                .property-location-map iframe {
+                    height: 300px;
+                    /* Adjust height for smaller devices */
+                }
+            }
+
         }
-
-    }
-</style>
+    </style>
 
 
 
- <?php
-    include './header.php';
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
 
@@ -437,108 +438,108 @@ Group. Call Real Estate Consultant Company in Noida +91-9732300007">
         }
     </script>
 
-   
-<style>
-    .beautiful-table {
-        width: 100%;
-        margin: 0 auto;
-        /* Center table */
-        border-collapse: collapse;
-        text-align: center;
-        border-radius: 10px;
-        overflow: hidden;
-        /* Ensures the border-radius applies to the table */
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        /* Soft shadow around the table */
-    }
 
-    .beautiful-table caption {
-        margin: 20px 0;
-        font-size: 24px;
-        font-weight: bold;
-        color: #2c3e50;
-        /* Dark blue color */
-        text-shadow: 1px 1px 0px #fff;
-        /* Slight white text shadow for depth */
-    }
+    <style>
+        .beautiful-table {
+            width: 100%;
+            margin: 0 auto;
+            /* Center table */
+            border-collapse: collapse;
+            text-align: center;
+            border-radius: 10px;
+            overflow: hidden;
+            /* Ensures the border-radius applies to the table */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            /* Soft shadow around the table */
+        }
 
-    .beautiful-table th,
-    .beautiful-table td {
-        padding: 10px 10px;
-        border: 1px solid #ddd;
-        /* Light gray border */
-        background-color: #f9f9f9;
-        /* Very light gray background */
-    }
-
-    @media (width < 500px) {
+        .beautiful-table caption {
+            margin: 20px 0;
+            font-size: 24px;
+            font-weight: bold;
+            color: #2c3e50;
+            /* Dark blue color */
+            text-shadow: 1px 1px 0px #fff;
+            /* Slight white text shadow for depth */
+        }
 
         .beautiful-table th,
         .beautiful-table td {
-            padding: 6px 8px;
+            padding: 10px 10px;
+            border: 1px solid #ddd;
+            /* Light gray border */
+            background-color: #f9f9f9;
+            /* Very light gray background */
         }
 
-        .beautiful-table {
-            font-size: 11px;
-            line-height: 1.6;
-            /* transform: translateX(-14px); */
+        @media (width < 500px) {
+
+            .beautiful-table th,
+            .beautiful-table td {
+                padding: 6px 8px;
+            }
+
+            .beautiful-table {
+                font-size: 11px;
+                line-height: 1.6;
+                /* transform: translateX(-14px); */
+            }
+
+            h1 {
+                text-align: center;
+            }
         }
 
-        h1 {
-            text-align: center;
+        .beautiful-table th {
+            background-color: whitesmoke;
+            /* Light blue background for headers */
+            color: black;
+            /* White text for headers */
+            text-shadow: none;
+            /* Remove text shadow for header */
         }
-    }
 
-    .beautiful-table th {
-        background-color: whitesmoke;
-        /* Light blue background for headers */
-        color: black;
-        /* White text for headers */
-        text-shadow: none;
-        /* Remove text shadow for header */
-    }
+        .arrow-list {
+            list-style-type: none;
+            /* Remove default list bullets */
+            padding: 0;
+        }
 
-    .arrow-list {
-        list-style-type: none;
-        /* Remove default list bullets */
-        padding: 0;
-    }
+        .arrow-list li {
+            padding-left: 20px;
+            /* Create space for the custom bullet */
+            position: relative;
+            /* Needed for absolute positioning of the pseudo-element */
+            margin-bottom: 10px;
+            /* Space between items */
+            color: #555;
+            /* Darker text color */
+        }
 
-    .arrow-list li {
-        padding-left: 20px;
-        /* Create space for the custom bullet */
-        position: relative;
-        /* Needed for absolute positioning of the pseudo-element */
-        margin-bottom: 10px;
-        /* Space between items */
-        color: #555;
-        /* Darker text color */
-    }
+        .arrow-list li::before {
+            content: '➔';
+            /* Arrow symbol or you can use an emoji or an SVG image */
+            position: absolute;
+            left: 0;
+            color: #005b52;
+            /* Light blue color matching the table headers */
+        }
 
-    .arrow-list li::before {
-        content: '➔';
-        /* Arrow symbol or you can use an emoji or an SVG image */
-        position: absolute;
-        left: 0;
-        color: #005b52;
-        /* Light blue color matching the table headers */
-    }
+        /* Optional: Add some styling to make it look better */
+        h2 {
+            color: #333;
+        }
 
-    /* Optional: Add some styling to make it look better */
-    h2 {
-        color: #333;
-    }
+        .beautiful-table,
+        .arrow-list li {
+            font-family: Arial, sans-serif;
+            /* Consistent, clean font */
+        }
 
-    .beautiful-table,
-    .arrow-list li {
-        font-family: Arial, sans-serif;
-        /* Consistent, clean font */
-    }
-
-    .sticky-container h2 {
-        margin-block: 2.3rem 1.4rem;
-    }
-</style>
+        .sticky-container h2 {
+            margin-block: 2.3rem 1.4rem;
+        }
+    </style>
 
 
     <!-- top heading -->
@@ -546,7 +547,7 @@ Group. Call Real Estate Consultant Company in Noida +91-9732300007">
     <div class="property-content">
         <h1>
 
-              Alibaug Abhinandan Villa Plots | The House of Abhinandan Lodha
+            Alibaug Abhinandan Villa Plots | The House of Abhinandan Lodha
 
 
 
@@ -614,7 +615,7 @@ Group. Call Real Estate Consultant Company in Noida +91-9732300007">
 
 
 
-  <?php
+        <?php
         include './carasol.php';
         ?>
 
@@ -778,7 +779,7 @@ Group. Call Real Estate Consultant Company in Noida +91-9732300007">
             </li>
 
 
-                These luxurious villa plots from House of Abhinandan Lodha feature <strong>prime land</strong> that is <strong>rare, scarce, and in demand</strong>.
+            These luxurious villa plots from House of Abhinandan Lodha feature <strong>prime land</strong> that is <strong>rare, scarce, and in demand</strong>.
 
             </li>
             <li>
@@ -851,11 +852,11 @@ Group. Call Real Estate Consultant Company in Noida +91-9732300007">
         </style><br>
 
 
-  <div class="property-summary">
+        <div class="property-summary">
             <h3 style="color: #005B52">RERA Details:</h3>
         </div>
         <p>
-           Alibaug Abhinandan Villa Plots | P52000049721, P52000052368
+            Alibaug Abhinandan Villa Plots | P52000049721, P52000052368
         </p>
         <p>*T&C Apply.</p>
         <br>
@@ -885,60 +886,60 @@ Group. Call Real Estate Consultant Company in Noida +91-9732300007">
 
 
         <br>
-        
-<div class="property-summary">
-    <h2 style="color: #005B52">Amenities</h2>
-</div>
-<br>
-<div class="amenities-grid">
-    <div class="amenity"><i class="fas fa-utensils"></i> Cafeteria/Food Court</div>
-    <div class="amenity"><i class="fas fa-bolt"></i> Power Backup</div>
-    <div class="amenity"><svg width="24px" height="24px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#009688">
-            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.43200000000000005"></g>
-            <g id="SVGRepo_iconCarrier">
-                <path d="M22.25 0.75H1.75C1.19772 0.75 0.75 1.19772 0.75 1.75V22.25C0.75 22.8023 1.19772 23.25 1.75 23.25H22.25C22.8023 23.25 23.25 22.8023 23.25 22.25V1.75C23.25 1.19772 22.8023 0.75 22.25 0.75Z" stroke="#009688" stroke-width="1.9440000000000002" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M6 23.25V10.5C6 10.3011 6.07902 10.1103 6.21967 9.96967C6.36032 9.82902 6.55109 9.75 6.75 9.75H17.25C17.4489 9.75 17.6397 9.82902 17.7803 9.96967C17.921 10.1103 18 10.3011 18 10.5V23.2101" stroke="#009688" stroke-width="1.9440000000000002" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M12 9.75V23.25" stroke="#009688" stroke-width="1.9440000000000002" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M14.0156 4.02124L15.4997 5.99999L16.9838 4.02124" stroke="#009688" stroke-width="1.9440000000000002" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M7.04247 5.94302L8.49975 3.99999L9.95703 5.94302" stroke="#009688" stroke-width="1.9440000000000002" stroke-linecap="round" stroke-linejoin="round"></path>
-            </g>
-        </svg> Lift</div>
-    <div class="amenity"><i class="fas fa-shield-alt"></i> Security</div>
-    <div class="amenity"><i class="fas fa-truck-loading"></i> Service/Good Lift</div>
-    <div class="amenity"><i class="fas fa-parking"></i> Visitor Parking</div>
-    <div class="amenity"><i class="fas fa-dumbbell"></i> Gymnasium</div>
-    <div class="amenity"><i class="fas fa-cloud-rain"></i> Rain Water Harvesting</div>
-    <div class="amenity"><i class="fas fa-wind"></i> Air Conditioned</div>
-    <div class="amenity"><i class="fas fa-house-damage"></i> Earthquake Resistant</div>
-    <div class="amenity"><i class="fas fa-lock"></i> Tier 3 Security System</div>
-    <div class="amenity"><i class="fas fa-tree"></i> Large Open Space</div>
-    <div class="amenity"><i class="fas fa-door-open"></i> Grand Entrance Lobby</div>
-    <div class="amenity"><i class="fas fa-child"></i> Kid Play Area</div>
-    <div class="amenity"><i class="fas fa-theater-masks"></i> Event Space & Amphitheatre</div>
-    <div class="amenity"><i class="fas fa-fire-extinguisher"></i> Fire Fighting Equipment</div>
-</div>
-<br>
-<br>
 
-<div class="mapcontainer">
-    <div class="property-summary">
-        <h2 style="color: #005B52">Location</h2>
-    </div>
-    <br><br>
-    <div style="text-decoration:none; overflow:hidden;max-width:100%;width:1000px;height:300px;">
-        <div id="embed-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" 
-        src="https://www.google.com/maps/embed/v1/place?q=aliaug+abhinandan&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="googlecoder" href="https://www.bootstrapskins.com/themes" id="authorize-maps-data">premium bootstrap themes</a>
-        <style>
-            #embed-map-canvas img {
-                max-width: none !important;
-                background: none !important;
-                font-size: inherit;
-                font-weight: inherit;
-            }
-        </style>
-    </div>
-</div>
+        <div class="property-summary">
+            <h2 style="color: #005B52">Amenities</h2>
+        </div>
+        <br>
+        <div class="amenities-grid">
+            <div class="amenity"><i class="fas fa-utensils"></i> Cafeteria/Food Court</div>
+            <div class="amenity"><i class="fas fa-bolt"></i> Power Backup</div>
+            <div class="amenity"><svg width="24px" height="24px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#009688">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.43200000000000005"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <path d="M22.25 0.75H1.75C1.19772 0.75 0.75 1.19772 0.75 1.75V22.25C0.75 22.8023 1.19772 23.25 1.75 23.25H22.25C22.8023 23.25 23.25 22.8023 23.25 22.25V1.75C23.25 1.19772 22.8023 0.75 22.25 0.75Z" stroke="#009688" stroke-width="1.9440000000000002" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M6 23.25V10.5C6 10.3011 6.07902 10.1103 6.21967 9.96967C6.36032 9.82902 6.55109 9.75 6.75 9.75H17.25C17.4489 9.75 17.6397 9.82902 17.7803 9.96967C17.921 10.1103 18 10.3011 18 10.5V23.2101" stroke="#009688" stroke-width="1.9440000000000002" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M12 9.75V23.25" stroke="#009688" stroke-width="1.9440000000000002" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M14.0156 4.02124L15.4997 5.99999L16.9838 4.02124" stroke="#009688" stroke-width="1.9440000000000002" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M7.04247 5.94302L8.49975 3.99999L9.95703 5.94302" stroke="#009688" stroke-width="1.9440000000000002" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                </svg> Lift</div>
+            <div class="amenity"><i class="fas fa-shield-alt"></i> Security</div>
+            <div class="amenity"><i class="fas fa-truck-loading"></i> Service/Good Lift</div>
+            <div class="amenity"><i class="fas fa-parking"></i> Visitor Parking</div>
+            <div class="amenity"><i class="fas fa-dumbbell"></i> Gymnasium</div>
+            <div class="amenity"><i class="fas fa-cloud-rain"></i> Rain Water Harvesting</div>
+            <div class="amenity"><i class="fas fa-wind"></i> Air Conditioned</div>
+            <div class="amenity"><i class="fas fa-house-damage"></i> Earthquake Resistant</div>
+            <div class="amenity"><i class="fas fa-lock"></i> Tier 3 Security System</div>
+            <div class="amenity"><i class="fas fa-tree"></i> Large Open Space</div>
+            <div class="amenity"><i class="fas fa-door-open"></i> Grand Entrance Lobby</div>
+            <div class="amenity"><i class="fas fa-child"></i> Kid Play Area</div>
+            <div class="amenity"><i class="fas fa-theater-masks"></i> Event Space & Amphitheatre</div>
+            <div class="amenity"><i class="fas fa-fire-extinguisher"></i> Fire Fighting Equipment</div>
+        </div>
+        <br>
+        <br>
+
+        <div class="mapcontainer">
+            <div class="property-summary">
+                <h2 style="color: #005B52">Location</h2>
+            </div>
+            <br><br>
+            <div style="text-decoration:none; overflow:hidden;max-width:100%;width:1000px;height:300px;">
+                <div id="embed-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0"
+                        src="https://www.google.com/maps/embed/v1/place?q=aliaug+abhinandan&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="googlecoder" href="https://www.bootstrapskins.com/themes" id="authorize-maps-data">premium bootstrap themes</a>
+                <style>
+                    #embed-map-canvas img {
+                        max-width: none !important;
+                        background: none !important;
+                        font-size: inherit;
+                        font-weight: inherit;
+                    }
+                </style>
+            </div>
+        </div>
 
 
 
@@ -1020,7 +1021,7 @@ Group. Call Real Estate Consultant Company in Noida +91-9732300007">
                 font-size: 20px;
                 cursor: pointer;
                 transition: transform 0.3s ease;
-                  color: #005B52;
+                color: #005B52;
             }
 
             .collapsed .arrow {
@@ -1241,7 +1242,7 @@ Group. Call Real Estate Consultant Company in Noida +91-9732300007">
 
     <!-- faq -->
 
-   <?php
+    <?php
     include './emi-calc-component.php';
     include './more-tags.php';
     include './footer.php';

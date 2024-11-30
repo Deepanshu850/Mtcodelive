@@ -244,7 +244,8 @@ Cochin International Airport, Pune Airport, Dabolim Airport" />
 
 
     <?php
-    include './header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
 
@@ -273,103 +274,103 @@ Cochin International Airport, Pune Airport, Dabolim Airport" />
                             <span>Posted on - 28 July, 2024</span>
                         </div>
                     </div>
-                    
-                    
-                       <p class="overview">
+
+
+                    <p class="overview">
                         Airports in India are blooming with top-notch facilities and hospitality and provide a seamless travelling experience. Let’s explore the details into the busiest airports in India by passenger traffic.
                     </p>
 
 
 
-                   <div class="tableOfContent">
-    <div class="header" onclick="">
-        <p id="fake-heading">
-            Table of Content
-        </p>
-        <button id="toggleButton">
-            <i class="bi bi-list"></i>
-        </button>
-    </div>
-    <div class="content open">
-        <a href="#heading-1">
-            1. Busiest Airports in India: Rising Aviation Industry
-        </a>
-        <a href="#heading-2">
-            2. Future of Aviation Industry in India
-        </a>
+                    <div class="tableOfContent">
+                        <div class="header" onclick="">
+                            <p id="fake-heading">
+                                Table of Content
+                            </p>
+                            <button id="toggleButton">
+                                <i class="bi bi-list"></i>
+                            </button>
+                        </div>
+                        <div class="content open">
+                            <a href="#heading-1">
+                                1. Busiest Airports in India: Rising Aviation Industry
+                            </a>
+                            <a href="#heading-2">
+                                2. Future of Aviation Industry in India
+                            </a>
 
-        <a href="#heading-3">
-            3. Top 10 Busiest Airports in India: Check the List!
+                            <a href="#heading-3">
+                                3. Top 10 Busiest Airports in India: Check the List!
 
-        </a>
-        <ul>
-            <li>
-                <a href="#subheading-3-1">
-                    3.1 Indira Gandhi International Airport
-                </a>
-            </li>
-            <li>
-                <a href="#subheading-3-2">
-                    3.2 Chhatrapati Shivaji Maharaj International Airport
-                </a>
-            </li>
-            <li>
-                <a href="#subheading-3-3">
-                    3.3 Kempegowda International Airport
-                </a>
-            </li>
-            <li>
-                <a href="#subheading-3-4">
-                    3.4 Rajiv Gandhi International Airport
-                </a>
-            </li>
-            <li>
-                <a href="#subheading-3-5">
-                    3.5 Chennai International Airport
-                </a>
-            </li>
-            <li>
-                <a href="#subheading-3-6">
-                    3.6 Netaji Subhash Chandra Bose International Airport
-                </a>
-            </li>
-            <li>
-                <a href="#subheading-3-7">
-                    3.7 Sardar Vallabhbhai International Airport
-                </a>
-            </li>
-            <li>
-                <a href="#subheading-3-8">
-                    3.8 Cochin International Airport
-                </a>
-            </li>
-            <li>
-                <a href="#subheading-3-9">
-                    3.9 Pune Airport
-                </a>
-            </li>
-            <li>
-                <a href="#subheading-3-10">
-                    3.10 Dabolim Airport
-                </a>
-            </li>
-        </ul>
+                            </a>
+                            <ul>
+                                <li>
+                                    <a href="#subheading-3-1">
+                                        3.1 Indira Gandhi International Airport
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#subheading-3-2">
+                                        3.2 Chhatrapati Shivaji Maharaj International Airport
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#subheading-3-3">
+                                        3.3 Kempegowda International Airport
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#subheading-3-4">
+                                        3.4 Rajiv Gandhi International Airport
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#subheading-3-5">
+                                        3.5 Chennai International Airport
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#subheading-3-6">
+                                        3.6 Netaji Subhash Chandra Bose International Airport
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#subheading-3-7">
+                                        3.7 Sardar Vallabhbhai International Airport
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#subheading-3-8">
+                                        3.8 Cochin International Airport
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#subheading-3-9">
+                                        3.9 Pune Airport
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#subheading-3-10">
+                                        3.10 Dabolim Airport
+                                    </a>
+                                </li>
+                            </ul>
 
-        <a href="#heading-4">
-            4. Tired of looking to buy property for sale?
+                            <a href="#heading-4">
+                                4. Tired of looking to buy property for sale?
 
-        </a>
-        <a href="#heading-5">
-            5. Frequently Asked Questions
-        </a>
-       
-    
-
-    </div>
-</div>
+                            </a>
+                            <a href="#heading-5">
+                                5. Frequently Asked Questions
+                            </a>
 
 
-                 
+
+                        </div>
+                    </div>
+
+
+
 
                     <h2 id="heading-1">Busiest Airports in India: Rising Aviation Industry</h2>
 
@@ -827,7 +828,7 @@ Cochin International Airport, Pune Airport, Dabolim Airport" />
 
 
 
-                     <p>Rajiv Gandhi International Airport is the <a href="./biggest-airports-in-india.php"><strong>biggest airport in India</strong></a> by area and is spread over 5,500 acres, serving as the major hub of various airlines like Amazon Air, Air India Express, Alliance Air, Blue dart Aviation, IndiGo, Star India and Vistara.</p>
+                    <p>Rajiv Gandhi International Airport is the <a href="./biggest-airports-in-india.php"><strong>biggest airport in India</strong></a> by area and is spread over 5,500 acres, serving as the major hub of various airlines like Amazon Air, Air India Express, Alliance Air, Blue dart Aviation, IndiGo, Star India and Vistara.</p>
 
 
 
@@ -968,7 +969,7 @@ Cochin International Airport, Pune Airport, Dabolim Airport" />
                         <img src="./assets/netaji-subhash-chandra-bose-international-ariport.webp" alt="Netaji Subhash Chandra Bose International Airport">
                     </div>
 
-<!--https://moneytreerealty.com/blog/assets/netaji-subhash-chandra-bose-international-ariport.webp-->
+                    <!--https://moneytreerealty.com/blog/assets/netaji-subhash-chandra-bose-international-ariport.webp-->
                     <p>Netaji Subhas Chandra Bose International Airport is the sixth busiest airport in India and serves the Capital of West Bengal - Kolkata and is the primary aviation hub for eastern and north-eastern India. It handles about 20 million passengers annually.</p>
 
 

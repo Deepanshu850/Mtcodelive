@@ -56,7 +56,7 @@ to inches, 77 cm to inches, 36 cm to inch, 75cm in inches, 20 cm in inches, 48 c
         })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
     </script>
     <!-- End Google Tag Manager -->
-      <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
+    <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
 
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
@@ -75,13 +75,14 @@ to inches, 77 cm to inches, 36 cm to inch, 75cm in inches, 20 cm in inches, 48 c
     </script>
     <!-- End Google Analytics -->
     <!--G-JZJY23MWW7-->
-    
+
 </head>
 
 <body>
 
     <?php
-    include './header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
     <main>
         <div class="flex-wrapper">
@@ -166,7 +167,7 @@ to inches, 77 cm to inches, 36 cm to inch, 75cm in inches, 20 cm in inches, 48 c
             ?>
         </div>
 
-       
+
         <section>
 
             <div class="links-list">
@@ -521,29 +522,29 @@ to inches, 77 cm to inches, 36 cm to inch, 75cm in inches, 20 cm in inches, 48 c
 
                             1 cm = 0.393701 inches
                             1 cm = 0.01 meters.
-                            
-                            
-                           
+
+
+
 
                         </td>
                         <td>
-                            
-1 inch = 2.54 centimeters
+
+                            1 inch = 2.54 centimeters
                             1 inch = 0.0254 meters.
                         </td>
                     </tr>
                     <tr>
                         <td>
-                          Centimeters are used for measuring smaller dimensions like furniture placement, interior fittings, and finishing work.
+                            Centimeters are used for measuring smaller dimensions like furniture placement, interior fittings, and finishing work.
                         </td>
                         <td>
-                           Inches, whereas, are used for measuring building materials like door and window dimensions.
+                            Inches, whereas, are used for measuring building materials like door and window dimensions.
 
 
 
                         </td>
                     </tr>
-                    
+
                 </table>
 
             </div>
@@ -628,7 +629,7 @@ to inches, 77 cm to inches, 36 cm to inch, 75cm in inches, 20 cm in inches, 48 c
 
 
 
-          
+
 
 
         </div>
@@ -642,8 +643,8 @@ to inches, 77 cm to inches, 36 cm to inch, 75cm in inches, 20 cm in inches, 48 c
     ?>
 
 
-  
- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

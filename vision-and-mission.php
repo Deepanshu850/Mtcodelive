@@ -49,7 +49,7 @@
     <link href="assets/css/boxicons.min.css" rel="stylesheet">
     <link href="assets/css/nice-select.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
- <link rel="canonical" href="https://moneytreerealty.com/vision-and-mission.php" />
+    <link rel="canonical" href="https://moneytreerealty.com/vision-and-mission.php" />
 
     <link rel="icon" href="assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
@@ -180,8 +180,9 @@
 
 
 
- <?php
-    include './header.php';
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
 
@@ -384,12 +385,12 @@
 <div class="elfsight-app-04e04a55-db1c-4a83-89b1-2113f1db25ae" data-elfsight-app-lazy></div> -->
 
     </div>
-    
-    
-       <?php
-        include './more-tags.php';
-        include './footer.php';
-        ?>
+
+
+    <?php
+    include './more-tags.php';
+    include './footer.php';
+    ?>
 
 
 

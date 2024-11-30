@@ -33,50 +33,49 @@
     <meta property="og:type" content="property">
 
     <link rel="canonical" href="https://moneytreerealty.com/converters/square-feet-to-acre" />
-    
-    
-    
-    
+
+
+
+
     <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How many sq ft for one Square Feet?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "1 Square Feet is approximately equal to 107639.147 sq ft."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much is 1 acre?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "1 acre of land is equal to 4046.86 sq meters, or 4840 sq yd, or 1.6133 bigha, or 100 cent."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How many katha in one acre?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "1 acre is equal to 32 katha."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How to calculate square feet to acre?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To convert square feet into acres, you just need to multiply the unit by 0.000023."
-      }
-    }
-  ]
-}
-</script>
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+                    "@type": "Question",
+                    "name": "How many sq ft for one Square Feet?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1 Square Feet is approximately equal to 107639.147 sq ft."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is 1 acre?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1 acre of land is equal to 4046.86 sq meters, or 4840 sq yd, or 1.6133 bigha, or 100 cent."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many katha in one acre?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1 acre is equal to 32 katha."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How to calculate square feet to acre?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "To convert square feet into acres, you just need to multiply the unit by 0.000023."
+                    }
+                }
+            ]
+        }
+    </script>
 
 
     <!-- Google Tag Manager -->
@@ -97,7 +96,7 @@
         })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
     </script>
     <!-- End Google Tag Manager -->
-     <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
+    <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
 
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
@@ -117,13 +116,14 @@
     </script>
     <!-- End Google Analytics -->
     <!--G-JZJY23MWW7-->
-    
+
 </head>
 
 <body>
 
     <?php
-    include './header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
     <main>
         <div class="flex-wrapper">
@@ -142,7 +142,7 @@
 
                 <canvas id="conversionChart"></canvas>
             </div>
-           
+
             <script>
                 function convertSquareFeetToAcre() {
                     const input = document.getElementById("input").value;
@@ -206,7 +206,7 @@
 
             ?>
         </div>
-          
+
         <section>
 
             <div class="links-list">
@@ -387,7 +387,7 @@
                     Square Feet to Acre Conversion Formula
 
                 </h3>
-              
+
                 <p class="random-p">
 
                     Acre = (Square Feet) x 0.000023
@@ -727,7 +727,7 @@
 
 
 
-          
+
 
 
         </div>
@@ -740,7 +740,7 @@
     ?>
 
 
- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

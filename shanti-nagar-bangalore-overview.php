@@ -138,7 +138,7 @@ shanti nagar bangalore" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <link href="./assets/css/nice-select.css" rel="stylesheet">
     <link rel="icon" href="./assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
-     <link rel="stylesheet" href="./assets/css/property-page.css">
+    <link rel="stylesheet" href="./assets/css/property-page.css">
 
 
 
@@ -165,7 +165,8 @@ shanti nagar bangalore" />
 
 
 
-    <?php include './header.php';  ?>
+    <?php set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';  ?>
 
 
     <!-- main content -->
@@ -221,7 +222,7 @@ shanti nagar bangalore" />
 
                 </div>
             </div>
-            
+
             <h2 id="heading-1">Shanti Nagar Bangalore - Quick Insights</h2>
 
             <p>Bangalore, Karnataka, India - 560027</p>

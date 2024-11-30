@@ -35,7 +35,7 @@
 
     <link rel="canonical" href="https://moneytreerealty.com/converters/emi-calculator" />
 
-    
+
 
     <!-- Google Tag Manager -->
     <script>
@@ -55,7 +55,7 @@
         })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
     </script>
     <!-- End Google Tag Manager -->
-     <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
+    <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
 
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
@@ -74,19 +74,20 @@
     </script>
     <!-- End Google Analytics -->
     <!--G-JZJY23MWW7-->
-   
+
 </head>
 
 <body>
 
     <?php
-    include './header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
     <main>
         <div class="flex-wrapper">
 
 
-         
+
             <div class="container">
                 <h1>EMI Calculator</h1>
 
@@ -106,7 +107,7 @@
                 </p>
                 <canvas id="emiChart"></canvas>
             </div>
-            
+
             <script>
                 function calculateEMI() {
                     const principal = parseFloat(document.getElementById("principal").value);
@@ -188,7 +189,7 @@
 
 
 
- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

@@ -263,7 +263,8 @@
 
 
     <?php
-    include './header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
 
@@ -728,17 +729,17 @@
                             top: 5px;
                             font-size: 19px;
                         }
-                        
-                        .custom-list li h2 + h3 {
+
+                        .custom-list li h2+h3 {
                             margin-top: 0.5rem;
                             font-size: 18px;
                         }
-                        
+
                         @media (width < 700px) {
                             .custom-list {
                                 padding-left: 0;
                             }
-                            
+
                         }
                     </style>
 

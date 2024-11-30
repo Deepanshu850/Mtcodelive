@@ -32,45 +32,44 @@
     <link rel="canonical" href="https://moneytreerealty.com/converters/square-meter-to-square-feet" />
 
 
- <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
+    <script type="application/ld+json">
         {
-          "@type": "Question",
-          "name": "How many sq ft for one sq meter?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "1 Square meter is approximately equal to 10.7639 sq ft."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How many Square meters is 1 acre?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "1 acre is equal to 4046.86 sq meters."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How to calculate Square meter to Square feet?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "To convert square meter into square feet, you just need to multiply the unit by 10.764."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much is 1 square feet?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "1 square feet is approximately equal to 143.99 sq inch, or 0.000009 hectare, or 0.111111 Square yards."
-          }
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+                    "@type": "Question",
+                    "name": "How many sq ft for one sq meter?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1 Square meter is approximately equal to 10.7639 sq ft."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many Square meters is 1 acre?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1 acre is equal to 4046.86 sq meters."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How to calculate Square meter to Square feet?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "To convert square meter into square feet, you just need to multiply the unit by 10.764."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is 1 square feet?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1 square feet is approximately equal to 143.99 sq inch, or 0.000009 hectare, or 0.111111 Square yards."
+                    }
+                }
+            ]
         }
-      ]
-    }
     </script>
 
     <!-- Google Tag Manager -->
@@ -91,7 +90,7 @@
         })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
     </script>
     <!-- End Google Tag Manager -->
-      <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
+    <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
 
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
@@ -110,13 +109,14 @@
     </script>
     <!-- End Google Analytics -->
     <!--G-JZJY23MWW7-->
-    
+
 </head>
 
 <body>
 
     <?php
-    include './header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
     <main>
         <div class="flex-wrapper">
@@ -137,7 +137,7 @@
 
                 <canvas id="conversionChart"></canvas>
             </div>
-           
+
             <script>
                 function convertSquareMeterToSquareCentimeter() {
                     const input = document.getElementById("input").value;
@@ -203,8 +203,8 @@
 
             ?>
         </div>
-      
-   
+
+
         <section>
 
             <div class="links-list">
@@ -405,7 +405,7 @@
 
 
                 </h3>
-                
+
                 <p class="random-p">
 
                     Square Feet = (Square Meter) x 10.764
@@ -704,7 +704,7 @@
 
             </h3>
 
-          
+
 
             <ul class="faq-list">
                 <li class="faq">
@@ -767,7 +767,7 @@
 
 
 
-           
+
 
         </div>
     </main>
@@ -780,7 +780,7 @@
 
 
 
- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

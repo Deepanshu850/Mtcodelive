@@ -164,7 +164,8 @@ distance" />
 
 
 
-    <?php include './header.php';  ?>
+    <?php set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';  ?>
 
 
     <!-- main content -->
@@ -498,7 +499,7 @@ distance" />
                         <td>
                             <p><strong>Bhumika Chemist &amp; Cosmetics</strong></p>
 
-                            
+
                         </td>
                         <td>
                             <p>7 min</p>
@@ -1200,7 +1201,7 @@ distance" />
                             rating: 4,
                             name: "Priyanka"
                         },
-                       
+
                         {
                             text: "Govindpuri Main has excellent connectivity to the nearby metro station and Okhla Industrial Area, making it a prime location.",
                             rating: 4,

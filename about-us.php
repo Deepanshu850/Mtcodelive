@@ -182,8 +182,9 @@
 
 
 
- <?php
-    include './header.php';
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
 
@@ -243,8 +244,8 @@
                                 <div class="number">
                                     <h2>14</h2>
                                 </div>
-                                <h5>  <br>
-                                   Years Of Experience</h5>
+                                <h5> <br>
+                                    Years Of Experience</h5>
                             </div>
                         </div>
                     </div>
@@ -264,36 +265,36 @@
                         </div>
 
                         <p>
-                           <strong>Sachin Arora</strong> is an entrepreneur, author, mentor, realtor, public speaker and
-career coach. With over 14 years' experience in the real estate market, he manages
-his dream venture ‘MoneyTree Realty Services Pvt. Ltd.’ which has more than 300
-professionals, including them in his one extended family.
-<br><br>
+                            <strong>Sachin Arora</strong> is an entrepreneur, author, mentor, realtor, public speaker and
+                            career coach. With over 14 years' experience in the real estate market, he manages
+                            his dream venture ‘MoneyTree Realty Services Pvt. Ltd.’ which has more than 300
+                            professionals, including them in his one extended family.
+                            <br><br>
 
-He ventured into the real estate industry as a joint-level associate in 2010 after
-completing an MBA at JIMS and qualifying for the CA-Intermediate. Throughout his
-career, he has worked with hundreds of professionals in the real estate market
-hailing from different parts of the country and overseas, including both small as
-well as large enterprises. With an in-born passion to achieve greater heights in life,
-he worked his way to become the most sought-after player in the real estate
-market and established himself as an icon.
-<br><br>
+                            He ventured into the real estate industry as a joint-level associate in 2010 after
+                            completing an MBA at JIMS and qualifying for the CA-Intermediate. Throughout his
+                            career, he has worked with hundreds of professionals in the real estate market
+                            hailing from different parts of the country and overseas, including both small as
+                            well as large enterprises. With an in-born passion to achieve greater heights in life,
+                            he worked his way to become the most sought-after player in the real estate
+                            market and established himself as an icon.
+                            <br><br>
 
-With the mindset of ‘give more than you take’, he's on track to educate and inspire
-young enthusiasts like him to achieve greater heights. He trains and provides his
-valuable insights to more than 300 real estate industrialists on a daily basis. Taking
-it a step further, he published a book ‘Thank Me Later’, a career guide that contains
-his 14 years of experience for people interested in pursuing a career in real estate
-as well as in the corporate world. With over 10,000 copies sold out, the book
-narrates a story that connects with every sales professional coming from a small
-town to ace their career and inspires them to overcome every challenge to become
-a stronger version of themselves.
-<br><br>
+                            With the mindset of ‘give more than you take’, he's on track to educate and inspire
+                            young enthusiasts like him to achieve greater heights. He trains and provides his
+                            valuable insights to more than 300 real estate industrialists on a daily basis. Taking
+                            it a step further, he published a book ‘Thank Me Later’, a career guide that contains
+                            his 14 years of experience for people interested in pursuing a career in real estate
+                            as well as in the corporate world. With over 10,000 copies sold out, the book
+                            narrates a story that connects with every sales professional coming from a small
+                            town to ace their career and inspires them to overcome every challenge to become
+                            a stronger version of themselves.
+                            <br><br>
 
 
-Taking time out from his busy schedule, he loves to read books regarding business
-and takes immense enjoyment in writing about his experience as a real estate
-professional.
+                            Taking time out from his busy schedule, he loves to read books regarding business
+                            and takes immense enjoyment in writing about his experience as a real estate
+                            professional.
 
 
 
@@ -308,102 +309,102 @@ professional.
             </div>
         </div>
     </div>
-      <div class="why-choose-area pt-90 pb-40 mb-100">
-            <div class="container">
-                <div class="row mb-50 wow fadeInUp" data-wow-delay="200ms">
-                    <div class="col-lg-12 d-flex justify-content-center">
-                        <div class="section-title1 text-center">
-                            <h2>Why Only MoneyTree Realty</h2>
-                        </div>
+    <div class="why-choose-area pt-90 pb-40 mb-100">
+        <div class="container">
+            <div class="row mb-50 wow fadeInUp" data-wow-delay="200ms">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <div class="section-title1 text-center">
+                        <h2>Why Only MoneyTree Realty</h2>
                     </div>
                 </div>
-                <div class="row mb-50 g-4 justify-content-center">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms">
-                        <div class="choose-card">
-                            <div class="choose-top">
-                                <div class="choose-icon"> <img src="assets/img/home1/icon/affordable.svg" alt> </div>
-                                <h5><span>Why Trust </span> MoneyTree Realty</h5>
-                            </div>
-                            <p>
-                                MoneyTree Realty is the Best Real Estate Consultant in Delhi/NCR with a record number of sales through sustaining quality of service with each sale with the help of our dedicated property consultant.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
-                        <div class="choose-card">
-                            <div class="choose-top">
-                                <div class="choose-icon"> <img src="assets/img/home1/icon/guarantee.svg" alt> </div>
-                                <h5>Customer <span>Oriented</span></h5>
-                            </div>
-                            <p>What makes us the best real estate consultant In Delhi/NCR is our client-centric approach. Our group of property consultant takes into consideration your unique style, budget and other preferences and ensures to present you with properties that match your preferences.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms">
-                        <div class="choose-card">
-                            <div class="choose-top">
-                                <div class="choose-icon"> <img src="assets/img/home1/icon/warranty.svg" alt> </div>
-                                <h5><span>Tech</span> Enabled</h5>
-                            </div>
-                            <p>Discover your dream property with us. Explore listings that match your lifestyle and budget, from modern city apartments to cozy country homes. Let the Best Real Estate Consultant In Delhi/NCR guide you to your dream home.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="our-activetis">
-                    <div class="row justify-content-center g-lg-4 gy-5">
-                        <div class="col-lg-3 col-sm-4 col-sm-6 divider d-flex justify-content-lg-start justify-content-sm-center wow fadeInUp" data-wow-delay="200ms">
-                            <div class="single-activiti">
-                                <div class="icon"> <img src="assets/img/home1/icon/av-project.svg" alt> </div>
-                                <div class="content">
-                                    <div class="number">
-                                        <h5 class="counter">46</h5>
-                                        <span>+</span>
-                                    </div>
-                                    <p>Project Available</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-4 col-sm-6 divider d-flex justify-content-sm-center wow fadeInUp" data-wow-delay="300ms">
-                            <div class="single-activiti">
-                                <div class="icon"> <img src="assets/img/home1/icon/sold-car.svg" alt> </div>
-                                <div class="content">
-                                    <div class="number">
-                                        <h5 class="counter">25079</h5>
-                                        <span>+</span>
-                                    </div>
-                                    <p>Units Sold</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-4 col-sm-6 divider d-flex justify-content-sm-center wow fadeInUp" data-wow-delay="400ms">
-                            <div class="single-activiti">
-                                <div class="icon"> <img src="assets/img/home1/icon/new-home.svg" alt> </div>
-                                <div class="content">
-                                    <div class="number">
-                                        <h5 class="counter">10,576</h5>
-                                        <span>+</span>
-                                    </div>
-                                    <p>Happy Family</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-4 col-sm-6 d-flex justify-content-lg-end justify-content-sm-center wow fadeInUp" data-wow-delay="500ms">
-                            <div class="single-activiti">
-                                <div class="icon"> <img src="assets/img/home1/icon/happy-customar.svg" alt> </div>
-                                <div class="content">
-                                    <div class="number">
-                                        <h5 class="counter">93.60</h5>
-                                        <span>%</span>
-                                    </div>
-                                    <p>Customer Satisfaction</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
+            <div class="row mb-50 g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                    <div class="choose-card">
+                        <div class="choose-top">
+                            <div class="choose-icon"> <img src="assets/img/home1/icon/affordable.svg" alt> </div>
+                            <h5><span>Why Trust </span> MoneyTree Realty</h5>
+                        </div>
+                        <p>
+                            MoneyTree Realty is the Best Real Estate Consultant in Delhi/NCR with a record number of sales through sustaining quality of service with each sale with the help of our dedicated property consultant.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="choose-card">
+                        <div class="choose-top">
+                            <div class="choose-icon"> <img src="assets/img/home1/icon/guarantee.svg" alt> </div>
+                            <h5>Customer <span>Oriented</span></h5>
+                        </div>
+                        <p>What makes us the best real estate consultant In Delhi/NCR is our client-centric approach. Our group of property consultant takes into consideration your unique style, budget and other preferences and ensures to present you with properties that match your preferences.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms">
+                    <div class="choose-card">
+                        <div class="choose-top">
+                            <div class="choose-icon"> <img src="assets/img/home1/icon/warranty.svg" alt> </div>
+                            <h5><span>Tech</span> Enabled</h5>
+                        </div>
+                        <p>Discover your dream property with us. Explore listings that match your lifestyle and budget, from modern city apartments to cozy country homes. Let the Best Real Estate Consultant In Delhi/NCR guide you to your dream home.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="our-activetis">
+                <div class="row justify-content-center g-lg-4 gy-5">
+                    <div class="col-lg-3 col-sm-4 col-sm-6 divider d-flex justify-content-lg-start justify-content-sm-center wow fadeInUp" data-wow-delay="200ms">
+                        <div class="single-activiti">
+                            <div class="icon"> <img src="assets/img/home1/icon/av-project.svg" alt> </div>
+                            <div class="content">
+                                <div class="number">
+                                    <h5 class="counter">46</h5>
+                                    <span>+</span>
+                                </div>
+                                <p>Project Available</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4 col-sm-6 divider d-flex justify-content-sm-center wow fadeInUp" data-wow-delay="300ms">
+                        <div class="single-activiti">
+                            <div class="icon"> <img src="assets/img/home1/icon/sold-car.svg" alt> </div>
+                            <div class="content">
+                                <div class="number">
+                                    <h5 class="counter">25079</h5>
+                                    <span>+</span>
+                                </div>
+                                <p>Units Sold</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4 col-sm-6 divider d-flex justify-content-sm-center wow fadeInUp" data-wow-delay="400ms">
+                        <div class="single-activiti">
+                            <div class="icon"> <img src="assets/img/home1/icon/new-home.svg" alt> </div>
+                            <div class="content">
+                                <div class="number">
+                                    <h5 class="counter">10,576</h5>
+                                    <span>+</span>
+                                </div>
+                                <p>Happy Family</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4 col-sm-6 d-flex justify-content-lg-end justify-content-sm-center wow fadeInUp" data-wow-delay="500ms">
+                        <div class="single-activiti">
+                            <div class="icon"> <img src="assets/img/home1/icon/happy-customar.svg" alt> </div>
+                            <div class="content">
+                                <div class="number">
+                                    <h5 class="counter">93.60</h5>
+                                    <span>%</span>
+                                </div>
+                                <p>Customer Satisfaction</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
+    </div>
     <!-- <div class="brief-history-section mb-100">
   <div class="container">
     <div class="row mb-50 wow fadeInUp" data-wow-delay="200ms">
@@ -554,16 +555,16 @@ professional.
 <div class="elfsight-app-04e04a55-db1c-4a83-89b1-2113f1db25ae" data-elfsight-app-lazy></div> -->
 
     </div>
-    
- 
-           <?php
-        include './more-tags.php';
-        include './footer.php';
-        ?>
 
 
-   
-   
+    <?php
+    include './more-tags.php';
+    include './footer.php';
+    ?>
+
+
+
+
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="assets/js/jquery-3.7.0.min.js"></script>
     <script src="assets/js/jquery-ui.js"></script>

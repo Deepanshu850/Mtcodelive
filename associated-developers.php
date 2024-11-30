@@ -2,37 +2,37 @@
 <html lang="en">
 
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0">
 
-<title>Top Associated Developers in Delhi/NCR - MoneyTree Realty</title>
-<meta name="description" content="Discover leading real estate developers in Delhi/NCR partnered with MoneyTree Realty. Explore innovative projects and investment opportunities with trusted developers." />
-<meta name="keywords" content="Associated Developers, Real Estate Developers Delhi/NCR, MoneyTree Realty Partnerships, Real Estate Investment, Property Development Projects" />
+    <title>Top Associated Developers in Delhi/NCR - MoneyTree Realty</title>
+    <meta name="description" content="Discover leading real estate developers in Delhi/NCR partnered with MoneyTree Realty. Explore innovative projects and investment opportunities with trusted developers." />
+    <meta name="keywords" content="Associated Developers, Real Estate Developers Delhi/NCR, MoneyTree Realty Partnerships, Real Estate Investment, Property Development Projects" />
 
-<meta name="Owner" content="Moneytreerealty.com" />
-<meta name="Copyright" content="Moneytreereal.com" />
-<meta name="classification" content="Real Estate Development and Partnerships" />
-<meta name="distribution" content="India" />
-<meta name="rating" content="General" />
-<meta name="subject" content="Explore Associated Developers and Projects with MoneyTree Realty. Find Opportunities for Real Estate Investment and Development in Delhi/NCR." />
-<meta name="audience" content="Investors, Homebuyers, Real Estate Enthusiasts" />
+    <meta name="Owner" content="Moneytreerealty.com" />
+    <meta name="Copyright" content="Moneytreereal.com" />
+    <meta name="classification" content="Real Estate Development and Partnerships" />
+    <meta name="distribution" content="India" />
+    <meta name="rating" content="General" />
+    <meta name="subject" content="Explore Associated Developers and Projects with MoneyTree Realty. Find Opportunities for Real Estate Investment and Development in Delhi/NCR." />
+    <meta name="audience" content="Investors, Homebuyers, Real Estate Enthusiasts" />
 
     <!-- Google Tag Manager -->
     <script>
-    (function(w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            'gtm.start': new Date().getTime(),
-            event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s),
-            dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
-            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
     </script>
     <!-- End Google Tag Manager -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -57,13 +57,13 @@
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-JZJY23MWW7"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
+        window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'G-JZJY23MWW7');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-JZJY23MWW7');
     </script>
     <!-- End Google Analytics -->
     <!--G-JZJY23MWW7-->
@@ -75,91 +75,91 @@
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <style>
-    * {
-        margin: 0;
-        padding: 0;
-    }
+        * {
+            margin: 0;
+            padding: 0;
+        }
 
-    .s-soft {
-        display: block;
-        position: fixed;
-        top: 250px;
-        /* left: 10px; */
-        z-index: 1000;
-        transition: all linear 0.2s;
-    }
-
-    .s-soft a:first-child {
-        border-radius: 0 5px 0 0;
-    }
-
-    .s-soft a:last-child {
-        border-radius: 0 0 5px 0;
-    }
-
-    .s-item {
-        display: block;
-        width: 40px;
-        height: 40px;
-        color: white;
-        font-size: 15px;
-        line-height: 30px;
-        text-align: center;
-        transition: all linear 0.2s;
-    }
-
-    .s-item:hover {
-        width: 55px;
-        border-radius: 0px 20px 20px 0px;
-    }
-
-    #so-open {
-        display: block;
-        position: fixed;
-        top: 100px;
-        left: -90px;
-        border-radius: 0 30px 30px 0;
-        transition: all linear 0.2s;
-    }
-
-    .facebook {
-        background-color: #3b5999;
-    }
-
-    .twitter {
-        background-color: #3AAFD6;
-    }
-
-    .print {
-        background-color: #de3c7d;
-    }
-
-    .pinterest {
-        background-color: #BD081C;
-    }
-
-    .linkedin {
-        background-color: #0e76a8;
-    }
-
-    .instagram {
-        background-color: #ed006f;
-    }
-
-    .so-collapse {
-        left: -30px;
-    }
-
-    /* Media Query to hide the sidebar on screens with a maximum width of 767 pixels */
-    @media (max-width: 767px) {
         .s-soft {
-            display: none;
+            display: block;
+            position: fixed;
+            top: 250px;
+            /* left: 10px; */
+            z-index: 1000;
+            transition: all linear 0.2s;
+        }
+
+        .s-soft a:first-child {
+            border-radius: 0 5px 0 0;
+        }
+
+        .s-soft a:last-child {
+            border-radius: 0 0 5px 0;
+        }
+
+        .s-item {
+            display: block;
+            width: 40px;
+            height: 40px;
+            color: white;
+            font-size: 15px;
+            line-height: 30px;
+            text-align: center;
+            transition: all linear 0.2s;
+        }
+
+        .s-item:hover {
+            width: 55px;
+            border-radius: 0px 20px 20px 0px;
         }
 
         #so-open {
-            display: none;
+            display: block;
+            position: fixed;
+            top: 100px;
+            left: -90px;
+            border-radius: 0 30px 30px 0;
+            transition: all linear 0.2s;
         }
-    }
+
+        .facebook {
+            background-color: #3b5999;
+        }
+
+        .twitter {
+            background-color: #3AAFD6;
+        }
+
+        .print {
+            background-color: #de3c7d;
+        }
+
+        .pinterest {
+            background-color: #BD081C;
+        }
+
+        .linkedin {
+            background-color: #0e76a8;
+        }
+
+        .instagram {
+            background-color: #ed006f;
+        }
+
+        .so-collapse {
+            left: -30px;
+        }
+
+        /* Media Query to hide the sidebar on screens with a maximum width of 767 pixels */
+        @media (max-width: 767px) {
+            .s-soft {
+                display: none;
+            }
+
+            #so-open {
+                display: none;
+            }
+        }
     </style>
 
     <div class="s-soft">
@@ -181,18 +181,19 @@
 
 
 
- <?php
-    include './header.php';
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
 
 
 
-   
-   
-   
-   
-   
+
+
+
+
+
     <div class="inner-page-banner">
         <div class="banner-wrapper">
             <div class="container-fluid">
@@ -286,16 +287,16 @@
 <div class="elfsight-app-04e04a55-db1c-4a83-89b1-2113f1db25ae" data-elfsight-app-lazy></div> -->
 
     </div>
-    
-    
-        <?php
-        include './more-tags.php';
-        include './footer.php';
-        ?>
 
 
- 
-    
+    <?php
+    include './more-tags.php';
+    include './footer.php';
+    ?>
+
+
+
+
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="assets/js/jquery-3.7.0.min.js"></script>
     <script src="assets/js/jquery-ui.js"></script>
@@ -316,22 +317,22 @@
     <script src="assets/js/jquery.fancybox.min.js"></script>
     <script src="assets/js/custom.js"></script>
     <script>
-    $(".marquee_text").marquee({
-        direction: "left",
-        duration: 25000,
-        gap: 50,
-        delayBeforeStart: 0,
-        duplicated: true,
-        startVisible: true,
-    });
-    $(".marquee_text2").marquee({
-        direction: "left",
-        duration: 25000,
-        gap: 50,
-        delayBeforeStart: 0,
-        duplicated: true,
-        startVisible: true,
-    });
+        $(".marquee_text").marquee({
+            direction: "left",
+            duration: 25000,
+            gap: 50,
+            delayBeforeStart: 0,
+            duplicated: true,
+            startVisible: true,
+        });
+        $(".marquee_text2").marquee({
+            direction: "left",
+            duration: 25000,
+            gap: 50,
+            delayBeforeStart: 0,
+            duplicated: true,
+            startVisible: true,
+        });
     </script>
 </body>
 

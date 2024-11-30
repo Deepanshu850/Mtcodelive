@@ -61,48 +61,48 @@
 
     <link rel="canonical" href="https://moneytreerealty.com/top-channel-partner-in-real-estate" />
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [{
-    "@type": "Question",
-    "name": "What is a Channel Partner in Real Estate?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "A Channel Partner in Real Estate acts as collaborator between builders and clients looking to buy property for sale through implying their own sales and marketing strategies."
-    }
-  },{
-    "@type": "Question",
-    "name": "How do you become a Channel Partner in Real Estate?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "To become a sales associate at a Channel Partner in Real Estate you need to research potential channel partners, obtain necessary skills and experience in real estate, and build a network of people."
-    }
-  },{
-    "@type": "Question",
-    "name": "What does a Channel Partner do?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "A Channel Partner in Real Estate bridges the gap between builders and real estate investors looking to acquire an asset for wealth creation. They provide comprehensive analysis on properties and market trends for a promising real estate investment."
-    }
-  },{
-    "@type": "Question",
-    "name": "How do Channel Partners make money?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "A Channel Partner in Real Estate collaborate with various builders and offer a diverse portfolio of properties and earn a commission with each sale. They may also earn by providing consultancy services and training support."
-    }
-  },{
-    "@type": "Question",
-    "name": "What is the difference between a Channel Partner in Real Estate and a broker/Reseller?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "A Channel Partner in Real Estate works in association with the builders and the clients whereas a broker works in a particular region or locality and mostly deals in already built projects."
-    }
-  }]
-}
-</script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+                "@type": "Question",
+                "name": "What is a Channel Partner in Real Estate?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A Channel Partner in Real Estate acts as collaborator between builders and clients looking to buy property for sale through implying their own sales and marketing strategies."
+                }
+            }, {
+                "@type": "Question",
+                "name": "How do you become a Channel Partner in Real Estate?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "To become a sales associate at a Channel Partner in Real Estate you need to research potential channel partners, obtain necessary skills and experience in real estate, and build a network of people."
+                }
+            }, {
+                "@type": "Question",
+                "name": "What does a Channel Partner do?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A Channel Partner in Real Estate bridges the gap between builders and real estate investors looking to acquire an asset for wealth creation. They provide comprehensive analysis on properties and market trends for a promising real estate investment."
+                }
+            }, {
+                "@type": "Question",
+                "name": "How do Channel Partners make money?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A Channel Partner in Real Estate collaborate with various builders and offer a diverse portfolio of properties and earn a commission with each sale. They may also earn by providing consultancy services and training support."
+                }
+            }, {
+                "@type": "Question",
+                "name": "What is the difference between a Channel Partner in Real Estate and a broker/Reseller?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A Channel Partner in Real Estate works in association with the builders and the clients whereas a broker works in a particular region or locality and mostly deals in already built projects."
+                }
+            }]
+        }
+    </script>
 
     <!-- Google Tag Manager -->
     <script>
@@ -273,7 +273,8 @@
 
 
 
-    <?php include './header.php';  ?>
+    <?php set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';  ?>
 
 
 
@@ -507,7 +508,7 @@
 
                     width: 87%;
                     border-radius: 8px;
-                    
+
                     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 
                 }
@@ -1282,10 +1283,10 @@
                 <div class="arrow collapsed">&#9660;</div>
             </div>
 
- <div class="faq">
+            <div class="faq">
 
                 <h3>
-                   Who is the CEO of top channel partner?
+                    Who is the CEO of top channel partner?
 
                 </h3>
                 <div class="answer">

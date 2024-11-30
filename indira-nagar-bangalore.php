@@ -166,7 +166,8 @@ indira nagar station, indira nagar bangalore map, indira nagar colony, flats in 
 
 
 
-    <?php include './header.php';  ?>
+    <?php set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';  ?>
 
 
     <!-- main content -->

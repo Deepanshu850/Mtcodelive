@@ -143,7 +143,8 @@ estate an investment, best city to invest in real estate in india" />
 
 
     <?php
-    include './header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
     <style>

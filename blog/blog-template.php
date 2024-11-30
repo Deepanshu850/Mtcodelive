@@ -37,7 +37,7 @@
 
     <link rel="canonical" href="https://moneytreerealty.com/blog/how-to-invest-in-real-estate-in-india" />
 
-    
+
 
 
     <!-- Google Tag Manager -->
@@ -90,7 +90,8 @@
 
 
     <?php
-    include './header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
     <style>

@@ -124,7 +124,8 @@ in Noida" />
 
 
     <?php
-    include './header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
 
@@ -338,7 +339,7 @@ in Noida" />
             </tbody>
         </table>
 
-        <p>Devika VIBE Panache Bazaar in Sector 110 Noida  offers various types of commercial spaces in:</p>
+        <p>Devika VIBE Panache Bazaar in Sector 110 Noida offers various types of commercial spaces in:</p>
 
         <ul class="arrow-list">
             <li>Devika VIBE Panache Bazaar features retail shops</li>

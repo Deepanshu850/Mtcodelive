@@ -238,7 +238,8 @@ estate property in Noida, Food court Investment in Noida " />
 
 
     <?php
-    include './header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
 

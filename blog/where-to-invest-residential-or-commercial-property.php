@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimum-scale=1.0">
@@ -13,7 +14,7 @@
     <meta name="rating" content="General">
     <meta name="subject" content="Guide to Residential and Commercial Property Investment in India">
     <meta name="audience" content="Investors, Homebuyers, Real Estate Professionals">
- 
+
     <meta property="og:title" content="Where to Invest: Residential or Commercial Property Investment | MoneyTree Realty">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://moneytreerealty.com/blog/where-to-invest-residential-or-commercial-property.php">
@@ -29,20 +30,20 @@
 
     <!-- Google Tag Manager -->
     <script>
-    (function(w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            'gtm.start': new Date().getTime(),
-            event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s),
-            dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
-            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
     </script>
     <!-- End Google Tag Manager -->
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
@@ -70,13 +71,13 @@
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-JZJY23MWW7"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
+        window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'G-JZJY23MWW7');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-JZJY23MWW7');
     </script>
     <!-- End Google Analytics -->
     <!--G-JZJY23MWW7-->
@@ -112,8 +113,9 @@
 
 
 
- <?php
-    include './header.php';
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
 
@@ -122,66 +124,66 @@
 
 
     <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const images = document.querySelectorAll('.image-gallery img');
-        images.forEach(img => {
-            window.setTimeout(() => {
-                img.style.opacity = 1;
-            }, 300); // Adjust time as needed
+        document.addEventListener("DOMContentLoaded", function() {
+            const images = document.querySelectorAll('.image-gallery img');
+            images.forEach(img => {
+                window.setTimeout(() => {
+                    img.style.opacity = 1;
+                }, 300); // Adjust time as needed
+            });
         });
-    });
     </script>
     <style>
-    body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
 
-        background-color: #f7f7f7;
-    }
+            background-color: #f7f7f7;
+        }
 
-    h1 {
-        color: #333;
-        font-size: 32px;
-        margin-bottom: 20px;
-        text-align: center;
-    }
+        h1 {
+            color: #333;
+            font-size: 32px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
 
-    h2 {
-        color: #333;
-        font-size: 24px;
-        margin-top: 30px;
-        margin-bottom: 10px;
-    }
+        h2 {
+            color: #333;
+            font-size: 24px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
 
-    h3 {
-        color: #333;
-        font-size: 20px;
-        margin-top: 25px;
-        margin-bottom: 10px;
-    }
+        h3 {
+            color: #333;
+            font-size: 20px;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
 
-    p {
-        color: #555;
-        font-size: 16px;
-        margin-bottom: 15px;
-        text-align: justify;
-    }
+        p {
+            color: #555;
+            font-size: 16px;
+            margin-bottom: 15px;
+            text-align: justify;
+        }
 
-    ul {
-        margin-bottom: 15px;
-        padding-left: 20px;
-    }
+        ul {
+            margin-bottom: 15px;
+            padding-left: 20px;
+        }
 
-    li {
-        color: #555;
-        font-size: 16px;
-        margin-bottom: 10px;
-        text-align: justify;
-    }
+        li {
+            color: #555;
+            font-size: 16px;
+            margin-bottom: 10px;
+            text-align: justify;
+        }
     </style>
-               
+
     <div class="container">
-       
+
 
         <h1>Where to Invest: Residential or Commercial Property</h1>
         <div class="image-card"
@@ -303,56 +305,56 @@
 
 
 
-</div>
+    </div>
 
 
-        <?php
-        include './more-tags.php';
-        include './footer.php';
-        ?>
-
-
-
+    <?php
+    include './more-tags.php';
+    include './footer.php';
+    ?>
 
 
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-<script src="../assets/js/jquery-3.7.0.min.js"></script>
-<script src="../assets/js/jquery-ui.js"></script>
-<script src="../assets/js/bootstrap.min.js"></script>
-<script src="../assets/js/popper.min.js"></script>
-<script src="../assets/js/swiper-bundle.min.js"></script>
-<script src="../assets/js/slick.js"></script>
-<script src="../assets/js/waypoints.min.js"></script>
-<script src="../assets/js/wow.min.js"></script>
-<script src="../assets/js/jquery.counterup.min.js"></script>
-<script src="../assets/js/isotope.pkgd.min.js"></script>
-<script src="../assets/js/jquery.magnific-popup.min.js"></script>
-<script src="../assets/js/gsap.min.js"></script>
-<script src="../assets/js/simpleParallax.min.js"></script>
-<script src="../assets/js/TweenMax.min.js"></script>
-<script src="../assets/js/jquery.marquee.min.js"></script>
-<script src="../assets/js/jquery.nice-select.min.js"></script>
-<script src="../assets/js/jquery.fancybox.min.js"></script>
-<script src="../assets/js/custom.js"></script>
-<script>
-$(".marquee_text").marquee({
-    direction: "left",
-    duration: 25000,
-    gap: 50,
-    delayBeforeStart: 0,
-    duplicated: true,
-    startVisible: true,
-});
-$(".marquee_text2").marquee({
-    direction: "left",
-    duration: 25000,
-    gap: 50,
-    delayBeforeStart: 0,
-    duplicated: true,
-    startVisible: true,
-});
-</script>
+
+
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="../assets/js/jquery-3.7.0.min.js"></script>
+    <script src="../assets/js/jquery-ui.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/swiper-bundle.min.js"></script>
+    <script src="../assets/js/slick.js"></script>
+    <script src="../assets/js/waypoints.min.js"></script>
+    <script src="../assets/js/wow.min.js"></script>
+    <script src="../assets/js/jquery.counterup.min.js"></script>
+    <script src="../assets/js/isotope.pkgd.min.js"></script>
+    <script src="../assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="../assets/js/gsap.min.js"></script>
+    <script src="../assets/js/simpleParallax.min.js"></script>
+    <script src="../assets/js/TweenMax.min.js"></script>
+    <script src="../assets/js/jquery.marquee.min.js"></script>
+    <script src="../assets/js/jquery.nice-select.min.js"></script>
+    <script src="../assets/js/jquery.fancybox.min.js"></script>
+    <script src="../assets/js/custom.js"></script>
+    <script>
+        $(".marquee_text").marquee({
+            direction: "left",
+            duration: 25000,
+            gap: 50,
+            delayBeforeStart: 0,
+            duplicated: true,
+            startVisible: true,
+        });
+        $(".marquee_text2").marquee({
+            direction: "left",
+            duration: 25000,
+            gap: 50,
+            delayBeforeStart: 0,
+            duplicated: true,
+            startVisible: true,
+        });
+    </script>
 </body>
 
 </html>

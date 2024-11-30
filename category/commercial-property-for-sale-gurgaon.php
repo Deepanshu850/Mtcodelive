@@ -210,7 +210,8 @@ office space in Gurgaon , retail shops in Gurgaon" />
 
 
     <?php
-    include './header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
 
@@ -231,7 +232,7 @@ office space in Gurgaon , retail shops in Gurgaon" />
         <?php
         include '../data/propertydata.php';
         include './filter-logic.php';
-    
+
         $properties = filterProperties($properties, ['gurugram'], ['commercial']);
 
         include '../property-grid.php';

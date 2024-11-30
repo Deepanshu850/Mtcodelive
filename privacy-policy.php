@@ -30,11 +30,11 @@
     <link rel="stylesheet" href="./assets/css/property-page.css">
 
     <style>
-       
-            main {
-                width: 90vw;
-                padding-block: 3rem;
-            }
+        main {
+            width: 90vw;
+            padding-block: 3rem;
+        }
+
         @media (width < 700px) {
             main {
                 width: 100%;
@@ -52,7 +52,8 @@
 
 
     <?php
-    include './header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
 

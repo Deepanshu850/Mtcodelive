@@ -30,86 +30,85 @@
 
     <link rel="canonical" href="https://moneytreerealty.com/converters/bigha-to-acre" />
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How many bigha in 1 acre?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "1 acre is equal to 1.6133 bigha."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How many sq ft in 1 bigha?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "1 bigha is equal to 27,000 sq ft."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much is 1 acre?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "1 acre means area of one chain by one furlong (66 x 660 feet), or approximately equal to 4,046.856 sq metres."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How many katha on one acre?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "1 acre is equal to 0.9919 katha."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much is 1 acre of land?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "1 acre of land is approximately equal to 4,046.856 square metres, or 4,840 sq yards, or 43,560 sq feet."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is 1000 Acre 1 bigha?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "1 bigha is equal to 43560 sq ft."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How to calculate sq ft to bighas?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To convert bighas into sq ft, multiply the unit by 43560."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the length of 2 bighas?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "2 bighas is approximately equal to 87,120 sq ft in area."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long is 40 bigha?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A 40 bighas of land is approximately equal to 17,42,400 sq ft."
-      }
-    }
-  ]
-}
-</script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+                    "@type": "Question",
+                    "name": "How many bigha in 1 acre?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1 acre is equal to 1.6133 bigha."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many sq ft in 1 bigha?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1 bigha is equal to 27,000 sq ft."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is 1 acre?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1 acre means area of one chain by one furlong (66 x 660 feet), or approximately equal to 4,046.856 sq metres."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many katha on one acre?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1 acre is equal to 0.9919 katha."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is 1 acre of land?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1 acre of land is approximately equal to 4,046.856 square metres, or 4,840 sq yards, or 43,560 sq feet."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Is 1000 Acre 1 bigha?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1 bigha is equal to 43560 sq ft."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How to calculate sq ft to bighas?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "To convert bighas into sq ft, multiply the unit by 43560."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is the length of 2 bighas?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "2 bighas is approximately equal to 87,120 sq ft in area."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How long is 40 bigha?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "A 40 bighas of land is approximately equal to 17,42,400 sq ft."
+                    }
+                }
+            ]
+        }
+    </script>
 
 
     <!-- Google Tag Manager -->
@@ -130,7 +129,7 @@
         })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
     </script>
     <!-- End Google Tag Manager -->
-     <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
+    <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
 
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
@@ -149,13 +148,14 @@
     </script>
     <!-- End Google Analytics -->
     <!--G-JZJY23MWW7-->
-   
+
 </head>
 
 <body>
 
     <?php
-    include './header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
     <main>
         <div class="flex-wrapper">
@@ -175,7 +175,7 @@
 
                 <canvas id="conversionChart"></canvas>
             </div>
-           
+
             <script>
                 function convertBighaToAcre() {
                     const input = document.getElementById("input").value;
@@ -239,517 +239,517 @@
 
             ?>
         </div>
-        
-         
-         <section>
 
-             <div class="links-list">
-                 <h2>
-                     Trending Bigha to Acre Conversions
-                 </h2>
-                 <p>
-                     1 Bigha is approximately equal to 0.619 acre. Here we list trending bigha to Acre
-                     conversions:
 
-                 </p>
+        <section>
 
-                 <table class="beautiful-table">
-                     <thead>
-                         <th>
-                             Bigha
-                         </th>
-                         <th>
+            <div class="links-list">
+                <h2>
+                    Trending Bigha to Acre Conversions
+                </h2>
+                <p>
+                    1 Bigha is approximately equal to 0.619 acre. Here we list trending bigha to Acre
+                    conversions:
 
+                </p>
 
-                             Acre
-                         </th>
+                <table class="beautiful-table">
+                    <thead>
+                        <th>
+                            Bigha
+                        </th>
+                        <th>
 
-                     </thead>
-                     <tr>
-                         <td>
-                             1 bigha to Acre
 
+                            Acre
+                        </th>
 
-                         </td>
-                         <td>
-                             0.625
+                    </thead>
+                    <tr>
+                        <td>
+                            1 bigha to Acre
 
 
-                         </td>
-                     </tr>
-                     <tr>
-                         <td>
-                             2 bigha to Acre
+                        </td>
+                        <td>
+                            0.625
 
 
-                         </td>
-                         <td>
-                             1.25
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            2 bigha to Acre
 
 
-                         </td>
-                     </tr>
-                     <tr>
-                         <td>
-                             5 bigha to Acre
+                        </td>
+                        <td>
+                            1.25
 
 
-                         </td>
-                         <td>
-                             3.124
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            5 bigha to Acre
 
 
-                         </td>
-                     </tr>
-                     <tr>
-                         <td>
-                             10 Bigha to Acre
+                        </td>
+                        <td>
+                            3.124
 
 
-                         </td>
-                         <td>
-                             6.249
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            10 Bigha to Acre
 
 
-                         </td>
-                     </tr>
-                     <tr>
-                         <td>
-                             15 bigha to Acre
+                        </td>
+                        <td>
+                            6.249
 
 
-                         </td>
-                         <td>
-                             9.373
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            15 bigha to Acre
 
 
-                         </td>
-                     </tr>
-                     <tr>
-                         <td>
-                             20 bigha to Acre
+                        </td>
+                        <td>
+                            9.373
 
-                         </td>
-                         <td>
-                             12.498
 
-                         </td>
-                     </tr>
-                     <tr>
-                         <td>
-                             50 bigha to Acre
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            20 bigha to Acre
 
+                        </td>
+                        <td>
+                            12.498
 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            50 bigha to Acre
 
-                         </td>
-                         <td>
-                             31.244
-
-                         </td>
-                     </tr>
-                     <tr>
-                         <td>
-                             100 bigha to Acre
-
-                         </td>
-                         <td>
-                             62.488
-
-
-                         </td>
-                     </tr>
-
-                 </table>
-
-             </div>
-             <div class="links-list">
-                 <h2>
-                     How to convert bigha to Acre
-
-
-                 </h2>
-                 <p>
-                     The bigha to acre conversions are quite useful in the real estate business, and could
-                     be useful for investors marketing a real estate project. Bigha to Acre conversions could
-                     also help investors to do a property analysis on area measurement. Bigha and Acre are
-                     the unit of area measurement widely used in commercial property, residential
-                     property, plots for sale across the globe.
-                     <br><br>
-
-                     To convert 1 bigha to Acre, you just need to multiply the unit with 0.619.
-
-                 </p>
-                 <h3>
-                     Bigha to Acre Conversion Formula
-
-                 </h3>
-                 
-                 <p class="random-p">
-                     Acre = (bigha) x 0.619
-
-                 </p>
-                 <h3>
-                     Learn to convert Bigha to Acre with an example
-
-                 </h3>
-                 <p>
-                     Let’s say you have 5 bighas of land, and you want to convert that piece of land/plot into
-                     acres, for that you just need to multiply 5 bighas by 0.619.
-                     <br>
-
-                     Acre = (5) x 43560 = 3.095
-                     <br>
-
-                     Therefore, a 5 bighas of land/plot would be approximately equal to 3.095 acres.
-                 </p>
-
-             </div>
-
-             <div class="links-list">
-                 <h2>
-                     About Bigha
-                 </h2>
-                 <p>
-                     Bigha is a traditional unit of measurement widely used in north Indian states like Uttar
-                     Pradesh, Madhya Pradesh, Punjab, Haryana, Rajasthan, Jharkhand, Assam, Bihar, West
-                     Bengal, Gujarat, Himachal Pradesh, and Uttarakhand for land/plot measurement.
-                     Although, the value of bigha varies from state to state.
-                 </p>
-
-
-                 <h3>
-                     Important conversions of Bigha into other units of measurement:
-                 </h3>
-                 <p>
-                     1 bigha is equal to 27,000 sq ft.
-                     <br>
-                     1 Killa is equal to 1.6133 bigha.
-                     <br>
-                     1 bigha is equal to 20 biswa.
-                     <br>
-                     1 bigha is equal to 19.83 katha.
-                 </p>
-
-                 <h3>
-                     Dimensions of Acre in other units
-                 </h3>
-
-
-                 <table class="beautiful-table">
-                     <tr>
-                         <td>
-                             1 bigha
-                         </td>
-                         <td>
-                             0.619 acres
-
-                         </td>
-                     </tr>
-                     <tr>
-                         <td>
-                             1 bigha
-                         </td>
-                         <td>
-                             27,000 sq ft
-                         </td>
-                     </tr>
-                     <tr>
-                         <td>
-                             1 bigha
-                         </td>
-                         <td>
-                             2508.38 sq metres
-                         </td>
-                     </tr>
-                 </table>
-
-             </div>
-             <div class="links-list">
-                 <h2>
-                     About Acre
-
-                 </h2>
-                 <p>
-                     Acre is a unit of land measurement in the Imperial system and the United States
-                     customary system. 1 acre is approximately equal to 4,046.856 sq metres and is widely
-                     used in the real estate business across the globe.
-
-                     <br>
-
-                     1 Acre means the area of one chain by one furlong (66 x 660 feet).
-
-
-
-                 </p>
-                 <h3>
-                     Dimensions of Acre in other units
-                 </h3>
-                 <table class="beautiful-table">
-                     <tr>
-                         <td>
-                             1 Acre
-                         </td>
-                         <td>
-                             1.6133 bigha
-                         </td>
-                     </tr>
-                     <tr>
-                         <td>
-                             1 Acre
-                         </td>
-                         <td>
-                             32 katha
-                         </td>
-                     </tr>
-                     <tr>
-                         <td>
-                             1 Acre
-                         </td>
-                         <td>
-                             4046.86 sq mt
-
-                         </td>
-                     </tr>
-                     <tr>
-                         <td>
-                             1 Acre
-                         </td>
-                         <td>
-                             100 decimal
-
-                         </td>
-                     </tr>
-                 </table>
-
-             </div>
-
-
-             <div class="links-list">
-
-                 <h2>
-                     Difference between Bigha to Acre
-                 </h2>
-
-                 <table class="beautiful-table">
-                     <thead>
-                         <th>
-                             Bigha
-                         </th>
-                         <th>
-                             Acre
-                         </th>
-                     </thead>
-                     <tr>
-                         <td>
-                             Traditional unit of land/plot
-                             measurement widely used in the
-                             North Indian states.
-                         </td>
-                         <td>
-                             Commonly used in Imperial System across
-                             USA, and many European Nations
-
-
-                         </td>
-                     </tr>
-                     <tr>
-                         <td>
-                             1 Bigha = 0.619 Acre
-                         </td>
-                         <td>
-                             1 Acre = 1.6133 Bigha
-
-
-                         </td>
-                     </tr>
-                     <tr>
-                         <td>
-                             1 Bigha = 3,000 sq yd
-                         </td>
-                         <td>
-                             1 Acre = 4840 sq yd
-
-
-                         </td>
-                     </tr>
-                     <tr>
-                         <td>
-                             Bigha is the traditional unit for
-                             land/plot measurement used in the
-                             rural regions across south asian
-                             countries.
-                         </td>
-                         <td>
-                             Acre is also a unit of area measurement
-                             commonly used in countries like the United
-                             States of America and many European
-                             nations for the real estate practices.
-
-
-                         </td>
-                     </tr>
-
-                 </table>
-
-             </div>
-
-         </section>
-
-
-
-         <?php
-            include './links-2.php';
-            ?>
-
-         <div class="links-list">
-             <h3>
-                 FAQ
-
-             </h3>
-
-           
-
-             <ul class="faq-list">
-                 <li class="faq">
-                     <h3>
-                         How many bigha in 1 acre?
-                         <i class="bi bi-chevron-down float-right arrow collapsed"></i>
-                     </h3>
-                     <p class="answer">
-
-                         1 acre is equal to 1.6133 bigha
-                     </p>
-                 </li>
-                 <li class="faq">
-                     <h3>
-
-                         How many sq ft in 1 bigha?
-
-                         <i class="bi bi-chevron-down float-right arrow collapsed"></i>
-                     </h3>
-                     <p class="answer">
-
-
-                         1 bigha is equal to 27,000 sq ft.
-
-                     </p>
-                 </li>
-                 <li class="faq">
-                     <h3>
 
-                         How much is 1 acre?
 
-                         <i class="bi bi-chevron-down float-right arrow collapsed"></i>
-                     </h3>
-                     <p class="answer">
+                        </td>
+                        <td>
+                            31.244
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            100 bigha to Acre
+
+                        </td>
+                        <td>
+                            62.488
+
+
+                        </td>
+                    </tr>
+
+                </table>
+
+            </div>
+            <div class="links-list">
+                <h2>
+                    How to convert bigha to Acre
+
+
+                </h2>
+                <p>
+                    The bigha to acre conversions are quite useful in the real estate business, and could
+                    be useful for investors marketing a real estate project. Bigha to Acre conversions could
+                    also help investors to do a property analysis on area measurement. Bigha and Acre are
+                    the unit of area measurement widely used in commercial property, residential
+                    property, plots for sale across the globe.
+                    <br><br>
+
+                    To convert 1 bigha to Acre, you just need to multiply the unit with 0.619.
+
+                </p>
+                <h3>
+                    Bigha to Acre Conversion Formula
+
+                </h3>
+
+                <p class="random-p">
+                    Acre = (bigha) x 0.619
+
+                </p>
+                <h3>
+                    Learn to convert Bigha to Acre with an example
+
+                </h3>
+                <p>
+                    Let’s say you have 5 bighas of land, and you want to convert that piece of land/plot into
+                    acres, for that you just need to multiply 5 bighas by 0.619.
+                    <br>
+
+                    Acre = (5) x 43560 = 3.095
+                    <br>
+
+                    Therefore, a 5 bighas of land/plot would be approximately equal to 3.095 acres.
+                </p>
+
+            </div>
+
+            <div class="links-list">
+                <h2>
+                    About Bigha
+                </h2>
+                <p>
+                    Bigha is a traditional unit of measurement widely used in north Indian states like Uttar
+                    Pradesh, Madhya Pradesh, Punjab, Haryana, Rajasthan, Jharkhand, Assam, Bihar, West
+                    Bengal, Gujarat, Himachal Pradesh, and Uttarakhand for land/plot measurement.
+                    Although, the value of bigha varies from state to state.
+                </p>
+
+
+                <h3>
+                    Important conversions of Bigha into other units of measurement:
+                </h3>
+                <p>
+                    1 bigha is equal to 27,000 sq ft.
+                    <br>
+                    1 Killa is equal to 1.6133 bigha.
+                    <br>
+                    1 bigha is equal to 20 biswa.
+                    <br>
+                    1 bigha is equal to 19.83 katha.
+                </p>
+
+                <h3>
+                    Dimensions of Acre in other units
+                </h3>
+
+
+                <table class="beautiful-table">
+                    <tr>
+                        <td>
+                            1 bigha
+                        </td>
+                        <td>
+                            0.619 acres
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            1 bigha
+                        </td>
+                        <td>
+                            27,000 sq ft
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            1 bigha
+                        </td>
+                        <td>
+                            2508.38 sq metres
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+            <div class="links-list">
+                <h2>
+                    About Acre
+
+                </h2>
+                <p>
+                    Acre is a unit of land measurement in the Imperial system and the United States
+                    customary system. 1 acre is approximately equal to 4,046.856 sq metres and is widely
+                    used in the real estate business across the globe.
+
+                    <br>
+
+                    1 Acre means the area of one chain by one furlong (66 x 660 feet).
+
+
+
+                </p>
+                <h3>
+                    Dimensions of Acre in other units
+                </h3>
+                <table class="beautiful-table">
+                    <tr>
+                        <td>
+                            1 Acre
+                        </td>
+                        <td>
+                            1.6133 bigha
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            1 Acre
+                        </td>
+                        <td>
+                            32 katha
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            1 Acre
+                        </td>
+                        <td>
+                            4046.86 sq mt
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            1 Acre
+                        </td>
+                        <td>
+                            100 decimal
+
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+
+
+            <div class="links-list">
+
+                <h2>
+                    Difference between Bigha to Acre
+                </h2>
+
+                <table class="beautiful-table">
+                    <thead>
+                        <th>
+                            Bigha
+                        </th>
+                        <th>
+                            Acre
+                        </th>
+                    </thead>
+                    <tr>
+                        <td>
+                            Traditional unit of land/plot
+                            measurement widely used in the
+                            North Indian states.
+                        </td>
+                        <td>
+                            Commonly used in Imperial System across
+                            USA, and many European Nations
+
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            1 Bigha = 0.619 Acre
+                        </td>
+                        <td>
+                            1 Acre = 1.6133 Bigha
+
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            1 Bigha = 3,000 sq yd
+                        </td>
+                        <td>
+                            1 Acre = 4840 sq yd
+
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Bigha is the traditional unit for
+                            land/plot measurement used in the
+                            rural regions across south asian
+                            countries.
+                        </td>
+                        <td>
+                            Acre is also a unit of area measurement
+                            commonly used in countries like the United
+                            States of America and many European
+                            nations for the real estate practices.
+
+
+                        </td>
+                    </tr>
+
+                </table>
+
+            </div>
+
+        </section>
+
+
+
+        <?php
+        include './links-2.php';
+        ?>
+
+        <div class="links-list">
+            <h3>
+                FAQ
+
+            </h3>
+
+
+
+            <ul class="faq-list">
+                <li class="faq">
+                    <h3>
+                        How many bigha in 1 acre?
+                        <i class="bi bi-chevron-down float-right arrow collapsed"></i>
+                    </h3>
+                    <p class="answer">
+
+                        1 acre is equal to 1.6133 bigha
+                    </p>
+                </li>
+                <li class="faq">
+                    <h3>
 
+                        How many sq ft in 1 bigha?
 
-                         1 acre means area of one chain by one furlong (66 x 660 feet), or approximately equal
-                         to 4,046.856 sq metres.
+                        <i class="bi bi-chevron-down float-right arrow collapsed"></i>
+                    </h3>
+                    <p class="answer">
 
-                     </p>
-                 </li>
-                 <li class="faq">
-                     <h3>
 
+                        1 bigha is equal to 27,000 sq ft.
 
-                         How many katha on one acre?
+                    </p>
+                </li>
+                <li class="faq">
+                    <h3>
 
-                         <i class="bi bi-chevron-down float-right arrow collapsed"></i>
-                     </h3>
-                     <p class="answer">
+                        How much is 1 acre?
 
-                         1 acre is equal to 0.9919 katha.
+                        <i class="bi bi-chevron-down float-right arrow collapsed"></i>
+                    </h3>
+                    <p class="answer">
 
-                     </p>
-                 </li>
-                 <li class="faq">
-                     <h3>
 
+                        1 acre means area of one chain by one furlong (66 x 660 feet), or approximately equal
+                        to 4,046.856 sq metres.
 
-                         How much is 1 acre of land?
+                    </p>
+                </li>
+                <li class="faq">
+                    <h3>
 
-                         <i class="bi bi-chevron-down float-right arrow collapsed"></i>
-                     </h3>
-                     <p class="answer">
 
-                         1 acre of land is approximately equal to 4,046.856 square metres, or 4,840 sq yards, or
-                         43,560 sq feet.
+                        How many katha on one acre?
 
+                        <i class="bi bi-chevron-down float-right arrow collapsed"></i>
+                    </h3>
+                    <p class="answer">
 
-                     </p>
-                 </li>
-                 <li class="faq">
-                     <h3>
+                        1 acre is equal to 0.9919 katha.
 
-                         Is 1000 Acre 1 bigha?
+                    </p>
+                </li>
+                <li class="faq">
+                    <h3>
 
-                         <i class="bi bi-chevron-down float-right arrow collapsed"></i>
-                     </h3>
-                     <p class="answer">
 
+                        How much is 1 acre of land?
 
-                         1 bigha is equal to 43560 sq ft.
+                        <i class="bi bi-chevron-down float-right arrow collapsed"></i>
+                    </h3>
+                    <p class="answer">
 
-                     </p>
-                 </li>
-                 <li class="faq">
-                     <h3>
+                        1 acre of land is approximately equal to 4,046.856 square metres, or 4,840 sq yards, or
+                        43,560 sq feet.
 
-                         How to calculate sq ft to bighas?
 
-                         <i class="bi bi-chevron-down float-right arrow collapsed"></i>
-                     </h3>
-                     <p class="answer">
+                    </p>
+                </li>
+                <li class="faq">
+                    <h3>
 
+                        Is 1000 Acre 1 bigha?
 
-                         To convert bighas into sq ft, multiply the unit by 43560
+                        <i class="bi bi-chevron-down float-right arrow collapsed"></i>
+                    </h3>
+                    <p class="answer">
 
-                     </p>
-                 </li>
-                 <li class="faq">
-                     <h3>
 
-                         What is the length of 2 bighas?
+                        1 bigha is equal to 43560 sq ft.
 
-                         <i class="bi bi-chevron-down float-right arrow collapsed"></i>
-                     </h3>
-                     <p class="answer">
+                    </p>
+                </li>
+                <li class="faq">
+                    <h3>
 
+                        How to calculate sq ft to bighas?
 
-                         2 bighas is approximately equal to 87,120 sq ft in area.
+                        <i class="bi bi-chevron-down float-right arrow collapsed"></i>
+                    </h3>
+                    <p class="answer">
 
-                     </p>
-                 </li>
-                 <li class="faq">
-                     <h3>
 
-                         How long is 40 bigha?
+                        To convert bighas into sq ft, multiply the unit by 43560
 
-                         <i class="bi bi-chevron-down float-right arrow collapsed"></i>
-                     </h3>
-                     <p class="answer">
+                    </p>
+                </li>
+                <li class="faq">
+                    <h3>
 
-                         A 40 bighas of land is approximately equal to 17,42,400 sq ft.
+                        What is the length of 2 bighas?
 
+                        <i class="bi bi-chevron-down float-right arrow collapsed"></i>
+                    </h3>
+                    <p class="answer">
 
-                     </p>
-                 </li>
 
-             </ul>
+                        2 bighas is approximately equal to 87,120 sq ft in area.
 
+                    </p>
+                </li>
+                <li class="faq">
+                    <h3>
 
+                        How long is 40 bigha?
 
-         
+                        <i class="bi bi-chevron-down float-right arrow collapsed"></i>
+                    </h3>
+                    <p class="answer">
 
+                        A 40 bighas of land is approximately equal to 17,42,400 sq ft.
 
-         </div>
-        
-        
-        
-        
-        
-        
+
+                    </p>
+                </li>
+
+            </ul>
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
     </main>
 
 
@@ -759,7 +759,7 @@
     ?>
 
 
- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

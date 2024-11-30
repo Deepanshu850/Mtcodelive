@@ -2,79 +2,79 @@
 <html lang="en">
 
 <head>
-<meta charset="utf-8">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimum-scale=1.0">
-<title>M3M The Cullinan Commercial Project in Noida Sector 94</title>
-<meta name="description" content="Invest today in M3M The Cullinan, a prime commercial project in Noida Sector 94, offering ultra-modern strategic locations and amenities.">
-<meta name="keywords" content="M3M The Cullinan, Uber Luxury Apartments, Commercial Space, Sector 94 Noida, Food Court, Retail Shops, Real Estate, Property in Noida, India Property Sites">
-<meta name="owner" content="Moneytreerealty.com">
-<meta name="copyright" content="Moneytreereal.com">
-<meta name="classification" content="Real Estate, Commercial Properties">
-<meta name="distribution" content="Global">
-<meta name="rating" content="General">
-<meta name="subject" content="Commercial Properties for Sale in Noida, New Real Estate Projects in India">
-<meta name="audience" content="Investors, Real Estate Enthusiasts">
-<link rel="canonical" href="https://moneytreerealty.com/blog/m3m-the-cullinan-commercial-project-in-noida-sector-94.php">
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimum-scale=1.0">
+    <title>M3M The Cullinan Commercial Project in Noida Sector 94</title>
+    <meta name="description" content="Invest today in M3M The Cullinan, a prime commercial project in Noida Sector 94, offering ultra-modern strategic locations and amenities.">
+    <meta name="keywords" content="M3M The Cullinan, Uber Luxury Apartments, Commercial Space, Sector 94 Noida, Food Court, Retail Shops, Real Estate, Property in Noida, India Property Sites">
+    <meta name="owner" content="Moneytreerealty.com">
+    <meta name="copyright" content="Moneytreereal.com">
+    <meta name="classification" content="Real Estate, Commercial Properties">
+    <meta name="distribution" content="Global">
+    <meta name="rating" content="General">
+    <meta name="subject" content="Commercial Properties for Sale in Noida, New Real Estate Projects in India">
+    <meta name="audience" content="Investors, Real Estate Enthusiasts">
+    <link rel="canonical" href="https://moneytreerealty.com/blog/m3m-the-cullinan-commercial-project-in-noida-sector-94.php">
 
 
-<meta property="og:title" content="M3M The Cullinan Commercial Project in Noida Sector 94">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://moneytreerealty.com/blog/m3m-the-cullinan-commercial-project-in-noida-sector-94.php">
-<meta property="og:image" content="https://moneytreerealty.com/blog/assets/cullinanblog.webp">
-<meta property="og:description" content="M3M The Cullinan in Noida Sector 94 is a premier commercial property offering luxury amenities and strategic location for investors.">
-<meta property="og:site_name" content="MoneyTree Realty">
+    <meta property="og:title" content="M3M The Cullinan Commercial Project in Noida Sector 94">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://moneytreerealty.com/blog/m3m-the-cullinan-commercial-project-in-noida-sector-94.php">
+    <meta property="og:image" content="https://moneytreerealty.com/blog/assets/cullinanblog.webp">
+    <meta property="og:description" content="M3M The Cullinan in Noida Sector 94 is a premier commercial property offering luxury amenities and strategic location for investors.">
+    <meta property="og:site_name" content="MoneyTree Realty">
 
 
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="M3M The Cullinan Commercial Project in Noida Sector 94">
-<meta name="twitter:description" content="Invest in M3M The Cullinan, Noida Sector 94 - a leading commercial project offering high-end amenities and strategic location.">
-<meta name="twitter:image" content="https://moneytreerealty.com/blog/assets/cullinanblog.webp">
-<!-- Other head elements like CSS links -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="M3M The Cullinan Commercial Project in Noida Sector 94">
+    <meta name="twitter:description" content="Invest in M3M The Cullinan, Noida Sector 94 - a leading commercial project offering high-end amenities and strategic location.">
+    <meta name="twitter:image" content="https://moneytreerealty.com/blog/assets/cullinanblog.webp">
+    <!-- Other head elements like CSS links -->
 
     <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://moneytreerealty.com/blog/m3m-the-cullinan-commercial-project-in-noida-sector-94.php"
-  },
-  "headline": "M3M The Cullinan Commercial Project in Noida Sector 94",
-  "description": "M3M The Cullinan Commercial Project in Noida Sector 94 is an ultra modern mixed-use development established by M3M India, one of the most popular names in the real estate industry who are known for their exceptional development of a wide range of premium residential and commercial projects across the country. With M3M The Cullinan, M3M India, has taken a step further and partnered with DP Architects, Singapore to bring it to life.",
-  "image": "https://moneytreerealty.com/blog/assets/cullinanblog.webp",  
-  "author": {
-    "@type": "",
-    "name": "Deepanshu"
-  },  
-  "publisher": {
-    "@type": "Organization",
-    "name": "",
-    "logo": {
-      "@type": "ImageObject",
-      "url": ""
-    }
-  },
-  "datePublished": "2024-03-10"
-}
-</script>
+        {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://moneytreerealty.com/blog/m3m-the-cullinan-commercial-project-in-noida-sector-94.php"
+            },
+            "headline": "M3M The Cullinan Commercial Project in Noida Sector 94",
+            "description": "M3M The Cullinan Commercial Project in Noida Sector 94 is an ultra modern mixed-use development established by M3M India, one of the most popular names in the real estate industry who are known for their exceptional development of a wide range of premium residential and commercial projects across the country. With M3M The Cullinan, M3M India, has taken a step further and partnered with DP Architects, Singapore to bring it to life.",
+            "image": "https://moneytreerealty.com/blog/assets/cullinanblog.webp",
+            "author": {
+                "@type": "",
+                "name": "Deepanshu"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": ""
+                }
+            },
+            "datePublished": "2024-03-10"
+        }
+    </script>
 
     <!-- Google Tag Manager -->
     <script>
-    (function(w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            'gtm.start': new Date().getTime(),
-            event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s),
-            dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
-            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
     </script>
     <!-- End Google Tag Manager -->
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
@@ -101,13 +101,13 @@
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-JZJY23MWW7"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
+        window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'G-JZJY23MWW7');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-JZJY23MWW7');
     </script>
     <!-- End Google Analytics -->
     <!--G-JZJY23MWW7-->
@@ -143,71 +143,72 @@
 
 
 
- <?php
-    include './header.php';
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
 
     <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const images = document.querySelectorAll('.image-gallery img');
-        images.forEach(img => {
-            window.setTimeout(() => {
-                img.style.opacity = 1;
-            }, 300); // Adjust time as needed
+        document.addEventListener("DOMContentLoaded", function() {
+            const images = document.querySelectorAll('.image-gallery img');
+            images.forEach(img => {
+                window.setTimeout(() => {
+                    img.style.opacity = 1;
+                }, 300); // Adjust time as needed
+            });
         });
-    });
     </script>
     <style>
-    body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
 
-        background-color: #f7f7f7;
-    }
+            background-color: #f7f7f7;
+        }
 
-    h1 {
-        color: #333;
-        font-size: 32px;
-        margin-bottom: 20px;
-        text-align: center;
-    }
+        h1 {
+            color: #333;
+            font-size: 32px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
 
-    h2 {
-        color: #333;
-        font-size: 24px;
-        margin-top: 30px;
-        margin-bottom: 10px;
-    }
+        h2 {
+            color: #333;
+            font-size: 24px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
 
-    h3 {
-        color: #333;
-        font-size: 20px;
-        margin-top: 25px;
-        margin-bottom: 10px;
-    }
+        h3 {
+            color: #333;
+            font-size: 20px;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
 
-    p {
-        color: #555;
-        font-size: 16px;
-        margin-bottom: 15px;
-        text-align: justify;
-    }
+        p {
+            color: #555;
+            font-size: 16px;
+            margin-bottom: 15px;
+            text-align: justify;
+        }
 
-    ul {
-        margin-bottom: 15px;
-        padding-left: 20px;
-    }
+        ul {
+            margin-bottom: 15px;
+            padding-left: 20px;
+        }
 
-    li {
-        color: #555;
-        font-size: 16px;
-        margin-bottom: 10px;
-        text-align: justify;
-    }
+        li {
+            color: #555;
+            font-size: 16px;
+            margin-bottom: 10px;
+            text-align: justify;
+        }
     </style>
-    
-               
+
+
     <div class="container">
 
 
@@ -244,45 +245,45 @@
 
             <h3>Location Advantage and Seamless Connectivity</h3>
 
-            <p> <a href="../propertydetail/m3m-the-cullinan-sector-94-noida">M3M The Cullinan</a>  boasts its strategic and seamless location, that is 0 KM from Delhi. Over the time, it
+            <p> <a href="../propertydetail/m3m-the-cullinan-sector-94-noida">M3M The Cullinan</a> boasts its strategic and seamless location, that is 0 KM from Delhi. Over the time, it
                 has proven to be an ideal choice for families due to its privileged lifestyle. The Cullinan is
                 seamlessly connected with business hubs, prominent educational institutions and entertainment zones and
                 it is said to enjoy the life of convenience. In addition, it also has close proximity with corporate
                 offices.</p>
             <style>
-            .container {
-                max-width: 100%;
-                /* Adjust based on your requirement */
-                margin: auto;
-                padding: 20px;
-            }
+                .container {
+                    max-width: 100%;
+                    /* Adjust based on your requirement */
+                    margin: auto;
+                    padding: 20px;
+                }
 
-            table {
-                width: 100%;
-                /* Make table width 100% of the container */
-                border-collapse: collapse;
-                /* Collapse borders */
-            }
+                table {
+                    width: 100%;
+                    /* Make table width 100% of the container */
+                    border-collapse: collapse;
+                    /* Collapse borders */
+                }
 
-            th,
-            td {
-                text-align: left;
-                /* Align text to the left */
-                padding: 8px;
-                /* Add padding */
-            }
+                th,
+                td {
+                    text-align: left;
+                    /* Align text to the left */
+                    padding: 8px;
+                    /* Add padding */
+                }
 
-            tr:nth-child(even) {
-                background-color: #f2f2f2;
-                /* Zebra stripes */
-            }
+                tr:nth-child(even) {
+                    background-color: #f2f2f2;
+                    /* Zebra stripes */
+                }
 
-            th {
-                background-color: #4CAF50;
-                /* Green background for headers */
-                color: white;
-                /* White text color */
-            }
+                th {
+                    background-color: #4CAF50;
+                    /* Green background for headers */
+                    color: white;
+                    /* White text color */
+                }
             </style>
             <div class="container">
                 <table border="1">
@@ -508,12 +509,12 @@
 
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
             <script>
-            $(document).ready(function() {
-                $(".faq h3").click(function() {
-                    $(this).next(".answer").slideToggle();
-                    $(this).parent().find(".arrow").toggleClass("collapsed expanded");
+                $(document).ready(function() {
+                    $(".faq h3").click(function() {
+                        $(this).next(".answer").slideToggle();
+                        $(this).parent().find(".arrow").toggleClass("collapsed expanded");
+                    });
                 });
-            });
             </script>
 
 
@@ -528,10 +529,10 @@
 
         <br>
         <style>
-        .disclaimer {
-            font-size: 10.5px;
-            /* Adjust the size as needed */
-        }
+            .disclaimer {
+                font-size: 10.5px;
+                /* Adjust the size as needed */
+            }
         </style>
         <!-- <div class="disclaimer"><br>
             <strong>Disclaimer:</strong> This article regarding "Moneytree Realty Targets Rs 500 Crore Sale
@@ -546,59 +547,59 @@
 
 
 
- 
 
 
 
 
-</div>
+
+    </div>
 
 
 
 
-        <?php
-        include './more-tags.php';
-        include './footer.php';
-        ?>
+    <?php
+    include './more-tags.php';
+    include './footer.php';
+    ?>
 
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-<script src="../assets/js/jquery-3.7.0.min.js"></script>
-<script src="../assets/js/jquery-ui.js"></script>
-<script src="../assets/js/bootstrap.min.js"></script>
-<script src="../assets/js/popper.min.js"></script>
-<script src="../assets/js/swiper-bundle.min.js"></script>
-<script src="../assets/js/slick.js"></script>
-<script src="../assets/js/waypoints.min.js"></script>
-<script src="../assets/js/wow.min.js"></script>
-<script src="../assets/js/jquery.counterup.min.js"></script>
-<script src="../assets/js/isotope.pkgd.min.js"></script>
-<script src="../assets/js/jquery.magnific-popup.min.js"></script>
-<script src="../assets/js/gsap.min.js"></script>
-<script src="../assets/js/simpleParallax.min.js"></script>
-<script src="../assets/js/TweenMax.min.js"></script>
-<script src="../assets/js/jquery.marquee.min.js"></script>
-<script src="../assets/js/jquery.nice-select.min.js"></script>
-<script src="../assets/js/jquery.fancybox.min.js"></script>
-<script src="../assets/js/custom.js"></script>
-<script>
-$(".marquee_text").marquee({
-    direction: "left",
-    duration: 25000,
-    gap: 50,
-    delayBeforeStart: 0,
-    duplicated: true,
-    startVisible: true,
-});
-$(".marquee_text2").marquee({
-    direction: "left",
-    duration: 25000,
-    gap: 50,
-    delayBeforeStart: 0,
-    duplicated: true,
-    startVisible: true,
-});
-</script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="../assets/js/jquery-3.7.0.min.js"></script>
+    <script src="../assets/js/jquery-ui.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/swiper-bundle.min.js"></script>
+    <script src="../assets/js/slick.js"></script>
+    <script src="../assets/js/waypoints.min.js"></script>
+    <script src="../assets/js/wow.min.js"></script>
+    <script src="../assets/js/jquery.counterup.min.js"></script>
+    <script src="../assets/js/isotope.pkgd.min.js"></script>
+    <script src="../assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="../assets/js/gsap.min.js"></script>
+    <script src="../assets/js/simpleParallax.min.js"></script>
+    <script src="../assets/js/TweenMax.min.js"></script>
+    <script src="../assets/js/jquery.marquee.min.js"></script>
+    <script src="../assets/js/jquery.nice-select.min.js"></script>
+    <script src="../assets/js/jquery.fancybox.min.js"></script>
+    <script src="../assets/js/custom.js"></script>
+    <script>
+        $(".marquee_text").marquee({
+            direction: "left",
+            duration: 25000,
+            gap: 50,
+            delayBeforeStart: 0,
+            duplicated: true,
+            startVisible: true,
+        });
+        $(".marquee_text2").marquee({
+            direction: "left",
+            duration: 25000,
+            gap: 50,
+            delayBeforeStart: 0,
+            duplicated: true,
+            startVisible: true,
+        });
+    </script>
 </body>
 
 </html>

@@ -41,7 +41,7 @@ estate consultant, gurgaon real estate, real estate agents in mumbai, Noida real
     <meta property="og:description" content="Godrej Properties construction of residential, commercial, and township projects such as 
 Real Estates in Noida, Delhi NCR, Gurgaon, Mumbai. Provide 3 BHK, 4 BHK Flats.">
     <meta property="og:type" content="property">
-     <meta property="og:image" content="https://moneytreerealty.com/assets/img/godrej-properties-in-india.jpeg"> 
+    <meta property="og:image" content="https://moneytreerealty.com/assets/img/godrej-properties-in-india.jpeg">
 
 
 
@@ -214,8 +214,9 @@ Real Estates in Noida, Delhi NCR, Gurgaon, Mumbai. Provide 3 BHK, 4 BHK Flats.">
 
 
 
- <?php
-    include './header.php';
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
 
@@ -237,7 +238,7 @@ Real Estates in Noida, Delhi NCR, Gurgaon, Mumbai. Provide 3 BHK, 4 BHK Flats.">
 
         main h3 {
             font-size: 18px;
-            color:black;
+            color: black;
         }
 
         p {
@@ -344,8 +345,8 @@ Real Estates in Noida, Delhi NCR, Gurgaon, Mumbai. Provide 3 BHK, 4 BHK Flats.">
 
             }
         </style>
-        
-         <div class="image-wrapper">
+
+        <div class="image-wrapper">
             <img src="./assets/img/godrej-properties-in-india.jpeg" alt="Godrej Properties in India | Godrej Properties for Sale">
         </div>
 
@@ -576,7 +577,7 @@ Real Estates in Noida, Delhi NCR, Gurgaon, Mumbai. Provide 3 BHK, 4 BHK Flats.">
 
 
                 We at <strong>MoneyTree Realty</strong> provide <a href="./best-real-estate-property-consultant-in-india.php"><strong>best property consultations</strong></a> and provide
-                valuable insights on  <a href="./how-to-buy-property-in-noida">
+                valuable insights on <a href="./how-to-buy-property-in-noida">
                     <strong>how to buy property in Noida</strong></a>.
                 <br>
 
@@ -1044,13 +1045,13 @@ Real Estates in Noida, Delhi NCR, Gurgaon, Mumbai. Provide 3 BHK, 4 BHK Flats.">
 
             </ul>
         </div>
-        
-        
-        
-        
-        
-      
-      <?php
+
+
+
+
+
+
+        <?php
         include './more-tags.php';
         include './footer.php';
         ?>

@@ -31,54 +31,53 @@
 
 
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is 1 acre vs hectare?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "1 acre is equal to 0.405 hectares."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How many Katha is 1 Acre?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "1 Acre is equal to 32 Katha."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much is 5 Katha to bigha?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "5 Katha is equal to 0.25 Bigha."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is equal to bigha?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "1 Bigha of land is equal to 0.619 acres in area."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much is 10 bigha to acre?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "10 Bigha is approximately equal to 6.198 acres."
-      }
-    }
-  ]
-}
-</script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+                    "@type": "Question",
+                    "name": "What is 1 acre vs hectare?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1 acre is equal to 0.405 hectares."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many Katha is 1 Acre?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1 Acre is equal to 32 Katha."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is 5 Katha to bigha?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "5 Katha is equal to 0.25 Bigha."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is equal to bigha?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1 Bigha of land is equal to 0.619 acres in area."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is 10 bigha to acre?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "10 Bigha is approximately equal to 6.198 acres."
+                    }
+                }
+            ]
+        }
+    </script>
 
 
 
@@ -101,8 +100,8 @@
         })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
     </script>
     <!-- End Google Tag Manager -->
-  
-  <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
+
+    <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
 
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
@@ -129,7 +128,8 @@
 <body>
 
     <?php
-    include './header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
     <main>
         <div class="flex-wrapper">
@@ -356,9 +356,9 @@
                 <h3>
                     Acre to Hectare Conversion Formula
                 </h3>
-             
-             
-             
+
+
+
                 <p class="random-p">
                     Hectare = (Acre) x 0.405
 
@@ -543,7 +543,7 @@
 
             </h3>
 
-      
+
 
             <ul class="faq-list">
                 <li class="faq">
@@ -610,7 +610,7 @@
 
 
 
- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

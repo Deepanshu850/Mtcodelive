@@ -88,7 +88,8 @@
 
 
     <?php
-    include './header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     include '../data/tempdata.php';
 
     ?>
@@ -137,7 +138,7 @@
                     <?php echo $property['name']; ?>
                 </h1>
                 <span>
-                    <?php echo $property['location'][1].', '.$property['location'][0]; ?>
+                    <?php echo $property['location'][1] . ', ' . $property['location'][0]; ?>
                 </span>
 
 

@@ -152,7 +152,8 @@
 
 
     <?php
-    include './header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
     <style>
@@ -218,7 +219,7 @@
                     </div>
 
                     <br>
-                    
+
                     <div class="tableOfContent">
                         <div class="header" onclick="">
                             <p id="fake-heading">

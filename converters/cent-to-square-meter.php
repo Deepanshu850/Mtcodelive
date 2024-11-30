@@ -31,59 +31,58 @@
     <meta property="og:type" content="property">
 
     <link rel="canonical" href="https://moneytreerealty.com/converters/cent-to-square-meter" />
-    
-    
-    
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much is 100 Cent in acres?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "100 cent is equal to 0.999 acres."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How many meters is 1 cent?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "1 cent is approximately equal to 40.4648 meters."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much meter is 5 cents?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "5 cent is approximately equal to 202.324 meters."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How to calculate Cent to Square Meter?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To convert Cents into Square Meters, you just need to multiply the unit by 40.4686."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the length of 2 Cent?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "2 cent is approximately equal to 80.9372 sq meters in area."
-      }
-    }
-  ]
-}
-</script>
 
-    
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+                    "@type": "Question",
+                    "name": "How much is 100 Cent in acres?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "100 cent is equal to 0.999 acres."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many meters is 1 cent?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1 cent is approximately equal to 40.4648 meters."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much meter is 5 cents?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "5 cent is approximately equal to 202.324 meters."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How to calculate Cent to Square Meter?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "To convert Cents into Square Meters, you just need to multiply the unit by 40.4686."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is the length of 2 Cent?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "2 cent is approximately equal to 80.9372 sq meters in area."
+                    }
+                }
+            ]
+        }
+    </script>
+
+
 
     <!-- Google Tag Manager -->
     <script>
@@ -103,7 +102,7 @@
         })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
     </script>
     <!-- End Google Tag Manager -->
-  <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
+    <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
 
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
@@ -122,14 +121,15 @@
     </script>
     <!-- End Google Analytics -->
     <!--G-JZJY23MWW7-->
-   
+
 
 </head>
 
 <body>
 
     <?php
-    include './header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
     <main>
         <div class="flex-wrapper">
@@ -149,7 +149,7 @@
 
                 <canvas id="conversionChart"></canvas>
             </div>
-           
+
             <script>
                 function convertCentToSquareMeter() {
                     const input = document.getElementById("input").value;
@@ -213,7 +213,7 @@
 
             ?>
         </div>
-         
+
         <section>
 
             <div class="links-list">
@@ -386,7 +386,7 @@
 
 
                 </h3>
-                
+
                 <p class="random-p">
 
                     Square Meter = (Cent) x 40.4686
@@ -642,7 +642,7 @@
 
             </h3>
 
-          
+
 
             <ul class="faq-list">
                 <li class="faq">
@@ -726,7 +726,7 @@
 
 
 
-    
+
 
         </div>
 
@@ -739,7 +739,7 @@
     ?>
 
 
- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

@@ -35,62 +35,61 @@
 
 
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How many sq ft for one Hectare?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "1 Hectare is approximately equal to 107639.15 sq ft."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much is 2 hectares in bigha?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "2 hectares is approximately equal to 7.973 bigha."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How many Hectares is 1 acre?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "1 acre is equal to 0.404 hectares."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much is 100 hectares in acres?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "100 hectares is equal to 247.105 acres."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How to calculate Hectare to Bigha?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To convert Hectares into Bighas, you just need to multiply the unit by 3.987."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much is 1 bigha?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "1 bigha is approximately equal to 0.6198 acres, or 27000 sq ft, or 0.2508 hectares."
-      }
-    }
-  ]
-}
-</script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+                    "@type": "Question",
+                    "name": "How many sq ft for one Hectare?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1 Hectare is approximately equal to 107639.15 sq ft."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is 2 hectares in bigha?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "2 hectares is approximately equal to 7.973 bigha."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many Hectares is 1 acre?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1 acre is equal to 0.404 hectares."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is 100 hectares in acres?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "100 hectares is equal to 247.105 acres."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How to calculate Hectare to Bigha?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "To convert Hectares into Bighas, you just need to multiply the unit by 3.987."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How much is 1 bigha?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1 bigha is approximately equal to 0.6198 acres, or 27000 sq ft, or 0.2508 hectares."
+                    }
+                }
+            ]
+        }
+    </script>
 
 
 
@@ -112,8 +111,8 @@
         })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
     </script>
     <!-- End Google Tag Manager -->
-   
-  <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
+
+    <link rel="icon" href="../assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
 
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
@@ -133,13 +132,14 @@
     </script>
     <!-- End Google Analytics -->
     <!--G-JZJY23MWW7-->
-   
+
 </head>
 
 <body>
 
     <?php
-    include './header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
     <main>
         <div class="flex-wrapper">
@@ -159,7 +159,7 @@
 
                 <canvas id="conversionChart"></canvas>
             </div>
-           
+
             <script>
                 function convertHectareToBigha() {
                     const input = document.getElementById("input").value;
@@ -222,7 +222,7 @@
 
             ?>
         </div>
-           
+
         <section>
 
             <div class="links-list">
@@ -412,7 +412,7 @@
 
 
                 </h3>
-             
+
                 <p class="random-p">
 
 
@@ -698,7 +698,7 @@
 
             </h3>
 
-        
+
 
             <ul class="faq-list">
                 <li class="faq">
@@ -803,7 +803,7 @@
 
 
 
- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

@@ -164,7 +164,8 @@ gurgaon, flats in gurgaon 3 bhk, 3 bhk flat in gurgaon under 25 30 lakhs, 3 bhk 
 
 
     <?php
-    include './header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
     <div class="side-flex">

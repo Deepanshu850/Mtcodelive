@@ -202,7 +202,8 @@ property in Noida, buy property in Noida, 2 bhk apartments in Noida" />
 
 
     <?php
-    include './header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
 

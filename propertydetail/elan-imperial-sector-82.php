@@ -161,7 +161,8 @@ design studio, elan limited, elan ltd, elan studio, elan commercial, builder in 
 
 
     <?php
-    include './header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
 
@@ -513,7 +514,7 @@ design studio, elan limited, elan ltd, elan studio, elan commercial, builder in 
             FAQs regarding Elan Imperial Sector 82 Gurgaon
 
         </h2>
-        
+
         <section class="questions">
             <h2>What is the location of Elan Imperial?</h2>
             <p>Elan Imperial is located at Sector - 82, Gurugram.</p>

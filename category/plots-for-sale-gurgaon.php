@@ -149,7 +149,8 @@
 
 
     <?php
-    include './header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
 
@@ -177,21 +178,21 @@
         ?>
 
     </div>
-        <?php
-        include './more-tags.php';
-        include './footer.php';
-        ?>
+    <?php
+    include './more-tags.php';
+    include './footer.php';
+    ?>
 
 
-        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-        <script src="../assets/js/jquery-3.7.0.min.js"></script>
-        <script src="../assets/js/swiper-bundle.min.js"></script>
-        <script src="../assets/js/slick.js"></script>
-        <script src="../assets/js/jquery.counterup.min.js"></script>
-        <script src="../assets/js/jquery.magnific-popup.min.js"></script>
-        <script src="../assets/js/jquery.nice-select.min.js"></script>
-        <script src="../assets/js/jquery.fancybox.min.js"></script>
-        <script src="../assets/js/custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../assets/js/jquery-3.7.0.min.js"></script>
+    <script src="../assets/js/swiper-bundle.min.js"></script>
+    <script src="../assets/js/slick.js"></script>
+    <script src="../assets/js/jquery.counterup.min.js"></script>
+    <script src="../assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="../assets/js/jquery.nice-select.min.js"></script>
+    <script src="../assets/js/jquery.fancybox.min.js"></script>
+    <script src="../assets/js/custom.js"></script>
 </body>
 
 </html>

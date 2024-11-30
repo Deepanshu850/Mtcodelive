@@ -117,23 +117,23 @@ marathahalli, ladies pg in marathahalli, lenskart marathahalli, malls in maratha
         }
     </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ImageObject",
-  "contentUrl": "https://moneytreerealty.com/assets/img/marathahalli-banglore-banner.webp",
-  "description": "A beautiful view of Marathahalli, Bangalore",
-  "author": {
-    "@type": "Organization",
-    "name": "Moneytree Realty"
-  },
-  "datePublished": "2024-07-26",
-  "name": "Marathahalli Bangalore: Map, Property Rates, Projects, Photos, Reviews, Info",
-  "url": "https://moneytreerealty.com/marathahalli-bangalore-overview",
-  "height": "630",
-  "width": "1200"
-}
-</script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "contentUrl": "https://moneytreerealty.com/assets/img/marathahalli-banglore-banner.webp",
+            "description": "A beautiful view of Marathahalli, Bangalore",
+            "author": {
+                "@type": "Organization",
+                "name": "Moneytree Realty"
+            },
+            "datePublished": "2024-07-26",
+            "name": "Marathahalli Bangalore: Map, Property Rates, Projects, Photos, Reviews, Info",
+            "url": "https://moneytreerealty.com/marathahalli-bangalore-overview",
+            "height": "630",
+            "width": "1200"
+        }
+    </script>
 
 
     <!-- Google Tag Manager -->
@@ -190,7 +190,8 @@ marathahalli, ladies pg in marathahalli, lenskart marathahalli, malls in maratha
 
 
 
-    <?php include './header.php';  ?>
+    <?php set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';  ?>
 
 
     <!-- main content -->

@@ -115,7 +115,8 @@ Noida Extension, Flats in Noida, Sale in Noida, Flats for Sale" />
 
 
 
-    <?php include './header.php';  ?>
+    <?php set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';  ?>
 
 
     <!-- main content -->

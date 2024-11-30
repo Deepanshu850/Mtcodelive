@@ -95,7 +95,8 @@ New Property Projects, Real Estate Developments Delhi/NCR, Upcoming Property Lau
 
 
     <?php
-    include './header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
 

@@ -126,7 +126,8 @@ Space Noida Expressway,Office Space In Noida Price" />
 
 
 
-    <?php include './header.php';  ?>
+    <?php set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';  ?>
 
 
 
@@ -170,7 +171,7 @@ Space Noida Expressway,Office Space In Noida Price" />
                 <h1>
                     Office Space for Sale in Noida | Office Space in Noida
                 </h1>
-                
+
                 <h2>Office Space in Noida - Thriving Business Destination </h2>
 
                 <p>The globalisation of the economy coupled with numerous social infrastructure developments have initiated various MNCs and Startups to set their offices in Noida and be part of the emerging Noida real estate. Government initiatives such as constructing <strong>&lsquo; <a href="./blog/noida-international-airport-jewar-airport.php">Noida International Airport</a> &rsquo;</strong> in Jewar Uttar Pradesh to boost the seamless connectivity and ease load on the Indira Gandhi international Airport has skyrocketed the capital appreciation of property for sale in Noida along with its economy and hence promoting various talented working professionals to move to the city.</p>

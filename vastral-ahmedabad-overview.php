@@ -177,7 +177,8 @@ road, vastral distance, city restaurant vastral, vastral post office, vastral te
 
 
 
-    <?php include './header.php';  ?>
+    <?php set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';  ?>
 
 
     <!-- main content -->

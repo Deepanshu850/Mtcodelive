@@ -238,7 +238,8 @@ Estate Advice, Real Estate Opportunities,   Commercial Real Estate" />
     <!-- End Google Tag Manager (noscript) -->
 
     <?php
-    include './header.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
     <main>

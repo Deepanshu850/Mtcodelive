@@ -2,28 +2,28 @@
 <html lang="en">
 
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>How to Generate Passive Income Through Commercial Properties</title>
-<meta name="description" content="Explore effective strategies for generating passive income through commercial real estate investments with MoneyTree Realty in Noida.">
-<meta name="keywords" content="passive income, commercial properties, real estate investment, MoneyTree Realty, Noida">
-<meta name="author" content="MoneyTree Realty Services">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>How to Generate Passive Income Through Commercial Properties</title>
+    <meta name="description" content="Explore effective strategies for generating passive income through commercial real estate investments with MoneyTree Realty in Noida.">
+    <meta name="keywords" content="passive income, commercial properties, real estate investment, MoneyTree Realty, Noida">
+    <meta name="author" content="MoneyTree Realty Services">
 
 
 
-<meta property="og:title" content="How to Generate Passive Income Through Commercial Properties">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://moneytreerealty.com/blog/how-to-generate-passive-income-through-commercial-properties.php">
-<meta property="og:image" content="http://www.yourwebsite.com/images/blog-post.jpg">
-<meta property="og:description" content="Learn the essentials of earning through commercial real estate investments with MoneyTree Realty in Noida.">
-<meta property="og:site_name" content="MoneyTree Realty">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:description" content="Discover key strategies for passive income via commercial real estate with MoneyTree Realty in Noida.">
-<meta name="twitter:title" content="How to Generate Passive Income Through Commercial Properties">
-<meta name="twitter:image" content="https://moneytreerealty.com//images/blog-post.jpg">
+    <meta property="og:title" content="How to Generate Passive Income Through Commercial Properties">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://moneytreerealty.com/blog/how-to-generate-passive-income-through-commercial-properties.php">
+    <meta property="og:image" content="http://www.yourwebsite.com/images/blog-post.jpg">
+    <meta property="og:description" content="Learn the essentials of earning through commercial real estate investments with MoneyTree Realty in Noida.">
+    <meta property="og:site_name" content="MoneyTree Realty">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:description" content="Discover key strategies for passive income via commercial real estate with MoneyTree Realty in Noida.">
+    <meta name="twitter:title" content="How to Generate Passive Income Through Commercial Properties">
+    <meta name="twitter:image" content="https://moneytreerealty.com//images/blog-post.jpg">
 
     <!-- Meta description containing the target title for SEO purposes -->
- 
+
     <meta name="Owner" content="Moneytreerealty.com" />
     <meta name="Copyright" content="Moneytreerealty.com" />
     <meta name="classification" content="Real Estate Property Search" />
@@ -33,46 +33,46 @@
         content="Search Property for Sale And Rent, Search New	Projects, Builders And Property Consultant in India" />
     <meta name="audience" content="All" />
     <script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Article",
-  "headline": "How to Generate Passive Income Through Commercial Properties",
-  "image": [
-    "http://www.yourwebsite.com/blog/assets/passiveincome.png"
-   ],
-  "author": {
-    "@type": "Organization",
-    "name": "MoneyTree Realty Services"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "MoneyTree Realty Services",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://moneytreerealty.com/assets/img/logo.png."
-    }
-  },
-  "datePublished": "2024-03-21",
-  "description": "This blog post discusses strategies for generating passive income through commercial real estate investments, focusing on opportunities in Noida with MoneyTree Realty."
-}
-</script>
+        {
+            "@context": "http://schema.org",
+            "@type": "Article",
+            "headline": "How to Generate Passive Income Through Commercial Properties",
+            "image": [
+                "http://www.yourwebsite.com/blog/assets/passiveincome.png"
+            ],
+            "author": {
+                "@type": "Organization",
+                "name": "MoneyTree Realty Services"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "MoneyTree Realty Services",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://moneytreerealty.com/assets/img/logo.png."
+                }
+            },
+            "datePublished": "2024-03-21",
+            "description": "This blog post discusses strategies for generating passive income through commercial real estate investments, focusing on opportunities in Noida with MoneyTree Realty."
+        }
+    </script>
 
     <!-- Google Tag Manager -->
     <script>
-    (function(w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            'gtm.start': new Date().getTime(),
-            event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s),
-            dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
-            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N2ZBWP94');
     </script>
     <!-- End Google Tag Manager -->
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
@@ -100,13 +100,13 @@
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-JZJY23MWW7"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
+        window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'G-JZJY23MWW7');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-JZJY23MWW7');
     </script>
     <!-- End Google Analytics -->
     <!--G-JZJY23MWW7-->
@@ -142,8 +142,9 @@
 
 
 
- <?php
-    include './header.php';
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    include 'header-demo.php';
     ?>
 
 
@@ -151,14 +152,14 @@
 
 
     <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const images = document.querySelectorAll('.image-gallery img');
-        images.forEach(img => {
-            window.setTimeout(() => {
-                img.style.opacity = 1;
-            }, 300); // Adjust time as needed
+        document.addEventListener("DOMContentLoaded", function() {
+            const images = document.querySelectorAll('.image-gallery img');
+            images.forEach(img => {
+                window.setTimeout(() => {
+                    img.style.opacity = 1;
+                }, 300); // Adjust time as needed
+            });
         });
-    });
     </script>
 
 
@@ -170,36 +171,36 @@
     <!-- content main blog -->
     <div class="container">
 
-       
+
         </head>
 
         <body>
             <style>
-            .blog-post {
-                /* font-family: Arial, sans-serif; */
-                max-width: 1200px;
-                margin: auto;
-                padding: 20px;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            }
-
-            .blog-image {
-                justify-content: center;
-                width: 40%;
-                height: 30%;
-            }
-
-            .publish-date {
-                text-align: right;
-                color: #888;
-                margin-bottom: 20px;
-            }
-
-            @media (max-width: 768px) {
                 .blog-post {
-                    padding: 10px;
+                    /* font-family: Arial, sans-serif; */
+                    max-width: 1200px;
+                    margin: auto;
+                    padding: 20px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
                 }
-            }
+
+                .blog-image {
+                    justify-content: center;
+                    width: 40%;
+                    height: 30%;
+                }
+
+                .publish-date {
+                    text-align: right;
+                    color: #888;
+                    margin-bottom: 20px;
+                }
+
+                @media (max-width: 768px) {
+                    .blog-post {
+                        padding: 10px;
+                    }
+                }
             </style>
 
 
@@ -348,10 +349,10 @@
     </div>
 
 
-  <?php
-        include './more-tags.php';
-        include './footer.php';
-        ?>
+    <?php
+    include './more-tags.php';
+    include './footer.php';
+    ?>
 
 
 
@@ -377,22 +378,22 @@
     <script src="../assets/js/jquery.fancybox.min.js"></script>
     <script src="../assets/js/custom.js"></script>
     <script>
-    $(".marquee_text").marquee({
-        direction: "left",
-        duration: 25000,
-        gap: 50,
-        delayBeforeStart: 0,
-        duplicated: true,
-        startVisible: true,
-    });
-    $(".marquee_text2").marquee({
-        direction: "left",
-        duration: 25000,
-        gap: 50,
-        delayBeforeStart: 0,
-        duplicated: true,
-        startVisible: true,
-    });
+        $(".marquee_text").marquee({
+            direction: "left",
+            duration: 25000,
+            gap: 50,
+            delayBeforeStart: 0,
+            duplicated: true,
+            startVisible: true,
+        });
+        $(".marquee_text2").marquee({
+            direction: "left",
+            duration: 25000,
+            gap: 50,
+            delayBeforeStart: 0,
+            duplicated: true,
+            startVisible: true,
+        });
     </script>
 </body>
 
