@@ -9,33 +9,33 @@
     </div>
     <div class="content open">
         <a href="#heading-1">
-            1. Property in Noida - Brief Description
+            1. Noida Real Estate | Thriving Commercial Hub
         </a>
         <a href="#heading-2">
-            2. How to buy Property in Noida?
+            2. Why Should You Buy Commercial Projects in Noida?
         </a>
 
         <a href="#heading-3">
-            3. Types of Real Estate investment in Noida
+            3. Top 7 Commercial Projects in Noida
         </a>
         <a href="#heading-4">
             4. Where to buy Property in Noida?
 
         </a>
         <a href="#heading-5">
-            5. Tired of looking to buy Property in Noida?
+            5. Market Trends for Commercial Projects in Noida
 
         </a>
         <a href="#heading-6">
-            6. Tired of looking at Property for Sale on Dwarka Expressway
+            6. Before You Buy Commercial Property in Noida: Consider These Factors
 
         </a>
         <a href="#heading-7">
-            7. How to invest in Real Estate?
+            7. Looking to Buy Commercial Property in Noida?
 
         </a>
         <a href="#heading-8">
-            8. Looking to Invest in Real Estate in India?
+            8. Frequently asked questions
 
         </a>
         <a href="#heading-9">
@@ -48,5 +48,3 @@
 
     </div>
 </div>
-
-
