@@ -147,4 +147,31 @@ $celebHomesData = [
             'image3.jpg'
         ]
     ],
+    [
+        'name' => 'Junior NTR House',
+        'link' => 'junior-ntr-house',
+        'images' => [
+            'junior-ntr-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
+    [
+        'name' => 'MS Dhoni’s Farmhouse',
+        'link' => 'ms-dhoni-farm-house',
+        'images' => [
+            'ms-dhoni-farm-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
+    [
+        'name' => 'Rohit Sharma’s House',
+        'link' => 'rohit-sharma-house',
+        'images' => [
+            'rohit-sharma-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
 ];

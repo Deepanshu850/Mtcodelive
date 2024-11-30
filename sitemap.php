@@ -1921,6 +1921,11 @@
           </a>
         </li>
 
+        <li class="lpage last-page">
+          <a href="https://moneytreerealty.com/blog/top-7-commercial-projects-in-noida" title="Top 7 Commercial Projects in Noida: Real Estate Investments 2024">
+            Top 7 Commercial Projects in Noida: Real Estate Investments 2024
+          </a>
+        </li>
 
       </ul>
       <ul id='propertydetail list-5' class="hidden">
@@ -2413,7 +2418,24 @@
           </a>
         </li>
 
+        <li class="lpage">
+          <a href="https://moneytreerealty.com/celeb-homes/junior-ntr-house" title="Junior NTR House: Movies, Biography, News, Age, Football Player & Photos">
 
+            Glimpses of Junior NTR House
+          </a>
+        </li>
+        <li class="lpage">
+          <a href="https://moneytreerealty.com/celeb-homes/ms-dhoni-farm-house" title="MS Dhoni Farm House Ranchi: Movies, Biography, News, Age & Photos">
+            Inside MS Dhoni’s Peaceful Farmhouse: A Glimpse into the Cricketer's Private Retreat
+
+          </a>
+        </li>
+        <li class="lpage">
+          <a href="https://moneytreerealty.com/celeb-homes/rohit-sharma-house" title="Rohit Sharma House: Movies, Biography, News, Age & Photos">
+
+            A peek inside Rohit Sharma’s House | Hitman’s Luxurious House
+          </a>
+        </li>
 
 
       </ul>
