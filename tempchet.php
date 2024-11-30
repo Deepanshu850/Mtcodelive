@@ -50,17 +50,3 @@
 </div>
 
 
-
-
-
-
-
-<li class="lpage">
-    <a href="https://moneytreerealty.com/real-estate-developers/elan-group" title="">
-
-
-    </a>
-</li>
-
-
-
