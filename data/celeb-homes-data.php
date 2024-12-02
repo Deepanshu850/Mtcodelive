@@ -174,4 +174,22 @@ $celebHomesData = [
             'image3.jpg'
         ]
     ],
+    [
+        'name' => 'Cristiano Ronaldo’s Houses',
+        'link' => 'cristiano-ronaldo-house',
+        'images' => [
+            'cristiano-ronaldo-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
+    [
+        'name' => 'Sachin Tendulkar’s House',
+        'link' => 'sachin-tendulkar-house',
+        'images' => [
+            'sachin-tendulkar-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
 ];
