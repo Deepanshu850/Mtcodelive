@@ -1029,4 +1029,30 @@ ka, 1 BHK Flats, 2 BHK Flats',
     ],
 
 
+
+
+    [
+        'id' => 34,
+        'name' => 'Godrej Riverine Sector 44 Noida',
+        'link' => 'godrej-riverine-sector-44-noida',
+        'builder' => 'Godrej Properties',
+        'location' => ['Noida', 'Sector 44', '201301', 'Noida - Greater Noida Expressway'],
+        'images' => [
+            'assets\img\projectdetails\godrejriverine1.webp',
+            'assets\img\projectdetails\godrejriverine2.webp',
+            'assets\img\projectdetails\godrejriverine3.webp',
+        ],
+
+        'price' => '₹7.30 Cr+',
+        'possession' => 'September, 2029',
+        'area' => '2700 sq ft and 3700 sq ft',
+        'type' => ['Residential'],
+        'typeDetail' => ['3 BHK flats', '4 BHK flats'],
+        'rera' => ['UPRERAPRJ763929/11/2024', 'UPRERAPRJ763929/11/2024'],
+        'shortDescription' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, amet! Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aut? Aut quod deserunt quaerat nihil.',
+        'keywords' => 'Godrej Riverine, Godrej Riverine Noida, Godrej Riverine Sector 44, Residential Apartments Noida, 3 BHK Apartments Noida, 4 BHK Apartments Noida, Godrej Properties Noida, Luxury Apartments Noida, Under Construction Apartments Noida, Noida-Greater Noida Expressway, Premium Real Estate Noida, Godrej Riverine Amenities, RERA Registered Properties Noida, Sector 44 Noida Flats, High-End Apartments Noida, Property Investment Noida, Luxury Residential Properties Noida, Godrej Riverine Price, Godrej Riverine Location, Godrej Riverine Reviews, Flats for Sale in Noida, Apartments Near DND Flyway, Real Estate in Sector 44 Noida, Upcoming Projects in Noida, Godrej Riverine Highlights, Noida Luxury Homes, Residential Property Noida, Godrej Riverine Connectivity, Top Builders in Noida, Godrej Riverine Gallery, Godrej Properties Sector 44, Noida Residential Investment, Premium Flats Noida, Best Real Estate Projects Noida, Noida Green Spaces Apartments',
+
+    ],
+
+
 ];
