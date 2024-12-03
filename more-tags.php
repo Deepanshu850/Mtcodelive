@@ -304,7 +304,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="./real-estate-developers/mahindra-lifespace-developers">
+                    <a href="./real-estate-developers/mahindra-lifespaces-developers">
                         Mahindra Lifespace Developers
                     </a>
                 </li>
