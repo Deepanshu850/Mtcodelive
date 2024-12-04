@@ -1638,14 +1638,25 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                 </div>
             </div>
         </div>
+
+
+        <?php include 'data/developer-data.php'; ?>
         <div class="col-lg-12">
             <div class="section-title1 container">
                 <h2>Developers</h2>
             </div>
             <div class=partner-slider style=overflow-x:hidden>
-                <div class=marquee_text2><?php foreach ($developerLogos as $logo) : ?><img loading="lazy" alt="<?= $logo['alt']; ?>" src="<?= $logo['src']; ?>" height=100 width=300><?php endforeach; ?></div>
+                <div class=marquee_text2>
+                    <?php foreach ($developers as $developers) : ?>
+                        <img loading="lazy" alt="<?= $developers['name']; ?>" src="assets/img/developer-logos/<?= $developers['image']; ?>" height=100 width=300>
+                    <?php endforeach; ?>
+                </div>
             </div>
         </div>
+
+
+
+
         <div class="pt-90 news-section pb-90">
             <div class=container>
                 <div class="fadeInUp wow mb-50 row" data-wow-delay=200ms>
