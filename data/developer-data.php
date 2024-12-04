@@ -70,7 +70,7 @@ $developers =
         ],
         [
             'name' => 'Mahindra Lifespace Developers',
-            'link' => 'mahindra-lifespace-developers',
+            'link' => 'mahindra-lifespaces-developers',
             'image' => 'mahindra-lifespaces-developers-logo.png',
             'developerLink' => 'https://www.mahindralifespaces.com/'
         ],

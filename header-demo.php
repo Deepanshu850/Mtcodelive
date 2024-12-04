@@ -6,17 +6,58 @@ function internalLink($relativePath)
     return BASE_PATH . $relativePath;
 }
 ?>
+<!-- <div class="socialLinks">
+    <ul>
+        <li>
+            <a href="https://www.facebook.com/moneytreerealtyofficial" class="social-link">
+                <img src="<?php echo internalLink('/assets/img/FB.png'); ?>" alt="Facebook">
+            </a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/company/moneytreerealtyservices/mycompany/" class="social-link">
+                <img src="<?php echo internalLink('/assets/img/Linkedin.png'); ?>" alt="LinkedIn">
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.instagram.com/moneytreerealtyofficial/" class="social-link">
+                <img src="<?php echo internalLink('/assets/img/Insta.png'); ?>" alt="Instagram">
+            </a>
+        </li>
+
+
+    </ul>
+
+
+
+</div> -->
+
+
 <div class="socialLinks">
-    <a href="https://www.facebook.com/moneytreerealtyofficial" class="social-link">
-        <img src="<?php echo internalLink('/assets/img/FB.png'); ?>" alt="Facebook">
-    </a>
-    <a href="https://www.linkedin.com/company/moneytreerealtyservices/mycompany/" class="social-link">
-        <img src="<?php echo internalLink('/assets/img/Linkedin.png'); ?>" alt="LinkedIn">
-    </a>
-    <a href="https://www.instagram.com/moneytreerealtyofficial/" class="social-link">
-        <img src="<?php echo internalLink('/assets/img/Insta.png'); ?>" alt="Instagram">
-    </a>
+    <ul>
+        <li>
+            <a href="https://www.facebook.com/moneytreerealtyofficial" class="social-link">
+                <i class="bi bi-facebook"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/company/moneytreeryservices/mycompany/" class="social-link">
+                <i class="bi bi-linkedin"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/moneytreerealtyofficial/" class="social-link">
+                <i class="bi bi-instagram"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/@Moneytreerealtyofficial" class="social-link">
+                <i class="bi bi-youtube"></i>
+            </a>
+        </li>
+    </ul>
 </div>
+
 
 <style>
     /* Container for Social Links */
@@ -25,16 +66,46 @@ function internalLink($relativePath)
         top: 50%;
         left: 0;
         transform: translateY(-50%);
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        z-index: 1000;
-        padding: 10px;
-        /* background: rgba(0, 0, 0, 0.5); */
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
+        padding: 0;
+        margin: 0;
+        z-index: 100;
+
     }
 
+    .socialLinks * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .socialLinks ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        /* gap: 1px; */
+        width: 200px;
+        transform: translateX(-155px);
+        border-radius: 12px;
+    }
+
+    .socialLinks li {
+        background: rgba(58, 58, 58, 0.4);
+        background: rgba(17, 17, 17, 0.5);
+
+        /* Glassy effect */
+        backdrop-filter: blur(6px);
+        /* Apply blur for the glass effect */
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 5px;
+        padding-block: 5px;
+        transition: transform 250ms ease, background 250ms ease, border-radius 250ms ease;
+    }
+
+    .socialLinks li:hover {
+        transform: translateX(8px);
+    }
+
+    /* Links */
     .socialLinks a {
         --link-size: 40px;
         width: var(--link-size);
@@ -42,32 +113,59 @@ function internalLink($relativePath)
         display: flex;
         align-items: center;
         justify-content: center;
-        background: #005b52;
         border-radius: 50%;
         overflow: hidden;
+        color: #fff;
+        font-size: 22px;
+        /* Icon size */
         transition: transform 0.3s, background 0.3s;
     }
 
-
-    .socialLinks a img {
-        --link-img-size: 70%;
-        width: var(--link-img-size);
-        height: var(--link-img-size);
-        object-fit: contain;
-    }
-
-    .socialLinks a img {
-        width: 70%;
-        height: 70%;
-        object-fit: contain;
-        transition: transform 0.3s ease;
-    }
-
-    .socialLinks a:hover img {
+    .socialLinks a:hover {
         transform: scale(1.1);
     }
-</style>
 
+    /* Hover Effects for Individual Social Media */
+    .socialLinks li:nth-child(1) {
+        border-radius: 0 12px 0 0;
+    }
+
+    .socialLinks li:nth-child(1):hover {
+        background: #305891;
+        /* Facebook blue */
+        border-radius: 0 12px 12px 0;
+    }
+
+    .socialLinks li:nth-child(2) {
+        border-radius: 0 0 0 0;
+    }
+
+    .socialLinks li:nth-child(2):hover {
+        background: #007bb6;
+        /* LinkedIn blue */
+        border-radius: 0 12px 12px 0;
+    }
+
+    .socialLinks li:nth-child(3) {
+        border-radius: 0 0 0 0;
+    }
+
+    .socialLinks li:nth-child(3):hover {
+        background: linear-gradient(165deg, #515bd4 20%, #8134af 40%, #dd2a7b 60%, #FEDA77 90%);
+        /* Instagram gradient */
+        border-radius: 0 12px 12px 0;
+    }
+
+    .socialLinks li:nth-child(4) {
+        border-radius: 0 0 12px 0;
+    }
+
+    .socialLinks li:nth-child(4):hover {
+        background: #af0606;
+        /* YouTube red */
+        border-radius: 0 12px 12px 0;
+    }
+</style>
 
 
 
@@ -567,6 +665,9 @@ function internalLink($relativePath)
                 rgba(0, 91, 82, 0.6) 60%,
                 rgba(0, 91, 82, 0.6) 80%,
                 rgba(0, 91, 82, 0.8) 100%);
+
+
+
     }
 
     /* Optional: Styling for Children */

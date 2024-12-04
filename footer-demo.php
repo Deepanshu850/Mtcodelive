@@ -8,6 +8,7 @@
         color: rgba(255, 255, 255, 0.9);
         font-size: 14px;
         height: 86dvh;
+        width: 100%;
     }
 
     .footer-wrapper {
@@ -16,26 +17,17 @@
 
 
         background: radial-gradient(circle at top right,
-                /* Fade from green to transparent */
                 rgba(0, 91, 82, 1) 0%,
-                rgba(0, 91, 82, 0.9) 10%,
-                rgba(0, 91, 82, 0.8) 20%,
-                rgba(0, 91, 82, 0.7) 30%,
-                /* rgba(0, 91, 82, 0.5) 40%, */
-                /* rgba(0, 91, 82, 0.4) 45%, */
-                /* rgba(0, 91, 82, 0.3) 47%, */
-                /* rgba(0, 91, 82, 0.3) 49%, */
-                /* rgba(0, 91, 82, 0.0) 50%, */
-                /* Fade from transparent back to green */
-                /* rgba(0, 91, 82, 0.0) 50%, */
-                /* rgba(0, 91, 82, 0.2) 51%, */
-                /* rgba(0, 91, 82, 0.3) 53%, */
-                rgba(0, 91, 82, 0.5) 55%,
-                rgba(0, 91, 82, 0.5) 60%,
-                rgba(0, 91, 82, 0.6) 70%,
-                rgba(0, 91, 82, 0.7) 80%,
-                rgba(0, 91, 82, 0.75) 90%,
-                rgba(0, 91, 82, 0.8) 100%);
+                /* Base color */
+                rgba(0, 91, 82, 0.95) 10%,
+                rgba(0, 91, 82, 0.9) 20%,
+                rgba(0, 91, 82, 0.85) 30%,
+                rgba(0, 91, 82, 0.7) 55%,
+                rgba(0, 91, 82, 0.7) 60%,
+                rgba(0, 91, 82, 0.75) 70%,
+                rgba(0, 91, 82, 0.8) 80%,
+                rgba(0, 91, 82, 0.85) 90%,
+                rgba(0, 91, 82, 0.9) 100%);
 
 
         backdrop-filter: blur(12px);
@@ -131,8 +123,8 @@
     }
 
     .footer-social a img {
-        width: 24px;
-        height: 24px;
+        width: 36px;
+        height: 36px;
         margin-right: 10px;
         transition: transform 0.3s ease;
     }
@@ -172,9 +164,14 @@
 
     .footer-bottom {
         margin-top: 40px;
+
+    }
+
+    .footer-bottom p {
         text-align: center;
         font-size: 12px;
         color: rgba(255, 255, 255, 0.7);
+        line-height: 14px;
     }
 </style>
 
@@ -205,14 +202,129 @@
                     info@moneytreerealty.com
                 </a>
             </div>
-            <div class="footer-social">
-                <a target="_blank" href="https://www.facebook.com/moneytreerealtyofficial"><img src="<?php echo internalLink('/assets/img/home2/icon/facebook.svg'); ?>" alt="Facebook"></a>
-                <a target="_blank" href="https://www.instagram.com/moneytreerealtyofficial/"><img src="<?php echo internalLink('/assets/img/home2/icon/insta.svg'); ?>" alt="Instagram"></a>
-                <a target="_blank" href="https://www.linkedin.com/company/moneytree-realty-services/mycompany/"><img src="<?php echo internalLink('/assets/img/home2/icon/linkedin.svg'); ?>" alt="LinkedIn"></a>
+            <!-- <div class="footer-social">
+                <a target="_blank" href="https://www.facebook.com/moneytreerealtyofficial"><img src="<?php echo internalLink('/assets/img/FB.png'); ?>" alt="Facebook"></a>
+                <a target="_blank" href="https://www.instagram.com/moneytreerealtyofficial/"><img src="<?php echo internalLink('/assets/img/Insta.png'); ?>" alt="Instagram"></a>
+                <a target="_blank" href="https://www.linkedin.com/company/moneytree-realty-services/mycompany/"><img src="<?php echo internalLink('/assets/img/home1/icon/insta.svg'); ?>" alt="LinkedIn"></a>
                 <a target="_blank" href="https://www.youtube.com/@Moneytreerealtyofficial"><img src="<?php echo internalLink('/assets/img/home2/icon/youtube.svg'); ?>" alt="YouTube"></a>
-            </div>
-        </div>
+            </div> -->
 
+
+            <div class="footer-social">
+                <a class="social facebook" target="_blank" href="https://www.facebook.com/moneytreerealtyofficial">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a class="social instagram" target="_blank" href="https://www.instagram.com/moneytreerealtyofficial/">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a class="social linkedin" target="_blank" href="https://www.linkedin.com/company/moneytree-realty-services/mycompany/">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a class="social youtube" target="_blank" href="https://www.youtube.com/@Moneytreerealtyofficial">
+                    <i class="bi bi-youtube"></i>
+                </a>
+            </div>
+
+
+            <style>
+                .footer-social {
+                    display: flex;
+                    /* justify-content: center; */
+                    gap: 0px;
+                    /* Spacing between icons */
+                }
+
+                .footer-social a {
+                    display: inline-block;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    /* Circular background for glow */
+                    position: relative;
+                    text-align: center;
+                    text-decoration: none;
+                    background-color: transparent;
+                    /* Icon background color (dark for contrast) */
+                    transition: transform 0.3s ease-in-out;
+                    /* Smooth hover effect */
+                }
+
+                .footer-social a i {
+                    font-size: 24px;
+                    /* Fixed size for icons */
+                    color: #fff;
+                    /* White icon color */
+                    line-height: 50px;
+                    /* Center icon vertically */
+                    position: relative;
+                    z-index: 2;
+                    /* Keep icon above the glow */
+                }
+
+                /* .footer-social a.facebook::before {
+                    background: #3b5998;
+                    box-shadow: 0px 0px 10px 11px #3b5998;
+                }
+
+                .footer-social a.instagram::before {
+                    background: #E1306C;
+                    box-shadow: 0px 0px 10px 11px #E1306C;
+                }
+
+                .footer-social a.linkedin::before {
+                    background: #007bb6;
+                    box-shadow: 0px 0px 10px 11px #007bb6;
+                }
+
+                .footer-social a.youtube::before {
+                    background: #FF0000;
+                    box-shadow: 0px 0px 10px 11px #FF0000;
+                } */
+
+                .footer-social a::before {
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+
+
+                    width: 0;
+                    height: 0;
+
+                    border-radius: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: 1;
+                    background: transparent;
+                    transition: all 0.3s ease-in-out;
+                    box-shadow: 0 0 50px 20px transparent;
+                    /* Default glow is off */
+                }
+
+                .footer-social a.facebook:hover::before {
+                    background: #3b5998;
+                    /* Facebook blue glow */
+                    box-shadow: 0px 0px 15px 15px #3b5998;
+                }
+
+                .footer-social a.instagram:hover::before {
+                    background: #E1306C;
+                    /* Instagram pink glow */
+                    box-shadow: 0px 0px 15px 15px #E1306C;
+                }
+
+                .footer-social a.linkedin:hover::before {
+                    background: #007bb6;
+                    /* LinkedIn blue glow */
+                    box-shadow: 0px 0px 15px 15px #007bb6;
+                }
+
+                .footer-social a.youtube:hover::before {
+                    background: #FF0000;
+                    /* YouTube red glow */
+                    box-shadow: 0px 0px 15px 15px #FF0000;
+                }
+            </style>
+        </div>
         <!-- Column 2: Useful Links -->
         <div class="footer-links">
             <h3>Useful Links</h3>
