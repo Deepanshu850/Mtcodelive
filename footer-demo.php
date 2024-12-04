@@ -159,10 +159,19 @@
         margin-bottom: 10px;
     }
 
-    .footer-links a {
+    .footer-links .footer-links-list a {
         color: rgba(255, 255, 255, 0.8);
         font-weight: 500;
         font-size: 16px;
+        padding: 10px;
+        outline: none;
+        transition: outline 100ms ease;
+        border-radius: 6px;
+
+    }
+    .footer-links .footer-links-list a:hover {
+        outline: 2px solid rgba(255, 255, 255, 0.43);
+        
     }
 
     .footer-bottom {

@@ -656,7 +656,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
 
         <!-- properties grid of home page -->
 
-        <div class="property-container" style="padding:20px;">
+        <div class="property-container">
 
             <?php
             // Function to generate type links
@@ -678,8 +678,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
             ?>
 
             <p class="fakeTitle">
-
-                Our <span>Projects</span>
+                Our <span class="bg-green">Projects</span>
             </p>
 
             <div class="properties-grid" id="propertiesGrid">
@@ -693,7 +692,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                             <?php endforeach; ?>
                         </div>
                         <h2>
-                            <a href="<?php echo htmlspecialchars($property['link']); ?>">
+                            <a target="_blank" href="./propertydetail/<?php echo htmlspecialchars($property['link']); ?>">
                                 <?php echo htmlspecialchars($property['name']); ?>
                             </a>
                         </h2>
@@ -702,12 +701,12 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                             <p><b>Price:</b> <?php echo htmlspecialchars($property['price']); ?></p>
                             <p><b>Type:</b>
                                 <?php foreach ($property['type'] as $type): ?>
-                                    <a href="<?php echo htmlspecialchars(getTypeLink($type)); ?>">
+                                    <a target="_blank" href="<?php echo htmlspecialchars(getTypeLink($type)); ?>">
                                         <span><?php echo htmlspecialchars($type); ?></span>
                                     </a>
                                 <?php endforeach; ?>
                             </p>
-                            <a href="./propertydetail/<?php echo htmlspecialchars($property['link']); ?>" class="details-link">View Details</a>
+                            <a target="_blank" href="./propertydetail/<?php echo htmlspecialchars($property['link']); ?>" class="details-link">View Details</a>
                         </div>
                     </div>
                 <?php endforeach; ?>

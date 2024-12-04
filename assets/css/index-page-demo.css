@@ -623,15 +623,8 @@ a {
 	background-color: #005b52;
 }
 
-.property-container p.gradient-heading {
-	background: linear-gradient(90deg, #00796b, #009688, #26a69a);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	font-size: 40px;
-	font-weight: 600;
-	height: 3rem;
-	display: flex;
-	align-items: center;
+.property-container {
+	padding-top: 3rem;
 }
 
 .content {
