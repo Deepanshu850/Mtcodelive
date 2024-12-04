@@ -145,12 +145,14 @@
         color: white;
         font-size: 18px;
         border-bottom: 2px solid;
+        padding-bottom: 12px;
     }
 
     .footer-links-list {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        place-items: center;
+        gap: 10px;
+        /* place-items: center; */
     }
 
     .footer-links li {
@@ -160,6 +162,7 @@
     .footer-links a {
         color: rgba(255, 255, 255, 0.8);
         font-weight: 500;
+        font-size: 16px;
     }
 
     .footer-bottom {
@@ -261,25 +264,7 @@
                     /* Keep icon above the glow */
                 }
 
-                /* .footer-social a.facebook::before {
-                    background: #3b5998;
-                    box-shadow: 0px 0px 10px 11px #3b5998;
-                }
 
-                .footer-social a.instagram::before {
-                    background: #E1306C;
-                    box-shadow: 0px 0px 10px 11px #E1306C;
-                }
-
-                .footer-social a.linkedin::before {
-                    background: #007bb6;
-                    box-shadow: 0px 0px 10px 11px #007bb6;
-                }
-
-                .footer-social a.youtube::before {
-                    background: #FF0000;
-                    box-shadow: 0px 0px 10px 11px #FF0000;
-                } */
 
                 .footer-social a::before {
                     content: "";

@@ -38,6 +38,22 @@ h6 {
 	color: #121212;
 }
 
+.fakeTitle {
+	font-weight: 600;
+	line-height: 1.4;
+	color: #121212;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 2.5rem;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+	font-size: 28px;
+}
+
+@media (width < 700px) {
+	.fakeTitle {
+		font-size: 26px;
+	}
+}
 p {
 	text-wrap: pretty;
 	line-height: 1.6;
