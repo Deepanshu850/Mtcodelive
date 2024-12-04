@@ -2955,9 +2955,20 @@
           </a>
         </li>
 
+        <li class="lpage">
+          <a href="https://moneytreerealty.com/celeb-homes/kriti-sanon-house"
+            title="Inside the Luxurious Home of the Award-Winner: Kriti Sanon House">
+            Kriti Sanon House: A Peek Inside the National Film Award Winning Actress’s Luxurious Abode
+          </a>
+        </li>
+        <li class="lpage">
+          <a href="https://moneytreerealty.com/celeb-homes/siddharth-shukla-house"
+            title="Inside Siddharth Shukla's House: A Glimpse of Luxury Living">
+            Inside Siddharth Shukla's House: A Glimpse into the Actor's Luxurious Residence
+          </a>
+        </li>
 
 
-        
       </ul>
 
     </div>

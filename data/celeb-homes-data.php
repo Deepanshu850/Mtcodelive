@@ -192,4 +192,22 @@ $celebHomesData = [
             'image3.jpg'
         ]
     ],
+    [
+        'name' => 'Kriti Sanon House',
+        'link' => 'kriti-sanon-house',
+        'images' => [
+            'kriti-sanon-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
+    [
+        'name' => 'Siddharth Shukla\'s House',
+        'link' => 'siddharth-shukla-house',
+        'images' => [
+            'siddharth-shukla-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
 ];
