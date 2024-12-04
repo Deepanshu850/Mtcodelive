@@ -6,31 +6,6 @@ function internalLink($relativePath)
     return BASE_PATH . $relativePath;
 }
 ?>
-<!-- <div class="socialLinks">
-    <ul>
-        <li>
-            <a href="https://www.facebook.com/moneytreerealtyofficial" class="social-link">
-                <img src="<?php echo internalLink('/assets/img/FB.png'); ?>" alt="Facebook">
-            </a>
-        </li>
-        <li>
-            <a href="https://www.linkedin.com/company/moneytreerealtyservices/mycompany/" class="social-link">
-                <img src="<?php echo internalLink('/assets/img/Linkedin.png'); ?>" alt="LinkedIn">
-            </a>
-        </li>
-
-        <li>
-            <a href="https://www.instagram.com/moneytreerealtyofficial/" class="social-link">
-                <img src="<?php echo internalLink('/assets/img/Insta.png'); ?>" alt="Instagram">
-            </a>
-        </li>
-
-
-    </ul>
-
-
-
-</div> -->
 
 
 <div class="socialLinks">
@@ -164,6 +139,12 @@ function internalLink($relativePath)
         background: #af0606;
         /* YouTube red */
         border-radius: 0 12px 12px 0;
+    }
+
+    @media (width < 700px) {
+        .socialLinks {
+            display: none;
+        }
     }
 </style>
 
@@ -366,44 +347,28 @@ function internalLink($relativePath)
 <!-- mobile side menu -->
 
 
-
 <div class="mobile-menu" id="mobileMenu">
     <nav class="mobile-nav">
         <ul>
             <li><a href="./index">Home</a></li>
             <li><a href="./career">Career</a></li>
             <li class="mobile-dropdown">
-                <a href="./projects">Projects</a>
+                <span class="dropdown-toggle">Projects</span>
                 <ul class="mobile-submenu">
-                    <li>
-                        <a href="./category/residential-property">Residential</a>
-                        <ul class="mobile-sub-submenu">
-                            <li><a href="./category/residential-property-for-sale-noida">Noida</a></li>
-                            <li><a href="./category/residential-property-for-sale-gurgaon">Gurgaon</a></li>
-                            <li><a href="./category/residential-property-for-sale-mumbai">Mumbai</a></li>
-                            <li><a href="./category/residential-property-for-sale-goa">Goa</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="./category/commercial-property">Commercial</a>
-                        <ul class="mobile-sub-submenu">
-                            <li><a href="./category/commercial-property-for-sale-noida">Noida</a></li>
-                            <li><a href="./category/commercial-property-for-sale-gurgaon">Gurgaon</a></li>
-                            <li><a href="./category/commercial-property-for-sale-mumbai">Mumbai</a></li>
-                            <li><a href="./category/commercial-property-for-sale-goa">Goa</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="./projects">All Projects</a></li>
+                    <li> <a href="#">Residential</a> </li>
+                    <li> <a href="./category/commercial-property">Commercial</a> </li>
                     <li><a href="./category/studio-apartments">Studio Apartments</a></li>
                     <li><a href="./category/plots">Plots</a></li>
                 </ul>
             </li>
             <li><a href="./contact">Contact</a></li>
+            <li><a href="./blog">Blog</a></li>
             <li>
-                <a href="./blog">Blog</a>
-
-
+                <a href="tel:+919732300007" class="mobile-phone">
+                    <i class="bi bi-telephone-fill"></i>+91-9732300007
+                </a>
             </li>
-            <li><a href="tel:+919732300007" class="mobile-phone"><i class="bi bi-telephone-fill"></i>+91-9732300007</a></li>
         </ul>
     </nav>
 </div>
@@ -443,7 +408,7 @@ function internalLink($relativePath)
     }
 
     /* Navigation List */
-    div.mobile-menu nav.mobile-nav ul {
+    div.mobile-menu nav.mobile-nav > ul {
         padding: 90px 40px 20px;
         list-style: none;
         max-width: 400px;
@@ -493,6 +458,7 @@ function internalLink($relativePath)
     /* Submenu */
     div.mobile-menu nav.mobile-nav ul li ul.mobile-submenu {
         display: none;
+        padding: 0;
         padding-left: 20px;
         margin-top: 10px;
     }
@@ -509,8 +475,10 @@ function internalLink($relativePath)
     /* Sub-submenu */
     div.mobile-menu nav.mobile-nav ul li ul.mobile-submenu li ul.mobile-sub-submenu {
         display: none;
+        padding: 0;
         padding-left: 20px;
         margin-top: 10px;
+
     }
 
     /* Sub-submenu Active State */
@@ -560,44 +528,34 @@ function internalLink($relativePath)
         background: rgba(240, 203, 123, 0.5);
         border-radius: 3px;
     }
+
+    /* Dropdown Toggle Style (Projects) */
+    .dropdown-toggle {
+        cursor: pointer;
+        color: #fff;
+        font-size: 17px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0;
+        transition: all 0.3s ease;
+    }
+
+    .dropdown-toggle:hover {
+        color: #f0cb7b;
+    }
+
+    /* Rotate arrow on active */
+    .mobile-dropdown.active>.dropdown-toggle::after {
+        transform: rotate(180deg);
+    }
 </style>
 
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const dropdowns = document.querySelectorAll('.mobile-dropdown');
-        const submenus = document.querySelectorAll('.mobile-submenu li');
 
-        dropdowns.forEach(dropdown => {
-            const link = dropdown.querySelector('a');
-            link.addEventListener('click', function(e) {
-                e.preventDefault();
-                e.stopPropagation();
-                const parent = this.parentElement;
-
-                // Close other dropdowns
-                dropdowns.forEach(other => {
-                    if (other !== parent) {
-                        other.classList.remove('active');
-                    }
-                });
-
-                parent.classList.toggle('active');
-            });
-        });
-
-        // Handle sub-submenu clicks
-        submenus.forEach(submenu => {
-            const link = submenu.querySelector('a');
-            if (link && submenu.querySelector('.mobile-sub-submenu')) {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    submenu.classList.toggle('active');
-                });
-            }
-        });
-    });
 </script>
+
+
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -658,13 +616,27 @@ function internalLink($relativePath)
         width: 100%;
         border-radius: 0;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        background: linear-gradient(to left bottom,
+        /* background: linear-gradient(to left bottom,
                 rgba(0, 91, 82, 0.6) 0%,
                 rgba(0, 0, 0, 0.6) 20%,
                 rgba(0, 0, 0, 0.4) 40%,
                 rgba(0, 91, 82, 0.6) 60%,
                 rgba(0, 91, 82, 0.6) 80%,
-                rgba(0, 91, 82, 0.8) 100%);
+                rgba(0, 91, 82, 0.8) 100%); */
+
+
+        background: radial-gradient(circle at top right,
+                rgba(0, 91, 82, 1) 0%,
+                /* Base color */
+                rgba(0, 91, 82, 0.95) 10%,
+                rgba(0, 91, 82, 0.9) 20%,
+                rgba(0, 91, 82, 0.85) 30%,
+                rgba(0, 91, 82, 0.7) 55%,
+                rgba(0, 91, 82, 0.7) 60%,
+                rgba(0, 91, 82, 0.75) 70%,
+                rgba(0, 91, 82, 0.8) 80%,
+                rgba(0, 91, 82, 0.85) 90%,
+                rgba(0, 91, 82, 0.9) 100%);
 
 
 

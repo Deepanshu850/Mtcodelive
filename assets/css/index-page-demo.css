@@ -1030,9 +1030,21 @@ a {
 	color: #fff;
 }
 
+@media (width < 700px) {
+	.google-review-container {
+		flex-direction: column;
+		gap: 30px;
+		align-items: flex-start;
+	}
+	.google-review-button {
+		margin-inline-start: 0;
+	}
+}
+
 @media (max-width: 768px) {
 	.testimonial-carousel {
-		padding: 2rem 0;
+		width: 100%;
+		padding: 2rem 1rem;
 	}
 
 	.testimonial-card {
@@ -1139,7 +1151,7 @@ a {
 	}
 }
 
-/*  Blog carasouel styles */
+/*  Blog / news carasouel styles */
 
 .blog-carousel {
 	padding: 3rem 0;
@@ -1237,6 +1249,9 @@ a {
 }
 
 @media (max-width: 768px) {
+	.blogSwiper {
+		width: 100%;
+	}
 	.blog-card {
 		margin: 10px;
 	}

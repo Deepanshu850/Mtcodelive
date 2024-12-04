@@ -323,6 +323,43 @@
                     /* YouTube red glow */
                     box-shadow: 0px 0px 15px 15px #FF0000;
                 }
+
+                @media (width<700px) {
+                    .footer {
+                        height: min-content;
+                    }
+
+                    .footer-wrapper {
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+
+
+                    .footer-social a.facebook::before {
+                        background: #3b5998;
+                        /* Facebook blue glow */
+                        box-shadow: 0px 0px 8px 12px #3b5998;
+                    }
+
+                    .footer-social a.instagram::before {
+                        background: #E1306C;
+                        /* Instagram pink glow */
+                        box-shadow: 0px 0px 8px 12px #E1306C;
+                    }
+
+                    .footer-social a.linkedin::before {
+                        background: #007bb6;
+                        /* LinkedIn blue glow */
+                        box-shadow: 0px 0px 8px 12px #007bb6;
+                    }
+
+                    .footer-social a.youtube::before {
+                        background: #FF0000;
+                        /* YouTube red glow */
+                        box-shadow: 0px 0px 8px 12px #FF0000;
+                    }
+                }
             </style>
         </div>
         <!-- Column 2: Useful Links -->
