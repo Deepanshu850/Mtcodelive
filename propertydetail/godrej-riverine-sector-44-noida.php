@@ -246,7 +246,7 @@
                         <p><strong>Structure of Property</strong></p>
                     </td>
                     <td>
-                        <p>G+30</p>
+                        <p>G+23</p>
                     </td>
                 </tr>
                 <tr>
