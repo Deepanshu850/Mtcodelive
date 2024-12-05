@@ -486,7 +486,7 @@
                 <img src="../assets/img/treelogo.png" alt="">
                 <p>Moneytree Realty</p>
             </div>
-            <p style="color: white;">Book Your Property Now!</p>
+            <p style="color: white;">Connect With Us</p>
             <h3>Discover Your Dream Property Now!</h3>
 
             <div class="entryarea">

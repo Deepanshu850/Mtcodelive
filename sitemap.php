@@ -2968,6 +2968,24 @@
           </a>
         </li>
 
+        <li class="lpage">
+          <a href="https://moneytreerealty.com/celeb-homes/tara-sutaria-house"
+            title="A Glimpse Into Tara Sutaria's Luxurious Home - A Millennium Dream">
+            Tara Sutaria House: A Millenium Dream House
+          </a>
+        </li>
+        <li class="lpage">
+          <a href="https://moneytreerealty.com/celeb-homes/yuvraj-singh-house"
+            title="World Cup Hero Legend Indian Cricketer Yuvraj Singh House">
+            Yuvraj Singh’s Lavish Lifestyle: Inside His Goa Airbnb, Iconic Homes, Car Collection, and More
+          </a>
+        </li>
+        <li class="lpage">
+          <a href="https://moneytreerealty.com/celeb-homes/ravindra-jadeja-house"
+            title="Indian Cricketer Ravindra Jadeja House – the Luxurious Bungalow Home">
+            Ravindra Jadeja House: A Look Inside The Renowned Cricketers Luxurious Bunglow
+          </a>
+        </li>
 
       </ul>
 

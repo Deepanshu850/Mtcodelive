@@ -210,4 +210,37 @@ $celebHomesData = [
             'image3.jpg'
         ]
     ],
+
+
+
+
+
+
+    [
+        'name' => 'Tara Sutaria House',
+        'link' => 'tara-sutaria-house',
+        'images' => [
+            'tara-sutaria-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
+    [
+        'name' => 'Yuvraj Singh’s House',
+        'link' => 'yuvraj-singh-house',
+        'images' => [
+            'yuvraj-singh-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
+    [
+        'name' => 'Ravindra Jadeja House',
+        'link' => 'ravindra-jadeja-house',
+        'images' => [
+            'ravindra-jadeja-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
 ];

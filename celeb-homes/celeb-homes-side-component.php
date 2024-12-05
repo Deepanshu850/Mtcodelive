@@ -67,7 +67,7 @@
         <label for="number">Number :</label>
         <div class="number-input-wrapper">
             <span class="country-code">+91</span>
-            <input type="tel" id="number" name="number" required autocomplete="off" minlength="10" maxlength="10" placeholder="Enter 10 digits" pattern="[0-9]{10}" inputmode="numeric">
+            <input type="tel" id="number" name="phone" required autocomplete="off" minlength="10" maxlength="10" placeholder="Enter 10 digits" pattern="[0-9]{10}" inputmode="numeric">
         </div>
         <label for="message">Message (optional) :</label>
         <textarea id="message" name="message" rows="3" autocomplete="off" placeholder="Your message"></textarea>
@@ -78,3 +78,4 @@
         </div>
     </form>
 </div>
+
