@@ -25,7 +25,7 @@
 
 
 
-    <link rel="canonical" href="https://moneytreerealty.com/moneytree" />
+    <link rel="canonical" href="https://moneytreerealty.com/life-at-moneytree" />
 
 
 
@@ -93,18 +93,52 @@
     ?>
 
 
+    <div class="masonry-grid">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item tall">3</div>
+        <div class="item">4</div>
+        <div class="item tall">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item tall">8</div>
+    </div>
 
+    <style>
+        .masonry-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 16px;
+            margin: 20px;
+            padding: 0;
+        }
+
+        .item {
+            background-color: #2196f3;
+            color: white;
+            padding: 20px;
+            font-size: 20px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .tall {
+            grid-row: span 2;
+        }
+
+        @media (max-width: 600px) {
+            .masonry-grid {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            }
+        }
+    </style>
 
     <?php
     include './job-applicant-form.php';
     include './more-tags.php';
     include './footer.php';
-    ?>
-
-
-
-
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+    ?><script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
     <script src="assets/js/jquery-3.7.0.min.js" defer></script>
     <script src="assets/js/slick.js" defer></script>
     <script src="assets/js/waypoints.min.js" defer></script>
@@ -114,7 +148,6 @@
     <script src="assets/js/jquery.nice-select.min.js" defer></script>
     <script src="assets/js/jquery.fancybox.min.js" defer></script>
     <script src="assets/js/custom.js" defer></script>
-
 </body>
 
 </html>
