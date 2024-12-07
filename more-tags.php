@@ -1,140 +1,102 @@
-<section class="lead-section">
-    <div class="lead-content">
-        <h1 class="lead-title">"Transforming Dreams into Reality"</h1>
-        <p class="lead-subtitle">
-            Partner with Moneytree Realty for unparalleled real estate solutions.
+<section class="cta-section">
+    <div class="cta-content">
+        <h1 class="cta-title">"Find Your Dream Property Today"</h1>
+        <p class="cta-subtitle">
+            MoneyTree Realty is your trusted partner in buying, selling, or investing in real estate. Let's make your property journey seamless and successful!
         </p>
-
-    </div>
-    <div>
-        <p>
-            Call 
-        </p>
-        <a href="tel:+919999999999" class="lead-call-button">
-            <p>📞 +91-9732300007</p>
+        <a href="tel:+919732300007" class="cta-call-button">
+            📞 Call Now: +91-9732300007
         </a>
     </div>
 </section>
 
 <style>
-    /* Lead Section */
-    .lead-section {
+    /* CTA Section Styling */
+    .cta-section {
         width: 100%;
-        background: radial-gradient(circle at top right,
-                /* Fade from green to transparent */
-                rgba(0, 91, 82, 1) 0%,
-                rgba(0, 91, 82, 0.9) 10%,
-                rgba(0, 91, 82, 0.8) 20%,
-                rgba(0, 91, 82, 0.7) 30%,
-                /* rgba(0, 91, 82, 0.5) 40%, */
-                /* rgba(0, 91, 82, 0.4) 45%, */
-                /* rgba(0, 91, 82, 0.3) 47%, */
-                /* rgba(0, 91, 82, 0.3) 49%, */
-                /* rgba(0, 91, 82, 0.0) 50%, */
-                /* Fade from transparent back to green */
-                /* rgba(0, 91, 82, 0.0) 50%, */
-                /* rgba(0, 91, 82, 0.2) 51%, */
-                /* rgba(0, 91, 82, 0.3) 53%, */
-                rgba(0, 91, 82, 0.5) 55%,
-                rgba(0, 91, 82, 0.5) 60%,
-                rgba(0, 91, 82, 0.6) 70%,
-                rgba(0, 91, 82, 0.7) 80%,
-                rgba(0, 91, 82, 0.75) 90%,
-                rgba(0, 91, 82, 0.8) 100%);
+        background: linear-gradient(135deg, #00796b, #26a69a);
         color: white;
         padding: 60px 20px;
         display: flex;
-
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
         text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
 
-    /* Content Container */
-    .lead-content {
-        max-width: 550px;
+    /* Content Styling */
+    .cta-content {
+        max-width: 600px;
+        margin: auto;
     }
 
-    /* Title */
-    .lead-title {
-        font-size: 40px;
+    /* Title Styling */
+    .cta-title {
+        font-size: 36px;
         font-weight: bold;
         margin-bottom: 20px;
         line-height: 1.2;
-        background: linear-gradient(90deg, #d39f51, #e5b566, #fff7a9, #e5b566, #d39f51);
+        background: linear-gradient(90deg, #ffb74d, #ffcc80, #ffe0b2);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
     }
 
-    /* Subtitle */
-    .lead-subtitle {
-        font-size: 16px;
-        margin-bottom: 30px;
+    /* Subtitle Styling */
+    .cta-subtitle {
+        font-size: 18px;
         font-weight: 300;
+        margin-bottom: 30px;
         line-height: 1.6;
-        max-width: 400px;
-        margin-inline: auto;
     }
 
-    /* Call Button */
-    .lead-call-button {
+    /* Call Button Styling */
+    .cta-call-button {
         display: inline-block;
         background: #ffffff;
-
         text-decoration: none;
-        padding: 15px 30px;
+        padding: 15px 40px;
         font-size: 18px;
         font-weight: bold;
-        border-radius: 8px;
-        transition: background-color 0.3s ease, color 0.3s ease;
+        color: #00796b;
+        border-radius: 50px;
+        transition: all 0.3s ease;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
 
-    .lead-call-button p {
-        background: linear-gradient(90deg, #00796b, #009688, #26a69a);
-        color: transparent;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-
-    .lead-call-button:hover {
-        background: linear-gradient(90deg, #00796b, #009688, #26a69a);
+    .cta-call-button:hover {
+        background: linear-gradient(90deg, #00796b, #26a69a);
         color: white;
         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-    }
-
-
-    .lead-call-button p:has(.lead-call-button:hover) {
-        color: #ffffff;
+        transform: translateY(-3px);
     }
 
     /* Responsive Design */
     @media (max-width: 768px) {
-        .lead-title {
-            font-size: 32px;
+        .cta-title {
+            font-size: 28px;
         }
 
-        .lead-subtitle {
+        .cta-subtitle {
             font-size: 16px;
         }
 
-        .lead-call-button {
+        .cta-call-button {
             font-size: 16px;
-            padding: 12px 25px;
+            padding: 12px 30px;
         }
     }
 
     @media (max-width: 480px) {
-        .lead-title {
-            font-size: 28px;
+        .cta-title {
+            font-size: 24px;
         }
 
-        .lead-subtitle {
+        .cta-subtitle {
             font-size: 14px;
         }
 
-        .lead-call-button {
+        .cta-call-button {
             font-size: 14px;
             padding: 10px 20px;
         }

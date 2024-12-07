@@ -26,7 +26,7 @@
     <meta property="og:url" content="https://moneytreerealty.com/celeb-homes/ravindra-jadeja-house">
     <meta property="og:description" content="Step inside Indian cricketer Ravindra Jadeja House bungalow, a stunning home that reflects the elegance, style, and grandeur of the renowned cricket star.">
     <meta property="og:type" content="property">
-    <meta property="og:image" content="https://moneytreerealty.com/celeb-homes/assets/ravindra-jadeja-house-banner.webp">
+    <meta property="og:image" content="https://moneytreerealty.com/celeb-homes/assets/ravindra-jadeja-house-banner1.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Ravindra Jadeja House">

@@ -282,4 +282,14 @@ $posts = [
         'writer' => 'Team Moneytree',
 
     ],
+    [
+        'id' => 30,
+        'title' => 'Top Localities to Invest in Real Estate in Noida',
+        'description' => 'Renowned builders in India such as M3M Group, Paras Buildtech, Godrej Properties, ACE Group, etc., have wide range of commercial and residential projects in top localities of Noida that marked off every requirement of a real estate investors, from strategic location to seamless connectivity to top-tier amenities.',
+        'imageUrl' => './assets/top-localities-to-invest-in-real-estate-in-noida-banner.webp',
+        'date' => 'December 7, 2024',
+        'category' => ['Property'],
+        'writer' => 'Team Moneytree',
+
+    ],
 ];

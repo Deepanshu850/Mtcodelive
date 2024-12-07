@@ -46,7 +46,7 @@
             "@context": "https://schema.org/",
             "@type": "Product",
             "name": "Mayur Vihar, Delhi",
-            "image": "https://moneytreerealty.com/delhi-real-estate/assets/mayur-vihar-banner.webp",
+            "image": "https://moneytreerealty.com/delhi-real-estate/assets/mayur-vihar-new-delhi-banner.webp",
             "description": "Mayur Vihar is located in East Delhi across the Yamuna River, with adjoining borders to the city of Noida. The locality is divided into three distinct phases: Mayur Vihar Phase I, Mayur Vihar Phase II, and Mayur Vihar Phase III. Each phase offers a range of residential options, including apartments, independent houses, and builder floors, catering to diverse living preferences. Mayur Vihar boasts excellent connectivity to major roads and highways, ensuring easy access to Delhi, Noida, and other parts of the National Capital Region (NCR). The area is well-served by educational institutions, healthcare facilities, shopping complexes, and recreational centers, providing a comfortable and convenient lifestyle for its residents. With ongoing infrastructure developments and a vibrant community, Mayur Vihar continues to attract homebuyers and investors alike.",
             "brand": {
                 "@type": "Brand",

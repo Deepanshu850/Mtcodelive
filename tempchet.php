@@ -9,21 +9,21 @@
     </div>
     <div class="content open">
         <a href="#heading-1">
-            1. Noida Real Estate | Thriving Commercial Hub
+            1. Noida Real Estate | An Overview
         </a>
         <a href="#heading-2">
-            2. Why Should You Buy Commercial Projects in Noida?
+            2. Why Invest in Noida&rsquo;s Real Estate Market?
         </a>
 
         <a href="#heading-3">
-            3. Top 7 Commercial Projects in Noida
+            3. Top Localities to Invest in Real Estate in Noida
         </a>
         <a href="#heading-4">
-            4. Where to buy Property in Noida?
+            4. Tired of Looking to Buy Property for Sale?
 
         </a>
         <a href="#heading-5">
-            5. Market Trends for Commercial Projects in Noida
+            5. Frequently asked questions
 
         </a>
         <a href="#heading-6">
@@ -48,5 +48,3 @@
 
     </div>
 </div>
-
-
