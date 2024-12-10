@@ -132,7 +132,7 @@ to centimeters, 20 inches in cm, 40 inches in cm" />
 <body>
 
     <?php
-    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/');
     include 'header-demo.php';
     ?>
     <main>

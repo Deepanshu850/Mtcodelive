@@ -180,7 +180,7 @@ Noida, commercial property for sale in Noida, best commercial property in Noida,
 
 
 
-    <?php set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    <?php set_include_path($_SERVER['DOCUMENT_ROOT'] . '/');
     include 'header-demo.php';  ?>
 
 

@@ -209,7 +209,7 @@ metro station sector 119 noida, sector 119 noida metro route map, noida sec
 
 
     <?php
-    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/');
     include 'header-demo.php';
     ?>
 

@@ -165,7 +165,7 @@ Properties, Real Estate Investment, Real estate consultants, Channel Partner in 
 
 
 
-    <?php set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    <?php set_include_path($_SERVER['DOCUMENT_ROOT'] . '/');
     include 'header-demo.php';  ?>
 
 

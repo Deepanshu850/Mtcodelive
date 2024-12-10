@@ -9,6 +9,8 @@
         font-size: 14px;
         height: 86dvh;
         width: 100%;
+
+
     }
 
     .footer-wrapper {
@@ -55,6 +57,13 @@
     .footer-links {
         grid-column: 6/12;
         grid-row: 1/10;
+
+    }
+
+    @media (width < 700px) {
+        .footer-links {
+            padding-top: 2rem;
+        }
     }
 
 
@@ -169,14 +178,15 @@
         border-radius: 6px;
 
     }
+
     .footer-links .footer-links-list a:hover {
         outline: 2px solid rgba(255, 255, 255, 0.43);
-        
+
     }
 
     .footer-bottom {
         margin-top: 40px;
-
+        margin-bottom: 3rem;
     }
 
     .footer-bottom p {
@@ -194,7 +204,7 @@
         <!-- Column 1: Logo and Contact -->
         <div class="footer-address">
             <div class="footer-logo">
-                <a href="<?php echo internalLink('/index.php'); ?>"><img src="<?php echo internalLink('/assets/img/footer-logo.png'); ?>" alt="Moneytree Realty Logo"></a>
+                <a href="<?php echo internalLink('index-demo-1'); ?>"><img src="<?php echo internalLink('assets/img/footer-logo.png'); ?>" alt="Moneytree Realty Logo"></a>
             </div>
             <address class="footer-text">
                 <p>Floor no-2, Tapasya Corp Heights,<br> Subarea, Sector 126, Noida, <br> Uttar Pradesh 201303</p>
@@ -214,12 +224,6 @@
                     info@moneytreerealty.com
                 </a>
             </div>
-            <!-- <div class="footer-social">
-                <a target="_blank" href="https://www.facebook.com/moneytreerealtyofficial"><img src="<?php echo internalLink('/assets/img/FB.png'); ?>" alt="Facebook"></a>
-                <a target="_blank" href="https://www.instagram.com/moneytreerealtyofficial/"><img src="<?php echo internalLink('/assets/img/Insta.png'); ?>" alt="Instagram"></a>
-                <a target="_blank" href="https://www.linkedin.com/company/moneytree-realty-services/mycompany/"><img src="<?php echo internalLink('/assets/img/home1/icon/insta.svg'); ?>" alt="LinkedIn"></a>
-                <a target="_blank" href="https://www.youtube.com/@Moneytreerealtyofficial"><img src="<?php echo internalLink('/assets/img/home2/icon/youtube.svg'); ?>" alt="YouTube"></a>
-            </div> -->
 
 
             <div class="footer-social">
@@ -326,6 +330,8 @@
                     .footer-wrapper {
                         display: flex;
                         flex-direction: column;
+
+
                     }
 
 
@@ -360,13 +366,13 @@
         <div class="footer-links">
             <h3>Useful Links</h3>
             <ul class="footer-links-list">
-                <li><a href="<?php echo internalLink('/index'); ?>">Home</a></li>
-                <li><a href="<?php echo internalLink('/real-estate-consultant'); ?>">Our Services</a></li>
-                <li><a href="<?php echo internalLink('/contact'); ?>">Contact Us</a></li>
-                <li><a href="<?php echo internalLink('/about-us'); ?>">About Us</a></li>
-                <li><a href="<?php echo internalLink('/blog/index'); ?>">Latest News</a></li>
-                <li><a href="<?php echo internalLink('/sitemap'); ?>">Sitemap</a></li>
-                <li><a href="<?php echo internalLink('/privacy-policy'); ?>">Privacy Policy</a></li>
+                <li><a href="<?php echo internalLink('index-demo-1'); ?>">Home</a></li>
+                <li><a href="<?php echo internalLink('real-estate-consultant'); ?>">Our Services</a></li>
+                <li><a href="<?php echo internalLink('contact'); ?>">Contact Us</a></li>
+                <li><a href="<?php echo internalLink('about-us'); ?>">About Us</a></li>
+                <li><a href="<?php echo internalLink('blog/index'); ?>">Latest News</a></li>
+                <li><a href="<?php echo internalLink('sitemap'); ?>">Sitemap</a></li>
+                <li><a href="<?php echo internalLink('privacy-policy'); ?>">Privacy Policy</a></li>
             </ul>
         </div>
 
@@ -377,3 +383,10 @@
         </div>
     </div>
 </footer>
+
+
+<?php
+include './sticky-call-component.php';
+?>
+
+

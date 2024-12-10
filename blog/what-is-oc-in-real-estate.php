@@ -189,7 +189,7 @@ oc, apply to local municipal authority, building codes, oc and cc, fire safety" 
 
 
     <?php
-    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/');
     include 'header-demo.php';
     ?>
 

@@ -4,7 +4,7 @@ include "data/developer-data.php";
 include "data/locationcitydata.php";
 include "data/propertydata.php";
 include "data/googlereview.php";
-include "data/blogdata.php";
+// include "data/blogdata.php";
 include "data/tempdata.php";
 
 ?>
@@ -234,6 +234,12 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
     <link href="assets/css/nice-select.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/index-page-demo.css">
 
+    <style>
+        html {
+            padding-top: 0;
+        }
+    </style>
+
     <!-- Google Tag Manager -->
     <script>
         (function(w, d, s, l, i) {
@@ -278,7 +284,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
 
 
         <?php
-        // set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+        // set_include_path($_SERVER['DOCUMENT_ROOT'] . '/');
         include 'header-demo.php';
         // include './header-demo.php';
         ?>
@@ -373,109 +379,6 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
 
 
 
-        <style>
-            .heading-section {
-                padding: 50px 20px;
-                text-align: center;
-                background: url('assets/img/image.png');
-                /* Add texture image */
-                color: #fff;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                gap: 20px;
-                min-height: 65vh;
-                height: max-content;
-                background-blend-mode: overlay;
-                /* Blend the texture with the background color */
-                background-size: cover;
-                /* Ensure the texture fills the area */
-            }
-
-
-            .heading-section h1 {
-                font-size: 2.5rem;
-                font-weight: 700;
-                margin-bottom: 20px;
-                text-transform: uppercase;
-                background: linear-gradient(45deg, #d39f51, #e5b566, #f0cb7b, #f8e292, #fff7a9);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                background-clip: text;
-            }
-
-            .heading-section p {
-                font-size: 1rem;
-                line-height: 1.8;
-                margin: 0 0 20px;
-                max-width: 700px;
-                text-align: center;
-                text-wrap: pretty;
-
-            }
-
-            /* CTA Button Styling */
-            .cta-button {
-                display: inline-block;
-                padding: 15px 30px;
-                background: linear-gradient(45deg, #d39f51, #e5b566, #f0cb7b, #f8e292, #fff7a9);
-
-                /* Eye-catching CTA color */
-                color: #005b52;
-                font-size: 1rem;
-                font-weight: 700;
-                text-transform: uppercase;
-                text-decoration: none;
-                border-radius: 25px;
-                /* Rounded button */
-                box-shadow: 0 4px 10px rgba(240, 203, 123, 0.3);
-                /* Subtle glow */
-                transition: all 0.3s ease;
-            }
-
-            .cta-button:hover {
-                background: linear-gradient(60deg, #d39f51, #e5b566, #f0cb7b, #f8e292, #fff7a9);
-
-                /* Slightly darker shade on hover */
-                color: #fff;
-                transform: translateY(-3px);
-                /* Lift button on hover */
-                box-shadow: 0 6px 15px rgba(240, 203, 123, 0.4);
-                /* Enhanced shadow on hover */
-            }
-
-            /* Responsive Styling */
-            @media (max-width: 768px) {
-                .heading-section h1 {
-                    font-size: 2rem;
-                }
-
-                .heading-section p {
-                    font-size: 0.95rem;
-                }
-
-                .cta-button {
-                    font-size: 0.9rem;
-                    padding: 12px 25px;
-                }
-            }
-
-            @media (max-width: 480px) {
-                .heading-section h1 {
-                    font-size: 1.5rem;
-                }
-
-                .heading-section p {
-                    font-size: 0.85rem;
-                }
-
-                .cta-button {
-                    font-size: 0.85rem;
-                    padding: 10px 20px;
-                }
-            }
-        </style>
 
 
 
@@ -525,112 +428,6 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
 
 
 
-        <style>
-            .about-section {
-                display: grid;
-                grid-template-columns: repeat(12, 1fr);
-                grid-template-rows: repeat(12, 1fr);
-                padding-block: 4rem;
-                background: url('./assets/img/IMG_0343.webp');
-                max-height: 700px;
-
-            }
-
-            .about-section-image img {
-                width: 100%;
-                height: 100%;
-                object-fit: contain;
-                border-radius: 10px;
-
-            }
-
-            .about-section-image {
-                height: 100%;
-                grid-column: 2/6;
-                grid-row: 2/13;
-                border-radius: 10px;
-                padding: 4px;
-                background: linear-gradient(45deg, #d39f51, #e5b566, #f0cb7b, #f8e292, #fff7a9);
-                outline: 1px solid white;
-                z-index: 2;
-
-            }
-
-
-            .about-section-heading {
-                grid-column: 5/11;
-                grid-row: 2/auto;
-                background: #fff;
-                border-radius: 12px;
-                margin-top: 30px;
-                font-size: 26px;
-                padding: 10px;
-                text-align: center;
-                z-index: 3;
-            }
-
-            .about-section-heading span {
-                background: linear-gradient(45deg, #d39f51, #e5b566, #f0cb7b, #f8e292, #fff7a9);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                background-clip: text;
-                font-size: 36px;
-
-            }
-
-            .about-section-text {
-                grid-column: 6/13;
-                grid-row: 3/11;
-                background: #fff;
-                padding: 10px 2rem;
-                border-radius: 8px;
-                margin: 40px;
-                transform: translateX(-13%);
-            }
-
-            .about-section-text p {
-                font-size: 12px;
-            }
-
-
-            .about-section {
-                display: grid;
-                grid-template-columns: repeat(12, 1fr);
-                grid-template-rows: repeat(12, 1fr);
-                padding-block: 4rem;
-                background: url('./assets/img/IMG_0343.webp');
-                max-height: 700px;
-            }
-
-            .animate-on-scroll {
-                opacity: 0;
-                transform: translate(0, 0);
-                transition: transform 0.6s ease, opacity 0.6s ease;
-            }
-
-            .animate-on-scroll[data-direction="left"] {
-                transform: translate(-100px, -60px);
-            }
-
-            .animate-on-scroll[data-direction="right"] {
-                transform: translateX(200px);
-            }
-
-            .animate-on-scroll[data-direction="top"] {
-                transform: translateY(-50px);
-            }
-
-            .animate-on-scroll[data-direction="bottom"] {
-                transform: translateY(50px);
-            }
-
-            .animate-on-scroll.active {
-                opacity: 1;
-                transform: translate(0, 0);
-            }
-        </style>
-
-
         <script>
             document.addEventListener("DOMContentLoaded", function() {
                 const elements = document.querySelectorAll('.animate-on-scroll');
@@ -664,15 +461,15 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
             {
                 switch ($type) {
                     case 'Residential':
-                        return '../category/residential-property';
+                        return './category/residential-property';
                     case 'Commercial':
-                        return '../category/commercial-property';
+                        return './category/commercial-property';
                     case 'Studio Apartments':
-                        return '../category/studio-apartments';
+                        return './category/studio-apartments';
                     case 'Plots':
-                        return '../category/plots';
+                        return './category/plots';
                     default:
-                        return '../404';
+                        return './404';
                 }
             }
             ?>
@@ -684,7 +481,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
             <div class="properties-grid" id="propertiesGrid">
                 <?php foreach ($properties as $index => $property): ?>
 
-                    <div class="property-card" style="display: <?php echo $index < 6 ? 'grid' : 'none'; ?>;">
+                    <div class="property-card" style="display: <?php echo $index < 6 ? 'grid' : 'none'; ?>;gap: 10px;">
                         <div class="property-images" onclick="nextImage(this)">
                             <?php foreach ($property['images'] as $imgIndex => $image): ?>
                                 <img alt="Property Image" src="<?php echo htmlspecialchars($image); ?>"
@@ -697,9 +494,9 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                             </a>
                         </h2>
                         <div class="property-info-wrapper">
-                            <p><b>Location:</b> <?php echo htmlspecialchars($property['location'][1] . ', ' . $property['location'][0]); ?></p>
-                            <p><b>Price:</b> <?php echo htmlspecialchars($property['price']); ?></p>
-                            <p><b>Type:</b>
+                            <p><b>Location : </b> <?php echo implode(', ', $property['location']); ?></p>
+                            <p><b>Price : </b> <?php echo htmlspecialchars($property['price']); ?></p>
+                            <p><b>Type : </b>
                                 <?php foreach ($property['type'] as $type): ?>
                                     <a target="_blank" href="<?php echo htmlspecialchars(getTypeLink($type)); ?>">
                                         <span><?php echo htmlspecialchars($type); ?></span>
@@ -714,7 +511,10 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
 
             <?php if (count($properties) > 6): ?>
                 <div class="read-more-container">
-                    <button onclick="showMoreProperties()" id="readMoreBtn">Show More</button>
+                    <button onclick="showMoreProperties()" id="readMoreBtn">Show More <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-chevron-down">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="m16 10-4 4-4-4" />
+                        </svg></button>
                 </div>
             <?php endif; ?>
 
@@ -753,235 +553,13 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
         </div>
 
 
-        <style>
-            @property --a {
-                syntax: "<angle>";
-                initial-value: 0deg;
-                inherits: false;
-            }
-
-            .why-choose-section {
-                /* background: pink; */
-                height: 70vh;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                /* background:
-                    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
-                    url('./assets/img/IMG_0343.webp') no-repeat center center / cover; */
-
-                background: url('./assets/img/IMG_0343.webp');
-
-
-            }
-
-            .why-choose-section h2 {
-                background: linear-gradient(45deg, #d39f51, #e5b566, #f0cb7b, #f8e292, #fff7a9);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                background-clip: text;
-                font-weight: 700;
-                text-align: center;
-                margin-bottom: 2rem;
-
-            }
-
-            .why-choose-section .card-wrapper {
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                gap: 30px;
-                width: 90%;
-                margin-inline: auto;
-            }
-
-            .why-choose-section .choose-card {
-                /* outline: 2px solid red; */
-                display: grid;
-                grid-template-columns: 1fr;
-                /* grid-template-rows: repeat(4, 1fr); */
-                position: relative;
-                overflow: visible;
-                gap: 10px;
-                place-items: center;
-                border-radius: 10px;
-                padding: 20px;
-                box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-
-                background: rgba(255, 255, 255, 0.02);
-                /* background: rgba(0, 0, 0, 0.02); */
-                backdrop-filter: blur(6px);
-                /* -webkit-backdrop-filter: blur(10px); */
-            }
-
-            .why-choose-section .choose-card {
-                overflow: hidden;
-                position: relative;
-                /* background: red; */
-            }
-
-            .why-choose-section .choose-card::before {
-                position: absolute;
-                z-index: -1;
-                inset: -1em;
-                border: solid 10px;
-                border-image: conic-gradient(from var(--a), #ffffff, #c5c4c3, #ffffff, #c5c4c3) 1;
-                filter: blur(0.6em);
-
-                content: "";
-                /* animation: reverse-a 0.5s linear forwards infinite; */
-                /* animation: a 1s linear; */
-
-                z-index: 5;
-                transition: all 0.5s ease;
-            }
-
-            .why-choose-section .choose-card:hover::before {
-                border: solid 17px;
-                filter: blur(0.6em);
-                border-image: conic-gradient(from var(--a),
-                        #d39f51,
-                        #e5b566,
-                        #fff7a9,
-                        #e5b566,
-                        #d39f51) 1;
-
-                transition: all 0.5s ease;
-                /* animation: a 1s linear infinite alternate; */
-
-            }
-
-
-            @keyframes a {
-                to {
-                    --a: 180deg;
-                }
-            }
-
-            @keyframes reverse-a {
-                from {
-                    --a: 45deg;
-                    /* Start at the hovered state */
-                }
-
-                to {
-                    --a: 0deg;
-                    /* Return to original state */
-                }
-            }
-
-            .image-wrapper {
-                --choose-card-img-size: 64px;
-                position: relative;
-                width: var(--choose-card-img-size);
-                height: var(--choose-card-img-size);
-                margin: 2px;
-                padding: 14px;
-                transition: transform 0.3s ease;
-                /* grid-row: 1 / 5; */
-                align-self: center;
-                border-radius: 99px;
-            }
-
-            .image-wrapper img {
-                width: 100%;
-                height: 100%;
-                border-radius: 99px;
-                z-index: 2;
-                position: relative;
-            }
-
-            .image-wrapper img:hover {}
-
-
-            .image-wrapper::before {
-                content: "";
-                position: absolute;
-                top: 0px;
-                left: 0px;
-                width: var(--choose-card-img-size);
-                height: var(--choose-card-img-size);
-                border: 1px solid #e5b566;
-                border-radius: 99px;
-                z-index: 1;
-                transition: transform 0.3s ease;
-            }
-
-            /* e5b566 */
-
-
-            .image-wrapper:hover::before {
-
-                border: 1px solid red;
-
-            }
-
-            @keyframes rotate-border-hover {
-                0% {
-                    transform: rotate(0deg);
-                }
-
-                100% {
-                    transform: rotate(360deg);
-                }
-            }
-
-
-            .choose-card .title {
-                /* grid-column: 2/3; */
-                /* grid-row: 1/2; */
-                display: grid;
-                align-items: end;
-            }
-
-            .choose-card .description {
-                /* grid-column: 2/3; */
-                /* grid-row: 2/5; */
-                font-size: 14px;
-
-            }
-
-            .choose-card .title,
-            .choose-card .description {
-                background: linear-gradient(90deg,
-                        #d39f51,
-                        #e5b566,
-                        #fff7a9,
-                        #e5b566,
-                        #d39f51);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                background-clip: text;
-                text-fill-color: transparent;
-                text-align: center;
-            }
-
-            @media (width < 700px) {
-                .why-choose-section {
-                    height: min-content;
-                    padding-block: 40px;
-                }
-
-                .why-choose-section .card-wrapper {
-                    display: grid;
-                    grid-template-columns: 1fr;
-                    gap: 30px;
-                    width: 90%;
-                    margin-inline: auto;
-                }
-
-                .full-width-bg:has(.team-carousel) {
-                    padding-bottom: 0;
-                }
-            }
-        </style>
 
 
         <!-- Location carasouel -->
 
         <div class="full-width-bg">
             <div class="property-carousel">
-                <h2>Explore Our <span class="bg-green">Locations</span></h2>
+                <p class="fakeTitle">Explore Our <span class="bg-green">Locations</span></p>
                 <div class="swiper-container locationSwiper">
                     <div class="swiper-wrapper">
                         <?php foreach ($locations as $location): ?>
@@ -1021,7 +599,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
 
             <div class="team-carousel">
 
-                <h2>Our<span class="bg-green">Team</span></h2>
+                <p class="fakeTitle">Our<span class="bg-green">Team</span></p>
 
                 <div class="swiper teamSwiper">
                     <div class="swiper-wrapper">
@@ -1066,9 +644,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
 
             <div class="testimonial-carousel">
                 <div class="container">
-                    <h2>What Our Customers<span class="bg-green">Say</span></h2>
-
-
+                    <p class="fakeTitle">What Our Customers<span class="bg-green">Say</span></p>
 
                     <div class="google-review-container">
                         <div class="google-review-info">
@@ -1143,7 +719,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
 
         <div class="full-width-bg">
             <div class="developer-carousel">
-                <h2>Our Deve<span class="bg-green">lopers</span></h2>
+                <p class="fakeTitle">Our Deve<span class="bg-green">lopers</span></p>
                 <div class="swiper-container developerSwiper">
                     <div class="swiper-wrapper">
                         <?php foreach ($developers as $developer): ?>
@@ -1180,11 +756,16 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
 
         <div class="blog-carousel">
             <div class="container">
-                <h2>Latest <span class="bg-green">News</span></h2>
+                <p class="fakeTitle">Latest <span class="bg-green">News</span></p>
+
+
+                <?php
+                $recentPosts = array_slice($posts, 0, 6);
+                ?>
 
                 <div class="swiper blogSwiper">
                     <div class="swiper-wrapper">
-                        <?php foreach ($posts as $post): ?>
+                        <?php foreach ($recentPosts as $post): ?>
                             <div class="swiper-slide">
                                 <a href="blog/<?php echo strtolower(str_replace(' ', '-', $post['title'])); ?>">
                                     <div class="blog-card">

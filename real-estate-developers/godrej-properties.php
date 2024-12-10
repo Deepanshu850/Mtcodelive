@@ -148,7 +148,7 @@ HomeBuyers, UrbanLiving" />
 <body>
 
     <?php
-    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/');
     include 'header-demo.php';
     ?>
 

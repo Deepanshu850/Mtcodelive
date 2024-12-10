@@ -134,7 +134,7 @@ are in a centimeter, millimeter to centimeter, how many mm is cm" />
 <body>
 
     <?php
-    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/');
     include 'header-demo.php';
     ?>
     <main>

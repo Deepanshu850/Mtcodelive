@@ -6,7 +6,7 @@ function fetchSuggestions(query) {
 	const suggestionsBox = document.getElementById("suggestions");
 
 	if (query.trim().length > 0) {
-		fetch(`suggest.php?query=${encodeURIComponent(query)}`)
+		fetch(`suggest?query=${encodeURIComponent(query)}`)
 			.then((response) => response.json())
 			.then((data) => {
 				suggestionsBox.innerHTML = "";
@@ -89,7 +89,7 @@ function submitForm() {
 	const input = document.querySelector("input[name=search]");
 	const query = input.value.trim();
 	if (query) {
-		window.location.href = `search.php?search=${encodeURIComponent(query)}`;
+		window.location.href = `search?search=${encodeURIComponent(query)}`;
 	} else {
 		alert("Please enter a search term.");
 	}
@@ -131,31 +131,68 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 //  JS used in property grid
-
 function showMoreProperties() {
 	const propertyCards = document.querySelectorAll(
 		"#propertiesGrid .property-card"
 	);
-	let visibleCount = 0;
+	const readMoreBtn = document.getElementById("readMoreBtn");
+	const screenWidth = window.innerWidth;
+	const increment = screenWidth > 700 ? 6 : 3; // Show 6 on desktop and 3 on mobile
 
+	// Count currently visible property cards
+	let visibleCount = 0;
 	propertyCards.forEach((card) => {
-		if (card.style.display !== "none") {
+		if (card.style.display !== "none" && card.style.display !== "") {
 			visibleCount++;
 		}
 	});
 
+	// Show the next batch of cards
 	for (
 		let i = visibleCount;
-		i < visibleCount + 6 && i < propertyCards.length;
+		i < visibleCount + increment && i < propertyCards.length;
 		i++
 	) {
-		propertyCards[i].style.display = "grid";
+		propertyCards[i].style.display = "grid"; // Adjust based on your layout (e.g., grid or block)
 	}
 
-	if (visibleCount + 6 >= propertyCards.length) {
-		document.getElementById("readMoreBtn").style.display = "none";
+	// Hide the button if all cards are visible
+	if (visibleCount + increment >= propertyCards.length) {
+		readMoreBtn.style.display = "none";
 	}
 }
+
+// Initial setup to ensure only the first batch is shown based on screen size
+function initializeProperties() {
+	const propertyCards = document.querySelectorAll(
+		"#propertiesGrid .property-card"
+	);
+	const screenWidth = window.innerWidth;
+	const increment = screenWidth > 700 ? 6 : 3; // Show 6 on desktop and 3 on mobile
+
+	// Hide all cards initially
+	propertyCards.forEach((card) => {
+		card.style.display = "none";
+	});
+
+	// Show the first batch of cards
+	for (let i = 0; i < increment && i < propertyCards.length; i++) {
+		propertyCards[i].style.display = "grid"; // Adjust based on your layout (e.g., grid or block)
+	}
+
+	// Show the "Read More" button if there are more cards to display
+	const readMoreBtn = document.getElementById("readMoreBtn");
+	if (propertyCards.length > increment) {
+		readMoreBtn.style.display = "flex";
+	} else {
+		readMoreBtn.style.display = "none";
+	}
+}
+
+// Run the initialization on page load and on window resize
+document.addEventListener("DOMContentLoaded", initializeProperties);
+window.addEventListener("resize", initializeProperties);
+
 
 function nextImage(container) {
 	const images = container.getElementsByTagName("img");
@@ -250,7 +287,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", function () {
 	var swiper = new Swiper(".developerSwiper", {
-		slidesPerView: 1,
+		slidesPerView: 2,
 		spaceBetween: 20,
 		loop: true,
 		navigation: {

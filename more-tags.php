@@ -176,6 +176,10 @@
         .more-tags div:last-child {
             justify-content: center;
         }
+
+        .more-tags div {
+            align-items: center;
+        }
     }
 
     .more-tags ul {

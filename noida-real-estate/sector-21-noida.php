@@ -195,7 +195,7 @@ noida sector 21 metro station, noida stadium sector 21a, noida sector 21 stadium
 
 
     <?php
-    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/');
     include 'header-demo.php';
     ?>
 

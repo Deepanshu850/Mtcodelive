@@ -159,7 +159,7 @@ gurgaon 4 bhk, 4 bhk flat in gurgaon under 25 40 lakhs, 4 bhk flat for rent in s
 
 
     <?php
-    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/');
     include 'header-demo.php';
     ?>
 

@@ -207,7 +207,7 @@ sector 135, companies in noida sector 135, sector 135 noida flats for rent" />
 
 
     <?php
-    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/');
     include 'header-demo.php';
     ?>
 

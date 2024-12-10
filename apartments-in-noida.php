@@ -218,7 +218,7 @@ apartments/flats in Noida by top real estate consultant Moneytree Realty.">
 
 
     <?php
-    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/');
     include 'header-demo.php';
     ?>
 

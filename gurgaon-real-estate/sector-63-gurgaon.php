@@ -209,7 +209,7 @@ sector 63 Gurgaon, botanical garden to sector 63 gurgaon" />
 
 
     <?php
-    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/');
     include 'header-demo.php';
     ?>
 

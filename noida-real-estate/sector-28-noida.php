@@ -193,7 +193,7 @@ Residential Real Estate, Real Estate Deals, Property Advice, Real Estate Consult
 
 
     <?php
-    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/');
     include 'header-demo.php';
     ?>
 

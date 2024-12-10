@@ -187,7 +187,7 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2ZBWP94" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <?php set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    <?php set_include_path($_SERVER['DOCUMENT_ROOT'] . '/');
     include 'header-demo.php';  ?>
 
 

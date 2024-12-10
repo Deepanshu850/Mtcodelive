@@ -228,7 +228,7 @@ buy flats sector 105 noida, noida sector 105 flats, flats in sector 105 noida" /
 
 
     <?php
-    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/');
     include 'header-demo.php';
     ?>
 

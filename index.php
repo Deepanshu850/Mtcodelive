@@ -307,7 +307,7 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
 
 
         <?php
-        set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+        set_include_path($_SERVER['DOCUMENT_ROOT'] . '/');
         include 'header-demo.php';
         ?>
         <div class=container>

@@ -47,7 +47,7 @@
                 searchInput.addEventListener('input', function() {
                     const query = searchInput.value.trim();
                     if (query.length > 0) {
-                        fetch(`/Mtcodelive/suggest.php?query=${encodeURIComponent(query)}`)
+                        fetch(`//suggest.php?query=${encodeURIComponent(query)}`)
                             .then((response) => response.json())
                             .then((data) => {
                                 suggestionsBox.innerHTML = '';
@@ -60,7 +60,7 @@
                                         listItem.addEventListener('click', function() {
                                             searchInput.value = keyword;
                                             suggestionsBox.style.display = 'none';
-                                            window.location.href = `/Mtcodelive/search?search=${encodeURIComponent(keyword)}`;
+                                            window.location.href = `//search?search=${encodeURIComponent(keyword)}`;
                                         });
 
                                         suggestionsBox.appendChild(listItem);

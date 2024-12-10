@@ -213,7 +213,7 @@ code, noida 59 pin code, noida pin code sector 59, noida 59 metro" />
 
 
     <?php
-    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/');
     include 'header-demo.php';
     ?>
 

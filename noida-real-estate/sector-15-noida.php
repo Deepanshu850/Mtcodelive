@@ -196,7 +196,7 @@ sector 15 to anand vihar metro, sector 15 community centre, new delhi to noida s
 
 
     <?php
-    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/');
     include 'header-demo.php';
     ?>
 

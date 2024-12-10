@@ -191,7 +191,7 @@ schools near sector 56 gurgaon, ganpati apartment sector 56 gurgaon, air quality
 
 
     <?php
-    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/');
     include 'header-demo.php';
     ?>
 

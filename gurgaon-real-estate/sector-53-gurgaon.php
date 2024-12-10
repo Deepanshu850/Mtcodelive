@@ -191,7 +191,7 @@ gurgaon sector 53 flats for rent, apartments in gurgaon sector 53" />
 
 
     <?php
-    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/');
     include 'header-demo.php';
     ?>
 

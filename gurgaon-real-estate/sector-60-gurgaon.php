@@ -204,7 +204,7 @@ sector 60 gurgaon, Sector 60 gurgaon apartment, schools near sector 60 gurgaon" 
 
 
     <?php
-    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/');
     include 'header-demo.php';
     ?>
 

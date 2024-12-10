@@ -208,7 +208,7 @@ noida uttar pradesh, time machine sector 38 noida, water park noida sector
 
 
     <?php
-    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/');
     include 'header-demo.php';
     ?>
 

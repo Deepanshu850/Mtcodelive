@@ -112,7 +112,7 @@ inches, 40 yards to meters, 10 meters to feet, 10 feet in meters, 70 cm to feet 
 <body>
 
     <?php
-    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/');
     include 'header-demo.php';
     ?>
     <main>

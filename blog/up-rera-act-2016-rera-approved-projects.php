@@ -104,7 +104,7 @@ real estate?">
 <body class=light-theme>
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2ZBWP94" height=0 width=0 style=display:none;visibility:hidden></iframe></noscript>
     <?php
-    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/');
     include 'header-demo.php';
     ?>
     <div id=flex-wrapper class="blog-details-page pt-50">

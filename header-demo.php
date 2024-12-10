@@ -1,5 +1,5 @@
 <?php
-define('BASE_PATH', '/Mtcodelive');
+define('BASE_PATH', '/');
 
 function internalLink($relativePath)
 {
@@ -153,42 +153,42 @@ function internalLink($relativePath)
 
 <header class="custom-header scrolled" id="mainHeader">
     <div class="custom-logo">
-        <a href="<?php echo internalLink('/index'); ?>">
-            <img src="<?php echo internalLink('/assets/img/logo.png'); ?>" alt="Best Real Estate Property Consultant in Delhi/NCR">
+        <a href="<?php echo internalLink('index-demo-1'); ?>">
+            <img src="<?php echo internalLink('assets/img/logo.png'); ?>" alt="Best Real Estate Property Consultant in Delhi/NCR">
         </a>
     </div>
     <nav class="custom-nav">
         <ul class="custom-menu">
-            <li><a href="<?php echo internalLink('/index'); ?>">Home</a></li>
-            <li><a href="<?php echo internalLink('/career'); ?>">Career</a></li>
+            <li><a href="<?php echo internalLink('index-demo-1'); ?>">Home</a></li>
+            <li><a href="<?php echo internalLink('career'); ?>">Career</a></li>
             <li class="custom-dropdown">
-                <a href="<?php echo internalLink('/projects'); ?>">Projects</a>
+                <a href="<?php echo internalLink('projects'); ?>">Projects</a>
                 <ul class="custom-submenu">
                     <li>
-                        <a href="<?php echo internalLink('/category/residential-property'); ?>">Residential</a>
+                        <a href="<?php echo internalLink('category/residential-property'); ?>">Residential</a>
                         <ul class="custom-sub-submenu">
-                            <li><a href="<?php echo internalLink('/category/residential-property-for-sale-noida'); ?>">Noida</a></li>
-                            <li><a href="<?php echo internalLink('/category/residential-property-for-sale-gurgaon'); ?>">Gurgaon</a></li>
-                            <li><a href="<?php echo internalLink('/category/residential-property-for-sale-mumbai'); ?>">Mumbai</a></li>
-                            <li><a href="<?php echo internalLink('/category/residential-property-for-sale-goa'); ?>">Goa</a></li>
+                            <li><a href="<?php echo internalLink('category/residential-property-for-sale-noida'); ?>">Noida</a></li>
+                            <li><a href="<?php echo internalLink('category/residential-property-for-sale-gurgaon'); ?>">Gurgaon</a></li>
+                            <li><a href="<?php echo internalLink('category/residential-property-for-sale-mumbai'); ?>">Mumbai</a></li>
+                            <li><a href="<?php echo internalLink('category/residential-property-for-sale-goa'); ?>">Goa</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="<?php echo internalLink('/category/commercial-property'); ?>">Commercial</a>
+                        <a href="<?php echo internalLink('category/commercial-property'); ?>">Commercial</a>
                         <ul class="custom-sub-submenu">
-                            <li><a href="<?php echo internalLink('/category/commercial-property-for-sale-noida'); ?>">Noida</a></li>
-                            <li><a href="<?php echo internalLink('/category/commercial-property-for-sale-gurgaon'); ?>">Gurgaon</a></li>
-                            <li><a href="<?php echo internalLink('/category/commercial-property-for-sale-mumbai'); ?>">Mumbai</a></li>
-                            <li><a href="<?php echo internalLink('/category/commercial-property-for-sale-goa'); ?>">Goa</a></li>
+                            <li><a href="<?php echo internalLink('category/commercial-property-for-sale-noida'); ?>">Noida</a></li>
+                            <li><a href="<?php echo internalLink('category/commercial-property-for-sale-gurgaon'); ?>">Gurgaon</a></li>
+                            <li><a href="<?php echo internalLink('category/commercial-property-for-sale-mumbai'); ?>">Mumbai</a></li>
+                            <li><a href="<?php echo internalLink('category/commercial-property-for-sale-goa'); ?>">Goa</a></li>
                         </ul>
                     </li>
-                    <li><a href="<?php echo internalLink('/category/studio-apartments'); ?>">Studio Apartments</a></li>
-                    <li><a href="<?php echo internalLink('/category/plots'); ?>">Plots</a></li>
+                    <li><a href="<?php echo internalLink('category/studio-apartments'); ?>">Studio Apartments</a></li>
+                    <li><a href="<?php echo internalLink('category/plots'); ?>">Plots</a></li>
                 </ul>
             </li>
-            <li><a href="<?php echo internalLink('/contact'); ?>">Contact</a></li>
+            <li><a href="<?php echo internalLink('contact'); ?>">Contact</a></li>
             <li>
-                <a href="<?php echo internalLink('/blog'); ?>">Blog</a>
+                <a href="<?php echo internalLink('blog'); ?>">Blog</a>
                 <div class="blog-dropdown">
                     <?php
                     include $_SERVER['DOCUMENT_ROOT'] . BASE_PATH . '/data/blogdata.php';
@@ -203,13 +203,13 @@ function internalLink($relativePath)
                     $topPosts = array_slice($posts, 0, 3);
 
                     foreach ($topPosts as $post) {
-                        echo '<a href="' . internalLink('/blog/' . generateSlug($post['title'])) . '">
+                        echo '<a href="' . internalLink('blog/' . generateSlug($post['title'])) . '">
                         <div class="blog-dropdown-blog">
                             <div class="blog-dropdown-text">
                                 <p class="blog-dropdown-title">' . $post['title'] . '</p>
                                 <p class="blog-dropdown-description">' . substr($post['description'], 0, 100) . '...</p>
                             </div>
-                            <img src="' . internalLink('/blog/' . $post['imageUrl']) . '" alt="' . $post['title'] . '" class="blog-dropdown-image">
+                            <img src="' . internalLink('blog/' . $post['imageUrl']) . '" alt="' . $post['title'] . '" class="blog-dropdown-image">
                         </div>
                         </a>';
                     }
@@ -222,7 +222,7 @@ function internalLink($relativePath)
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            const blogLink = document.querySelector('a[href="' + '<?php echo internalLink('/blog'); ?>' + '"]');
+            const blogLink = document.querySelector('a[href="' + '<?php echo internalLink('blog'); ?>' + '"]');
             const blogDropdown = document.querySelector('.blog-dropdown');
 
             if (blogLink && blogDropdown) {
@@ -344,37 +344,95 @@ function internalLink($relativePath)
 
 </header>
 
-<!-- mobile side menu -->
 
+
+
+
+<!-- Mobile Menu -->
 
 <div class="mobile-menu" id="mobileMenu">
+    <div class="custom-logo">
+        <a href="<?php echo internalLink('index-demo-1'); ?>">
+            <img src="<?php echo internalLink('assets/img/logo.png'); ?>" alt="Best Real Estate Property Consultant in Delhi/NCR">
+        </a>
+    </div>
     <nav class="mobile-nav">
-        <ul>
-            <li><a href="./index">Home</a></li>
-            <li><a href="./career">Career</a></li>
-            <li class="mobile-dropdown">
-                <span class="dropdown-toggle">Projects</span>
-                <ul class="mobile-submenu">
-                    <li><a href="./projects">All Projects</a></li>
-                    <li> <a href="#">Residential</a> </li>
-                    <li> <a href="./category/commercial-property">Commercial</a> </li>
-                    <li><a href="./category/studio-apartments">Studio Apartments</a></li>
-                    <li><a href="./category/plots">Plots</a></li>
-                </ul>
+        <ul class="main-menu">
+            <li><a href="<?php echo internalLink('index-demo-1'); ?>">Home</a></li>
+            <li><a href="<?php echo internalLink('career'); ?>">Career</a></li>
+
+
+            <li><a href="<?php echo internalLink('contact'); ?>">Contact</a></li>
+            <li><a href="<?php echo internalLink('blog/index'); ?>">Blog</a></li>
+            <li>
+                <span class="has-submenu" data-target="submenuProjects">
+                    Projects
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                        <path d="m9 18 6-6-6-6" />
+                    </svg>
+                </span>
             </li>
-            <li><a href="./contact">Contact</a></li>
-            <li><a href="./blog">Blog</a></li>
+            <li>
+                <span class="has-submenu" data-target="submenuOthers">
+                    More
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                        <path d="m9 18 6-6-6-6" />
+                    </svg>
+                </span>
+            </li>
+
+
+            <!-- mobile menu number  -->
             <li>
                 <a href="tel:+919732300007" class="mobile-phone">
                     <i class="bi bi-telephone-fill"></i>+91-9732300007
                 </a>
             </li>
+
+
+
         </ul>
+        <!-- Submenus -->
+        <div class="mobile-submenu" id="submenuProjects">
+            <div class="submenu-header">
+                <button class="back-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left">
+                        <path d="m12 19-7-7 7-7" />
+                        <path d="M19 12H5" />
+                    </svg>
+                    <span>Projects</span>
+                </button>
+
+            </div>
+            <ul>
+                <li><a href="<?php echo internalLink('top-real-estate-poperty-consultant-in-india'); ?>">All Projects</a></li>
+                <li><a href="<?php echo internalLink('category/residential-property'); ?>">Residential</a></li>
+                <li><a href="<?php echo internalLink('category/commercial-property'); ?>">Commercial</a></li>
+                <li><a href="<?php echo internalLink('category/studio-apartments'); ?>">Studio Apartments</a></li>
+                <li><a href="<?php echo internalLink('category/plots'); ?>">Plots</a></li>
+            </ul>
+        </div>
+        <div class="mobile-submenu" id="submenuOthers">
+            <div class="submenu-header">
+                <button class="back-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left">
+                        <path d="m12 19-7-7 7-7" />
+                        <path d="M19 12H5" />
+                    </svg>
+                    <span>More Pages</span>
+                </button>
+
+            </div>
+            <ul>
+                <li><a href="<?php echo internalLink('about-us'); ?>">About</a></li>
+                <li><a href="<?php echo internalLink('vision-and-mission'); ?>">Vision</a></li>
+                <li><a href="<?php echo internalLink('associated-developers'); ?>">Developers</a></li>
+                <li><a href="<?php echo internalLink('media'); ?>">Media</a></li>
+                <li><a href="<?php echo internalLink('event'); ?>">Event</a></li>
+            </ul>
+        </div>
     </nav>
 </div>
-
-
-
 
 <style>
     /* Mobile Menu Container */
@@ -384,120 +442,144 @@ function internalLink($relativePath)
         left: -100%;
         height: 100vh;
         width: 75%;
-        background: linear-gradient(296deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4));
+        background: linear-gradient(296deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
         backdrop-filter: blur(12px);
-        -webkit-backdrop-filter: blur(12px);
         transition: left 0.3s ease;
-        z-index: 999;
-        border: 1px solid rgba(255, 255, 255, 0.1);
+        z-index: 1000;
         overflow-y: auto;
-        -ms-overflow-style: none;
-        /* Hide scrollbar for IE and Edge */
-        scrollbar-width: none;
-        /* Hide scrollbar for Firefox */
+        padding-top: 1rem;
+        overflow: hidden;
     }
 
-    /* Hide scrollbar for Chrome, Safari and Opera */
-    div.mobile-menu::-webkit-scrollbar {
-        display: none;
+    div.mobile-menu .custom-logo {
+        position: relative;
+        left: 10%;
+        margin-bottom: 2rem;
     }
 
-    /* Active State */
+    /* Active Menu State */
     div.mobile-menu.active {
         left: 0;
     }
 
-    /* Navigation List */
-    div.mobile-menu nav.mobile-nav > ul {
-        padding: 90px 40px 20px;
+    /* Main Menu */
+    nav.mobile-nav ul {
         list-style: none;
-        max-width: 400px;
-        margin: 0 auto;
+        padding: 0;
+        margin: 0;
+
     }
 
-    /* List Items */
-    div.mobile-menu nav.mobile-nav ul li {
-        opacity: 0.9;
+    nav.mobile-nav ul.main-menu>li {
+        padding: 12px;
+
+        /* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
     }
 
-    /* Links */
-    div.mobile-menu nav.mobile-nav ul li a {
-        color: #fff;
+
+
+    nav.mobile-nav ul.main-menu>li a,
+    nav.mobile-nav ul.main-menu>li span.has-submenu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 2rem;
+        color: white;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    /* Submenu Container */
+    .mobile-submenu {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(296deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
+        backdrop-filter: blur(12px);
+        transition: left 0.3s ease;
+        z-index: 1000;
+        overflow-y: auto;
+        padding-top: 4rem;
+
+    }
+
+    /* Active Submenu */
+    div.mobile-submenu.active {
+        left: 0;
+    }
+
+    /* Submenu Header */
+    .mobile-submenu .submenu-header {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        padding: 10px 0;
-        transition: all 0.3s ease;
+        justify-content: flex-start;
+        padding: 15px;
+        background: rgba(0, 0, 0, 0.6);
+        color: white;
+        font-size: 12px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        position: relative;
+        top: -4%;
+
     }
 
-    div.mobile-menu nav.mobile-nav ul.mobile-submenu li a {
-        font-size: 15px;
+    .mobile-submenu .submenu-header span {
+        font-size: 12px;
+        text-transform: uppercase;
+        opacity: 0.6;
     }
 
-
-    /* Hover Effect */
-    div.mobile-menu nav.mobile-nav ul li a:hover {
-        color: #f0cb7b;
-    }
-
-    /* Dropdown Icon */
-    div.mobile-menu nav.mobile-nav ul li.mobile-dropdown>a::after {
-        content: '\f282';
-        font-family: 'bootstrap-icons';
+    .mobile-submenu .submenu-header .back-button {
+        background: none;
+        border: none;
+        color: white;
         font-size: 16px;
-        transition: transform 0.3s ease;
-    }
-
-    /* Dropdown Active State */
-    div.mobile-menu nav.mobile-nav ul li.mobile-dropdown.active>a::after {
-        transform: rotate(180deg);
-    }
-
-    /* Submenu */
-    div.mobile-menu nav.mobile-nav ul li ul.mobile-submenu {
-        display: none;
+        cursor: pointer;
         padding: 0;
-        padding-left: 20px;
-        margin-top: 10px;
+        font-family: inherit;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 10px;
     }
 
-    /* Submenu Active State */
-    div.mobile-menu nav.mobile-nav ul li.mobile-dropdown.active ul.mobile-submenu {
-        display: block;
-        animation: slideDown 0.3s ease forwards;
-        padding: 0 0 0 30px;
-        margin-top: 0;
-    }
-
-
-    /* Sub-submenu */
-    div.mobile-menu nav.mobile-nav ul li ul.mobile-submenu li ul.mobile-sub-submenu {
-        display: none;
+    /* Submenu Items */
+    .mobile-submenu ul {
+        list-style: none;
         padding: 0;
-        padding-left: 20px;
-        margin-top: 10px;
-
+        margin: 0;
     }
 
-    /* Sub-submenu Active State */
-    div.mobile-menu nav.mobile-nav ul li ul.mobile-submenu li.active ul.mobile-sub-submenu {
-        display: block;
-        animation: slideDown 0.3s ease forwards;
+    .mobile-submenu ul>li {
+        padding: 15px;
+        /* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
     }
 
-    /* Keyframe Animation */
-    @keyframes slideDown {
-        from {
-            opacity: 0;
-            transform: translateY(-10px);
-        }
+    .mobile-submenu ul>li a {
 
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 2rem;
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    /* Phone Number Style */
+    nav.mobile-nav ul.main-menu>li a.mobile-phone {
+        font-size: 16px;
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+
+    nav.mobile-nav ul.main-menu>li a.mobile-phone i {
+        margin-right: 8px;
     }
 
     /* Phone Button */
@@ -507,12 +589,14 @@ function internalLink($relativePath)
         padding: 12px 24px !important;
         font-size: 17px;
         margin-top: 20px;
+        margin-left: 0;
         text-align: center;
         background: linear-gradient(45deg, #d39f51, #e5b566);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
         box-shadow: 0 0 20px rgba(240, 203, 123, 0.2);
+        display: block;
     }
 
     /* Scrollbar Styling */
@@ -529,64 +613,108 @@ function internalLink($relativePath)
         border-radius: 3px;
     }
 
-    /* Dropdown Toggle Style (Projects) */
-    .dropdown-toggle {
-        cursor: pointer;
-        color: #fff;
-        font-size: 17px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 10px 0;
-        transition: all 0.3s ease;
+    /* Main Menu Default State */
+    nav.mobile-nav ul.main-menu {
+        opacity: 1;
+        transition: opacity 0.3s ease;
+        position: relative;
+        z-index: 999;
     }
 
-    .dropdown-toggle:hover {
-        color: #f0cb7b;
+    /* Hide Main Menu When Submenu is Active */
+    nav.mobile-nav ul.main-menu.hidden {
+        opacity: 0;
+        pointer-events: none;
     }
 
-    /* Rotate arrow on active */
-    .mobile-dropdown.active>.dropdown-toggle::after {
-        transform: rotate(180deg);
+    /* Submenu Default State */
+    .mobile-submenu {
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s ease, left 0.3s ease;
+    }
+
+    /* Submenu Active State */
+    div.mobile-submenu.active {
+        opacity: 1;
+        pointer-events: auto;
     }
 </style>
 
 <script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const mobileMenu = document.getElementById("mobileMenu");
+        const submenuTriggers = document.querySelectorAll(".has-submenu");
+        const submenus = document.querySelectorAll(".mobile-submenu");
+        const backButtons = document.querySelectorAll(".back-button");
+        const mainMenu = document.querySelector(".main-menu");
 
-</script>
+        // Show the target submenu when a submenu trigger is clicked
+        submenuTriggers.forEach(trigger => {
+            trigger.addEventListener("click", () => {
+                const targetId = trigger.getAttribute("data-target");
+                const targetSubmenu = document.getElementById(targetId);
 
-
-
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const mobileHamburger = document.getElementById('mobileHamburgerIcon');
-        const mobileMenu = document.getElementById('mobileMenu');
-        const dropdowns = document.querySelectorAll('.mobile-dropdown');
-
-        mobileHamburger.addEventListener('click', function() {
-            mobileMenu.classList.toggle('active');
-        });
-
-        dropdowns.forEach(dropdown => {
-            dropdown.addEventListener('click', function(e) {
-                e.preventDefault();
-                this.classList.toggle('active');
+                if (targetSubmenu) {
+                    // Hide the main menu and show the target submenu
+                    mainMenu.classList.add("hidden");
+                    targetSubmenu.classList.add("active");
+                }
             });
         });
+
+        // Go back to the main menu when a back button is clicked
+        backButtons.forEach(button => {
+            button.addEventListener("click", () => {
+                // Hide all submenus
+                submenus.forEach(submenu => submenu.classList.remove("active"));
+                // Show the main menu
+                mainMenu.classList.remove("hidden");
+            });
+        });
+
+        // Function to open the menu and reset to the main menu
+        function openMenu() {
+            mobileMenu.classList.add("active");
+            hamburgerButton.classList.add("active");
+
+            // Ensure the main menu is shown and submenus are hidden
+            mainMenu.classList.remove("hidden");
+            submenus.forEach(submenu => submenu.classList.remove("active"));
+        }
+
+        // Function to close the menu
+        function closeMenu() {
+            mobileMenu.classList.remove("active");
+            hamburgerButton.classList.remove("active");
+
+            // Reset to the main menu state
+            mainMenu.classList.remove("hidden");
+            submenus.forEach(submenu => submenu.classList.remove("active"));
+        }
+
+        // Add event listener to your hamburger button to open/close the menu
+        const hamburgerButton = document.getElementById("mobileHamburgerIcon");
+        if (hamburgerButton) {
+            hamburgerButton.addEventListener("click", () => {
+                if (mobileMenu.classList.contains("active")) {
+                    closeMenu();
+                } else {
+                    openMenu();
+                }
+            });
+        }
+
+        // Optional: Close the menu when clicking outside of it
+        document.addEventListener("click", (event) => {
+            if (!mobileMenu.contains(event.target) && !hamburgerButton.contains(event.target)) {
+                closeMenu();
+            }
+        });
     });
 </script>
 
 
-
-
-
-
-
-<script>
-    document.getElementById('mobileHamburgerIcon').addEventListener('click', function() {
-        this.classList.toggle('active');
-    });
-</script>
 <style>
     .custom-header {
         position: fixed;
@@ -964,6 +1092,8 @@ function internalLink($relativePath)
         border-radius: 14px;
     }
 
+
+
     .search-wrapper {
         max-width: 600px;
         margin: 0 auto;
@@ -1040,7 +1170,7 @@ function internalLink($relativePath)
 
         .search-container {
             padding: 10px;
-            top: -8%;
+            top: 3%;
         }
 
         .search-preview div {
@@ -1106,10 +1236,16 @@ function internalLink($relativePath)
     // handleResize(); 
 
     // Form Submission
+
+
+
+    // Define the base path for your application
+    const BASE_PATH = '';
+
     document.getElementById('searchForm').addEventListener('submit', function(e) {
         e.preventDefault();
         const searchTerm = this.querySelector('input[name="q"]').value;
-        window.location.href = 'search.php?search=' + encodeURIComponent(searchTerm);
+        window.location.href = `${BASE_PATH}/search?search=` + encodeURIComponent(searchTerm);
     });
 
     // Asynchronous Search Preview Functionality
@@ -1133,7 +1269,7 @@ function internalLink($relativePath)
 
     async function fetchSearchResults(query) {
         try {
-            const response = await fetch('search_preview.php?q=' + encodeURIComponent(query));
+            const response = await fetch(`${BASE_PATH}/search_preview?q=` + encodeURIComponent(query));
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
@@ -1153,16 +1289,16 @@ function internalLink($relativePath)
         }
 
         const previewHTML = results.map(result => `
-            <div style="padding: 8px; border-bottom: 1px solid #eee; max-width: 500px;">
-                <a href="./propertydetail/${encodeURIComponent(result.link)}" style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: 10px;">
-                    <img src="./${result.image}" style="width: 30%; height:auto;max-height: 100px; object-fit: cover; border-radius: 4px;">
-                    <div>
-                        <h5 style="margin: 0 0 4px 0; font-size: 14px;">${escapeHTML(result.name)}</h5>
-                        <p style="margin: 0; font-size: 12px; color: #666;">${escapeHTML(result.builder)} - ${escapeHTML(result.location.join(', '))}</p>
-                    </div>
-                </a>
-            </div>
-        `).join('');
+        <div style="padding: 8px; border-bottom: 1px solid #eee; max-width: 500px;">
+            <a href="${BASE_PATH}/propertydetail/${encodeURIComponent(result.link)}" style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: 10px;">
+                <img src="${BASE_PATH}/${result.image}" style="width: 30%; height:auto; max-height: 100px; object-fit: cover; border-radius: 4px;">
+                <div>
+                    <h5 style="margin: 0 0 4px 0; font-size: 14px;">${escapeHTML(result.name)}</h5>
+                    <p style="margin: 0; font-size: 12px; color: #666;">${escapeHTML(result.builder)} - ${escapeHTML(result.location.join(', '))}</p>
+                </div>
+            </a>
+        </div>
+    `).join('');
 
         searchPreview.innerHTML = previewHTML;
     }

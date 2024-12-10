@@ -192,7 +192,7 @@ near sector 141 noida, noida sector 141 flats for rent, flats in sector
 
 
     <?php
-    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/');
     include 'header-demo.php';
     ?>
 

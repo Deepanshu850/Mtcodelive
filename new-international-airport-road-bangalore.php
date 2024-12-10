@@ -160,7 +160,7 @@ biggest airport in india, which is the biggest airport in india" />
 
 
 
-    <?php set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive');
+    <?php set_include_path($_SERVER['DOCUMENT_ROOT'] . '/');
     include 'header-demo.php';  ?>
 
 
