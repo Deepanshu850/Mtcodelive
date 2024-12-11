@@ -4,13 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>
+    <title>A Glimpse Into Late Irrfan Khan House And His Wife Sutapa</title>
 
-    </title>
-
-    <meta name="description" content="" />
-
-    <meta name="keywords" content="" />
+    <meta name="description" content="Explore the late Irrfan Khan's beautiful home and his life with wife Sutapa Sikdar. Take a heartfelt glimpse into their abode, cherished memories, and enduring legacy." />
+    <meta name="keywords" content="actor irrfan khan, irrfan khan house, irrfan khan movies, irrfan khan film, irrfan khan actor, irrfan khan son, irrfan khan died, movies of irrfan khan, blackmail irrfan khan full movie, irrfan khan in jurassic park, irrfan khan jurassic park, irrfan khan net worth, jurassic park 4 irrfan khan, best irrfan khan movies, irrfan khan best movies, irrfan khan son movie, irrfan khan born place, natalie portman irrfan khan, irrfan khan in chandrakanta serial, irrfan khan spider man, irrfan khan family, irrfan khan mother, net worth of irrfan khan, irrfan khan hometown, irrfan khan fees, irrfan khan new house, irrfan khan father name, irrfan khan car collection, irrfan khan house in Mumbai, irrfan khan childhood, irrfan khan family background, irrfan khan family photo, irrfan khan birthplace, irrfan khan height, irrfan khan biography, irrfan khan pic, irrfan khan car collection, irrfan khan house price" />
 
     <meta name="Owner" content="Moneytreerealty.com" />
     <meta name="Copyright" content="Moneytreereal.com" />
@@ -20,15 +17,15 @@
     <meta name="subject" content="Learn about MoneyTree Realty's mission, services, and how we can assist you in navigating the real estate market in India" />
     <meta name="audience" content="All" />
 
-    <meta property="og:title" content="">
+    <meta property="og:title" content="A Glimpse Into Late Irrfan Khan House And His Wife Sutapa">
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/celeb-homes/irrfan-khan-house">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Explore the late Irrfan Khan's beautiful home and his life with wife Sutapa Sikdar. Take a heartfelt glimpse into their abode, cherished memories, and enduring legacy." />
     <meta property="og:type" content="property">
     <meta property="og:image" content="https://moneytreerealty.com/celeb-homes/assets/irrfan-khan-house-banner1.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Virat Kohli House">
+    <meta property="og:image:alt" content="Irrfan Khan House">
     <meta property="og:locale" content="en_IN">
 
 
@@ -349,7 +346,12 @@
                 <h6>Similar Tags:</h6>
                 <ul class="tags">
 
-
+                    <li><a href="./irrfan-khan-house">Actor Irrfan Khan</a></li>
+                    <li><a href="./irrfan-khan-house">Irrfan Khan House</a></li>
+                    <li><a href="./irrfan-khan-house">Irrfan Khan Movies</a></li>
+                    <li><a href="./irrfan-khan-house">Irrfan Khan Film</a></li>
+                    <li><a href="./irrfan-khan-house">Irrfan Khan Actor</a></li>
+                    <li><a href="./irrfan-khan-house">Irrfan Khan Son</a></li>
                     <li><a href="../category/residential-property">Residential Real Estate</a></li>
                     <li><a href="../best-property-dealers-in-noida">Real Estate Deals</a></li>
                     <li><a href="../real-estate-advisor-and-property-consulting-firm-in-india">Property Advice</a></li>

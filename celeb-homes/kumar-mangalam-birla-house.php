@@ -4,13 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>
+    <title>Inside Kumar Mangalam Birla House | A Glimpse into the Lavish Home of India’s Industrial Icon</title>
 
-    </title>
-
-    <meta name="description" content="" />
-
-    <meta name="keywords" content="" />
+    <meta name="description" content="Explore the opulent house of Kumar Mangalam Birla, India’s renowned industrialist. Discover its luxurious design, stunning interiors, and fascinating architectural details." />
+    <meta name="keywords" content="birla house, kumar mangalam birla car, kumar mangalam birla net worth in rupees, birla house Mumbai, birla guest house, aditya birla nilayam, jatia house, munawar faruqui car collection, birla bhavan, birla house kolkata, yash birla house, birla mansion, birla house mumbai, yash birla house Mumbai, tata birla house, kumar birla net worth in rupees, birla net worth in billion, kumar vishwas car collection, aditya birla real estate, net worth of kumar mangalam birla, kumar mangalam birla family, birla group net worth, kumar mangalam birla son, kumar mangalam birla hometown, kumar mangalam birla date of birth, birla group family tree, kumar mangalam birla father name, kumar mangalam birla car collection, birla family members, kumar mangalam birla childhood, kumar mangalam birla family background, kumar mangalam birla family photo, kumar mangalam birla birthplace, kumar mangalam birla height, kumar mangalam birla biography, kumar mangalam birla pic, kumar mangalam birla house price" />
 
     <meta name="Owner" content="Moneytreerealty.com" />
     <meta name="Copyright" content="Moneytreereal.com" />
@@ -20,16 +17,17 @@
     <meta name="subject" content="Learn about MoneyTree Realty's mission, services, and how we can assist you in navigating the real estate market in India" />
     <meta name="audience" content="All" />
 
-    <meta property="og:title" content="">
+    <meta property="og:title" content="Inside Kumar Mangalam Birla House | A Glimpse into the Lavish Home of India’s Industrial Icon">
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/celeb-homes/kumar-mangalam-birla-house">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Explore the opulent house of Kumar Mangalam Birla, India’s renowned industrialist. Discover its luxurious design, stunning interiors, and fascinating architectural details." />
     <meta property="og:type" content="property">
     <meta property="og:image" content="https://moneytreerealty.com/celeb-homes/assets/kumar-mangalam-birla-house-banner1.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Virat Kohli House">
+    <meta property="og:image:alt" content="Kumar Mangalam Birla House">
     <meta property="og:locale" content="en_IN">
+
 
 
     <link rel="canonical" href="https://moneytreerealty.com/celeb-homes/kumar-mangalam-birla-house" />
@@ -370,7 +368,11 @@
                 <h6>Similar Tags:</h6>
                 <ul class="tags">
 
-
+                    <li><a href="./kumar-mangalam-birla-house">Birla House</a></li>
+                    <li><a href="./kumar-mangalam-birla-house">Kumar Mangalam Birla Car</a></li>
+                    <li><a href="./kumar-mangalam-birla-house">Kumar Mangalam Birla Net Worth In Rupees</a></li>
+                    <li><a href="./kumar-mangalam-birla-house">Birla House Mumbai</a></li>
+                    <li><a href="./kumar-mangalam-birla-house">Birla Guest House</a></li>
                     <li><a href="../category/residential-property">Residential Real Estate</a></li>
                     <li><a href="../best-property-dealers-in-noida">Real Estate Deals</a></li>
                     <li><a href="../real-estate-advisor-and-property-consulting-firm-in-india">Property Advice</a></li>

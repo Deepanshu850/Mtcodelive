@@ -2987,6 +2987,41 @@
           </a>
         </li>
 
+        <li class="lpage">
+          <a href="https://moneytreerealty.com/celeb-homes/nandamuri-balakrishna-house"
+            title="Nandamuri Balakrishna House Luxurious Residence in Jubilee Hills | A Posh Residential Property">
+            Nandamuri Balakrishna House
+
+          </a>
+        </li>
+        <li class="lpage">
+          <a href="https://moneytreerealty.com/celeb-homes/jethalal-dilip-joshi-house"
+            title="Taarak Mehta Ka Ooltah Chashmah Jethalal Dilip Joshi House">
+
+            Inside Jethalal Dilip Joshi's House: A Peek into the Actor's Charming Abode
+          </a>
+        </li>
+        <li class="lpage">
+          <a href="https://moneytreerealty.com/celeb-homes/kumar-mangalam-birla-house"
+            title="Inside Kumar Mangalam Birla House | A Glimpse into the Lavish Home of India’s Industrial Icon">
+            The Kumar Mangalam Birla House: A Look Inside The Lavish Residence Of India’s Most Renowned Industrialist
+
+          </a>
+        </li>
+        <li class="lpage">
+          <a href="https://moneytreerealty.com/celeb-homes/irrfan-khan-house"
+            title="A Glimpse Into Late Irrfan Khan House And His Wife Sutapa">
+
+            Irrfan Khan: Exploring His Iconic Journey, Luxurious Home and Cinematic Legacy
+          </a>
+        </li>
+        <li class="lpage">
+          <a href="https://moneytreerealty.com/celeb-homes/mahesh-babu-house"
+            title="A Peek Inside Mahesh Babu Luxurious Jubilee Hills Home in Hyderabad">
+            A peek inside Mahesh Babu's Luxurious House in Jubilee Hills, Hyderabad
+
+          </a>
+        </li>
       </ul>
 
     </div>

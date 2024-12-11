@@ -243,4 +243,51 @@ $celebHomesData = [
             'image3.jpg'
         ]
     ],
+
+
+    [
+        'name' => 'Mahesh Babu House',
+        'link' => 'mahesh-babu-house',
+        'images' => [
+            'mahesh-babu-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
+    [
+        'name' => 'Irrfan Khan House',
+        'link' => 'irrfan-khan-house',
+        'images' => [
+            'irrfan-khan-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
+    [
+        'name' => 'Kumar Mangalam Birla House',
+        'link' => 'kumar-mangalam-birla-house',
+        'images' => [
+            'kumar-mangalam-birla-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
+    [
+        'name' => 'Dilip Joshi House',
+        'link' => 'jethalal-dilip-joshi-house',
+        'images' => [
+            'jethalal-dilip-joshi-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
+    [
+        'name' => 'Nandamuri Balakrishna House',
+        'link' => 'nandamuri-balakrishna-house',
+        'images' => [
+            'nandamuri-balakrishna-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
 ];
