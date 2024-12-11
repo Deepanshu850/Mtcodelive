@@ -9,29 +9,29 @@
     </div>
     <div class="content open">
         <a href="#heading-1">
-            1. Noida Real Estate | An Overview
+            1. Flats for Sale in Noida | Promising Investment
         </a>
         <a href="#heading-2">
-            2. Why Invest in Noida&rsquo;s Real Estate Market?
+            2. Types of Flats for Sale in Noida
         </a>
 
         <a href="#heading-3">
-            3. Top Localities to Invest in Real Estate in Noida
+            3. Strategic Location &amp; Connectivity
         </a>
         <a href="#heading-4">
-            4. Tired of Looking to Buy Property for Sale?
+            4. Affordable Housing Options
 
         </a>
         <a href="#heading-5">
-            5. Frequently asked questions
+            5. Robust Social &amp; Infra Amenities
 
         </a>
         <a href="#heading-6">
-            6. Before You Buy Commercial Property in Noida: Consider These Factors
+            6. Enhanced Quality of Life
 
         </a>
         <a href="#heading-7">
-            7. Looking to Buy Commercial Property in Noida?
+            7. Tired of looking to buy a home in Noida?
 
         </a>
         <a href="#heading-8">
@@ -48,5 +48,3 @@
 
     </div>
 </div>
-
-

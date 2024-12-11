@@ -292,4 +292,14 @@ $posts = [
         'writer' => 'Team Moneytree',
 
     ],
+    [
+        'id' => 31,
+        'title' => 'Top 5 Reasons to Buy a Home in Noida',
+        'description' => 'Residential apartments in Noida are taking the spot with cutting-edge amenities, grandeur architecture, and seamless connectivity to major parts of the National Capital Region (NCR). Apart from the infrastructure, flats for sale in Noida provide favourable rental yields, and lucrative price appreciation. Read out the article below for top 5 reasons to buy a home in Noida and make an analysed and comprehensive real esate investment.',
+        'imageUrl' => './assets/top-5-reasons-to-buy-a-home-in-noida-banner.webp',
+        'date' => 'December 11, 2024',
+        'category' => ['Property'],
+        'writer' => 'Team Moneytree',
+
+    ],
 ];
