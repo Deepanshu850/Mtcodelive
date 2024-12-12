@@ -145,12 +145,10 @@ road, vastral distance, city restaurant vastral, vastral post office, vastral te
 
 
 
-    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link href="./assets/css/nice-select.css" rel="stylesheet">
-    <link rel="icon" href="./assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
-    <link rel="stylesheet" href="./assets/css/property-page.css">
+    <link href="assets/img/favicon_io/favicon.ico" rel="icon" sizes="20x20" type="image/x-icon">
+    <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/css/nice-select.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css">
 
 
 
@@ -177,8 +175,8 @@ road, vastral distance, city restaurant vastral, vastral post office, vastral te
 
 
 
-    <?php set_include_path($_SERVER['DOCUMENT_ROOT'] . '/');
-    include 'header-demo.php';  ?>
+    <?php set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive/');
+    include 'header.php';  ?>
 
 
     <!-- main content -->

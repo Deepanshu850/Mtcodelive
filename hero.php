@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <?php include "header-demo.php" ?>
+  <?php include "header.php" ?>
 
 
 

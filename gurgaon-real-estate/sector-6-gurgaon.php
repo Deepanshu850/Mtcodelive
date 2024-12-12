@@ -192,8 +192,8 @@ flats for rent, flats in sector 6 Gurgaon, apartments in gurgaon sector 6" />
 
 
     <?php
-    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/');
-    include 'header-demo.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive/');
+    include 'header.php';
     ?>
 
 

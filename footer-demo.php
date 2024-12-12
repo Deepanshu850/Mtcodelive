@@ -204,7 +204,7 @@
         <!-- Column 1: Logo and Contact -->
         <div class="footer-address">
             <div class="footer-logo">
-                <a href="<?php echo internalLink('index-demo-1'); ?>"><img src="<?php echo internalLink('assets/img/footer-logo.png'); ?>" alt="Moneytree Realty Logo"></a>
+                <a href="<?php echo internalLink('index'); ?>"><img src="<?php echo internalLink('assets/img/footer-logo.png'); ?>" alt="Moneytree Realty Logo"></a>
             </div>
             <address class="footer-text">
                 <p>Floor no-2, Tapasya Corp Heights,<br> Subarea, Sector 126, Noida, <br> Uttar Pradesh 201303</p>
@@ -366,7 +366,7 @@
         <div class="footer-links">
             <h3>Useful Links</h3>
             <ul class="footer-links-list">
-                <li><a href="<?php echo internalLink('index-demo-1'); ?>">Home</a></li>
+                <li><a href="<?php echo internalLink('index'); ?>">Home</a></li>
                 <li><a href="<?php echo internalLink('real-estate-consultant'); ?>">Our Services</a></li>
                 <li><a href="<?php echo internalLink('contact'); ?>">Contact Us</a></li>
                 <li><a href="<?php echo internalLink('about-us'); ?>">About Us</a></li>
@@ -388,5 +388,3 @@
 <?php
 include './sticky-call-component.php';
 ?>
-
-

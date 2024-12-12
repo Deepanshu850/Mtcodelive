@@ -105,12 +105,10 @@ gurgaon 4 bhk, 4 bhk flat in gurgaon under 25 40 lakhs, 4 bhk flat for rent in s
 
 
 
-    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link href="./assets/css/nice-select.css" rel="stylesheet">
-    <link rel="icon" href="./assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
-    <link rel="stylesheet" href="./assets/css/property-page.css">
+    <link href="assets/img/favicon_io/favicon.ico" rel="icon" sizes="20x20" type="image/x-icon">
+    <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/css/nice-select.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css">
 
 
 
@@ -159,8 +157,8 @@ gurgaon 4 bhk, 4 bhk flat in gurgaon under 25 40 lakhs, 4 bhk flat for rent in s
 
 
     <?php
-    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/');
-    include 'header-demo.php';
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive/');
+    include 'header.php';
     ?>
 
     <div class="side-flex">
