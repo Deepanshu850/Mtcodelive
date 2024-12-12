@@ -9,17 +9,17 @@
     </div>
     <div class="content open">
         <a href="#heading-1">
-            1. Flats for Sale in Noida | Promising Investment
+            1. Understanding Commercial and Residential Properties
         </a>
         <a href="#heading-2">
-            2. Types of Flats for Sale in Noida
+            2. Commercial Property vs Residential Property | Key Differences
         </a>
 
         <a href="#heading-3">
-            3. Strategic Location &amp; Connectivity
+            3. Factors to Consider before choosing between Commercial and Residential Property
         </a>
         <a href="#heading-4">
-            4. Affordable Housing Options
+            4. Frequently Asked Questions (FAQs)
 
         </a>
         <a href="#heading-5">
