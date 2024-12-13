@@ -306,8 +306,8 @@ $posts = [
         'id' => 32,
         'title' => 'Commercial Property vs Residential Property',
         'description' => 'Real estate investment has been the preferred option for wealth creation since ages. The statistics have consistently put real estate into the most appreciating asset, along with higher rates of returns and tangibility. Property investment could be classified into 2 major types: commercial property investment and residential property investment.',
-        'imageUrl' => './assets/top-5-reasons-to-buy-a-home-in-noida-banner.webp',
-        'date' => 'December 11, 2024',
+        'imageUrl' => './assets/commercial-property-vs-residential-property-banner.webp',
+        'date' => 'December 13, 2024',
         'category' => ['Property'],
         'writer' => 'Team Moneytree',
 

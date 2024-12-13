@@ -2304,6 +2304,17 @@
           </a>
         </li>
 
+
+        <li class="lpage last-page">
+          <a href="https://moneytreerealty.com/blog/commercial-property-vs-residential-property"
+            title="Commercial Property vs Residential Property: Which is the Better Investment">
+            Commercial Property vs Residential Property: Which is the Better Investment?
+          </a>
+        </li>
+
+
+
+
       </ul>
       <ul id='propertydetail list-5' class="hidden">
 
@@ -3030,6 +3041,51 @@
 
           </a>
         </li>
+
+        <li class="lpage">
+          <a href="https://moneytreerealty.com/celeb-homes/manoj-gaur-house"
+            title="House of Manoj Gaur - A Glimpse into the Luxurious Home of a Visionary Leader">
+            Manoj Gaur House
+
+          </a>
+        </li>
+
+        <li class="lpage">
+          <a href="https://moneytreerealty.com/celeb-homes/survyakumar-yadav-house"
+            title="Suryakumar Yadav House - A Glimpse into the Cricketer's Lavish Home">
+            Inside Suryakumar Yadav's House: A Glimpse into the Cricketer's Luxurious Abode
+
+          </a>
+        </li>
+
+        <li class="lpage">
+          <a href="https://moneytreerealty.com/celeb-homes/ranbir-kapoor-house"
+            title="The Ranbir Kapoor House - A Peek Inside the Bollywood Star's Luxurious Home">
+
+            The Ranbir Kapoor House | A Look Inside The House Of One Of India’s Most Celebrated Bollywood Actor
+          </a>
+        </li>
+
+
+        <li class="lpage">
+          <a href="https://moneytreerealty.com/celeb-homes/sunny-leone-house"
+            title="Inside Sunny Leone's Luxurious House - A Tour of Her Stunning Home">
+            Inside Sunny Leone's Luxurious House: A Tour of Her Stunning Home and Personal Space
+
+          </a>
+        </li>
+
+        <li class="lpage">
+          <a href="https://moneytreerealty.com/celeb-homes/rishabh-pant-house"
+            title="Inside the Luxurious House of India's Star Wicketkeeper Rishabh Pant House">
+
+            Rishabh Pant | A glimpse into the house of the Explosive wicketkeeper
+          </a>
+        </li>
+
+
+
+
       </ul>
 
     </div>
