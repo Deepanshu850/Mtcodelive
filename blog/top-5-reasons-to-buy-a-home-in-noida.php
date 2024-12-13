@@ -49,7 +49,7 @@ Bazaar, M3M The Cullinan, And Ametek Plaza One." />
     <meta property="og:url" content="https://moneytreerealty.com/blog/top-5-reasons-to-buy-a-home-in-noida">
     <meta property="og:description" content="Discover the top 5 reasons to buy a home in Noida. Explore the best residential properties with modern amenities, excellent connectivity, and high ROI potential.">
     <meta property="og:type" content="property">
-    <meta property="og:image" content="https://moneytreerealty.com/blog/assets/top-5-reasons-to-buy-a-home-in-noida.webp">
+    <meta property="og:image" content="https://moneytreerealty.com/blog/assets/top-5-reasons-to-buy-a-home-in-noida-banner.webp">
 
 
     <link rel="canonical" href="https://moneytreerealty.com/blog/top-5-reasons-to-buy-a-home-in-noida" />
@@ -217,7 +217,7 @@ Bazaar, M3M The Cullinan, And Ametek Plaza One." />
             <div class="row g-lg-4 gy-5">
                 <div>
                     <div class="post-thumb">
-                        <img src="./assets/top-5-reasons-to-buy-a-home-in-noida.webp" alt='Top 5 Reasons to Buy a Home in Noida'>
+                        <img src="./assets/top-5-reasons-to-buy-a-home-in-noida-banner.webp" alt='Top 5 Reasons to Buy a Home in Noida'>
 
                     </div>
 
