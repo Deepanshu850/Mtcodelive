@@ -101,17 +101,40 @@
     <?php
     $events = [
         [
-            'name' => 'PropTree Mela 2024',
+            'name' => 'Diwali Matlab MoneyTree Wali',
+            'videoId' => '83U_hexyXE0',
+            'description' => 'With the blessings of God, MoneyTree Realty celebrated its grand Diwali, uniting 3+ branches, 500+ family members, 100+ cars, 40+ properties, and countless smiles in just 11 months! 🚗🏠✨ Here’s to growth, joy, and endless success!',
+            'link' => ''
+        ],
+        [
+            'name' => 'PropTree Mela',
             'videoId' => '5QlTFPx8ZXM',
-            'description' => 'PropTree Mela exhibits state-of-the-art commercial and residential properties from leading real estate developers in India such as M3M Group, Paras Buildtech, Godrej Properties, Devika Group, Axis Ecorp, Krisumi Corp and many more.',
+            'description' => 'The PropTree Mela was a roaring success with over 900 visitors and 150+ property bookings! The energy was high, the deals were hot, and the atmosphere was nothing short of electric! 🌟 Whether you were looking for your dream home or the best investment, this one-of-a-kind real estate festival delivered BIG.',
             'link' => 'proptree-mela'
+        ],
+
+        [
+            'name' => 'Successful Event by MoneyTree Realty in Paras Manor',
+            'videoId' => 'JoEYZIOrBTc',
+            'description' => 'Under the visionary leadership of our CEO Sachin Arora, MoneyTree Realty has driven Paras Manor to a Housefull Show, with nearly every unit sold out. Partnering with Kunal Rishi Ji from Paras Buildtech, we’ve created an exclusive community that’s in high demand. This achievement reflects our commitment to excellence and luxury living. As we approach full capacity, now is the time to secure your place with MoneyTree Realty and be part of something truly exceptional!',
+            'link' => ''
+        ],
+
+        [
+            'name' => 'Celebrating Teej',
+            'videoId' => 'V4AxufwMJi8',
+            'description' => 'We had a fantastic time celebrating Teej at MoneyTree Realty! The office was filled with vibrant colors, traditional attire, and joyous laughter. From stunning sarees to intricate mehendi designs, every detail added to the festive spirit. Here’s to celebrating our culture and the wonderful women who make our workplace so special! 🌸✨',
+            'link' => ''
         ],
         [
             'name' => 'Navratree Property Mela',
-            'videoId' => '83U_hexyXE0',
-            'description' => 'Navratree, MoneyTree Realty Expo 2024 features best residential and commercial projects from various top developers under one roof.',
+            'videoId' => '-8xrT0YeqOA',
+            'description' => "The biggest brand in the real estate sector, MoneyTree Realty brings together Navratree Property Mela 2024 with numerous developers offering multiple commercial as well as residential projects on the auspicious Navratree Celebration on 13th & 14th April starting 10 A.M. onwards featuring divine spaces and a platter of prosperous possessions. \n            This Navratree, MoneyTree Realty Expo 2024 features best residential and commercial projects from various top developers under one roof featuring spin-the-wheel to win a chance to get an iPhone, Air Fryer, 32” LED, Microwave, Smartwatch, and other attractive prizes with your purchase",
+
             'link' => 'navratree-property-mela'
         ],
+
+
     ];
     ?>
 
@@ -310,6 +333,7 @@
             }
         }
     </style>
+
     <script>
         // Load YouTube API
         var tag = document.createElement('script');

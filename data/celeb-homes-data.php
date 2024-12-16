@@ -290,4 +290,22 @@ $celebHomesData = [
             'image3.jpg'
         ]
     ],
+    [
+        'name' => 'Hina Khan House',
+        'link' => 'hina-khan-house',
+        'images' => [
+            'hina-khan-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
+    [
+        'name' => 'Bernard Arnault House',
+        'link' => 'bernard-arnault-house',
+        'images' => [
+            'bernard-arnault-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
 ];
