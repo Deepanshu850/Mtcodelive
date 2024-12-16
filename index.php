@@ -374,14 +374,6 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
         Delhi/NCR. -->
 
 
-
-        <!-- add the h1 here -->
-
-
-
-
-
-
         <div class="heading-section">
             <h1>BEST REAL ESTATE PROPERTY <br> CONSULTANT IN DELHI/NCR</h1>
             <p>
@@ -391,13 +383,6 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
             </p>
             <a href="./contact" class="cta-button">Contact Us Today</a>
         </div>
-
-
-
-
-
-
-
 
 
         <div class="about-section">
@@ -426,8 +411,6 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
         </div>
 
 
-
-
         <script>
             document.addEventListener("DOMContentLoaded", function() {
                 const elements = document.querySelectorAll('.animate-on-scroll');
@@ -449,7 +432,6 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
                 });
             });
         </script>
-
 
         <!-- properties grid of home page -->
 
