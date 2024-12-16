@@ -308,4 +308,32 @@ $celebHomesData = [
             'image3.jpg'
         ]
     ],
+
+    [
+        'name' => 'Sonakshi Sinha House',
+        'link' => 'sonakshi-sinha-house',
+        'images' => [
+            'sonakshi-sinha-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
+    [
+        'name' => 'Radhakishan Damani House',
+        'link' => 'radhakishan-damani-house',
+        'images' => [
+            'radhakishan-damani-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
+    [
+        'name' => 'Hrithik Roshan House',
+        'link' => 'hrithik-roshan-house',
+        'images' => [
+            'hrithik-roshan-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
 ];
