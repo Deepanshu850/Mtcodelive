@@ -3116,7 +3116,18 @@
           </a>
         </li>
 
-
+        <li class="lpage">
+          <a href="https://moneytreerealty.com/celeb-homes/kamal-haasan-house"
+            title="Kamal Haasan Houses: A Glimpse of the Legendary Actor's Properties">
+            Kamal Haasan House
+          </a>
+        </li>
+        <li class="lpage">
+          <a href="https://moneytreerealty.com/celeb-homes/akshay-kumar-house"
+            title="The Akshay Kumar House | A Look Inside the Home of One of India’s Most Popular Bollywood Actors">
+            The Akshay Kumar House | A Look Inside The House Of One Of India’s Most Popular Bollywood Actor
+          </a>
+        </li>
 
 
       </ul>

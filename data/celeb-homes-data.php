@@ -336,4 +336,23 @@ $celebHomesData = [
             'image3.jpg'
         ]
     ],
+
+    [
+        'name' => 'Akshay Kumar House',
+        'link' => 'akshay-kumar-house',
+        'images' => [
+            'akshay-kumar-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
+    [
+        'name' => 'Hrithik Roshan House',
+        'link' => 'kamal-haasan-house',
+        'images' => [
+            'kamal-haasan-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
 ];
