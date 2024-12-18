@@ -9,22 +9,21 @@
     </div>
     <div class="content open">
         <a href="#heading-1">
-            1. Understanding Commercial and Residential Properties
+            1. Property in Noida Extension - Overview
         </a>
         <a href="#heading-2">
-            2. Commercial Property vs Residential Property | Key Differences
+            2. Why Should You Buy Property in Noida Extension?
         </a>
 
         <a href="#heading-3">
-            3. Factors to Consider before choosing between Commercial and Residential Property
+            3. Types of property in Noida Extension
         </a>
         <a href="#heading-4">
-            4. Frequently Asked Questions (FAQs)
+            4. Upcoming RERA-approved Property in Noida Extension
 
         </a>
         <a href="#heading-5">
-            5. Robust Social &amp; Infra Amenities
-
+            5. Looking to buy Property in Noida Extension ?
         </a>
         <a href="#heading-6">
             6. Enhanced Quality of Life
@@ -48,5 +47,3 @@
 
     </div>
 </div>
-
-

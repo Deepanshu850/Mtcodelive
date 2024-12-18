@@ -355,4 +355,23 @@ $celebHomesData = [
             'image3.jpg'
         ]
     ],
+
+    [
+        'name' => 'Drake House',
+        'link' => 'drake-graham-house',
+        'images' => [
+            'drake-graham-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
+    [
+        'name' => 'Cyrus Mistry House',
+        'link' => 'cyrus-mistry-house',
+        'images' => [
+            'cyrus-mistry-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
 ];

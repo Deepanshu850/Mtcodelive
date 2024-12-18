@@ -2519,7 +2519,12 @@
           </a>
         </li>
 
-
+        <li class="lpage last-page">
+          <a href="https://moneytreerealty.com/propertydetail/godrej-miraya-sector-43-gurgaon"
+            title="Godrej Miraya | 3 & 4 BHK Residential Apartments in Sector 43 Gurgaon">
+            Godrej Miraya | Residential Apartments in Sector 43 Gurgaon
+          </a>
+        </li>
 
 
       </ul>
@@ -3129,6 +3134,19 @@
           </a>
         </li>
 
+
+        <li class="lpage">
+          <a href="https://moneytreerealty.com/celeb-homes/drake-graham-house"
+            title=" Drake House: Inside Aubrey Drake Graham’s Iconic Homes and Mansions">
+            Drake House: A Peek into ‘One Dance’ Singer Aubrey Drake Graham’s Iconic Abodes
+          </a>
+        </li>
+        <li class="lpage">
+          <a href="https://moneytreerealty.com/celeb-homes/cyrus-mistry-house"
+            title="Cyrus Mistry House: A Glimpse into the Legacy of a Business Icon">
+            Cyrus Mistry House
+          </a>
+        </li>
 
       </ul>
 

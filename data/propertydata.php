@@ -583,6 +583,22 @@ $properties = [
         'rera_link' => 'https://www.up-rera.in/Projectsummary?UI0aPA1ISD=gsdgnWbR3mk=&hfFlag=9emr4VdBw22M7BGjKtJWMPDI4s5cHQZP&NPJ6RAme=JLj0bE/nSNyvr1ht+ktAdw==&PaURJEMAN4=ZL9MNERkNdbG7yTF2G42mceZ6XNR6M4b&IRSAHEB=D6PY3lyims8=',
         'property' => '',
     ],
+    [
+        'id' => 37,
+        'name' => 'Godrej Miraya Sector 43 Gurgaon',
+        'location' => 'Gurgaon',
+        'images' => [
+            'assets\img\projectdetails\godrejmiraya1.webp',
+            'assets\img\projectdetails\godrejmiraya2.webp',
+            'assets\img\projectdetails\godrejmiraya3.webp',
+        ],
+        'price' => '₹9.49 Cr+',
+
+        'type' => ['Residential'],
+        'rera' => 'RC/REP/HARERA/GGM/870/602/2024/97',
+        'rera_link' => 'https://haryanarera.gov.in/view_project/project_preview_open/3030',
+        'property' => '',
+    ],
 
 ];
 ?>
