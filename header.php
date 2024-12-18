@@ -153,13 +153,13 @@ function internalLink($relativePath)
 
 <header class="custom-header scrolled" id="mainHeader">
     <div class="custom-logo">
-        <a href="<?php echo internalLink('index'); ?>">
+        <a href="<?php echo internalLink('index-demo-1'); ?>">
             <img src="<?php echo internalLink('assets/img/logo.png'); ?>" alt="Best Real Estate Property Consultant in Delhi/NCR">
         </a>
     </div>
     <nav class="custom-nav">
         <ul class="custom-menu">
-            <li><a href="<?php echo internalLink('index'); ?>">Home</a></li>
+            <li><a href="<?php echo internalLink('index-demo-1'); ?>">Home</a></li>
             <li><a href="<?php echo internalLink('career'); ?>">Career</a></li>
             <li class="custom-dropdown">
                 <a href="<?php echo internalLink('top-real-estate-poperty-consultant-in-india'); ?>">Projects</a>
@@ -352,13 +352,13 @@ function internalLink($relativePath)
 
 <div class="mobile-menu" id="mobileMenu">
     <div class="custom-logo">
-        <a href="<?php echo internalLink('index'); ?>">
+        <a href="<?php echo internalLink('index-demo-1'); ?>">
             <img src="<?php echo internalLink('assets/img/logo.png'); ?>" alt="Best Real Estate Property Consultant in Delhi/NCR">
         </a>
     </div>
     <nav class="mobile-nav">
         <ul class="main-menu">
-            <li><a href="<?php echo internalLink('index'); ?>">Home</a></li>
+            <li><a href="<?php echo internalLink('index-demo-1'); ?>">Home</a></li>
             <li><a href="<?php echo internalLink('career'); ?>">Career</a></li>
 
 
@@ -1030,7 +1030,7 @@ function internalLink($relativePath)
         }
 
         .custom-logo img {
-            max-width: 85px;
+            max-width: 100px;
         }
 
         .custom-search svg {
@@ -1319,7 +1319,6 @@ function internalLink($relativePath)
     }
 </script>
 
-
-<?php 
+<?php
 include './slidefornfakenoti.php';
 ?>

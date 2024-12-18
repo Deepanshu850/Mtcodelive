@@ -95,22 +95,40 @@ a {
 .hero-section {
 	position: relative;
 	width: 100%;
-	/* height: calc(100vh + 6rem); */
 	height: 100vh;
-	background: url("../img/IMG_0343.webp") center/cover no-repeat;
-	background: url("../img/IMG_0342.webp") center/cover no-repeat;
-	/* background: url('../img/IMG_0345.webp') center/cover no-repeat; */
+	background-image: url("../img/IMG_0342.webp");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed; /* Key property for fixed background */
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-size: cover;
-	/* Make sure the image covers the section */
-	background-position: center;
-	/* Center the image */
-	background-attachment: fixed;
-	/* Creates the parallax effect */
-	background-repeat: no-repeat;
-	/* transform: translate(0,-6rem); */
+}
+
+/* iOS Safari Fix */
+@supports (-webkit-touch-callout: none) {
+	.hero-section,
+	.full-width-bg:has(.team-carousel),
+	.full-width-bg:has(.developer-carousel)
+	
+	{
+		background-attachment: scroll; /* iOS Safari workaround */
+	}
+
+	
+
+	/* .hero-section::before {
+		content: "";
+		position: fixed;
+		inset: 0;
+		z-index: -1;
+		background-image: url("../img/IMG_0342.webp");
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		transform: translateZ(0); 
+	} */
 }
 
 .overlay {

@@ -121,6 +121,8 @@
             .slide-in-form {
                 width: 90%;
                 right: -100%;
+                top: 62%;
+
             }
 
             .slide-in-form button {
@@ -487,7 +489,7 @@
                 <img src="./assets/img/treelogo.png" alt="">
                 <p>Moneytree Realty</p>
             </div>
-            <p style="color: white;">Book Your Property Now!</p>
+            <p style="color: white;">Connect With Us</p>
             <p style="font-size: 11px;">Discover Your Dream Property Now!</p>
 
             <div class="entryarea">
@@ -591,17 +593,17 @@
             <button type="submit">Submit</button>
         </form>
     </div>
+    <div id="overlay" class="overlay"></div>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            const overlay = document.createElement('div');
-            overlay.className = 'overlay';
-            document.body.appendChild(overlay);
+            ;
 
             setTimeout(function() {
                 var form = document.getElementById('slideInForm');
+                var overlay = document.getElementById('overlay');
                 form.classList.add('active');
                 overlay.classList.add('active');
-            }, 5000);
+            }, 1000);
             // change  this timer to change the time it takes for the form to slide in
         });
 
@@ -612,6 +614,7 @@
             overlay.classList.remove('active');
         }
     </script>
+
 
     <script>
         $(document).ready(function() {
