@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0">
 
     <title>
-
+        Property in Noida Extension | Buy Residential & Commercial Properties in Noida
     </title>
 
-    <meta name="description" content="" />
+    <meta name="description" content="Explore premium properties in Noida Extension and New Noida. Find your dream home or invest in top commercial projects with world-class amenities. Contact us for the best deals today!" />
 
-    <meta name="keywords" content="" />
+    <meta name="keywords" content="Buy Flat In Noida Extension, Property Rates In Noida Extension, Real Estate In Noida Extension, Property In Greater Noida West, Noida Extension Greater Noida West, Residential Properties Noida, Commercial Properties Noida, Luxury Apartments In New Noida, Ready-To-Move Flats In Noida, Villas In Noida Extension, 2 BHK Flats In New Noida, Office Spaces In Noida Extension, Premium Property In New Noida, Affordable Housing In Noida Extension, Studio Apartments In New Noida, Residential Plots In Noida Extension, Commercial Shops In Noida Extension, Eco-Friendly Homes In New Noida, Golf-Course Properties In Noida, Property For Rent In Noida Extension, 3 BHK Flats, 4 BHK Flats, Property At Noida Extension" />
 
     <meta name="Owner" content="Moneytreerealty.com" />
     <meta name="Copyright" content="Moneytreereal.com" />
@@ -21,26 +21,19 @@
     <meta name="subject" content="Learn about MoneyTree Realty's mission, services, and how we can assist you in navigating the real estate market in India" />
     <meta name="audience" content="All" />
 
-
-    <meta property="og:title" content="">
+    <meta property="og:title" content="Property in Noida Extension | Buy Property in New Noida">
     <meta property="og:site_name" content="Moneytree Realty">
-    <meta property="og:url" content="https://moneytreerealty.com/property-in-noida">
-    <meta property="og:description" content="">
+    <meta property="og:url" content="https://moneytreerealty.com/property-in-noida-extension">
+    <meta property="og:description" content="Explore premium properties in Noida Extension and New Noida. Find your dream home or invest in top commercial projects with world-class amenities. Contact us for the best deals today!" />
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://moneytreerealty.com/assets/img/property-in-noida.webp">
+    <meta property="og:image" content="https://moneytreerealty.com/assets/img/property-in-noida-extension.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="">
+    <meta property="og:image:alt" content="Explore Properties in Noida Extension">
     <meta property="og:locale" content="en_IN">
 
 
-
-
-
-
-    <link rel="canonical" href="https://moneytreerealty.com/property-in-noida" />
-
-
+    <link rel="canonical" href="https://moneytreerealty.com/property-in-noida-extension" />
 
 
 
@@ -114,24 +107,34 @@
 
                 <?php
                 include './data/tempdata.php';
-                include './property-grid-level3.php';
 
-                $filtered = array_filter($properties, function ($item) {
-                    $pattern = '/noida/i';
+                $regexPatterns = [
+                    '/devika/i',
+                    '/ace yxp/i',
+                    '/ametek/i',
+                    '/paras avenue/i',
+                ];
 
-                    $matchesLocation = preg_match($pattern, strtolower($item['location'][0]));
-                    if ($matchesLocation) {
-                        return true;
+                function matchesAnyPattern($title, $patterns)
+                {
+                    foreach ($patterns as $pattern) {
+                        if (preg_match($pattern, strtolower($title))) {
+                            return true;
+                        }
                     }
-
                     return false;
+                }
+
+                $properties = array_filter($properties, function ($item) use ($regexPatterns) {
+                    $title = strtolower($item['name']);
+                    return matchesAnyPattern($title, $regexPatterns);
                 });
 
-                $urlprefix = './';
+                $urlprefix = './propertydetail/';
 
-                echo renderPropertiesGrid($filtered, $urlprefix);
+                include './property-grid-level2.php';
 
-                // print_r($properties);
+
                 ?>
 
 
@@ -142,6 +145,12 @@
                 Property in Noida Extension | Buy Property in New Noida
 
             </h1>
+
+
+            <p class="overview">
+
+                Noida Extension, sometimes referred to as Greater Noida, is the new city in the Gautam Buddha District of Uttar Pradesh and currently boast strong real estate development in both commercial projects as well as residential projects with cutting-edge amenities and facilities along with seamless connectivity through Noida - Greater Noida Expressway, FNG Expressway, Yamuna Expressway, KMP Expressway, and many more.
+            </p>
 
             <div class="tableOfContent">
                 <div class="header" onclick="">
@@ -180,7 +189,7 @@
 
             <h2 id="heading-1">Property in Noida Extension - Overview </h2>
 
-            <p>Noida Extension is emerging with state-of-the-art real estate projects and is being preferred by real estate investors due to lucrative capital appreciation and favourable rental yields and provides a steady source of passive income. Property in Noida Extension features luxury flats, premium commercial shops and high-street avenues from the <strong>leading real estate builders </strong>such as Godrej Properties, M3M Group, Paras Buildtech, Ametek Group, ACE Group, Migsun Group, Sarvottam Group, among others. </p>
+            <p>Noida Extension is emerging with state-of-the-art real estate projects and is being preferred by real estate investors due to lucrative capital appreciation and favourable rental yields and provides a steady source of passive income. Property in Noida Extension features luxury flats, premium <a href="./commercial-shops-for-sale-in-noida"><strong>commercial shops</strong></a> and high-street avenues from the <a href="./blog/top-10-real-estate-company-in-noida"><strong>leading real estate builders </strong></a> such as Godrej Properties, M3M Group, Paras Buildtech, Ametek Group, ACE Group, Migsun Group, Sarvottam Group, among others. </p>
 
             <h3>Market trends in Noida Extension Real Estate </h3>
 
@@ -659,18 +668,12 @@
 
                 <p class="wp-block-tag-cloud">
 
-                    <a href="./property-in-noida">Property In Noida</a>
-                    <a href="./best-property-dealers-in-noida">Property Dealers In Noida</a>
-                    <a href="./category/commercial-property-for-sale-noida">Commercial Property In Noida</a>
-                    <a href="./best-property-dealers-in-noida">Property Dealers In Greater Noida</a>
-                    <a href="./property-in-noida">Property In Greater Noida</a>
-                    <a href="./top-real-estate-poperty-consultant-in-india">Property For Rent In Noida</a>
-                    <a href="../blog/real-estate-investment-a-comprehensive-guide-on-real-estate">Real Estate Investment</a>
-                    <a href="../contact">Property Management</a>
-                    <a href="../category/residential-property">Residential Real Estate</a>
-                    <a href="../best-property-dealers-in-noida">Real Estate Deals</a>
-                    <a href="../real-estate-advisor-and-property-consulting-firm-in-india">Property Advice</a>
-                    <a href="../real-estate-consultant">Real Estate Consulting</a>
+                    <a href="./property-in-noida">New Launch Projects In Noida</a>
+                    <a href="./property-in-noida-extension">Top Builders In Noida Extension</a>
+                    <a href="./category/studio-apartments-for-sale-noida">Studio Apartments In New Noida</a>
+                    <a href="./category/residential-property-for-sale-noida">Residential Plots In Noida Extension</a>
+                    <a href="./property-in-noida-extension">Smart Homes In New Noida</a>
+                    <a href="./blog/up-rera-act-2016-rera-approved-projects">RERA-Approved Properties In Noida</a>
 
 
 
@@ -687,42 +690,21 @@
             <h6>Similar Tags:</h6>
 
             <ul class="tags">
-                <li>
-                    <a href="./property-in-noida">Property In Noida</a>
-                </li>
-                <li>
-                    <a href="./best-property-dealers-in-noida">Property Dealers In Noida</a>
-                </li>
-                <li>
-                    <a href="./category/commercial-property-for-sale-noida">Commercial Property In Noida</a>
-                </li>
-                <li>
-                    <a href="./best-property-dealers-in-noida">Property Dealers In Greater Noida</a>
-                </li>
-                <li>
-                    <a href="./property-in-noida">Property In Greater Noida</a>
-                </li>
-                <li>
-                    <a href="./top-real-estate-poperty-consultant-in-india">Property For Rent In Noida</a>
-                </li>
-                <li>
-                    <a href="../blog/real-estate-investment-a-comprehensive-guide-on-real-estate">Real Estate Investment</a>
-                </li>
-                <li>
-                    <a href="../contact">Property Management</a>
-                </li>
-                <li>
-                    <a href="../category/residential-property">Residential Real Estate</a>
-                </li>
-                <li>
-                    <a href="../best-property-dealers-in-noida">Real Estate Deals</a>
-                </li>
-                <li>
-                    <a href="../real-estate-advisor-and-property-consulting-firm-in-india">Property Advice</a>
-                </li>
-                <li>
-                    <a href="../real-estate-consultant">Real Estate Consulting</a>
-                </li>
+
+
+
+                <li><a href="./property-in-noida">New Launch Projects In Noida</a></li>
+                <li><a href="./property-in-noida-extension">Top Builders In Noida Extension</a></li>
+                <li><a href="./category/studio-apartments-for-sale-noida">Studio Apartments In New Noida</a></li>
+                <li><a href="./category/residential-property-for-sale-noida">Residential Plots In Noida Extension</a></li>
+                <li><a href="./property-in-noida-extension">Smart Homes In New Noida</a></li>
+                <li><a href="./blog/up-rera-act-2016-rera-approved-projects">RERA-Approved Properties In Noida</a></li>
+                <li> <a href="./blog/real-estate-investment-a-comprehensive-guide-on-real-estate">Real Estate Investment</a> </li>
+                <li> <a href="./contact">Property Management</a> </li>
+                <li> <a href="./category/residential-property">Residential Real Estate</a> </li>
+                <li> <a href="./best-property-dealers-in-noida">Real Estate Deals</a> </li>
+                <li> <a href="./real-estate-advisor-and-property-consulting-firm-in-india">Property Advice</a> </li>
+                <li> <a href="./real-estate-consultant">Real Estate Consulting</a> </li>
             </ul>
 
         </div>

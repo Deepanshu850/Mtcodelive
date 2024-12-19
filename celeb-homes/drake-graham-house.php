@@ -317,7 +317,6 @@
 
             <p>The double-height foyer greets you with sweeping staircases providing an air of understated luxury. The living room has two fireplaces, while the cozy library features a fireplace, arched French windows, and built-in maple cabinets. The mansion includes a formal dining room, gourmet kitchen with a breakfast nook, and two family rooms - one of which is a professional screening room. All these pieces inexact elegance and functionality offer the kind of respite that is both sumptuous and comfortable. </p>
 
-            <h3>A Look Inside Drake&rsquo;s Sumptuous Beverly Hills Estate </h3>
 
             <h2>Drake House YOLO Estate </h2>
 

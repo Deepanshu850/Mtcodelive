@@ -547,7 +547,7 @@
                 </a>
             </li>
             <li>
-                <a href="../blog/studio-apartments.php">
+                <a href="./studio-apartments.php">
                     Studio Apartment Meaning
                 </a>
             </li>

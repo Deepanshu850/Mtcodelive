@@ -374,4 +374,24 @@ $celebHomesData = [
             'image3.jpg'
         ]
     ],
+
+
+    [
+        'name' => 'Ashneer Grover House',
+        'link' => 'ashneer-grover-house',
+        'images' => [
+            'ashneer-grover-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
+    [
+        'name' => 'Rashmika Mandanna House',
+        'link' => 'rashmika-mandanna-house',
+        'images' => [
+            'rashmika-mandanna-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
 ];
