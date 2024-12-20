@@ -29,17 +29,24 @@
     <link rel="canonical" href="https://moneytreerealty.com/real-estate-developers/axis-ecorp" />
 
 
-
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [{
                     "@type": "Question",
-                    "name": "What types of apartments are available at AU The Sunflower Phase 1?",
+                    "name": "What is the minimum investment in Fractional Ownership?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "AU The Sunflower is a luxury residential property featuring state-of-the-art 3 BHK and 4 BHK apartments on NH-24."
+                        "text": "The minimum investment can vary based on the specific investment opportunity and ranges from ₹15 Lakh to ₹50 Lakh. In some cases, investors have the option to pay the investment amount in tranches. Axis Blues features smart service studios and suites available for sale in fractional ownership."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which real estate projects of Axis ECorp are available for sale below ₹1 Crore?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The following are some promising real estate projects in the Axis ECorp catalogue available for sale under ₹1 Crore: Axis Blues, Axis Lake City, and Axis KNCZ. These projects are strategically located and feature top-notch amenities, offering a premium and leisure living experience."
                     }
                 },
                 {
@@ -47,15 +54,7 @@
                     "name": "What are the leading real estate companies in India?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "The real estate industry in India is emerging with state-of-the-art architectural infrastructure along with lucrative price appreciation and ROI. MoneyTree Realty, Paras Buildtech, M3M Group, Devika Group, Sarvottam Group, and ACE Group are the leading real estate companies in India."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "What are some of the benefits of investing in commercial property?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Commercial property for sale in India provides promising capital appreciation and high ROI, and features favourable rental yields, minimal maintenance, and hedging against inflation."
+                        "text": "The real estate industry in India is emerging with state-of-the-art architectural infrastructure, lucrative price appreciation, and high returns on investment (ROI). Some of the leading real estate companies in India include MoneyTree Realty, Paras Buildtech, M3M Group, Devika Group, Sarvottam Group, and ACE Group."
                     }
                 }
             ]
@@ -124,17 +123,17 @@
         <div class="builderData">
 
             <h1>
-                Explore Upcoming Real Estate Projects from Ametek Buildtech
+                Explore Upcoming Real Estate Projects from Axis ECorp
             </h1>
+            <h2>Axis ECorp | An Overview </h2>
 
+            <p>Axis ECorp has emerged as the premium real estate developer in Goa with a focus on holiday homes, secondary housing, club &amp; resorts, services villas, hotel apartments, and premium suites. The group has envisioned bringing exemplary quality of construction along with ensuring promising <a href="../blog/how-to-invest-in-real-estate-in-india"><strong>real estate investment</strong></a>. Axus ECorp is widely regarded for its reliability, stability, ethical business ethics, honesty, integrity, and transparency in the real estate market in India. </p>
 
-            <h2>Ametek Buildtech | An Overview </h2>
+            <p>Some of its real estate projects include <a href="../propertydetail/axis-blues-luxury-resorts-in-north-goa"><strong>Axis Blues</strong></a>, Axis Yog Villas, Axis Lake City, Axis KNCZ, and Axis Lake City Plaza. </p>
 
-            <p>A Delhi-based real estate builder, Ametek Buildtech is evolving the way people buy, sell, rent, and operate various kinds of properties. The builder is committed to deliver best-in-class infrastructure with focus on timely delivery of real estate projects, and efficient designs layout. The existing directors of Ametek Buildtech, Mr Nitish Kumar Arora, and Mr Deepak Arora are bringing the company to new heights with strong commitments to quality projects, a futuristic approach, and a client friendly team of professionals.</p>
+            <p>Axis ECorp continuously strives to offer top-notch real estate projects with best-in-class amenities and facilities focusing on the customer satisfaction ensuring a sound and promising real estate investment.</p>
 
-            <p>Ametek Buildtech has consistently brought in top-tier amenities in their real estate projects such as eco-design, smart automation, along with elevated living experiences to its buyers secluded around the natural surroundings.</p>
-
-            <h3>Key Insights into Ametek Buildtech </h3>
+            <h3>Key Insights into Axis ECorp </h3>
 
             <table class="beautiful-table">
                 <tbody>
@@ -143,7 +142,7 @@
                             <p><strong>Founded in</strong></p>
                         </td>
                         <td>
-                            <p>2013</p>
+                            <p>N/A</p>
                         </td>
                     </tr>
                     <tr>
@@ -151,7 +150,7 @@
                             <p><strong>Completed Projects</strong></p>
                         </td>
                         <td>
-                            <p>3+ completed and under-going projects</p>
+                            <p>5 on-going &amp; under-construction projects</p>
                         </td>
                     </tr>
                     <tr>
@@ -159,7 +158,7 @@
                             <p><strong>On-going Projects</strong></p>
                         </td>
                         <td>
-                            <p>3+ completed and under-going projects</p>
+                            <p>5 on-going &amp; under-construction projects</p>
                         </td>
                     </tr>
                     <tr>
@@ -167,9 +166,9 @@
                             <p><strong>Owner of Group</strong></p>
                         </td>
                         <td>
-                            <p>Mr Nitish Kumar Arora, Director</p>
+                            <p>Mr Raj Kushwaha, Chairman</p>
 
-                            <p>Mr Deepak Arora, Director</p>
+                            <p>Mr Jayprakash Maurya, Director Compliance</p>
                         </td>
                     </tr>
                     <tr>
@@ -177,9 +176,7 @@
                             <p><strong>Operating in Cities</strong></p>
                         </td>
                         <td>
-                            <p>Greater Noida</p>
-
-                            <p>Dehradun</p>
+                            <p>Goa</p>
                         </td>
                     </tr>
                     <tr>
@@ -187,21 +184,22 @@
                             <p><strong>Official Website</strong></p>
                         </td>
                         <td>
-                            <p><a href="https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fwww%2Eametekproperties%2Ecom%2F&amp;urlhash=cuLM&amp;trk=about_website">https://www.ametekproperties.com/</a></p>
+                            <p>https://axisecorp.com/ </p>
                         </td>
                     </tr>
                 </tbody>
             </table>
 
-            <h3>Ametek Buildtech Office Address </h3>
+            <h3>Axis ECorp Office Address </h3>
 
-            <p><strong>Ametek Buildtech, Corporate Office</strong></p>
+            <p><strong>Axis ECorp, Corporate Office</strong></p>
 
-            <p>Plot No. SC-02A, Sector 27, Knowledge Park V, Greater Noida West</p>
+            <p>H 134, Sector 63 Rd, H Block, Sector 62, Noida,</p>
 
-            <p>Greater Noida, Noida 201318, IN</p>
+            <p>Noida, Uttar Pradesh 201301, IN</p>
 
-            <h2>Upcoming Real Estate Projects from Ametek Buildtech</h2>
+            <h2>Upcoming Real Estate Projects from Axis ECorp</h2>
+
 
 
 
@@ -230,18 +228,34 @@
             <h2>Frequently Asked Questions (FAQs)</h2>
 
             <section class="questions">
-                <h2>What types of apartments are available at AU The Sunflower Phase 1?</h2>
-                <p>AU The Sunflower is a luxury residential property featuring state-of-the-art 3 BHK and 4 BHK apartments on NH-24.</p>
+                <h2>What is the minimum investment in Fractional Ownership?</h2>
+                <p>The minimum investment can vary based on the specific investment opportunity and ranges from ₹15 Lakh to ₹50 Lakh. In some cases, investors have the option to pay the investment amount in tranches. Axis Blues features smart service studios and suites available for sale in fractional ownership.</p>
+            </section>
+
+            <section class="questions">
+                <h2>Which real estate projects of Axis ECorp are available for sale below ₹1 Crore?</h2>
+                <p>The following are some promising real estate projects in the Axis ECorp catalogue available for sale under ₹1 Crore:</p>
+                <ul class="arrow-list" style="padding-left: 10px;">
+
+                    <li>Axis Blues</li>
+                    <li>Axis Lake City</li>
+                    <li>Axis KNCZ</li>
+                </ul>
+                <p>These projects are strategically located and feature top-notch amenities, offering a premium and leisure living experience.</p>
             </section>
 
             <section class="questions">
                 <h2>What are the leading real estate companies in India?</h2>
-                <p>The real estate industry in India is emerging with state-of-the-art architectural infrastructure along with lucrative price appreciation and ROI. MoneyTree Realty, Paras Buildtech, M3M Group, Devika Group, Sarvottam Group, and ACE Group are the leading real estate companies in India.</p>
-            </section>
+                <p>The real estate industry in India is emerging with state-of-the-art architectural infrastructure, lucrative price appreciation, and high returns on investment (ROI). Some of the leading real estate companies in India include:</p>
+                <ul class="arrow-list" style="padding-left: 10px;">
 
-            <section class="questions">
-                <h2>What are some of the benefits of investing in commercial property?</h2>
-                <p>Commercial property for sale in India provides promising capital appreciation and high ROI, and features favourable rental yields, minimal maintenance, and hedging against inflation.</p>
+                    <li>MoneyTree Realty</li>
+                    <li>Paras Buildtech</li>
+                    <li>M3M Group</li>
+                    <li>Devika Group</li>
+                    <li>Sarvottam Group</li>
+                    <li>ACE Group</li>
+                </ul>
             </section>
 
 
