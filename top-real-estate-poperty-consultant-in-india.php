@@ -44,14 +44,10 @@ New Property Projects, Real Estate Developments Delhi/NCR, Upcoming Property Lau
 
 
 
-    <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet"> -->
-    <!-- <link rel="stylesheet" href="assets/css/swiper-bundle.min.css"> -->
-    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
-    <!-- <link href="assets/css/nice-select.css" rel="stylesheet"> -->
-    <!-- <link rel="stylesheet" href="assets/css/property-page.css"> -->
     <link rel="icon" href="assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
 
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/category-folder.css">
 
 
 
@@ -102,16 +98,103 @@ New Property Projects, Real Estate Developments Delhi/NCR, Upcoming Property Lau
     include 'header.php';
     ?>
 
-
-
-
     <div class="property-container">
 
+        <!-- Search Feature -->
+        <div class="category-search">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search properties..."
+                onkeyup="filterProperties()">
+        </div>
+
+
+
+
+        <script>
+            function filterProperties() {
+                const searchInput = document.getElementById('searchInput').value.toLowerCase();
+                const propertyCards = document.querySelectorAll('.property-card');
+
+                propertyCards.forEach(card => {
+                    const title = card.getAttribute('data-title').toLowerCase();
+                    if (title.includes(searchInput)) {
+                        card.style.display = 'grid';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            }
+        </script>
+
+
+
+
+
+
+        <style>
+            .category-search {
+                margin-bottom: 20px;
+                text-align: center;
+                max-width: 500px;
+                margin-inline: auto;
+                position: sticky;
+                top: 0;
+                padding-top: 16px;
+            }
+
+            #searchInput {
+                width: 80%;
+                padding: 10px 15px;
+                font-size: 16px;
+                border: none;
+                border-radius: 25px;
+                background: rgba(255, 255, 255, 0.2);
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                color: #fff;
+                outline: none;
+                backdrop-filter: blur(10px);
+                text-align: center;
+                transition:
+                    width 200ms ease,
+                    padding-left 200ms ease,
+                    box-shadow 200ms ease;
+                text-align: left;
+                padding-left: 20px;
+
+            }
+
+            #searchInput:focus {
+                width: 100%;
+                padding-left: 30px;
+                box-shadow: 0 0 0 2px #327b73;
+
+            }
+
+            #searchInput::placeholder {
+                color: rgba(255, 255, 255, 0.7);
+                text-align: left;
+
+            }
+
+            @media (width < 700px) {
+                .category-search {
+                    max-width: 90%;
+                    margin-inline: auto;
+                }
+
+                #searchInput {
+                    width: 90%;
+
+                }
+            }
+        </style>
+
+
+
         <?php
-        // Function to generate type links
-
         include 'data/tempdata.php';
-
 
         $properties = array_reverse($properties);
 
@@ -133,11 +216,8 @@ New Property Projects, Real Estate Developments Delhi/NCR, Upcoming Property Lau
         ?>
 
         <div class="properties-grid" id="propertiesGrid">
-
-
             <?php foreach ($properties as $index => $property): ?>
-
-                <div class="property-card" style="display: grid;gap: 10px;">
+                <div class="property-card" data-title="<?php echo htmlspecialchars($property['name']); ?>">
                     <div class="property-images" onclick="nextImage(this)">
                         <?php foreach ($property['images'] as $imgIndex => $image): ?>
                             <img alt="Property Image" src="<?php echo htmlspecialchars($image); ?>"
@@ -159,208 +239,21 @@ New Property Projects, Real Estate Developments Delhi/NCR, Upcoming Property Lau
                                 </a>
                             <?php endforeach; ?>
                         </p>
+
+                        <p><b>Property type : </b>
+                            <?php foreach ($property['typeDetail'] as $type): ?>
+                                <a target="_blank" href="<?php echo htmlspecialchars(getTypeLink($type)); ?>">
+                                    <span><?php echo htmlspecialchars($type); ?></span>
+                                </a>
+                            <?php endforeach; ?>
+                        </p>
                         <a target="_blank" href="./propertydetail/<?php echo htmlspecialchars($property['link']); ?>" class="details-link">View Details</a>
                     </div>
                 </div>
             <?php endforeach; ?>
         </div>
-
-
     </div>
 
-
-    <style>
-        @media (width < 700px) {
-            html {
-                padding-top: 3.5rem;
-            }
-        }
-
-        .property-container {
-            background: url('./assets/img/image.png');
-            padding-block: 1rem;
-        }
-
-        .properties-grid {
-            margin-inline: auto;
-        }
-
-        .property-card {
-            background: #ffffff;
-            color: black;
-            /* height: 34rem; */
-            min-height: 32.5rem;
-            height: 100%;
-        }
-
-        .property-card h2 a {
-            font-family: 'Montserrat';
-            font-weight: 600;
-            background: linear-gradient(90deg, #00796b, #009688, #26a69a);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .property-card .property-images img {
-            height: 220px;
-        }
-        
-        @media (width < 700px) {
-            .property-card {
-                min-height: 32.5rem;
-                height: min-content;
-            }
-
-            .property-card h2 a {
-                font-weight: 600;
-
-            }
-        }
-    </style>
-
-    <div class="after-grid-text-container after-grid-text">
-        <h2>Buy commercial and residential properties for sale</h2>
-        <p>
-            Our <strong>real estate consultant</strong> offers a well-curated portfolio of commercial property, residential property, and plots for sale and provides promising real estate investment making it the <strong>best consultancy in Noida</strong>.
-        </p>
-        <p>
-            Our property advisor offers market analysis on <strong>commercial property</strong> investment and <strong>residential property</strong> investment and provides insights into various <strong>real estate investment in India</strong>.
-        </p>
-        <button onclick="togglePanel()" class="after-grid-text-toggle-btn">Show More</button>
-    </div>
-
-    <div id="after-grid-text-overlay" class="after-grid-text-overlay" onclick="closePanel()"></div>
-    <div id="after-grid-text-sidePanel" class="after-grid-text-side-panel">
-        <button class="after-grid-text-close-btn" onclick="togglePanel()">×</button>
-        <h2 style="font-size: 18px;">Our Services</h2>
-        <h2 style="font-size: 16px;">Grow your Money with Us! - Real Estate Consultant</h2>
-        <p>
-            MoneyTree Realty offers world-class real estate consultant with best in-class commercial property, residential property, and plots for sale. Our Property advisor has in-depth knowledge of market trends and provides assistance in strategic planning in real estate investment in India with an array of well-curated real estate property putting MoneyTree Realty into top consultancy in Noida.
-        </p>
-        <h2 style="font-size: 15px;">Services of MoneyTree Realty</h2>
-        <p>MoneyTree Realty comprises more than 300 professional real estate consultant providing property consultations with their in-depth knowledge of the market trends and offers property valuations in commercial property, residential property, and plots for sale. Our property advisor provides valuable guidance on how to invest in real estate in India and offers property analysis in accordance with the market trends maintaining transparency between clients and developers.</p>
-        <h3 style="font-size: 14px;margin-block: 10px 8px;">Our real estate consultants provide assistance in real estate investment in India through:</h3>
-        <ul>
-            <li>We offer strategic planning for long-term investment and portfolio management with due diligence market research.</li>
-            <li>Our real estate consultant has an extensive knowledge of the market trends and property valuations and provides top of the class portfolio of real estate property with a client-centric approach.</li>
-            <li>We maintain transparency between clients and developers while assisting for investment in real estate in commercial property, residential property, and plots for sale.</li>
-            <li>Our property advisor offers a top of the class portfolio of real estate property in India that is easily accessible on our website, or you can contact us now!</li>
-        </ul>
-    </div>
-
-
-    <style>
-        .after-grid-text-container {
-            max-width: 800px;
-            margin: auto;
-            text-align: center;
-            font-family: Arial, sans-serif;
-            padding-block: 3rem 2rem;
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-            padding-inline: 10px;
-        }
-
-        .after-grid-text h2,
-        .after-grid-text-side-panel h2 {
-            max-width: 600px;
-            text-align: center;
-            margin-inline: auto;
-            font-family: 'Montserrat';
-            font-size: 24px;
-            text-wrap: pretty;
-            font-weight: 600;
-            background: linear-gradient(90deg, #00796b, #009688, #26a69a);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .after-grid-text-side-panel ul {
-            list-style-type: disc;
-            padding-left: 20px;
-            gap: 10px;
-            display: flex;
-            flex-direction: column;
-
-        }
-
-        .after-grid-text-side-panel li {
-            font-size: 13px;
-        }
-
-        .after-grid-text-side-panel p {
-            font-size: 14px;
-        }
-
-        .after-grid-text-toggle-btn {
-            background-color: rgba(0, 150, 135, 0.22);
-            border: none;
-            cursor: pointer;
-            padding: 5px 10px;
-            border-radius: 4px;
-            font-size: 14px;
-            width: max-content;
-            margin-inline: auto;
-        }
-
-        .after-grid-text-side-panel {
-            position: fixed;
-            top: 0;
-            right: -100%;
-            width: 300px;
-            height: 100%;
-            background-color: white;
-            box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
-            transition: right 0.3s ease;
-            padding: 20px;
-            z-index: 1000;
-            overflow-y: auto;
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            padding-bottom: 5rem;
-        }
-
-        @media (width>700px) {
-            .after-grid-text-side-panel {
-                width: 400px;
-
-            }
-        }
-
-
-        .after-grid-text-side-panel.open {
-            right: 0;
-        }
-
-        .after-grid-text-close-btn {
-            background: none;
-            border: none;
-            font-size: 30px;
-            cursor: pointer;
-            position: absolute;
-            top: 10px;
-            right: 10px;
-        }
-
-        .after-grid-text-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.5);
-            display: none;
-            z-index: 999;
-        }
-
-        .after-grid-text-overlay.visible {
-            display: block;
-        }
-    </style>
 
 
     <?php
@@ -369,32 +262,7 @@ New Property Projects, Real Estate Developments Delhi/NCR, Upcoming Property Lau
     ?>
 
 
-    <script>
-        function togglePanel() {
-            const sidePanel = document.getElementById("after-grid-text-sidePanel");
-            const overlay = document.getElementById("after-grid-text-overlay");
-            const isOpen = sidePanel.classList.contains("open");
-            sidePanel.classList.toggle("open", !isOpen);
-            overlay.classList.toggle("visible", !isOpen);
-        }
-
-        function closePanel() {
-            document.getElementById("after-grid-text-sidePanel").classList.remove("open");
-            document.getElementById("after-grid-text-overlay").classList.remove("visible");
-        }
-
-        function nextImage(element) {
-            const images = element.querySelectorAll('img');
-            const totalImages = images.length;
-            let currentIndex = [...images].findIndex(img => img.style.display !== 'none');
-
-            images[currentIndex].style.display = 'none';
-            currentIndex = (currentIndex + 1) % totalImages;
-            images[currentIndex].style.display = 'block';
-        }
-    </script>
-
-
+    <script src="assets/js/category-folder.js"></script>
 </body>
 
 </html>
