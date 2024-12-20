@@ -100,49 +100,78 @@
     <?php
     $events = [
         [
-            'name' => 'PropTree Mela 2024',
-            'image' => './assets/img/proptree-mela-banner.webp',
-            'description' => 'PropTree Mela exhibits state-of-the-art commercial and residential properties from leading real estate developers in India such as M3M Group, Paras Buildtech, Godrej Properties, Devika Group, Axis Ecorp, Krisumi Corp and many more.',
+            'name' => 'Diwali Matlab MoneyTree Wali',
+            'videoId' => '83U_hexyXE0',
+            'description' => 'With the blessings of God, MoneyTree Realty celebrated its grand Diwali, uniting 3+ branches, 500+ family members, 100+ cars, 40+ properties, and countless smiles in just 11 months! 🚗🏠✨ Here’s to growth, joy, and endless success!',
+            'link' => ''
+        ],
+        [
+            'name' => 'PropTree Mela',
+            'videoId' => '5QlTFPx8ZXM',
+            'description' => 'The PropTree Mela was a roaring success with over 900 visitors and 150+ property bookings! The energy was high, the deals were hot, and the atmosphere was nothing short of electric! 🌟 Whether you were looking for your dream home or the best investment, this one-of-a-kind real estate festival delivered BIG.',
             'link' => 'proptree-mela'
+        ],
+
+        [
+            'name' => 'Successful Event by MoneyTree Realty in Paras Manor',
+            'videoId' => 'JoEYZIOrBTc',
+            'description' => 'Under the visionary leadership of our CEO Sachin Arora, MoneyTree Realty has driven Paras Manor to a Housefull Show, with nearly every unit sold out. Partnering with Kunal Rishi Ji from Paras Buildtech, we’ve created an exclusive community that’s in high demand. This achievement reflects our commitment to excellence and luxury living. As we approach full capacity, now is the time to secure your place with MoneyTree Realty and be part of something truly exceptional!',
+            'link' => ''
+        ],
+
+        [
+            'name' => 'Celebrating Teej',
+            'videoId' => 'V4AxufwMJi8',
+            'description' => 'We had a fantastic time celebrating Teej at MoneyTree Realty! The office was filled with vibrant colors, traditional attire, and joyous laughter. From stunning sarees to intricate mehendi designs, every detail added to the festive spirit. Here’s to celebrating our culture and the wonderful women who make our workplace so special! 🌸✨',
+            'link' => ''
         ],
         [
             'name' => 'Navratree Property Mela',
-            'image' => './event.jpeg',
-            'description' => 'Navratree, MoneyTree Realty Expo 2024 features best residential and commercial projects from various top developers under one roof.',
+            'videoId' => '-8xrT0YeqOA',
+            'description' => "The biggest brand in the real estate sector, MoneyTree Realty brings together Navratree Property Mela 2024 with numerous developers offering multiple commercial as well as residential projects on the auspicious Navratree Celebration on 13th & 14th April starting 10 A.M. onwards featuring divine spaces and a platter of prosperous possessions. \n            This Navratree, MoneyTree Realty Expo 2024 features best residential and commercial projects from various top developers under one roof featuring spin-the-wheel to win a chance to get an iPhone, Air Fryer, 32” LED, Microwave, Smartwatch, and other attractive prizes with your purchase",
+
             'link' => 'navratree-property-mela'
-        ]
+        ],
+
+
     ];
     ?>
 
     <div class="events-container">
         <div class="events-grid">
             <?php foreach ($events as $event): ?>
-                <a href="./<?php echo $event['link']; ?>" class="text-decoration-none">
-                    <div class="event-card">
-                        <img src="<?php echo $event['image']; ?>" alt="<?php echo $event['name']; ?>">
-                        <div class="event-content">
-                            <h2><?php echo $event['name']; ?></h2>
-                            <p><?php echo $event['description']; ?></p>
-                        </div>
+                <div class="event-card" data-video-id="<?php echo $event['videoId']; ?>">
+                    <div class="video-thumbnail">
+                        <img src="https://img.youtube.com/vi/<?php echo $event['videoId']; ?>/hqdefault.jpg" alt="<?php echo $event['name']; ?>">
+                        <button class="play-button">Play</button>
                     </div>
-                </a>
+                    <div class="event-content">
+                        <h2><?php echo $event['name']; ?></h2>
+                        <p><?php echo $event['description']; ?></p>
+                    </div>
+                </div>
             <?php endforeach; ?>
         </div>
     </div>
 
+    <div id="player-overlay" class="player-overlay">
+        <div id="player-container">
+            <div id="player"></div>
+            <button id="close-player" class="close-button">Close</button>
+        </div>
+    </div>
 
     <style>
         .events-container {
             max-width: 1200px;
-            width: 90%;
             margin: 50px auto;
-            padding: 0 20px;
+            width: 90%;
         }
 
         .events-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
+            gap: 20px;
         }
 
         .event-card {
@@ -150,17 +179,63 @@
             overflow: hidden;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease;
-            height: 100%;
+            cursor: pointer;
+            position: relative;
         }
 
         .event-card:hover {
             transform: translateY(-5px);
         }
 
-        .event-card img {
+        .video-thumbnail {
+            position: relative;
             width: 100%;
-            height: 300px;
+            height: 200px;
+        }
+
+        .video-thumbnail img {
+            width: 100%;
+            height: 100%;
             object-fit: cover;
+        }
+
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 150ms ease-in, visibility 150ms ease-in;
+        }
+
+        .video-thumbnail:hover .play-button {
+            visibility: visible;
+            opacity: 1;
+            transition: opacity 150ms ease-in;
+        }
+
+        .video-thumbnail:hover .play-button {
+            animation: fadeOut 1s ease-out 1s forwards;
+        }
+
+        @keyframes fadeOut {
+            0% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+                visibility: hidden;
+            }
         }
 
         .event-content {
@@ -168,18 +243,128 @@
         }
 
         .event-content h2 {
-            padding: 0;
+            margin: 0 0 10px 0;
+            font-size: 18px;
             color: #333;
-            margin: 0 0 15px 0;
-            font-size: 24px;
         }
 
         .event-content p {
-            color: #666;
-            line-height: 1.6;
             margin: 0;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .player-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        #player-container {
+            width: 90%;
+            max-width: 800px;
+            position: relative;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            aspect-ratio: 16 / 9;
+            /* Ensures the player maintains a 16:9 aspect ratio */
+        }
+
+        #player {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .close-button {
+            position: absolute;
+            top: 4px;
+            right: 4px;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            border: none;
+            font-size: 16px;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            z-index: 1001;
+            border: 2px solid white;
+        }
+
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .event-content h2 {
+                font-size: 16px;
+            }
+
+            .event-content p {
+                font-size: 12px;
+            }
+
+            .video-thumbnail {
+                height: 150px;
+            }
+
+            .play-button {
+                font-size: 14px;
+                padding: 8px 16px;
+            }
+
+            #player-container {
+                width: 100%;
+                max-width: 100%;
+            }
+
+            .close-button {
+                font-size: 12px;
+                padding: 8px;
+            }
         }
     </style>
+
+    <script>
+        // Load YouTube API
+        var tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        var player;
+
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('player', {
+                playerVars: {
+                    'playsinline': 1
+                }
+            });
+        }
+
+        // Event listener for video cards
+        document.querySelectorAll('.event-card').forEach(card => {
+            card.addEventListener('click', function() {
+                var videoId = this.getAttribute('data-video-id');
+                player.loadVideoById(videoId);
+                document.getElementById('player-overlay').style.display = 'flex';
+            });
+        });
+
+        // Close player
+        document.getElementById('close-player').addEventListener('click', function() {
+            document.getElementById('player-overlay').style.display = 'none';
+            player.stopVideo();
+        });
+    </script>
 
     <?php
     include 'more-tags.php';

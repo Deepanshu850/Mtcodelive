@@ -5,14 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-
+        Junior NTR House: Movies, Biography, News, Age, Football Player & Photos
     </title>
 
 
-    <meta name="description" content="" />
+    <meta name="description" content="Explore Junior NTR's house, biography, movies, latest news, age, and exclusive photos of the talented actor. Get all the details about his career and lifestyle." />
 
 
-    <meta name="keywords" content="" />
+    <meta name="keywords" content="junior ntr house pictures, junior ntr house address in hyderabad, junior ntr house address, junior ntr house images, junior ntr house location, actor ntr junior house in hyderabad, junior ntr own house, langar house to ntr junior college, junior ntr cars, junior ntr property, junior ntr family, junior ntr net worth, junior ntr portfolio, junior ntr born, junior ntr religion, junior ntr biography, junior ntr children" />
 
 
     <meta name="Owner" content="Moneytreerealty.com" />
@@ -26,19 +26,19 @@
 
 
 
-    <meta property="og:title" content="">
+    <meta property="og:title" content="Junior NTR House: Movies, Biography, News, Age, Football Player & Photos">
     <meta property="og:site_name" content="Moneytree Realty">
-    <meta property="og:url" content="https://moneytreerealty.com/celeb-homes/harshad-mehta-house">
-    <meta property="og:description" content="">
+    <meta property="og:url" content="https://moneytreerealty.com/celeb-homes/junior-ntr-house">
+    <meta property="og:description" content="Explore Junior NTR's house, biography, movies, latest news, age, and exclusive photos of the talented actor. Get all the details about his career and lifestyle.">
     <meta property="og:type" content="property">
     <meta property="og:image"
-        content="https://moneytreerealty.com/celeb-homes/assets/harshad-mehta-house-banner1.webp">
+        content="https://moneytreerealty.com/celeb-homes/assets/junior-ntr-house-banner1.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="">
+    <meta property="og:image:alt" content="Junior NTR House">
     <meta property="og:locale" content="en_IN">
 
-    <link rel="canonical" href="https://moneytreerealty.com/celeb-homes/harshad-mehta-house" />
+    <link rel="canonical" href="https://moneytreerealty.com/celeb-homes/junior-ntr-house" />
 
 
 
@@ -188,7 +188,7 @@
         <div class="mainData">
 
             <div class="image-wrapper">
-                <img src="./assets/harshad-mehta-house-banner1.webp" alt="" loading="lazy">
+                <img src="./assets/junior-ntr-house-banner1.webp" alt="Glimpses of Junior NTR House" loading="lazy">
             </div>
             <h1>
                 Glimpses of Junior NTR House
@@ -345,14 +345,16 @@
                 <h6>Similar Tags:</h6>
                 <ul class="tags">
 
+                    <li><a href="./junior-ntr-house">Junior NTR House Pictures</a></li>
+                    <li><a href="./junior-ntr-house">Junior NTR House Address in Hyderabad</a></li>
+                    <li><a href="./junior-ntr-house">Junior NTR House Address</a></li>
+                    <li><a href="./junior-ntr-house">Junior NTR House Images</a></li>
                     <li><a href="../category/residential-property.php">Residential Real Estate</a></li>
                     <li><a href="../best-property-dealers-in-noida.php">Real Estate Deals</a></li>
                     <li><a href="../real-estate-advisor-and-property-consulting-firm-in-india.php">Property Advice</a></li>
                     <li><a href="../real-estate-consultant.php">Real Estate Consulting</a></li>
-
-
-
                 </ul>
+
             </div>
 
 
@@ -361,7 +363,7 @@
 
         <?php
         include '../data/celeb-homes-data.php';
-        $exclude = 'harshad-mehta-house';
+        $exclude = 'junior-ntr-house';
         $celebHomesData = array_filter($celebHomesData, function ($home) use ($exclude) {
             return $home['link'] !== $exclude;
         });

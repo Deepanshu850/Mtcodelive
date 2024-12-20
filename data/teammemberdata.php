@@ -41,15 +41,14 @@ $teamMembers = [
         'role' => 'Director',
         'image' => 'assets/img/home1/shauzabkazmi.jpg',
         // 'contactLink' => '#'
-    ]
-    ,
+    ],
     [
         'name' => 'Azhar Mirza',
         'role' => 'Director',
         'image' => 'assets/img/home1/am.jpg',
         // 'contactLink' => '#'
     ],
-   
+
     [
         'name' => 'Chirag Kapoor',
         'role' => 'Director',
@@ -74,56 +73,57 @@ $teamMembers = [
         'image' => 'assets/img/home1/ro.jpg',
         // 'contactLink' => '#'
     ],
-    
-    
+
+
     [
         'name' => 'Dharmendra Kumar',
         'role' => 'Director',
         'image' => 'assets/img/home1/dk.jpg',
         // 'contactLink' => '#'
-    ], [
+    ],
+    [
         'name' => 'Deendayal Arya',
         'role' => 'Associate Director',
         'image' => 'assets/img/home1/dda.jpg',
         // 'contactLink' => '#'
     ],
-    
+
     [
-        'name' => 'Devender Nagpal',
+        'name' => 'Devender Kumar',
         'role' => 'Associate Director',
         'image' => 'assets/img/home1/nag1.jpg',
         // 'contactLink' => '#'
     ],
     // Add more members as needed...
-    
-    
-     [
+
+
+    [
         'name' => 'Neeraj Kataria',
         'role' => 'Associate Director',
         'image' => 'assets/img/home1/nk.jpg',
         // 'contactLink' => '#'
     ],
-     [
+    [
         'name' => 'Sachin Khurana',
         'role' => 'Associate Director',
         'image' => 'assets/img/home1/khurana.jpg',
         // 'contactLink' => '#'
     ],
-     [
+    [
         'name' => 'Abhishek Choudhary',
         'role' => 'Associate Director',
         'image' => 'assets/img/home1/ac.jpg',
         // 'contactLink' => '#'
     ],
-    
-     [
+
+    [
         'name' => 'Sharda Prasad Kushwaha',
         'role' => 'Associate Director',
         'image' => 'assets/img/home1/shardapk.jpg',
         // 'contactLink' => '#'
     ],
-    
-     [
+
+    [
         'name' => 'Aman Sharma',
         'role' => 'Associate Director',
         'image' => 'assets/img/home1/amansharma.jpg',
@@ -147,7 +147,7 @@ $teamMembers = [
         'image' => 'assets/img/home1/monutyagi.jpg',
         // 'contactLink' => '#'
     ],
-     
+
     [
         'name' => 'Hardik Bagla',
         'role' => 'Associate Director',
@@ -165,8 +165,7 @@ $teamMembers = [
         'role' => 'Associate Director',
         'image' => 'assets/img/home1/adhirajsinghsisodiya.jpg',
         // 'contactLink' => '#'
-    ]
-    ,
+    ],
     [
         'name' => 'Sahil Arora',
         'role' => 'Associate Director',
@@ -174,4 +173,3 @@ $teamMembers = [
         // 'contactLink' => '#'
     ]
 ];
-?>

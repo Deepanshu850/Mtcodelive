@@ -4,39 +4,31 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>
+    <title>Rohit Sharma House: Movies, Biography, News, Age & Photos</title>
 
-    </title>
+    <meta name="description" content="Discover Rohit Sharma house, biography, career achievements, latest news, age, and exclusive photos of the Indian cricket star." />
 
-
-    <meta name="description" content="" />
-
-
-    <meta name="keywords" content="" />
-
+    <meta name="keywords" content="rohit sharma house in Mumbai, rohit sharma house address, rohit sharma house photo, rohit sharma house price, rohit sharma borivali house, rohit sharma house location, rohit sharma old house, where is rohit sharma house, rohit sharma mumbai house, rohit sharma nagpur house, rohit sharma house pics, rohit sharma ka house, rohit sharma house video, cricketer rohit sharma house, rohit sharma house in worli, rohit sharma house interior, rohit sharma home town, rohit sharma residence" />
 
     <meta name="Owner" content="Moneytreerealty.com" />
     <meta name="Copyright" content="Moneytreereal.com" />
     <meta name="classification" content="About Real Estate Consulting" />
     <meta name="distribution" content="India" />
     <meta name="rating" content="General" />
-    <meta name="subject"
-        content="Learn about MoneyTree Realty's mission, services, and how we can assist you in navigating the real estate market in India" />
+    <meta name="subject" content="Learn about MoneyTree Realty's mission, services, and how we can assist you in navigating the real estate market in India" />
     <meta name="audience" content="All" />
 
-
-
-    <meta property="og:title" content="">
+    <meta property="og:title" content="Rohit Sharma House: Movies, Biography, News, Age & Photos">
     <meta property="og:site_name" content="Moneytree Realty">
     <meta property="og:url" content="https://moneytreerealty.com/celeb-homes/rohit-sharma-house">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Discover Rohit Sharma house, biography, career achievements, latest news, age, and exclusive photos of the Indian cricket star.">
     <meta property="og:type" content="property">
-    <meta property="og:image"
-        content="https://moneytreerealty.com/celeb-homes/assets/rohit-sharma-house-banner1.webp">
+    <meta property="og:image" content="https://moneytreerealty.com/celeb-homes/assets/rohit-sharma-house-banner1.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="">
+    <meta property="og:image:alt" content="Rohit Sharma House">
     <meta property="og:locale" content="en_IN">
+
 
     <link rel="canonical" href="https://moneytreerealty.com/celeb-homes/rohit-sharma-house" />
 
@@ -140,7 +132,7 @@
         <div class="mainData">
 
             <div class="image-wrapper">
-                <img src="./assets/rohit-sharma-house-banner1.webp" alt="" loading="lazy">
+                <img src="./assets/rohit-sharma-house-banner1.webp" alt="A peek inside Rohit Sharma’s House | Hitman’s Luxurious House" loading="lazy">
             </div>
             <h1>
                 A peek inside Rohit Sharma’s House | Hitman’s Luxurious House
@@ -243,10 +235,17 @@
                 <h6>Similar Tags:</h6>
                 <ul class="tags">
 
-                    <li><a href="../category/residential-property.php">Residential Real Estate</a></li>
-                    <li><a href="../best-property-dealers-in-noida.php">Real Estate Deals</a></li>
-                    <li><a href="../real-estate-advisor-and-property-consulting-firm-in-india.php">Property Advice</a></li>
-                    <li><a href="../real-estate-consultant.php">Real Estate Consulting</a></li>
+                    <ul class="tags">
+                        <li><a href="./rohit-sharma-house">Rohit Sharma House In Mumbai</a></li>
+                        <li><a href="./rohit-sharma-house">Rohit Sharma House Address</a></li>
+                        <li><a href="./rohit-sharma-house">Rohit Sharma House Photo</a></li>
+                        <li><a href="./rohit-sharma-house">Rohit Sharma House Price</a></li>
+                        <li><a href="./rohit-sharma-house">Rohit Sharma Borivali House</a></li>
+                        <li><a href="../category/residential-property.php">Residential Real Estate</a></li>
+                        <li><a href="../best-property-dealers-in-noida.php">Real Estate Deals</a></li>
+                        <li><a href="../real-estate-advisor-and-property-consulting-firm-in-india.php">Property Advice</a></li>
+                        <li><a href="../real-estate-consultant.php">Real Estate Consulting</a></li>
+                    </ul>
 
 
 

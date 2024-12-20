@@ -1029,4 +1029,56 @@ ka, 1 BHK Flats, 2 BHK Flats',
     ],
 
 
+
+
+    [
+        'id' => 34,
+        'name' => 'Godrej Riverine Sector 44 Noida',
+        'link' => 'godrej-riverine-sector-44-noida',
+        'builder' => 'Godrej Properties',
+        'location' => ['Noida', 'Sector 44', '201301', 'Noida - Greater Noida Expressway'],
+        'images' => [
+            'assets\img\projectdetails\godrejriverine1.webp',
+            'assets\img\projectdetails\godrejriverine2.webp',
+            'assets\img\projectdetails\godrejriverine3.webp',
+        ],
+
+        'price' => '₹7.30 Cr+',
+        'possession' => 'September, 2029',
+        'area' => '2700 sq ft and 3700 sq ft',
+        'type' => ['Residential'],
+        'typeDetail' => ['3 BHK flats', '4 BHK flats'],
+        'rera' => ['UPRERAPRJ763929/11/2024', 'https://www.up-rera.in/Projectsummary?UI0aPA1ISD=gsdgnWbR3mk=&hfFlag=9emr4VdBw22M7BGjKtJWMPDI4s5cHQZP&NPJ6RAme=JLj0bE/nSNyvr1ht+ktAdw==&PaURJEMAN4=ZL9MNERkNdbG7yTF2G42mceZ6XNR6M4b&IRSAHEB=D6PY3lyims8='],
+        'shortDescription' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, amet! Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aut? Aut quod deserunt quaerat nihil.',
+        'keywords' => 'Godrej Riverine, Godrej Riverine Noida, Godrej Riverine Sector 44, Residential Apartments Noida, 3 BHK Apartments Noida, 4 BHK Apartments Noida, Godrej Properties Noida, Luxury Apartments Noida, Under Construction Apartments Noida, Noida-Greater Noida Expressway, Premium Real Estate Noida, Godrej Riverine Amenities, RERA Registered Properties Noida, Sector 44 Noida Flats, High-End Apartments Noida, Property Investment Noida, Luxury Residential Properties Noida, Godrej Riverine Price, Godrej Riverine Location, Godrej Riverine Reviews, Flats for Sale in Noida, Apartments Near DND Flyway, Real Estate in Sector 44 Noida, Upcoming Projects in Noida, Godrej Riverine Highlights, Noida Luxury Homes, Residential Property Noida, Godrej Riverine Connectivity, Top Builders in Noida, Godrej Riverine Gallery, Godrej Properties Sector 44, Noida Residential Investment, Premium Flats Noida, Best Real Estate Projects Noida, Noida Green Spaces Apartments',
+
+    ],
+
+
+
+
+    [
+        'id' => 35,
+        'name' => 'Godrej Miraya Sector 43 Gurgaon',
+        'link' => 'godrej-miraya-sector-43-gurgaon',
+        'builder' => 'Godrej Properties',
+        'location' => ['Gurgaon', 'Sector 43', '122022', 'Golf Course Road'],
+        'images' => [
+            'assets\img\projectdetails\godrejmiraya1.webp',
+            'assets\img\projectdetails\godrejmiraya2.webp',
+            'assets\img\projectdetails\godrejmiraya3.webp',
+        ],
+
+        'price' => '₹9.49 Cr+',
+        'possession' => 'September, 2026',
+        'area' => '2711 sq ft to 3929 sq ft',
+        'type' => ['Residential'],
+        'typeDetail' => ['3 BHK flats', '4 BHK flats'],
+        'rera' => ['RC/REP/HARERA/GGM/870/602/2024/97', 'https://haryanarera.gov.in/view_project/project_preview_open/3030'],
+        'shortDescription' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, amet! Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aut? Aut quod deserunt quaerat nihil.',
+        'keywords' => 'Godrej Miraya, Sector 43 Gurgaon, Luxury Apartments, 3BHK Flats, 4BHK Flats, Premium Living, Gurgaon Real Estate, Dream Home, Modern Living, Godrej Properties, Investment In Noida, Real Estate, Flat, Real Estate India, Apartment, Real Photos, Map, Property, Property In India, New-Projects, Buy, Sale, Property For Sale, Godrej Sector 43, Godrej Sector 43 Gurgaon, Godrej Sector 43 Gurugram, Godrej Sector 43 Project In Gurgaon, 4 BHK Apartments At Godrej Sector 43 Gurgaon, 3 BHK Apartments At Godrej Sector 43 Gurgaon, 3 Bhk Apartments, 4 Bhk Apartments, 3bhk Apartments, 4bhk Apartments, New Launch, Luxury Apartments In Gurgaon, 3 BHK Apartments Gurgaon, 4 BHK Apartments Sector 43, Godrej Properites Gurgaon, Godrej Sector 43 Gurgaon, Godrej In Gurgaon, Luxury Project In Sector 43 Gurgaon, New Luxury Residential Development, Golf Course Road, Gurgaon, Godrej Miraya Location Advantage, Godrej Miraya Photos, Godrej Miraya Price, Godrej Miraya Floor Plan',
+
+    ],
+
+
 ];

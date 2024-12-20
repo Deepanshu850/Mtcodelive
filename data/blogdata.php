@@ -272,4 +272,44 @@ $posts = [
         'writer' => 'Team Moneytree',
 
     ],
+    [
+        'id' => 29,
+        'title' => 'Top 7 Commercial Projects in Noida',
+        'description' => 'Noida, often referred to as the Satellite City to Delhi, is making its presence in the IT and hospitality industries and is witnessing continuous upgradation in its infrastructure. The city showcases high-quality commercial projects from well-known builders, offering not only premium amenities but also significant increases in property values and profitable investment returns.',
+        'imageUrl' => './assets/top-7-commercial-projects-in-noida-banner.webp',
+        'date' => 'November 30, 2024',
+        'category' => ['Property'],
+        'writer' => 'Team Moneytree',
+
+    ],
+    [
+        'id' => 30,
+        'title' => 'Top Localities to Invest in Real Estate in Noida',
+        'description' => 'Renowned builders in India such as M3M Group, Paras Buildtech, Godrej Properties, ACE Group, etc., have wide range of commercial and residential projects in top localities of Noida that marked off every requirement of a real estate investors, from strategic location to seamless connectivity to top-tier amenities.',
+        'imageUrl' => './assets/top-localities-to-invest-in-real-estate-in-noida-banner.webp',
+        'date' => 'December 7, 2024',
+        'category' => ['Property'],
+        'writer' => 'Team Moneytree',
+
+    ],
+    [
+        'id' => 31,
+        'title' => 'Top 5 Reasons to Buy a Home in Noida',
+        'description' => 'Residential apartments in Noida are taking the spot with cutting-edge amenities, grandeur architecture, and seamless connectivity to major parts of the National Capital Region (NCR). Apart from the infrastructure, flats for sale in Noida provide favourable rental yields, and lucrative price appreciation. Read out the article below for top 5 reasons to buy a home in Noida and make an analysed and comprehensive real esate investment.',
+        'imageUrl' => './assets/top-5-reasons-to-buy-a-home-in-noida-banner.webp',
+        'date' => 'December 11, 2024',
+        'category' => ['Property'],
+        'writer' => 'Team Moneytree',
+
+    ],
+    [
+        'id' => 32,
+        'title' => 'Commercial Property vs Residential Property',
+        'description' => 'Real estate investment has been the preferred option for wealth creation since ages. The statistics have consistently put real estate into the most appreciating asset, along with higher rates of returns and tangibility. Property investment could be classified into 2 major types: commercial property investment and residential property investment.',
+        'imageUrl' => './assets/commercial-property-vs-residential-property-banner.webp',
+        'date' => 'December 13, 2024',
+        'category' => ['Property'],
+        'writer' => 'Team Moneytree',
+
+    ],
 ];
