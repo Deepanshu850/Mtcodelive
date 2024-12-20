@@ -98,17 +98,29 @@ $developers =
             'image' => 'sarvottam-group-logo.png',
             'developerLink' => 'https://sarvottamworld.in/'
         ],
-        [
-            'name' => 'Sikka Group',
-            'link' => 'sikka-group',
-            'image' => 'sikka-group-logo.png',
-            'developerLink' => 'https://www.sikka.in/'
-        ],
+        // [
+        //     'name' => 'Sikka Group',
+        //     'link' => 'sikka-group',
+        //     'image' => 'sikka-group-logo.png',
+        //     'developerLink' => 'https://www.sikka.in/'
+        // ],
         [
             'name' => 'The House of Abhinandan Lodha',
             'link' => 'the-house-of-abhinandan-lodha',
             'image' => 'the-house-of-abhinandan-lodha-logo.png',
             'developerLink' => 'https://hoabl.com/'
+        ],
+        [
+            'name' => 'Prestige Group',
+            'link' => 'prestige-group',
+            'image' => 'prestige-group-logo.png',
+            'developerLink' => 'https://www.prestigeconstructions.com/'
+        ],
+        [
+            'name' => 'Signature Global',
+            'link' => 'signature-global',
+            'image' => 'signature-global-logo.png',
+            'developerLink' => 'https://www.signatureglobal.in/'
         ]
     ];
 
@@ -142,5 +154,7 @@ $developers =
 // paras buildtech
 // piramal realty
 // sarvottam group
-// sikka group
+
 // the house of abhinandan lodha 
+// prestige group
+// signature global
