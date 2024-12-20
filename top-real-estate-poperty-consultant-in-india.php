@@ -256,6 +256,37 @@ New Property Projects, Real Estate Developments Delhi/NCR, Upcoming Property Lau
 
 
 
+    <div class="after-grid-text-container after-grid-text">
+        <h2>Buy commercial and residential properties for sale</h2>
+        <p>
+            Our <strong>real estate consultant</strong> offers a well-curated portfolio of commercial property, residential property, and plots for sale and provides promising real estate investment making it the <strong>best consultancy in Noida</strong>.
+        </p>
+        <p>
+            Our property advisor offers market analysis on <strong>commercial property</strong> investment and <strong>residential property</strong> investment and provides insights into various <strong>real estate investment in India</strong>.
+        </p>
+        <button onclick="togglePanel()" class="after-grid-text-toggle-btn">Show More</button>
+    </div>
+
+    <div id="after-grid-text-overlay" class="after-grid-text-overlay" onclick="closePanel()"></div>
+    <div id="after-grid-text-sidePanel" class="after-grid-text-side-panel">
+        <button class="after-grid-text-close-btn" onclick="togglePanel()">×</button>
+        <h2 style="font-size: 18px;">Our Services</h2>
+        <h2 style="font-size: 16px;">Grow your Money with Us! - Real Estate Consultant</h2>
+        <p>
+            MoneyTree Realty offers world-class real estate consultant with best in-class commercial property, residential property, and plots for sale. Our Property advisor has in-depth knowledge of market trends and provides assistance in strategic planning in real estate investment in India with an array of well-curated real estate property putting MoneyTree Realty into top consultancy in Noida.
+        </p>
+        <h2 style="font-size: 15px;">Services of MoneyTree Realty</h2>
+        <p>MoneyTree Realty comprises more than 300 professional real estate consultant providing property consultations with their in-depth knowledge of the market trends and offers property valuations in commercial property, residential property, and plots for sale. Our property advisor provides valuable guidance on how to invest in real estate in India and offers property analysis in accordance with the market trends maintaining transparency between clients and developers.</p>
+        <h3 style="font-size: 14px;margin-block: 10px 8px;">Our real estate consultants provide assistance in real estate investment in India through:</h3>
+        <ul>
+            <li>We offer strategic planning for long-term investment and portfolio management with due diligence market research.</li>
+            <li>Our real estate consultant has an extensive knowledge of the market trends and property valuations and provides top of the class portfolio of real estate property with a client-centric approach.</li>
+            <li>We maintain transparency between clients and developers while assisting for investment in real estate in commercial property, residential property, and plots for sale.</li>
+            <li>Our property advisor offers a top of the class portfolio of real estate property in India that is easily accessible on our website, or you can contact us now!</li>
+        </ul>
+    </div>
+
+
     <?php
     include 'more-tags.php';
     include 'footer.php';
