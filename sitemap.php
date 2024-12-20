@@ -2682,199 +2682,127 @@
 
 
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/real-estate-developers/ace-group" title="Explore Upcoming Real Estate Projects by ACE Group">
-=======
           <a href="https://moneytreerealty.com/real-estate-developers/ace-group"
             title="Explore Upcoming Real Estate Projects by ACE Group">
->>>>>>> origin/chet
 
             Explore Upcoming Real Estate Projects from ACE Group
 
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/real-estate-developers/ametek-buildtech" title="Ametek Buildtech India Pvt Ltd | Top Real Estate Builders & Developers">
-=======
           <a href="https://moneytreerealty.com/real-estate-developers/ametek-buildtech"
             title="Ametek Buildtech India Pvt Ltd | Top Real Estate Builders & Developers">
->>>>>>> origin/chet
 
             Explore Upcoming Real Estate Projects from Ametek Buildtech
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/real-estate-developers/au-real-estate" title="AU Real Estate | Top Real Estate Builders & Developers in India">
-=======
           <a href="https://moneytreerealty.com/real-estate-developers/au-real-estate"
             title="AU Real Estate | Top Real Estate Builders & Developers in India">
->>>>>>> origin/chet
             Explore Upcoming Real Estate Projects from AU Real Estate
 
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/real-estate-developers/axis-ecorp" title="Axis Ecorp | Top Real Estate Builders & Developers in India">
-=======
           <a href="https://moneytreerealty.com/real-estate-developers/axis-ecorp"
             title="Axis Ecorp | Top Real Estate Builders & Developers in India">
->>>>>>> origin/chet
             Explore Upcoming Real Estate Projects from Ametek Buildtech
 
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/real-estate-developers/devika-group" title="Devika Group | Top Real Estate Builders & Developers in India">
-=======
           <a href="https://moneytreerealty.com/real-estate-developers/devika-group"
             title="Devika Group | Top Real Estate Builders & Developers in India">
->>>>>>> origin/chet
             Explore Upcoming Real Estate Projects from Devika Group
 
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/real-estate-developers/elan-group" title="Real Estate Projects Elan Group Builders & Developers">
-=======
           <a href="https://moneytreerealty.com/real-estate-developers/elan-group"
             title="Real Estate Projects Elan Group Builders & Developers">
->>>>>>> origin/chet
             Explore Upcoming Real Estate Projects from Elan Group
 
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/real-estate-developers/godrej-properties" title="Explore Upcoming Real Estate Projects from Godrej Properties">
-=======
           <a href="https://moneytreerealty.com/real-estate-developers/godrej-properties"
             title="Explore Upcoming Real Estate Projects from Godrej Properties">
->>>>>>> origin/chet
             Explore Upcoming Real Estate Projects from Godrej Properties
 
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/real-estate-developers/krisumi-corporation" title="Krisumi Corporation | Top Real Estate Builders & Developers in India">
-=======
           <a href="https://moneytreerealty.com/real-estate-developers/krisumi-corporation"
             title="Krisumi Corporation | Top Real Estate Builders & Developers in India">
->>>>>>> origin/chet
             Explore Upcoming Real Estate Projects from Krisumi Corporation
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/real-estate-developers/l-t-realty" title="Top India’s Real Estate L&T Realty, Developers And Builders">
-=======
           <a href="https://moneytreerealty.com/real-estate-developers/l-t-realty"
             title="Top India’s Real Estate L&T Realty, Developers And Builders">
->>>>>>> origin/chet
             Explore Upcoming Real Estate Projects from L&T Realty
 
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/real-estate-developers/m3m-group" title="Real Estate Projects M3M Group Builders & Developers">
-=======
           <a href="https://moneytreerealty.com/real-estate-developers/m3m-group"
             title="Real Estate Projects M3M Group Builders & Developers">
->>>>>>> origin/chet
             Real Estate Projects M3M Group Builders & Developers
 
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/real-estate-developers/mahagun-group" title="New Projects by Mahagun Group: Top Builders & Developers">
-=======
           <a href="https://moneytreerealty.com/real-estate-developers/mahagun-group"
             title="New Projects by Mahagun Group: Top Builders & Developers">
->>>>>>> origin/chet
 
             Explore Upcoming Real Estate Projects from Mahagun Group
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/real-estate-developers/mahindra-lifespaces-developers" title="Mahindra Lifespaces Developers | Top Real Estate Builders & Developers">
-=======
           <a href="https://moneytreerealty.com/real-estate-developers/mahindra-lifespaces-developers"
             title="Mahindra Lifespaces Developers | Top Real Estate Builders & Developers">
->>>>>>> origin/chet
             Explore Upcoming Real Estate Projects from Mahindra Lifespace Developers
 
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/real-estate-developers/migsun-group" title="Explore Migsun Group's Upcoming Real Estate Projects">
-=======
           <a href="https://moneytreerealty.com/real-estate-developers/migsun-group"
             title="Explore Migsun Group's Upcoming Real Estate Projects">
->>>>>>> origin/chet
 
             Explore Migsun Group's Upcoming Real Estate Projects
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/real-estate-developers/paras-buildtech" title="Explore Upcoming Real Estate Projects by Paras Buildtech">
-=======
           <a href="https://moneytreerealty.com/real-estate-developers/paras-buildtech"
             title="Explore Upcoming Real Estate Projects by Paras Buildtech">
->>>>>>> origin/chet
             Paras Buildtech | Explore Upcoming Real Estate Projects from Paras Buildtech
 
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/real-estate-developers/piramal-realty" title=" Upcoming Real Estate Projects by Piramal Realty Builders & Developers">
-=======
           <a href="https://moneytreerealty.com/real-estate-developers/piramal-realty"
             title=" Upcoming Real Estate Projects by Piramal Realty Builders & Developers">
->>>>>>> origin/chet
             Explore Upcoming Real Estate Projects from Piramal Realty
 
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/real-estate-developers/sarvottam-group" title="Sarvottam Group | Top Real Estate Builders & Developers in India">
-=======
           <a href="https://moneytreerealty.com/real-estate-developers/sarvottam-group"
             title="Sarvottam Group | Top Real Estate Builders & Developers in India">
->>>>>>> origin/chet
             Explore Upcoming Real Estate Projects from Sarvottam Group
 
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/real-estate-developers/sikka-group" title="Sikka Group Real Estate Projects & Latest News in Noida">
-=======
           <a href="https://moneytreerealty.com/real-estate-developers/sikka-group"
             title="Sikka Group Real Estate Projects & Latest News in Noida">
->>>>>>> origin/chet
 
             Explore Upcoming Real Estate Projects by Sikka Group
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/real-estate-developers/the-house-of-abhinandan-lodha" title="Lodha Luxury: Exclusive Residences, Villas & Premium Properties">
-=======
           <a href="https://moneytreerealty.com/real-estate-developers/the-house-of-abhinandan-lodha"
             title="Lodha Luxury: Exclusive Residences, Villas & Premium Properties">
->>>>>>> origin/chet
             Real Estate Projects by The House of Abhinandan Lodha
 
           </a>
@@ -2886,200 +2814,131 @@
       <ul id="celeb-homes list-8">
 
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/celeb-homes/ajay-devgan-house" title="Ajay Devgan House: Movies, Biography, News, Age & Photos">
-=======
           <a href="https://moneytreerealty.com/celeb-homes/ajay-devgan-house"
             title="Ajay Devgan House: Movies, Biography, News, Age & Photos">
->>>>>>> origin/chet
 
             Inside Ajay Devgan’s Luxurious House: A Look into the Actor's Private Residence
 
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/celeb-homes/antilia-mukesh-ambani" title="Mukesh Ambani House Antilia – Photo, Price, Interior, Address">
-=======
           <a href="https://moneytreerealty.com/celeb-homes/antilia-mukesh-ambani"
             title="Mukesh Ambani House Antilia – Photo, Price, Interior, Address">
->>>>>>> origin/chet
 
             Antilia: The Luxurious House of Mukesh Ambani
 
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/celeb-homes/arvind-kejriwal-house" title="Arvind Kejriwal’s House, Net Worth, and Family: A Glimpse into His Life">
-=======
           <a href="https://moneytreerealty.com/celeb-homes/arvind-kejriwal-house"
             title="Arvind Kejriwal’s House, Net Worth, and Family: A Glimpse into His Life">
->>>>>>> origin/chet
 
             Inside Arvind Kejriwal’s Life: Net Worth, House, Family, and Lifestyle Insights
 
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/celeb-homes/bakhtawar-ratan-tata-house" title="Ratan Tata House – Photo, Price, Interior, Address">
-=======
           <a href="https://moneytreerealty.com/celeb-homes/bakhtawar-ratan-tata-house"
             title="Ratan Tata House – Photo, Price, Interior, Address">
->>>>>>> origin/chet
 
             Bakhtawar | Ratan Tata House: A Look Inside TATA’s Mumbai Mansion
 
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/celeb-homes/bts-jimin-home" title="Inside BTS Jimin's Luxurious Home: A Peek into His Elegant Life">
-=======
           <a href="https://moneytreerealty.com/celeb-homes/bts-jimin-home"
             title="Inside BTS Jimin's Luxurious Home: A Peek into His Elegant Life">
->>>>>>> origin/chet
 
             Inside BTS Jimin’s Luxurious Home: An Exclusive Look at the K-Pop Star’s Private Abode
 
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/celeb-homes/chiranjeevi-house" title="Chiranjeevi House in Hyderabad: Movies, Biography, News, Age & Photos">
-=======
           <a href="https://moneytreerealty.com/celeb-homes/chiranjeevi-house"
             title="Chiranjeevi House in Hyderabad: Movies, Biography, News, Age & Photos">
->>>>>>> origin/chet
 
             Glimpse into Chiranjeevi house
 
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/celeb-homes/hardik-pandya-hous" title="Hardik Pandya House: Movies, Biography, News, Age & Photos">
-=======
           <a href="https://moneytreerealty.com/celeb-homes/hardik-pandya-hous"
             title="Hardik Pandya House: Movies, Biography, News, Age & Photos">
->>>>>>> origin/chet
 
             The Hardik Pandya House | A Glimpse inside the Cricket Icon's Luxurious Abode
 
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/celeb-homes/harshad-mehta-house" title="Harshad Mehta House: His House, Family, Net Worth, Other Properties">
-=======
           <a href="https://moneytreerealty.com/celeb-homes/harshad-mehta-house"
             title="Harshad Mehta House: His House, Family, Net Worth, Other Properties">
->>>>>>> origin/chet
 
             Harshad Mehta House: His House, Family, Net Worth, Other Properties
 
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/celeb-homes/kohli-residence" title="Virat Kohli House – Photo, Price, Interior, Address">
-=======
           <a href="https://moneytreerealty.com/celeb-homes/kohli-residence"
             title="Virat Kohli House – Photo, Price, Interior, Address">
->>>>>>> origin/chet
             The Kohli’s Residence | A Peek Inside the Home of Our Beloved Cricketer
 
 
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/celeb-homes/lionel-messi-house" title="Lionel Messi: Biography, News, Age, Football Player & Photos">
-=======
           <a href="https://moneytreerealty.com/celeb-homes/lionel-messi-house"
             title="Lionel Messi: Biography, News, Age, Football Player & Photos">
->>>>>>> origin/chet
 
 
             Lionel Messi Biography, Age, Height and Career: Inside the Life of Football Legend
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/celeb-homes/nawab-nawazuddin-siddiqui-house" title="Nawazuddin Siddiqui: Movies, Biography, News, Age & Photos">
-=======
           <a href="https://moneytreerealty.com/celeb-homes/nawab-nawazuddin-siddiqui-house"
             title="Nawazuddin Siddiqui: Movies, Biography, News, Age & Photos">
->>>>>>> origin/chet
 
             Nawab | Nawazuddin Siddiqui House: A Look Inside Siddiqui’s Luxurious Bunglow
 
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/celeb-homes/pataudi-palace-saif-ali-khan-home" title="Pataudi Palace Saif Ali Khan House – Photo, Price, Interior, Address">
-=======
           <a href="https://moneytreerealty.com/celeb-homes/pataudi-palace-saif-ali-khan-home"
             title="Pataudi Palace Saif Ali Khan House – Photo, Price, Interior, Address">
->>>>>>> origin/chet
 
             Pataudi Palace: Saif Ali Khan’s Home; Exploring the Royal Heritage and Luxury Worth Over 800 Crore
 
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/celeb-homes/salman-khan-house" title="Inside Salman Khan's House Luxurious Galaxy Apartment in Mumbai">
-=======
           <a href="https://moneytreerealty.com/celeb-homes/salman-khan-house"
             title="Inside Salman Khan's House Luxurious Galaxy Apartment in Mumbai">
->>>>>>> origin/chet
             Inside Salman Khan's House Luxurious Galaxy Apartment in Mumbai
 
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/celeb-homes/sidharth-malhotra-house" title="Sidharth Malhotra House and Kiara Advani: Movies, Biography, News, Age & Photos">
-=======
           <a href="https://moneytreerealty.com/celeb-homes/sidharth-malhotra-house"
             title="Sidharth Malhotra House and Kiara Advani: Movies, Biography, News, Age & Photos">
->>>>>>> origin/chet
             Sidharth Malhotra House
 
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/celeb-homes/sundar-pichai-house" title="Sundar Pichai House: Movies, Biography, News, Age & Photos">
-=======
           <a href="https://moneytreerealty.com/celeb-homes/sundar-pichai-house"
             title="Sundar Pichai House: Movies, Biography, News, Age & Photos">
->>>>>>> origin/chet
 
             The Sundar Pichai House | A Look Inside The House Of India’s Most Popular Tech-Genius
 
           </a>
         </li>
         <li class="lpage">
-<<<<<<< HEAD
-          <a href="https://moneytreerealty.com/celeb-homes/sushant-singh-rajput-house" title="Sushant Singh Rajput’s House, Legacy, and Passion for the Stars">
-=======
           <a href="https://moneytreerealty.com/celeb-homes/sushant-singh-rajput-house"
             title="Sushant Singh Rajput’s House, Legacy, and Passion for the Stars">
->>>>>>> origin/chet
             Sushant Singh Rajput: Exploring His Legacy, Movies, and the Dream Behind the Moon Plot
 
           </a>
         </li>
 
-<<<<<<< HEAD
-
-
-
-=======
         <li class="lpage">
           <a href="https://moneytreerealty.com/celeb-homes/junior-ntr-house"
             title="Junior NTR House: Movies, Biography, News, Age, Football Player & Photos">
@@ -3315,7 +3174,19 @@
           </a>
         </li>
 
->>>>>>> origin/chet
+        <li class="lpage">
+          <a href="https://moneytreerealty.com/celeb-homes/darshan-raval-house"
+            title="Inside the House of Musical Sensation Darshan Raval - A Glimpse into the Singer's Luxurious Abode">
+            Inside Darshan Raval's House: A Glimpse into the Singer's Luxurious Abode
+          </a>
+        </li>
+        <li class="lpage">
+          <a href="https://moneytreerealty.com/celeb-homes/kangana-ranaut-house"
+            title="Inside Actress Kangana Ranaut Luxurious Houses: A Fusion of Elegance and Heritage">
+            Inside Kangana Ranaut’s Luxurious Houses: Fusion of Elegance and Heritage
+          </a>
+        </li>
+
       </ul>
 
     </div>
@@ -3624,7 +3495,7 @@
 
 
   <?php
-  include 'footer-demo.php';
+  include './footer.php';
   ?>
 
 

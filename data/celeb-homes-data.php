@@ -147,8 +147,6 @@ $celebHomesData = [
             'image3.jpg'
         ]
     ],
-<<<<<<< HEAD
-=======
     [
         'name' => 'Junior NTR House',
         'link' => 'junior-ntr-house',
@@ -396,5 +394,22 @@ $celebHomesData = [
             'image3.jpg'
         ]
     ],
->>>>>>> origin/chet
+    [
+        'name' => 'Darshan Raval House',
+        'link' => 'darshan-raval-house',
+        'images' => [
+            'darshan-raval-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
+    [
+        'name' => 'Kangana Ranaut House',
+        'link' => 'kangana-ranaut-house',
+        'images' => [
+            'kangana-ranaut-house-banner1.webp',
+            'image2.jpg',
+            'image3.jpg'
+        ]
+    ],
 ];
