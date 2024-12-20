@@ -40,6 +40,18 @@ New Property Projects, Real Estate Developments Delhi/NCR, Upcoming Property Lau
     <meta name="linkedin:locale" content="en_IN">
 
 
+    <link rel="canonical" href="https://moneytreerealty.com/top-real-estate-poperty-consultant-in-india.php" />
+
+
+
+    <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="assets/css/swiper-bundle.min.css"> -->
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+    <!-- <link href="assets/css/nice-select.css" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="assets/css/property-page.css"> -->
+    <link rel="icon" href="assets/img/favicon_io/favicon.ico" type="image/x-icon" sizes="20x20">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
 
 
 
@@ -62,15 +74,6 @@ New Property Projects, Real Estate Developments Delhi/NCR, Upcoming Property Lau
     </script>
     <!-- End Google Tag Manager -->
 
-    <link href="assets/img/favicon_io/favicon.ico" rel="icon" sizes="20x20" type="image/x-icon">
-    <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <link href="assets/css/nice-select.css" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/styles.css">
-
-
-    <link rel="canonical" href="https://moneytreerealty.com/top-real-estate-poperty-consultant-in-india.php" />
-
-
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-JZJY23MWW7"></script>
     <script>
@@ -84,6 +87,8 @@ New Property Projects, Real Estate Developments Delhi/NCR, Upcoming Property Lau
     </script>
     <!-- End Google Analytics -->
     <!--G-JZJY23MWW7-->
+
+
 </head>
 
 <body class="light-theme">
@@ -103,517 +108,291 @@ New Property Projects, Real Estate Developments Delhi/NCR, Upcoming Property Lau
     <div class="property-container">
 
         <?php
-        include './data/propertydata.php';
+        // Function to generate type links
 
-        $typeToFilter = '';
-
-        $properties = array_filter($properties, function ($item) use ($typeToFilter) {
-            // if (empty($typeToFilter)) {
-            //     return in_array('studio apartments', $item['type']);
-            // }
-
-            $typeToFilter = strtolower(trim($typeToFilter));
-            $pattern = '/' . preg_quote($typeToFilter, '/') . '/i';
-
-            if (
-                preg_match($pattern, strtolower($item['name'])) ||
-                preg_match($pattern, strtolower($item['location'])) ||
-                array_filter($item['type'], function ($type) use ($pattern) {
-                    return preg_match($pattern, strtolower($type));
-                })
-            ) {
-                return true;
-            }
-
-            return false;
-        });
-
-        // print_r($properties);
-        ?>
+        include 'data/tempdata.php';
 
 
+        $properties = array_reverse($properties);
 
-
-
-
-
-
-
-
-
-        <!-- main property div and styles -->
-        <style>
-            .properties-grid {
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                gap: 20px;
-                width: 95vw;
-                padding: 20px;
-                margin-inline-start: auto;
-            }
-
-            .property-card {
-                background: #fff;
-                border: 1px solid #ddd;
-                border-radius: 12px;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-                padding: 16px;
-                margin-bottom: 20px;
-                transition: transform 0.3s;
-                display: grid;
-                height: 30rem;
-
-            }
-
-            .property-card:hover {
-                transform: translateY(-5px);
-            }
-
-            .property-card.no-results-card {
-                width: 100%;
-                max-width: 370px;
-                min-height: 420px;
-                text-align: center;
-            }
-
-            .property-info-wrapper {
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                justify-items: start;
-                align-items: start;
-            }
-
-            .property-info-wrapper>div {
-                display: flex;
-                align-items: flex-start;
-                gap: 4px;
-            }
-
-
-
-
-
-            .property-card h2 {
-                font-size: 22px;
-                margin: 0;
-            }
-
-
-            .property-card h2 a {
-                color: black;
-                font-weight: 600;
-
-            }
-
-            .property-card h2 a:hover {
-                color: black;
-
-                background: linear-gradient(90deg, #00796b, #009688, #26a69a);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                background-clip: text;
-
-
-            }
-
-
-
-            .property-card p {
-                font-size: 16px;
-                margin-bottom: 4px;
-            }
-
-            .property-card p:has(span) {
-                font-size: 15px;
-                margin-bottom: 4px;
-                display: flex;
-                gap: 4px 0;
-                padding-top: 5px;
-                flex-wrap: wrap;
-                flex-direction: column;
-            }
-
-            .property-card span {
-                font-size: 12px;
-                display: inline-block;
-                border: 1px solid grey;
-                height: 20px;
-                display: flex;
-                width: max-content;
-                padding-inline: 4px;
-                align-items: center;
-                border-radius: 3px;
-
-                background: linear-gradient(90deg, #00796b, #009688, #26a69a);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                font-weight: 600;
-            }
-
-            .property-images img {
-                width: 100%;
-                display: block;
-                height: 250px;
-                /* object-fit: cover; */
-                border-radius: 8px 8px 0 0;
-            }
-
-            .details-link {
-                display: inline-flex;
-                margin-top: 10px;
-                padding: 0 15px;
-                background-color: #005b52;
-                color: white;
-                text-decoration: none;
-                border-radius: 5px;
-                position: relative;
-                max-width: 135px;
-                font-size: 14px;
-                height: 40px;
-                font-size: 14px;
-                align-items: center;
-                justify-content: center;
-            }
-
-            .details-link:hover {
-                color: white;
-            }
-
-            .details-link::before {
-
-                content: '';
-                display: block;
-                position: absolute;
-                width: 100%;
-                border-radius: 5px;
-                height: 100%;
-                background: linear-gradient(164deg, white, transparent 40%);
-                top: 0;
-                left: 0;
-                opacity: 0;
-                transition: opacity 150ms ease-in-out;
-
-            }
-
-            .details-link:hover::before {
-                opacity: 0.4;
-            }
-
-            .read-more-container {
-                text-align: center;
-                margin-top: 20px;
-            }
-
-            #readMoreBtn {
-                padding: 10px 20px;
-                background-color: #016a5f;
-                color: white;
-                border: none;
-                border-radius: 5px;
-                cursor: pointer;
-            }
-
-            #readMoreBtn:hover {
-                background-color: #005b52;
-            }
-
-
-            @media (width < 972px) {
-                .properties-grid {
-                    grid-template-columns: repeat(2, 1fr);
-                }
-            }
-
-            @media (width < 670px) {
-                .properties-grid {
-                    width: 100%;
-                    grid-template-columns: repeat(1, 1fr);
-                    padding: 14px;
-                }
-
-                .property-card span {
-                    font-size: 10px;
-                }
-
-                .property-card h2 {
-                    font-size: 24px;
-                }
-
-                .property-card p,
-                .property-info-wrapper>div {
-                    font-size: 14px;
-                }
-
-                .property-card img {
-                    height: 240px;
-                    object-fit: cover;
-                }
-
-                .property-card {
-                    margin-bottom: 0;
-                }
-
-            }
-
-            .properties-grid>.property-card:nth-child(1):only-child {
-                grid-column: 2;
-            }
-        </style>
-        <?php
         function getTypeLink($type)
         {
             switch ($type) {
                 case 'Residential':
-                    return '../category/residential-property';
+                    return './category/residential-property';
                 case 'Commercial':
-                    return '../category/commercial-property';
+                    return './category/commercial-property';
                 case 'Studio Apartments':
-                    return '../category/studio-apartments';
+                    return './category/studio-apartments';
                 case 'Plots':
-                    return '../category/plots';
+                    return './category/plots';
                 default:
-                    return '../404';
+                    return './404';
             }
         }
         ?>
 
-
-        <!-- property cards -->
-
         <div class="properties-grid" id="propertiesGrid">
 
-            <?php if (empty($properties)) : ?>
-                <!-- No Results Card -->
-                <div class="property-card no-results-card">
-                    <img src="./assets/img/logo.png" alt="No Results Found">
-                    <h2>Can't find what you're looking for?</h2>
-                    <p>Unfortunately, we don't have properties in this location at the moment. But we're always adding new listings!</p>
-                    <a href="contact.php#contact-form" class="details-link">Contact Us</a>
-                </div>
-            <?php else : ?>
-                <?php foreach ($properties as $property) : ?>
-                    <?php
-                    $slug = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $property['name'])));
-                    $detailsPagePath = './propertydetail/' . $slug;
-                    ?>
-                    <div class="property-card fade-in">
-                        <div class="property-images" onclick="nextImage(this)">
-                            <?php foreach ($property['images'] as $imgIndex => $image) : ?>
-                                <img src="<?php echo htmlspecialchars('./' . $image); ?>" alt="Property Image" style="<?php echo $imgIndex > 0 ? 'display:none;' : ''; ?>">
-                            <?php endforeach; ?>
-                        </div>
-                        <h2>
-                            <a href="<?php echo htmlspecialchars($detailsPagePath); ?>">
-                                <?php echo htmlspecialchars($property['name']); ?>
-                            </a>
-                        </h2>
-                        <div class="property-info-wrapper">
-                            <p><b>Location:</b> <?php echo htmlspecialchars($property['location']); ?></p>
-                            <p><b>Price:</b> <?php echo htmlspecialchars($property['price']); ?></p>
-                            <a href="<?php echo htmlspecialchars($detailsPagePath); ?>" class="details-link">View Details</a>
 
-                            <div>
-                                <b>Type:</b>
-                                <p>
+            <?php foreach ($properties as $index => $property): ?>
 
-
-
-                                    <?php foreach ($property['type'] as $type) : ?>
-                                        <a href="<?php echo htmlspecialchars(getTypeLink($type)); ?>">
-                                            <span><?php echo htmlspecialchars($type); ?></span>
-                                        </a>
-                                    <?php endforeach; ?>
-
-                                </p>
-                            </div>
-
-                        </div>
+                <div class="property-card" style="display: grid;gap: 10px;">
+                    <div class="property-images" onclick="nextImage(this)">
+                        <?php foreach ($property['images'] as $imgIndex => $image): ?>
+                            <img alt="Property Image" src="<?php echo htmlspecialchars($image); ?>"
+                                style="<?php echo $imgIndex > 0 ? 'display:none;' : ''; ?>">
+                        <?php endforeach; ?>
                     </div>
-                <?php endforeach; ?>
-            <?php endif; ?>
+                    <h2>
+                        <a target="_blank" href="./propertydetail/<?php echo htmlspecialchars($property['link']); ?>">
+                            <?php echo htmlspecialchars($property['name']); ?>
+                        </a>
+                    </h2>
+                    <div class="property-info-wrapper">
+                        <p><b>Location : </b> <?php echo "{$property['location'][1]}, {$property['location'][0]}-{$property['location'][2]}" ?></p>
+                        <p><b>Price : </b> <?php echo htmlspecialchars($property['price']); ?></p>
+                        <p><b>Type : </b>
+                            <?php foreach ($property['type'] as $type): ?>
+                                <a target="_blank" href="<?php echo htmlspecialchars(getTypeLink($type)); ?>">
+                                    <span><?php echo htmlspecialchars($type); ?></span>
+                                </a>
+                            <?php endforeach; ?>
+                        </p>
+                        <a target="_blank" href="./propertydetail/<?php echo htmlspecialchars($property['link']); ?>" class="details-link">View Details</a>
+                    </div>
+                </div>
+            <?php endforeach; ?>
         </div>
 
 
+    </div>
 
 
+    <style>
+        @media (width < 700px) {
+            html {
+                padding-top: 3.5rem;
+            }
+        }
 
-        <!-- slight fade in script and style -->
-        <style>
+        .property-container {
+            background: url('./assets/img/image.png');
+            padding-block: 1rem;
+        }
+
+        .properties-grid {
+            margin-inline: auto;
+        }
+
+        .property-card {
+            background: #ffffff;
+            color: black;
+            /* height: 34rem; */
+            min-height: 32.5rem;
+            height: 100%;
+        }
+
+        .property-card h2 a {
+            font-family: 'Montserrat';
+            font-weight: 600;
+            background: linear-gradient(90deg, #00796b, #009688, #26a69a);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .property-card .property-images img {
+            height: 220px;
+        }
+        
+        @media (width < 700px) {
             .property-card {
-                opacity: 0;
-                transform: translateY(20px);
-                transition: opacity 1s ease-out, transform 1s ease-out;
+                min-height: 32.5rem;
+                height: min-content;
             }
 
-            .property-card.visible {
-                opacity: 1;
-                transform: translateY(0);
+            .property-card h2 a {
+                font-weight: 600;
+
             }
-        </style>
+        }
+    </style>
 
-        <script>
-            function nextImage(container) {
-                const images = container.getElementsByTagName('img');
-                let currentIndex;
-                for (let i = 0; i < images.length; i++) {
-                    if (images[i].style.display !== 'none') {
-                        currentIndex = i;
-                        images[i].style.display = 'none';
-                        break;
-                    }
-                }
-                const nextIndex = (currentIndex + 1) % images.length;
-                images[nextIndex].style.display = 'flex';
-            }
-
-            document.addEventListener('DOMContentLoaded', () => {
-                const observer = new IntersectionObserver((entries, observer) => {
-                    entries.forEach(entry => {
-                        if (entry.isIntersecting) {
-                            entry.target.classList.add('visible');
-                        }
-                    });
-                }, {
-                    threshold: 0.1
-                });
-
-                document.querySelectorAll('.property-card').forEach(card => {
-                    observer.observe(card);
-                });
-            });
-        </script>
-
-        <!-- image changing on click script -->
-        <script>
-            function nextImage(element) {
-                const images = element.querySelectorAll('img');
-                const totalImages = images.length;
-                let currentIndex = [...images].findIndex(img => img.style.display !== 'none');
-
-                images[currentIndex].style.display = 'none';
-                currentIndex = (currentIndex + 1) % totalImages;
-                images[currentIndex].style.display = 'block';
-            }
-        </script>
-
+    <div class="after-grid-text-container after-grid-text">
+        <h2>Buy commercial and residential properties for sale</h2>
+        <p>
+            Our <strong>real estate consultant</strong> offers a well-curated portfolio of commercial property, residential property, and plots for sale and provides promising real estate investment making it the <strong>best consultancy in Noida</strong>.
+        </p>
+        <p>
+            Our property advisor offers market analysis on <strong>commercial property</strong> investment and <strong>residential property</strong> investment and provides insights into various <strong>real estate investment in India</strong>.
+        </p>
+        <button onclick="togglePanel()" class="after-grid-text-toggle-btn">Show More</button>
     </div>
 
-
-
-
-
-
-
-    <!-- this is below the card grid -->
-    <div class="container">
-        <h2 style="font-size: 20px; text-align: center;">Buy commercial and residential properties for sale</h2>
-        <p style="text-align: center;">
-            Our <strong>real estate consultant</strong> offers a well-curated portfolio of commercial property, residential property, and plots for sale and provides promising real estate investment making it the <strong>best consultancy in Noida</strong>. <br>
-            Our property advisor offers market analysis on <strong>commercial property</strong> investment and <strong>residential property</strong> investment and provides insights into various <strong>real estate investment</strong> in India. <button style="background-color: yellow;"><strong> </strong> </button></p>
-        <style>
-            /* Panel Styles */
-            .side-panel {
-                height: 100%;
-                width: 400px;
-                position: fixed;
-                z-index: 1000;
-                top: 0;
-                right: 0;
-                background-color: white;
-                overflow-x: hidden;
-                transition: 0.5s;
-                padding-top: 60px;
-                padding: 3rem;
-                /* Added padding for close button visibility */
-            }
-
-            /* Close button style */
-            .close-button {
-                position: absolute;
-                top: 10px;
-                right: 20px;
-                font-size: 30px;
-                border: none;
-                background: none;
-                color: black;
-                /* Changed for visibility */
-                cursor: pointer;
-                border-radius: 50%;
-                background-color: white;
-            }
-
-            /* Button style */
-            .sent-btn button {
-                background-color: white;
-                border: none;
-                color: black;
-                font-size: 16px;
-                cursor: pointer;
-                padding: 10px 20px;
-                border-radius: 50px;
-                display: block;
-                /* Ensure the button is displayed */
-            }
-
-            .zero-width {
-                width: 0 !important;
-                padding: 0;
-            }
-        </style>
-
-        <ul style="list-style:none;" class="about-features">
-            <li class="single-features">
-                <div class="icon-content">
-
-                    <div class="sent-btn">
-                        <!-- Unique ID for opening residential panel -->
-                        <button onclick="openNav()"> Show more ... </button>
-                    </div>
-                    <div id="residentialSidePanel" class="side-panel zero-width">
-                        <button class="close-button" onclick="openNav()">&#x00D7;</button>
-                        <h2 style="font-size: 15px;">Our Services</h2>
-                        <h2 style="font-size: 15px;">Grow your Money with Us! - Real Estate Consultant</h2>
-                        <p style="font-size: 13px;">
-                            MoneyTree Realty offers world-class real estate consultant with best in-class commercial property, residential property, and plots for sale. Our Property advisor has in-depth knowledge of market trends and provides assistance in strategic planning in real estate investment in India with an array of well-curated real estate property putting MoneyTree Realty into top consultancy in Noida.</p>
-                        <h2 style="font-size: 15px;"> Services of MoneyTree Realty</h2>
-                        <p style="font-size: 13px;">MoneyTree Realty comprises more than 300 professional real estate consultant providing property consultations with their in-depth knowledge of the market trends and offers property valuations in commercial property, residential property, and plots for sale.
-                            Our property advisor provides valuable guidance on how to invest in real estate in India and offers property analysis in accordance with the market trends maintaining transparency between clients and developers.
-                        </p>
-                        <p style="font-size: 13px;"><strong>Our real estate consultants provide assistance in real estate investment in India through:</strong></p>
-                        <ul>
-                            <li>We offer strategic planning for long-term investment and portfolio management with due diligence market research.</li>
-                            <li>Our real estate consultant has an extensive knowledge of the market trends and property valuations and provides top of the class portfolio of real estate property with a client-centric approach.</li>
-                            <li>We maintain transparency between clients and developers while assisting for investment in real estate in commercial property, residential property, and plots for sale.</li>
-                            <li> Our property advisor offers a top of the class portfolio of real estate property in India that is easily accessible on our website, or you can contact us now!</li>
-                        </ul> <!-- Content omitted for brevity -->
-                    </div>
-            </li>
-
+    <div id="after-grid-text-overlay" class="after-grid-text-overlay" onclick="closePanel()"></div>
+    <div id="after-grid-text-sidePanel" class="after-grid-text-side-panel">
+        <button class="after-grid-text-close-btn" onclick="togglePanel()">×</button>
+        <h2 style="font-size: 18px;">Our Services</h2>
+        <h2 style="font-size: 16px;">Grow your Money with Us! - Real Estate Consultant</h2>
+        <p>
+            MoneyTree Realty offers world-class real estate consultant with best in-class commercial property, residential property, and plots for sale. Our Property advisor has in-depth knowledge of market trends and provides assistance in strategic planning in real estate investment in India with an array of well-curated real estate property putting MoneyTree Realty into top consultancy in Noida.
+        </p>
+        <h2 style="font-size: 15px;">Services of MoneyTree Realty</h2>
+        <p>MoneyTree Realty comprises more than 300 professional real estate consultant providing property consultations with their in-depth knowledge of the market trends and offers property valuations in commercial property, residential property, and plots for sale. Our property advisor provides valuable guidance on how to invest in real estate in India and offers property analysis in accordance with the market trends maintaining transparency between clients and developers.</p>
+        <h3 style="font-size: 14px;margin-block: 10px 8px;">Our real estate consultants provide assistance in real estate investment in India through:</h3>
+        <ul>
+            <li>We offer strategic planning for long-term investment and portfolio management with due diligence market research.</li>
+            <li>Our real estate consultant has an extensive knowledge of the market trends and property valuations and provides top of the class portfolio of real estate property with a client-centric approach.</li>
+            <li>We maintain transparency between clients and developers while assisting for investment in real estate in commercial property, residential property, and plots for sale.</li>
+            <li>Our property advisor offers a top of the class portfolio of real estate property in India that is easily accessible on our website, or you can contact us now!</li>
         </ul>
-
-
     </div>
-    <!-- property -->
+
+
+    <style>
+        .after-grid-text-container {
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            padding-block: 3rem 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            padding-inline: 10px;
+        }
+
+        .after-grid-text h2,
+        .after-grid-text-side-panel h2 {
+            max-width: 600px;
+            text-align: center;
+            margin-inline: auto;
+            font-family: 'Montserrat';
+            font-size: 24px;
+            text-wrap: pretty;
+            font-weight: 600;
+            background: linear-gradient(90deg, #00796b, #009688, #26a69a);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .after-grid-text-side-panel ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            gap: 10px;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .after-grid-text-side-panel li {
+            font-size: 13px;
+        }
+
+        .after-grid-text-side-panel p {
+            font-size: 14px;
+        }
+
+        .after-grid-text-toggle-btn {
+            background-color: rgba(0, 150, 135, 0.22);
+            border: none;
+            cursor: pointer;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 14px;
+            width: max-content;
+            margin-inline: auto;
+        }
+
+        .after-grid-text-side-panel {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 300px;
+            height: 100%;
+            background-color: white;
+            box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+            transition: right 0.3s ease;
+            padding: 20px;
+            z-index: 1000;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding-bottom: 5rem;
+        }
+
+        @media (width>700px) {
+            .after-grid-text-side-panel {
+                width: 400px;
+
+            }
+        }
+
+
+        .after-grid-text-side-panel.open {
+            right: 0;
+        }
+
+        .after-grid-text-close-btn {
+            background: none;
+            border: none;
+            font-size: 30px;
+            cursor: pointer;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .after-grid-text-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: none;
+            z-index: 999;
+        }
+
+        .after-grid-text-overlay.visible {
+            display: block;
+        }
+    </style>
+
 
     <?php
     include 'more-tags.php';
-    include 'footer-demo.php';
+    include 'footer.php';
     ?>
 
 
     <script>
-        function openNav() {
-            document.getElementById('residentialSidePanel').classList.toggle('zero-width');
+        function togglePanel() {
+            const sidePanel = document.getElementById("after-grid-text-sidePanel");
+            const overlay = document.getElementById("after-grid-text-overlay");
+            const isOpen = sidePanel.classList.contains("open");
+            sidePanel.classList.toggle("open", !isOpen);
+            overlay.classList.toggle("visible", !isOpen);
+        }
 
+        function closePanel() {
+            document.getElementById("after-grid-text-sidePanel").classList.remove("open");
+            document.getElementById("after-grid-text-overlay").classList.remove("visible");
+        }
+
+        function nextImage(element) {
+            const images = element.querySelectorAll('img');
+            const totalImages = images.length;
+            let currentIndex = [...images].findIndex(img => img.style.display !== 'none');
+
+            images[currentIndex].style.display = 'none';
+            currentIndex = (currentIndex + 1) % totalImages;
+            images[currentIndex].style.display = 'block';
         }
     </script>
-    <script src="./assets/js/swiper-bundle.min.js"></script>
-    <script src="./assets/js/slick.js"></script>
-    <script src="./assets/js/jquery.counterup.min.js"></script>
-    <script src="./assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="./assets/js/jquery.nice-select.min.js"></script>
-    <script src="./assets/js/jquery.fancybox.min.js"></script>
-    <script src="./assets/js/custom.js"></script>
 
 
 </body>

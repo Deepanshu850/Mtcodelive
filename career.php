@@ -396,8 +396,6 @@
 
 
     <link href="assets/img/favicon_io/favicon.ico" rel="icon" sizes="20x20" type="image/x-icon">
-    <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <link href="assets/css/nice-select.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/styles.css">
 
 
@@ -437,24 +435,9 @@
     </script>
     <!-- End Google Analytics -->
     <!--G-JZJY23MWW7-->
-</head>
-
-<body class="light-theme">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2ZBWP94" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 
 
-    <?php
-    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive/');
-    include 'header.php';
 
-    include './data/jobdata.php';
-    ?>
-    <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
         /* Shadow animation for the job card */
         .job-card {
@@ -503,16 +486,17 @@
         .search-label {
             display: block;
             font-size: 18px;
-            font-weight: 500;
+            font-weight: 700;
             color: #4B5563;
             margin-bottom: 8px;
         }
 
-        .search-input {
+        input.search-input.search-input {
             width: 100%;
             padding: 12px;
             border: 1px solid #D1D5DB;
             border-radius: 8px;
+            color: #4B5563;
         }
 
         .job-list {
@@ -573,22 +557,6 @@
             color: white;
         }
 
-        /* .apply-button--white {
-            
-            background: #fff;
-            border: 2px solid #005b52;
-            color: #005b52;
-
-        }
-
-        .apply-button--white:hover {
-            transform: translateY(-1px);
-            background: radial-gradient(circle at top, #f3fdfc, #f6fdfc, #f3fffe);
-            color: #005b52;
-
-        } */
-
-
         .urgent-hiring {
             position: absolute;
             top: 0;
@@ -600,7 +568,46 @@
             padding: 4px 8px;
             border-bottom-left-radius: 8px;
         }
+
+        @media (width < 700px) {
+            html {
+                padding-top: 4rem;
+            }
+
+            .wrapper {
+                max-width: 100%;
+                margin: 0 auto 24px;
+                padding-top: 1rem;
+                padding-inline: 20px;
+            }
+
+            .search-label {
+                font-weight: 500;
+
+            }
+
+        }
     </style>
+
+
+</head>
+
+<body class="light-theme">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2ZBWP94" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+    <?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/mtcodelive/');
+    include 'header.php';
+
+    include './data/jobdata.php';
+    ?>
+
+
+
 
     <div class="wrapper">
         <label for="search" class="search-label">Search by Job Title or Location:</label>
@@ -630,26 +637,30 @@
     </div>
 
 
-
-
     <?php
     include 'more-tags.php';
     include 'footer-demo.php';
     ?>
 
-
-
-
+    <!-- this script does the search things -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         $(document).ready(function() {
             // Filter job postings based on search input for both title and location
             $('#search').on('keyup', function() {
                 var searchText = $(this).val().toLowerCase();
 
+                // Normalize search text
+                searchText = searchText.replace(/gurgaon/g, 'gurugram');
+
                 // Loop through all job cards and hide/show based on title or location
                 $('#job-list .job-card').each(function() {
-                    var location = $(this).data('location');
-                    var title = $(this).data('title');
+                    var location = $(this).data('location').toLowerCase();
+                    var title = $(this).data('title').toLowerCase();
+
+                    // Normalize location and title
+                    location = location.replace(/gurgaon/g, 'gurugram');
+                    title = title.replace(/gurgaon/g, 'gurugram');
 
                     if (location.includes(searchText) || title.includes(searchText)) {
                         $(this).show();
@@ -660,16 +671,8 @@
             });
         });
     </script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
-    <script src="assets/js/jquery-3.7.0.min.js" defer></script>
-    <script src="assets/js/slick.js" defer></script>
-    <script src="assets/js/waypoints.min.js" defer></script>
-    <script src="assets/js/jquery.counterup.min.js" defer></script>
-    <script src="assets/js/jquery.magnific-popup.min.js" defer></script>
-    <script src="assets/js/jquery.marquee.min.js" defer></script>
-    <script src="assets/js/jquery.nice-select.min.js" defer></script>
-    <script src="assets/js/jquery.fancybox.min.js" defer></script>
-    <script src="assets/js/custom.js" defer></script>
+
+
 
 </body>
 

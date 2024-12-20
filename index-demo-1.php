@@ -813,15 +813,15 @@ Commercial Properties In Navi Mumbai, Commercial Properties For Sale In Navi Mum
         </script>
         <script src="assets/js/index-page-demo.js" defer></script>
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
-        <script src="assets/js/jquery-3.7.0.min.js" defer></script>
-        <script src="assets/js/slick.js" defer></script>
-        <script src="assets/js/waypoints.min.js" defer></script>
-        <script src="assets/js/jquery.counterup.min.js" defer></script>
-        <script src="assets/js/jquery.magnific-popup.min.js" defer></script>
-        <script src="assets/js/jquery.marquee.min.js" defer></script>
-        <script src="assets/js/jquery.nice-select.min.js" defer></script>
-        <script src="assets/js/jquery.fancybox.min.js" defer></script>
-        <script src="assets/js/custom.js" defer></script>
+        <!-- <script src="assets/js/jquery-3.7.0.min.js" defer></script> -->
+        <!-- <script src="assets/js/slick.js" defer></script> -->
+        <!-- <script src="assets/js/waypoints.min.js" defer></script> -->
+        <!-- <script src="assets/js/jquery.counterup.min.js" defer></script> -->
+        <!-- <script src="assets/js/jquery.magnific-popup.min.js" defer></script> -->
+        <!-- <script src="assets/js/jquery.marquee.min.js" defer></script> -->
+        <!-- <script src="assets/js/jquery.nice-select.min.js" defer></script> -->
+        <!-- <script src="assets/js/jquery.fancybox.min.js" defer></script> -->
+        <!-- <script src="assets/js/custom.js" defer></script> -->
 
     </body>
 

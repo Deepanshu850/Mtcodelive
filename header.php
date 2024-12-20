@@ -1320,5 +1320,5 @@ function internalLink($relativePath)
 </script>
 
 <?php
-include './slidefornfakenoti.php';
+// include './slidefornfakenoti.php';
 ?>
