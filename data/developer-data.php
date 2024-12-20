@@ -121,6 +121,12 @@ $developers =
             'link' => 'signature-global',
             'image' => 'signature-global-logo.png',
             'developerLink' => 'https://www.signatureglobal.in/'
+        ],
+        [
+            'name' => 'Tarc Group',
+            'link' => 'tarc-group',
+            'image' => 'tarc-group-logo.png',
+            'developerLink' => 'https://www.tarc.in/'
         ]
     ];
 
