@@ -3174,6 +3174,19 @@
           </a>
         </li>
 
+        <li class="lpage">
+          <a href="https://moneytreerealty.com/celeb-homes/darshan-raval-house"
+            title="Inside the House of Musical Sensation Darshan Raval - A Glimpse into the Singer's Luxurious Abode">
+            Inside Darshan Raval's House: A Glimpse into the Singer's Luxurious Abode
+          </a>
+        </li>
+        <li class="lpage">
+          <a href="https://moneytreerealty.com/celeb-homes/kangana-ranaut-house"
+            title="Inside Actress Kangana Ranaut Luxurious Houses: A Fusion of Elegance and Heritage">
+            Inside Kangana Ranaut’s Luxurious Houses: Fusion of Elegance and Heritage
+          </a>
+        </li>
+
       </ul>
 
     </div>
