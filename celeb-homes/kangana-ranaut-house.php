@@ -7,12 +7,12 @@
 
 
     <title>
-
+        Inside Actress Kangana Ranaut Luxurious Houses: A Fusion of Elegance and Heritage
     </title>
 
-    <meta name="description" content="" />
+    <meta name="description" content="Take a look inside Kangana Ranaut's stunning houses that blend modern elegance with traditional heritage. Discover the unique design, artistic decor, and serene vibes of the Bollywood star's luxurious abodes." />
 
-    <meta name="keywords" content="" />
+    <meta name="keywords" content="Kangana Ranaut House, Luxurious Houses, Celebrity Homes, Kangana Ranaut Lifestyle, Bollywood Celebrity Homes, Elegant Homes, Heritage-Inspired Interiors, Kangana Ranaut Property, Kangana Ranaut Movies, Kangana Ranaut News, Kangana Ranaut Age, Kangana Ranaut Husband, Kangana Ranaut Mumbai House, Kangana Ranaut House In Manali, Kangana Ranaut House Mumbai, Kangana Ranaut House Manali, Kangana Ranaut Production House, Kangana Ranaut House Address, Kangana Ranaut House Pictures, Kangana Ranaut House In Bandra, Kangana Ranaut House Manali Interior, Kangana Ranaut House Manali Price, Kangana Ranaut Manali House Location, Kangana Ranaut Production House Name, Inside Kangana Ranaut Manali House, Diljit Dosanjh Kangana Ranaut Tweet, Kangana Ranaut Awards, Kangana Ranaut Education, Kangana Ranaut Net Worth, Kangana Ranaut Hot Images, Kangana Ranaut Instagram, Kangana Ranaut Price, Kangana Ranaut Images, Kangana Ranaut Photo, Kangana Ranaut Pics, Kangana Ranaut House Bandra Price, Kangana Ranaut House Interior, Kangana Ranaut House Worth, Kangana Ranaut House Video, Kangana Ranaut Height, Kangana Ranaut Birth Place, Kangana Ranaut Biography, Kangana Ranaut Family, Kangana Ranaut Height, Kangana Ranaut Car Collection, Kangana Ranaut House Price" />
 
     <meta name="Owner" content="Moneytreerealty.com" />
     <meta name="Copyright" content="Moneytreereal.com" />
@@ -22,17 +22,16 @@
     <meta name="subject" content="Learn about MoneyTree Realty's mission, services, and how we can assist you in navigating the real estate market in India" />
     <meta name="audience" content="All" />
 
-    <meta property="og:title" content="">
-    <meta property="og:site_name" content="Moneytree Realty">
-    <meta property="og:url" content="https://moneytreerealty.com/celeb-homes/kangana-ranaut-house">
-    <meta property="og:description" content="" />
-    <meta property="og:type" content="property">
-    <meta property="og:image" content="https://moneytreerealty.com/celeb-homes/assets/kangana-ranaut-house-banner1.webp">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="">
-    <meta property="og:locale" content="en_IN">
-
+    <meta property="og:title" content="Inside Actress Kangana Ranaut Luxurious Houses: A Fusion of Elegance and Heritage" />
+    <meta property="og:site_name" content="Moneytree Realty" />
+    <meta property="og:url" content="https://moneytreerealty.com/celeb-homes/kangana-ranaut-house" />
+    <meta property="og:description" content="Take a look inside Kangana Ranaut's stunning houses that blend modern elegance with traditional heritage. Discover the unique design, artistic decor, and serene vibes of the Bollywood star's luxurious abodes." />
+    <meta property="og:type" content="property" />
+    <meta property="og:image" content="https://moneytreerealty.com/celeb-homes/assets/kangana-ranaut-house-banner1.webp" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="" />
+    <meta property="og:locale" content="en_IN" />
 
 
 
@@ -348,7 +347,15 @@
 
 
 
-
+                    <li><a href="./kangana-ranaut-house">Kangana Ranaut House</a></li>
+                    <li><a href="./kangana-ranaut-house">Luxurious Houses</a></li>
+                    <li><a href="./kangana-ranaut-house">Celebrity Homes</a></li>
+                    <li><a href="./kangana-ranaut-house">Kangana Ranaut Lifestyle</a></li>
+                    <li><a href="./kangana-ranaut-house">Bollywood Celebrity Homes</a></li>
+                    <li><a href="./kangana-ranaut-house">Elegant Homes</a></li>
+                    <li><a href="./kangana-ranaut-house">Heritage-Inspired Interiors</a></li>
+                    <li><a href="./kangana-ranaut-house">Kangana Ranaut Property</a></li>
+                    <li><a href="./kangana-ranaut-house">Kangana Ranaut Movies</a></li>
                     <li><a href="../category/residential-property">Residential Real Estate</a></li>
                     <li><a href="../best-property-dealers-in-noida">Real Estate Deals</a></li>
                     <li><a href="../real-estate-advisor-and-property-consulting-firm-in-india">Property Advice</a></li>
